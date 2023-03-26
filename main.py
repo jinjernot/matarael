@@ -18,116 +18,117 @@ def cleanReport(xlsx_file):
     df = df.drop(cols_to_drop, axis=1)
     df[['Accuracy', 'Correct Value', 'Additional Information']] = ''
 
-    ################################################################ Compare productcolour
+    ################################################################ Colors
 
-    productcolor_df = df.loc[df['ContainerName'] == 'productcolour']
+    productcolor_df = df.loc[df['ContainerName'].str.contains('colour')]
 
-    mask = ((productcolor_df['PhwebDescription'] == 'ID SNW PLA wHDC') & \
-            (productcolor_df['ContainerValue'] == 'Snow white')) | \
-        ((productcolor_df['PhwebDescription'] == 'ID STB PLA wHDC') & \
-            (productcolor_df['ContainerValue'] == 'Jet black')) | \
-        ((productcolor_df['PhwebDescription'] == 'ID CBG MSKT STD wHDC TNR') & \
-            (productcolor_df['ContainerValue'] == 'Chalkboard gray cover and base, black keyboard frame')) | \
-        ((productcolor_df['PhwebDescription'] == 'ID CBG PLA wHDC') & \
-            (productcolor_df['ContainerValue'] == 'Chalkboard gray')) | \
-        ((productcolor_df['PhwebDescription'] == 'ID CCW ALU wHDC FPR') & \
-            (productcolor_df['ContainerValue'] == 'Ceramic white aluminum cover, natural silver base and natural silver aluminum keyboard frame')) | \
-        ((productcolor_df['PhwebDescription'] == 'ID CCW PLA wHDC TNR') & \
-            (productcolor_df['ContainerValue'] == 'Ceramic white, black chrome logo')) | \
-        ((productcolor_df['PhwebDescription'] == 'ID CCW PLA wHDC TNR fThin') & \
-            (productcolor_df['ContainerValue'] == 'Ceramic white, black chrome logo')) | \
-        ((productcolor_df['PhwebDescription'] == 'ID DMW IMR wHDC US layout') & \
-            (productcolor_df['ContainerValue'] == 'Diamond white cover and base, dove silver keyboard frame')) | \
-        ((productcolor_df['PhwebDescription'] == 'ID ENB PLA wHDC') & \
-            (productcolor_df['ContainerValue'] == 'Evening Blue cover and base, starry blue keyboard frame')) | \
-        ((productcolor_df['PhwebDescription'] == 'ID FGB ALU wHDC FPR') & \
-            (productcolor_df['ContainerValue'] == 'Fog blue aluminum cover, cloud blue base and cloud blue aluminum keyboard frame')) | \
-        ((productcolor_df['PhwebDescription'] == 'ID FTL ALU nSDC wHDC TNR FPR') & \
-            (productcolor_df['ContainerValue'] == 'Forest teal aluminum cover, light teal base and light teal aluminum keyboard frame')) | \
-        ((productcolor_df['PhwebDescription'] == 'ID IOB PLA wHDC') & \
-            (productcolor_df['ContainerValue'] == 'Indigo blue')) | \
-        ((productcolor_df['PhwebDescription'] == 'ID JTB MSKT STD wHDC TNR') & \
-            (productcolor_df['ContainerValue'] == 'Jet black cover and base, black keyboard frame')) | \
-        ((productcolor_df['PhwebDescription'] == 'ID SWH PLA wHDC') & \
-            (productcolor_df['ContainerValue'] == 'Starry white')) | \
-        ((productcolor_df['PhwebDescription'] == 'ID JTB PLA wHDC') & \
-            (productcolor_df['ContainerValue'] == 'Jet black')) | \
-        ((productcolor_df['PhwebDescription'] == 'ID NSV PLA wHDC TNR') & \
-            (productcolor_df['ContainerValue'] == 'Natural silver')) | \
-        ((productcolor_df['PhwebDescription'] == 'ID SDB PT GSWP wHDC 21C1') & \
-            (productcolor_df['ContainerValue'] == 'Shadow black, chrome logo')) | \
-        ((productcolor_df['PhwebDescription'] == 'ID SWH PLA wFHDC IR') & \
-            (productcolor_df['ContainerValue'] == 'Starry white')) | \
-        ((productcolor_df['PhwebDescription'] == 'ID NSV ALU wHDC TNR') & \
-            (productcolor_df['ContainerValue'] == 'Natural silver aluminum')) | \
-        ((productcolor_df['PhwebDescription'] == 'ID SKB PLA w5MPC IR UHD') & \
-            (productcolor_df['ContainerValue'] == 'Sparkling black')) | \
-        ((productcolor_df['PhwebDescription'] == 'ID WGD ALU nSDC wHDC TNR nFPR') & \
-            (productcolor_df['ContainerValue'] == 'Warm gold')) | \
-        ((productcolor_df['PhwebDescription'] == 'ID NSV +NSV ALU+PLA w5MPC nFPR nWWAN') & \
-            (productcolor_df['ContainerValue'] == 'Natural silver')) | \
-        ((productcolor_df['PhwebDescription'] == 'ID MCS PLA wHDC TNR') & \
-            (productcolor_df['ContainerValue'] == 'Mica silver, black chrome logo')) | \
-        ((productcolor_df['PhwebDescription'] == 'ID RCTO WHT GLA 600W') & \
-            (productcolor_df['ContainerValue'] == 'Snow white, glass side panel, dark chrome logo')) | \
-        ((productcolor_df['PhwebDescription'] == 'ID RCTO MCS SHT MTL 500W') & \
-            (productcolor_df['ContainerValue'] == 'Mica silver metal')) | \
-        ((productcolor_df['PhwebDescription'] == 'ID NSV PLA nSDC wHDC TNR FPR FHD TS') & \
-            (productcolor_df['ContainerValue'] == 'Natural silver')) | \
-        ((productcolor_df['PhwebDescription'] == 'ID NSV ALU') & \
-            (productcolor_df['ContainerValue'] == 'Natural silver aluminum')) | \
-        ((productcolor_df['PhwebDescription'] == 'ID NSV +NSV PLA wHDC') & \
-            (productcolor_df['ContainerValue'] == 'Natural silver')) | \
-        ((productcolor_df['PhwebDescription'] == 'ID NSV +NSV PLA wHDC FPR') & \
-            (productcolor_df['ContainerValue'] == 'Natural silver')) | \
-        ((productcolor_df['PhwebDescription'] == 'ID NSV ALU wHDC FPR') & \
-            (productcolor_df['ContainerValue'] == 'Natural silver aluminum cover and keyboard frame, natural silver base')) | \
-        ((productcolor_df['PhwebDescription'] == 'ID MNS +MNS PLA US layout nBEO') & \
-            (productcolor_df['ContainerValue'] == 'Mineral silver cover, natural silver base and keyboard frame')) | \
-        ((productcolor_df['PhwebDescription'] == 'ID NSV ALU nSDC wHDC TNR FPR') & \
-            (productcolor_df['ContainerValue'] == 'Natural silver aluminum cover and keyboard frame, natural silver base')) | \
-        ((productcolor_df['PhwebDescription'] == 'ID NSV +NSV ALU+PLA w5MPC FPR nWWAN') & \
-            (productcolor_df['ContainerValue'] == 'Natural silver cover and base, natural silver aluminum keyboard frame')) | \
-        ((productcolor_df['PhwebDescription'] == 'ID NSV +NSV ALU+PLA w5MPC nFPR nWWAN') & \
-            (productcolor_df['ContainerValue'] == 'Natural silver cover and base, natural silver aluminum keyboard frame')) | \
-        ((productcolor_df['PhwebDescription'] == 'ID NSV ALU FPR') & \
-            (productcolor_df['ContainerValue'] == 'Natural silver aluminum')) | \
-        ((productcolor_df['PhwebDescription'] == 'ID NSV ALU nSDC nFPR') & \
-            (productcolor_df['ContainerValue'] == 'Natural silver aluminum cover and keyboard frame, natural silver base')) | \
-        ((productcolor_df['PhwebDescription'] == 'ID NSV PLA wHDC TNR FPR FHD TS') & \
-            (productcolor_df['ContainerValue'] == 'Natural silver')) | \
-        ((productcolor_df['PhwebDescription'] == 'ID NSV ALU nSDC wHDC TNR nFPR') & \
-            (productcolor_df['ContainerValue'] == 'Natural silver aluminum')) | \
-        ((productcolor_df['PhwebDescription'] == 'ID NSV ALU nSDC wHDC TNR FPR') & \
-            (productcolor_df['ContainerValue'] == 'Natural silver aluminum')) | \
-        ((productcolor_df['PhwebDescription'] == 'ID NSV +NSV PLA+PLA wHDC TNR nFPR nWWAN') & \
-            (productcolor_df['ContainerValue'] == 'Natural silver')) | \
-        ((productcolor_df['PhwebDescription'] == 'ID NSV +NSV PLA wHDC TNR') & \
-            (productcolor_df['ContainerValue'] == 'Natural silver')) | \
-        ((productcolor_df['PhwebDescription'] == 'ID NSV PLA wHDC') & \
-            (productcolor_df['ContainerValue'] == 'Natural silver')) | \
-        ((productcolor_df['PhwebDescription'] == 'ID NSV +NSV MTE PT wHDC TNR FPR') & \
-            (productcolor_df['ContainerValue'] == 'Natural silver')) | \
-        ((productcolor_df['PhwebDescription'] == 'ID NSV PLA wHDC FPR FHD TS') & \
-            (productcolor_df['ContainerValue'] == 'Natural silver')) | \
-        ((productcolor_df['PhwebDescription'] == 'ID MCS PLA wHDC TNR') & \
-            (productcolor_df['ContainerValue'] == 'Mica silver, dark chrome logo')) 
+    maskColor = (productcolor_df['PhwebDescription'].str.contains('NSV') & \
+                    (productcolor_df['ContainerValue'].str.contains('Natural silver', case=False))) | \
+                (productcolor_df['PhwebDescription'].str.contains('MCS') & \
+                    (productcolor_df['ContainerValue'].str.contains('Mica silver', case=False))) | \
+                (productcolor_df['PhwebDescription'].str.contains('CCW') & \
+                    (productcolor_df['ContainerValue'].str.contains('Ceramic white', case=False))) | \
+                (productcolor_df['PhwebDescription'].str.contains('SNW') & \
+                    (productcolor_df['ContainerValue'].str.contains('Snow white', case=False))) | \
+                (productcolor_df['PhwebDescription'].str.contains('SWH') & \
+                    (productcolor_df['ContainerValue'].str.contains('Starry white', case=False))) | \
+                (productcolor_df['PhwebDescription'].str.contains('NFB') & \
+                    (productcolor_df['ContainerValue'].str.contains('Nightfall black', case=False))) | \
+                (productcolor_df['PhwebDescription'].str.contains('JTB') & \
+                    (productcolor_df['ContainerValue'].str.contains('Jet black', case=False))) | \
+                (productcolor_df['PhwebDescription'].str.contains('SKB') & \
+                    (productcolor_df['ContainerValue'].str.contains('Sparkling black', case=False))) | \
+                (productcolor_df['PhwebDescription'].str.contains('PLG') & \
+                    (productcolor_df['ContainerValue'].str.contains('Starry white', case=False))) | \
+                (productcolor_df['PhwebDescription'].str.contains('JKB') & \
+                    (productcolor_df['ContainerValue'].str.contains('Dark black', case=False))) | \
+                (productcolor_df['PhwebDescription'].str.contains('CBG') & \
+                    (productcolor_df['ContainerValue'].str.contains('Chalkboard gray', case=False))) | \
+                (productcolor_df['PhwebDescription'].str.contains('STB') & \
+                    (productcolor_df['ContainerValue'].str.contains('Jet black', case=False))) | \
+                (productcolor_df['PhwebDescription'].str.contains('WHT') & \
+                    (productcolor_df['ContainerValue'].str.contains('Snow white', case=False))) | \
+                (productcolor_df['PhwebDescription'].str.contains('SDB') & \
+                    (productcolor_df['ContainerValue'].str.contains('Shadow black', case=False))) | \
+                (productcolor_df['PhwebDescription'].str.contains('POB') & \
+                    (productcolor_df['ContainerValue'].str.contains('Poseidon blue', case=False))) | \
+                (productcolor_df['PhwebDescription'].str.contains('IOB') & \
+                    (productcolor_df['ContainerValue'].str.contains('Indigo blue', case=False))) | \
+                (productcolor_df['PhwebDescription'].str.contains('PFB') & \
+                    (productcolor_df['ContainerValue'].str.contains('Performance blue', case=False))) | \
+                (productcolor_df['PhwebDescription'].str.contains('BLK') & \
+                    (productcolor_df['ContainerValue'].str.contains('Black', case=False))) | \
+                (productcolor_df['PhwebDescription'].str.contains('SPB') & \
+                    (productcolor_df['ContainerValue'].str.contains('Spruce blue', case=False))) | \
+                (productcolor_df['PhwebDescription'].str.contains('ENB') & \
+                    (productcolor_df['ContainerValue'].str.contains('Evening Blue', case=False))) | \
+                (productcolor_df['PhwebDescription'].str.contains('PLG') & \
+                    (productcolor_df['ContainerValue'].str.contains('Pale gold', case=False))) | \
+                (productcolor_df['PhwebDescription'].str.contains('SBL') & \
+                    (productcolor_df['ContainerValue'].str.contains('Space blue', case=False))) | \
+                (productcolor_df['PhwebDescription'].str.contains('WGD') & \
+                    (productcolor_df['ContainerValue'].str.contains('Warm gold', case=False))) | \
+                (productcolor_df['PhwebDescription'].str.contains('SFW') & \
+                    (productcolor_df['ContainerValue'].str.contains('Snowflake white', case=False))) | \
+                (productcolor_df['PhwebDescription'].str.contains('MNS') & \
+                    (productcolor_df['ContainerValue'].str.contains('Mineral silver', case=False))) | \
+                (productcolor_df['PhwebDescription'].str.contains('FTL') & \
+                    (productcolor_df['ContainerValue'].str.contains('Forest teal', case=False))) | \
+                (productcolor_df['PhwebDescription'].str.contains('TBS') & \
+                    (productcolor_df['ContainerValue'].str.contains('Turbo silver', case=False))) | \
+                (productcolor_df['PhwebDescription'].str.contains('FGB') & \
+                    (productcolor_df['ContainerValue'].str.contains('Fog blue', case=False))) | \
+                (productcolor_df['PhwebDescription'].str.contains('STF') & \
+                    (productcolor_df['ContainerValue'].str.contains('Starry forest', case=False))) | \
+                (productcolor_df['PhwebDescription'].str.contains('NTB') & \
+                    (productcolor_df['ContainerValue'].str.contains('Nocturne blue', case=False)))
 
-    
+    productcolor_df.loc[maskColor, 'Accuracy'] = 'SCS Color OK'
+    productcolor_df.loc[~maskColor, 'Accuracy'] = 'ERROR'
 
-    productcolor_df.loc[mask, 'Accuracy'] = 'SCS OK'
-    productcolor_df.loc[~mask, 'Accuracy'] = 'ERROR'
-
-    # update the original dataframe with the new values
     df.update(productcolor_df['Accuracy'])
 
+######################################################################## FPR
+
+    fingerprread_df = df.loc[df['ContainerName'].str.contains('fingerprread')]
+    maskFPR = (fingerprread_df['PhwebDescription'].str.contains('FPR') & \
+                    (fingerprread_df['ContainerValue'].str.contains('Fingerprint reader', case=False)))
+
+    fingerprread_df.loc[maskFPR, 'Accuracy'] = 'SCS FPR OK'
+    fingerprread_df.loc[~maskFPR, 'Accuracy'] = 'ERROR'
+
+    df.update(fingerprread_df['Accuracy'])
+
+######################################################################## Webcam
 
 
+    webcam_df = df.loc[df['ContainerName'].str.contains('webcam')]
+    maskWebcam = (webcam_df['PhwebDescription'].str.contains('wHDC') & \
+                    (webcam_df['ContainerValue'].str.contains('HP True Vision 720p HD camera with integrated dual array digital microphones', case=False))) | \
+                (webcam_df['PhwebDescription'].str.contains('wHDC TNR') & \
+                    (webcam_df['ContainerValue'].str.contains('HP True Vision 720p HD camera with temporal noise reduction and integrated dual array digital microphones', case=False))) | \
+                (webcam_df['PhwebDescription'].str.contains('w5MPC') & \
+                    (webcam_df['ContainerValue'].str.contains('HP True Vision 5MP camera with camera shutter, temporal noise reduction and integrated dual array digital microphones', case=False))) | \
+                (webcam_df['PhwebDescription'].str.contains('wFHDC IR') & \
+                    (webcam_df['ContainerValue'].str.contains('HP Wide Vision 1080p FHD IR privacy camera with integrated dual array digital microphones', case=False)))
+
+    webcam_df.loc[maskWebcam, 'Accuracy'] = 'SCS Webcam OK'
+    webcam_df.loc[~maskWebcam, 'Accuracy'] = 'ERROR'
+
+    df.update(webcam_df['Accuracy'])
 
 
+################################################################ Stylus
 
 
+    webcam_df = df.loc[df['ContainerName'].str.contains('webcam')]
+    maskWebcam = (webcam_df['PhwebDescription'].str.contains('wHDC') & \
+                    (webcam_df['ContainerValue'].str.contains('HP True Vision 720p HD camera with integrated dual array digital microphones', case=False))) | \
 
+    webcam_df.loc[maskWebcam, 'Accuracy'] = 'SCS Webcam OK'
+    webcam_df.loc[~maskWebcam, 'Accuracy'] = 'ERROR'
+
+    df.update(webcam_df['Accuracy'])
 
 
     df.to_excel('chido.xlsx', index=False)
@@ -138,8 +139,6 @@ def cleanReport(xlsx_file):
         cell.fill = header_fill
     workbook.save('chido.xlsx')
 
-    print(df)
-    
 def main():
     loadReport()
 
