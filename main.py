@@ -121,14 +121,93 @@ def cleanReport(xlsx_file):
 ################################################################ Stylus
 
 
-    webcam_df = df.loc[df['ContainerName'].str.contains('webcam')]
-    maskWebcam = (webcam_df['PhwebDescription'].str.contains('wHDC') & \
-                    (webcam_df['ContainerValue'].str.contains('HP True Vision 720p HD camera with integrated dual array digital microphones', case=False))) | \
+    stylus_df = df.loc[df['ContainerName'].str.contains('stylus')]
+    maskStylus = (stylus_df['PhwebDescription'].str.contains('Pen') & \
+                    (stylus_df['ContainerValue'].str.contains('HP Rechargeable MPP2.0 Tilt Pen', case=False)))
+                    
+    stylus_df.loc[maskStylus, 'Accuracy'] = 'SCS Stylus OK'
+    stylus_df.loc[~maskStylus, 'Accuracy'] = 'ERROR'
 
-    webcam_df.loc[maskWebcam, 'Accuracy'] = 'SCS Webcam OK'
-    webcam_df.loc[~maskWebcam, 'Accuracy'] = 'ERROR'
+    df.update(stylus_df['Accuracy'])
 
-    df.update(webcam_df['Accuracy'])
+    ################################################################ Battery Type
+
+    batterytype_df = df.loc[df['ContainerName'].str.contains('batterytype')]
+    maskBatterytype = (batterytype_df['PhwebDescription'].str.contains('BATT 3C 41 WHr Long Life') & \
+                        (batterytype_df['ContainerValue'].str.contains('3-cell, 41 Wh Li-ion', case=False))) | \
+                    (batterytype_df['PhwebDescription'].str.contains('BATT 3C 43 WHr Long Life') & \
+                        (batterytype_df['ContainerValue'].str.contains('3-cell, 43 Wh Li-ion polymer', case=False))) | \
+                    (batterytype_df['PhwebDescription'].str.contains('BATT 3C 51 WHr Long Life') & \
+                        (batterytype_df['ContainerValue'].str.contains('3-cell, 51 Wh Li-ion polymer', case=False))) | \
+                    (batterytype_df['PhwebDescription'].str.contains('BATT 3C 52.5 WHr Long Life') & \
+                        (batterytype_df['ContainerValue'].str.contains('3-cell, 52.5 Wh Li-ion polymer', case=False))) | \
+                    (batterytype_df['PhwebDescription'].str.contains('BATT 4 cell C XL 66Whr FstCrg') & \
+                        (batterytype_df['ContainerValue'].str.contains('4-cell, 66 Wh Li-ion polymer', case=False)))
+                                                
+    batterytype_df.loc[maskBatterytype, 'Accuracy'] = 'SCS Battery Type OK'
+    batterytype_df.loc[~maskBatterytype, 'Accuracy'] = 'ERROR'
+
+    df.update(batterytype_df['Accuracy'])
+
+    ################################################################ Chipset
+
+    chipset_df = df.loc[df['ContainerName'].str.contains('chipset')]
+    maskChipset = (chipset_df['PhwebDescription'].str.contains('H470') & \
+                        (chipset_df['ContainerValue'].str.contains('Intel® H470', case=False))) 
+
+    chipset_df .loc[maskChipset, 'Accuracy'] = 'SCS Chipset OK'
+    chipset_df .loc[~maskChipset, 'Accuracy'] = 'ERROR'
+
+    df.update(chipset_df ['Accuracy'])
+
+    ################################################################ Processor Name
+
+    processorname_df = df.loc[df['ContainerName'].str.contains('processorname')]
+    maskProcessorName = (processorname_df['PhwebDescription'].str.contains('3020e') & \
+                        (processorname_df['ContainerValue'].str.contains('AMD 3020e (1.2 GHz base clock, up to 2.6 GHz max boost clock, 4 MB L3 cache, 2 cores, 2 threads)', case=False))) | \
+                    (processorname_df['PhwebDescription'].str.contains('3050U') & \
+                        (processorname_df['ContainerValue'].str.contains('AMD Athlon™ 3050U (2.3 GHz base clock, up to 3.2 GHz max boost clock, 4 MB L3 cache, 2 cores)', case=False))) | \
+                    (processorname_df['PhwebDescription'].str.contains('3150U') & \
+                        (processorname_df['ContainerValue'].str.contains('AMD Athlon™ Gold 3150U (2.4 GHz base clock, up to 3.3 GHz max boost clock, 4 MB L3 cache, 2 cores, 4 threads)', case=False))) | \
+                    (processorname_df['PhwebDescription'].str.contains('3250U') & \
+                        (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 3 3250U (2.6 GHz base clock, up to 3.5 GHz max boost clock, 4 MB L3 cache, 2 cores, 4 threads)', case=False))) | \
+                    (processorname_df['PhwebDescription'].str.contains('4300G') & \
+                        (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 3 4300G (3.8 GHz base clock, up to 4.0 GHz max boost clock, 4 MB L3 cache, 4 cores)', case=False))) | \
+                    (processorname_df['PhwebDescription'].str.contains('5300U') & \
+                        (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 3 5300U (up to 3.8 GHz max boost clock, 4 MB L3 cache, 4 cores, 8 threads)', case=False))) | \
+                    (processorname_df['PhwebDescription'].str.contains('5425U') & \
+                        (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 3 5425U (2.7 GHz base clock, up to 4.1 GHz max boost clock, 8 MB L3 cache, 4 cores, 8 threads)', case=False))) | \
+                    (processorname_df['PhwebDescription'].str.contains('4600G') & \
+                        (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 5 4600G (3.7 GHz base clock, up to 4.2 GHz max boost clock, 8 MB L3 cache, 6 cores)', case=False))) | \
+                    (processorname_df['PhwebDescription'].str.contains('5500U') & \
+                        (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 5 5500U (up to 4.0 GHz max boost clock, 8 MB L3 cache, 6 cores, 12 threads)', case=False))) | \
+                    (processorname_df['PhwebDescription'].str.contains('5600G') & \
+                        (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 5 5600G (up to 4.4 GHz max boost clock, 16 MB L3 cache, 6 cores, 12 threads)', case=False))) | \
+                    (processorname_df['PhwebDescription'].str.contains('5625U') & \
+                        (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 5 5625U (up to 4.3 GHz max boost clock, 16 MB L3 cache, 6 cores, 12 threads)', case=False))) | \
+                    (processorname_df['PhwebDescription'].str.contains('5700G') & \
+                        (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 7 5700G (up to 4.6 GHz max boost clock, 16 MB L3 cache, 8 cores, 16 threads)', case=False))) | \
+                    (processorname_df['PhwebDescription'].str.contains('5700U') & \
+                        (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 7 5700U (up to 4.3 GHz max boost clock, 8 MB L3 cache, 8 cores, 16 threads)', case=False))) | \
+                    (processorname_df['PhwebDescription'].str.contains('5800H') & \
+                        (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 7 5800H (up to 4.4 GHz max boost clock, 16 MB L3 cache, 8 cores, 16 threads)', case=False))) | \
+                    (processorname_df['PhwebDescription'].str.contains('5800U') & \
+                        (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 7 5800U (up to 4.4 GHz max boost clock, 16 MB L3 cache, 8 cores, 16 threads)', case=False))) | \
+                    (processorname_df['PhwebDescription'].str.contains('5800X') & \
+                        (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 7 5800X (up to 4.7 GHz max boost clock, 32 MB L3 cache, 8 cores, 16 threads)', case=False))) | \
+                    (processorname_df['PhwebDescription'].str.contains('5825U') & \
+                        (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 7 5825U (up to 4.5 GHz max boost clock, 16 MB L3 cache, 8 cores, 16 threads)', case=False))) | \
+                    (processorname_df['PhwebDescription'].str.contains('6800H') & \
+                        (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 7 6800H (up to 4.7 GHz max boost clock, 16 MB L3 cache, 8 cores, 16 threads)', case=False))) | \
+                    (processorname_df['PhwebDescription'].str.contains('5900X') & \
+                        (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 9 5900X (up to 4.8 GHz max boost clock, 64 MB L3 cache, 12 cores, 24 threads)', case=False)))
+                                    
+    processorname_df.loc[maskProcessorName, 'Accuracy'] = 'SCS Processor Name OK'
+    processorname_df.loc[~maskProcessorName, 'Accuracy'] = 'ERROR'
+
+    df.update(processorname_df['Accuracy'])
+
+    ################################################################ Chipset
 
 
     df.to_excel('chido.xlsx', index=False)
