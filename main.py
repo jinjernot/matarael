@@ -14,6 +14,7 @@ def loadReport():
 def cleanReport(xlsx_file):
     df = pd.read_excel(xlsx_file) #load the file
     df = df[df['ContainerValue'] != '[BLANK]']
+    df.replace('\u00A0', ' ', regex=True, inplace=True)
 
     cols_to_drop = ['Option', 'Status','SKU_FirstAppearanceDate', 'SKU_CompletionDate', 'SKU_Aging', 'PhwebValue' ,'ExtendedDescription','ComponentCompletionDate','ComponentReadiness','SKUReadiness']
     df = df.drop(cols_to_drop, axis=1)
@@ -24,25 +25,29 @@ def cleanReport(xlsx_file):
 
     memstdes_01 = df.loc[df['ContainerName'].str.contains('memstdes_01')]
 
-    maskMemory = (memstdes_01['PhwebDescription'].str.contains(' RAM HX 16GB (2x8GB) DDR4 3733 XMP HSnk') & \
-                        (memstdes_01['ContainerValue'].str.contains('HyperX 16 GB DDR4-3200 MHz XMP Heatsink RAM (2 x 8 GB)', case=False))) | \
-                    (memstdes_01['PhwebDescription'].str.contains(' RAM HX 16GB (2x8GB) DDR4 3200 XMP RGBHS') & \
-                        (memstdes_01['ContainerValue'].str.contains('HyperX 16 GB DDR4-3200 MHz XMP RGB Heatsink RAM (2 x 8 GB)', case=False))) | \
-                    (memstdes_01['PhwebDescription'].str.contains('RAM HX 16GB (2x8GB) DDR4 3467 XMP RGBHS') & \
-                        (memstdes_01['ContainerValue'].str.contains('HyperX 16 GB DDR4-3467 MHz XMP RGB Heatsink RAM (2 x 8 GB)', case=False))) | \
-                    (memstdes_01['PhwebDescription'].str.contains('RAM HX 16GB (2x8GB) DDR4 3733 XMP RGBHS') & \
-                        (memstdes_01['ContainerValue'].str.contains('HyperX 16 GB DDR4-3733 MHz XMP RGB Heatsink RAM (2 x 8 GB)', case=False))) | \
-                    (memstdes_01['PhwebDescription'].str.contains('RAM 16GB (2x8GB)  DDR4 3200') & \
-                        (memstdes_01['ContainerValue'].str.contains('16 GB DDR4-3200 MHz RAM (2 x 8 GB)', case=False))) | \
-                    (memstdes_01['PhwebDescription'].str.contains('RAM 16GB (2x8GB) DDR5 4800') & \
-                        (memstdes_01['ContainerValue'].str.contains('16 GB DDR5-4800 MHz RAM (2 x 8 GB)', case=False))) | \
-                    (memstdes_01['PhwebDescription'].str.contains('SSD 2TB 2280 PCIe-4x4 NVMe TLC') & \
-                        (memstdes_01['ContainerValue'].str.contains('2 TB PCIe® Gen4 NVMe™ TLC M.2 SSD', case=False))) | \
-                    (memstdes_01['PhwebDescription'].str.contains('SSD 2TB PCIe NVMe TLC') & \
-                        (memstdes_01['ContainerValue'].str.contains('2 TB PCIe® NVMe™ TLC M.2 SSD', case=False)))
+    maskMemory = (memstdes_01['PhwebDescription'].str.contains('RAM 8GB (1x8GB) DDR4 2400 SODIMM',regex=False) & \
+                        (memstdes_01['ContainerValue'].str.contains('8 GB DDR4-2400 MHz RAM (1 x 8 GB)', regex=False, case=False))) | \
+                    (memstdes_01['PhwebDescription'].str.contains('RAM HX 16GB (2x8GB) DDR4 3200 XMP RGBHS',regex=False, case=False) & \
+                        (memstdes_01['ContainerValue'].str.contains('HyperX 16 GB DDR4-3200 MHz XMP RGB Heatsink RAM (2 x 8 GB)', regex=True, case=False))) | \
+                    (memstdes_01['PhwebDescription'].str.contains('RAM HX 16GB (2x8GB) DDR4 3467 XMP RGBHS',regex=False) & \
+                        (memstdes_01['ContainerValue'].str.contains('HyperX 16 GB DDR4-3467 MHz XMP RGB Heatsink RAM (2 x 8 GB)',regex=False, case=False))) | \
+                    (memstdes_01['PhwebDescription'].str.contains('RAM HX 16GB (2x8GB) DDR4 3733 XMP RGBHS',regex=False) & \
+                        (memstdes_01['ContainerValue'].str.contains('HyperX 16 GB DDR4-3733 MHz XMP RGB Heatsink RAM (2 x 8 GB)',regex=False, case=False))) | \
+                    (memstdes_01['PhwebDescription'].str.contains('RAM 16GB (2x8GB)  DDR4 3200',regex=False) & \
+                        (memstdes_01['ContainerValue'].str.contains('16 GB DDR4-3200 MHz RAM (2 x 8 GB)',regex=False, case=False))) | \
+                    (memstdes_01['PhwebDescription'].str.contains('RAM 16GB (2x8GB) DDR5 4800',regex=False) & \
+                        (memstdes_01['ContainerValue'].str.contains('16 GB DDR5-4800 MHz RAM (2 x 8 GB)',regex=False, case=False))) | \
+                    (memstdes_01['PhwebDescription'].str.contains('SSD 2TB 2280 PCIe-4x4 NVMe TLC',regex=False) & \
+                        (memstdes_01['ContainerValue'].str.contains('2 TB PCIe® Gen4 NVMe™ TLC M.2 SSD',regex=False, case=False))) | \
+                    (memstdes_01['PhwebDescription'].str.contains('SSD 2TB PCIe NVMe TLC',regex=False) & \
+                        (memstdes_01['ContainerValue'].str.contains('2 TB PCIe® NVMe™ TLC M.2 SSD',regex=False, case=False)))
+    
+
+
+    
 
     memstdes_01.loc[maskMemory, 'Accuracy'] = 'SCS Memory OK'
-    memstdes_01.loc[~maskMemory, 'Accuracy'] = 'ERROR memory'
+    memstdes_01.loc[~maskMemory, 'Accuracy'] = 'ERROR Memory'
 
     df.update(memstdes_01['Accuracy'])
 
@@ -113,7 +118,7 @@ def cleanReport(xlsx_file):
                     (productcolor_df['ContainerValue'].str.contains('Nocturne blue', case=False)))
 
     productcolor_df.loc[maskColor, 'Accuracy'] = 'SCS Color OK'
-    productcolor_df.loc[~maskColor, 'Accuracy'] = 'ERROR'
+    productcolor_df.loc[~maskColor, 'Accuracy'] = 'ERROR Color'
 
     df.update(productcolor_df['Accuracy'])
 
@@ -124,7 +129,7 @@ def cleanReport(xlsx_file):
                     (fingerprread_df['ContainerValue'].str.contains('Fingerprint reader', case=False)))
 
     fingerprread_df.loc[maskFPR, 'Accuracy'] = 'SCS FPR OK'
-    fingerprread_df.loc[~maskFPR, 'Accuracy'] = 'ERROR'
+    fingerprread_df.loc[~maskFPR, 'Accuracy'] = 'ERROR FPR'
 
     df.update(fingerprread_df['Accuracy'])
 
@@ -142,7 +147,7 @@ def cleanReport(xlsx_file):
                     (webcam_df['ContainerValue'].str.contains('HP Wide Vision 1080p FHD IR privacy camera with integrated dual array digital microphones', case=False)))
 
     webcam_df.loc[maskWebcam, 'Accuracy'] = 'SCS Webcam OK'
-    webcam_df.loc[~maskWebcam, 'Accuracy'] = 'ERROR'
+    webcam_df.loc[~maskWebcam, 'Accuracy'] = 'ERROR Webcam'
 
     df.update(webcam_df['Accuracy'])
 
@@ -155,7 +160,7 @@ def cleanReport(xlsx_file):
                     (stylus_df['ContainerValue'].str.contains('HP Rechargeable MPP2.0 Tilt Pen', case=False)))
                     
     stylus_df.loc[maskStylus, 'Accuracy'] = 'SCS Stylus OK'
-    stylus_df.loc[~maskStylus, 'Accuracy'] = 'ERROR'
+    stylus_df.loc[~maskStylus, 'Accuracy'] = 'ERROR Stylus'
 
     df.update(stylus_df['Accuracy'])
 
@@ -171,10 +176,19 @@ def cleanReport(xlsx_file):
                     (batterytype_df['PhwebDescription'].str.contains('BATT 3C 52.5 WHr Long Life') & \
                         (batterytype_df['ContainerValue'].str.contains('3-cell, 52.5 Wh Li-ion polymer', case=False))) | \
                     (batterytype_df['PhwebDescription'].str.contains('BATT 4 cell C XL 66Whr FstCrg') & \
+                        (batterytype_df['ContainerValue'].str.contains('4-cell, 66 Wh Li-ion polymer', case=False))) | \
+                    (batterytype_df['PhwebDescription'].str.contains('BATT 3 cell C Long Life 43Whr FstCrg') & \
+                        (batterytype_df['ContainerValue'].str.contains('3-cell, 43 Wh Li-ion polymer', case=False))) | \
+                    (batterytype_df['PhwebDescription'].str.contains('BATT 4 cell C Long Life 70Whr FstCrg') & \
+                        (batterytype_df['ContainerValue'].str.contains('4-cell, 70 Wh Li-ion polymer', case=False))) | \
+                    (batterytype_df['PhwebDescription'].str.contains('BATT 4 cell C Long Life 55Whr FstCrg') & \
+                        (batterytype_df['ContainerValue'].str.contains('4-cell, 55 Wh Li-ion polymer', case=False))) | \
+                    (batterytype_df['PhwebDescription'].str.contains('BATT 4C 66 WHr Long Life') & \
                         (batterytype_df['ContainerValue'].str.contains('4-cell, 66 Wh Li-ion polymer', case=False)))
+  
                                                 
     batterytype_df.loc[maskBatterytype, 'Accuracy'] = 'SCS Battery Type OK'
-    batterytype_df.loc[~maskBatterytype, 'Accuracy'] = 'ERROR'
+    batterytype_df.loc[~maskBatterytype, 'Accuracy'] = 'ERROR Battery Type'
 
     df.update(batterytype_df['Accuracy'])
 
@@ -185,7 +199,7 @@ def cleanReport(xlsx_file):
                         (chipset_df['ContainerValue'].str.contains('Intel® H470', case=False))) 
 
     chipset_df.loc[maskChipset, 'Accuracy'] = 'SCS Chipset OK'
-    chipset_df.loc[~maskChipset, 'Accuracy'] = 'ERROR'
+    chipset_df.loc[~maskChipset, 'Accuracy'] = 'ERROR Chipset'
 
     df.update(chipset_df['Accuracy'])
 
@@ -193,46 +207,46 @@ def cleanReport(xlsx_file):
 
     processorname_df = df.loc[df['ContainerName'].str.contains('processorname')]
     maskProcessorName = (processorname_df['PhwebDescription'].str.contains('3020e') & \
-                            (processorname_df['ContainerValue'].str.contains('AMD 3020e (1.2 GHz base clock, up to 2.6 GHz max boost clock, 4 MB L3 cache, 2 cores, 2 threads)', case=False))) | \
+                            (processorname_df['ContainerValue'].str.contains('AMD 3020e (1.2 GHz base clock, up to 2.6 GHz max boost clock, 4 MB L3 cache, 2 cores, 2 threads)',regex=False, case=False))) | \
                         (processorname_df['PhwebDescription'].str.contains('3050U') & \
-                            (processorname_df['ContainerValue'].str.contains('AMD Athlon™ 3050U (2.3 GHz base clock, up to 3.2 GHz max boost clock, 4 MB L3 cache, 2 cores)', case=False))) | \
+                            (processorname_df['ContainerValue'].str.contains('AMD Athlon™ 3050U (2.3 GHz base clock, up to 3.2 GHz max boost clock, 4 MB L3 cache, 2 cores)',regex=False, case=False))) | \
                         (processorname_df['PhwebDescription'].str.contains('3150U') & \
-                            (processorname_df['ContainerValue'].str.contains('AMD Athlon™ Gold 3150U (2.4 GHz base clock, up to 3.3 GHz max boost clock, 4 MB L3 cache, 2 cores, 4 threads)', case=False))) | \
+                            (processorname_df['ContainerValue'].str.contains('AMD Athlon™ Gold 3150U (2.4 GHz base clock, up to 3.3 GHz max boost clock, 4 MB L3 cache, 2 cores, 4 threads)',regex=False, case=False))) | \
                         (processorname_df['PhwebDescription'].str.contains('3250U') & \
-                            (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 3 3250U (2.6 GHz base clock, up to 3.5 GHz max boost clock, 4 MB L3 cache, 2 cores, 4 threads)', case=False))) | \
+                            (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 3 3250U (2.6 GHz base clock, up to 3.5 GHz max boost clock, 4 MB L3 cache, 2 cores, 4 threads)',regex=False, case=False))) | \
                         (processorname_df['PhwebDescription'].str.contains('4300G') & \
-                            (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 3 4300G (3.8 GHz base clock, up to 4.0 GHz max boost clock, 4 MB L3 cache, 4 cores)', case=False))) | \
+                            (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 3 4300G (3.8 GHz base clock, up to 4.0 GHz max boost clock, 4 MB L3 cache, 4 cores)',regex=False, case=False))) | \
                         (processorname_df['PhwebDescription'].str.contains('5300U') & \
-                            (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 3 5300U (up to 3.8 GHz max boost clock, 4 MB L3 cache, 4 cores, 8 threads)', case=False))) | \
+                            (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 3 5300U (up to 3.8 GHz max boost clock, 4 MB L3 cache, 4 cores, 8 threads)',regex=False, case=False))) | \
                         (processorname_df['PhwebDescription'].str.contains('5425U') & \
-                            (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 3 5425U (2.7 GHz base clock, up to 4.1 GHz max boost clock, 8 MB L3 cache, 4 cores, 8 threads)', case=False))) | \
+                            (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 3 5425U (2.7 GHz base clock, up to 4.1 GHz max boost clock, 8 MB L3 cache, 4 cores, 8 threads)',regex=False, case=False))) | \
                         (processorname_df['PhwebDescription'].str.contains('4600G') & \
-                            (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 5 4600G (3.7 GHz base clock, up to 4.2 GHz max boost clock, 8 MB L3 cache, 6 cores)', case=False))) | \
+                            (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 5 4600G (3.7 GHz base clock, up to 4.2 GHz max boost clock, 8 MB L3 cache, 6 cores)',regex=False, case=False))) | \
                         (processorname_df['PhwebDescription'].str.contains('5500U') & \
-                            (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 5 5500U (up to 4.0 GHz max boost clock, 8 MB L3 cache, 6 cores, 12 threads)', case=False))) | \
+                            (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 5 5500U (up to 4.0 GHz max boost clock, 8 MB L3 cache, 6 cores, 12 threads)',regex=False, case=False))) | \
                         (processorname_df['PhwebDescription'].str.contains('5600G') & \
-                            (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 5 5600G (up to 4.4 GHz max boost clock, 16 MB L3 cache, 6 cores, 12 threads)', case=False))) | \
+                            (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 5 5600G (up to 4.4 GHz max boost clock, 16 MB L3 cache, 6 cores, 12 threads)',regex=False, case=False))) | \
                         (processorname_df['PhwebDescription'].str.contains('5625U') & \
-                            (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 5 5625U (up to 4.3 GHz max boost clock, 16 MB L3 cache, 6 cores, 12 threads)', case=False))) | \
+                            (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 5 5625U (up to 4.3 GHz max boost clock, 16 MB L3 cache, 6 cores, 12 threads)',regex=False, case=False))) | \
                         (processorname_df['PhwebDescription'].str.contains('5700G') & \
-                            (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 7 5700G (up to 4.6 GHz max boost clock, 16 MB L3 cache, 8 cores, 16 threads)', case=False))) | \
+                            (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 7 5700G (up to 4.6 GHz max boost clock, 16 MB L3 cache, 8 cores, 16 threads)',regex=False, case=False))) | \
                         (processorname_df['PhwebDescription'].str.contains('5700U') & \
-                            (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 7 5700U (up to 4.3 GHz max boost clock, 8 MB L3 cache, 8 cores, 16 threads)', case=False))) | \
+                            (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 7 5700U (up to 4.3 GHz max boost clock, 8 MB L3 cache, 8 cores, 16 threads)',regex=False, case=False))) | \
                         (processorname_df['PhwebDescription'].str.contains('5800H') & \
-                            (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 7 5800H (up to 4.4 GHz max boost clock, 16 MB L3 cache, 8 cores, 16 threads)', case=False))) | \
+                            (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 7 5800H (up to 4.4 GHz max boost clock, 16 MB L3 cache, 8 cores, 16 threads)',regex=False, case=False))) | \
                         (processorname_df['PhwebDescription'].str.contains('5800U') & \
-                            (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 7 5800U (up to 4.4 GHz max boost clock, 16 MB L3 cache, 8 cores, 16 threads)', case=False))) | \
+                            (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 7 5800U (up to 4.4 GHz max boost clock, 16 MB L3 cache, 8 cores, 16 threads)',regex=False, case=False))) | \
                         (processorname_df['PhwebDescription'].str.contains('5800X') & \
-                            (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 7 5800X (up to 4.7 GHz max boost clock, 32 MB L3 cache, 8 cores, 16 threads)', case=False))) | \
+                            (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 7 5800X (up to 4.7 GHz max boost clock, 32 MB L3 cache, 8 cores, 16 threads)',regex=False, case=False))) | \
                         (processorname_df['PhwebDescription'].str.contains('5825U') & \
-                            (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 7 5825U (up to 4.5 GHz max boost clock, 16 MB L3 cache, 8 cores, 16 threads)', case=False))) | \
+                            (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 7 5825U (up to 4.5 GHz max boost clock, 16 MB L3 cache, 8 cores, 16 threads)',regex=False, case=False))) | \
                         (processorname_df['PhwebDescription'].str.contains('6800H') & \
-                            (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 7 6800H (up to 4.7 GHz max boost clock, 16 MB L3 cache, 8 cores, 16 threads)', case=False))) | \
+                            (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 7 6800H (up to 4.7 GHz max boost clock, 16 MB L3 cache, 8 cores, 16 threads)',regex=False, case=False))) | \
                         (processorname_df['PhwebDescription'].str.contains('5900X') & \
-                            (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 9 5900X (up to 4.8 GHz max boost clock, 64 MB L3 cache, 12 cores, 24 threads)', case=False)))
+                            (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 9 5900X (up to 4.8 GHz max boost clock, 64 MB L3 cache, 12 cores, 24 threads)',regex=False, case=False)))
                                     
     processorname_df.loc[maskProcessorName, 'Accuracy'] = 'SCS Processor Name OK'
-    processorname_df.loc[~maskProcessorName, 'Accuracy'] = 'ERROR'
+    processorname_df.loc[~maskProcessorName, 'Accuracy'] = 'ERROR Processor Name'
 
     df.update(processorname_df['Accuracy'])
 
@@ -241,46 +255,46 @@ def cleanReport(xlsx_file):
 
     display_df = df.loc[df['ContainerName'].str.contains('display')]
     maskDisplay =   (display_df['PhwebDescription'].str.contains('LCD 15.6 FHD AG LED UWVA250144HzNWBZflat') & \
-                        (display_df['ContainerValue'].str.contains('15.6" diagonal, FHD (1920 x 1080), 144 Hz, 9 ms response time, IPS, micro-edge, anti-glare, 250 nits, 45% NTSC', case=False))) | \
+                        (display_df['ContainerValue'].str.contains('15.6" diagonal, FHD (1920 x 1080), 144 Hz, 9 ms response time, IPS, micro-edge, anti-glare, 250 nits, 45% NTSC',regex=False, case=False))) | \
                     (display_df['PhwebDescription'].str.contains('LCD 15.6 FHD AG LEDUWVA300uslim144HzNWBZ') & \
-                        (display_df['ContainerValue'].str.contains('15.6" diagonal, FHD (1920 x 1080), 144 Hz, 7 ms response time, IPS, micro-edge, anti-glare, 300 nits, 72% NTSC', case=False))) | \
+                        (display_df['ContainerValue'].str.contains('15.6" diagonal, FHD (1920 x 1080), 144 Hz, 7 ms response time, IPS, micro-edge, anti-glare, 300 nits, 72% NTSC',regex=False, case=False))) | \
                     (display_df['PhwebDescription'].str.contains('LCD 15.6 QHDAGLwBluLt300UWVA120HzNWBZbnt') & \
-                        (display_df['ContainerValue'].str.contains('15.6" diagonal, QHD (2560 x 1440), multitouch-enabled, 120 Hz, IPS, edge-to-edge glass, micro-edge, Low Blue Light, 300 nits, 100% sRGB', case=False))) | \
+                        (display_df['ContainerValue'].str.contains('15.6" diagonal, QHD (2560 x 1440), multitouch-enabled, 120 Hz, IPS, edge-to-edge glass, micro-edge, Low Blue Light, 300 nits, 100% sRGB',regex=False, case=False))) | \
                     (display_df['PhwebDescription'].str.contains('LCD 15.6 HDV LED SVA 220 slim NWBZ') & \
-                        (display_df['ContainerValue'].str.contains('15.6" diagonal, HD (1366 x 768), micro-edge, BrightView, 220 nits, 45% NTSC', case=False))) | \
+                        (display_df['ContainerValue'].str.contains('15.6" diagonal, HD (1366 x 768), micro-edge, BrightView, 220 nits, 45% NTSC',regex=False, case=False))) | \
                     (display_df['PhwebDescription'].str.contains('LCD 15.6 FHD AG LED UWVA 250') & \
-                        (display_df['ContainerValue'].str.contains('15.6" diagonal, FHD (1920 x 1080), IPS, micro-edge, anti-glare, 250 nits, 45% NTSC', case=False))) | \
+                        (display_df['ContainerValue'].str.contains('15.6" diagonal, FHD (1920 x 1080), IPS, micro-edge, anti-glare, 250 nits, 45% NTSC',regex=False, case=False))) | \
                     (display_df['PhwebDescription'].str.contains('LCD 15.6 FHD AG LED UWVA 250ent NWBZ') & \
-                        (display_df['ContainerValue'].str.contains('15.6" diagonal, FHD (1920 x 1080), multitouch-enabled, IPS, edge-to-edge glass, micro-edge, 250 nits, 45% NTSC', case=False))) | \
+                        (display_df['ContainerValue'].str.contains('15.6" diagonal, FHD (1920 x 1080), multitouch-enabled, IPS, edge-to-edge glass, micro-edge, 250 nits, 45% NTSC',regex=False, case=False))) | \
                     (display_df['PhwebDescription'].str.contains('LCD 15.6 FHD AG LED UWVA 250ent TSNWBZ') & \
-                        (display_df['ContainerValue'].str.contains('15.6" diagonal, FHD (1920 x 1080), multitouch-enabled, IPS, edge-to-edge glass, micro-edge, Corning® Gorilla® Glass NBT™, 250 nits, 45% NTSC', case=False))) | \
+                        (display_df['ContainerValue'].str.contains('15.6" diagonal, FHD (1920 x 1080), multitouch-enabled, IPS, edge-to-edge glass, micro-edge, Corning® Gorilla® Glass NBT™, 250 nits, 45% NTSC',regex=False, case=False))) | \
                     (display_df['PhwebDescription'].str.contains('LCD 15.6 FHD AG LwBluLt 300 UWVA NWBZflt') & \
-                        (display_df['ContainerValue'].str.contains('15.6" diagonal, FHD (1920 x 1080), IPS, micro-edge, anti-glare, Low Blue Light, 300 nits, 100% sRGB', case=False))) | \
+                        (display_df['ContainerValue'].str.contains('15.6" diagonal, FHD (1920 x 1080), IPS, micro-edge, anti-glare, Low Blue Light, 300 nits, 100% sRGB',regex=False, case=False))) | \
                     (display_df['PhwebDescription'].str.contains('LCD 15.6 FHDV LED UWVA 250 slim NWBZ') & \
-                        (display_df['ContainerValue'].str.contains('15.6" diagonal, FHD (1920 x 1080), IPS, micro-edge, BrightView, 250 nits, 45% NTSC', case=False))) | \
+                        (display_df['ContainerValue'].str.contains('15.6" diagonal, FHD (1920 x 1080), IPS, micro-edge, BrightView, 250 nits, 45% NTSC',regex=False, case=False))) | \
                     (display_df['PhwebDescription'].str.contains('LCD 15.6 FHD AG LED SVA 220 slim NWBZ') & \
-                        (display_df['ContainerValue'].str.contains('15.6" diagonal, FHD (1920 x 1080), micro-edge, anti-glare, 220 nits, 45% NTSC', case=False))) | \
+                        (display_df['ContainerValue'].str.contains('15.6" diagonal, FHD (1920 x 1080), micro-edge, anti-glare, 220 nits, 45% NTSC',regex=False, case=False))) | \
                     (display_df['PhwebDescription'].str.contains('LCD 15.6 FHD AG LED SVA 250 NWBZ uslim') & \
-                        (display_df['ContainerValue'].str.contains('15.6" diagonal, FHD (1920 x 1080), micro-edge, anti-glare, 250 nits, 45% NTSC', case=False))) | \
+                        (display_df['ContainerValue'].str.contains('15.6" diagonal, FHD (1920 x 1080), micro-edge, anti-glare, 250 nits, 45% NTSC',regex=False, case=False))) | \
                     (display_df['PhwebDescription'].str.contains('LCD 15.6 FHD AG LED UWVA 400ent LPNWBZ') & \
-                        (display_df['ContainerValue'].str.contains('15.6" diagonal, FHD (1920 x 1080), multitouch-enabled, IPS, edge-to-edge glass, micro-edge, 400 nits, 100% sRGB', case=False))) | \
+                        (display_df['ContainerValue'].str.contains('15.6" diagonal, FHD (1920 x 1080), multitouch-enabled, IPS, edge-to-edge glass, micro-edge, 400 nits, 100% sRGB',regex=False, case=False))) | \
                     (display_df['PhwebDescription'].str.contains('OLED 15.6 FHDV OLED+LBL 400UWVANWBZbnt') & \
-                        (display_df['ContainerValue'].str.contains('15.6" diagonal, FHD (1920 x 1080), OLED, multitouch-enabled, UWVA, edge-to-edge glass, micro-edge, Low Blue Light, SDR 400 nits, HDR 500 nits, 100% DCI-P3', case=False))) | \
+                        (display_df['ContainerValue'].str.contains('15.6" diagonal, FHD (1920 x 1080), OLED, multitouch-enabled, UWVA, edge-to-edge glass, micro-edge, Low Blue Light, SDR 400 nits, HDR 500 nits, 100% DCI-P3',regex=False, case=False))) | \
                     (display_df['PhwebDescription'].str.contains('LCD 15.6 FHDV LED UWVA 250 slimTOPNWBZ') & \
-                        (display_df['ContainerValue'].str.contains('15.6" diagonal, FHD (1920 x 1080), touch, IPS, micro-edge, BrightView, 250 nits, 45% NTSC', case=False))) | \
+                        (display_df['ContainerValue'].str.contains('15.6" diagonal, FHD (1920 x 1080), touch, IPS, micro-edge, BrightView, 250 nits, 45% NTSC',regex=False, case=False))) | \
                     (display_df['PhwebDescription'].str.contains('LCD 15.6 HD AG LED SVA 220 slim NWBZ') & \
-                        (display_df['ContainerValue'].str.contains('15.6" diagonal, HD (1366 x 768), micro-edge, anti-glare, 220 nits, 45% NTSC', case=False))) | \
+                        (display_df['ContainerValue'].str.contains('15.6" diagonal, HD (1366 x 768), micro-edge, anti-glare, 220 nits, 45% NTSC',regex=False, case=False))) | \
                     (display_df['PhwebDescription'].str.contains('LCD 15.6 HD AG LED SVA 250 NWBZ uslim') & \
-                        (display_df['ContainerValue'].str.contains('15.6" diagonal, HD (1366 x 768), micro-edge, anti-glare, 250 nits, 45% NTSC', case=False))) | \
+                        (display_df['ContainerValue'].str.contains('15.6" diagonal, HD (1366 x 768), micro-edge, anti-glare, 250 nits, 45% NTSC',regex=False, case=False))) | \
                     (display_df['PhwebDescription'].str.contains('LCD 15.6 HDV LED SVA 220 slim TOP NWBZ') & \
-                        (display_df['ContainerValue'].str.contains('15.6" diagonal, HD (1366 x 768), touch, micro-edge, BrightView, 220 nits, 45% NTSC', case=False))) | \
+                        (display_df['ContainerValue'].str.contains('15.6" diagonal, HD (1366 x 768), touch, micro-edge, BrightView, 220 nits, 45% NTSC',regex=False, case=False))) | \
                     (display_df['PhwebDescription'].str.contains('LCD 15.6 HDV LED SVA 250 NWBZ uslim') & \
-                        (display_df['ContainerValue'].str.contains('15.6" diagonal, HD (1366 x 768), micro-edge, BrightView, 250 nits, 45% NTSC', case=False))) | \
+                        (display_df['ContainerValue'].str.contains('15.6" diagonal, HD (1366 x 768), micro-edge, BrightView, 250 nits, 45% NTSC',regex=False, case=False))) | \
                     (display_df['PhwebDescription'].str.contains('LCD 15.6 HDV LED SVA 250 TOP NWBZ flat') & \
-                        (display_df['ContainerValue'].str.contains('15.6" diagonal, HD (1366 x 768), touch, micro-edge, BrightView, 250 nits, 45% NTSC', case=False)))
+                        (display_df['ContainerValue'].str.contains('15.6" diagonal, HD (1366 x 768), touch, micro-edge, BrightView, 250 nits, 45% NTSC',regex=False, case=False)))
 
     display_df.loc[maskDisplay, 'Accuracy'] = 'SCS Display OK'
-    display_df.loc[~maskDisplay, 'Accuracy'] = 'ERROR'
+    display_df.loc[~maskDisplay, 'Accuracy'] = 'ERROR Display'
 
     df.update(display_df['Accuracy'])
 
@@ -307,7 +321,7 @@ def cleanReport(xlsx_file):
                         (hd_01des['ContainerValue'].str.contains('2 TB PCIe® NVMe™ TLC M.2 SSD', case=False)))
 
     hd_01des.loc[maskHardDrive, 'Accuracy'] = 'SCS Hard Drive OK'
-    hd_01des.loc[~maskHardDrive, 'Accuracy'] = 'ERROR'
+    hd_01des.loc[~maskHardDrive, 'Accuracy'] = 'ERROR Hard Drive'
 
     df.update(display_df['Accuracy'])
 
