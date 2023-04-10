@@ -8,17 +8,18 @@ def loadReport():
     folder_path = "./xlsx/"
     xlsx_files = glob.glob(folder_path + "*.xlsx")
 
-    for xlsx_file in xlsx_files: #loop through all the files
+    for xlsx_file in xlsx_files: # Loop through all the files
         cleanReport(xlsx_file)
 
 def cleanReport(xlsx_file):
-    df = pd.read_excel(xlsx_file) #load the file
-    df = df[df['ContainerValue'] != '[BLANK]']
-    df.replace('\u00A0', ' ', regex=True, inplace=True)
+    """Load, Clean and create a a new xlsx file"""
+    df = pd.read_excel(xlsx_file) # Load the file
+    df = df[df['ContainerValue'] != '[BLANK]'] # Remove blanks
+    df.replace('\u00A0', ' ', regex=True, inplace=True) # Remove weird spaces
 
-    cols_to_drop = ['Option', 'Status','SKU_FirstAppearanceDate', 'SKU_CompletionDate', 'SKU_Aging', 'PhwebValue' ,'ExtendedDescription','ComponentCompletionDate','ComponentReadiness','SKUReadiness']
+    cols_to_drop = ['Option', 'Status','SKU_FirstAppearanceDate', 'SKU_CompletionDate', 'SKU_Aging', 'PhwebValue' ,'ExtendedDescription','ComponentCompletionDate','ComponentReadiness','SKUReadiness'] # Remove some columns
     df = df.drop(cols_to_drop, axis=1)
-    df[['Accuracy', 'Correct Value', 'Additional Information']] = ''
+    df[['Accuracy', 'Correct Value', 'Additional Information']] = '' # Create new columns for SCS
 
 
     ################################################################ Memory
