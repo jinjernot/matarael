@@ -21,39 +21,33 @@ def cleanReport(xlsx_file):
     df = df.drop(cols_to_drop, axis=1)
     df[['Accuracy', 'Correct Value', 'Additional Information']] = '' # Create new columns for SCS
 
+################################################################ Memory
 
-    ################################################################ Memory
+    memstdes_01_df = df.loc[df['ContainerName'].str.contains('memstdes_01')]
 
-    memstdes_01 = df.loc[df['ContainerName'].str.contains('memstdes_01')]
-
-    maskMemory = (memstdes_01['PhwebDescription'].str.contains('RAM 8GB (1x8GB) DDR4 2400 SODIMM',regex=False) & \
-                        (memstdes_01['ContainerValue'].str.contains('8 GB DDR4-2400 MHz RAM (1 x 8 GB)', regex=False, case=False))) | \
-                    (memstdes_01['PhwebDescription'].str.contains('RAM HX 16GB (2x8GB) DDR4 3200 XMP RGBHS',regex=False, case=False) & \
-                        (memstdes_01['ContainerValue'].str.contains('HyperX 16 GB DDR4-3200 MHz XMP RGB Heatsink RAM (2 x 8 GB)', regex=True, case=False))) | \
-                    (memstdes_01['PhwebDescription'].str.contains('RAM HX 16GB (2x8GB) DDR4 3467 XMP RGBHS',regex=False) & \
-                        (memstdes_01['ContainerValue'].str.contains('HyperX 16 GB DDR4-3467 MHz XMP RGB Heatsink RAM (2 x 8 GB)',regex=False, case=False))) | \
-                    (memstdes_01['PhwebDescription'].str.contains('RAM HX 16GB (2x8GB) DDR4 3733 XMP RGBHS',regex=False) & \
-                        (memstdes_01['ContainerValue'].str.contains('HyperX 16 GB DDR4-3733 MHz XMP RGB Heatsink RAM (2 x 8 GB)',regex=False, case=False))) | \
-                    (memstdes_01['PhwebDescription'].str.contains('RAM 16GB (2x8GB)  DDR4 3200',regex=False) & \
-                        (memstdes_01['ContainerValue'].str.contains('16 GB DDR4-3200 MHz RAM (2 x 8 GB)',regex=False, case=False))) | \
-                    (memstdes_01['PhwebDescription'].str.contains('RAM 16GB (2x8GB) DDR5 4800',regex=False) & \
-                        (memstdes_01['ContainerValue'].str.contains('16 GB DDR5-4800 MHz RAM (2 x 8 GB)',regex=False, case=False))) | \
-                    (memstdes_01['PhwebDescription'].str.contains('SSD 2TB 2280 PCIe-4x4 NVMe TLC',regex=False) & \
-                        (memstdes_01['ContainerValue'].str.contains('2 TB PCIe® Gen4 NVMe™ TLC M.2 SSD',regex=False, case=False))) | \
-                    (memstdes_01['PhwebDescription'].str.contains('SSD 2TB PCIe NVMe TLC',regex=False) & \
-                        (memstdes_01['ContainerValue'].str.contains('2 TB PCIe® NVMe™ TLC M.2 SSD',regex=False, case=False)))
+    maskMemory = (memstdes_01_df['PhwebDescription'].str.contains('RAM 8GB (1x8GB) DDR4 2400 SODIMM',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('8 GB DDR4-2400 MHz RAM (1 x 8 GB)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM HX 16GB (2x8GB) DDR4 3200 XMP RGBHS', regex=False, case=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('HyperX 16 GB DDR4-3200 MHz XMP RGB Heatsink RAM (2 x 8 GB)', regex=True, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM HX 16GB (2x8GB) DDR4 3467 XMP RGBHS',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('HyperX 16 GB DDR4-3467 MHz XMP RGB Heatsink RAM (2 x 8 GB)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM HX 16GB (2x8GB) DDR4 3733 XMP RGBHS',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('HyperX 16 GB DDR4-3733 MHz XMP RGB Heatsink RAM (2 x 8 GB)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM 16GB (2x8GB)  DDR4 3200', regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('16 GB DDR4-3200 MHz RAM (2 x 8 GB)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM 16GB (2x8GB) DDR5 4800', regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('16 GB DDR5-4800 MHz RAM (2 x 8 GB)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('SSD 2TB 2280 PCIe-4x4 NVMe TLC', regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('2 TB PCIe® Gen4 NVMe™ TLC M.2 SSD' ,regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('SSD 2TB PCIe NVMe TLC', regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('2 TB PCIe® NVMe™ TLC M.2 SSD', regex=False, case=False)))
     
+    memstdes_01_df.loc[maskMemory, 'Accuracy'] = 'SCS Memory OK'
+    memstdes_01_df.loc[~maskMemory, 'Accuracy'] = 'ERROR Memory'
 
+    df.update(memstdes_01_df['Accuracy'])
 
-    
-
-    memstdes_01.loc[maskMemory, 'Accuracy'] = 'SCS Memory OK'
-    memstdes_01.loc[~maskMemory, 'Accuracy'] = 'ERROR Memory'
-
-    df.update(memstdes_01['Accuracy'])
-
-
-    ################################################################ Colors
+################################################################ Colors
 
     productcolor_df = df.loc[df['ContainerName'].str.contains('colour')]
 
@@ -136,14 +130,13 @@ def cleanReport(xlsx_file):
 
 ######################################################################## Webcam
 
-
     webcam_df = df.loc[df['ContainerName'].str.contains('webcam')]
     maskWebcam = (webcam_df['PhwebDescription'].str.contains('wHDC') & \
                     (webcam_df['ContainerValue'].str.contains('HP True Vision 720p HD camera with integrated dual array digital microphones', case=False))) | \
                 (webcam_df['PhwebDescription'].str.contains('wHDC TNR') & \
                     (webcam_df['ContainerValue'].str.contains('HP True Vision 720p HD camera with temporal noise reduction and integrated dual array digital microphones', case=False))) | \
                 (webcam_df['PhwebDescription'].str.contains('w5MPC') & \
-                    (webcam_df['ContainerValue'].str.contains('HP True Vision 5MP camera with camera shutter, temporal noise reduction and integrated dual array digital microphones', case=False))) | \
+                    (webcam_df['ContainerValue'].str.contains('HP True Vision 5MP camera with camera shutter, temporal noise reduction and integrated dual array digital microphones', case=False))) | \
                 (webcam_df['PhwebDescription'].str.contains('wFHDC IR') & \
                     (webcam_df['ContainerValue'].str.contains('HP Wide Vision 1080p FHD IR privacy camera with integrated dual array digital microphones', case=False)))
 
@@ -152,9 +145,7 @@ def cleanReport(xlsx_file):
 
     df.update(webcam_df['Accuracy'])
 
-
 ################################################################ Stylus
-
 
     stylus_df = df.loc[df['ContainerName'].str.contains('stylus')]
     maskStylus = (stylus_df['PhwebDescription'].str.contains('Pen') & \
@@ -165,7 +156,7 @@ def cleanReport(xlsx_file):
 
     df.update(stylus_df['Accuracy'])
 
-    ################################################################ Battery Type
+################################################################ Battery Type
 
     batterytype_df = df.loc[df['ContainerName'].str.contains('batterytype')]
     maskBatterytype = (batterytype_df['PhwebDescription'].str.contains('BATT 3C 41 WHr Long Life') & \
@@ -186,14 +177,13 @@ def cleanReport(xlsx_file):
                         (batterytype_df['ContainerValue'].str.contains('4-cell, 55 Wh Li-ion polymer', case=False))) | \
                     (batterytype_df['PhwebDescription'].str.contains('BATT 4C 66 WHr Long Life') & \
                         (batterytype_df['ContainerValue'].str.contains('4-cell, 66 Wh Li-ion polymer', case=False)))
-  
                                                 
     batterytype_df.loc[maskBatterytype, 'Accuracy'] = 'SCS Battery Type OK'
     batterytype_df.loc[~maskBatterytype, 'Accuracy'] = 'ERROR Battery Type'
 
     df.update(batterytype_df['Accuracy'])
 
-    ################################################################ Chipset
+################################################################ Chipset
 
     chipset_df = df.loc[df['ContainerName'].str.contains('chipset')]
     maskChipset = (chipset_df['PhwebDescription'].str.contains('H470') & \
@@ -204,7 +194,7 @@ def cleanReport(xlsx_file):
 
     df.update(chipset_df['Accuracy'])
 
-    ################################################################ Processor Name
+################################################################ Processor Name
 
     processorname_df = df.loc[df['ContainerName'].str.contains('processorname')]
     maskProcessorName = (processorname_df['PhwebDescription'].str.contains('3020e') & \
@@ -251,94 +241,196 @@ def cleanReport(xlsx_file):
 
     df.update(processorname_df['Accuracy'])
 
-
-    ################################################################ Display
+################################################################ Display
 
     display_df = df.loc[df['ContainerName'].str.contains('display')]
     maskDisplay =   (display_df['PhwebDescription'].str.contains('LCD 15.6 FHD AG LED UWVA250144HzNWBZflat') & \
-                        (display_df['ContainerValue'].str.contains('15.6" diagonal, FHD (1920 x 1080), 144 Hz, 9 ms response time, IPS, micro-edge, anti-glare, 250 nits, 45% NTSC',regex=False, case=False))) | \
+                        (display_df['ContainerValue'].str.contains('15.6" diagonal, FHD (1920 x 1080), 144 Hz, 9 ms response time, IPS, micro-edge, anti-glare, 250 nits, 45% NTSC', regex=False, case=False))) | \
                     (display_df['PhwebDescription'].str.contains('LCD 15.6 FHD AG LEDUWVA300uslim144HzNWBZ') & \
-                        (display_df['ContainerValue'].str.contains('15.6" diagonal, FHD (1920 x 1080), 144 Hz, 7 ms response time, IPS, micro-edge, anti-glare, 300 nits, 72% NTSC',regex=False, case=False))) | \
+                        (display_df['ContainerValue'].str.contains('15.6" diagonal, FHD (1920 x 1080), 144 Hz, 7 ms response time, IPS, micro-edge, anti-glare, 300 nits, 72% NTSC', regex=False, case=False))) | \
                     (display_df['PhwebDescription'].str.contains('LCD 15.6 QHDAGLwBluLt300UWVA120HzNWBZbnt') & \
                         (display_df['ContainerValue'].str.contains('15.6" diagonal, QHD (2560 x 1440), multitouch-enabled, 120 Hz, IPS, edge-to-edge glass, micro-edge, Low Blue Light, 300 nits, 100% sRGB',regex=False, case=False))) | \
                     (display_df['PhwebDescription'].str.contains('LCD 15.6 HDV LED SVA 220 slim NWBZ') & \
-                        (display_df['ContainerValue'].str.contains('15.6" diagonal, HD (1366 x 768), micro-edge, BrightView, 220 nits, 45% NTSC',regex=False, case=False))) | \
+                        (display_df['ContainerValue'].str.contains('15.6" diagonal, HD (1366 x 768), micro-edge, BrightView, 220 nits, 45% NTSC', regex=False, case=False))) | \
                     (display_df['PhwebDescription'].str.contains('LCD 15.6 FHD AG LED UWVA 250') & \
-                        (display_df['ContainerValue'].str.contains('15.6" diagonal, FHD (1920 x 1080), IPS, micro-edge, anti-glare, 250 nits, 45% NTSC',regex=False, case=False))) | \
+                        (display_df['ContainerValue'].str.contains('15.6" diagonal, FHD (1920 x 1080), IPS, micro-edge, anti-glare, 250 nits, 45% NTSC', regex=False, case=False))) | \
                     (display_df['PhwebDescription'].str.contains('LCD 15.6 FHD AG LED UWVA 250ent NWBZ') & \
-                        (display_df['ContainerValue'].str.contains('15.6" diagonal, FHD (1920 x 1080), multitouch-enabled, IPS, edge-to-edge glass, micro-edge, 250 nits, 45% NTSC',regex=False, case=False))) | \
+                        (display_df['ContainerValue'].str.contains('15.6" diagonal, FHD (1920 x 1080), multitouch-enabled, IPS, edge-to-edge glass, micro-edge, 250 nits, 45% NTSC', regex=False, case=False))) | \
                     (display_df['PhwebDescription'].str.contains('LCD 15.6 FHD AG LED UWVA 250ent TSNWBZ') & \
-                        (display_df['ContainerValue'].str.contains('15.6" diagonal, FHD (1920 x 1080), multitouch-enabled, IPS, edge-to-edge glass, micro-edge, Corning® Gorilla® Glass NBT™, 250 nits, 45% NTSC',regex=False, case=False))) | \
+                        (display_df['ContainerValue'].str.contains('15.6" diagonal, FHD (1920 x 1080), multitouch-enabled, IPS, edge-to-edge glass, micro-edge, Corning® Gorilla® Glass NBT™, 250 nits, 45% NTSC', regex=False, case=False))) | \
                     (display_df['PhwebDescription'].str.contains('LCD 15.6 FHD AG LwBluLt 300 UWVA NWBZflt') & \
-                        (display_df['ContainerValue'].str.contains('15.6" diagonal, FHD (1920 x 1080), IPS, micro-edge, anti-glare, Low Blue Light, 300 nits, 100% sRGB',regex=False, case=False))) | \
+                        (display_df['ContainerValue'].str.contains('15.6" diagonal, FHD (1920 x 1080), IPS, micro-edge, anti-glare, Low Blue Light, 300 nits, 100% sRGB', regex=False, case=False))) | \
                     (display_df['PhwebDescription'].str.contains('LCD 15.6 FHDV LED UWVA 250 slim NWBZ') & \
-                        (display_df['ContainerValue'].str.contains('15.6" diagonal, FHD (1920 x 1080), IPS, micro-edge, BrightView, 250 nits, 45% NTSC',regex=False, case=False))) | \
+                        (display_df['ContainerValue'].str.contains('15.6" diagonal, FHD (1920 x 1080), IPS, micro-edge, BrightView, 250 nits, 45% NTSC', regex=False, case=False))) | \
                     (display_df['PhwebDescription'].str.contains('LCD 15.6 FHD AG LED SVA 220 slim NWBZ') & \
-                        (display_df['ContainerValue'].str.contains('15.6" diagonal, FHD (1920 x 1080), micro-edge, anti-glare, 220 nits, 45% NTSC',regex=False, case=False))) | \
+                        (display_df['ContainerValue'].str.contains('15.6" diagonal, FHD (1920 x 1080), micro-edge, anti-glare, 220 nits, 45% NTSC', regex=False, case=False))) | \
                     (display_df['PhwebDescription'].str.contains('LCD 15.6 FHD AG LED SVA 250 NWBZ uslim') & \
-                        (display_df['ContainerValue'].str.contains('15.6" diagonal, FHD (1920 x 1080), micro-edge, anti-glare, 250 nits, 45% NTSC',regex=False, case=False))) | \
+                        (display_df['ContainerValue'].str.contains('15.6" diagonal, FHD (1920 x 1080), micro-edge, anti-glare, 250 nits, 45% NTSC', regex=False, case=False))) | \
                     (display_df['PhwebDescription'].str.contains('LCD 15.6 FHD AG LED UWVA 400ent LPNWBZ') & \
-                        (display_df['ContainerValue'].str.contains('15.6" diagonal, FHD (1920 x 1080), multitouch-enabled, IPS, edge-to-edge glass, micro-edge, 400 nits, 100% sRGB',regex=False, case=False))) | \
+                        (display_df['ContainerValue'].str.contains('15.6" diagonal, FHD (1920 x 1080), multitouch-enabled, IPS, edge-to-edge glass, micro-edge, 400 nits, 100% sRGB', regex=False, case=False))) | \
                     (display_df['PhwebDescription'].str.contains('OLED 15.6 FHDV OLED+LBL 400UWVANWBZbnt') & \
-                        (display_df['ContainerValue'].str.contains('15.6" diagonal, FHD (1920 x 1080), OLED, multitouch-enabled, UWVA, edge-to-edge glass, micro-edge, Low Blue Light, SDR 400 nits, HDR 500 nits, 100% DCI-P3',regex=False, case=False))) | \
+                        (display_df['ContainerValue'].str.contains('15.6" diagonal, FHD (1920 x 1080), OLED, multitouch-enabled, UWVA, edge-to-edge glass, micro-edge, Low Blue Light, SDR 400 nits, HDR 500 nits, 100% DCI-P3', regex=False, case=False))) | \
                     (display_df['PhwebDescription'].str.contains('LCD 15.6 FHDV LED UWVA 250 slimTOPNWBZ') & \
-                        (display_df['ContainerValue'].str.contains('15.6" diagonal, FHD (1920 x 1080), touch, IPS, micro-edge, BrightView, 250 nits, 45% NTSC',regex=False, case=False))) | \
+                        (display_df['ContainerValue'].str.contains('15.6" diagonal, FHD (1920 x 1080), touch, IPS, micro-edge, BrightView, 250 nits, 45% NTSC', regex=False, case=False))) | \
                     (display_df['PhwebDescription'].str.contains('LCD 15.6 HD AG LED SVA 220 slim NWBZ') & \
-                        (display_df['ContainerValue'].str.contains('15.6" diagonal, HD (1366 x 768), micro-edge, anti-glare, 220 nits, 45% NTSC',regex=False, case=False))) | \
+                        (display_df['ContainerValue'].str.contains('15.6" diagonal, HD (1366 x 768), micro-edge, anti-glare, 220 nits, 45% NTSC', regex=False, case=False))) | \
                     (display_df['PhwebDescription'].str.contains('LCD 15.6 HD AG LED SVA 250 NWBZ uslim') & \
-                        (display_df['ContainerValue'].str.contains('15.6" diagonal, HD (1366 x 768), micro-edge, anti-glare, 250 nits, 45% NTSC',regex=False, case=False))) | \
+                        (display_df['ContainerValue'].str.contains('15.6" diagonal, HD (1366 x 768), micro-edge, anti-glare, 250 nits, 45% NTSC', regex=False, case=False))) | \
                     (display_df['PhwebDescription'].str.contains('LCD 15.6 HDV LED SVA 220 slim TOP NWBZ') & \
-                        (display_df['ContainerValue'].str.contains('15.6" diagonal, HD (1366 x 768), touch, micro-edge, BrightView, 220 nits, 45% NTSC',regex=False, case=False))) | \
+                        (display_df['ContainerValue'].str.contains('15.6" diagonal, HD (1366 x 768), touch, micro-edge, BrightView, 220 nits, 45% NTSC', regex=False, case=False))) | \
                     (display_df['PhwebDescription'].str.contains('LCD 15.6 HDV LED SVA 250 NWBZ uslim') & \
-                        (display_df['ContainerValue'].str.contains('15.6" diagonal, HD (1366 x 768), micro-edge, BrightView, 250 nits, 45% NTSC',regex=False, case=False))) | \
+                        (display_df['ContainerValue'].str.contains('15.6" diagonal, HD (1366 x 768), micro-edge, BrightView, 250 nits, 45% NTSC', regex=False, case=False))) | \
                     (display_df['PhwebDescription'].str.contains('LCD 15.6 HDV LED SVA 250 TOP NWBZ flat') & \
-                        (display_df['ContainerValue'].str.contains('15.6" diagonal, HD (1366 x 768), touch, micro-edge, BrightView, 250 nits, 45% NTSC',regex=False, case=False)))
+                        (display_df['ContainerValue'].str.contains('15.6" diagonal, HD (1366 x 768), touch, micro-edge, BrightView, 250 nits, 45% NTSC', regex=False, case=False)))
 
     display_df.loc[maskDisplay, 'Accuracy'] = 'SCS Display OK'
     display_df.loc[~maskDisplay, 'Accuracy'] = 'ERROR Display'
 
     df.update(display_df['Accuracy'])
 
-    ################################################################ Hard Drive
+################################################################ Hard Drive
 
-    hd_01des = df.loc[df['ContainerName'].str.contains('hd_01des')]
-    maskHardDrive = (hd_01des['PhwebDescription'].str.contains('SSD 512GB PCIe NVMe') & \
-                        (hd_01des['ContainerValue'].str.contains('512 GB PCIe® Gen4 NVMe™ TLC M.2 SSD', case=False))) | \
-                    (hd_01des['PhwebDescription'].str.contains('SSD 512G 2280 PCIe NVMe Value') & \
-                        (hd_01des['ContainerValue'].str.contains('512 GB PCIe® NVMe™ M.2 SSD', case=False))) | \
-                    (hd_01des['PhwebDescription'].str.contains('SSD 512GB PCIe-4x4 NVMe TLC') & \
-                        (hd_01des['ContainerValue'].str.contains('512 GB PCIe® NVMe™ TLC M.2 SSD', case=False))) | \
-                    (hd_01des['PhwebDescription'].str.contains('SSD 256GB PCIe NVMe Value') & \
-                        (hd_01des['ContainerValue'].str.contains('256 GB PCIe® NVMe™ M.2 SSD', case=False))) | \
-                    (hd_01des['PhwebDescription'].str.contains('SSD 256GB PCIe NVMe TLC') & \
-                        (hd_01des['ContainerValue'].str.contains('256 GB PCIe® NVMe™ TLC M.2 SSD', case=False))) | \
-                    (hd_01des['PhwebDescription'].str.contains('SSD 1TB PCIe NVMe Value') & \
-                        (hd_01des['ContainerValue'].str.contains('1 TB PCIe® NVMe™ M.2 SSD', case=False))) | \
-                    (hd_01des['PhwebDescription'].str.contains('SSD 1TB PCIe NVMe TLC') & \
-                        (hd_01des['ContainerValue'].str.contains('1 TB PCIe® Gen4 NVMe™ TLC M.2 SSD', case=False))) | \
-                    (hd_01des['PhwebDescription'].str.contains('SSD 2TB 2280 PCIe-4x4 NVMe TLC') & \
-                        (hd_01des['ContainerValue'].str.contains('2 TB PCIe® Gen4 NVMe™ TLC M.2 SSD', case=False))) | \
-                    (hd_01des['PhwebDescription'].str.contains('SSD 2TB PCIe NVMe TLC') & \
-                        (hd_01des['ContainerValue'].str.contains('2 TB PCIe® NVMe™ TLC M.2 SSD', case=False)))
+    hd_01des_df = df.loc[df['ContainerName'].str.contains('hd_01des')]
+    maskHardDrive = (hd_01des_df['PhwebDescription'].str.contains('SSD 512GB PCIe NVMe') & \
+                        (hd_01des_df['ContainerValue'].str.contains('512 GB PCIe® Gen4 NVMe™ TLC M.2 SSD', regex=False, case=False))) | \
+                    (hd_01des_df['PhwebDescription'].str.contains('SSD 512G 2280 PCIe NVMe Value') & \
+                        (hd_01des_df['ContainerValue'].str.contains('512 GB PCIe® NVMe™ M.2 SSD', case=False))) | \
+                    (hd_01des_df['PhwebDescription'].str.contains('SSD 512GB PCIe-4x4 NVMe TLC') & \
+                        (hd_01des_df['ContainerValue'].str.contains('512 GB PCIe® NVMe™ TLC M.2 SSD', regex=False, case=False))) | \
+                    (hd_01des_df['PhwebDescription'].str.contains('SSD 256GB PCIe NVMe Value') & \
+                        (hd_01des_df['ContainerValue'].str.contains('256 GB PCIe® NVMe™ M.2 SSD', regex=False, case=False))) | \
+                    (hd_01des_df['PhwebDescription'].str.contains('SSD 256GB PCIe NVMe TLC') & \
+                        (hd_01des_df['ContainerValue'].str.contains('256 GB PCIe® NVMe™ TLC M.2 SSD', regex=False, case=False))) | \
+                    (hd_01des_df['PhwebDescription'].str.contains('SSD 1TB PCIe NVMe Value') & \
+                        (hd_01des_df['ContainerValue'].str.contains('1 TB PCIe® NVMe™ M.2 SSD', regex=False, case=False))) | \
+                    (hd_01des_df['PhwebDescription'].str.contains('SSD 1TB PCIe NVMe TLC') & \
+                        (hd_01des_df['ContainerValue'].str.contains('1 TB PCIe® Gen4 NVMe™ TLC M.2 SSD', regex=False, case=False))) | \
+                    (hd_01des_df['PhwebDescription'].str.contains('SSD 2TB 2280 PCIe-4x4 NVMe TLC') & \
+                        (hd_01des_df['ContainerValue'].str.contains('2 TB PCIe® Gen4 NVMe™ TLC M.2 SSD', regex=False, case=False))) | \
+                    (hd_01des_df['PhwebDescription'].str.contains('SSD 2TB PCIe NVMe TLC') & \
+                        (hd_01des_df['ContainerValue'].str.contains('2 TB PCIe® NVMe™ TLC M.2 SSD', regex=False, case=False)))
 
-    hd_01des.loc[maskHardDrive, 'Accuracy'] = 'SCS Hard Drive OK'
-    hd_01des.loc[~maskHardDrive, 'Accuracy'] = 'ERROR Hard Drive'
+    hd_01des_df.loc[maskHardDrive, 'Accuracy'] = 'SCS Hard Drive OK'
+    hd_01des_df.loc[~maskHardDrive, 'Accuracy'] = 'ERROR Hard Drive'
 
-    df.update(display_df['Accuracy'])
+    df.update(hd_01des_df['Accuracy'])
 
-    ################################################################ save the excel
+################################################################ Operating System
+
+    osinstalled_df = df.loc[df['ContainerName'].str.contains('osinstalled')]
+    maskOperatingSystem = (osinstalled_df['PhwebDescription'].str.contains('Chrome64') & \
+                        (osinstalled_df['ContainerValue'].str.contains('ChromeOS', case=False))) | \
+                    (osinstalled_df['PhwebDescription'].str.contains('FreeDOS') & \
+                        (osinstalled_df['ContainerValue'].str.contains('FreeDOS', case=False))) | \
+                    (osinstalled_df['PhwebDescription'].str.contains('NWZH6') & \
+                        (osinstalled_df['ContainerValue'].str.contains('Windows 11 Home', case=False))) | \
+                    (osinstalled_df['PhwebDescription'].str.contains('NWZHS6') & \
+                        (osinstalled_df['ContainerValue'].str.contains('Windows 11 Home in S mode', case=False))) | \
+                    (osinstalled_df['PhwebDescription'].str.contains('NWZP6') & \
+                        (osinstalled_df['ContainerValue'].str.contains('Windows 11 Pro', case=False))) 
+
+    osinstalled_df.loc[maskOperatingSystem, 'Accuracy'] = 'SCS Operating System OK'
+    osinstalled_df.loc[~maskOperatingSystem, 'Accuracy'] = 'ERROR Operating System'
+
+    df.update(osinstalled_df['Accuracy'])
+
+################################################################ Power Supply Type
+
+    powersupplytype_df = df.loc[df['ContainerName'].str.contains('powersupplytype')]
+    maskPowerSupply = (powersupplytype_df['PhwebDescription'].str.contains('120 Watt') & \
+                        (powersupplytype_df['ContainerValue'].str.contains('120 W Smart AC power adapter', case=False))) | \
+                    (powersupplytype_df['PhwebDescription'].str.contains('135 Watt') & \
+                        (powersupplytype_df['ContainerValue'].str.contains('135 W Smart AC power adapter', case=False))) | \
+                    (powersupplytype_df['PhwebDescription'].str.contains('150 Watt') & \
+                        (powersupplytype_df['ContainerValue'].str.contains('150 W Smart AC power adapter', case=False))) | \
+                    (powersupplytype_df['PhwebDescription'].str.contains('180W ENT20') & \
+                        (powersupplytype_df['ContainerValue'].str.contains('180 W 80 Plus Gold certified power supply', case=False))) | \
+                    (powersupplytype_df['PhwebDescription'].str.contains('180W SFF ENTS20') & \
+                        (powersupplytype_df['ContainerValue'].str.contains('180 W Gold efficiency power supply', case=False))) | \
+                    (powersupplytype_df['PhwebDescription'].str.contains('180W Smart PFC') & \
+                        (powersupplytype_df['ContainerValue'].str.contains('180 W Smart AC power adapter', case=False))) | \
+                    (powersupplytype_df['PhwebDescription'].str.contains('200 Watt') & \
+                        (powersupplytype_df['ContainerValue'].str.contains('200 W Smart AC power adapter', case=False))) | \
+                    (powersupplytype_df['PhwebDescription'].str.contains('210W') & \
+                        (powersupplytype_df['ContainerValue'].str.contains('210 W 80 Plus Platinum certified power supply', case=False))) | \
+                    (powersupplytype_df['PhwebDescription'].str.contains('230W SLM') & \
+                        (powersupplytype_df['ContainerValue'].str.contains('230 W AC power adapter', case=False))) | \
+                    (powersupplytype_df['PhwebDescription'].str.contains('280W') & \
+                        (powersupplytype_df['ContainerValue'].str.contains('280 W Smart AC power adapter', case=False))) | \
+                    (powersupplytype_df['PhwebDescription'].str.contains('310W') & \
+                        (powersupplytype_df['ContainerValue'].str.contains('310 W 80 Plus Gold certified power supply', case=False))) | \
+                    (powersupplytype_df['PhwebDescription'].str.contains('330W NSLM') & \
+                        (powersupplytype_df['ContainerValue'].str.contains('330 W Smart AC power adapter', case=False))) | \
+                    (powersupplytype_df['PhwebDescription'].str.contains('350W') & \
+                        (powersupplytype_df['ContainerValue'].str.contains('350 W 80 Plus Gold certified power supply', case=False))) | \
+                    (powersupplytype_df['PhwebDescription'].str.contains('400W ') & \
+                        (powersupplytype_df['ContainerValue'].str.contains('400 W 80 Plus Gold certified power supply', case=False)))
+
+    powersupplytype_df.loc[maskPowerSupply, 'Accuracy'] = 'SCS Power Supply Type OK'
+    powersupplytype_df.loc[~maskPowerSupply, 'Accuracy'] = 'ERROR Power Supply Type'
+
+    df.update(powersupplytype_df['Accuracy'])
+
+################################################################ EPEAT
+
+    energyeffcomp_df = df.loc[df['ContainerName'].str.contains('energyeffcomp')]
+    maskEPEAT = (energyeffcomp_df['PhwebDescription'].str.contains('FLAG') & \
+                        (energyeffcomp_df['ContainerValue'].str.contains('EPEAT® registered', regex=False, case=False)))
+
+    energyeffcomp_df.loc[maskEPEAT, 'Accuracy'] = 'SCS EPEAT OK'
+    energyeffcomp_df.loc[~maskEPEAT, 'Accuracy'] = 'ERROR EPEAT'
+
+    df.update(energyeffcomp_df['Accuracy'])
+
+################################################################ ENERGY STAR
+
+    energystar_df = df.loc[df['ContainerName'].str.contains('energystar')]
+    maskES = (energystar_df['PhwebDescription'].str.contains('FLAG') & \
+                        (energystar_df['ContainerValue'].str.contains('ENERGY STAR® certified', regex=False, case=False)))
+
+    energystar_df.loc[maskES, 'Accuracy'] = 'SCS ENERGY STAR OK'
+    energystar_df.loc[~maskES, 'Accuracy'] = 'ERROR ENERGY STAR'
+
+    df.update( energystar_df['Accuracy'])
+
+################################################################ Graphic Card
+
+    graphicseg_02card_01_df = df.loc[df['ContainerName'].str.contains('graphicseg_02card_01')]
+    maskGraphicCard = (graphicseg_02card_01_df['PhwebDescription'].str.contains('GFX AMD Rdn RX 6400 4GB GDDR6') & \
+                        (graphicseg_02card_01_df['ContainerValue'].str.contains('AMD Radeon™ RX 6400 Graphics (4 GB GDDR6 dedicated)', regex=False, case=False))) | \
+                    (graphicseg_02card_01_df['PhwebDescription'].str.contains('BU IDS DSC RX 6500M 4GB Ryzen5 5600H 15') & \
+                        (graphicseg_02card_01_df['ContainerValue'].str.contains('AMD Radeon™ RX 6500M Graphics (4 GB GDDR6 dedicated)', regex=False, case=False))) | \
+                    (graphicseg_02card_01_df['PhwebDescription'].str.contains('GFX AMD Rdn RX 6600XT 8GB GDDR6') & \
+                        (graphicseg_02card_01_df['ContainerValue'].str.contains('AMD Radeon™ RX 6600 XT Graphics (8 GB GDDR6 dedicated)', regex=False, case=False))) | \
+                    (graphicseg_02card_01_df['PhwebDescription'].str.contains('BU IDS DSC RX xxx 8GB Ryzen7 5800H 16') & \
+                        (graphicseg_02card_01_df['ContainerValue'].str.contains('AMD Radeon™ RX 6600M Graphics (8 GB GDDR6 dedicated)', regex=False, case=False))) | \
+                    (graphicseg_02card_01_df['PhwebDescription'].str.contains('RX 6650M 8GB') & \
+                        (graphicseg_02card_01_df['ContainerValue'].str.contains('AMD Radeon™ RX 6650M Graphics (8 GB GDDR6 dedicated)', regex=False, case=False))) | \
+                    (graphicseg_02card_01_df['PhwebDescription'].str.contains('GFX AMD Rdn RX 6700XT 12GB GDDR6') & \
+                        (graphicseg_02card_01_df['ContainerValue'].str.contains('AMD Radeon™ RX 6700 XT Graphics (12 GB GDDR6 dedicated)', regex=False, case=False))) | \
+                    (graphicseg_02card_01_df['PhwebDescription'].str.contains('Arc A370M 4G') & \
+                        (graphicseg_02card_01_df['ContainerValue'].str.contains('Intel® Arc™ A370M Graphics (4 GB GDDR6 dedicated)', regex=False, case=False))) | \
+                    (graphicseg_02card_01_df['PhwebDescription'].str.contains('BU IDS DSCRTX20504GB i7-1255U') & \
+                        (graphicseg_02card_01_df['ContainerValue'].str.contains('NVIDIA® GeForce RTX™ 2050 Laptop GPU (4 GB GDDR6 dedicated)', regex=False, case=False)))
+
+    graphicseg_02card_01_df.loc[maskGraphicCard, 'Accuracy'] = 'SCS Graphic Card OK'
+    graphicseg_02card_01_df.loc[~maskGraphicCard, 'Accuracy'] = 'ERROR Graphic Card'
+
+    df.update(graphicseg_02card_01_df['Accuracy'])
+
+
+################################################################ save the excel
 
     df.to_excel('chido.xlsx', index=False)
     workbook = openpyxl.load_workbook('chido.xlsx')
     worksheet = workbook.active
-    header_fill = PatternFill(start_color='0072C6', end_color='0072C6', fill_type='solid')
+    header_fill = PatternFill(start_color='0072C6', end_color='0072C6', fill_type='solid') # Add nice fill
     for cell in worksheet[1]:
         cell.fill = header_fill
     workbook.save('chido.xlsx')
 
 def main():
     loadReport()
-
 
 if __name__ == "__main__":
     main()
