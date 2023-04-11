@@ -418,6 +418,53 @@ def cleanReport(xlsx_file):
 
     df.update(graphicseg_02card_01_df['Accuracy'])
 
+################################################################ Optical Drive
+
+    cdromdvd_df = df.loc[df['ContainerName'].str.contains('cdromdvd')]
+    maskCD = (cdromdvd_df['PhwebDescription'].str.contains('DVDWR') & \
+                        (cdromdvd_df['ContainerValue'].str.contains('DVD-Writer', case=False)))
+
+    cdromdvd_df.loc[maskCD, 'Accuracy'] = 'SCS Optical Drive OK'
+    cdromdvd_df.loc[~maskCD, 'Accuracy'] = 'ERROR Optical Drive'
+
+    df.update( cdromdvd_df['Accuracy'])
+
+################################################################ Wireless Tech
+
+    wirelesstech_df = df.loc[df['ContainerName'].str.contains('wirelesstech')]
+    maskWirelessTech = (wirelesstech_df['PhwebDescription'].str.contains('WLAN IWiFi6AX201ax2x2MUMIMOnvP160MHz+BT5') & \
+                        (wirelesstech_df['ContainerValue'].str.contains('Intel® Wi-Fi 6 AX201 (2x2) and Bluetooth® 5.2 wireless card (supporting gigabit data rate)', regex=False, case=False))) | \
+                    (wirelesstech_df['PhwebDescription'].str.contains('WLAN I AX210 Wi-Fi6e nvP 160MHz +BT5.2WW') & \
+                        (wirelesstech_df['ContainerValue'].str.contains('Intel® Wi-Fi 6E AX210 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)', regex=False, case=False))) | \
+                    (wirelesstech_df['PhwebDescription'].str.contains('WLAN I AX211 Wi-Fi6e 160MHz +BT 5.2 WW') & \
+                        (wirelesstech_df['ContainerValue'].str.contains('Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)', regex=False, case=False))) | \
+                    (wirelesstech_df['PhwebDescription'].str.contains('WLAN I AX411 Wi-Fi6e 160MHz +BT 5.2 WW') & \
+                        (wirelesstech_df['ContainerValue'].str.contains('Intel® Wi-Fi 6E AX411 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)', regex=False, case=False))) | \
+                    (wirelesstech_df['PhwebDescription'].str.contains('WLAN I 9461 ac 1x1 MU-MIMO nvP+BT5WW1Ant') & \
+                        (wirelesstech_df['ContainerValue'].str.contains('Intel® Wireless-AC 9461 802.11a/b/g/n/ac (1x1) Wi-Fi® and Bluetooth® 5.1 wireless card', regex=False, case=False))) | \
+                    (wirelesstech_df['PhwebDescription'].str.contains('WLAN Wi-Fi6 +BT 5.2') & \
+                        (wirelesstech_df['ContainerValue'].str.contains('MediaTek Wi-Fi 6 MT7921 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)', regex=False, case=False))) | \
+                    (wirelesstech_df['PhwebDescription'].str.contains('Arc A370M 4G') & \
+                        (wirelesstech_df['ContainerValue'].str.contains('Intel® Arc™ A370M Graphics (4 GB GDDR6 dedicated)', regex=False, case=False))) | \
+                    (wirelesstech_df['PhwebDescription'].str.contains('WLAN RT ac 2x2 +BT 5 WW') & \
+                        (wirelesstech_df['ContainerValue'].str.contains('Realtek 802.11a/b/g/n/ac (2x2) Wi-Fi® and Bluetooth® 5 wireless card', regex=False, case=False)))
+
+    wirelesstech_df.loc[maskWirelessTech, 'Accuracy'] = 'SCS Wireless Tech OK'
+    wirelesstech_df.loc[~maskWirelessTech, 'Accuracy'] = 'ERROR Wireless Tech'
+
+    df.update(wirelesstech_df['Accuracy'])
+
+################################################################ Special Features
+
+    perftechn_df = df.loc[df['ContainerName'].str.contains('perftechn')]
+    maskSpecialFeatures = (perftechn_df['PhwebDescription'].str.contains('Intel Evo') & \
+                        (perftechn_df['ContainerValue'].str.contains('Intel® Evo™ laptop', case=False)))
+
+    perftechn_df.loc[maskSpecialFeatures, 'Accuracy'] = 'SCS Special Features OK'
+    perftechn_df.loc[~maskSpecialFeatures, 'Accuracy'] = 'ERROR Special Features'
+
+    df.update( perftechn_df['Accuracy'])
+
 
 ################################################################ save the excel
 
