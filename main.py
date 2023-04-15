@@ -40,8 +40,10 @@ def cleanReport(xlsx_file):
                     (memstdes_01_df['PhwebDescription'].str.contains('SSD 2TB 2280 PCIe-4x4 NVMe TLC', regex=False) & \
                         (memstdes_01_df['ContainerValue'].str.contains('2 TB PCIe® Gen4 NVMe™ TLC M.2 SSD' ,regex=False, case=False))) | \
                     (memstdes_01_df['PhwebDescription'].str.contains('SSD 2TB PCIe NVMe TLC', regex=False) & \
-                        (memstdes_01_df['ContainerValue'].str.contains('2 TB PCIe® NVMe™ TLC M.2 SSD', regex=False, case=False)))
-    
+                        (memstdes_01_df['ContainerValue'].str.contains('2 TB PCIe® NVMe™ TLC M.2 SSD', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM 32GB (2x16GB) DDR4 3200 NECC', regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('32 GB DDR4-3200 MHz RAM (2 x 16 GB)', regex=False, case=False)))
+
     memstdes_01_df.loc[maskMemory, 'Accuracy'] = 'SCS Memory OK'
     memstdes_01_df.loc[~maskMemory, 'Accuracy'] = 'ERROR Memory'
 
@@ -196,7 +198,7 @@ def cleanReport(xlsx_file):
 
 ################################################################ Processor Name
 
-    processorname_df = df.loc[df['ContainerName'].str.contains('processorname')]
+    processorname_df = df.loc[df['ContainerName'].str.strip() == 'processorname']
     maskProcessorName = (processorname_df['PhwebDescription'].str.contains('3020e') & \
                             (processorname_df['ContainerValue'].str.contains('AMD 3020e (1.2 GHz base clock, up to 2.6 GHz max boost clock, 4 MB L3 cache, 2 cores, 2 threads)',regex=False, case=False))) | \
                         (processorname_df['PhwebDescription'].str.contains('3050U') & \
@@ -234,7 +236,10 @@ def cleanReport(xlsx_file):
                         (processorname_df['PhwebDescription'].str.contains('6800H') & \
                             (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 7 6800H (up to 4.7 GHz max boost clock, 16 MB L3 cache, 8 cores, 16 threads)',regex=False, case=False))) | \
                         (processorname_df['PhwebDescription'].str.contains('5900X') & \
-                            (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 9 5900X (up to 4.8 GHz max boost clock, 64 MB L3 cache, 12 cores, 24 threads)',regex=False, case=False)))
+                            (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 9 5900X (up to 4.8 GHz max boost clock, 64 MB L3 cache, 12 cores, 24 threads)',regex=False, case=False))) | \
+                        (processorname_df['PhwebDescription'].str.contains('CPU INTL i7-12700F 12C 2.10 65W') & \
+                            (processorname_df['ContainerValue'].str.contains('Intel® Core™ i7-12700F (up to 4.9 GHz with Intel® Turbo Boost Technology, 25 MB L3 cache, 12 cores, 20 threads)',regex=False, case=False)))
+
                                     
     processorname_df.loc[maskProcessorName, 'Accuracy'] = 'SCS Processor Name OK'
     processorname_df.loc[~maskProcessorName, 'Accuracy'] = 'ERROR Processor Name'
@@ -308,7 +313,9 @@ def cleanReport(xlsx_file):
                     (hd_01des_df['PhwebDescription'].str.contains('SSD 2TB 2280 PCIe-4x4 NVMe TLC') & \
                         (hd_01des_df['ContainerValue'].str.contains('2 TB PCIe® Gen4 NVMe™ TLC M.2 SSD', regex=False, case=False))) | \
                     (hd_01des_df['PhwebDescription'].str.contains('SSD 2TB PCIe NVMe TLC') & \
-                        (hd_01des_df['ContainerValue'].str.contains('2 TB PCIe® NVMe™ TLC M.2 SSD', regex=False, case=False)))
+                        (hd_01des_df['ContainerValue'].str.contains('2 TB PCIe® NVMe™ TLC M.2 SSD', regex=False, case=False))) | \
+                    (hd_01des_df['PhwebDescription'].str.contains('SSD 1T 2280 PCIe NVMe Value') & \
+                        (hd_01des_df['ContainerValue'].str.contains('1 TB PCIe® NVMe™ M.2 SSD', regex=False, case=False)))
 
     hd_01des_df.loc[maskHardDrive, 'Accuracy'] = 'SCS Hard Drive OK'
     hd_01des_df.loc[~maskHardDrive, 'Accuracy'] = 'ERROR Hard Drive'
@@ -317,7 +324,7 @@ def cleanReport(xlsx_file):
 
 ################################################################ Operating System
 
-    osinstalled_df = df.loc[df['ContainerName'].str.contains('osinstalled')]
+    osinstalled_df = df.loc[df['ContainerName'].str.contains('osinstalled|facet_os')] # both os fields share the same description
     maskOperatingSystem = (osinstalled_df['PhwebDescription'].str.contains('Chrome64') & \
                         (osinstalled_df['ContainerValue'].str.contains('ChromeOS', case=False))) | \
                     (osinstalled_df['PhwebDescription'].str.contains('FreeDOS') & \
@@ -363,8 +370,10 @@ def cleanReport(xlsx_file):
                         (powersupplytype_df['ContainerValue'].str.contains('330 W Smart AC power adapter', case=False))) | \
                     (powersupplytype_df['PhwebDescription'].str.contains('350W') & \
                         (powersupplytype_df['ContainerValue'].str.contains('350 W 80 Plus Gold certified power supply', case=False))) | \
-                    (powersupplytype_df['PhwebDescription'].str.contains('400W ') & \
-                        (powersupplytype_df['ContainerValue'].str.contains('400 W 80 Plus Gold certified power supply', case=False)))
+                    (powersupplytype_df['PhwebDescription'].str.contains('400W') & \
+                        (powersupplytype_df['ContainerValue'].str.contains('400 W 80 Plus Gold certified power supply', case=False))) | \
+                    (powersupplytype_df['PhwebDescription'].str.contains('P/S 500W MT WS20') & \
+                        (powersupplytype_df['ContainerValue'].str.contains('500 W 80 Plus Bronze certified power supply', case=False)))
 
     powersupplytype_df.loc[maskPowerSupply, 'Accuracy'] = 'SCS Power Supply Type OK'
     powersupplytype_df.loc[~maskPowerSupply, 'Accuracy'] = 'ERROR Power Supply Type'
@@ -393,6 +402,7 @@ def cleanReport(xlsx_file):
 
     df.update( energystar_df['Accuracy'])
 
+
 ################################################################ Graphic Card
 
     graphicseg_02card_01_df = df.loc[df['ContainerName'].str.contains('graphicseg_02card_01')]
@@ -411,7 +421,10 @@ def cleanReport(xlsx_file):
                     (graphicseg_02card_01_df['PhwebDescription'].str.contains('Arc A370M 4G') & \
                         (graphicseg_02card_01_df['ContainerValue'].str.contains('Intel® Arc™ A370M Graphics (4 GB GDDR6 dedicated)', regex=False, case=False))) | \
                     (graphicseg_02card_01_df['PhwebDescription'].str.contains('BU IDS DSCRTX20504GB i7-1255U') & \
-                        (graphicseg_02card_01_df['ContainerValue'].str.contains('NVIDIA® GeForce RTX™ 2050 Laptop GPU (4 GB GDDR6 dedicated)', regex=False, case=False)))
+                        (graphicseg_02card_01_df['ContainerValue'].str.contains('NVIDIA® GeForce RTX™ 2050 Laptop GPU (4 GB GDDR6 dedicated)', regex=False, case=False))) | \
+                    (graphicseg_02card_01_df['PhwebDescription'].str.contains('GFX NVIDIA GeF RTX 3060 Ti 8GB GDDR6') & \
+                        (graphicseg_02card_01_df['ContainerValue'].str.contains('NVIDIA® GeForce RTX™ 3060 Ti (8 GB GDDR6 dedicated) with LHR', regex=False, case=False)))
+
 
     graphicseg_02card_01_df.loc[maskGraphicCard, 'Accuracy'] = 'SCS Graphic Card OK'
     graphicseg_02card_01_df.loc[~maskGraphicCard, 'Accuracy'] = 'ERROR Graphic Card'
@@ -431,7 +444,7 @@ def cleanReport(xlsx_file):
 
 ################################################################ Wireless Tech
 
-    wirelesstech_df = df.loc[df['ContainerName'].str.contains('wirelesstech')]
+    wirelesstech_df = df.loc[df['ContainerName'].str.strip() == 'wirelesstech']
     maskWirelessTech = (wirelesstech_df['PhwebDescription'].str.contains('WLAN IWiFi6AX201ax2x2MUMIMOnvP160MHz+BT5') & \
                         (wirelesstech_df['ContainerValue'].str.contains('Intel® Wi-Fi 6 AX201 (2x2) and Bluetooth® 5.2 wireless card (supporting gigabit data rate)', regex=False, case=False))) | \
                     (wirelesstech_df['PhwebDescription'].str.contains('WLAN I AX210 Wi-Fi6e nvP 160MHz +BT5.2WW') & \
@@ -447,7 +460,9 @@ def cleanReport(xlsx_file):
                     (wirelesstech_df['PhwebDescription'].str.contains('Arc A370M 4G') & \
                         (wirelesstech_df['ContainerValue'].str.contains('Intel® Arc™ A370M Graphics (4 GB GDDR6 dedicated)', regex=False, case=False))) | \
                     (wirelesstech_df['PhwebDescription'].str.contains('WLAN RT ac 2x2 +BT 5 WW') & \
-                        (wirelesstech_df['ContainerValue'].str.contains('Realtek 802.11a/b/g/n/ac (2x2) Wi-Fi® and Bluetooth® 5 wireless card', regex=False, case=False)))
+                        (wirelesstech_df['ContainerValue'].str.contains('Realtek 802.11a/b/g/n/ac (2x2) Wi-Fi® and Bluetooth® 5 wireless card', regex=False, case=False))) | \
+                    (wirelesstech_df['PhwebDescription'].str.contains('WLAN RT 8852AE Wi-Fi6 +BT 5.2 WW') & \
+                        (wirelesstech_df['ContainerValue'].str.contains('Realtek Wi-Fi 6 (2x2) and Bluetooth® 5.2 wireless card (supporting gigabit data rate)', regex=False, case=False)))
 
     wirelesstech_df.loc[maskWirelessTech, 'Accuracy'] = 'SCS Wireless Tech OK'
     wirelesstech_df.loc[~maskWirelessTech, 'Accuracy'] = 'ERROR Wireless Tech'
@@ -465,6 +480,40 @@ def cleanReport(xlsx_file):
 
     df.update( perftechn_df['Accuracy'])
 
+################################################################ Facets
+
+    facet_environ_df = df.loc[df['ContainerName'].str.contains('facet_environ')]
+    maskfacet_environ = (facet_environ_df['PhwebDescription'].str.contains('FLAG') & \
+                        (facet_environ_df['ContainerValue'].str.contains('ENERGY STAR® certified; EPEAT® registered', regex=False, case=False)))
+
+    facet_environ_df.loc[maskfacet_environ, 'Accuracy'] = 'SCS ENERGY STAR OK'
+    facet_environ_df.loc[~maskfacet_environ, 'Accuracy'] = 'ERROR ENERGY STAR'
+
+    df.update( facet_environ_df['Accuracy'])
+
+
+
+    facet_memstd_df = df.loc[df['ContainerName'].str.contains('facet_memstd') & df['ComponentGroup'].str.contains('Memory')]
+
+    maskfacet_memstd = (facet_memstd_df['PhwebDescription'].str.contains('12GB') & \
+                            (facet_memstd_df['ContainerValue'].str.contains('12'))) | \
+                        (facet_memstd_df['PhwebDescription'].str.contains('128GB') & \
+                            (facet_memstd_df['ContainerValue'].str.contains('128'))) | \
+                        (facet_memstd_df['PhwebDescription'].str.contains('16') & \
+                            (facet_memstd_df['ContainerValue'].str.contains('16'))) | \
+                        (facet_memstd_df['PhwebDescription'].str.contains('32GB') & \
+                            (facet_memstd_df['ContainerValue'].str.contains('32'))) | \
+                        (facet_memstd_df['PhwebDescription'].str.contains('64GB') & \
+                            (facet_memstd_df['ContainerValue'].str.contains('64'))) | \
+                        (facet_memstd_df['PhwebDescription'].str.contains('8GB') & \
+                            (facet_memstd_df['ContainerValue'].str.contains('8'))) | \
+                        (facet_memstd_df['PhwebDescription'].str.contains('4GB') & \
+                            (facet_memstd_df['ContainerValue'].str.contains('4')))                            
+
+    facet_memstd_df.loc[maskfacet_memstd, 'Accuracy'] = 'SCS Memory OK'
+    facet_memstd_df.loc[~maskfacet_memstd, 'Accuracy'] = 'ERROR Memory'
+
+    df.update(facet_memstd_df['Accuracy'])
 
 ################################################################ save the excel
 
