@@ -2,11 +2,11 @@ import pandas as pd
 import glob
 import openpyxl
 from openpyxl.styles import PatternFill
-from flask import Flask, request, render_template,redirect
+from flask import Flask, request, render_template,redirect,send_file
 
 app = Flask(__name__)
 
-ALLOWED_EXTENSIONS = {'xlsx'}  # Set of allowed file extensions
+ALLOWED_EXTENSIONS = {'xlsx'}
 
 def allowed_file(filename):
     """Check if a file has an allowed extension."""
@@ -15,29 +15,21 @@ def allowed_file(filename):
 
 @app.route('/', methods=['GET', 'POST'])
 
-
 def upload_file():
     if request.method == 'POST':
-        # Check if the file is present in the request
         if 'file' not in request.files:
             return redirect(request.url)
         
         file = request.files['file']
-        
-        # Check if the file has an allowed extension
+
         if not allowed_file(file.filename):
             return "Error: File must be in XLSX format."
-        
-
         cleanReport(file)
-
         
-        # Redirect to a success page
-        return "File uploaded successfully!"
+
+        return send_file('chido.xlsx', as_attachment=True)
     
     return render_template('matarael.html')
-
-
 
 def loadReport():
     """load the prism report from the folder specified, must be a xlsx file"""
@@ -560,6 +552,7 @@ def cleanReport(file):
     for cell in worksheet[1]:
         cell.fill = header_fill
     workbook.save('chido.xlsx')
+    
 
 def main():
     loadReport()
