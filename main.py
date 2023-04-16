@@ -2,6 +2,42 @@ import pandas as pd
 import glob
 import openpyxl
 from openpyxl.styles import PatternFill
+from flask import Flask, request, render_template,redirect
+
+app = Flask(__name__)
+
+ALLOWED_EXTENSIONS = {'xlsx'}  # Set of allowed file extensions
+
+def allowed_file(filename):
+    """Check if a file has an allowed extension."""
+    return '.' in filename and \
+           filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
+
+@app.route('/', methods=['GET', 'POST'])
+
+
+def upload_file():
+    if request.method == 'POST':
+        # Check if the file is present in the request
+        if 'file' not in request.files:
+            return redirect(request.url)
+        
+        file = request.files['file']
+        
+        # Check if the file has an allowed extension
+        if not allowed_file(file.filename):
+            return "Error: File must be in XLSX format."
+        
+
+        cleanReport(file)
+
+        
+        # Redirect to a success page
+        return "File uploaded successfully!"
+    
+    return render_template('matarael.html')
+
+
 
 def loadReport():
     """load the prism report from the folder specified, must be a xlsx file"""
@@ -11,9 +47,9 @@ def loadReport():
     for xlsx_file in xlsx_files: # Loop through all the files
         cleanReport(xlsx_file)
 
-def cleanReport(xlsx_file):
+def cleanReport(file):
     """Load, Clean and create a a new xlsx file"""
-    df = pd.read_excel(xlsx_file) # Load the file
+    df = pd.read_excel(file) # Load the file
     df = df[df['ContainerValue'] != '[BLANK]'] # Remove blanks
     df.replace('\u00A0', ' ', regex=True, inplace=True) # Remove weird spaces
 
@@ -529,4 +565,5 @@ def main():
     loadReport()
 
 if __name__ == "__main__":
+    app.run(debug=True)
     main()
