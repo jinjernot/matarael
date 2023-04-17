@@ -5,7 +5,7 @@
   
   body {
     background-color: black;
-    border: 1px solid white; 
+    border: 2px solid white; 
     box-sizing: border-box;
     height: 100vh;
     display: flex;
@@ -72,31 +72,33 @@
   font-family: serif;
   color: white;
   text-shadow: 0 0 2px #e19a86, 0 0 1.5px #854535, 0 0 1.5px #5c150c;
-  border: 1px solid white; 
+  border: 1px solid white;
+   
 }
 
 .upload-button {
-  padding: 5px;
   font-size: 180%;
-  margin-left: 10px;
+  margin-left: 33px;
+  background-color: #000;
+  color: #fff;
+  text-shadow: 0 0 2px #e19a86, 0 0 1.5px #854535, 0 0 1.5px #5c150c;
+  border: 1px solid black;
+  padding: 2px;
 }
 
 .custom-file-input {
   transform: scale(1, 1.5);
   line-height: 1.2em;
   letter-spacing: -.03em;
-
+  padding: 2px;
   position: relative;
   overflow: hidden;
   display: inline-block;
+  
 }
 
 .input-file {
   position: absolute;
-  top: 0;
-  left: 0;
   opacity: 0;
-  cursor: pointer;
-  height: 100%;
-  width: 100%;
+  
 }
