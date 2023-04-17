@@ -2,13 +2,28 @@
 <html>
 <head>
     <title>Matarael</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
 </head>
 <body>
-    <h1>Please upload the report</h1>
-    <form method="post" enctype="multipart/form-data">
-        <input type="file" name="file">
-        <input type="submit" value="Upload">
-    </form>
+
+<header class="eva-heading">
+    <h1 class="eva-heading__title">matarael</h1>
+    <h2 class="eva-heading__title">v 1.0</h2>
+    
+</header>
+
+<div class="upload-container">
+        <form method="post" enctype="multipart/form-data">
+            <div class="custom-file-input">
+                <input type="file" name="file" id="file" class="input-file">
+                <label for="file" class="eva-heading__episode-number">Choose File</label>
+            </div>
+        <input type="submit" value="Upload" class="upload-button">
+        </form>
+</div>
+<div class="image-container">
+<img src="{{ url_for('static', filename='images/SS.png') }}" alt="powered by sabarobe studios" width="50" height="50">
+</div>
 </body>
 </html>
 

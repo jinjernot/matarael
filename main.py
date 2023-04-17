@@ -5,6 +5,7 @@ from openpyxl.styles import PatternFill
 from flask import Flask, request, render_template,redirect,send_file
 
 app = Flask(__name__)
+app.use_static_for = 'static'
 
 ALLOWED_EXTENSIONS = {'xlsx'}
 
@@ -23,7 +24,7 @@ def upload_file():
         file = request.files['file']
 
         if not allowed_file(file.filename):
-            return "Error: File must be in XLSX format."
+            return render_template('error.html')
         cleanReport(file)
         
 
