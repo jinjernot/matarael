@@ -10,13 +10,14 @@ app.use_static_for = 'static'
 ALLOWED_EXTENSIONS = {'xlsx'}
 
 def allowed_file(filename):
-    """Check if a file has an allowed extension."""
+    """set the allowed file.xlsx"""
     return '.' in filename and \
            filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
 
 @app.route('/', methods=['GET', 'POST'])
 
 def upload_file():
+    """Check if a file is .xlsx, if not, return an error"""
     if request.method == 'POST':
         if 'file' not in request.files:
             return redirect(request.url)
@@ -31,14 +32,6 @@ def upload_file():
         return send_file('chido.xlsx', as_attachment=True)
     
     return render_template('matarael.html')
-
-def loadReport():
-    """load the prism report from the folder specified, must be a xlsx file"""
-    folder_path = "./xlsx/"
-    xlsx_files = glob.glob(folder_path + "*.xlsx")
-
-    for xlsx_file in xlsx_files: # Loop through all the files
-        cleanReport(xlsx_file)
 
 def cleanReport(file):
     """Load, Clean and create a a new xlsx file"""
@@ -431,7 +424,6 @@ def cleanReport(file):
 
     df.update( energystar_df['Accuracy'])
 
-
 ################################################################ Graphic Card
 
     graphicseg_02card_01_df = df.loc[df['ContainerName'].str.contains('graphicseg_02card_01')]
@@ -520,8 +512,6 @@ def cleanReport(file):
 
     df.update( facet_environ_df['Accuracy'])
 
-
-
     facet_memstd_df = df.loc[df['ContainerName'].str.contains('facet_memstd') & df['ComponentGroup'].str.contains('Memory')]
 
     maskfacet_memstd = (facet_memstd_df['PhwebDescription'].str.contains('12GB') & \
@@ -553,10 +543,9 @@ def cleanReport(file):
     for cell in worksheet[1]:
         cell.fill = header_fill
     workbook.save('chido.xlsx')
-    
 
 def main():
-    loadReport()
+    upload_file()
 
 if __name__ == "__main__":
     app.run(debug=True)
