@@ -373,7 +373,7 @@ def cleanReport(file):
 
 ################################################################ Operating System
 
-    osinstalled_df = df.loc[df['ContainerName'].str.contains('osinstalled|facet_os')] # both os fields share the same description
+    osinstalled_df = df.loc[df['ContainerName'].str.strip() == 'osinstalled']
     maskOperatingSystem = (osinstalled_df['PhwebDescription'].str.contains('Chrome64') & \
                         (osinstalled_df['ContainerValue'].str.contains('ChromeOS', case=False))) | \
                     (osinstalled_df['PhwebDescription'].str.contains('FreeDOS') & \
@@ -422,7 +422,19 @@ def cleanReport(file):
                     (powersupplytype_df['PhwebDescription'].str.contains('400W') & \
                         (powersupplytype_df['ContainerValue'].str.contains('400 W 80 Plus Gold certified power supply', case=False))) | \
                     (powersupplytype_df['PhwebDescription'].str.contains('P/S 500W MT WS20') & \
-                        (powersupplytype_df['ContainerValue'].str.contains('500 W 80 Plus Bronze certified power supply', case=False)))
+                        (powersupplytype_df['ContainerValue'].str.contains('500 W 80 Plus Bronze certified power supply', case=False))) | \
+                    (powersupplytype_df['PhwebDescription'].str.contains('1200W ATX') & \
+                        (powersupplytype_df['ContainerValue'].str.contains('1200 W 80 Plus Gold certified ATX power supply', case=False))) | \
+                    (powersupplytype_df['PhwebDescription'].str.contains('ACADPT 200WSLM4.5mmPFCRtAngSmrt') & \
+                        (powersupplytype_df['ContainerValue'].str.contains('200 W Smart AC power adapter', case=False))) | \
+                    (powersupplytype_df['PhwebDescription'].str.contains('ACADPT 45 Watt Smart nPFC RA') & \
+                        (powersupplytype_df['ContainerValue'].str.contains('45 W Smart AC power adapter', case=False))) | \
+                    (powersupplytype_df['PhwebDescription'].str.contains('ACADPT 45 Watt nPFC USB-C') & \
+                        (powersupplytype_df['ContainerValue'].str.contains('45 W USB Type-C® power adapter', case=False))) | \
+                    (powersupplytype_df['PhwebDescription'].str.contains('P/S 500W ATX Persan3') & \
+                        (powersupplytype_df['ContainerValue'].str.contains('500 W 80 Plus Bronze certified ATX power supply', case=False))) | \
+                    (powersupplytype_df['PhwebDescription'].str.contains('P/S 600W ATX Gold') & \
+                        (powersupplytype_df['ContainerValue'].str.contains('600 W 80 Plus Gold certified ATX power supply', case=False)))
 
     powersupplytype_df.loc[maskPowerSupply, 'Accuracy'] = 'SCS Power Supply Type OK'
     powersupplytype_df.loc[~maskPowerSupply, 'Accuracy'] = 'ERROR Power Supply Type'
