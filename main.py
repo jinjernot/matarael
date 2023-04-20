@@ -141,7 +141,18 @@ def cleanReport(file):
                 (productcolor_df['PhwebDescription'].str.contains('STF') & \
                     (productcolor_df['ContainerValue'].str.contains('Starry forest', case=False))) | \
                 (productcolor_df['PhwebDescription'].str.contains('NTB') & \
-                    (productcolor_df['ContainerValue'].str.contains('Nocturne blue', case=False)))
+                    (productcolor_df['ContainerValue'].str.contains('Nocturne blue', case=False))) | \
+                (productcolor_df['PhwebDescription'].str.contains('PRG') & \
+                    (productcolor_df['ContainerValue'].str.contains('Pale rose gold', case=False))) | \
+                (productcolor_df['PhwebDescription'].str.contains('DMW') & \
+                    (productcolor_df['ContainerValue'].str.contains('Diamond white', case=False))) | \
+                (productcolor_df['PhwebDescription'].str.contains('SRR') & \
+                    (productcolor_df['ContainerValue'].str.contains('Scarlet red', case=False))) | \
+                (productcolor_df['PhwebDescription'].str.contains('SCB') & \
+                    (productcolor_df['ContainerValue'].str.contains('Space blue', case=False))) | \
+                (productcolor_df['PhwebDescription'].str.contains('SNP') & \
+                    (productcolor_df['ContainerValue'].str.contains('Serene pink', case=False)))
+
 
     productcolor_df.loc[maskColor, 'Accuracy'] = 'SCS Color OK'
     productcolor_df.loc[~maskColor, 'Accuracy'] = 'ERROR Color'
@@ -207,7 +218,23 @@ def cleanReport(file):
                     (batterytype_df['PhwebDescription'].str.contains('BATT 4 cell C Long Life 55Whr FstCrg') & \
                         (batterytype_df['ContainerValue'].str.contains('4-cell, 55 Wh Li-ion polymer', case=False))) | \
                     (batterytype_df['PhwebDescription'].str.contains('BATT 4C 66 WHr Long Life') & \
-                        (batterytype_df['ContainerValue'].str.contains('4-cell, 66 Wh Li-ion polymer', case=False)))
+                        (batterytype_df['ContainerValue'].str.contains('4-cell, 66 Wh Li-ion polymer', case=False))) | \
+                    (batterytype_df['PhwebDescription'].str.contains('BATT 3 cell C Long Life 41Whr FstCrg') & \
+                        (batterytype_df['ContainerValue'].str.contains('3-cell, 41 Wh Li-ion polymer', case=False))) | \
+                    (batterytype_df['PhwebDescription'].str.contains('BATT 2C 47 WHr Long Life') & \
+                        (batterytype_df['ContainerValue'].str.contains('2-cell, 47 Wh Li-ion polymer', case=False))) | \
+                    (batterytype_df['PhwebDescription'].str.contains('BATT 4C 55 WHr Long Life') & \
+                        (batterytype_df['ContainerValue'].str.contains('4-cell, 55 Wh Li-ion polymer', case=False))) | \
+                    (batterytype_df['PhwebDescription'].str.contains('BATT 6 cell C Long Life 83Whr FstCrg') & \
+                        (batterytype_df['ContainerValue'].str.contains('6-cell, 83 Wh Li-ion polymer', case=False))) | \
+                    (batterytype_df['PhwebDescription'].str.contains('BATT 6 cell C Long Life 97Whr FstCrg') & \
+                        (batterytype_df['ContainerValue'].str.contains('6-cell, 97 Wh Li-ion polymer', case=False))) | \
+                    (batterytype_df['PhwebDescription'].str.contains('BATT 3C 58 WHr Long Life') & \
+                        (batterytype_df['ContainerValue'].str.contains('3-cell, 58 Wh Li-ion polymer', case=False)))
+
+
+
+    
                                                 
     batterytype_df.loc[maskBatterytype, 'Accuracy'] = 'SCS Battery Type OK'
     batterytype_df.loc[~maskBatterytype, 'Accuracy'] = 'ERROR Battery Type'
@@ -277,7 +304,7 @@ def cleanReport(file):
 
 ################################################################ Display
 
-    display_df = df.loc[df['ContainerName'].str.contains('display')]
+    display_df = df.loc[df['ContainerName'].str.strip() == 'display']
     maskDisplay =   (display_df['PhwebDescription'].str.contains('LCD 15.6 FHD AG LED UWVA250144HzNWBZflat') & \
                         (display_df['ContainerValue'].str.contains('15.6" diagonal, FHD (1920 x 1080), 144 Hz, 9 ms response time, IPS, micro-edge, anti-glare, 250 nits, 45% NTSC', regex=False, case=False))) | \
                     (display_df['PhwebDescription'].str.contains('LCD 15.6 FHD AG LEDUWVA300uslim144HzNWBZ') & \
@@ -423,8 +450,9 @@ def cleanReport(file):
 ################################################################ ENERGY STAR
 
     energystar_df = df.loc[df['ContainerName'].str.contains('energystar')]
-    maskES = (energystar_df['PhwebDescription'].str.contains('FLAG') & \
+    maskES = (energystar_df['PhwebDescription'].str.contains('FLAG|ESTAR') & \
                         (energystar_df['ContainerValue'].str.contains('ENERGY STAR® certified', regex=False, case=False)))
+    
 
     energystar_df.loc[maskES, 'Accuracy'] = 'SCS ENERGY STAR OK'
     energystar_df.loc[~maskES, 'Accuracy'] = 'ERROR ENERGY STAR'
