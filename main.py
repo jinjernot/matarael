@@ -45,7 +45,8 @@ def cleanReport(file):
 
 ################################################################ Memory
 
-    memstdes_01_df = df.loc[df['ContainerName'].str.contains('memstdes_01')]
+    memstdes_01_df = df.loc[(df['ContainerName'].str.contains('memstdes_01')) & \
+                        (df['ComponentGroup'].str.contains('Memory'))]
 
     maskMemory = (memstdes_01_df['PhwebDescription'].str.contains('RAM 8GB (1x8GB) DDR4 2400 SODIMM',regex=False) & \
                         (memstdes_01_df['ContainerValue'].str.contains('8 GB DDR4-2400 MHz RAM (1 x 8 GB)', regex=False, case=False))) | \
@@ -64,7 +65,284 @@ def cleanReport(file):
                     (memstdes_01_df['PhwebDescription'].str.contains('SSD 2TB PCIe NVMe TLC', regex=False) & \
                         (memstdes_01_df['ContainerValue'].str.contains('2 TB PCIe® NVMe™ TLC M.2 SSD', regex=False, case=False))) | \
                     (memstdes_01_df['PhwebDescription'].str.contains('RAM 32GB (2x16GB) DDR4 3200 NECC', regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('32 GB DDR4-3200 MHz RAM (2 x 16 GB)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM 16GB (2x8GB) DDR4 3200',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('16 GB DDR4-3200 MHz RAM (2 x 8 GB)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM 8GB (2x4GB) DDR4 3200',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('8 GB DDR4-3200 MHz RAM (2 x 4 GB)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('BU IDS UMA i5-1230U 16GB 13',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('16 GB LPDDR4x-4266 MHz RAM (onboard)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('BU IDS UMA i7-1250U 16GB 13',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('16 GB LPDDR4x-4266 MHz RAM (onboard)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM 8GB (1x8GB) DDR4 3200',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('8 GB DDR4-3200 MHz RAM (1 x 8 GB)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('BU IDS UMA i5-1230U 8GB 13',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('8 GB LPDDR4x-4266 MHz RAM (onboard)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM 8GB (2x4GB) DDR4 3200',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('8 GB DDR4-3200 MHz RAM (2 x 4 GB);', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM 32GB (2x16GB) DDR5 4800',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('32 GB DDR5-4800 MHz RAM (2 x 16 GB);', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM 32GB (2x16GB)  DDR4 3200',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('32 GB DDR4-3200 MHz RAM (2 x 16 GB)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('BU IDS UMA i7-1250U 8GB 13',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('8 GB LPDDR4x-4266 MHz RAM (onboard)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('BU IDS UMA R3 7320U 8GB 17',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('8 GB LPDDR5-5500 MHz RAM (onboard)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM 4GB (1x4GB) DDR4 3200',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('4 GB DDR4-3200 MHz RAM (1 x 4 GB)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('BU IDS UMA Ryzen5 5625U 16GB 13',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('16 GB DDR4-3200 MHz RAM (onboard)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM 4GB (1x4GB) DDR4 2400',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('4 GB DDR4-2400 MHz RAM (1 x 4 GB)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('BU IDS UMA R3 7320U 8GB 15',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('8 GB LPDDR5-5500 MHz RAM (onboard)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('BU IDS UMA R5 7520U 8GB 15',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('8 GB LPDDR5-5500 MHz RAM (onboard)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM 12GB (1x8GB+1x4GB)DDR4 3200',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('12 GB DDR4-3200 MHz RAM (1 x 4 GB, 1 x 8 GB)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM 4GB (1x4GB) DDR4 3200 CR',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('4 GB DDR4-3200 MHz RAM (1 x 4 GB)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM 8GB (1x8GB) DDR4 2400',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('8 GB DDR4-2400 MHz RAM (1 x 8 GB)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM 32GB (2x16GB) DDR5 5200',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('32 GB DDR5-5200 MHz RAM (2 x 16 GB)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM 16GB (2x8GB) DDR4 2666',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('16 GB DDR4-2666 MHz RAM (2 x 8 GB)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('BU IDS UMA R5 7520U 8GB 14',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('8 GB LPDDR5-5500 MHz RAM (onboard)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM 12GB (1x8GB+1x4GB) DDR4 3200',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('12 GB DDR4-3200 MHz RAM (1 x 4 GB, 1 x 8 GB)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('BU IDS UMA R3 7320U 4GB 15',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('4 GB LPDDR5-5500 MHz RAM (onboard)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('BU IDS OPP 24-cr0 23.8 8GB R5-7520U',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('32 GB LPDDR5-3200 MHz RAM (onboard)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('BU IDS UMA R5 7530U 16GB 15',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('16 GB LPDDR4x-4266 MHz RAM (onboard)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM 16GB (2x8GB) DDR5 5200',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('16 GB DDR5-5200 MHz RAM (2 x 8 GB);', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('BU IDS UMA i5-1335U 16GB 15',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('16 GB LPDDR5-6400 MHz RAM (onboard)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('BU IDS UMA R3 7320U 8GB 14',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('8 GB LPDDR5-5500 MHz RAM (onboard)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('BU IDS UMA Ath7220U 8GB 15',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('8 GB LPDDR5-5500 MHz RAM (onboard)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM 12GB (1x8GB+1x4GB)  DDR4 3200',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('12 GB DDR4-3200 MHz RAM (1 x 4 GB, 1 x 8 GB)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('BU IDS UMA i7-1355U 16GB 15',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('16 GB LPDDR5-5200 MHz RAM (onboard)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM 32GB (2x16GB) DDR5 5600',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('32 GB DDR5-5600 MHz RAM (2 x 16 GB);', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM KFURY 16GB(2x8GB)DDR5 4400 XMP RGBHS',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('Kingston FURY 16 GB DDR5-5200 MHz XMP RGB Heatsink RAM (2 x 8 GB)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM 16GB (2x8GB) DDR5 5600',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('16 GB DDR5-5600 MHz RAM (2 x 8 GB);', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM 16GB (2x8GB) DDR4 3200 SODIMM',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('16 GB DDR4-3200 MHz RAM (2 x 8 GB)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('BU IDS UMA Ath7120U 4GB 15',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('4 GB LPDDR5-5500 MHz RAM (onboard)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM 8GB(1x8GB) DDR4 3200 SODIMM',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('8 GB DDR4-3200 MHz RAM (1 x 8 GB)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('BU IDS UMA R7 7730U 16GB 15',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('16 GB LPDDR4x-4266 MHz RAM (onboard)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM 16GB (2x8GB) DDR5 5200',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('16 GB DDR5-5200 MHz RAM (2 x 8 GB)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM KFURY 32GB(2x16GB)DDR54400 XMP RGBHS',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('Kingston FURY 32 GB DDR5-5200 MHz XMP RGB Heatsink RAM (2 x 16 GB)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM 8GB (2x4GB) DDR4 3200 SODIMM',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('8 GB DDR4-3200 MHz RAM (2 x 4 GB)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('BU IDS UMA i5-1340P 16GB 14',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('16 GB DDR4-3200 MHz RAM (onboard)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('BU IDS UMA Ath7120U 8GB 15',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('8 GB LPDDR5-5500 MHz RAM (onboard)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM 8GB (2x4GB) DDR4 2666',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('8 GB DDR4-2666 MHz RAM (2 x 4 GB)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM 16GB (2x8GB) DDR4 3200 CR',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('16 GB DDR4-3200 RAM (2 x 8 GB)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM 12GB (1x8GB+1x4GB) DDR4 3200',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('12 GB DDR4-3200 MHz RAM (1 x 8 GB, 1 x 4 GB)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM 8GB (1x8GB) DDR4 3200 NECC',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('8 GB DDR4-3200 MHz RAM (1 x 8 GB)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('BU IDS DSCRTX30504GB i7-1355U 16GB 15',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('16 GB LPDDR5-5500 MHz RAM (onboard)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('BU IDS UMA i5-1335U 8GB 15',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('8 GB LPDDR5-5500 MHz RAM (onboard)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('BU IDS UMA PHi5xxxx 8GB 14',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('8 GB DDR4-3200 MHz RAM (onboard)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('BU IDS UMA i7-1355U 16GB 14',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('16 GB DDR4-3200 MHz RAM (onboard)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM 16GB (8x2GB) DDR4 3200 CR',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('16 GB DDR4-3200 MHz RAM (2 x 8 GB);', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM 8GB(1x8GB) DDR4 2933 UDIMM NECC',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('8 GB DDR4-2933 MHz RAM (1 x 8 GB)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM 8GB (2x4GB) DDR4 3200 NECC',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('8 GB DDR4-3200 MHz RAM (2 x 4 GB)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('BU IDS UMA R5 7520U 16GB 15',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('16 GB LPDDR5-5500 MHz RAM (onboard)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('BU IDS UMA i7-12700H 16GB fOLED 14',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('16 GB DDR4-3200 MHz RAM (onboard)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM 12GB (1x8GB+1x4GB) DDR4 3200 SODIMM',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('12 GB DDR4-3200 MHz RAM (1 x 8 GB, 1 x 4 GB)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM 8GB (1x8GB) DDR4 2666',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('8 GB DDR4-2666 MHz RAM (1 x 8 GB)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('BU IDS DSC 2GB PH i5-xxxx 16GB 14',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('16 GB DDR4-3200 MHz RAM (onboard)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('BU IDS UMA PHi5xxxxU 16GB 14',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('16 GB LPDDR4x-4266 MHz RAM (onboard)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('BU IDS DSCRTX30504GB i5-1335U 16GB 15',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('16 GB LPDDR5-5500 MHz RAM (onboard)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM 16GB (2x8GB)DDR4 3200',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('16 GB DDR4-3200 MHz RAM (2 x 8 GB)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM 16GB (2x8GB) DDR5 5200 CR',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('16 GB DDR5-5200 MHz RAM (2 x 8 GB);', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM 16GB(1x16GB) DDR4 3200 SODIMM',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('16 GB DDR4-3200 MHz RAM (1 x 16 GB)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM 16GB (1x16GB) DDR4 3200 NECC',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('16 GB DDR4-3200 MHz RAM (1 x 16 GB)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('BU IDS UMA CelN4500 4GB 128GeMMC 14a-ca1',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('4 GB LPDDR4x-2933 MHz RAM (onboard)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('BU IDS UMA R5 7535U 16GB 13',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('16 GB DDR4-3200 MHz RAM (onboard)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM 4GB (1x4GB) DDR4 2666',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('4 GB DDR4-2666 MHz RAM (1 x 4 GB)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM 4GB (1x4GB) DDR4 2933',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('4 GB DDR4-2933 MHz RAM (1 x 4 GB)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('BU IDS UMA Ath7120U 8GB 14',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('8 GB LPDDR5-5500 MHz RAM (onboard)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('BU IDS DSCArc4GB PHi7RM 16GB fOLED 16',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('16 GB DDR4-3200 MHz RAM (onboard)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('BU IDS UMA R7 7735U 16GB 13',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('16 GB DDR4-3200 MHz RAM (onboard)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('BU IDS UMA PHi7xxxxU 32GB fOLED 14',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('32 GB LPDDR4x-4266 MHz RAM (onboard)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('BU IDS UMA R5 7535U 8GB 13',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('8 GB LPDDR5-6400 MHz RAM (onboard)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM HX 16GB (2x8GB) DDR4 3200 XMP RGBHS',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('HyperX 16 GB DDR4-3200 MHz XMP RGB Heatsink RAM (2 x 8 GB)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('BU IDS UMA PH i7-xxxx 32GB 14',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('32 GB LPDDR4x-4266 MHz RAM (onboard)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM 16GB (2x8GB) DDR4 3200 NECC',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('16 GB DDR4-3200 MHz RAM (2 x 8 GB)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('BU IDS UMA CelN4500 8GB 128GeMMC 15a-na0',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('8 GB LPDDR4x-2933 MHz RAM (onboard)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('BU IDS OPP 27-cr0 27 16GB R5-7520U',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('16 GB LPDDR5-5500 MHz RAM (onboard)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM 8GB (1x8GB) DDR4 3200 CR',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('8 GB DDR4-3200 MHz RAM (1 x 8 GB)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains(' 32GB (2x16GB)  DDR4 3200',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('32 GB DDR4-3200 MHz RAM (2 x 16 GB)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('BU IDS UMA PH i7-xxxx 16GB 14',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('16 GB LPDDR4x-4266 MHz RAM (onboard)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('BU IDS UMA PHi7xxxxU 16GB fOLED 14',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('16 GB LPDDR4x-4266 MHz RAM (onboard)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('BU IDS UMA PHi712xxx 16GB 14',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('16 GB DDR4-3200 MHz RAM (onboard)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('BU IDS UMA PHi7xxxxU 16GB 14',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('16 GB LPDDR4x-4266 MHz RAM (onboard)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM KFURY 16GB (2x8GB)DDR5 4400 XMP HSnk',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('Kingston FURY 16 GB DDR5-5200 MHz XMP Heatsink RAM (2 x 8 GB)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('BU IDS UMA i7-13700H 16GB fOLED 14',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('16 GB DDR4-3200 MHz RAM (onboard)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('BU IDS UMA R5 7520U 8GB 17',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('8 GB LPDDR5-5500 MHz RAM (onboard)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('BU IDS UMA PHi7xxxxU 32GB 14',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('32 GB LPDDR4x-4266 MHz RAM (onboard)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('BU IDS DSCRTX20504GB i7-1355U16GBfOLED14',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('16 GB DDR4-3200 MHz RAM (onboard)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM KFURY 32GB(2x16GB)DDR55200 XMP RGBHS',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('Kingston FURY 32 GB DDR5-5200 MHz XMP RGB Heatsink RAM (2 x 16 GB)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM 8GB (1x8GB) DDR4 3200',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('8 GB DDR4-3200 MHz RAM (1 x 8 GB);', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('BU IDS UMA PHi312xxx 8GB 14',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('8 GB DDR4-3200 MHz RAM (onboard)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('BU IDS UMA Ryzen7 5825U 16GB 13',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('16 GB DDR4-3200 MHz RAM (onboard)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM 8GB (1x8GB) DDR5 4800',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('8 GB DDR5-4800 MHz RAM (1 x 8 GB);', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('BU IDS DSCMX5502GB i5-1335U 16GB 14',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('16 GB DDR4-3200 MHz RAM (onboard)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('BU IDS UMA CelN41204GB64GeMMCnSDC14a-ca0',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('4 GB LPDDR4-2400 MHz RAM (onboard)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('BU IDS UMA i5-1235U 16GB 14',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('16 GB DDR4-3200 MHz RAM (onboard)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('BU IDS UMA i5-13500H 16GB 14',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('16 GB DDR4-3200 MHz RAM (onboard)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('BU IDS UMA i7-1255U 16GB 14',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('16 GB DDR4-3200 MHz RAM (onboard)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM 8GB (2x4GB) DDR4 2933',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('8 GB DDR4-2933 MHz RAM (2 x 4 GB)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM KFURY 64GB(4x16GB)DDR54400 XMP RGBHS',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('Kingston FURY 64 GB DDR5-5200 MHz XMP RGB Heatsink RAM (4 x 16 GB)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('BU IDS UMA PHi512xxx 8GB 14',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('8 GB DDR4-3200 MHz RAM (onboard)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('BU IDS UMA R5 7520U 16GB 17',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('16 GB LPDDR5-5500 MHz RAM (onboard)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM 16GB (1x16GB) DDR4 3200',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('16 GB DDR4-3200 MHz RAM (1 x 16 GB)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('BU IDS UMA R5 7530U 8GB 15',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('8 GB LPDDR4x-4266 MHz RAM (onboard)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM 8GB (1x8GB) DDR4 2933',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('8 GB DDR4-2933 MHz RAM (1 x 8 GB)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM 16GB (2x8GB) DDR4 2933',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('16 GB DDR4-2933 MHz RAM (2 x 8 GB)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('BU IDS UMA R5 7520U 16GB 14',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('16 GB LPDDR5-5500 MHz RAM (onboard)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('BU IDS UMA Ryzen5 5625U 8GB 13',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('8 GB DDR4-3200 MHz RAM (onboard)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM KFURY 64GB(4x16GB)DDR55200 XMP RGBHS',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('Kingston FURY 64 GB DDR5-5200 MHz XMP RGB Heatsink RAM (4 x 16 GB)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('BU IDS UMA PHi512xxx 16GB 14',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('16 GB DDR4-3200 MHz RAM (onboard)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM 16GB (1x16GB) DDR4 3200 NECC',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('16 GB DDR4-3200 SDRAM (1 x 16 GB)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM 12GB (1x8GB+1x4GB) DDR4 2933',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('12 GB DDR4-2933 MHz RAM (1 x 4 GB, 1 x 8 GB)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM 32GB (2x16GB) DDR5 4800',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('32 GB DDR5-4800 MHz RAM (2 x 16 GB)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM 32GB (2x16GB) DDR5 4000',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('32 GB DDR5-4000 MHz RAM (2 x 16 GB)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM 16GB (2x8GB) DDR5 4000',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('16 GB DDR5-4000 MHz RAM (2 x 8 GB)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('BU IDS UMACelN41208GB128GeMMCnSDC14a-na0',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('8 GB LPDDR4-2400 MHz RAM (onboard)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('BU IDS UMAPentSilN60008GB128GeMMC15a-na0',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('8 GB LPDDR4x-2933 MHz RAM (onboard)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM 32GB (2x16GB) DDR5 5200',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('32 GB DDR5-5200 MHz RAM (2 x 16 GB);', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM HX 32GB (2x16GB) DDR4 3200 XMP HSnk',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('HyperX 32 GB DDR4-3200 MHz XMP Heatsink RAM (2 x 16 GB)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM 16GB (2x8GB) DDR4 3200 CR',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('16 GB DDR4-3200 MHz RAM (2 x 8 GB)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('BU IDSUPentSN50308GB64GeMMCfBLnSDC14aca0',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('8 GB LPDDR4-2400 MHz RAM (onboard)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('BU IDSUMAPSilN50308GB128GeMMCnSDC14a-na0',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('8 GB LPDDR4-2400 MHz RAM (onboard)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('BU IDS UMA CelN41204GB64GeMMCnSDC14a-na0',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('4 GB LPDDR4-2400 MHz RAM (onboard)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM 8GB (2x4GB) DDR4 2400 SODIMM',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('8 GB DDR4-2400 MHz RAM (2 x 4 GB)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('BU IDS UMA i5-13500H 16GB fOLED 14',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('16 GB DDR4-3200 MHz RAM (onboard)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('BU IDS UMA MT8195GV 8GB 13b-ca0',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('8 GB LPDDR4x-4266 MHz RAM (onboard)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM 8GB (1x8GB) DDR4 3200 CR',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('8 GB DDR4-3200 MHz RAM (2 x 4 GB)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('BU IDS UMA i5-1235U 8GB 14',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('8 GB DDR4-3200 MHz RAM (onboard)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('BU IDS UMA i3-N305 8GB 256GUFS 15a-nb0',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('8 GB LPDDR5-6400 MHz RAM (onboard)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM 4GB (1x4GB) DDR4 2666 NECC',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('4 GB DDR4-2666 MHz RAM (1 x 4 GB)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('BU IDS UMA i3-N305 8GB 128GUFS 15a-nb0',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('8 GB LPDDR5-4800 MHz RAM (onboard)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains(' 16GB (2x8GB)  DDR4 3200 NECC',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('16 GB DDR4-3200 MHz RAM (2 x 8 GB)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM 4GB(1x4GB) DDR4 3200 SODIMM',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('4 GB DDR4-3200 MHz RAM (1 x 4 GB)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM 8GB (1x8GB) DDR4 2666 NECC',regex=False) & \
+                        (memstdes_01_df['ContainerValue'].str.contains('8 GB DDR4-2666 MHz RAM (1 x 8 GB)', regex=False, case=False))) | \
+                    (memstdes_01_df['PhwebDescription'].str.contains('RAM 32GB (2x16GB) DDR4 3200 SODIMM',regex=False) & \
                         (memstdes_01_df['ContainerValue'].str.contains('32 GB DDR4-3200 MHz RAM (2 x 16 GB)', regex=False, case=False)))
+
 
     memstdes_01_df.loc[maskMemory, 'Accuracy'] = 'SCS Memory OK'
     memstdes_01_df.loc[~maskMemory, 'Accuracy'] = 'ERROR Memory'
