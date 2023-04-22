@@ -1,32 +1,54 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>SCS QA Tool</title>
+    <title>matarael</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
 </head>
 <body>
-
-<header class="eva-heading">
+<table>
+<td>
+    <header class="eva-heading">
     <h2 class="eva-heading__title">SCS</h2>
-    <h2 class="eva-heading__title">Quality</h2>
-    <h2 class="eva-heading__title">Assurance</h2>
+    <h2 class="eva-heading__title">Quality Assurance</h2>
     <h1 class="eva-heading__title">Tool</h1>
-    <h3 class="eva-heading__title">v 1.0</h3>
-    
-</header>
+    <h3 class="eva-heading__episode-number">beta</h3>
+    </header>
 
-<div class="upload-container">
+    <div class="upload-container">
+        <h3 class="eva-heading__episode-title">QA Report</h3>
         <form method="post" enctype="multipart/form-data">
-            <div class="custom-file-input">
-                <input type="file" name="file" id="file" class="input-file">
-                <label for="file" class="eva-heading__episode-number">Choose File</label>
-                <input type="submit" value="Upload" class="upload-button">
-            </div>
+            <input type="file" name="file" class="custom-file-input">
+            <input type="submit" value="Upload" class="upload-button">
+        </form>
+    </div>
+    <div class="image-container">
+        <img src="{{ url_for('static', filename='images/SS.png') }}" alt="powered by sabarobe studios" width="50" height="50">
+    </div>
+</td>
+
+<td>
+    <header class="eva-heading">
+        <h2 class="eva-heading__title">PRISM</h2>
+        <h2 class="eva-heading__title">Report Cleaner</h2>
+        <h1 class="eva-heading__title">Ramiel</h1>
+        <h3 class="eva-heading__episode-number">v 1.0</h3>
+    </header>
+
+    <div class="upload-container">
+        <h3 class="eva-heading__episode-title">Summary Report</h3>
+        <form method="post" enctype="multipart/form-data">
+            <input type="file" name="Summary" class="custom-file-input">
+            <input type="submit" value="Upload" class="upload-button">
+        </form>
+        <h3 class="eva-heading__episode-title">Report</h3>
+        <form method="post" enctype="multipart/form-data">
+            <input type="file" name="Report" class="custom-file-input">
+            <input type="submit" value="Upload" class="upload-button">
         </form>
 </div>
-<div class="image-container">
-<img src="{{ url_for('static', filename='images/SS.png') }}" alt="powered by sabarobe studios" width="50" height="50">
-</div>
+
+</td>
+</table>
  <!--
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⠶⠛⠋⠉⠐⠻⣷⣊⠉⠀⠀⠯⣔⠤⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀

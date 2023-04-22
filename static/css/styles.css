@@ -72,33 +72,31 @@
   font-family: serif;
   color: white;
   text-shadow: 0 0 2px #e19a86, 0 0 1.5px #854535, 0 0 1.5px #5c150c;
-  border: 1px solid white;
-   
+  width: fit-content;
+  float: left; 
 }
 
 .upload-button {
-  font-size: 180%;
-  margin-left: 33px;
-  background-color: #000;
-  color: #fff;
-  text-shadow: 0 0 2px #e19a86, 0 0 1.5px #854535, 0 0 1.5px #5c150c;
   border: 1px solid black;
-  padding: 2px;
+  padding: 5px;
 }
 
 .custom-file-input {
-  transform: scale(1, 1.5);
-  line-height: 1.2em;
-  letter-spacing: -.03em;
-  padding: 2px;
-  position: relative;
-  overflow: hidden;
-  display: inline-block;
-  
+  text-shadow: 0 0 2px #e19a86, 0 0 1.5px #854535, 0 0 1.5px #5c150c;
+  border: 1px solid black;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .input-file {
   position: absolute;
   opacity: 0;
-  
+}
+
+table {
+  margin: 0 auto;
+}
+
+td{
+  border: 2px solid white;
 }
