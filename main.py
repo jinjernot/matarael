@@ -35,7 +35,7 @@ def upload_file():
         elif 'Report' in request.files:
             file = request.files['Report']
             if allowed_file(file.filename):
-                cleanSummary(file)
+                cleanExport(file)
                 return send_file('Report.xlsx', as_attachment=True)
 
         return render_template('error.html')
