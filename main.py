@@ -864,13 +864,13 @@ def cleanReport(file):
 
 ################################################################ save the excel
 
-    df.to_excel('chido.xlsx', index=False)
-    workbook = openpyxl.load_workbook('chido.xlsx')
+    df.to_excel('SCS_QA.xlsx', index=False)
+    workbook = openpyxl.load_workbook('SCS_QA.xlsx')
     worksheet = workbook.active
     header_fill = PatternFill(start_color='0072C6', end_color='0072C6', fill_type='solid') # Add nice fill
     for cell in worksheet[1]:
         cell.fill = header_fill
-    workbook.save('chido.xlsx')
+    workbook.save('SCS_QA.xlsx')
 
     return
 
