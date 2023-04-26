@@ -1,46 +1,44 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>matarael</title>
+    <title>TBD</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
 </head>
 <body>
 <table>
 <td>
-    <header class="eva-heading">
-    <h2 class="eva-heading__title">SCS</h2>
-    <h2 class="eva-heading__title">Quality Assurance</h2>
-    <h1 class="eva-heading__title">Tool</h1>
-    <h3 class="eva-heading__episode-number">beta</h3>
+    <header class="heading">
+    <h1 class="">SCS</h1>
+    <h2 class="">QA Tool</h2>
+    <h3 class="">beta</h3>
     </header>
+    <br>
 
     <div class="upload-container">
-        <h3 class="eva-heading__episode-title">QA Report</h3>
+        <h3 class="heading__title">QA Report</h3>
         <form method="post" enctype="multipart/form-data">
             <input type="file" name="file" class="custom-file-input">
             <input type="submit" value="Upload" class="upload-button">
         </form>
     </div>
-    <div class="image-container">
-        <img src="{{ url_for('static', filename='images/SS.png') }}" alt="powered by sabarobe studios" width="50" height="50">
-    </div>
 </td>
 
 <td>
-    <header class="eva-heading">
-        <h2 class="eva-heading__title">PRISM</h2>
-        <h2 class="eva-heading__title">Report Cleaner</h2>
-        <h1 class="eva-heading__title">Ramiel</h1>
-        <h3 class="eva-heading__episode-number">v 1.0</h3>
+    <header class="heading">
+        <h1 class="">PRISM</h1>
+        <h2 class="">Report Cleaner</h2>
+        <h3 class="">v 1.0</h3>
     </header>
+    <br>
 
     <div class="upload-container">
-        <h3 class="eva-heading__episode-title">Summary Report</h3>
+        <h3 class="">Summary Report</h3>
         <form method="post" enctype="multipart/form-data">
             <input type="file" name="Summary" class="custom-file-input">
             <input type="submit" value="Upload" class="upload-button">
         </form>
-        <h3 class="eva-heading__episode-title">Export Report</h3>
+        <br>
+        <h3 class="">Export Report</h3>
         <form method="post" enctype="multipart/form-data">
             <input type="file" name="Report" class="custom-file-input">
             <input type="submit" value="Upload" class="upload-button">
@@ -49,6 +47,9 @@
 
 </td>
 </table>
+<div class="image-container">
+    <img src="{{ url_for('static', filename='images/favicon.png') }}" alt="powered by sabarobe studios" width="50" height="50">
+</div>
  <!--
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⠶⠛⠋⠉⠐⠻⣷⣊⠉⠀⠀⠯⣔⠤⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
