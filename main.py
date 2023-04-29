@@ -1,15 +1,15 @@
 import pandas as pd
 import openpyxl
-from openpyxl.styles import PatternFill
-from flask import Flask, request, render_template,redirect,send_file
+from openpyxl.styles import PatternFill,Font
+from flask import Flask, request, render_template,send_file
 
 app = Flask(__name__)
 app.use_static_for = 'static'
 
 ALLOWED_EXTENSIONS = {'xlsx'}
 
+### SCS check ###
 
-### SCS check"""
 def allowed_file(filename):
     """set the allowed file.xlsx"""
     return '.' in filename and \
@@ -40,7 +40,7 @@ def upload_file():
 
         return render_template('error.html')
 
-    return render_template('matarael.html')
+    return render_template('index.html')
 
 
 def cleanReport(file):
@@ -52,6 +52,11 @@ def cleanReport(file):
     cols_to_drop = ['Option', 'Status','SKU_FirstAppearanceDate', 'SKU_CompletionDate', 'SKU_Aging', 'PhwebValue' ,'ExtendedDescription','ComponentCompletionDate','ComponentReadiness','SKUReadiness'] # Remove some columns
     df = df.drop(cols_to_drop, axis=1)
     df[['Accuracy', 'Correct Value', 'Additional Information']] = '' # Create new columns for SCS
+
+
+########################################################################################################################################
+################################################################ TechSpecs #############################################################
+########################################################################################################################################
 
 ################################################################ Memory
 
@@ -750,7 +755,7 @@ def cleanReport(file):
     energystar_df.loc[maskES, 'Accuracy'] = 'SCS ENERGY STAR OK'
     energystar_df.loc[~maskES, 'Accuracy'] = 'ERROR ENERGY STAR'
 
-    df.update( energystar_df['Accuracy'])
+    df.update(energystar_df['Accuracy'])
 
 ################################################################ Graphic Card
 
@@ -789,7 +794,7 @@ def cleanReport(file):
     cdromdvd_df.loc[maskCD, 'Accuracy'] = 'SCS Optical Drive OK'
     cdromdvd_df.loc[~maskCD, 'Accuracy'] = 'ERROR Optical Drive'
 
-    df.update( cdromdvd_df['Accuracy'])
+    df.update(cdromdvd_df['Accuracy'])
 
 ################################################################ Wireless Tech
 
@@ -827,9 +832,14 @@ def cleanReport(file):
     perftechn_df.loc[maskSpecialFeatures, 'Accuracy'] = 'SCS Special Features OK'
     perftechn_df.loc[~maskSpecialFeatures, 'Accuracy'] = 'ERROR Special Features'
 
-    df.update( perftechn_df['Accuracy'])
+    df.update(perftechn_df['Accuracy'])
+    
+########################################################################################################################################
+################################################################ Facets ################################################################
+########################################################################################################################################
 
-################################################################ Facets
+
+################################################################ facet_environ
 
     facet_environ_df = df.loc[df['ContainerName'].str.contains('facet_environ')]
     maskfacet_environ = (facet_environ_df['PhwebDescription'].str.contains('FLAG') & \
@@ -857,21 +867,69 @@ def cleanReport(file):
                         (facet_memstd_df['PhwebDescription'].str.contains('4GB') & \
                             (facet_memstd_df['ContainerValue'].str.contains('4')))                            
 
-    facet_memstd_df.loc[maskfacet_memstd, 'Accuracy'] = 'SCS Memory OK'
-    facet_memstd_df.loc[~maskfacet_memstd, 'Accuracy'] = 'ERROR Memory'
+    facet_memstd_df.loc[maskfacet_memstd, 'Accuracy'] = 'SCS Facet Memory OK'
+    facet_memstd_df.loc[~maskfacet_memstd, 'Accuracy'] = 'ERROR Facet Memory'
 
     df.update(facet_memstd_df['Accuracy'])
 
-################################################################ save the excel
+################################################################ facet_cap
+
+    facet_cap_df = df.loc[df['ContainerName'].str.contains('facet_cap')]
+    maskfacet_cap = (facet_cap_df['PhwebDescription'].str.contains('1T') & \
+                        (facet_cap_df['ContainerValue'].str.contains(r'^1000$', regex=True, case=False))) | \
+                    (facet_cap_df['PhwebDescription'].str.contains('512') & \
+                        (facet_cap_df['ContainerValue'].str.contains(r'^512$', regex=True, case=False)))
+    
+
+    facet_cap_df.loc[maskfacet_cap, 'Accuracy'] = 'SCS Facet Hard Drive OK'
+    facet_cap_df.loc[~maskfacet_cap, 'Accuracy'] = 'ERROR Facet Hard Drive'
+
+    df.update(facet_cap_df['Accuracy'])
+
+################################################################ facet_graphics
+
+    facet_graphics_df = df.loc[df['ContainerName'].str.contains('facet_graphics') & df['ComponentGroup'].str.contains('Graphic card')]
+    maskfacet_facet_graphics = (facet_graphics_df['PhwebDescription'].str.contains('RTX') & \
+                        (facet_graphics_df['ContainerValue'].str.contains('NVIDIA GeForce', regex=False, case=False)))
+
+    facet_graphics_df.loc[maskfacet_facet_graphics, 'Accuracy'] = 'SCS Facet Graphics OK'
+    facet_graphics_df.loc[~maskfacet_facet_graphics, 'Accuracy'] = 'ERROR Facet Graphics'
+
+    df.update(facet_graphics_df['Accuracy'])
+
+
+########################################################################################################################################
+################################################################ save the excel ########################################################
+########################################################################################################################################
 
     df.to_excel('SCS_QA.xlsx', index=False)
+
     workbook = openpyxl.load_workbook('SCS_QA.xlsx')
     worksheet = workbook.active
     header_fill = PatternFill(start_color='0072C6', end_color='0072C6', fill_type='solid') # Add nice fill
+
     for cell in worksheet[1]:
         cell.fill = header_fill
-    workbook.save('SCS_QA.xlsx')
+    
+    for column in worksheet.columns:
+        max_length = 0
+        column_name = column[0].column_letter
+        for cell in column:
+            try:
+                if len(str(cell.value)) > max_length:
+                    max_length = len(str(cell.value))
+            except:
+                pass
+        adjusted_width = (max_length + 2) * 1.2
+        worksheet.column_dimensions[column_name].width = adjusted_width
 
+    for cell in worksheet['H']:
+        if 'ERROR' in str(cell.value):
+            font = cell.font
+            cell.font = Font(color='FF0000', name=font.name, size=font.size) # Set font color to red
+
+    workbook.save('SCS_QA.xlsx')
+    
     return
 
 def cleanSummary(file):
