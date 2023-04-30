@@ -853,19 +853,19 @@ def cleanReport(file):
     facet_memstd_df = df.loc[df['ContainerName'].str.contains('facet_memstd') & df['ComponentGroup'].str.contains('Memory')]
 
     maskfacet_memstd = (facet_memstd_df['PhwebDescription'].str.contains('12GB') & \
-                            (facet_memstd_df['ContainerValue'].str.contains('12'))) | \
+                            (facet_memstd_df['ContainerValue'].str.contains(r'^112$', regex=True, case=False))) | \
                         (facet_memstd_df['PhwebDescription'].str.contains('128GB') & \
-                            (facet_memstd_df['ContainerValue'].str.contains('128'))) | \
+                            (facet_memstd_df['ContainerValue'].str.contains(r'^128$', regex=True, case=False))) | \
                         (facet_memstd_df['PhwebDescription'].str.contains('16') & \
-                            (facet_memstd_df['ContainerValue'].str.contains('16'))) | \
+                            (facet_memstd_df['ContainerValue'].str.contains(r'^16$', regex=True, case=False))) | \
                         (facet_memstd_df['PhwebDescription'].str.contains('32GB') & \
-                            (facet_memstd_df['ContainerValue'].str.contains('32'))) | \
+                            (facet_memstd_df['ContainerValue'].str.contains(r'^32$', regex=True, case=False))) | \
                         (facet_memstd_df['PhwebDescription'].str.contains('64GB') & \
-                            (facet_memstd_df['ContainerValue'].str.contains('64'))) | \
+                            (facet_memstd_df['ContainerValue'].str.contains(r'^64$', regex=True, case=False))) | \
                         (facet_memstd_df['PhwebDescription'].str.contains('8GB') & \
-                            (facet_memstd_df['ContainerValue'].str.contains('8'))) | \
+                            (facet_memstd_df['ContainerValue'].str.contains(r'^8$', regex=True, case=False))) | \
                         (facet_memstd_df['PhwebDescription'].str.contains('4GB') & \
-                            (facet_memstd_df['ContainerValue'].str.contains('4')))                            
+                            (facet_memstd_df['ContainerValue'].str.contains(r'^4$', regex=True, case=False)))                            
 
     facet_memstd_df.loc[maskfacet_memstd, 'Accuracy'] = 'SCS Facet Memory OK'
     facet_memstd_df.loc[~maskfacet_memstd, 'Accuracy'] = 'ERROR Facet Memory'
@@ -889,13 +889,50 @@ def cleanReport(file):
 ################################################################ facet_graphics
 
     facet_graphics_df = df.loc[df['ContainerName'].str.contains('facet_graphics') & df['ComponentGroup'].str.contains('Graphic card')]
-    maskfacet_facet_graphics = (facet_graphics_df['PhwebDescription'].str.contains('RTX') & \
-                        (facet_graphics_df['ContainerValue'].str.contains('NVIDIA GeForce', regex=False, case=False)))
+    maskfacet_graphics = (facet_graphics_df['PhwebDescription'].str.contains('RTX') & \
+                            (facet_graphics_df['ContainerValue'].str.contains(r'^NVIDIA GeForce$', regex=True, case=False)))
 
-    facet_graphics_df.loc[maskfacet_facet_graphics, 'Accuracy'] = 'SCS Facet Graphics OK'
-    facet_graphics_df.loc[~maskfacet_facet_graphics, 'Accuracy'] = 'ERROR Facet Graphics'
+    facet_graphics_df.loc[maskfacet_graphics, 'Accuracy'] = 'SCS Facet Graphics OK'
+    facet_graphics_df.loc[~maskfacet_graphics, 'Accuracy'] = 'ERROR Facet Graphics'
 
     df.update(facet_graphics_df['Accuracy'])
+
+
+################################################################ facet_processortype
+
+    facet_processortype_df = df.loc[df['ContainerName'].str.contains('facet_processortype') & df['ComponentGroup'].str.contains('Processor')]
+    maskfacet_processortype = (facet_processortype_df['PhwebDescription'].str.contains('i7') & \
+                            (facet_processortype_df['ContainerValue'].str.contains(r'^Intel Core i7$', regex=True, case=False))) | \
+                        (facet_processortype_df['PhwebDescription'].str.contains('i5') & \
+                            (facet_processortype_df['ContainerValue'].str.contains(r'^Intel Core i5$', regex=True, case=False))) | \
+                        (facet_processortype_df['PhwebDescription'].str.contains('R7') & \
+                            (facet_processortype_df['ContainerValue'].str.contains(r'^AMD Ryzen 7$', regex=True, case=False))) | \
+                        (facet_processortype_df['PhwebDescription'].str.contains('R5') & \
+                            (facet_processortype_df['ContainerValue'].str.contains(r'^AMD Ryzen 5$', regex=True, case=False)))
+    
+
+    facet_processortype_df.loc[maskfacet_processortype, 'Accuracy'] = 'SCS Facet Processor OK'
+    facet_processortype_df.loc[~maskfacet_processortype, 'Accuracy'] = 'ERROR Facet Processor'
+
+    df.update(facet_processortype_df['Accuracy'])
+
+
+################################################################ facet_scrnsizeus
+
+    facet_scrnsizeus_df = df.loc[df['ContainerName'].str.contains('facet_scrnsizeus') & df['ComponentGroup'].str.contains('Display')]
+    maskfacet_scrnsizeus = (facet_scrnsizeus_df['PhwebDescription'].str.contains('15.6') & \
+                            (facet_scrnsizeus_df['ContainerValue'].str.contains(r'^15.6$', regex=True, case=False))) | \
+                        (facet_scrnsizeus_df['PhwebDescription'].str.contains('13.3') & \
+                            (facet_scrnsizeus_df['ContainerValue'].str.contains(r'^13.3$', regex=True, case=False))) | \
+                        (facet_scrnsizeus_df['PhwebDescription'].str.contains('16.1') & \
+                            (facet_scrnsizeus_df['ContainerValue'].str.contains(r'^16.1$', regex=True, case=False)))
+    
+
+    facet_scrnsizeus_df.loc[maskfacet_scrnsizeus, 'Accuracy'] = 'SCS Facet Screen Size OK'
+    facet_scrnsizeus_df.loc[~maskfacet_scrnsizeus, 'Accuracy'] = 'ERROR Facet Screen Size'
+
+    df.update(facet_scrnsizeus_df['Accuracy'])
+
 
 
 ########################################################################################################################################
