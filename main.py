@@ -3,8 +3,6 @@ import openpyxl
 from openpyxl.styles import PatternFill,Font
 from flask import Flask, request, render_template,send_file
 import matplotlib.pyplot as plt
-import io
-import base64
 
 
 app = Flask(__name__)
@@ -46,7 +44,6 @@ def upload_file():
         return render_template('error.html')
 
     return render_template('index.html')
-
 
 def cleanReport(file):
     """Load, Clean and create a a new xlsx file"""
@@ -972,16 +969,6 @@ def cleanReport(file):
 
     workbook.save('SCS_QA.xlsx')
     
-    def generategraph():
-        df = pd.read_excel('SCS_QA.xlsx')
-        fig, ax = plt.subplots()
-        ax.plot(df["ContainerName"], df["Accuracy"])
-        png_output = io.BytesIO()
-        plt.savefig(png_output, format="png")
-        png_output.seek(0)
-        png_data = base64.b64encode(png_output.getvalue()).decode("ascii")
-        return render_template("grap.html", plot_data=png_data)
-    
     return
 
 def cleanSummary(file):
@@ -1033,7 +1020,21 @@ def cleanExport(file):
     df.to_excel("Report.xlsx", index=False)
 
     return
+@app.route('/plot')
+def generategraph():
+    df = pd.read_excel('SCS_QA.xlsx')
+    df = df.dropna(subset=['Accuracy'])
+    error_df = df[df['Accuracy'].str.contains('ERROR')]
+    plt.bar(error_df['ContainerName'], error_df['Accuracy'])
+    plt.title('Accuracy values for all containers with errors')
+    plt.xlabel('Container Name')
+    plt.gca().axes.get_yaxis().set_visible(False)
+    for index, value in enumerate(error_df['Accuracy']):
+        plt.text(index, value + 0.05, str(value))
 
+    plt.show()
+    plt.savefig('accuracy_chart.png')
+    return render_template('plot.html', chart='accuracy_chart.png')
 
 def main():
     upload_file()
