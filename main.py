@@ -2,6 +2,10 @@ import pandas as pd
 import openpyxl
 from openpyxl.styles import PatternFill,Font
 from flask import Flask, request, render_template,send_file
+import matplotlib.pyplot as plt
+import io
+import base64
+
 
 app = Flask(__name__)
 app.use_static_for = 'static'
@@ -24,6 +28,7 @@ def upload_file():
             file = request.files['file']
             if allowed_file(file.filename):
                 cleanReport(file)
+                generategraph()
                 return send_file('SCS_QA.xlsx', as_attachment=True)
 
         elif 'Summary' in request.files:
@@ -966,6 +971,16 @@ def cleanReport(file):
             cell.font = Font(color='FF0000', name=font.name, size=font.size) # Set font color to red
 
     workbook.save('SCS_QA.xlsx')
+    
+    def generategraph():
+        df = pd.read_excel('SCS_QA.xlsx')
+        fig, ax = plt.subplots()
+        ax.plot(df["ContainerName"], df["Accuracy"])
+        png_output = io.BytesIO()
+        plt.savefig(png_output, format="png")
+        png_output.seek(0)
+        png_data = base64.b64encode(png_output.getvalue()).decode("ascii")
+        return render_template("grap.html", plot_data=png_data)
     
     return
 
