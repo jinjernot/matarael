@@ -1,8 +1,10 @@
 import pandas as pd
 import openpyxl
 from openpyxl.styles import PatternFill,Font
-from flask import Flask, request, render_template,send_file
+from flask import Flask, request, render_template,send_file, redirect, url_for
 import matplotlib.pyplot as plt
+from openpyxl import load_workbook
+from openpyxl.drawing.image import Image
 
 
 app = Flask(__name__)
@@ -26,7 +28,7 @@ def upload_file():
             file = request.files['file']
             if allowed_file(file.filename):
                 cleanReport(file)
-                generategraph()
+                createPlot()
                 return send_file('SCS_QA.xlsx', as_attachment=True)
 
         elif 'Summary' in request.files:
@@ -542,7 +544,7 @@ def cleanReport(file):
 
 ################################################################ Processor Name
 
-    processorname_df = df.loc[df['ContainerName'].str.strip() == 'processorname']
+    processorname_df = df.loc[(df['ContainerName'] == 'processorname') & df['ComponentGroup'].str.contains('Processor')]
     maskProcessorName = (processorname_df['PhwebDescription'].str.contains('3020e') & \
                             (processorname_df['ContainerValue'].str.contains('AMD 3020e (1.2 GHz base clock, up to 2.6 GHz max boost clock, 4 MB L3 cache, 2 cores, 2 threads)',regex=False, case=False))) | \
                         (processorname_df['PhwebDescription'].str.contains('3050U') & \
@@ -761,7 +763,7 @@ def cleanReport(file):
 
 ################################################################ Graphic Card
 
-    graphicseg_02card_01_df = df.loc[df['ContainerName'].str.contains('graphicseg_02card_01')]
+    graphicseg_02card_01_df = df.loc[df['ContainerName'].str.contains('graphicseg_02card_01') & df['ComponentGroup'].str.contains('Graphic card')]
     maskGraphicCard = (graphicseg_02card_01_df['PhwebDescription'].str.contains('GFX AMD Rdn RX 6400 4GB GDDR6') & \
                         (graphicseg_02card_01_df['ContainerValue'].str.contains('AMD Radeon™ RX 6400 Graphics (4 GB GDDR6 dedicated)', regex=False, case=False))) | \
                     (graphicseg_02card_01_df['PhwebDescription'].str.contains('BU IDS DSC RX 6500M 4GB Ryzen5 5600H 15') & \
@@ -811,6 +813,10 @@ def cleanReport(file):
                         (wirelesstech_df['ContainerValue'].str.contains('Intel® Wi-Fi 6E AX411 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)', regex=False, case=False))) | \
                     (wirelesstech_df['PhwebDescription'].str.contains('WLAN I 9461 ac 1x1 MU-MIMO nvP+BT5WW1Ant') & \
                         (wirelesstech_df['ContainerValue'].str.contains('Intel® Wireless-AC 9461 802.11a/b/g/n/ac (1x1) Wi-Fi® and Bluetooth® 5.1 wireless card', regex=False, case=False))) | \
+                    (wirelesstech_df['PhwebDescription'].str.contains('WLAN ac 2x2 +BT 5 WW 2Ant') & \
+                        (wirelesstech_df['ContainerValue'].str.contains('Realtek RTL8822CE 802.11a/b/g/n/ac (2x2) Wi-Fi® and Bluetooth® 5 wireless card', regex=False, case=False))) | \
+                    (wirelesstech_df['PhwebDescription'].str.contains('WLAN I AX211 Wi-Fi6e 160MHz +BT 5.2 WW') & \
+                        (wirelesstech_df['ContainerValue'].str.contains('Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)', regex=False, case=False))) | \
                     (wirelesstech_df['PhwebDescription'].str.contains('WLAN Wi-Fi6 +BT 5.2') & \
                         (wirelesstech_df['ContainerValue'].str.contains('MediaTek Wi-Fi 6 MT7921 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)', regex=False, case=False))) | \
                     (wirelesstech_df['PhwebDescription'].str.contains('Arc A370M 4G') & \
@@ -943,8 +949,8 @@ def cleanReport(file):
 
     df.to_excel('SCS_QA.xlsx', index=False)
 
-    workbook = openpyxl.load_workbook('SCS_QA.xlsx')
-    worksheet = workbook.active
+    wb = openpyxl.load_workbook('SCS_QA.xlsx')
+    worksheet = wb.active
     header_fill = PatternFill(start_color='0072C6', end_color='0072C6', fill_type='solid') # Add nice fill
 
     for cell in worksheet[1]:
@@ -967,9 +973,9 @@ def cleanReport(file):
             font = cell.font
             cell.font = Font(color='FF0000', name=font.name, size=font.size) # Set font color to red
 
-    workbook.save('SCS_QA.xlsx')
+    wb.save('SCS_QA.xlsx')
     
-    return
+    return 
 
 def cleanSummary(file):
     """clean the file"""
@@ -1020,25 +1026,40 @@ def cleanExport(file):
     df.to_excel("Report.xlsx", index=False)
 
     return
-@app.route('/plot')
-def generategraph():
+
+def createPlot():
+
     df = pd.read_excel('SCS_QA.xlsx')
     df = df.dropna(subset=['Accuracy'])
+    
     error_df = df[df['Accuracy'].str.contains('ERROR')]
-    plt.bar(error_df['ContainerName'], error_df['Accuracy'])
-    plt.title('Accuracy values for all containers with errors')
-    plt.xlabel('Container Name')
-    plt.gca().axes.get_yaxis().set_visible(False)
-    for index, value in enumerate(error_df['Accuracy']):
-        plt.text(index, value + 0.05, str(value))
+    container_count = error_df.groupby('ContainerName').size().reset_index(name='Count')
+    top_containers = container_count.sort_values('Count', ascending=False).head(10)
 
-    plt.show()
-    plt.savefig('accuracy_chart.png')
-    return render_template('plot.html', chart='accuracy_chart.png')
+    barcolor = '#0096d6'
+    plt.figure(figsize=(12, 8))
+    plt.bar(top_containers['ContainerName'], top_containers['Count'], color=barcolor)
+    plt.title('Top 10')
+    plt.xlabel('Container Name')
+    plt.ylabel('')
+    plt.xticks(rotation=25, ha='right')
+    plt.savefig('./static/images/chart.png')
+
+    wb = load_workbook('SCS_QA.xlsx')
+    ws = wb.active
+    ws.title = 'SCS QA Report'
+    ws = wb.create_sheet(title='Bar Plot')
+    ws = wb.active
+    ws = wb['Bar Plot']
+    img = Image('./static/images/chart.png')
+    ws.add_image(img, 'A1')
+    wb.save('SCS_QA.xlsx')
+
+    return
 
 def main():
     upload_file()
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     app.run(debug=True)
     main()
