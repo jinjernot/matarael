@@ -16,7 +16,7 @@ def cleanReport(file):
 ################################################################ TechSpecs #############################################################
 ########################################################################################################################################
 
-################################################################ Memory
+################################################################ Memory ################################################################
 
     memstdes_01_df = df.loc[(df['ContainerName'].str.contains('memstdes_01')) & \
                         (df['ComponentGroup'].str.contains('Memory'))]
@@ -24,7 +24,7 @@ def cleanReport(file):
     maskMemory = (memstdes_01_df['PhwebDescription'].str.contains('RAM 8GB (1x8GB) DDR4 2400 SODIMM',regex=False) & \
                         (memstdes_01_df['ContainerValue'].str.contains('8 GB DDR4-2400 MHz RAM (1 x 8 GB)', regex=False, case=False))) | \
                     (memstdes_01_df['PhwebDescription'].str.contains('RAM HX 16GB (2x8GB) DDR4 3200 XMP RGBHS', regex=False, case=False) & \
-                        (memstdes_01_df['ContainerValue'].str.contains('HyperX 16 GB DDR4-3200 MHz XMP RGB Heatsink RAM (2 x 8 GB)', regex=True, case=False))) | \
+                        (memstdes_01_df['ContainerValue'].str.contains('HyperX 16 GB DDR4-3200 MHz XMP RGB Heatsink RAM (2 x 8 GB)', regex=False, case=False))) | \
                     (memstdes_01_df['PhwebDescription'].str.contains('RAM HX 16GB (2x8GB) DDR4 3467 XMP RGBHS',regex=False) & \
                         (memstdes_01_df['ContainerValue'].str.contains('HyperX 16 GB DDR4-3467 MHz XMP RGB Heatsink RAM (2 x 8 GB)', regex=False, case=False))) | \
                     (memstdes_01_df['PhwebDescription'].str.contains('RAM HX 16GB (2x8GB) DDR4 3733 XMP RGBHS',regex=False) & \
@@ -535,6 +535,108 @@ def cleanReport(file):
                             (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 7 5825U (up to 4.5 GHz max boost clock, 16 MB L3 cache, 8 cores, 16 threads)',regex=False, case=False))) | \
                         (processorname_df['PhwebDescription'].str.contains('6800H') & \
                             (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 7 6800H (up to 4.7 GHz max boost clock, 16 MB L3 cache, 8 cores, 16 threads)',regex=False, case=False))) | \
+                        (processorname_df['PhwebDescription'].str.contains('i5-11300H') & \
+                            (processorname_df['ContainerValue'].str.contains('Intel® Core™ i5-11300H (up to 4.4 GHz with Intel® Turbo Boost Technology, 8 MB L3 cache, 4 cores)',regex=False, case=False))) | \
+                        (processorname_df['PhwebDescription'].str.contains('i9-12900K') & \
+                            (processorname_df['ContainerValue'].str.contains('Intel® Core™ i9-12900K (up to 5.2 GHz with Intel® Turbo Boost Technology, 30 MB L3 cache, 16 cores, 24 threads)',regex=False, case=False))) | \
+                        (processorname_df['PhwebDescription'].str.contains('Ath3050U') & \
+                            (processorname_df['ContainerValue'].str.contains('AMD Athlon™ Silver 3050U (2.3 GHz base clock, up to 3.2 GHz max boost clock, 4 MB L3 cache, 2 cores, 2 threads)',regex=False, case=False))) | \
+                        (processorname_df['PhwebDescription'].str.contains('5600H') & \
+                            (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 5 5600H (up to 4.2 GHz max boost clock, 16 MB L3 cache, 6 cores, 12 threads)',regex=False, case=False))) | \
+                        (processorname_df['PhwebDescription'].str.contains('5600U') & \
+                            (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 5 5600U (up to 4.2 GHz max boost clock, 16 MB L3 cache, 6 cores, 12 threads)',regex=False, case=False))) | \
+                        (processorname_df['PhwebDescription'].str.contains('6600H') & \
+                            (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 5 6600H (up to 4.5 GHz max boost clock, 16 MB L3 cache, 6 cores, 12 threads)',regex=False, case=False))) | \
+                        (processorname_df['PhwebDescription'].str.contains('96900HX') & \
+                            (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 9 6900HX (up to 4.9 GHz max boost clock, 16 MB L3 cache, 8 cores, 16 threads)',regex=False, case=False))) | \
+                        (processorname_df['PhwebDescription'].str.contains('5900H') & \
+                            (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 9 5900HX (up to 4.6 GHz max boost clock, 16 MB L3 cache, 8 cores, 16 threads)',regex=False, case=False))) | \
+                        (processorname_df['PhwebDescription'].str.contains('J4025') & \
+                            (processorname_df['ContainerValue'].str.contains('Intel® Celeron® J4025 (2.0 GHz base frequency, up to 2.9 GHz, 2 MB L2 cache, 2 cores)',regex=False, case=False))) | \
+                        (processorname_df['PhwebDescription'].str.contains('CelN4120') & \
+                            (processorname_df['ContainerValue'].str.contains('Intel® Celeron® N4120 (up to 2.6 GHz burst frequency, 4 MB L2 cache, 4 cores, 4 threads)',regex=False, case=False))) | \
+                        (processorname_df['PhwebDescription'].str.contains('CelN4500') & \
+                            (processorname_df['ContainerValue'].str.contains('Intel® Celeron® N4500 (up to 2.8 GHz burst frequency, 4 MB L3 cache, 2 cores, 2 threads)',regex=False, case=False))) | \
+                        (processorname_df['PhwebDescription'].str.contains('i3-1115G4') & \
+                            (processorname_df['ContainerValue'].str.contains('Intel® Core™ i3-1115G4 (up to 4.1 GHz with Intel® Turbo Boost Technology, 6 MB L3 cache, 2 cores, 4 threads)',regex=False, case=False))) | \
+                        (processorname_df['PhwebDescription'].str.contains('i3-1125G4') & \
+                            (processorname_df['ContainerValue'].str.contains('Intel® Core™ i3-1125G4 (up to 3.7 GHz with Intel® Turbo Boost Technology, 8 MB L3 cache, 4 cores, 8 threads)',regex=False, case=False))) | \
+                        (processorname_df['PhwebDescription'].str.contains('i3-1215U') & \
+                            (processorname_df['ContainerValue'].str.contains('Intel® Core™ i3-1215U (up to 4.4 GHz with Intel® Turbo Boost Technology, 10 MB L3 cache, 6 cores, 8 threads)',regex=False, case=False))) | \
+                        (processorname_df['PhwebDescription'].str.contains('i3-12xxx') & \
+                            (processorname_df['ContainerValue'].str.contains('Intel® Core™ i3-1215U (up to 4.4 GHz with Intel® Turbo Boost Technology, 10 MB L3 cache, 6 cores, 8 threads)',regex=False, case=False))) | \
+                        (processorname_df['PhwebDescription'].str.contains('i5-1155G7') & \
+                            (processorname_df['ContainerValue'].str.contains('Intel® Core™ i5-1155G7 (up to 4.5 GHz with Intel® Turbo Boost Technology, 8 MB L3 cache, 4 cores, 8 threads)',regex=False, case=False))) | \
+                        (processorname_df['PhwebDescription'].str.contains('i5-1135G7') & \
+                            (processorname_df['ContainerValue'].str.contains('Intel® Core™ i5-1135G7 (up to 4.2 GHz with Intel® Turbo Boost Technology, 8 MB L3 cache, 4 cores)',regex=False, case=False))) | \
+                        (processorname_df['PhwebDescription'].str.contains('i5-11400H') & \
+                            (processorname_df['ContainerValue'].str.contains('Intel® Core™ i5-11400H (up to 4.5 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 6 cores, 12 threads)',regex=False, case=False))) | \
+                        (processorname_df['PhwebDescription'].str.contains('i5-1235U') & \
+                            (processorname_df['ContainerValue'].str.contains('Intel® Core™ i5-1235U (up to 4.4 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 10 cores, 12 threads)',regex=False, case=False))) | \
+                        (processorname_df['PhwebDescription'].str.contains('i5-1230U') & \
+                            (processorname_df['ContainerValue'].str.contains('Intel® Core™ i5-1230U (up to 4.4 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 10 cores, 12 threads)',regex=False, case=False))) | \
+                        (processorname_df['PhwebDescription'].str.contains('i5-12400') & \
+                            (processorname_df['ContainerValue'].str.contains('Intel® Core™ i5-12400 (up to 4.4 GHz with Intel® Turbo Boost Technology, 18 MB L3 cache, 6 cores, 12 threads)',regex=False, case=False))) | \
+                        (processorname_df['PhwebDescription'].str.contains('i5-1240P') & \
+                            (processorname_df['ContainerValue'].str.contains('Intel® Core™ i5-1240P (up to 4.4 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 12 cores, 16 threads)',regex=False, case=False))) | \
+                        (processorname_df['PhwebDescription'].str.contains('i5-12400T') & \
+                            (processorname_df['ContainerValue'].str.contains('Intel® Core™ i5-12400T (up to 4.2 GHz with Intel® Turbo Boost Technology, 18 MB L3 cache, 6 cores, 12 threads)',regex=False, case=False))) | \
+                        (processorname_df['PhwebDescription'].str.contains('i5-12400F') & \
+                            (processorname_df['ContainerValue'].str.contains('Intel® Core™ i5-12400F (up to 4.4 GHz with Intel® Turbo Boost Technology, 18 MB L3 cache, 6 cores, 12 threads)',regex=False, case=False))) | \
+                        (processorname_df['PhwebDescription'].str.contains('i5-12500H') & \
+                            (processorname_df['ContainerValue'].str.contains('Intel® Core™ i5-12500H (up to 4.5 GHz with Intel® Turbo Boost Technology, 18 MB L3 cache, 12 cores, 16 threads)',regex=False, case=False))) | \
+                        (processorname_df['PhwebDescription'].str.contains('i7-11370H') & \
+                            (processorname_df['ContainerValue'].str.contains('Intel® Core™ i7-11370H (up to 4.8 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 4 cores)',regex=False, case=False))) | \
+                        (processorname_df['PhwebDescription'].str.contains('i7-1165G7') & \
+                            (processorname_df['ContainerValue'].str.contains('Intel® Core™ i7-1165G7 (up to 4.7 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 4 cores, 8 threads)',regex=False, case=False))) | \
+                        (processorname_df['PhwebDescription'].str.contains('i7-11700') & \
+                            (processorname_df['ContainerValue'].str.contains('Intel® Core™ i7-11700 (2.5 GHz base frequency, up to 4.9 GHz with Intel® Turbo Boost Technology, 16 MB L3 cache, 8 cores)',regex=False, case=False))) | \
+                        (processorname_df['PhwebDescription'].str.contains('i7-1255U') & \
+                            (processorname_df['ContainerValue'].str.contains('Intel® Core™ i7-1255U (up to 4.7 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 10 cores, 12 threads)',regex=False, case=False))) | \
+                        (processorname_df['PhwebDescription'].str.contains('Ath7220U') & \
+                            (processorname_df['ContainerValue'].str.contains('AMD Athlon™ Gold 7220U (up to 3.7 GHz max boost clock, 4 MB L3 cache, 2 cores, 4 threads)',regex=False, case=False))) | \
+                        (processorname_df['PhwebDescription'].str.contains('Athlon-3050U') & \
+                            (processorname_df['ContainerValue'].str.contains('AMD Athlon™ Silver 3050U (2.3 GHz base clock, up to 3.2 GHz max boost clock, 4 MB L3 cache, 2 cores, 2 threads)',regex=False, case=False))) | \
+                        (processorname_df['PhwebDescription'].str.contains('Ath7120U') & \
+                            (processorname_df['ContainerValue'].str.contains('AMD Athlon™ Silver 7120U (up to 3.5 GHz max boost clock, 2 MB L3 cache, 2 cores, 2 threads)',regex=False, case=False))) | \
+                        (processorname_df['PhwebDescription'].str.contains('Ryzen3-3250U') & \
+                            (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 3 3250U (2.6 GHz base clock, up to 3.5 GHz max boost clock, 4 MB L3 cache, 2 cores)',regex=False, case=False))) | \
+                        (processorname_df['PhwebDescription'].str.contains('7320U') & \
+                            (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 3 7320U (up to 4.1 GHz max boost clock, 4 MB L3 cache, 4 cores, 8 threads)',regex=False, case=False))) | \
+                        (processorname_df['PhwebDescription'].str.contains('7520U') & \
+                            (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 5 7520U (up to 4.3 GHz max boost clock, 4 MB L3 cache, 4 cores, 8 threads)',regex=False, case=False))) | \
+                        (processorname_df['PhwebDescription'].str.contains('7530U') & \
+                            (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 5 7530U (up to 4.5 GHz max boost clock, 16 MB L3 cache, 6 cores, 12 threads)',regex=False, case=False))) | \
+                        (processorname_df['PhwebDescription'].str.contains('7535U') & \
+                            (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 5 7535U (up to 4.55 GHz max boost clock, 16 MB L3 cache, 6 cores, 12 threads)',regex=False, case=False))) | \
+                        (processorname_df['PhwebDescription'].str.contains('7640HS') & \
+                            (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 5 7640HS (up to 5.0 GHz max boost clock, 16 MB L3 cache, 6 cores, 12 threads)',regex=False, case=False))) | \
+                        (processorname_df['PhwebDescription'].str.contains('7730U') & \
+                            (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 7 7730U (up to 4.5 GHz max boost clock, 16 MB L3 cache, 8 cores, 16 threads)',regex=False, case=False))) | \
+                        (processorname_df['PhwebDescription'].str.contains('7840HS') & \
+                            (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 7 7840HS (up to 5.1 GHz max boost clock, 16 MB L3 cache, 8 cores, 16 threads)',regex=False, case=False))) | \
+                        (processorname_df['PhwebDescription'].str.contains('7840H') & \
+                            (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 7 7840H (up to 5.1 GHz max boost clock, 16 MB L3 cache, 8 cores, 16 threads)',regex=False, case=False))) | \
+                        (processorname_df['PhwebDescription'].str.contains('7940HS') & \
+                            (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 9 7940HS (up to 5.2 GHz max boost clock, 16 MB L3 cache, 8 cores, 16 threads)',regex=False, case=False))) | \
+                        (processorname_df['PhwebDescription'].str.contains('J4025') & \
+                            (processorname_df['ContainerValue'].str.contains('Intel® Celeron® J4025 (2.0 GHz base frequency, up to 2.9 GHz, 4 MB L2 cache, 2 cores, 2 threads)',regex=False, case=False))) | \
+                        (processorname_df['PhwebDescription'].str.contains('i3-1125G4') & \
+                            (processorname_df['ContainerValue'].str.contains('Intel® Core™  i3-1125G4 (up to 3.7 GHz with Intel® Turbo Boost Technology, 8 MB cache, 4 cores)',regex=False, case=False))) | \
+                        (processorname_df['PhwebDescription'].str.contains('i3-12100') & \
+                            (processorname_df['ContainerValue'].str.contains('Intel® Core™ i3-12100 (up to 4.3 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 4 cores, 8 threads)',regex=False, case=False))) | \
+                        (processorname_df['PhwebDescription'].str.contains('i3-13100T') & \
+                            (processorname_df['ContainerValue'].str.contains('Intel® Core™ i3-13100T (up to 4.2 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 4 cores, 8 threads)',regex=False, case=False))) | \
+                        (processorname_df['PhwebDescription'].str.contains('i3-11xx') & \
+                            (processorname_df['ContainerValue'].str.contains('Intel® Core™ i3-1215U (up to 4.4 GHz with Intel® Turbo Boost Technology, 10 MB L3 cache, 6 cores, 8 threads)',regex=False, case=False))) | \
+                        (processorname_df['PhwebDescription'].str.contains('i3-1315U') & \
+                            (processorname_df['ContainerValue'].str.contains('Intel® Core™ i3-1315U (up to 4.5 GHz with Intel® Turbo Boost Technology, 10 MB L3 cache, 6 cores, 8 threads)',regex=False, case=False))) | \
+                        (processorname_df['PhwebDescription'].str.contains('i5-11xx') & \
+                            (processorname_df['ContainerValue'].str.contains('Intel® Core™ i5-1235U (up to 4.4 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 10 cores, 12 threads)',regex=False, case=False))) | \
+                        (processorname_df['PhwebDescription'].str.contains('i7-1195G7') & \
+                            (processorname_df['ContainerValue'].str.contains('Intel® Core™ i7-1195G7 (up to 5.0 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 4 cores, 8 threads)',regex=False, case=False))) | \
+                        (processorname_df['PhwebDescription'].str.contains('i7-12700K') & \
+                            (processorname_df['ContainerValue'].str.contains('Intel® Core™ i7-12700K (up to 5.0 GHz with Intel® Turbo Boost Technology, 25 MB L3 cache, 12 cores, 20 threads)',regex=False, case=False))) | \
                         (processorname_df['PhwebDescription'].str.contains('5900X') & \
                             (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 9 5900X (up to 4.8 GHz max boost clock, 64 MB L3 cache, 12 cores, 24 threads)',regex=False, case=False))) | \
                         (processorname_df['PhwebDescription'].str.contains('CPU INTL i7-12700F 12C 2.10 65W') & \
@@ -595,7 +697,7 @@ def cleanReport(file):
 
 ################################################################ Hard Drive
 
-    hd_01des_df = df.loc[df['ContainerName'].str.contains('hd_01des')]
+    hd_01des_df = df.loc[df['ContainerName'].str.contains('hd_01des') & df['ComponentGroup'].str.contains('Hard Drive')]
     maskHardDrive = (hd_01des_df['PhwebDescription'].str.contains('SSD 512GB PCIe NVMe') & \
                         (hd_01des_df['ContainerValue'].str.contains('512 GB PCIe® Gen4 NVMe™ TLC M.2 SSD', regex=False, case=False))) | \
                     (hd_01des_df['PhwebDescription'].str.contains('SSD 512G 2280 PCIe NVMe Value') & \
@@ -614,8 +716,20 @@ def cleanReport(file):
                         (hd_01des_df['ContainerValue'].str.contains('2 TB PCIe® Gen4 NVMe™ TLC M.2 SSD', regex=False, case=False))) | \
                     (hd_01des_df['PhwebDescription'].str.contains('SSD 2TB PCIe NVMe TLC') & \
                         (hd_01des_df['ContainerValue'].str.contains('2 TB PCIe® NVMe™ TLC M.2 SSD', regex=False, case=False))) | \
+                    (hd_01des_df['PhwebDescription'].str.contains('HDD 1TB 5400RPM SATA') & \
+                        (hd_01des_df['ContainerValue'].str.contains('1 TB 5400 rpm SATA HDD', regex=False, case=False))) | \
+                    (hd_01des_df['PhwebDescription'].str.contains('SSD WD Black 1T 2280 PCIe-4x4 NVMe TLC') & \
+                        (hd_01des_df['ContainerValue'].str.contains('1 TB WD Black PCIe® Gen4 NVMe™ TLC M.2  SSD', regex=False, case=False))) | \
+                    (hd_01des_df['PhwebDescription'].str.contains('SSD WD Black 2TB 2280 PCIe-4x4 TLC') & \
+                        (hd_01des_df['ContainerValue'].str.contains('2 TB WD Black PCIe® Gen4 TLC M.2 SSD', regex=False, case=False))) | \
+                    (hd_01des_df['PhwebDescription'].str.contains('SSD WD 512G 2280 PCIe NVMe Value') & \
+                     hd_01des_df['ContainerValue'].str.contains('512 GB WD Black PCIe® NVMe™ TLC M.2  SSD', regex=False, case=False) | \
+                    (hd_01des_df['ContainerValue'].str.contains('512 GB PCIe® NVMe™ M.2 SSD', regex=False, case=False))) | \
                     (hd_01des_df['PhwebDescription'].str.contains('SSD 1T 2280 PCIe NVMe Value') & \
+                        (hd_01des_df['ContainerValue'].str.contains('1 TB PCIe® NVMe™ M.2 SSD', regex=False, case=False))) | \
+                    (hd_01des_df['PhwebDescription'].str.contains('SSD WD 1T 2280 PCIe NVMe Value') & \
                         (hd_01des_df['ContainerValue'].str.contains('1 TB PCIe® NVMe™ M.2 SSD', regex=False, case=False)))
+
 
     hd_01des_df.loc[maskHardDrive, 'Accuracy'] = 'SCS Hard Drive OK'
     hd_01des_df.loc[~maskHardDrive, 'Accuracy'] = 'ERROR Hard Drive'
@@ -745,9 +859,13 @@ def cleanReport(file):
 
 ################################################################ Optical Drive
 
-    cdromdvd_df = df.loc[df['ContainerName'].str.contains('cdromdvd')]
+    cdromdvd_df = df.loc[df['ContainerName'].str.contains('cdromdvd') & df['ComponentGroup'].str.contains('Optical Drive')]
     maskCD = (cdromdvd_df['PhwebDescription'].str.contains('DVDWR') & \
-                        (cdromdvd_df['ContainerValue'].str.contains('DVD-Writer', case=False)))
+                        (cdromdvd_df['ContainerValue'].str.contains('DVD-Writer', case=False))) | \
+                    (cdromdvd_df['PhwebDescription'].str.contains('NO ODD') & \
+                        (cdromdvd_df['ContainerValue'].str.contains('##BLANK##', case=False)))
+    
+    
 
     cdromdvd_df.loc[maskCD, 'Accuracy'] = 'SCS Optical Drive OK'
     cdromdvd_df.loc[~maskCD, 'Accuracy'] = 'ERROR Optical Drive'
@@ -757,28 +875,66 @@ def cleanReport(file):
 ################################################################ Wireless Tech
 
     wirelesstech_df = df.loc[df['ContainerName'].str.strip() == 'wirelesstech']
-    maskWirelessTech = (wirelesstech_df['PhwebDescription'].str.contains('WLAN IWiFi6AX201ax2x2MUMIMOnvP160MHz+BT5') & \
+    maskWirelessTech = (wirelesstech_df['PhwebDescription'].str.contains('WLAN IWiFi6AX201ax2x2MUMIMOnvP160MHz+BT5', regex=False) & \
                         (wirelesstech_df['ContainerValue'].str.contains('Intel® Wi-Fi 6 AX201 (2x2) and Bluetooth® 5.2 wireless card (supporting gigabit data rate)', regex=False, case=False))) | \
-                    (wirelesstech_df['PhwebDescription'].str.contains('WLAN I AX210 Wi-Fi6e nvP 160MHz +BT5.2WW') & \
+                    (wirelesstech_df['PhwebDescription'].str.contains('WLAN RT ac 1x1 +BT 4.2LE WW', regex=False) & \
+                        (wirelesstech_df['ContainerValue'].str.contains('Realtek 802.11a/b/g/n/ac (1x1) Wi-Fi® and Bluetooth® 4.2 wireless card', regex=False, case=False))) | \
+                    (wirelesstech_df['PhwebDescription'].str.contains('WLAN I AX210 Wi-Fi6e nvP 160MHz +BT5.2WW', regex=False) & \
                         (wirelesstech_df['ContainerValue'].str.contains('Intel® Wi-Fi 6E AX210 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)', regex=False, case=False))) | \
-                    (wirelesstech_df['PhwebDescription'].str.contains('WLAN I AX211 Wi-Fi6e 160MHz +BT 5.2 WW') & \
+                    (wirelesstech_df['PhwebDescription'].str.contains('WLAN I AX211 Wi-Fi6e 160MHz +BT 5.2 WW', regex=False) & \
                         (wirelesstech_df['ContainerValue'].str.contains('Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)', regex=False, case=False))) | \
-                    (wirelesstech_df['PhwebDescription'].str.contains('WLAN I AX411 Wi-Fi6e 160MHz +BT 5.2 WW') & \
+                    (wirelesstech_df['PhwebDescription'].str.contains('WLAN I AX411 Wi-Fi6e 160MHz +BT 5.2 WW', regex=False) & \
                         (wirelesstech_df['ContainerValue'].str.contains('Intel® Wi-Fi 6E AX411 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)', regex=False, case=False))) | \
-                    (wirelesstech_df['PhwebDescription'].str.contains('WLAN I 9461 ac 1x1 MU-MIMO nvP+BT5WW1Ant') & \
+                    (wirelesstech_df['PhwebDescription'].str.contains('WLAN I 9461 ac 1x1 MU-MIMO nvP+BT5WW1Ant', regex=False) & \
                         (wirelesstech_df['ContainerValue'].str.contains('Intel® Wireless-AC 9461 802.11a/b/g/n/ac (1x1) Wi-Fi® and Bluetooth® 5.1 wireless card', regex=False, case=False))) | \
-                    (wirelesstech_df['PhwebDescription'].str.contains('WLAN ac 2x2 +BT 5 WW 2Ant') & \
-                        (wirelesstech_df['ContainerValue'].str.contains('Realtek RTL8822CE 802.11a/b/g/n/ac (2x2) Wi-Fi® and Bluetooth® 5 wireless card', regex=False, case=False))) | \
-                    (wirelesstech_df['PhwebDescription'].str.contains('WLAN I AX211 Wi-Fi6e 160MHz +BT 5.2 WW') & \
+                    (wirelesstech_df['PhwebDescription'].str.contains('WLAN ac 2x2 +BT 5 WW 2Ant', regex=False) & \
+                        wirelesstech_df['ContainerValue'].str.contains('Realtek RTL8822CE 802.11a/b/g/n/ac (2x2) Wi-Fi® and Bluetooth® 5 wireless card', regex=False, case=False) | \
                         (wirelesstech_df['ContainerValue'].str.contains('Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)', regex=False, case=False))) | \
-                    (wirelesstech_df['PhwebDescription'].str.contains('WLAN Wi-Fi6 +BT 5.2') & \
+                    (wirelesstech_df['PhwebDescription'].str.contains('WLAN Wi-Fi6 +BT 5.2', regex=False) & \
                         (wirelesstech_df['ContainerValue'].str.contains('MediaTek Wi-Fi 6 MT7921 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)', regex=False, case=False))) | \
-                    (wirelesstech_df['PhwebDescription'].str.contains('Arc A370M 4G') & \
+                    (wirelesstech_df['PhwebDescription'].str.contains('Arc A370M 4G', regex=False) & \
                         (wirelesstech_df['ContainerValue'].str.contains('Intel® Arc™ A370M Graphics (4 GB GDDR6 dedicated)', regex=False, case=False))) | \
-                    (wirelesstech_df['PhwebDescription'].str.contains('WLAN RT ac 2x2 +BT 5 WW') & \
-                        (wirelesstech_df['ContainerValue'].str.contains('Realtek 802.11a/b/g/n/ac (2x2) Wi-Fi® and Bluetooth® 5 wireless card', regex=False, case=False))) | \
-                    (wirelesstech_df['PhwebDescription'].str.contains('WLAN RT 8852AE Wi-Fi6 +BT 5.2 WW') & \
-                        (wirelesstech_df['ContainerValue'].str.contains('Realtek Wi-Fi 6 (2x2) and Bluetooth® 5.2 wireless card (supporting gigabit data rate)', regex=False, case=False)))
+                    (wirelesstech_df['PhwebDescription'].str.contains('WLAN RT ac 2x2 +BT 5 WW', regex=False) & \
+                        (wirelesstech_df['ContainerValue'].str.contains('Realtek RTL8822CE 802.11a/b/g/n/ac (2x2) Wi-Fi® and Bluetooth® 5 wireless card', regex=False, case=False) | \
+                        wirelesstech_df['ContainerValue'].str.contains('Realtek 802.11a/b/g/n/ac (2x2) Wi-Fi® and Bluetooth® 5 wireless card', regex=False, case=False))) | \
+                    (wirelesstech_df['PhwebDescription'].str.contains('WLAN RT 8852AE Wi-Fi6 +BT 5.2 WW', regex=False) & \
+                        (wirelesstech_df['ContainerValue'].str.contains('Realtek Wi-Fi 6 (2x2) and Bluetooth® 5.2 wireless card (supporting gigabit data rate)', regex=False, case=False))) | \
+                    (wirelesstech_df['PhwebDescription'].str.contains('WLAN ac 1x1 +BT 4.2 WW', regex=False) & \
+                        (wirelesstech_df['ContainerValue'].str.contains('Realtek RTL8821CE 802.11a/b/g/n/ac (1x1) Wi-Fi® and Bluetooth® 4.2 wireless card', regex=False, case=False) | \
+                        wirelesstech_df['ContainerValue'].str.contains('Realtek RTL8821CE-M 802.11a/b/g/n/ac (1x1) Wi-Fi® and Bluetooth® 4.2 wireless card', regex=False, case=False))) | \
+                    (wirelesstech_df['PhwebDescription'].str.contains('WLAN ac 1x1 +BT 4.2 WW 1Ant', regex=False) & \
+                        (wirelesstech_df['ContainerValue'].str.contains('Realtek RTL8821CE-M 802.11a/b/g/n/ac (1x1) Wi-Fi® and Bluetooth® 4.2 wireless card', regex=False, case=False) | \
+                        wirelesstech_df['ContainerValue'].str.contains('Realtek RTL8821CE 802.11a/b/g/n/ac (1x1) Wi-Fi® and Bluetooth® 4.2 wireless card', regex=False, case=False))) | \
+                    (wirelesstech_df['PhwebDescription'].str.contains('WLAN ac2x2 +BT 5.0 WW 2Ant', regex=False) & \
+                        (wirelesstech_df['ContainerValue'].str.contains('Realtek RTL8822CE 802.11a/b/g/n/ac (2x2) Wi-Fi® and Bluetooth® 5 wireless card', regex=False, case=False))) | \
+                    (wirelesstech_df['PhwebDescription'].str.contains('WLAN RT 8821CE ac1x1 +BT 4.2', regex=False) & \
+                        (wirelesstech_df['ContainerValue'].str.contains('Realtek RTL8821CE 802.11a/b/g/n/ac (1x1) Wi-Fi® and Bluetooth® 4.2 wireless card', regex=False, case=False))) | \
+                    (wirelesstech_df['PhwebDescription'].str.contains('WLAN ax1x2 +BT 5.2 WW 2Ant', regex=False) & \
+                        (wirelesstech_df['ContainerValue'].str.contains('Realtek Wi-Fi 6 (1x2) and Bluetooth® 5.2 wireless card (supporting gigabit data rate)', regex=False, case=False))) | \
+                    (wirelesstech_df['PhwebDescription'].str.contains('WLAN RT ac2x2 +BT 5.0 2Ant', regex=False) & \
+                        (wirelesstech_df['ContainerValue'].str.contains('Realtek RTL8822CE 802.11a/b/g/n/ac (2x2) Wi-Fi® and Bluetooth® 5 wireless card', regex=False, case=False))) | \
+                    (wirelesstech_df['PhwebDescription'].str.contains('WLAN RT RTL8821CE ac 1x1 +BT 4.2 WW', regex=False) & \
+                        (wirelesstech_df['ContainerValue'].str.contains('Realtek RTL8821CE 802.11a/b/g/n/ac (1x1) Wi-Fi® and Bluetooth® 4.2 wireless card', regex=False, case=False))) | \
+                    (wirelesstech_df['PhwebDescription'].str.contains('WLAN RT RTL8822CE ac 2x2 +BT 5 WW', regex=False) & \
+                        (wirelesstech_df['ContainerValue'].str.contains('Realtek RTL8822CE 802.11a/b/g/n/ac (2x2) Wi-Fi® and Bluetooth® 5 wireless card', regex=False, case=False))) | \
+                    (wirelesstech_df['PhwebDescription'].str.contains('WLAN RT ac 2x2 +BT 5 WW 2Ant', regex=False) & \
+                        (wirelesstech_df['ContainerValue'].str.contains('Realtek RTL8822CE 802.11a/b/g/n/ac (2x2) Wi-Fi® and Bluetooth® 5 wireless card', regex=False, case=False))) | \
+                    (wirelesstech_df['PhwebDescription'].str.contains('WLAN Wi-Fi6e +BT 5.2', regex=False) & \
+                        (wirelesstech_df['ContainerValue'].str.contains('MediaTek Wi-Fi 6E MT7922 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)', regex=False, case=False))) | \
+                    (wirelesstech_df['PhwebDescription'].str.contains('WLAN IWiFi6AX201ax2x2MUMIMOnvP160MHz+BT5', regex=False) & \
+                        (wirelesstech_df['ContainerValue'].str.contains('Intel® Wi-Fi 6 AX201 (2x2) and Bluetooth® 5.2 wireless card (supporting gigabit data rate)', regex=False, case=False))) | \
+                    (wirelesstech_df['PhwebDescription'].str.contains('WLAN ax2x2 +BT 5.2 2Ant', regex=False) & \
+                        (wirelesstech_df['ContainerValue'].str.contains('MediaTek Wi-Fi 6 MT7921 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)', regex=False, case=False) | \
+                        wirelesstech_df['ContainerValue'].str.contains('Realtek Wi-Fi 6 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)', regex=False, case=False) | \
+                        wirelesstech_df['ContainerValue'].str.contains('Realtek Wi-Fi 6 (2x2) and Bluetooth® 5.2 wireless card (supporting gigabit data rate)', regex=False, case=False))) | \
+                    (wirelesstech_df['PhwebDescription'].str.contains('WLAN ax2x2 +BT 5.2 WW 2Ant', regex=False) & \
+                        wirelesstech_df['ContainerValue'].str.contains('Realtek Wi-Fi 6 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)', regex=False, case=False) | \
+                        (wirelesstech_df['ContainerValue'].str.contains('MediaTek Wi-Fi 6 MT7921 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)', regex=False, case=False))) | \
+                    (wirelesstech_df['PhwebDescription'].str.contains('WLAN RT RTL8821CE ac 1x1 +BT 4.2LE WW', regex=False) & \
+                        wirelesstech_df['ContainerValue'].str.contains('Realtek RTL8821CE-M 802.11a/b/g/n/ac (1x1) Wi-Fi® and Bluetooth® 4.2 wireless card', regex=False, case=False) | \
+                        (wirelesstech_df['ContainerValue'].str.contains('Realtek RTL8821CE 802.11a/b/g/n/ac (1x1) Wi-Fi® and Bluetooth® 4.2 wireless card', regex=False, case=False)))
+
+    
 
     wirelesstech_df.loc[maskWirelessTech, 'Accuracy'] = 'SCS Wireless Tech OK'
     wirelesstech_df.loc[~maskWirelessTech, 'Accuracy'] = 'ERROR Wireless Tech'
