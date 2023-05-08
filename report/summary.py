@@ -24,6 +24,7 @@ def cleanS(file):
     middle_cols = df.iloc[:, 1:-1]
     new_df = pd.concat([first_col, last_col, middle_cols], axis=1)
     writer = pd.ExcelWriter(file, engine='xlsxwriter') #create a writer object
+    
     new_df.to_excel("Summary.xlsx", sheet_name="oli", index=False) #create the excel
   
     return
