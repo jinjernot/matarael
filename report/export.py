@@ -8,10 +8,10 @@ def cleanE(file):
     df = df.drop([0, 1, 2])
 
     new_column2 = df['ContainerName'].str.split('/', n=1, expand=True)[1].str.split('/', n=1, expand=True)[0]
-    df.insert(loc=0, column='root2', value=new_column2)
+    df.insert(loc=0, column='Container Group 2', value=new_column2)
 
     new_column = df['ContainerName'].str.split('/', n=1, expand=True)[0]
-    df.insert(loc=0, column='root1', value=new_column)
+    df.insert(loc=0, column='Container Group 1', value=new_column)
 
     df['ContainerName'] = df['ContainerName'].str.split('/', n=2, expand=True)[2]
 
