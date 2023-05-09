@@ -1,7 +1,6 @@
 import pandas as pd
 from data.format_data import formateData
 from data.process_data import processData
-import json
 
 def cleanReport(file):
     """Load, Clean and create a a new xlsx file"""

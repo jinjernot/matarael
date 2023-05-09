@@ -211,6 +211,11 @@
         {
             "PhwebDescription": "LCD 17.3 HD+ AG LED 250 SVA NWBZ flt",
             "ContainerValue": "17.3\" diagonal, HD+ (1600 x 900), anti-glare, 250 nits, 60% NTSC"
+        },
+        {
+            "PhwebDescription": "LCD 16.3 HD+ AG LED 250 SVA NWBZ flt",
+            "ContainerValue": "16.3\" diagonal, HD+ (1600 x 900), anti-glare, 250 nits, 60% NTSC"
         }
+
     ]
 }
