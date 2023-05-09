@@ -14,7 +14,7 @@ def createPlot():
     barcolor = '#0096d6'
     plt.figure(figsize=(12, 8))
     plt.bar(top_containers['ContainerName'], top_containers['Count'], color=barcolor)
-    plt.title('Top 10')
+    plt.title('Top Offenders')
     plt.xlabel('Container Name')
     plt.ylabel('')
     plt.xticks(rotation=25, ha='right')

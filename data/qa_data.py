@@ -1,5 +1,6 @@
 import pandas as pd
 from data.format_data import formateData
+from data.process_data import processData
 import json
 
 def cleanReport(file):
@@ -323,26 +324,10 @@ def cleanReport(file):
 
 ################################################################ Colors ################################################################
 
-    with open('json/productcolour.json', 'r') as f:
-        data = json.load(f)
+    container_df = df.loc[df['ContainerName'].str.contains('productcolour')]
+    processData('json/productcolour.json', 'productcolour', container_df, df)
 
-        productcolour_df = df.loc[df['ContainerName'].str.contains('productcolour')]
-
-        color_accuracy_dict = {}
-
-        for colour in data['productcolour']:
-            maskColor = (productcolour_df['PhwebDescription'].str.contains(colour['PhwebDescription']) & \
-                        (productcolour_df['ContainerValue'].str.contains(colour['ContainerValue'], case=False))) 
-            for idx in productcolour_df[maskColor].index:
-                color_accuracy_dict[idx] = 'SCS Color OK'
-        for idx in productcolour_df.index:
-            if idx not in color_accuracy_dict:
-                color_accuracy_dict[idx] = 'ERROR Color'
-        productcolour_df['Accuracy'] = productcolour_df.index.map(color_accuracy_dict)
-
-        df.update(productcolour_df['Accuracy'])
-
-
+  
 ######################################################################## FPR ################################################################
 
     fingerprread_df = df.loc[df['ContainerName'].str.contains('fingerprread')]
@@ -590,132 +575,8 @@ def cleanReport(file):
 
 ################################################################ Display ################################################################
 
-    display_df = df.loc[df['ContainerName'].str.strip() == 'display']
-    maskDisplay =   (display_df['PhwebDescription'].str.contains('LCD 15.6 FHD AG LED UWVA250144HzNWBZflat') & \
-                        (display_df['ContainerValue'].str.contains('15.6" diagonal, FHD (1920 x 1080), 144 Hz, 9 ms response time, IPS, micro-edge, anti-glare, 250 nits, 45% NTSC', regex=False, case=False))) | \
-                    (display_df['PhwebDescription'].str.contains('LCD 15.6 FHD AG LEDUWVA300uslim144HzNWBZ') & \
-                        (display_df['ContainerValue'].str.contains('15.6" diagonal, FHD (1920 x 1080), 144 Hz, 7 ms response time, IPS, micro-edge, anti-glare, 300 nits, 72% NTSC', regex=False, case=False))) | \
-                    (display_df['PhwebDescription'].str.contains('LCD 15.6 QHDAGLwBluLt300UWVA120HzNWBZbnt') & \
-                        (display_df['ContainerValue'].str.contains('15.6" diagonal, QHD (2560 x 1440), multitouch-enabled, 120 Hz, IPS, edge-to-edge glass, micro-edge, Low Blue Light, 300 nits, 100% sRGB',regex=False, case=False))) | \
-                    (display_df['PhwebDescription'].str.contains('LCD 15.6 HDV LED SVA 220 slim NWBZ') & \
-                        (display_df['ContainerValue'].str.contains('15.6" diagonal, HD (1366 x 768), micro-edge, BrightView, 220 nits, 45% NTSC', regex=False, case=False))) | \
-                    (display_df['PhwebDescription'].str.contains('LCD 15.6 FHD AG LED UWVA 250') & \
-                        (display_df['ContainerValue'].str.contains('15.6" diagonal, FHD (1920 x 1080), IPS, micro-edge, anti-glare, 250 nits, 45% NTSC', regex=False, case=False))) | \
-                    (display_df['PhwebDescription'].str.contains('LCD 15.6 FHD AG LED UWVA 250ent NWBZ') & \
-                        (display_df['ContainerValue'].str.contains('15.6" diagonal, FHD (1920 x 1080), multitouch-enabled, IPS, edge-to-edge glass, micro-edge, 250 nits, 45% NTSC', regex=False, case=False))) | \
-                    (display_df['PhwebDescription'].str.contains('LCD 15.6 FHD AG LED UWVA 250ent TSNWBZ') & \
-                        (display_df['ContainerValue'].str.contains('15.6" diagonal, FHD (1920 x 1080), multitouch-enabled, IPS, edge-to-edge glass, micro-edge, Corning® Gorilla® Glass NBT™, 250 nits, 45% NTSC', regex=False, case=False))) | \
-                    (display_df['PhwebDescription'].str.contains('LCD 15.6 FHD AG LwBluLt 300 UWVA NWBZflt') & \
-                        (display_df['ContainerValue'].str.contains('15.6" diagonal, FHD (1920 x 1080), IPS, micro-edge, anti-glare, Low Blue Light, 300 nits, 100% sRGB', regex=False, case=False))) | \
-                    (display_df['PhwebDescription'].str.contains('LCD 15.6 FHDV LED UWVA 250 slim NWBZ') & \
-                        (display_df['ContainerValue'].str.contains('15.6" diagonal, FHD (1920 x 1080), IPS, micro-edge, BrightView, 250 nits, 45% NTSC', regex=False, case=False))) | \
-                    (display_df['PhwebDescription'].str.contains('LCD 15.6 FHD AG LED SVA 220 slim NWBZ') & \
-                        (display_df['ContainerValue'].str.contains('15.6" diagonal, FHD (1920 x 1080), micro-edge, anti-glare, 220 nits, 45% NTSC', regex=False, case=False))) | \
-                    (display_df['PhwebDescription'].str.contains('LCD 15.6 FHD AG LED SVA 250 NWBZ uslim') & \
-                        (display_df['ContainerValue'].str.contains('15.6" diagonal, FHD (1920 x 1080), micro-edge, anti-glare, 250 nits, 45% NTSC', regex=False, case=False))) | \
-                    (display_df['PhwebDescription'].str.contains('LCD 15.6 FHD AG LED UWVA 400ent LPNWBZ') & \
-                        (display_df['ContainerValue'].str.contains('15.6" diagonal, FHD (1920 x 1080), multitouch-enabled, IPS, edge-to-edge glass, micro-edge, 400 nits, 100% sRGB', regex=False, case=False))) | \
-                    (display_df['PhwebDescription'].str.contains('OLED 15.6 FHDV OLED+LBL 400UWVANWBZbnt') & \
-                        (display_df['ContainerValue'].str.contains('15.6" diagonal, FHD (1920 x 1080), OLED, multitouch-enabled, UWVA, edge-to-edge glass, micro-edge, Low Blue Light, SDR 400 nits, HDR 500 nits, 100% DCI-P3', regex=False, case=False))) | \
-                    (display_df['PhwebDescription'].str.contains('LCD 15.6 FHDV LED UWVA 250 slimTOPNWBZ') & \
-                        (display_df['ContainerValue'].str.contains('15.6" diagonal, FHD (1920 x 1080), touch, IPS, micro-edge, BrightView, 250 nits, 45% NTSC', regex=False, case=False))) | \
-                    (display_df['PhwebDescription'].str.contains('LCD 15.6 HD AG LED SVA 220 slim NWBZ') & \
-                        (display_df['ContainerValue'].str.contains('15.6" diagonal, HD (1366 x 768), micro-edge, anti-glare, 220 nits, 45% NTSC', regex=False, case=False))) | \
-                    (display_df['PhwebDescription'].str.contains('LCD 15.6 HD AG LED SVA 250 NWBZ uslim') & \
-                        (display_df['ContainerValue'].str.contains('15.6" diagonal, HD (1366 x 768), micro-edge, anti-glare, 250 nits, 45% NTSC', regex=False, case=False))) | \
-                    (display_df['PhwebDescription'].str.contains('LCD 15.6 HDV LED SVA 220 slim TOP NWBZ') & \
-                        (display_df['ContainerValue'].str.contains('15.6" diagonal, HD (1366 x 768), touch, micro-edge, BrightView, 220 nits, 45% NTSC', regex=False, case=False))) | \
-                    (display_df['PhwebDescription'].str.contains('LCD 15.6 HDV LED SVA 250 NWBZ uslim') & \
-                        (display_df['ContainerValue'].str.contains('15.6" diagonal, HD (1366 x 768), micro-edge, BrightView, 250 nits, 45% NTSC', regex=False, case=False))) | \
-                    (display_df['PhwebDescription'].str.contains('LCD 23.8 FHD AG LED UWVA ZBD') & \
-                        (display_df['ContainerValue'].str.contains('23.8" diagonal, FHD (1920 x 1080), IPS, three-sided micro-edge, anti-glare, 250 nits, 72% NTSC', regex=False, case=False))) | \
-                    (display_df['PhwebDescription'].str.contains('LCD 23.8 FHD AG LED UWVA ZBD TS') & \
-                        (display_df['ContainerValue'].str.contains('23.8" diagonal, FHD (1920 x 1080), touch, IPS, three-sided micro-edge, anti-glare, 250 nits, 72% NTSC', regex=False, case=False))) | \
-                    (display_df['PhwebDescription'].str.contains('LCD 13.3 FHD BV LED UWVA 400bentTSLPNWBZ') & \
-                        (display_df['ContainerValue'].str.contains('13.3" diagonal, FHD (1920 x 1080), multitouch-enabled, IPS, edge-to-edge glass, micro-edge, BrightView, Corning® Gorilla® Glass NBT™, 400 nits, 100% sRGB', regex=False, case=False))) | \
-                    (display_df['PhwebDescription'].str.contains('LCD 13.3 WQXGA AG 400 UWVA NWBZ flt') & \
-                        (display_df['ContainerValue'].str.contains('13.3" diagonal, WQXGA (2560 x 1600), IPS, micro-edge, anti-glare, 400 nits, 100% sRGB', regex=False, case=False))) | \
-                    (display_df['PhwebDescription'].str.contains('LCD 13.3 WQXGA AG LED 400 UWVA NWBZ flt') & \
-                        (display_df['ContainerValue'].str.contains('13.3" diagonal, WQXGA (2560 x 1600), multitouch-enabled, IPS, edge-to-edge glass, micro-edge, Corning® Gorilla® Glass NBT™, 400 nits, 100% sRGB', regex=False, case=False))) | \
-                    (display_df['PhwebDescription'].str.contains('LCD 13.3 WUXGA AG 400 UWVA NWBZ flt') & \
-                        (display_df['ContainerValue'].str.contains('13.3" diagonal, WUXGA (1920 x 1200), IPS, micro-edge, anti-glare, 400 nits, 100% sRGB', regex=False, case=False))) | \
-                    (display_df['PhwebDescription'].str.contains('LCD 13.3 WUXGA AG LED 400 UWVA NWBZ flt') & \
-                        (display_df['ContainerValue'].str.contains('13.3" diagonal, WUXGA (1920 x 1200), multitouch-enabled, IPS, edge-to-edge glass, micro-edge, Corning® Gorilla® Glass NBT™, 400 nits, 100% sRGB', regex=False, case=False))) | \
-                    (display_df['PhwebDescription'].str.contains('LCD 13.5 3k2k BV AMOLED UWVA400uslimNWBZ') & \
-                        (display_df['ContainerValue'].str.contains('13.5" diagonal, 3K2K (3000 x 2000), OLED, multitouch-enabled, UWVA, edge-to-edge glass, micro-edge, anti-reflection Corning® Gorilla® Glass NBT™, Low Blue Light, SDR 400 nits, HDR 500 nits, 100% DCI-P3', regex=False, case=False))) | \
-                    (display_df['PhwebDescription'].str.contains('LCD 13.5 WUXGA+ BV LwBluLt400UWVANWBZbnt') & \
-                        (display_df['ContainerValue'].str.contains('13.5" diagonal, WUXGA+ (1920 x 1280), multitouch-enabled, IPS, edge-to-edge glass, micro-edge, anti-reflection Corning® Gorilla® Glass NBT™, Low Blue Light, 400 nits, 100% sRGB', regex=False, case=False))) | \
-                    (display_df['PhwebDescription'].str.contains('LCD 13.5 WUXGA+ BV+ARLEDUWVA400NWBZuslim') & \
-                        (display_df['ContainerValue'].str.contains('13.5" diagonal, WUXGA+ (1920 x 1280), multitouch-enabled, IPS, edge-to-edge glass, micro-edge, anti-reflection Corning® Gorilla® Glass NBT™, 400 nits, 100% sRGB', regex=False, case=False))) | \
-                    (display_df['PhwebDescription'].str.contains('LCD 13.5WUXGA+AGWLED+LBL1000UWVAPVG4PNWB') & \
-                        (display_df['ContainerValue'].str.contains('13.5" diagonal, WUXGA+ (1920 x 1280), multitouch-enabled, IPS, edge-to-edge glass, micro-edge, Corning® Gorilla® Glass NBT™, Low Blue Light, 1000 nits, 100% sRGB, HP Sure View Reflect integrated privacy screen', regex=False, case=False))) | \
-                    (display_df['PhwebDescription'].str.contains('LCD 14 FHD AG LED SVA 220 NWBZ slim') & \
-                        (display_df['ContainerValue'].str.contains('14" diagonal, FHD (1920 x 1080), micro-edge, anti-glare, 220 nits, 45% NTSC', regex=False, case=False))) | \
-                    (display_df['PhwebDescription'].str.contains('LCD 14 FHD AG LED SVA 250 NWBZ uslim') & \
-                        (display_df['ContainerValue'].str.contains('14" diagonal, FHD (1920 x 1080), micro-edge, anti-glare, 250 nits, 45% NTSC', regex=False, case=False))) | \
-                    (display_df['PhwebDescription'].str.contains('LCD 14 FHD AG LED UWVA 250 bent NWBZ') & \
-                        (display_df['ContainerValue'].str.contains('14" diagonal, FHD (1920 x 1080), multitouch-enabled, IPS, edge-to-edge glass, micro-edge, 250 nits, 45% NTSC', regex=False, case=False))) | \
-                    (display_df['PhwebDescription'].str.contains('LCD 14 FHD AG LED UWVA 250 NWBZ bent') & \
-                        (display_df['ContainerValue'].str.contains('14" diagonal, FHD (1920 x 1080), multitouch-enabled, IPS, edge-to-edge glass, micro-edge, 250 nits, 45% NTSC', regex=False, case=False))) | \
-                    (display_df['PhwebDescription'].str.contains('LCD 14 FHD AG LED UWVA 250 NWBZ slim') & \
-                        (display_df['ContainerValue'].str.contains('14" diagonal, FHD (1920 x 1080), IPS, micro-edge, anti-glare, 250 nits, 45% NTSC', regex=False, case=False))) | \
-                    (display_df['PhwebDescription'].str.contains('LCD 14 FHD AG LED UWVA 250 slim TOP NWBZ') & \
-                        (display_df['ContainerValue'].str.contains('14" diagonal, FHD (1920 x 1080), touch, IPS, micro-edge, anti-glare, 250 nits, 45% NTSC', regex=False, case=False))) | \
-                    (display_df['PhwebDescription'].str.contains('LCD 14 HD AG LED SVA 220 slim NWBZ') & \
-                        (display_df['ContainerValue'].str.contains('14" diagonal, HD (1366 x 768), micro-edge, anti-glare, 220 nits, 45% NTSC', regex=False, case=False))) | \
-                    (display_df['PhwebDescription'].str.contains('LCD 14 HD AG LED SVA 250 NWBZ uslim') & \
-                        (display_df['ContainerValue'].str.contains('14" diagonal, HD (1366 x 768), micro-edge, anti-glare, 250 nits, 45% NTSC', regex=False, case=False))) | \
-                    (display_df['PhwebDescription'].str.contains('LCD 14.0 2.2K AG LwBluLt 300 UWVANWBZflt') & \
-                        (display_df['ContainerValue'].str.contains('14" diagonal, 2.2K (2240 x 1400), IPS, micro-edge, anti-glare, Low Blue Light, 300 nits, 100% sRGB', regex=False, case=False))) | \
-                    (display_df['PhwebDescription'].str.contains('LCD 14.0 FHD AG LwBluLt 400 UWVA NWBZflt') & \
-                        (display_df['ContainerValue'].str.contains('14" diagonal, FHD (1920 x 1080), IPS, micro-edge, anti-glare, Low Blue Light, 400 nits, 100% sRGB', regex=False, case=False))) | \
-                    (display_df['PhwebDescription'].str.contains('CD 15.6 FHD AG LED UWVA 250 bent NWBZ') & \
-                        (display_df['ContainerValue'].str.contains('15.6" diagonal, FHD (1920 x 1080), multitouch-enabled, IPS, edge-to-edge glass, micro-edge, 250 nits, 45% NTSC', regex=False, case=False))) | \
-                    (display_df['PhwebDescription'].str.contains('LCD 15.6 FHD AG LED UWVA 400 bent LPNWBZ') & \
-                        (display_df['ContainerValue'].str.contains('15.6" diagonal, FHD (1920 x 1080), multitouch-enabled, IPS, edge-to-edge glass, micro-edge, 400 nits, 100% sRGB', regex=False, case=False))) | \
-                    (display_df['PhwebDescription'].str.contains('LCD 15.6 FHD BV LED UWVA 250 slimTOPNWBZ') & \
-                        (display_df['ContainerValue'].str.contains('15.6" diagonal, FHD (1920 x 1080), touch, IPS, micro-edge, BrightView, 250 nits, 45% NTSC', regex=False, case=False))) | \
-                    (display_df['PhwebDescription'].str.contains('LCD 15.6 HD BV LED SVA 250 TOP NWBZ flat') & \
-                        (display_df['ContainerValue'].str.contains('15.6" diagonal, HD (1366 x 768), touch, micro-edge, BrightView, 250 nits, 45% NTSC', regex=False, case=False))) | \
-                    (display_df['PhwebDescription'].str.contains('LCD 16.0WQXGAAGWLED+LBL400UWVATS120Hzflt') & \
-                        (display_df['ContainerValue'].str.contains('16" diagonal, WQXGA (2560 x 1600), multitouch-enabled, 120 Hz, IPS, edge-to-edge glass, micro-edge, Low Blue Light, 400 nits, 100% sRGB', regex=False, case=False))) | \
-                    (display_df['PhwebDescription'].str.contains('LCD 16.0 3K AG+AR LwBluLt 400UWVANWBZbnt') & \
-                        (display_df['ContainerValue'].str.contains('16" diagonal, 3K+ (3072 x 1920), multitouch-enabled, IPS, edge-to-edge glass, micro-edge, anti-reflection Corning® Gorilla® Glass NBT™, Low Blue Light, 400 nits, 100% sRGB', regex=False, case=False))) | \
-                    (display_df['PhwebDescription'].str.contains('LCD 16.1 FHD AG LED UWVA 250 slim NWBZ') & \
-                        (display_df['ContainerValue'].str.contains('15.6" diagonal, FHD (1920 x 1080), IPS, micro-edge, anti-glare, 250 nits, 45% NTSC', regex=False, case=False))) | \
-                    (display_df['PhwebDescription'].str.contains('LCD 16.1 FHD AG 250 UWVA 144Hz NWBZ flt') & \
-                        (display_df['ContainerValue'].str.contains('16.1" diagonal, FHD (1920 x 1080), 144 Hz, IPS, micro-edge, anti-glare, 250 nits, 45% NTSC', regex=False, case=False))) | \
-                    (display_df['PhwebDescription'].str.contains('LCD 16.1QHDAGLwBluLt300UWVADDS165HzNWBZf') & \
-                        (display_df['ContainerValue'].str.contains('16.1" diagonal, QHD (2560 x 1440), 165 Hz, 3 ms response time, IPS, micro-edge, anti-glare, Low Blue Light, 300 nits, 100% sRGB', regex=False, case=False))) | \
-                    (display_df['PhwebDescription'].str.contains('LCD 17.3 FHD AG LED 250 UWVA NWBZ flt') & \
-                        (display_df['ContainerValue'].str.contains('17.3" diagonal, FHD (1920 x 1080), IPS, anti-glare, 250 nits, 45% NTSC', regex=False, case=False))) | \
-                    (display_df['PhwebDescription'].str.contains('LCD 17.3 FHD AG LED 300 UWVA flt') & \
-                        (display_df['ContainerValue'].str.contains('17.3" diagonal, FHD (1920 x 1080), multitouch-enabled, IPS, edge-to-edge glass, micro-edge, 300 nits, 100% sRGB', regex=False, case=False))) | \
-                    (display_df['PhwebDescription'].str.contains('LCD 17.3 FHD AG LED 300 UWVA NWBZ flt') & \
-                        (display_df['ContainerValue'].str.contains('17.3" diagonal, FHD (1920 x 1080), IPS, edge-to-edge glass, micro-edge, 300 nits, 100% sRGB', regex=False, case=False))) | \
-                    (display_df['PhwebDescription'].str.contains('LCD 17.3 FHDAGLwBluLt300UWVA144HzNWBZflt') & \
-                        (display_df['ContainerValue'].str.contains('17.3" diagonal, FHD (1920 x 1080), 144 Hz, 7 ms response time, IPS, micro-edge, anti-glare, Low Blue Light, 300 nits, 100% sRGB', regex=False, case=False))) | \
-                    (display_df['PhwebDescription'].str.contains('LCD 17.3 FHD AG LED UWVA250144HzNWBZflat') & \
-                        (display_df['ContainerValue'].str.contains('17.3" diagonal, FHD (1920 x 1080), 144 Hz, IPS, anti-glare, 250 nits, 45% NTSC', regex=False, case=False))) | \
-                    (display_df['PhwebDescription'].str.contains('LCD 17.3 HD+ AG LED 250 SVA NWBZ flt') & \
-                        (display_df['ContainerValue'].str.contains('17.3" diagonal, HD+ (1600 x 900), anti-glare, 250 nits, 60% NTSC', regex=False, case=False))) | \
-                    (display_df['PhwebDescription'].str.contains('LCD 17.3QHDAGLwBluLt300UWVADDS165HzNWBZf') & \
-                        (display_df['ContainerValue'].str.contains('17.3" diagonal, QHD (2560 x 1440), 165 Hz, 3 ms response time, IPS, micro-edge, anti-glare, Low Blue Light, 300 nits, 100% sRGB', regex=False, case=False))) | \
-                    (display_df['PhwebDescription'].str.contains('LCD 17.3 UHD AG LwBluLt 400 UWVA 60Hzflt') & \
-                        (display_df['ContainerValue'].str.contains('17.3" diagonal, 4K UHD (3840 x 2160), IPS, edge-to-edge glass, micro-edge, Low Blue Light, 400 nits, 100% DCI-P3', regex=False, case=False))) | \
-                    (display_df['PhwebDescription'].str.contains('LCD 20.7 FHD AG LED SVA ZBD') & \
-                        (display_df['ContainerValue'].str.contains('20.7" diagonal, FHD (1920 x 1080), anti-glare, 200 nits, 72% NTSC', regex=False, case=False))) | \
-                    (display_df['PhwebDescription'].str.contains('LCD 21.5 FHD AG LED UWVA ZBD') & \
-                        (display_df['ContainerValue'].str.contains('21.5" diagonal, FHD (1920 x 1080), VA, three-sided micro-edge, anti-glare, 250 nits, 72% NTSC', regex=False, case=False))) | \
-                    (display_df['PhwebDescription'].str.contains('LCD 23.8 FHD AG 250 UWVA 4SB bnt') & \
-                        (display_df['ContainerValue'].str.contains('23.8" diagonal, FHD (1920 x 1080), IPS, four-sided micro-edge, anti-glare, 250 nits, 72% NTSC', regex=False, case=False))) | \
-                    (display_df['PhwebDescription'].str.contains('LCD 15.6 HDV LED SVA 250 TOP NWBZ flat') & \
-                        (display_df['ContainerValue'].str.contains('15.6" diagonal, HD (1366 x 768), touch, micro-edge, BrightView, 250 nits, 45% NTSC', regex=False, case=False)))
-
-    display_df.loc[maskDisplay, 'Accuracy'] = 'SCS Display OK'
-    display_df.loc[~maskDisplay, 'Accuracy'] = 'ERROR Display'
-
-    df.update(display_df['Accuracy'])
+    container_df = df.loc[df['ContainerName'].str.strip() == 'display']
+    processData('json/display.json', 'display', container_df, df)
 
 ################################################################ Hard Drive ################################################################
 
