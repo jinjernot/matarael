@@ -1,5 +1,6 @@
 import pandas as pd
 from data.format_data import formateData
+import json
 
 def cleanReport(file):
     """Load, Clean and create a a new xlsx file"""
@@ -322,83 +323,25 @@ def cleanReport(file):
 
 ################################################################ Colors ################################################################
 
-    productcolor_df = df.loc[df['ContainerName'].str.contains('colour')]
+    with open('json/productcolour.json', 'r') as f:
+        data = json.load(f)
 
-    maskColor = (productcolor_df['PhwebDescription'].str.contains('NSV') & \
-                    (productcolor_df['ContainerValue'].str.contains('Natural silver', case=False))) | \
-                (productcolor_df['PhwebDescription'].str.contains('MCS') & \
-                    (productcolor_df['ContainerValue'].str.contains('Mica silver', case=False))) | \
-                (productcolor_df['PhwebDescription'].str.contains('CCW') & \
-                    (productcolor_df['ContainerValue'].str.contains('Ceramic white', case=False))) | \
-                (productcolor_df['PhwebDescription'].str.contains('SNW') & \
-                    (productcolor_df['ContainerValue'].str.contains('Snow white', case=False))) | \
-                (productcolor_df['PhwebDescription'].str.contains('SWH') & \
-                    (productcolor_df['ContainerValue'].str.contains('Starry white', case=False))) | \
-                (productcolor_df['PhwebDescription'].str.contains('NFB') & \
-                    (productcolor_df['ContainerValue'].str.contains('Nightfall black', case=False))) | \
-                (productcolor_df['PhwebDescription'].str.contains('JTB') & \
-                    (productcolor_df['ContainerValue'].str.contains('Jet black', case=False))) | \
-                (productcolor_df['PhwebDescription'].str.contains('SKB') & \
-                    (productcolor_df['ContainerValue'].str.contains('Sparkling black', case=False))) | \
-                (productcolor_df['PhwebDescription'].str.contains('PLG') & \
-                    (productcolor_df['ContainerValue'].str.contains('Starry white', case=False))) | \
-                (productcolor_df['PhwebDescription'].str.contains('JKB') & \
-                    (productcolor_df['ContainerValue'].str.contains('Dark black', case=False))) | \
-                (productcolor_df['PhwebDescription'].str.contains('CBG') & \
-                    (productcolor_df['ContainerValue'].str.contains('Chalkboard gray', case=False))) | \
-                (productcolor_df['PhwebDescription'].str.contains('STB') & \
-                    (productcolor_df['ContainerValue'].str.contains('Jet black', case=False))) | \
-                (productcolor_df['PhwebDescription'].str.contains('WHT') & \
-                    (productcolor_df['ContainerValue'].str.contains('Snow white', case=False))) | \
-                (productcolor_df['PhwebDescription'].str.contains('SDB') & \
-                    (productcolor_df['ContainerValue'].str.contains('Shadow black', case=False))) | \
-                (productcolor_df['PhwebDescription'].str.contains('POB') & \
-                    (productcolor_df['ContainerValue'].str.contains('Poseidon blue', case=False))) | \
-                (productcolor_df['PhwebDescription'].str.contains('IOB') & \
-                    (productcolor_df['ContainerValue'].str.contains('Indigo blue', case=False))) | \
-                (productcolor_df['PhwebDescription'].str.contains('PFB') & \
-                    (productcolor_df['ContainerValue'].str.contains('Performance blue', case=False))) | \
-                (productcolor_df['PhwebDescription'].str.contains('BLK') & \
-                    (productcolor_df['ContainerValue'].str.contains('Black', case=False))) | \
-                (productcolor_df['PhwebDescription'].str.contains('SPB') & \
-                    (productcolor_df['ContainerValue'].str.contains('Spruce blue', case=False))) | \
-                (productcolor_df['PhwebDescription'].str.contains('ENB') & \
-                    (productcolor_df['ContainerValue'].str.contains('Evening Blue', case=False))) | \
-                (productcolor_df['PhwebDescription'].str.contains('PLG') & \
-                    (productcolor_df['ContainerValue'].str.contains('Pale gold', case=False))) | \
-                (productcolor_df['PhwebDescription'].str.contains('SBL') & \
-                    (productcolor_df['ContainerValue'].str.contains('Space blue', case=False))) | \
-                (productcolor_df['PhwebDescription'].str.contains('WGD') & \
-                    (productcolor_df['ContainerValue'].str.contains('Warm gold', case=False))) | \
-                (productcolor_df['PhwebDescription'].str.contains('SFW') & \
-                    (productcolor_df['ContainerValue'].str.contains('Snowflake white', case=False))) | \
-                (productcolor_df['PhwebDescription'].str.contains('MNS') & \
-                    (productcolor_df['ContainerValue'].str.contains('Mineral silver', case=False))) | \
-                (productcolor_df['PhwebDescription'].str.contains('FTL') & \
-                    (productcolor_df['ContainerValue'].str.contains('Forest teal', case=False))) | \
-                (productcolor_df['PhwebDescription'].str.contains('TBS') & \
-                    (productcolor_df['ContainerValue'].str.contains('Turbo silver', case=False))) | \
-                (productcolor_df['PhwebDescription'].str.contains('FGB') & \
-                    (productcolor_df['ContainerValue'].str.contains('Fog blue', case=False))) | \
-                (productcolor_df['PhwebDescription'].str.contains('STF') & \
-                    (productcolor_df['ContainerValue'].str.contains('Starry forest', case=False))) | \
-                (productcolor_df['PhwebDescription'].str.contains('NTB') & \
-                    (productcolor_df['ContainerValue'].str.contains('Nocturne blue', case=False))) | \
-                (productcolor_df['PhwebDescription'].str.contains('PRG') & \
-                    (productcolor_df['ContainerValue'].str.contains('Pale rose gold', case=False))) | \
-                (productcolor_df['PhwebDescription'].str.contains('DMW') & \
-                    (productcolor_df['ContainerValue'].str.contains('Diamond white', case=False))) | \
-                (productcolor_df['PhwebDescription'].str.contains('SRR') & \
-                    (productcolor_df['ContainerValue'].str.contains('Scarlet red', case=False))) | \
-                (productcolor_df['PhwebDescription'].str.contains('SCB') & \
-                    (productcolor_df['ContainerValue'].str.contains('Space blue', case=False))) | \
-                (productcolor_df['PhwebDescription'].str.contains('SNP') & \
-                    (productcolor_df['ContainerValue'].str.contains('Serene pink', case=False)))
+        productcolour_df = df.loc[df['ContainerName'].str.contains('productcolour')]
 
-    productcolor_df.loc[maskColor, 'Accuracy'] = 'SCS Color OK'
-    productcolor_df.loc[~maskColor, 'Accuracy'] = 'ERROR Color'
+        color_accuracy_dict = {}
 
-    df.update(productcolor_df['Accuracy'])
+        for colour in data['productcolour']:
+            maskColor = (productcolour_df['PhwebDescription'].str.contains(colour['PhwebDescription']) & \
+                        (productcolour_df['ContainerValue'].str.contains(colour['ContainerValue'], case=False))) 
+            for idx in productcolour_df[maskColor].index:
+                color_accuracy_dict[idx] = 'SCS Color OK'
+        for idx in productcolour_df.index:
+            if idx not in color_accuracy_dict:
+                color_accuracy_dict[idx] = 'ERROR Color'
+        productcolour_df['Accuracy'] = productcolour_df.index.map(color_accuracy_dict)
+
+        df.update(productcolour_df['Accuracy'])
+
 
 ######################################################################## FPR ################################################################
 
@@ -410,37 +353,6 @@ def cleanReport(file):
     fingerprread_df.loc[~maskFPR, 'Accuracy'] = 'ERROR FPR'
 
     df.update(fingerprread_df['Accuracy'])
-
-######################################################################## Webcam ################################################################
-
-    webcam_df = df.loc[df['ContainerName'].str.contains('webcam')]
-    maskWebcam = (webcam_df['PhwebDescription'].str.contains('wHDC') & \
-                    (webcam_df['ContainerValue'].str.contains('HP True Vision 720p HD camera with integrated dual array digital microphones', case=False))) | \
-                (webcam_df['PhwebDescription'].str.contains('wHDC TNR') & \
-                    (webcam_df['ContainerValue'].str.contains('HP True Vision 720p HD camera with temporal noise reduction and integrated dual array digital microphones', case=False))) | \
-                (webcam_df['PhwebDescription'].str.contains('w5MPC') & \
-                    (webcam_df['ContainerValue'].str.contains('HP True Vision 5MP camera with camera shutter, temporal noise reduction and integrated dual array digital microphones', case=False))) | \
-                (webcam_df['PhwebDescription'].str.contains('wFHDC nFPR') & \
-                    (webcam_df['ContainerValue'].str.contains('HP True Vision 1080p FHD camera with temporal noise reduction and integrated dual array digital microphones', case=False))) | \
-                (webcam_df['PhwebDescription'].str.contains('wFHDC FPR') & \
-                    (webcam_df['ContainerValue'].str.contains('HP True Vision 1080p FHD camera with temporal noise reduction and integrated dual array digital microphones', case=False))) | \
-                (webcam_df['PhwebDescription'].str.contains('wFHDC IR Entry') & \
-                    (webcam_df['ContainerValue'].str.contains('HP True Vision 1080p FHD IR tilt privacy camera with temporal noise reduction and integrated dual array digital microphones', case=False))) | \
-                (webcam_df['PhwebDescription'].str.contains('wFHDC IR PREM') & \
-                    (webcam_df['ContainerValue'].str.contains('HP True Vision 1080p FHD IR tilt privacy camera with temporal noise reduction and integrated dual array digital microphones', case=False))) | \
-                (webcam_df['PhwebDescription'].str.contains('wHDC TNR nFPR') & \
-                    (webcam_df['ContainerValue'].str.contains('HP Wide Vision 720p HD camera with temporal noise reduction and integrated dual array digital microphones', case=False))) | \
-                (webcam_df['PhwebDescription'].str.contains(' wHDC TNR fThin') & \
-                    (webcam_df['ContainerValue'].str.contains('HP Wide Vision 720p HD camera with integrated dual array digital microphones', case=False))) | \
-                (webcam_df['PhwebDescription'].str.contains('PLA wHDC') & \
-                    (webcam_df['ContainerValue'].str.contains('HP True Vision 720p HD privacy camera with integrated dual array digital microphones', case=False))) | \
-                (webcam_df['PhwebDescription'].str.contains('wFHDC IR') & \
-                    (webcam_df['ContainerValue'].str.contains('HP Wide Vision 1080p FHD IR privacy camera with integrated dual array digital microphones', case=False)))
-
-    webcam_df.loc[maskWebcam, 'Accuracy'] = 'SCS Webcam OK'
-    webcam_df.loc[~maskWebcam, 'Accuracy'] = 'ERROR Webcam'
-
-    df.update(webcam_df['Accuracy'])
 
 ################################################################ Stylus ################################################################
 
@@ -660,6 +572,14 @@ def cleanReport(file):
                             (processorname_df['ContainerValue'].str.contains('Intel® Core™ i5-12500H (up to 4.5 GHz with Intel® Turbo Boost Technology, 18 MB L3 cache, 12 cores, 16 threads)',regex=False, case=False))) | \
                         (processorname_df['PhwebDescription'].str.contains('5900X') & \
                             (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 9 5900X (up to 4.8 GHz max boost clock, 64 MB L3 cache, 12 cores, 24 threads)',regex=False, case=False))) | \
+                        (processorname_df['PhwebDescription'].str.contains('BU IDS UMA PH R7 8C ') & \
+                            (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 7 5825U (up to 4.5 GHz max boost clock, 16 MB L3 cache, 8 cores, 16 threads)',regex=False, case=False))) | \
+                        (processorname_df['PhwebDescription'].str.contains('BU IDS DSC RTX 3050Ti 4GB PH R7 8C 16') & \
+                            (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 7 6800H (up to 4.7 GHz max boost clock, 16 MB L3 cache, 8 cores, 16 threads)',regex=False, case=False))) | \
+                        (processorname_df['PhwebDescription'].str.contains('Ryzen9 6900X ') & \
+                            (processorname_df['ContainerValue'].str.contains('AMD Ryzen™ 9 6900HX (up to 4.9 GHz max boost clock, 16 MB L3 cache, 8 cores, 16 threads)',regex=False, case=False))) | \
+                        (processorname_df['PhwebDescription'].str.contains('BU IDS UMA PH i3-xxxx nSDC 15') & \
+                            (processorname_df['ContainerValue'].str.contains('Intel® Core™ i3-1215U (up to 4.4 GHz with Intel® Turbo Boost Technology, 10 MB L3 cache, 6 cores, 8 threads)',regex=False, case=False))) | \
                         (processorname_df['PhwebDescription'].str.contains('CPU INTL i7-12700F 12C 2.10 65W') & \
                             (processorname_df['ContainerValue'].str.contains('Intel® Core™ i7-12700F (up to 4.9 GHz with Intel® Turbo Boost Technology, 25 MB L3 cache, 12 cores, 20 threads)',regex=False, case=False)))
                                     
@@ -818,6 +738,8 @@ def cleanReport(file):
                         (hd_01des_df['ContainerValue'].str.contains('2 TB PCIe® Gen4 NVMe™ TLC M.2 SSD', regex=False, case=False))) | \
                     (hd_01des_df['PhwebDescription'].str.contains('SSD 2TB PCIe NVMe TLC') & \
                         (hd_01des_df['ContainerValue'].str.contains('2 TB PCIe® NVMe™ TLC M.2 SSD', regex=False, case=False))) | \
+                    (hd_01des_df['PhwebDescription'].str.contains('SSD 512GB PCIe-4x4 NVMe TLC') & \
+                        (hd_01des_df['ContainerValue'].str.contains('512 GB PCIe® Gen4 NVMe™ TLC M.2 SSD', regex=False, case=False))) | \
                     (hd_01des_df['PhwebDescription'].str.contains('HDD 1TB 5400RPM SATA') & \
                         (hd_01des_df['ContainerValue'].str.contains('1 TB 5400 rpm SATA HDD', regex=False, case=False))) | \
                     (hd_01des_df['PhwebDescription'].str.contains('SSD WD Black 1T 2280 PCIe-4x4 NVMe TLC') & \
@@ -1090,7 +1012,9 @@ def cleanReport(file):
                     (cdromdvd_df['PhwebDescription'].str.contains('NO ODD') & \
                         (cdromdvd_df['ContainerValue'].str.contains('##BLANK##', case=False))) | \
                     (cdromdvd_df['PhwebDescription'].str.contains('MISC No ODD non-Win') & \
-                        (cdromdvd_df['ContainerValue'].str.contains('##BLANK##', case=False)))
+                        (cdromdvd_df['ContainerValue'].str.contains('##BLANK##', case=False))) | \
+                        cdromdvd_df['ContainerValue'].str.contains('##BLANK##', case=False)
+    
 
 
     cdromdvd_df.loc[maskCD, 'Accuracy'] = 'SCS Optical Drive OK'
@@ -1266,6 +1190,13 @@ def cleanReport(file):
                         (keybrd_df['ContainerValue'].str.contains('Full-size, backlit, performance blue keyboard with numeric keypad', case=False))) | \
                     (keybrd_df['PhwebDescription'].str.contains('KBD ENB FS STD CP+IS num kypd', regex=False) & \
                         (keybrd_df['ContainerValue'].str.contains('Full-size, evening blue keyboard with numeric keypad', case=False))) | \
+                    (keybrd_df['PhwebDescription'].str.contains('KBD NSV CP BL num kypd', regex=False) & \
+                        (keybrd_df['ContainerValue'].str.contains('Full-size, backlit, natural silver keyboard with numeric keypad', case=False))) | \
+                    (keybrd_df['PhwebDescription'].str.contains('KBD SDB CP BL-RGB 4Zone numkypd', regex=False) & \
+                        (keybrd_df['ContainerValue'].str.contains('Full-size, 4-zone RGB backlit, shadow black keyboard with numeric keypad and 26-Key Rollover Anti-Ghosting Key technology', case=False))) | \
+                    (keybrd_df['PhwebDescription'].str.contains('KBD NSV ISK PT CP+IS BL', regex=False) & \
+                        (keybrd_df['ContainerValue'].str.contains('Full-size, backlit, natural silver keyboard', case=False))) | \
+                        keybrd_df['ContainerValue'].str.contains('##BLANK##', case=False) | \
                     (keybrd_df['PhwebDescription'].str.contains('KBD NFB ISK CP BL') & \
                         (keybrd_df['ContainerValue'].str.contains('Full-size, backlit, nightfall black keyboard', case=False)))
 
@@ -1332,19 +1263,19 @@ def cleanReport(file):
     facet_memstd_df = df.loc[df['ContainerName'].str.contains('facet_memstd') & df['ComponentGroup'].str.contains('Memory')]
 
     maskfacet_memstd = (facet_memstd_df['PhwebDescription'].str.contains('12GB') & \
-                            (facet_memstd_df['ContainerValue'].str.contains(r'^112$', regex=True, case=False))) | \
+                            (facet_memstd_df['ContainerValue'].str.contains('112', regex=False, case=False))) | \
                         (facet_memstd_df['PhwebDescription'].str.contains('128GB') & \
-                            (facet_memstd_df['ContainerValue'].str.contains(r'^128$', regex=True, case=False))) | \
+                            (facet_memstd_df['ContainerValue'].str.contains('128', regex=False, case=False))) | \
                         (facet_memstd_df['PhwebDescription'].str.contains('16') & \
-                            (facet_memstd_df['ContainerValue'].str.contains(r'^16$', regex=True, case=False))) | \
+                            (facet_memstd_df['ContainerValue'].str.contains('16', regex=False, case=False))) | \
                         (facet_memstd_df['PhwebDescription'].str.contains('32GB') & \
-                            (facet_memstd_df['ContainerValue'].str.contains(r'^32$', regex=True, case=False))) | \
+                            (facet_memstd_df['ContainerValue'].str.contains('32', regex=False, case=False))) | \
                         (facet_memstd_df['PhwebDescription'].str.contains('64GB') & \
-                            (facet_memstd_df['ContainerValue'].str.contains(r'^64$', regex=True, case=False))) | \
+                            (facet_memstd_df['ContainerValue'].str.contains('64', regex=False, case=False))) | \
                         (facet_memstd_df['PhwebDescription'].str.contains('8GB') & \
-                            (facet_memstd_df['ContainerValue'].str.contains(r'^8$', regex=True, case=False))) | \
+                            (facet_memstd_df['ContainerValue'].str.contains('8', regex=False, case=False))) | \
                         (facet_memstd_df['PhwebDescription'].str.contains('4GB') & \
-                            (facet_memstd_df['ContainerValue'].str.contains(r'^4$', regex=True, case=False)))                            
+                            (facet_memstd_df['ContainerValue'].str.contains('4', regex=False, case=False)))                            
 
     facet_memstd_df.loc[maskfacet_memstd, 'Accuracy'] = 'SCS Facet Memory OK'
     facet_memstd_df.loc[~maskfacet_memstd, 'Accuracy'] = 'ERROR Facet Memory'
@@ -1355,9 +1286,9 @@ def cleanReport(file):
 
     facet_cap_df = df.loc[df['ContainerName'].str.contains('facet_cap')]
     maskfacet_cap = (facet_cap_df['PhwebDescription'].str.contains('1T') & \
-                        (facet_cap_df['ContainerValue'].str.contains(r'^1000$', regex=True, case=False))) | \
+                        (facet_cap_df['ContainerValue'].str.contains('1000', regex=False, case=False))) | \
                     (facet_cap_df['PhwebDescription'].str.contains('512') & \
-                        (facet_cap_df['ContainerValue'].str.contains(r'^512$', regex=True, case=False)))
+                        (facet_cap_df['ContainerValue'].str.contains('512', regex=False, case=False)))
     
     facet_cap_df.loc[maskfacet_cap, 'Accuracy'] = 'SCS Facet Hard Drive OK'
     facet_cap_df.loc[~maskfacet_cap, 'Accuracy'] = 'ERROR Facet Hard Drive'
@@ -1368,11 +1299,11 @@ def cleanReport(file):
 
     facet_os_df = df.loc[df['ContainerName'].str.contains('facet_os')]
     maskfacet_os = (facet_os_df['PhwebDescription'].str.contains('FreeDOS') & \
-                        (facet_os_df['ContainerValue'].str.contains(r'^FreeDOS$', regex=True, case=False))) | \
+                        (facet_os_df['ContainerValue'].str.contains('FreeDOS', regex=False, case=False))) | \
                     (facet_os_df['PhwebDescription'].str.contains('Chrome') & \
-                        (facet_os_df['ContainerValue'].str.contains(r'^ChromeOS$', regex=True, case=False))) | \
+                        (facet_os_df['ContainerValue'].str.contains('ChromeOS', regex=False, case=False))) | \
                     (facet_os_df['PhwebDescription'].str.contains('NWZH6') & \
-                        (facet_os_df['ContainerValue'].str.contains(r'^Windows 11 Home$', regex=True, case=False)))    
+                        (facet_os_df['ContainerValue'].str.contains('Windows 11 Home', regex=False, case=False)))    
     
     facet_os_df.loc[maskfacet_os, 'Accuracy'] = 'SCS Facet Operating System OK'
     facet_os_df.loc[~maskfacet_os, 'Accuracy'] = 'ERROR Facet Operating System'
@@ -1383,9 +1314,15 @@ def cleanReport(file):
 
     facet_graphics_df = df.loc[df['ContainerName'].str.contains('facet_graphics') & df['ComponentGroup'].str.contains('Graphic card')]
     maskfacet_graphics = (facet_graphics_df['PhwebDescription'].str.contains('RTX') & \
-                            (facet_graphics_df['ContainerValue'].str.contains(r'^NVIDIA GeForce$', regex=True, case=False))) | \
+                            (facet_graphics_df['ContainerValue'].str.contains('NVIDIA GeForce', regex=False, case=False))) | \
                         (facet_graphics_df['PhwebDescription'].str.contains('NVIDIA') & \
-                            (facet_graphics_df['ContainerValue'].str.contains(r'^NVIDIA GeForce$', regex=True, case=False)))
+                            (facet_graphics_df['ContainerValue'].str.contains('NVIDIA GeForce', regex=False, case=False))) | \
+                        (facet_graphics_df['PhwebDescription'].str.contains('GeF') & \
+                            (facet_graphics_df['ContainerValue'].str.contains('NVIDIA GeForce', regex=False, case=False))) | \
+                        (facet_graphics_df['PhwebDescription'].str.contains('AMD') & \
+                            (facet_graphics_df['ContainerValue'].str.contains('AMD Radeon', regex=False, case=False))) | \
+                        (facet_graphics_df['PhwebDescription'].str.contains('GTX') & \
+                            (facet_graphics_df['ContainerValue'].str.contains('NVIDIA GeForce', regex=False, case=False)))
 
 
     facet_graphics_df.loc[maskfacet_graphics, 'Accuracy'] = 'SCS Facet Graphics OK'
@@ -1398,17 +1335,17 @@ def cleanReport(file):
 
     facet_processortype_df = df.loc[df['ContainerName'].str.contains('facet_processortype') & df['ComponentGroup'].str.contains('Processor')]
     maskfacet_processortype = (facet_processortype_df['PhwebDescription'].str.contains('i7') & \
-                            (facet_processortype_df['ContainerValue'].str.contains(r'^Intel Core i7$', regex=True, case=False))) | \
+                            (facet_processortype_df['ContainerValue'].str.contains('Intel Core i7', regex=False, case=False))) | \
                         (facet_processortype_df['PhwebDescription'].str.contains('i5') & \
-                            (facet_processortype_df['ContainerValue'].str.contains(r'^Intel Core i5$', regex=True, case=False))) | \
+                            (facet_processortype_df['ContainerValue'].str.contains('Intel Core i5', regex=False, case=False))) | \
                         (facet_processortype_df['PhwebDescription'].str.contains('R7') & \
-                            (facet_processortype_df['ContainerValue'].str.contains(r'^AMD Ryzen 7$', regex=True, case=False))) | \
+                            (facet_processortype_df['ContainerValue'].str.contains('AMD Ryzen 7', regex=False, case=False))) | \
                         (facet_processortype_df['PhwebDescription'].str.contains('R5') & \
-                            (facet_processortype_df['ContainerValue'].str.contains(r'^AMD Ryzen 5$', regex=True, case=False))) | \
+                            (facet_processortype_df['ContainerValue'].str.contains('AMD Ryzen 5', regex=False, case=False))) | \
                         (facet_processortype_df['PhwebDescription'].str.contains('Ryzen5') & \
-                            (facet_processortype_df['ContainerValue'].str.contains(r'^AMD Ryzen 5$', regex=True, case=False))) | \
+                            (facet_processortype_df['ContainerValue'].str.contains('AMD Ryzen 5', regex=False, case=False))) | \
                         (facet_processortype_df['PhwebDescription'].str.contains('Ryzen7 ') & \
-                            (facet_processortype_df['ContainerValue'].str.contains(r'^AMD Ryzen 7$', regex=True, case=False)))
+                            (facet_processortype_df['ContainerValue'].str.contains('AMD Ryzen 7', regex=False, case=False)))
 
     facet_processortype_df.loc[maskfacet_processortype, 'Accuracy'] = 'SCS Facet Processor OK'
     facet_processortype_df.loc[~maskfacet_processortype, 'Accuracy'] = 'ERROR Facet Processor'
@@ -1420,30 +1357,32 @@ def cleanReport(file):
 
     facet_scrnsizeus_df = df.loc[df['ContainerName'].str.contains('facet_scrnsizeus') & df['ComponentGroup'].str.contains('Display')]
     maskfacet_scrnsizeus = (facet_scrnsizeus_df['PhwebDescription'].str.contains('15.6') & \
-                            (facet_scrnsizeus_df['ContainerValue'].str.contains(r'^15.6$', regex=True, case=False))) | \
+                            (facet_scrnsizeus_df['ContainerValue'].str.contains('15.6', regex=False, case=False))) | \
                         (facet_scrnsizeus_df['PhwebDescription'].str.contains('13.3') & \
-                            (facet_scrnsizeus_df['ContainerValue'].str.contains(r'^13.3$', regex=True, case=False))) | \
+                            (facet_scrnsizeus_df['ContainerValue'].str.contains('13.3', regex=False, case=False))) | \
                        (facet_scrnsizeus_df['PhwebDescription'].str.contains('23.8') & \
-                            (facet_scrnsizeus_df['ContainerValue'].str.contains(r'^23.8$', regex=True, case=False))) | \
+                            (facet_scrnsizeus_df['ContainerValue'].str.contains('23.8', regex=False, case=False))) | \
                        (facet_scrnsizeus_df['PhwebDescription'].str.contains('14') & \
-                            (facet_scrnsizeus_df['ContainerValue'].str.contains(r'^14$', regex=True, case=False))) | \
+                            (facet_scrnsizeus_df['ContainerValue'].str.contains('14', regex=False, case=False))) | \
                        (facet_scrnsizeus_df['PhwebDescription'].str.contains('17.3') & \
-                            (facet_scrnsizeus_df['ContainerValue'].str.contains(r'^17.3$', regex=True, case=False))) | \
+                            (facet_scrnsizeus_df['ContainerValue'].str.contains('17.3', regex=False, case=False))) | \
                        (facet_scrnsizeus_df['PhwebDescription'].str.contains('31.5') & \
-                            (facet_scrnsizeus_df['ContainerValue'].str.contains(r'^31.5$', regex=True, case=False))) | \
+                            (facet_scrnsizeus_df['ContainerValue'].str.contains('31.5', regex=False, case=False))) | \
                        (facet_scrnsizeus_df['PhwebDescription'].str.contains('27') & \
-                            (facet_scrnsizeus_df['ContainerValue'].str.contains(r'^27$', regex=True, case=False))) | \
+                            (facet_scrnsizeus_df['ContainerValue'].str.contains('27', regex=False, case=False))) | \
                        (facet_scrnsizeus_df['PhwebDescription'].str.contains('11.6') & \
-                            (facet_scrnsizeus_df['ContainerValue'].str.contains(r'^11.6$', regex=True, case=False))) | \
+                            (facet_scrnsizeus_df['ContainerValue'].str.contains('11.6', regex=False, case=False))) | \
                        (facet_scrnsizeus_df['PhwebDescription'].str.contains('34.0') & \
-                            (facet_scrnsizeus_df['ContainerValue'].str.contains(r'^34$', regex=True, case=False))) | \
+                            (facet_scrnsizeus_df['ContainerValue'].str.contains('34', regex=False, case=False))) | \
                         (facet_scrnsizeus_df['PhwebDescription'].str.contains('16.1') & \
-                            (facet_scrnsizeus_df['ContainerValue'].str.contains(r'^16.1$', regex=True, case=False)))
+                            (facet_scrnsizeus_df['ContainerValue'].str.contains('16.1', regex=False, case=False)))
 
     facet_scrnsizeus_df.loc[maskfacet_scrnsizeus, 'Accuracy'] = 'SCS Facet Screen Size OK'
     facet_scrnsizeus_df.loc[~maskfacet_scrnsizeus, 'Accuracy'] = 'ERROR Facet Screen Size'
 
     df.update(facet_scrnsizeus_df['Accuracy'])
+
+    df.loc[df['ContainerValue'].str.endswith(';'), 'ContainerValue'] = df['ContainerValue'].str.slice(stop=-1)
 
     df.to_excel('SCS_QA.xlsx', index=False)
 

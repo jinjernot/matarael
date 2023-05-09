@@ -1,10 +1,11 @@
 import openpyxl
 from openpyxl.styles import PatternFill,Font
-
+import pandas as pd
 
 def formateData():
 
     wb = openpyxl.load_workbook('SCS_QA.xlsx')
+
     worksheet = wb.active
     header_fill = PatternFill(start_color='0072C6', end_color='0072C6', fill_type='solid') # Add nice fill
 
@@ -27,5 +28,5 @@ def formateData():
         if 'ERROR' in str(cell.value):
             font = cell.font
             cell.font = Font(color='FF0000', name=font.name, size=font.size) # Set font color to red
-
+    
     wb.save('SCS_QA.xlsx')

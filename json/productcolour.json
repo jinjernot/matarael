@@ -1,0 +1,140 @@
+{
+    "productcolour": [
+        {
+            "PhwebDescription": "ID NSV ALU nSDC wHDC TNR FPR",
+            "ContainerValue": "Natural silver aluminum cover and keyboard frame, natural silver base"
+        },
+        {
+            "PhwebDescription": "MCS",
+            "ContainerValue": "Mica silver"
+        },
+        {
+            "PhwebDescription": "CCW",
+            "ContainerValue": "Ceramic white"
+        },
+        {
+            "PhwebDescription": "NSV",
+            "ContainerValue": "Natural silver"
+        },
+        {
+            "PhwebDescription": "SNW",
+            "ContainerValue": "Snow white"
+        },
+        {
+            "PhwebDescription": "SWH",
+            "ContainerValue": "Starry white"
+        },
+        {
+            "PhwebDescription": "NFB",
+            "ContainerValue": "Nightfall black"
+        },
+        {
+            "PhwebDescription": "JTB",
+            "ContainerValue": "Jet black"
+        },
+        {
+            "PhwebDescription": "SKB",
+            "ContainerValue": "Sparkling black"
+        },
+        {
+            "PhwebDescription": "PLG",
+            "ContainerValue": "Pale gold"
+        },
+        {
+            "PhwebDescription": "CBG",
+            "ContainerValue": "Chalkboard gray"
+        },
+        {
+            "PhwebDescription": "STB",
+            "ContainerValue": "Jet black"
+        },
+        {
+            "PhwebDescription": "SDB",
+            "ContainerValue": "Shadow black"
+        },
+        {
+            "PhwebDescription": "POB",
+            "ContainerValue": "Poseidon blue"
+        },
+        {
+            "PhwebDescription": "IOB",
+            "ContainerValue": "Indigo blue"
+        },
+        {
+            "PhwebDescription": "PFB",
+            "ContainerValue": "Performance blue"
+        },
+        {
+            "PhwebDescription": "BLK",
+            "ContainerValue": "Black"
+        },
+        {
+            "PhwebDescription": "SPB",
+            "ContainerValue": "Spruce blue"
+        },
+        {
+            "PhwebDescription": "ENB",
+            "ContainerValue": "Evening Blue"
+        },
+        {
+            "PhwebDescription": "SBL",
+            "ContainerValue": "Space blue"
+        },
+        {
+            "PhwebDescription": "WGD",
+            "ContainerValue": "Warm gold"
+        },
+        {
+            "PhwebDescription": "SFW",
+            "ContainerValue": "Snowflake white"
+        },
+        {
+            "PhwebDescription": "MNS",
+            "ContainerValue": "Mineral silver"
+        },
+        {
+            "PhwebDescription": "FTL",
+            "ContainerValue": "Forest teal"
+        },
+        {
+            "PhwebDescription": "TBS",
+            "ContainerValue": "Turbo silver"
+        },
+        {
+            "PhwebDescription": "FGB",
+            "ContainerValue": "Fog blue"
+        },
+        {
+            "PhwebDescription": "STF",
+            "ContainerValue": "Starry forest"
+        },
+        {
+            "PhwebDescription": "NTB",
+            "ContainerValue": "Nocturne blue"
+        },
+        {
+            "PhwebDescription": "PRG",
+            "ContainerValue": "Pale rose gold"
+        },
+        {
+            "PhwebDescription": "DMW",
+            "ContainerValue": "Diamond white"
+        },
+        {
+            "PhwebDescription": "SCB",
+            "ContainerValue": "Pale rose gold"
+        },
+        {
+            "PhwebDescription": "DMW",
+            "ContainerValue": "Space blue"
+        },
+        {
+            "PhwebDescription": "SRR",
+            "ContainerValue": "Scarlet red"
+        },
+        {
+            "PhwebDescription": "SNP",
+            "ContainerValue": "Serene pink"
+        }
+    ]
+}
