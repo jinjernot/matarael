@@ -1,0 +1,29 @@
+{
+    "osinstalled": [
+        {
+            "PhwebDescription": "H470",
+            "ContainerValue": "Intel® H470"
+        },
+        {
+            "PhwebDescription": "Chrome64",
+            "ContainerValue": "ChromeOS"
+        },
+        {
+            "PhwebDescription": "FreeDOS",
+            "ContainerValue": "FreeDOS"
+        },
+        {
+            "PhwebDescription": "NWZH6",
+            "ContainerValue": "Windows 11 Home"
+        },
+        {
+            "PhwebDescription": "NWZHS6",
+            "ContainerValue": "Windows 11 Home in S mode"
+        },
+        {
+            "PhwebDescription": "NWZP6",
+            "ContainerValue": "Windows 11 Pro"
+        }
+
+    ]
+}

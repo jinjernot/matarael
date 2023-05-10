@@ -1,0 +1,620 @@
+{
+    "memstdes_01": [
+        {
+            "PhwebDescription": "",
+            "ContainerValue": ""
+        },
+        {
+            "PhwebDescription": "RAM HX 16GB (2x8GB) DDR4 3200 XMP RGBHS",
+            "ContainerValue": "HyperX 16 GB DDR4-3200 MHz XMP RGB Heatsink RAM (2 x 8 GB)"
+        },
+        {
+            "PhwebDescription": "RAM HX 16GB (2x8GB) DDR4 3467 XMP RGBHS",
+            "ContainerValue": "HyperX 16 GB DDR4-3467 MHz XMP RGB Heatsink RAM (2 x 8 GB)"
+        },
+        {
+            "PhwebDescription": "RAM HX 16GB (2x8GB) DDR4 3733 XMP RGBHS",
+            "ContainerValue": "HyperX 16 GB DDR4-3733 MHz XMP RGB Heatsink RAM (2 x 8 GB)"
+        },
+        {
+            "PhwebDescription": "RAM 16GB (2x8GB)  DDR4 3200",
+            "ContainerValue": "16 GB DDR4-3200 MHz RAM (2 x 8 GB)"
+        },
+        {
+            "PhwebDescription": "RAM 16GB (2x8GB) DDR5 4800",
+            "ContainerValue": "16 GB DDR5-4800 MHz RAM (2 x 8 GB)"
+        },
+        {
+            "PhwebDescription": "SSD 2TB 2280 PCIe-4x4 NVMe TLC",
+            "ContainerValue": "2 TB PCIe® Gen4 NVMe™ TLC M.2 SSD"
+        },
+        {
+            "PhwebDescription": "SSD 2TB PCIe NVMe TLC",
+            "ContainerValue": "2 TB PCIe® NVMe™ TLC M.2 SSD"
+        },
+        {
+            "PhwebDescription": "RAM 32GB (2x16GB) DDR4 3200 NECC",
+            "ContainerValue": "32 GB DDR4-3200 MHz RAM (2 x 16 GB)"
+        },
+        {
+            "PhwebDescription": "RAM 16GB (2x8GB) DDR4 3200",
+            "ContainerValue": "16 GB DDR4-3200 MHz RAM (2 x 8 GB)"
+        },
+        {
+            "PhwebDescription": "RAM 8GB (2x4GB) DDR4 3200",
+            "ContainerValue": "8 GB DDR4-3200 MHz RAM (2 x 4 GB)"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1230U 16GB 13",
+            "ContainerValue": "16 GB LPDDR4x-4266 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1250U 16GB 13",
+            "ContainerValue": "16 GB LPDDR4x-4266 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "RAM 8GB (1x8GB) DDR4 3200",
+            "ContainerValue": "8 GB DDR4-3200 MHz RAM (1 x 8 GB)"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1230U 8GB 13",
+            "ContainerValue": "8 GB LPDDR4x-4266 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "RAM 8GB (2x4GB) DDR4 3200",
+            "ContainerValue": "8 GB DDR4-3200 MHz RAM (2 x 4 GB);"
+        },
+        {
+            "PhwebDescription": "RAM 32GB (2x16GB) DDR5 4800",
+            "ContainerValue": "32 GB DDR5-4800 MHz RAM (2 x 16 GB);"
+        },
+        {
+            "PhwebDescription": "RAM 32GB (2x16GB)  DDR4 3200",
+            "ContainerValue": "32 GB DDR4-3200 MHz RAM (2 x 16 GB)"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1250U 8GB 13",
+            "ContainerValue": "8 GB LPDDR4x-4266 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R3 7320U 8GB 17",
+            "ContainerValue": "8 GB LPDDR5-5500 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "RAM 4GB (1x4GB) DDR4 3200",
+            "ContainerValue": "4 GB DDR4-3200 MHz RAM (1 x 4 GB)"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA Ryzen5 5625U 16GB 13",
+            "ContainerValue": "16 GB DDR4-3200 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "RAM 4GB (1x4GB) DDR4 2400",
+            "ContainerValue": "4 GB DDR4-2400 MHz RAM (1 x 4 GB)"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R3 7320U 8GB 15",
+            "ContainerValue": "8 GB LPDDR5-5500 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R5 7520U 8GB 15",
+            "ContainerValue": "8 GB LPDDR5-5500 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "RAM 12GB (1x8GB+1x4GB)DDR4 3200",
+            "ContainerValue": "12 GB DDR4-3200 MHz RAM (1 x 4 GB, 1 x 8 GB)"
+        },
+        {
+            "PhwebDescription": "RAM 4GB (1x4GB) DDR4 3200 CR",
+            "ContainerValue": "4 GB DDR4-3200 MHz RAM (1 x 4 GB)"
+        },
+        {
+            "PhwebDescription": "RAM 8GB (1x8GB) DDR4 2400",
+            "ContainerValue": "8 GB DDR4-2400 MHz RAM (1 x 8 GB)"
+        },
+        {
+            "PhwebDescription": "RAM 32GB (2x16GB) DDR5 5200",
+            "ContainerValue": "32 GB DDR5-5200 MHz RAM (2 x 16 GB)"
+        },
+        {
+            "PhwebDescription": "RAM 16GB (2x8GB) DDR4 2666",
+            "ContainerValue": "16 GB DDR4-2666 MHz RAM (2 x 8 GB)"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R5 7520U 8GB 14",
+            "ContainerValue": "8 GB LPDDR5-5500 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "RAM 12GB (1x8GB+1x4GB) DDR4 3200",
+            "ContainerValue": "12 GB DDR4-3200 MHz RAM (1 x 4 GB, 1 x 8 GB)"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R3 7320U 4GB 15",
+            "ContainerValue": "4 GB LPDDR5-5500 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "BU IDS OPP 24-cr0 23.8 8GB R5-7520U",
+            "ContainerValue": "32 GB LPDDR5-3200 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R5 7530U 16GB 15",
+            "ContainerValue": "16 GB LPDDR4x-4266 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "RAM 16GB (2x8GB) DDR5 5200",
+            "ContainerValue": "16 GB DDR5-5200 MHz RAM (2 x 8 GB);"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1335U 16GB 15",
+            "ContainerValue": "16 GB LPDDR5-6400 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R3 7320U 8GB 14",
+            "ContainerValue": "8 GB LPDDR5-5500 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA Ath7220U 8GB 15",
+            "ContainerValue": "8 GB LPDDR5-5500 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "RAM 12GB (1x8GB+1x4GB)  DDR4 3200",
+            "ContainerValue": "12 GB DDR4-3200 MHz RAM (1 x 4 GB, 1 x 8 GB)"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1355U 16GB 15",
+            "ContainerValue": "16 GB LPDDR5-5200 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "RAM 32GB (2x16GB) DDR5 5600",
+            "ContainerValue": "32 GB DDR5-5600 MHz RAM (2 x 16 GB);"
+        },
+        {
+            "PhwebDescription": "RAM KFURY 16GB(2x8GB)DDR5 4400 XMP RGBHS",
+            "ContainerValue": "Kingston FURY 16 GB DDR5-5200 MHz XMP RGB Heatsink RAM (2 x 8 GB)"
+        },
+        {
+            "PhwebDescription": "RAM 16GB (2x8GB) DDR5 5600",
+            "ContainerValue": "16 GB DDR5-5600 MHz RAM (2 x 8 GB);"
+        },
+        {
+            "PhwebDescription": "RAM 16GB (2x8GB) DDR4 3200 SODIMM",
+            "ContainerValue": "16 GB DDR4-3200 MHz RAM (2 x 8 GB)"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA Ath7120U 4GB 15",
+            "ContainerValue": "4 GB LPDDR5-5500 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "RAM 8GB(1x8GB) DDR4 3200 SODIMM",
+            "ContainerValue": "8 GB DDR4-3200 MHz RAM (1 x 8 GB)"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R7 7730U 16GB 15",
+            "ContainerValue": "16 GB LPDDR4x-4266 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "RAM 16GB (2x8GB) DDR5 5200",
+            "ContainerValue": "16 GB DDR5-5200 MHz RAM (2 x 8 GB)"
+        },
+        {
+            "PhwebDescription": "RAM KFURY 32GB(2x16GB)DDR54400 XMP RGBHS",
+            "ContainerValue": "Kingston FURY 32 GB DDR5-5200 MHz XMP RGB Heatsink RAM (2 x 16 GB)"
+        },
+        {
+            "PhwebDescription": "RAM 8GB (2x4GB) DDR4 3200 SODIMM",
+            "ContainerValue": "8 GB DDR4-3200 MHz RAM (2 x 4 GB)"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1340P 16GB 14",
+            "ContainerValue": "16 GB DDR4-3200 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA Ath7120U 8GB 15",
+            "ContainerValue": "8 GB LPDDR5-5500 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1355U 16GB 15",
+            "ContainerValue": "16 GB LPDDR5-5200 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "RAM 32GB (2x16GB) DDR5 5600",
+            "ContainerValue": "32 GB DDR5-5600 MHz RAM (2 x 16 GB);"
+        },
+        {
+            "PhwebDescription": "RAM KFURY 16GB(2x8GB)DDR5 4400 XMP RGBHS",
+            "ContainerValue": "Kingston FURY 16 GB DDR5-5200 MHz XMP RGB Heatsink RAM (2 x 8 GB)"
+        },
+        {
+            "PhwebDescription": "RAM 16GB (2x8GB) DDR5 5600",
+            "ContainerValue": "16 GB DDR5-5600 MHz RAM (2 x 8 GB);"
+        },
+        {
+            "PhwebDescription": "RAM 16GB (2x8GB) DDR4 3200 SODIMM",
+            "ContainerValue": "16 GB DDR4-3200 MHz RAM (2 x 8 GB)"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA Ath7120U 4GB 15",
+            "ContainerValue": "4 GB LPDDR5-5500 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "RAM 8GB(1x8GB) DDR4 3200 SODIMM",
+            "ContainerValue": "8 GB DDR4-3200 MHz RAM (1 x 8 GB)"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R7 7730U 16GB 15",
+            "ContainerValue": "16 GB LPDDR4x-4266 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "RAM 16GB (2x8GB) DDR5 5200",
+            "ContainerValue": "16 GB DDR5-5200 MHz RAM (2 x 8 GB)"
+        },
+        {
+            "PhwebDescription": "RAM KFURY 32GB(2x16GB)DDR54400 XMP RGBHS",
+            "ContainerValue": "Kingston FURY 32 GB DDR5-5200 MHz XMP RGB Heatsink RAM (2 x 16 GB)"
+        },
+        {
+            "PhwebDescription": "RAM 8GB (2x4GB) DDR4 3200 SODIMM",
+            "ContainerValue": "8 GB DDR4-3200 MHz RAM (2 x 4 GB)"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1340P 16GB 14",
+            "ContainerValue": "16 GB DDR4-3200 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA Ath7120U 8GB 15",
+            "ContainerValue": "8 GB LPDDR5-5500 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi5xxxx 8GB 14",
+            "ContainerValue": "8 GB DDR4-3200 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1355U 16GB 14",
+            "ContainerValue": "16 GB DDR4-3200 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "RAM 16GB (8x2GB) DDR4 3200 CR",
+            "ContainerValue": "16 GB DDR4-3200 MHz RAM (2 x 8 GB)"
+        },
+        {
+            "PhwebDescription": "RAM 8GB(1x8GB) DDR4 2933 UDIMM NECC",
+            "ContainerValue": "8 GB DDR4-2933 MHz RAM (1 x 8 GB)"
+        },
+        {
+            "PhwebDescription": "RAM 8GB (2x4GB) DDR4 3200 NECC",
+            "ContainerValue": "8 GB DDR4-3200 MHz RAM (2 x 4 GB)"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R5 7520U 16GB 15",
+            "ContainerValue": "16 GB LPDDR5-5500 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-12700H 16GB fOLED 14",
+            "ContainerValue": "16 GB DDR4-3200 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "RAM 12GB (1x8GB+1x4GB) DDR4 3200 SODIMM",
+            "ContainerValue": "12 GB DDR4-3200 MHz RAM (1 x 8 GB, 1 x 4 GB)"
+        },
+        {
+            "PhwebDescription": "RAM 8GB (1x8GB) DDR4 2666",
+            "ContainerValue": "8 GB DDR4-2666 MHz RAM (1 x 8 GB)"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC 2GB PH i5-xxxx 16GB 14",
+            "ContainerValue": "16 GB DDR4-3200 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi5xxxxU 16GB 14",
+            "ContainerValue": "16 GB LPDDR4x-4266 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX30504GB i5-1335U 16GB 15",
+            "ContainerValue": "16 GB LPDDR5-5500 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "RAM 16GB (2x8GB)DDR4 3200",
+            "ContainerValue": "16 GB DDR4-3200 MHz RAM (2 x 8 GB)"
+        },
+        {
+            "PhwebDescription": "RAM 16GB (2x8GB) DDR5 5200 CR",
+            "ContainerValue": "16 GB DDR5-5200 MHz RAM (2 x 8 GB);"
+        },
+        {
+            "PhwebDescription": "RAM 16GB(1x16GB) DDR4 3200 SODIMM",
+            "ContainerValue": "16 GB DDR4-3200 MHz RAM (1 x 16 GB)"
+        },
+        {
+            "PhwebDescription": "RAM 16GB (1x16GB) DDR4 3200 NECC",
+            "ContainerValue": "16 GB DDR4-3200 MHz RAM (1 x 16 GB)"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA CelN4500 4GB 128GeMMC 14a-ca1",
+            "ContainerValue": "4 GB LPDDR4x-2933 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R5 7535U 16GB 13",
+            "ContainerValue": "16 GB DDR4-3200 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "RAM 4GB (1x4GB) DDR4 2666",
+            "ContainerValue": "4 GB DDR4-2666 MHz RAM (1 x 4 GB)"
+        },
+        {
+            "PhwebDescription": "RAM 4GB (1x4GB) DDR4 2933",
+            "ContainerValue": "4 GB DDR4-2933 MHz RAM (1 x 4 GB)"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA Ath7120U 8GB 14",
+            "ContainerValue": "8 GB LPDDR5-5500 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCArc4GB PHi7RM 16GB fOLED 16",
+            "ContainerValue": "16 GB DDR4-3200 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R7 7735U 16GB 13",
+            "ContainerValue": "16 GB DDR4-3200 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi7xxxxU 32GB fOLED 14",
+            "ContainerValue": "32 GB LPDDR4x-4266 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R5 7535U 8GB 13",
+            "ContainerValue": "8 GB LPDDR5-6400 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "RAM HX 16GB (2x8GB) DDR4 3200 XMP RGBHS",
+            "ContainerValue": "HyperX 16 GB DDR4-3200 MHz XMP RGB Heatsink RAM (2 x 8 GB)"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-xxxx 32GB 14",
+            "ContainerValue": "32 GB LPDDR4x-4266 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "RAM 16GB (2x8GB) DDR4 3200 NECC",
+            "ContainerValue": "16 GB DDR4-3200 MHz RAM (2 x 8 GB)"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA CelN4500 8GB 128GeMMC 15a-na0",
+            "ContainerValue": "8 GB LPDDR4x-2933 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "BU IDS OPP 27-cr0 27 16GB R5-7520U",
+            "ContainerValue": "16 GB LPDDR5-5500 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "RAM 8GB (1x8GB) DDR4 3200 CR",
+            "ContainerValue": "8 GB DDR4-3200 MHz RAM (1 x 8 GB)"
+        },
+        {
+            "PhwebDescription": "32GB (2x16GB)  DDR4 3200",
+            "ContainerValue": "32 GB DDR4-3200 MHz RAM (2 x 16 GB)"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-xxxx 16GB 14",
+            "ContainerValue": "16 GB LPDDR4x-4266 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi7xxxxU 16GB fOLED 14",
+            "ContainerValue": "16 GB LPDDR4x-4266 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi712xxx 16GB 14",
+            "ContainerValue": "16 GB DDR4-3200 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi7xxxxU 16GB 14",
+            "ContainerValue": "16 GB LPDDR4x-4266 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "RAM KFURY 16GB (2x8GB)DDR5 4400 XMP HSnk",
+            "ContainerValue": "Kingston FURY 16 GB DDR5-5200 MHz XMP Heatsink RAM (2 x 8 GB)"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-13700H 16GB fOLED 14",
+            "ContainerValue": "16 GB DDR4-3200 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R5 7520U 8GB 17",
+            "ContainerValue": "8 GB LPDDR5-5500 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi7xxxxU 32GB 14",
+            "ContainerValue": "32 GB LPDDR4x-4266 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX20504GB i7-1355U16GBfOLED14",
+            "ContainerValue": "16 GB DDR4-3200 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "RAM KFURY 32GB(2x16GB)DDR55200 XMP RGBHS",
+            "ContainerValue": "Kingston FURY 32 GB DDR5-5200 MHz XMP RGB Heatsink RAM (2 x 16 GB)"
+        },
+        {
+            "PhwebDescription": "",
+            "ContainerValue": "8 GB DDR4-3200 MHz RAM (1 x 8 GB);"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi312xxx 8GB 14",
+            "ContainerValue": "8 GB DDR4-3200 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA Ryzen7 5825U 16GB 13",
+            "ContainerValue": "16 GB DDR4-3200 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "",
+            "ContainerValue": "8 GB DDR5-4800 MHz RAM (1 x 8 GB);"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCMX5502GB i5-1335U 16GB 14",
+            "ContainerValue": "16 GB DDR4-3200 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA CelN41204GB64GeMMCnSDC14a-ca0",
+            "ContainerValue": "4 GB LPDDR4-2400 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1235U 16GB 14",
+            "ContainerValue": "16 GB DDR4-3200 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-13500H 16GB 14",
+            "ContainerValue": "16 GB DDR4-3200 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1255U 16GB 14",
+            "ContainerValue": "16 GB DDR4-3200 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "RAM 8GB (2x4GB) DDR4 2933",
+            "ContainerValue": "8 GB DDR4-2933 MHz RAM (2 x 4 GB)"
+        },
+        {
+            "PhwebDescription": "RAM KFURY 64GB(4x16GB)DDR54400 XMP RGBHS",
+            "ContainerValue": "Kingston FURY 64 GB DDR5-5200 MHz XMP RGB Heatsink RAM (4 x 16 GB)"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi512xxx 8GB 14",
+            "ContainerValue": "8 GB DDR4-3200 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R5 7520U 16GB 17",
+            "ContainerValue": "16 GB LPDDR5-5500 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "RAM 16GB (1x16GB) DDR4 3200",
+            "ContainerValue": "16 GB DDR4-3200 MHz RAM (1 x 16 GB)"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R5 7530U 8GB 15",
+            "ContainerValue": "8 GB LPDDR4x-4266 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "RAM 8GB (1x8GB) DDR4 2933",
+            "ContainerValue": "8 GB DDR4-2933 MHz RAM (1 x 8 GB)"
+        },
+        {
+            "PhwebDescription": "RAM 16GB (2x8GB) DDR4 2933",
+            "ContainerValue": "16 GB DDR4-2933 MHz RAM (2 x 8 GB)"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R5 7520U 16GB 14",
+            "ContainerValue": "16 GB LPDDR5-5500 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA Ryzen5 5625U 8GB 13",
+            "ContainerValue": "8 GB DDR4-3200 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "RAM KFURY 64GB(4x16GB)DDR55200 XMP RGBHS",
+            "ContainerValue": "Kingston FURY 64 GB DDR5-5200 MHz XMP RGB Heatsink RAM (4 x 16 GB)"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi512xxx 16GB 14",
+            "ContainerValue": "16 GB DDR4-3200 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "RAM 16GB (1x16GB) DDR4 3200 NECC",
+            "ContainerValue": "16 GB DDR4-3200 SDRAM (1 x 16 GB)"
+        },
+        {
+            "PhwebDescription": "RAM 12GB (1x8GB+1x4GB) DDR4 2933",
+            "ContainerValue": "12 GB DDR4-2933 MHz RAM (1 x 4 GB, 1 x 8 GB)"
+        },
+        {
+            "PhwebDescription": "RAM 32GB (2x16GB) DDR5 4800",
+            "ContainerValue": "32 GB DDR5-4800 MHz RAM (2 x 16 GB)"
+        },
+        {
+            "PhwebDescription": "RAM 32GB (2x16GB) DDR5 4000",
+            "ContainerValue": "32 GB DDR5-4000 MHz RAM (2 x 16 GB)"
+        },
+        {
+            "PhwebDescription": "RAM 16GB (2x8GB) DDR5 4000",
+            "ContainerValue": "16 GB DDR5-4000 MHz RAM (2 x 8 GB)"
+        },
+        {
+            "PhwebDescription": "BU IDS UMACelN41208GB128GeMMCnSDC14a-na0",
+            "ContainerValue": "8 GB LPDDR4-2400 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "BU IDS UMAPentSilN60008GB128GeMMC15a-na0",
+            "ContainerValue": "8 GB LPDDR4x-2933 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "RAM 32GB (2x16GB) DDR5 5200",
+            "ContainerValue": "32 GB DDR5-5200 MHz RAM (2 x 16 GB);"
+        },
+        {
+            "PhwebDescription": "RAM HX 32GB (2x16GB) DDR4 3200 XMP HSnk",
+            "ContainerValue": "HyperX 32 GB DDR4-3200 MHz XMP Heatsink RAM (2 x 16 GB)"
+        },
+        {
+            "PhwebDescription": "RAM 16GB (2x8GB) DDR4 3200 CR",
+            "ContainerValue": "16 GB DDR4-3200 MHz RAM (2 x 8 GB)"
+        },
+        {
+            "PhwebDescription": "BU IDSUPentSN50308GB64GeMMCfBLnSDC14aca0",
+            "ContainerValue": "8 GB LPDDR4-2400 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "BU IDSUMAPSilN50308GB128GeMMCnSDC14a-na0",
+            "ContainerValue": "8 GB LPDDR4-2400 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA CelN41204GB64GeMMCnSDC14a-na0",
+            "ContainerValue": "4 GB LPDDR4-2400 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "RAM 8GB (2x4GB) DDR4 2400 SODIMM",
+            "ContainerValue": "8 GB DDR4-2400 MHz RAM (2 x 4 GB)"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-13500H 16GB fOLED 14",
+            "ContainerValue": "16 GB DDR4-3200 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA MT8195GV 8GB 13b-ca0",
+            "ContainerValue": "8 GB LPDDR4x-4266 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "RAM 8GB (1x8GB) DDR4 3200 CR",
+            "ContainerValue": "8 GB DDR4-3200 MHz RAM (2 x 4 GB)"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1235U 8GB 14",
+            "ContainerValue": "8 GB DDR4-3200 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i3-N305 8GB 256GUFS 15a-nb0",
+            "ContainerValue": "8 GB LPDDR5-6400 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "RAM 4GB (1x4GB) DDR4 2666 NECC",
+            "ContainerValue": "4 GB DDR4-2666 MHz RAM (1 x 4 GB)"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i3-N305 8GB 128GUFS 15a-nb0",
+            "ContainerValue": "8 GB LPDDR5-4800 MHz RAM (onboard)"
+        },
+        {
+            "PhwebDescription": "16GB (2x8GB)  DDR4 3200 NECC",
+            "ContainerValue": "16 GB DDR4-3200 MHz RAM (2 x 8 GB)"
+        },
+        {
+            "PhwebDescription": "RAM 4GB(1x4GB) DDR4 3200 SODIMM",
+            "ContainerValue": "4 GB DDR4-3200 MHz RAM (1 x 4 GB)"
+        },
+        {
+            "PhwebDescription": "RAM 8GB (1x8GB) DDR4 2666 NECC",
+            "ContainerValue": "8 GB DDR4-2666 MHz RAM (1 x 8 GB)"
+        },
+        {
+            "PhwebDescription": "RAM 32GB (2x16GB) DDR4 3200 SODIMM",
+            "ContainerValue": "32 GB DDR4-3200 MHz RAM (2 x 16 GB)"
+        }
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "hd_01des": [
+        {
+            "PhwebDescription": "SSD 512GB PCIe NVMe",
+            "ContainerValue": "512 GB PCIe® Gen4 NVMe™ TLC M.2 SSD"
+        },
+        {
+            "PhwebDescription": "SSD 512G 2280 PCIe NVMe Value",
+            "ContainerValue": "512 GB PCIe® NVMe™ M.2 SSD'"
+        },
+        {
+            "PhwebDescription": "SSD 512GB PCIe-4x4 NVMe TLC",
+            "ContainerValue": "512 GB PCIe® NVMe™ TLC M.2 SSD"
+        },
+        {
+            "PhwebDescription": "SSD 256GB PCIe NVMe Value",
+            "ContainerValue": "256 GB PCIe® NVMe™ M.2 SSD"
+        },
+        {
+            "PhwebDescription": "SSD 256GB PCIe NVMe TLC",
+            "ContainerValue": "256 GB PCIe® NVMe™ TLC M.2 SSD"
+        },
+        {
+            "PhwebDescription": "SSD 1TB PCIe NVMe Value",
+            "ContainerValue": "1 TB PCIe® NVMe™ M.2 SSD"
+        },
+        {
+            "PhwebDescription": "SSD 1TB PCIe NVMe TLC",
+            "ContainerValue": "1 TB PCIe® Gen4 NVMe™ TLC M.2 SSD"
+        },
+        {
+            "PhwebDescription": "SSD 2TB 2280 PCIe-4x4 NVMe TLC",
+            "ContainerValue": "2 TB PCIe® Gen4 NVMe™ TLC M.2 SSD"
+        },
+        {
+            "PhwebDescription": "SSD 2TB PCIe NVMe TLC",
+            "ContainerValue": "2 TB PCIe® NVMe™ TLC M.2 SSD"
+        },
+        {
+            "PhwebDescription": "SSD 512GB PCIe-4x4 NVMe TLC",
+            "ContainerValue": "512 GB PCIe® Gen4 NVMe™ TLC M.2 SSD"
+        },
+        {
+            "PhwebDescription": "HDD 1TB 5400RPM SATA",
+            "ContainerValue": "1 TB 5400 rpm SATA HDD"
+        },
+        {
+            "PhwebDescription": "SSD WD Black 1T 2280 PCIe-4x4 NVMe TLC",
+            "ContainerValue": "1 TB WD Black PCIe® Gen4 NVMe™ TLC M.2  SSD"
+        },
+        {
+            "PhwebDescription": "SSD WD Black 2TB 2280 PCIe-4x4 TLC",
+            "ContainerValue": "2 TB WD Black PCIe® Gen4 TLC M.2 SSD"
+        },
+        {
+            "PhwebDescription": "SSD 1T 2280 PCIe NVMe Value",
+            "ContainerValue": "1 TB PCIe® NVMe™ M.2 SSD"
+        },
+        {
+            "PhwebDescription": "SSD WD 1T 2280 PCIe NVMe Value",
+            "ContainerValue": "1 TB PCIe® NVMe™ M.2 SSD"
+        }
+    ]
+}
