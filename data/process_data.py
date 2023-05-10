@@ -1,5 +1,4 @@
 import json
-import pandas as pd
 
 def processData(json_path, container_name, container_df, df):
     with open(json_path, 'r') as f:

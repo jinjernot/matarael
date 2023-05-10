@@ -1,14 +1,12 @@
 import openpyxl
 from openpyxl.styles import PatternFill,Font
 
-
-
 def formateData():
 
     wb = openpyxl.load_workbook('SCS_QA.xlsx')
 
     worksheet = wb.active
-    header_fill = PatternFill(start_color='0072C6', end_color='0072C6', fill_type='solid') # Add nice fill
+    header_fill = PatternFill(start_color='0072C6', end_color='0072C6', fill_type='solid') 
 
     for cell in worksheet[1]:
         cell.fill = header_fill
@@ -28,7 +26,7 @@ def formateData():
     for cell in worksheet['H']:
         if 'ERROR' in str(cell.value):
             font = cell.font
-            cell.font = Font(color='FF0000', name=font.name, size=font.size) # Set font color to red
+            cell.font = Font(color='FF0000', name=font.name, size=font.size)
 
     
     

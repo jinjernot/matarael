@@ -11,14 +11,12 @@ app.use_static_for = 'static'
 ALLOWED_EXTENSIONS = {'xlsx'}
 
 def allowed_file(filename):
-    """set the allowed file.xlsx"""
     return '.' in filename and \
            filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
 
 @app.route('/', methods=['GET', 'POST'])
 
 def upload_file():
-    """Check if a file is .xlsx, if not, return an error"""
     if request.method == 'POST':
         if 'file' in request.files:
             file = request.files['file']
