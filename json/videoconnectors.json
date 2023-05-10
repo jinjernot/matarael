@@ -1,0 +1,40 @@
+{
+    "videoconnectors": [
+        {
+            "PhwebDescription": "H470",
+            "ContainerValue": "Intel® H470"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA GeF 12GB GDDR6X",
+            "ContainerValue": "1 HDMI; 3 DisplayPort™"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA GeF 6GB GDDR6 RKL-S",
+            "ContainerValue": "1 HDMI; 3 DisplayPort™"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA GeF 8GB GDDR6 RKL-S",
+            "ContainerValue": "1 HDMI; 3 DisplayPort™"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA GeF RTX 3060 12GB GDDR6",
+            "ContainerValue": "1 HDMI 2.1; 1 DisplayPort™"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA GeF RTX 3060 Ti 8GB GDDR6",
+            "ContainerValue": "1 HDMI 2.1; 1 DisplayPort™"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA GeF RTX 3070 8GB GDDR6",
+            "ContainerValue": "1 HDMI 2.1; 3 DisplayPort™"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA GeF RTX 4080 12GB GDDR6X",
+            "ContainerValue": "1 HDMI 2.1; 3 DisplayPort™"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA GeF RTX 4080 16GB GDDR6X",
+            "ContainerValue": "1 HDMI; 3 DisplayPort™"
+        }
+        ]
+    }

@@ -1,0 +1,228 @@
+{
+    "graphicseg_02card_01": [
+        {
+            "PhwebDescription": "GFX AMD Rdn RX 6400 4GB GDDR6",
+            "ContainerValue": "AMD Radeon™ RX 6400 Graphics (4 GB GDDR6 dedicated)"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC RX 6500M 4GB Ryzen5 5600H 15",
+            "ContainerValue": "AMD Radeon™ RX 6500M Graphics (4 GB GDDR6 dedicated)"
+        },
+        {
+            "PhwebDescription": "GFX AMD Rdn RX 6600XT 8GB GDDR6",
+            "ContainerValue": "AMD Radeon™ RX 6600 XT Graphics (8 GB GDDR6 dedicated)"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC RX xxx 8GB Ryzen7 5800H 16",
+            "ContainerValue": "AMD Radeon™ RX 6600M Graphics (8 GB GDDR6 dedicated)"
+        },
+        {
+            "PhwebDescription": "RX 6650M 8GB",
+            "ContainerValue": "AMD Radeon™ RX 6650M Graphics (8 GB GDDR6 dedicated)"
+        },
+        {
+            "PhwebDescription": "GFX AMD Rdn RX 6700XT 12GB GDDR6",
+            "ContainerValue": "AMD Radeon™ RX 6700 XT Graphics (12 GB GDDR6 dedicated)"
+        },
+        {
+            "PhwebDescription": "Arc A370M 4G",
+            "ContainerValue": "Intel® Arc™ A370M Graphics (4 GB GDDR6 dedicated)"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX20504GB i7-1255U",
+            "ContainerValue": "NVIDIA® GeForce RTX™ 2050 Laptop GPU (4 GB GDDR6 dedicated)"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC 4GB i7-11370H 15",
+            "ContainerValue": "NVIDIA® GeForce RTX™ 3050 Laptop GPU (4 GB GDDR6 dedicated)"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC 4GB PH i5-xxxxH 16",
+            "ContainerValue": "NVIDIA® GeForce RTX™ 3050 Laptop GPU (4 GB GDDR6 dedicated)"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC 4GB PH i7-xxxx 16",
+            "ContainerValue": "NVIDIA® GeForce RTX™ 3050 Laptop GPU (4 GB GDDR6 dedicated)"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC GTX 1650 4GB i5-11300H 15",
+            "ContainerValue": "NVIDIA® GeForce® GTX 1650 Laptop GPU (4 GB GDDR6 dedicated)"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC GTX 1650 4GB i5-12500H 15",
+            "ContainerValue": "NVIDIA® GeForce® GTX 1650 Laptop GPU (4 GB GDDR6 dedicated)"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC GTX 1650 4GB i7-12700H 15",
+            "ContainerValue": "NVIDIA® GeForce® GTX 1650 Laptop GPU (4 GB GDDR6 dedicated)"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC GTX 1650 4GB Ryzen5 5600H 15",
+            "ContainerValue": "NVIDIA® GeForce® GTX 1650 Laptop GPU (4 GB GDDR6 dedicated)"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC GTX 1650 4GB Ryzen7 5800H 15",
+            "ContainerValue": "NVIDIA® GeForce® GTX 1650 Laptop GPU (4 GB GDDR6 dedicated)"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC MX450 2GB i7-1165G7 15",
+            "ContainerValue": "NVIDIA® GeForce® MX450 (2 GB GDDR5 dedicated)"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC MX550 2GB i5-1235U 15",
+            "ContainerValue": "NVIDIA® GeForce® MX550 (2 GB GDDR6 dedicated);"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC MXxxx 2GB PH i7-12xxx U15 17",
+            "ContainerValue": "NVIDIA® GeForce® MX550 (2 GB GDDR6 dedicated)"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC MX550 2GB i7-1255U nSDC 14",
+            "ContainerValue": "NVIDIA® GeForce® MX550 (2 GB GDDR6 dedicated)"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC MX550 2GB i7-1255U 15",
+            "ContainerValue": "NVIDIA® GeForce® MX550 (2 GB GDDR6 dedicated)"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC RTX 3050 4GB i7-12700H 15",
+            "ContainerValue": "NVIDIA® GeForce RTX™ 3050 Laptop GPU (4 GB GDDR6 dedicated)"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC RTX 3050 4GB i5-12500H 15",
+            "ContainerValue": "NVIDIA® GeForce RTX™ 3050 Laptop GPU (4 GB GDDR6 dedicated)"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC RTX 3050 4GB Ryzen5 5600H 15",
+            "ContainerValue": "NVIDIA® GeForce RTX™ 3050 Laptop GPU (4 GB GDDR6 dedicated)"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC RTX 3050 4GB R7 6800H 16",
+            "ContainerValue": "NVIDIA® GeForce RTX™ 3050 Laptop GPU (4 GB GDDR6 dedicated)"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC RTX 3050Ti 4GB i5-12500H 15",
+            "ContainerValue": "NVIDIA® GeForce RTX™ 3050 Ti Laptop GPU (4 GB GDDR6 dedicated)"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC RTX 3050 4GB Ryzen7 5800H 15",
+            "ContainerValue": "NVIDIA® GeForce RTX™ 3050 Laptop GPU (4 GB GDDR6 dedicated)"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC RTX 3050Ti 4GB i7-12700H 15",
+            "ContainerValue": "NVIDIA® GeForce RTX™ 3050 Ti Laptop GPU (4 GB GDDR6 dedicated)"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC RTX 3050Ti 4GB i5-12500H 16",
+            "ContainerValue": "NVIDIA® GeForce RTX™ 3050 Ti Laptop GPU (4 GB GDDR6 dedicated)"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC RTX 3050Ti 4GB Ryzen7 5800H15",
+            "ContainerValue": "NVIDIA® GeForce RTX™ 3050 Ti Laptop GPU (4 GB GDDR6 dedicated)"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC RTX 3050Ti 4GB R5 6600H 16",
+            "ContainerValue": "NVIDIA® GeForce RTX™ 3050 Ti Laptop GPU (4 GB GDDR6 dedicated)"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC RTX 3060 6GB i7-12700H 17",
+            "ContainerValue": "NVIDIA® GeForce RTX™ 3060 Laptop GPU (6 GB GDDR6 dedicated)"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC RTX 3060 6GB i5-12500H 16",
+            "ContainerValue": "NVIDIA® GeForce RTX™ 3060 Laptop GPU (6 GB GDDR6 dedicated)"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC RTX 3060 6GB i5-11400H 16",
+            "ContainerValue": "NVIDIA® GeForce RTX™ 3060 Laptop GPU (6 GB GDDR6 dedicated)"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC RTX 3060 6GB R7 6800H 16",
+            "ContainerValue": "NVIDIA® GeForce RTX™ 3060 Laptop GPU (6 GB GDDR6 dedicated)"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC RTX 3060 6GB i9-12900HfOLED16",
+            "ContainerValue": "NVIDIA® GeForce RTX™ 3060 Laptop GPU (6 GB GDDR6 dedicated)"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC RTX 3070 MQ 8GB Ryzen75800H16",
+            "ContainerValue": "NVIDIA® GeForce RTX™ 3070 Laptop GPU (8 GB GDDR6 dedicated)"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC RTX 3070Ti 8GB i7-12700H 17",
+            "ContainerValue": "NVIDIA® GeForce RTX™ 3070 Ti Laptop GPU (8 GB GDDR6 dedicated)"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC RTX 3070Ti MQ 8GB R7 6800H 16",
+            "ContainerValue": "NVIDIA® GeForce RTX™ 3070 Ti Laptop GPU (8 GB GDDR6 dedicated)"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC RTX 3070TiMQ8GBRyzen96900HX16",
+            "ContainerValue": "NVIDIA® GeForce RTX™ 3070 Ti Laptop GPU (8 GB GDDR6 dedicated)"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX3070TiMQ8GBfGSynci7-12700H1",
+            "ContainerValue": "NVIDIA® GeForce RTX™ 3070 Ti Laptop GPU (8 GB GDDR6 dedicated)"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX20504GB i5-1235U 17",
+            "ContainerValue": "NVIDIA® GeForce RTX™ 2050 Laptop GPU (4 GB GDDR6 dedicated)"
+        },
+        {
+            "PhwebDescription": "BU IDSDSCMXxxx2GBPHi5-12xxxU15nSDC15-eg2",
+            "ContainerValue": "NVIDIA® GeForce® MX550 (2 GB GDDR6 dedicated)"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX3080Ti16GBfGSynci7-12700H17",
+            "ContainerValue": "NVIDIA® GeForce RTX™ 3080 Ti Laptop GPU (16 GB GDDR6 dedicated)"
+        },
+        {
+            "PhwebDescription": "BU IDSDSCRTX3050MQ4GBPHi7xxxx32GBfOLED16",
+            "ContainerValue": "NVIDIA® GeForce RTX™ 3050 Laptop GPU (4 GB GDDR6 dedicated)"
+        },
+        {
+            "PhwebDescription": "BU IDSDSCRTX3070TiMQ8GBfGSynci9-12900H16",
+            "ContainerValue": "NVIDIA® GeForce RTX™ 3070 Ti Laptop GPU (8 GB GDDR6 dedicated)"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA GeF MX450 2GB ADL-P",
+            "ContainerValue": "NVIDIA® GeForce® MX450 (2 GB DDR5 dedicated)"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA GeF GTX 1650 Super 4GB GDDR6",
+            "ContainerValue": "NVIDIA® GeForce® GTX 1650 SUPER™ (4 GB GDDR6 dedicated)"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA GeF RTX 3060 12GB GDDR6",
+            "ContainerValue": "NVIDIA® GeForce RTX™ 3060 (12 GB GDDR6 dedicated)"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA GeF RTX 3050 8GB GDDR6",
+            "ContainerValue": "NVIDIA® GeForce RTX™ 3050 (8 GB GDDR6 dedicated)"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA GeF RTX 3050 MQ 4GB GDDR6 G4",
+            "ContainerValue": "NVIDIA® GeForce RTX™ 3050 (4 GB GDDR6 dedicated)"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA GeF RTX 3070 8GB GDDR6",
+            "ContainerValue": "NVIDIA® GeForce RTX™ 3070 (8 GB GDDR6 dedicated) with LHR"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA GeF RTX 3060 Ti 8GB GDDR6",
+            "ContainerValue": "NVIDIA® GeForce RTX™ 3060 Ti (8 GB GDDR6 dedicated)"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA GeF RTX 3080 10GB GDDR6X",
+            "ContainerValue": "NVIDIA® GeForce RTX™ 3080 (10 GB GDDR6X dedicated) with LHR"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA GeF RTX 3080Ti 12GB GDDR6X",
+            "ContainerValue": "NVIDIA® GeForce RTX™ 3080 Ti (12 GB GDDR6X dedicated)"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA GeF RTX 3060 Ti 8GB GDDR6",
+            "ContainerValue": "NVIDIA® GeForce RTX™ 3060 Ti (8 GB GDDR6 dedicated) with LHR"
+        }
+    ]
+}

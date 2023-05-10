@@ -1,0 +1,28 @@
+{
+    "facet_processortype": [
+        {
+            "PhwebDescription": "i7",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "i5",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "R7",
+            "ContainerValue": "AMD Ryzen 7"
+        },
+        {
+            "PhwebDescription": "R5",
+            "ContainerValue": "AMD Ryzen 5"
+        },
+        {
+            "PhwebDescription": "Ryzen5",
+            "ContainerValue": "AMD Ryzen 5"
+        },
+        {
+            "PhwebDescription": "Ryzen7 ",
+            "ContainerValue": "AMD Ryzen 7"
+        }
+    ]
+}

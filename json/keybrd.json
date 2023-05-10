@@ -1,0 +1,212 @@
+{
+    "keybrd": [
+        {
+            "PhwebDescription": "HP 225 Black Wired KB/Mse Combo",
+            "ContainerValue": "HP 225 Black Wired Keyboard and mouse combo"
+        },
+        {
+            "PhwebDescription": "HP 225 White Wired KB/Mse Combo",
+            "ContainerValue": "HP 225 White Wired Keyboard and mouse combo"
+        },
+        {
+            "PhwebDescription": "HP 230 WL Mouse+KB Combo BLK",
+            "ContainerValue": "HP 230 Black Wireless Keyboard and Mouse combo"
+        },
+        {
+            "PhwebDescription": "HP 230 WL Mouse+KB Combo WHT",
+            "ContainerValue": "HP 230 White Wireless Keyboard and Mouse combo"
+        },
+        {
+            "PhwebDescription": "HP 310 Blk Wired KB/Mse",
+            "ContainerValue": "HP 310 Black Wired Keyboard and mouse combo"
+        },
+        {
+            "PhwebDescription": "HP 310 White Wired KB/Mse",
+            "ContainerValue": "HP 310 White Wired Keyboard and mouse combo"
+        },
+        {
+            "PhwebDescription": "HP 510SP WHT WRLS KB/Mse",
+            "ContainerValue": "HP 510SP White Wireless Keyboard and mouse combo"
+        },
+        {
+            "PhwebDescription": "HP 510SP BLK WRLS KB/Mse",
+            "ContainerValue": "HP 510SP Black Wireless Keyboard and mouse combo"
+        },
+        {
+            "PhwebDescription": "HP 710 White WLS KB/Mse",
+            "ContainerValue": "HP 710 White Wireless Keyboard and mouse combo"
+        },
+        {
+            "PhwebDescription": "HP 710 Blk WLS KB/Mse",
+            "ContainerValue": "HP 710 Black Wireless Keyboard and mouse combo"
+        },
+        {
+            "PhwebDescription": "KBD BLR CP BL-RGB 4Zone",
+            "ContainerValue": "Full-size, 4-zone RGB backlit, shadow black keyboard and 26-Key Rollover Anti-Ghosting Key technology"
+        },
+        {
+            "PhwebDescription": "KBD CBL CP BL num kypd",
+            "ContainerValue": "Full-size, backlit, cloud blue keyboard with numeric keypad"
+        },
+        {
+            "PhwebDescription": "KBD BLR CP BL-WHT 1Zone",
+            "ContainerValue": "Full-size, 1-zone white backlit, shadow black keyboard and 26-Key Rollover Anti-Ghosting Key technology"
+        },
+        {
+            "PhwebDescription": "KBD CCW CP+IS BL num kypd",
+            "ContainerValue": "Full-size, backlit, ceramic white keyboard with numeric keypad"
+        },
+        {
+            "PhwebDescription": "KBD CBL CP num kypd",
+            "ContainerValue": "Full-size, cloud blue keyboard with numeric keypad"
+        },
+        {
+            "PhwebDescription": "KBD CBL ISK CP+IS BL",
+            "ContainerValue": "Full-size, backlit, cloud blue keyboard"
+        },
+        {
+            "PhwebDescription": "KBD CCW ISK CP BL",
+            "ContainerValue": "Full-size, backlit, ceramic white keyboard;"
+        },
+        {
+            "PhwebDescription": "KBD CCW ISK PT CP+IS BL numkypd",
+            "ContainerValue": "Full-size, backlit, ceramic white keyboard with numeric keypad"
+        },
+        {
+            "PhwebDescription": "KBD CCW CP+IS BL-RGB 4Zone",
+            "ContainerValue": "Full-size, 4-zone RGB backlit, ceramic white keyboard and 26-Key Rollover Anti-Ghosting Key technology"
+        },
+        {
+            "PhwebDescription": "KBD ENB FS STD CP+IS num kypd",
+            "ContainerValue": "Full-size, evening blue keyboard with numeric keypad"
+        },
+        {
+            "PhwebDescription": "KBD CCWISKPTCP+ISBL-RGB1Zonenum",
+            "ContainerValue": "Full-size, 1-zone RGB backlit, ceramic white keyboard with numeric keypad"
+        },
+        {
+            "PhwebDescription": "KBD ENB FS STD CP+IS num kypd",
+            "ContainerValue": "Full-size, evening blue keyboard with numeric keypad"
+        },
+        {
+            "PhwebDescription": "KBD JTB ISK STD TP num kypd",
+            "ContainerValue": "Full-size, jet black keyboard with numeric keypad"
+        },
+        {
+            "PhwebDescription": "KBD JTB ISK STD CP num kypd",
+            "ContainerValue": "Full-size, jet black keyboard with numeric keypad"
+        },
+        {
+            "PhwebDescription": "KBD LMG CP BL num kypd",
+            "ContainerValue": "Full-size, backlit, luminous gold keyboard with numeric keypad"
+        },
+        {
+            "PhwebDescription": "KBD JTB STD CP",
+            "ContainerValue": "Full-size, jet black keyboard"
+        },
+        {
+            "PhwebDescription": "MISC No Included Keyboard",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "KBD WTLISKWNBPwrBtnPTCP+ISBL1Z",
+            "ContainerValue": "Full-size, 1-zone white backlit, mica silver keyboard and 26-Key Rollover Anti-Ghosting Key technology"
+        },
+        {
+            "PhwebDescription": "KBD MCS CP BL-RGB 4Zone",
+            "ContainerValue": "Full-size, 4-zone RGB backlit, mica silver keyboard and 26-Key Rollover Anti-Ghosting Key technology"
+        },
+        {
+            "PhwebDescription": "KBD NSV CP",
+            "ContainerValue": "Full-size, natural silver keyboard"
+        },
+        {
+            "PhwebDescription": "KBD POB ISK CP BL",
+            "ContainerValue": "Full-size, backlit, poseidon blue keyboard"
+        },
+        {
+            "PhwebDescription": "KBD PLG ISK CP BL",
+            "ContainerValue": "Full-size, backlit, pale gold keyboard"
+        },
+        {
+            "PhwebDescription": "HP 510 WHT WRLS KB/MSE",
+            "ContainerValue": "HP 510 White Wireless Keyboard and mouse combo"
+        },
+        {
+            "PhwebDescription": "KBD NSV ISK PT CP BL num kypd",
+            "ContainerValue": "Full-size, backlit, natural silver keyboard with numeric keypad"
+        },
+        {
+            "PhwebDescription": "KBD MCS CP+IS BL num kypd",
+            "ContainerValue": "Full-size, backlit, mica silver keyboard with numeric keypad"
+        },
+        {
+            "PhwebDescription": "KBD HP 125 BLK WD",
+            "ContainerValue": "HP 125 USB Black Wired Keyboard"
+        },
+        {
+            "PhwebDescription": "KBD HP 125 WHT WD",
+            "ContainerValue": "HP 125 USB White Wired Keyboard"
+        },
+        {
+            "PhwebDescription": "KBD LMG CP",
+            "ContainerValue": "Full-size, luminous gold keyboard"
+        },
+        {
+            "PhwebDescription": "KBD HP 125 WHT WD",
+            "ContainerValue": "HP 125 USB White Wired Keyboard"
+        },
+        {
+            "PhwebDescription": "KBD JTB ISK PT CP BL",
+            "ContainerValue": "Full-size, backlit, jet black keyboard"
+        },
+        {
+            "PhwebDescription": "KBD JTB ISK STD CP",
+            "ContainerValue": "Full-size, jet black keyboard"
+        },
+        {
+            "PhwebDescription": "KBD SNW ISK STD CP",
+            "ContainerValue": "Full-size, snow white keyboard"
+        },
+        {
+            "PhwebDescription": "KBD SNW ISK STD CP num kypd",
+            "ContainerValue": "Full-size, snow white keyboard with numeric keypad"
+        },
+        {
+            "PhwebDescription": "KBD NSV ISK PT CP BL num kypd",
+            "ContainerValue": "Full-size, backlit, natural silver keyboard with numeric keypad"
+        },
+        {
+            "PhwebDescription": "KBD NSV ISK PT CP num kypd",
+            "ContainerValue": "Full-size, natural silver keyboard with numeric keypad"
+        },
+        {
+            "PhwebDescription": "KBD NSV ISK CP BL",
+            "ContainerValue": "Full-size, backlit, natural silver keyboard"
+        },
+        {
+            "PhwebDescription": "KBD SBL ISK PT CP+IS BL",
+            "ContainerValue": "Full-size, backlit, space blue keyboard"
+        },
+        {
+            "PhwebDescription": "KBD PFB CP+IS BL num kypd",
+            "ContainerValue": "Full-size, backlit, performance blue keyboard with numeric keypad"
+        },
+        {
+            "PhwebDescription": "KBD ENB FS STD CP+IS num kypd",
+            "ContainerValue": "Full-size, evening blue keyboard with numeric keypad"
+        },
+        {
+            "PhwebDescription": "KBD NSV CP BL num kypd",
+            "ContainerValue": "Full-size, backlit, natural silver keyboard with numeric keypad"
+        },
+        {
+            "PhwebDescription": "KBD SDB CP BL-RGB 4Zone numkypd",
+            "ContainerValue": "Full-size, 4-zone RGB backlit, shadow black keyboard with numeric keypad and 26-Key Rollover Anti-Ghosting Key technology"
+        },
+        {
+            "PhwebDescription": "KBD NSV ISK PT CP+IS BL",
+            "ContainerValue": "Full-size, backlit, natural silver keyboard"
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "facet_graphics": [
+        {
+            "PhwebDescription": "H470",
+            "ContainerValue": "Intel® H470"
+        },
+        {
+            "PhwebDescription": "RTX",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "NVIDIA",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "GeF",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "AMD",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "GTX",
+            "ContainerValue": "NVIDIA GeForce"
+        }
+    ]
+}

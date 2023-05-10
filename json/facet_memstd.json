@@ -1,0 +1,32 @@
+{
+    "facet_memstd": [
+        {
+            "PhwebDescription": "12GB",
+            "ContainerValue": "112"
+        },
+        {
+            "PhwebDescription": "128GB",
+            "ContainerValue": "128"
+        },
+        {
+            "PhwebDescription": "16",
+            "ContainerValue": "16"
+        },
+        {
+            "PhwebDescription": "32GB",
+            "ContainerValue": "32"
+        },
+        {
+            "PhwebDescription": "64GB",
+            "ContainerValue": "64"
+        },
+        {
+            "PhwebDescription": "8GB",
+            "ContainerValue": "8"
+        },
+        {
+            "PhwebDescription": "4GB",
+            "ContainerValue": "4"
+        }
+    ]
+}

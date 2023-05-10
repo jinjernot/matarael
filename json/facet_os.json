@@ -1,0 +1,20 @@
+{
+    "facet_os": [
+        {
+            "PhwebDescription": "H470",
+            "ContainerValue": "Intel® H470"
+        },
+        {
+            "PhwebDescription": "FreeDOS",
+            "ContainerValue": "FreeDOS"
+        },
+        {
+            "PhwebDescription": "Chrome",
+            "ContainerValue": "ChromeOS"
+        },
+        {
+            "PhwebDescription": "NWZH6",
+            "ContainerValue": "Windows 11 Home"
+        }
+    ]
+}

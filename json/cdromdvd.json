@@ -1,0 +1,16 @@
+{
+    "cdromdvd": [
+        {
+            "PhwebDescription": "DVDWR",
+            "ContainerValue": "DVD-Writer"
+        },
+        {
+            "PhwebDescription": "NO ODD",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "MISC No ODD non-Win",
+            "ContainerValue": "##BLANK##"
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "facet_cap": [
+        {
+            "PhwebDescription": "1T",
+            "ContainerValue": "1000"
+        },
+        {
+            "PhwebDescription": "512",
+            "ContainerValue": "512"
+        }
+    ]
+}

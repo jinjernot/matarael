@@ -1,0 +1,12 @@
+{
+    "energystar": [
+        {
+            "PhwebDescription": "FLAG",
+            "ContainerValue": "ENERGY STAR® certified"
+        },
+        {
+            "PhwebDescription": "ESTAR",
+            "ContainerValue": "ENERGY STAR® certified"
+        }
+    ]
+}
