@@ -6,7 +6,7 @@ def cleanS(file):
     df = df.rename(columns=df.iloc[0]).drop(df.index[0])
 
     split_string = lambda x: '/'.join(x.split('/')[2:]) if x and isinstance(x, str) and len(x.split('/')) >= 2 else x #clean up the string
-    df['ContainerName'] = df['ContainerName'].apply(split_string)#split the string
+    df['ContainerName'] = df['ContainerName'].apply(split_string) #split the string
 
     df['Tag'] = df['ContainerName'].str.extract('\[(.*?)\]', expand=False) #create new column with the tag
     df['ContainerName'] = df['ContainerName'].str.replace('\[.*?\]', '', regex=True) #clean the tag
