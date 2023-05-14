@@ -13,12 +13,15 @@ def createPlot():
 
     barcolor = '#0096d6'
     plt.figure(figsize=(12, 8))
-    plt.bar(top_containers['ContainerName'], top_containers['Count'], color=barcolor)
-    plt.title('Top Offenders')
-    plt.xlabel('Container Name')
-    plt.ylabel('')
-    plt.xticks(rotation=25, ha='right')
-    plt.savefig('./static/images/chart.png')
+    try:
+        plt.bar(top_containers['ContainerName'], top_containers['Count'], color=barcolor)
+        plt.title('Top Offenders')
+        plt.xlabel('Container Name')
+        plt.ylabel('')
+        plt.xticks(rotation=25, ha='right')
+        plt.savefig('./static/images/chart.png')
+    except Exception as e:
+        print(e)
 
     wb = load_workbook('SCS_QA.xlsx')
     ws = wb.active
@@ -26,6 +29,9 @@ def createPlot():
     ws = wb.create_sheet(title='Bar Plot')
     ws = wb.active
     ws = wb['Bar Plot']
-    img = Image('./static/images/chart.png')
-    ws.add_image(img, 'A1')
-    wb.save('SCS_QA.xlsx')
+    try:
+        img = Image('./static/images/chart.png')
+        ws.add_image(img, 'A1')
+        wb.save('SCS_QA.xlsx')
+    except Exception as e:
+        print(e)

@@ -20,22 +20,34 @@ def upload_file():
     if request.method == 'POST':
         if 'file' in request.files:
             file = request.files['file']
-            if allowed_file(file.filename):
-                cleanReport(file)
-                createPlot()
-                return send_file('SCS_QA.xlsx', as_attachment=True)
+            try:
+                if allowed_file(file.filename):
+                    cleanReport(file)
+                    createPlot()
+                    return send_file('SCS_QA.xlsx', as_attachment=True)
+            except Exception as e:
+                print(e)
+                return render_template('error.html')
 
         elif 'Summary' in request.files:
             file = request.files['Summary']
-            if allowed_file(file.filename):
-                cleanS(file)
-                return send_file('Summary.xlsx', as_attachment=True)
+            try:
+                if allowed_file(file.filename):
+                    cleanS(file)
+                    return send_file('Summary.xlsx', as_attachment=True)
+            except Exception as e:
+                print(e)
+                return render_template('error.html')
 
         elif 'Report' in request.files:
             file = request.files['Report']
-            if allowed_file(file.filename):
-                cleanE(file)
-                return send_file('Report.xlsx', as_attachment=True)
+            try:
+                if allowed_file(file.filename):
+                    cleanE(file)
+                    return send_file('Report.xlsx', as_attachment=True)
+            except Exception as e:
+                print(e)
+                return render_template('error.html')
 
         return render_template('error.html')
 
