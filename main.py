@@ -48,9 +48,7 @@ def upload_file():
             except Exception as e:
                 print(e)
                 return render_template('error.html')
-
         return render_template('error.html')
-
     return render_template('index.html')
 
 def main():

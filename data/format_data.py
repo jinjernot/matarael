@@ -27,7 +27,4 @@ def formateData():
         if 'ERROR' in str(cell.value):
             font = cell.font
             cell.font = Font(color='FF0000', name=font.name, size=font.size)
-
-    
-    
     wb.save('SCS_QA.xlsx')
