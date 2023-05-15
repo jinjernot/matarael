@@ -1,5 +1,3 @@
-import pymongo
-import data.passwords as passwords
 import json
 
 def processData(json_path, container_name, container_df, df):
