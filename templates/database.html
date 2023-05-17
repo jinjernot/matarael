@@ -8,9 +8,24 @@
 
 <header class="heading">
     <h1 class="">Database</h1>
-
-    
 </header>
+
+<table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for document in collection.find() %}
+        <tr>
+          <td>{{ document["name"] }}</td>
+          <td>{{ document["description"] }}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
 
 <div class="image-container">
 <img src="{{ url_for('static', filename='images/favicon.png') }}" alt="powered by sabarobe studios" width="50" height="50">
