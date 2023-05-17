@@ -4,15 +4,17 @@ from data.plot_data import createPlot
 from data.qa_data import cleanReport
 from report.export import cleanE
 from report.summary import cleanS
+from database.mongo import connect
 
 app = Flask(__name__)
 app.use_static_for = 'static'
 
 ALLOWED_EXTENSIONS = {'xlsx'}
 
-@app.route('/database')
-def database():
-    return render_template('database.html')
+@app.route('/mongo')
+def mongo():
+    connect()
+    return render_template('mongo.html', collection=collection)
 
 def allowed_file(filename):
     return '.' in filename and \

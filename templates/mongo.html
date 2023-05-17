@@ -19,11 +19,11 @@
     </thead>
     <tbody>
       {% for document in collection.find() %}
-        <tr>
-          <td>{{ document["name"] }}</td>
-          <td>{{ document["description"] }}</td>
-        </tr>
-      {% endfor %}
+      <tr>
+        <td>{{ document["_id"] }}</td>
+        <td>{{ document["name"] }}</td>
+      </tr>
+    {% endfor %}
     </tbody>
   </table>
 
