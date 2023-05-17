@@ -10,12 +10,15 @@ app.use_static_for = 'static'
 
 ALLOWED_EXTENSIONS = {'xlsx'}
 
+@app.route('/database')
+def database():
+    return render_template('database.html')
+
 def allowed_file(filename):
     return '.' in filename and \
            filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
 
 @app.route('/', methods=['GET', 'POST'])
-
 def upload_file():
     if request.method == 'POST':
         if 'file' in request.files:
@@ -50,6 +53,8 @@ def upload_file():
                 return render_template('error.html')
         return render_template('error.html')
     return render_template('index.html')
+
+
 
 def main():
     upload_file()
