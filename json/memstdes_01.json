@@ -1,10 +1,6 @@
 {
     "memstdes_01": [
         {
-            "PhwebDescription": "",
-            "ContainerValue": ""
-        },
-        {
             "PhwebDescription": "RAM HX 16GB (2x8GB) DDR4 3200 XMP RGBHS",
             "ContainerValue": "HyperX 16 GB DDR4-3200 MHz XMP RGB Heatsink RAM (2 x 8 GB)"
         },

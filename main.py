@@ -9,11 +9,13 @@ from database.mongo import connect
 app = Flask(__name__)
 app.use_static_for = 'static'
 
+
 ALLOWED_EXTENSIONS = {'xlsx'}
 
 @app.route('/mongo')
 def mongo():
     connect()
+    collection = connect()
     return render_template('mongo.html', collection=collection)
 
 def allowed_file(filename):

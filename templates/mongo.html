@@ -13,15 +13,13 @@
 <table>
     <thead>
       <tr>
-        <th>Name</th>
-        <th>Description</th>
+        <th>DB</th>
       </tr>
     </thead>
     <tbody>
       {% for document in collection.find() %}
       <tr>
-        <td>{{ document["_id"] }}</td>
-        <td>{{ document["name"] }}</td>
+        <td>{{ document }}</td>
       </tr>
     {% endfor %}
     </tbody>
