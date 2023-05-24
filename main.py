@@ -1,7 +1,8 @@
 from flask import Flask, request, render_template,send_file
 
 from data.plot_data import createPlot
-from data.qa_data import cleanReport
+from data.qa_data import cleanR
+from data.granular import cleanG
 from report.export import cleanE
 from report.summary import cleanS
 from database.mongo import connect
@@ -25,13 +26,23 @@ def allowed_file(filename):
 @app.route('/', methods=['GET', 'POST'])
 def upload_file():
     if request.method == 'POST':
-        if 'file' in request.files:
-            file = request.files['file']
+        if 'Regular' in request.files:
+            file = request.files['Regular']
             try:
                 if allowed_file(file.filename):
-                    cleanReport(file)
+                    cleanR(file)
                     createPlot()
                     return send_file('SCS_QA.xlsx', as_attachment=True)
+            except Exception as e:
+                print(e)
+                return render_template('error.html')
+            
+        elif 'Granular' in request.files:
+            file = request.files['Granular']
+            try:
+                if allowed_file(file.filename):
+                    cleanG(file)
+                    return send_file('Atom_QA.xlsx', as_attachment=True)
             except Exception as e:
                 print(e)
                 return render_template('error.html')

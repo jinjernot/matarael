@@ -1,5 +1,5 @@
 import pymongo
-import database.passwords as passwords
+import data.passwords as passwords
 
 def connect():
 

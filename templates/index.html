@@ -10,19 +10,24 @@
 <td>
     <header class="heading">
     <h1 class="">SCS</h1>
-    <h2 class="">QA Tool</h2>
+    <h2 class="">Quality Assurance<br>Reporting Tool</h2>
     <h3 class="">beta</h3>
     </header>
     <br>
 
     <div class="upload-container">
-        <h3 class="heading__title">QA Report</h3>
+        <h3 class="heading__title">Regular Content</h3>
         <form method="POST" enctype="multipart/form-data">
-            <input type="file" name="file" class="custom-file-input">
+            <input type="file" name="Regular" class="custom-file-input">
             <input type="submit" value="Upload" class="upload-button">
         </form>
         <br>
-        <h2 class="heading__title"><a href="/mongo">DB</a></h2>
+        <h3 class="heading__title">Granular Content</h3>
+        <form method="POST" enctype="multipart/form-data">
+            <input type="file" name="Granular" class="custom-file-input">
+            <input type="submit" value="Upload" class="upload-button">
+        </form>
+         <!--<h2 class="heading__title"><a href="/mongo">DB</a></h2>--> 
     </div>
 </td>
 
@@ -49,6 +54,7 @@
 </div>
 
 </td>
+
 </table>
 <div class="image-container">
     <img src="{{ url_for('static', filename='images/favicon.png') }}" alt="powered by sabarobe studios" width="50" height="50">
