@@ -1,6 +1,6 @@
 import pandas as pd
 
-def cleanS(file):
+def cleanSummary(file):
     df = pd.read_excel(file) #load the file
     df.drop(index=range(5), inplace=True) #remove the first 5 rows
     df = df.rename(columns=df.iloc[0]).drop(df.index[0])

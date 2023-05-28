@@ -1,6 +1,6 @@
 import pandas as pd
 
-def cleanE(file):
+def cleanExport(file):
     df = pd.read_excel(file) #load the file
     cols_to_drop = ['Length', 'Definition', 'Example', 'Format', 'Business Rule']
     cols_to_drop.extend([col for col in df.columns if col.startswith('[Model')])
