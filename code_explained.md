@@ -1,3 +1,14 @@
+main.py
+
+The application first checks if the file has a valid extension. If it does, the file is processed by the appropriate function and the results are returned. Otherwise, an error is returned.
+
+The ALLOWED_EXTENSIONS variable is a set of allowed file extensions for the uploaded file. The allowed_file() function checks if a file has a valid extension. The upload_file() function checks if the file has a valid extension, it is processed by the appropriate function and the results are returned. Otherwise, an error is returned.
+
+The cleanReport(), cleanGranular(), cleanSummary(), and cleanExport() functions are all functions that process Excel files. The createPlot() function creates a plot of the data in the Excel file. The send_file() function returns the Excel file as an attachment.
+
+The main() function calls the upload_file() function. The if __name__ == '__main__': block tells Python to run the main() function if the code is being run as the main program.
+
+
 qa_data.py
 
 The cleanReport() function takes a file name as input and cleans a report in that file.
@@ -15,7 +26,6 @@ The processData() function takes a DataFrame, a container name, and the original
 The formatData() function takes a DataFrame as input and formats the DataFrame. It does this by removing all trailing semicolons from the ContainerValue column. It then saves the DataFrame to a file called SCS_QA.xlsx.
 
 The cleanReport() function catches all exceptions and prints them to the console.
-
 
 format_data.py
 
