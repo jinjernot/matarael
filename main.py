@@ -5,7 +5,7 @@ from data.qa_data import cleanReport
 from data.qa_granular import cleanGranular
 from report.export import cleanExport
 from report.summary import cleanSummary
-from database.mongo import connect
+#from database.mongo import connect
 
 # Create a Flask application object.
 app = Flask(__name__)
@@ -17,11 +17,11 @@ app.use_static_for = 'static'
 ALLOWED_EXTENSIONS = {'xlsx'}
 
 # Connect to a MongoDB database and return a collection object.
-@app.route('/mongo')
-def mongo():
-    connect()
-    collection = connect()
-    return render_template('mongo.html', collection=collection)
+#@app.route('/mongo')
+#def mongo():
+#    connect()
+#    collection = connect()
+#   return render_template('mongo.html', collection=collection)
 
 # Check if a file has a valid extension.
 def allowed_file(filename):
@@ -37,7 +37,7 @@ def upload_file():
             try:
                 if allowed_file(file.filename):
                     cleanReport(file)
-                    #createPlot(file)
+                    createPlot()
                     return send_file('SCS_QA.xlsx', as_attachment=True)
             except Exception as e:
                 print(e)
