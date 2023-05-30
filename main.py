@@ -2,7 +2,7 @@ from flask import Flask, request, render_template,send_file
 
 from data.plot_data import createPlot
 from data.qa_data import cleanReport
-from data.granular import cleanGranular
+from data.qa_granular import cleanGranular
 from report.export import cleanExport
 from report.summary import cleanSummary
 from database.mongo import connect
@@ -37,7 +37,7 @@ def upload_file():
             try:
                 if allowed_file(file.filename):
                     cleanReport(file)
-                    createPlot()
+                    #createPlot(file)
                     return send_file('SCS_QA.xlsx', as_attachment=True)
             except Exception as e:
                 print(e)
@@ -48,7 +48,7 @@ def upload_file():
             try:
                 if allowed_file(file.filename):
                     cleanGranular(file)
-                    return send_file('Atom_QA.xlsx', as_attachment=True)
+                    return send_file('SCS_QA.xlsx', as_attachment=True)
             except Exception as e:
                 print(e)
                 return render_template('error.html')

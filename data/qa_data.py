@@ -23,19 +23,19 @@ def cleanReport(file):
         df[['Accuracy', 'Correct Value', 'Additional Information']] = ''
 
         # Loop over all the files in the `json` directory.
-        for file in os.listdir('json'):
+        for x in os.listdir('json'):
 
             # Check if the file name ends with `.json`.
-            if file.endswith('.json'):
+            if x.endswith('.json'):
 
                 # Split the file name on the period character and get the first part of the file name.
-                container_name = file.split('.')[0]
+                container_name = x.split('.')[0]
 
                 # Get the DataFrame rows where the ContainerName column contains the container name.
                 container_df = df.loc[df['ContainerName'].str.contains(container_name)]
 
                 # Pass the rows to the processData() function.
-                processData(os.path.join('json', file), container_name, container_df, df)
+                processData(os.path.join('json', x), container_name, container_df, df)
 
         # Remove all trailing semicolons from the ContainerValue column.
         df.loc[df['ContainerValue'].str.endswith(';'), 'ContainerValue'] = df['ContainerValue'].str.slice(stop=-1)
