@@ -5,7 +5,6 @@ from data.qa_data import cleanReport
 from data.qa_granular import cleanGranular
 from report.export import cleanExport
 from report.summary import cleanSummary
-#from database.mongo import connect
 
 # Create a Flask application object.
 app = Flask(__name__)
@@ -16,12 +15,6 @@ app.use_static_for = 'static'
 # Allowed file extensions for the uploaded file.
 ALLOWED_EXTENSIONS = {'xlsx'}
 
-# Connect to a MongoDB database and return a collection object.
-#@app.route('/mongo')
-#def mongo():
-#    connect()
-#    collection = connect()
-#   return render_template('mongo.html', collection=collection)
 
 # Check if a file has a valid extension.
 def allowed_file(filename):
