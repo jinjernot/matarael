@@ -1,4 +1,4 @@
-main.py
+# main.py
 
 The application first checks if the file has a valid extension. If it does, the file is processed by the appropriate function and the results are returned. Otherwise, an error is returned.
 
@@ -9,7 +9,7 @@ The cleanReport(), cleanGranular(), cleanSummary(), and cleanExport() functions 
 The main() function calls the upload_file() function. The if __name__ == '__main__': block tells Python to run the main() function if the code is being run as the main program.
 
 
-qa_data.py
+# qa_data.py
 
 The cleanReport() function takes a file name as input and cleans a report in that file.
 
@@ -27,7 +27,7 @@ The formatData() function takes a DataFrame as input and formats the DataFrame. 
 
 The cleanReport() function catches all exceptions and prints them to the console.
 
-format_data.py
+# format_data.py
 
 The formatData() function takes no input and formats a report in a file called SCS_QA.xlsx.
 
@@ -39,7 +39,7 @@ The function then loops over all the cells in column H. For each cell, it checks
 
 The function then saves the workbook to a file called SCS_QA.xlsx.
 
-plot_data.py
+# plot_data.py
 
 The createPlot() function creates a bar plot of the top 10 containers with the most errors in the SCS_QA.xlsx file.
 
@@ -51,7 +51,7 @@ Next, the createPlot() function opens the SCS_QA.xlsx file and creates a new wor
 
 The createPlot() function handles errors by printing the error message to the console.
 
-process_data.py
+# process_data.py
 
 The processData() function processes data from a JSON file and updates a Pandas DataFrame.
 
