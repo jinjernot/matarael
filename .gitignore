@@ -2,3 +2,4 @@ docs
 myenv
 __pycache__
 passwords.py
+*.xlsx
