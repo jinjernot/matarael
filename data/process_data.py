@@ -1,20 +1,9 @@
 import json
 
 def processData(json_path, container_name, container_df, df):
-    """
-    Process data from a JSON file and update a Pandas DataFrame.
 
-    Args:
-        json_path: The path to the JSON file.
-        container_name: The name of the container to process.
-        container_df: A Pandas DataFrame containing data for the container.
-        df: A Pandas DataFrame containing data for all containers.
-
-    Returns:
-        The `df` DataFrame.
-    """
     # Open the JSON file and load the data into a dictionary.
-    with open(json_path, 'r') as f:
+    with open(json_path, 'r', encoding='utf-8') as f:
 
         data = json.load(f)
         # Create an empty dictionary to store the accuracy of each container.

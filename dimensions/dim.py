@@ -258,3 +258,5 @@ def cleanDimensions(file):
         # Save the workbook
         writer.save()
         writer.close()
+        df.to_csv('Dimensions.csv', index=False)
+

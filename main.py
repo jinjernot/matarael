@@ -13,7 +13,7 @@ app = Flask(__name__)
 app.use_static_for = 'static'
 
 # Allowed file extensions for the uploaded file.
-ALLOWED_EXTENSIONS = {'xlsx', 'xlsm'}
+ALLOWED_EXTENSIONS = {'xlsx', 'xlsm', 'csv'}
 
 # Check if a file has a valid extension.
 def allowed_file(filename):
@@ -29,7 +29,7 @@ def upload_file():
                 if allowed_file(file.filename):
                     cleanReport(file)
                     createPlot()
-                    return send_file('SCS_QA.xlsx', as_attachment=True)
+                    return send_file('SCS_QA.csv', as_attachment=True)
             except Exception as e:
                 print(e)
                 return render_template('error.html')
@@ -39,7 +39,7 @@ def upload_file():
             try:
                 if allowed_file(file.filename):
                     cleanGranular(file)
-                    return send_file('SCS_QA.xlsx', as_attachment=True)
+                    return send_file('SCS_QA.csv', as_attachment=True)
             except Exception as e:
                 print(e)
                 return render_template('error.html')
@@ -49,7 +49,7 @@ def upload_file():
             try:
                 if allowed_file(file.filename):
                     cleanSummary(file)
-                    return send_file('Summary.xlsx', as_attachment=True)
+                    return send_file('Summary.csv', as_attachment=True)
             except Exception as e:
                 print(e)
                 return render_template('error.html')
@@ -59,7 +59,7 @@ def upload_file():
             try:
                 if allowed_file(file.filename):
                     cleanExport(file)
-                    return send_file('Report.xlsx', as_attachment=True)
+                    return send_file('Report.csv', as_attachment=True)
             except Exception as e:
                 print(e)
                 return render_template('error.html')
@@ -69,9 +69,12 @@ def upload_file():
             try:
                 if allowed_file(file.filename):
                     cleanDimensions(file)
-                    return send_file('Dimensions.xlsx', as_attachment=True)
+                    return send_file('Dimensions.csv', as_attachment=True)
             except Exception as e:
                 print(e)
                 return render_template('error.html')
-                
+            return render_template('error.html')       
     return render_template('index.html')
+
+if __name__ == '__main__':
+    app.run()
