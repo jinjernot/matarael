@@ -5,6 +5,7 @@ from data.qa_data import cleanReport
 from data.qa_granular import cleanGranular
 from report.export import cleanExport
 from report.summary import cleanSummary
+from dimensions.dim import cleanDimensions
 
 # Create a Flask application object.
 app = Flask(__name__)
@@ -13,7 +14,7 @@ app = Flask(__name__)
 app.use_static_for = 'static'
 
 # Allowed file extensions for the uploaded file.
-ALLOWED_EXTENSIONS = {'xlsx'}
+ALLOWED_EXTENSIONS = {'xlsx', 'xlsm'}
 
 
 # Check if a file has a valid extension.
@@ -62,6 +63,16 @@ def upload_file():
                 if allowed_file(file.filename):
                     cleanExport(file)
                     return send_file('Report.xlsx', as_attachment=True)
+            except Exception as e:
+                print(e)
+                return render_template('error.html')
+    
+        elif 'Dimensions' in request.files:
+            file = request.files['Dimensions']
+            try:
+                if allowed_file(file.filename):
+                    cleanDimensions(file)
+                    return send_file('Dimensions.xlsx', as_attachment=True)
             except Exception as e:
                 print(e)
                 return render_template('error.html')

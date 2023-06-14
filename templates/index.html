@@ -7,58 +7,80 @@
 </head>
 <body>
 <table>
-<td>
-    <header class="heading">
-    <h1 class="">SCS</h1>
-    <h2 class="">Quality Assurance<br>Reporting Tool</h2>
-    <h3 class="">beta</h3>
-    </header>
-    <br>
+    <tr>
+        <td>
+            <header class="heading">
+                <h1 class="">SCS</h1>
+                <h2 class="">Quality Assurance<br>Reporting Tool</h2>
+                <h3 class="">beta</h3>
+            </header>
+            <br>
 
-    <div class="upload-container">
-        <h3 class="heading__title">Regular Content</h3>
-        <form method="POST" enctype="multipart/form-data">
-            <input type="file" name="Regular" class="custom-file-input">
-            <input type="submit" value="Upload" class="upload-button">
-        </form>
-        <br>
-        <h3 class="heading__title">Granular Content</h3>
-        <form method="POST" enctype="multipart/form-data">
-            <input type="file" name="Granular" class="custom-file-input">
-            <input type="submit" value="Upload" class="upload-button">
-        </form>
-    </div>
-</td>
+            <div class="upload-container">
+                <h3 class="heading__title">Regular Content</h3>
+                <form method="POST" enctype="multipart/form-data">
+                    <input type="file" name="Regular" class="custom-file-input">
+                    <input type="submit" value="Upload" class="upload-button">
+                </form>
+                <br>
+                <h3 class="heading__title">Granular Content</h3>
+                <form method="POST" enctype="multipart/form-data">
+                    <input type="file" name="Granular" class="custom-file-input">
+                    <input type="submit" value="Upload" class="upload-button">
+                </form>
+            </div>
+        </td>
 
-<td>
-    <header class="heading">
-        <h1 class="">PRISM</h1>
-        <h2 class="">Report Cleaner</h2>
-        <h3 class="">v 1.0</h3>
-    </header>
-    <br>
+        <td>
+            <header class="heading">
+                <h1 class="">PRISM</h1>
+                <h2 class="">Report Cleaner</h2>
+                <h3 class="">v 1.0</h3>
+            </header>
+            <br>
 
-    <div class="upload-container">
-        <h3 class="">Summary Report</h3>
-        <form method="post" enctype="multipart/form-data">
-            <input type="file" name="Summary" class="custom-file-input">
-            <input type="submit" value="Upload" class="upload-button">
-        </form>
-        <br>
-        <h3 class="">Export Report</h3>
-        <form method="post" enctype="multipart/form-data">
-            <input type="file" name="Report" class="custom-file-input">
-            <input type="submit" value="Upload" class="upload-button">
-        </form>
-</div>
+            <div class="upload-container">
+                <h3 class="">Summary Report</h3>
+                <form method="post" enctype="multipart/form-data">
+                    <input type="file" name="Summary" class="custom-file-input">
+                    <input type="submit" value="Upload" class="upload-button">
+                </form>
+                <br>
+                <h3 class="">Export Report</h3>
+                <form method="post" enctype="multipart/form-data">
+                    <input type="file" name="Report" class="custom-file-input">
+                    <input type="submit" value="Upload" class="upload-button">
+                </form>
+            </div>
+        </td>
+    </tr>
 
-</td>
-
+    <!-- New row -->
+    <tr>
+        <td>
+            <header class="heading">
+                <h1 class="">New</h1>
+                <h2 class="">Report Cleaner</h2>
+                <h3 class="">beta</h3>
+            </header>
+            <br>
+            <div class="upload-container">
+                <h3 class="">Dimensions Report</h3>
+                <form method="post" enctype="multipart/form-data">
+                    <input type="file" name="Dimensions" class="custom-file-input">
+                    <input type="submit" value="Upload" class="upload-button">
+                </form>
+                <br>
+            </div>
+        </td>
+        <td>
+            <!-- Second column in the new row -->
+            <!-- Add your content here -->
+        </td>
+    </tr>
 </table>
 <div class="image-container">
     <img src="{{ url_for('static', filename='images/favicon.png') }}" alt="powered by sabarobe studios" width="50" height="50">
 </div>
 </body>
 </html>
-
-
