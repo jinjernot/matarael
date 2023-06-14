@@ -1,5 +1,4 @@
-from flask import Flask, request, render_template,send_file
-
+from flask import Flask, request, render_template, send_file
 from data.plot_data import createPlot
 from data.qa_data import cleanReport
 from data.qa_granular import cleanGranular
@@ -16,13 +15,11 @@ app.use_static_for = 'static'
 # Allowed file extensions for the uploaded file.
 ALLOWED_EXTENSIONS = {'xlsx', 'xlsm'}
 
-
 # Check if a file has a valid extension.
 def allowed_file(filename):
-    return '.' in filename and \
-           filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
+    return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
 
-# Check if the file has a valid extension, it is processed by the appropriate function and the results are returned. Otherwise, return an error.
+# Check if the file has a valid extension, it is processed by the appropriate function, and the results are returned. Otherwise, return an error.
 @app.route('/', methods=['GET', 'POST'])
 def upload_file():
     if request.method == 'POST':
@@ -36,7 +33,7 @@ def upload_file():
             except Exception as e:
                 print(e)
                 return render_template('error.html')
-            
+
         elif 'Granular' in request.files:
             file = request.files['Granular']
             try:
@@ -76,12 +73,5 @@ def upload_file():
             except Exception as e:
                 print(e)
                 return render_template('error.html')
-        return render_template('error.html')
+                
     return render_template('index.html')
-
-def main():
-    upload_file()
-
-if __name__ == '__main__':
-    app.run(debug=True)
-    main()
