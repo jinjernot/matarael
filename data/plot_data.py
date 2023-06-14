@@ -6,7 +6,7 @@ from openpyxl.drawing.image import Image
 def createPlot():
 
     # Read the Excel file into a Pandas DataFrame.
-    df = pd.read_excel('SCS_QA.xlsx')
+    df = pd.read_excel('SCS_QA.csv')
 
     # Drop rows where the `Accuracy` column is `NaN`.
     df = df.dropna(subset=['Accuracy'])
@@ -34,7 +34,7 @@ def createPlot():
         print(e)
 
     # Open the Excel file and create a new worksheet named `Bar Plot`.
-    wb = load_workbook('SCS_QA.xlsx')
+    wb = load_workbook('SCS_QA.csv')
     ws = wb.active
     ws.title = 'SCS QA Report'
     ws = wb.create_sheet(title='Bar Plot')
@@ -45,6 +45,6 @@ def createPlot():
     try:
         img = Image('./static/images/chart.png')
         ws.add_image(img, 'A1')
-        wb.save('SCS_QA.xlsx')
+        wb.save('SCS_QA.csv')
     except Exception as e:
         print(e)

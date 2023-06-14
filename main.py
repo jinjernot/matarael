@@ -28,8 +28,8 @@ def upload_file():
             try:
                 if allowed_file(file.filename):
                     cleanReport(file)
-                    createPlot()
-                    return send_file('SCS_QA.csv', as_attachment=True)
+                    #createPlot()
+                    return send_file('SCS_QA.xlsx', as_attachment=True)
             except Exception as e:
                 print(e)
                 return render_template('error.html')
@@ -39,7 +39,7 @@ def upload_file():
             try:
                 if allowed_file(file.filename):
                     cleanGranular(file)
-                    return send_file('SCS_QA.csv', as_attachment=True)
+                    return send_file('SCS_QA.xlsx', as_attachment=True)
             except Exception as e:
                 print(e)
                 return render_template('error.html')

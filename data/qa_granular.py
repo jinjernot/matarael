@@ -22,7 +22,7 @@ def cleanGranular(file):
                 processData(os.path.join('json', x), container_name, container_df, df)
 
         df.loc[df['ContainerValue'].str.endswith(';'), 'ContainerValue'] = df['ContainerValue'].str.slice(stop=-1)
-        df.to_excel('SCS_QA.xlsx', index=False)
+        df.to_excel('SCS_QA.csv', index=False)
         formateData()
 
     except Exception as e:
