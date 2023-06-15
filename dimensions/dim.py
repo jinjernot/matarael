@@ -8,7 +8,7 @@ def cleanDimensions(file):
     #df = df.iloc[:, :47]  # Delete columns from index 47 to the end
     if df is not None:
         workbook = load_workbook(file)
-        writer = pd.ExcelWriter("Dimensions.xlsx", engine="openpyxl")
+        writer = pd.ExcelWriter("/home/garciagi/SCS_Tool/Dimensions.xlsm", engine="openpyxl")
 
         # Write DataFrame to the sheet without the index column and header
         df.to_excel(writer, sheet_name="Instructions", index=False, header=False)

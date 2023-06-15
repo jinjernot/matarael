@@ -69,7 +69,7 @@ def upload_file():
             try:
                 if allowed_file(file.filename):
                     cleanDimensions(file)
-                    return send_file('Dimensions.xlsx', as_attachment=True)
+                    return send_file('Dimensions.xlsm', as_attachment=True)
             except Exception as e:
                 print(e)
                 return render_template('error.html')
