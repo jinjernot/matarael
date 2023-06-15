@@ -1,7 +1,7 @@
 import pandas as pd
 
 def cleanExport(file):
-    df = pd.read_excel(file) #load the file
+    df = pd.read_excel(file.stream, engine='openpyxl') #load the file
     cols_to_drop = ['Length', 'Definition', 'Example', 'Format', 'Business Rule']
     cols_to_drop.extend([col for col in df.columns if col.startswith('[Model')])
     df = df.drop(cols_to_drop, axis=1)
@@ -18,6 +18,6 @@ def cleanExport(file):
     container_type = df.pop('ContainerType')
     df.insert(loc=0, column='ContainerType', value=container_type)
 
-    df.to_excel("Report.xlsx", index=False)
+    df.to_excel("/home/garciagi/SCS_Tool/Report.xlsx", index=False)
 
     return

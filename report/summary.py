@@ -1,7 +1,7 @@
 import pandas as pd
 
 def cleanSummary(file):
-    df = pd.read_excel(file) #load the file
+    df = pd.read_excel(file.stream, engine='openpyxl') #load the file
     df.drop(index=range(5), inplace=True) #remove the first 5 rows
     df = df.rename(columns=df.iloc[0]).drop(df.index[0])
 
@@ -24,7 +24,7 @@ def cleanSummary(file):
     new_df = pd.concat([first_col, last_col, middle_cols], axis=1)
     writer = pd.ExcelWriter(file, engine='xlsxwriter') #create a writer object
     
-    new_df.to_excel("Summary.xlsx", sheet_name="oli", index=False) #create the excel
+    new_df.to_excel("/home/garciagi/SCS_Tool/Summary.xlsx", sheet_name="oli", index=False) #create the excel
   
     return
 

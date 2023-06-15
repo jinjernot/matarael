@@ -4,7 +4,7 @@ from openpyxl.styles import PatternFill, Font, Border, Side, Alignment
 
 def cleanDimensions(file):
 
-    df = pd.read_excel(file)
+    df = pd.read_excel(file.stream, engine='openpyxl')
     #df = df.iloc[:, :47]  # Delete columns from index 47 to the end
     if df is not None:
         workbook = load_workbook(file)
@@ -258,5 +258,5 @@ def cleanDimensions(file):
         # Save the workbook
         writer.save()
         writer.close()
-        df.to_csv('Dimensions.csv', index=False)
+        df.to_excel('Dimensions.xlsx', index=False)
 
