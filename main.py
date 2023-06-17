@@ -2,9 +2,6 @@ from flask import Flask, request, render_template, send_file
 from data.plot_data import createPlot
 from data.qa_data import cleanReport
 from data.qa_granular import cleanGranular
-from report.export import cleanExport
-from report.summary import cleanSummary
-from dimensions.dim import cleanDimensions
 
 # Create a Flask application object.
 app = Flask(__name__)
@@ -43,37 +40,7 @@ def upload_file():
             except Exception as e:
                 print(e)
                 return render_template('error.html')
-
-        elif 'Summary' in request.files:
-            file = request.files['Summary']
-            try:
-                if allowed_file(file.filename):
-                    cleanSummary(file)
-                    return send_file('Summary.csv', as_attachment=True)
-            except Exception as e:
-                print(e)
-                return render_template('error.html')
-
-        elif 'Report' in request.files:
-            file = request.files['Report']
-            try:
-                if allowed_file(file.filename):
-                    cleanExport(file)
-                    return send_file('Report.xlsx', as_attachment=True)
-            except Exception as e:
-                print(e)
-                return render_template('error.html')
-    
-        elif 'Dimensions' in request.files:
-            file = request.files['Dimensions']
-            try:
-                if allowed_file(file.filename):
-                    cleanDimensions(file)
-                    return send_file('Dimensions.xlsm', as_attachment=True)
-            except Exception as e:
-                print(e)
-                return render_template('error.html')
-            return render_template('error.html')       
+        return render_template('error.html')       
     return render_template('index.html')
 
 if __name__ == '__main__':

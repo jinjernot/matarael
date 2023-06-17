@@ -83,10 +83,12 @@
 
 table {
   margin: 0 auto;
+  
 }
 
 td{
   border: 2px solid #0096d6;
   background-color: #549ef7;
   padding: 100px;
+  border-radius: 50px;
 }
