@@ -3,7 +3,7 @@ from data.format_data import formateData
 from data.process_data import processData
 import os
 
-def cleanReport(file):
+def clean_report(file):
 
     try:
         # Remove rows where the ContainerValue column is equal to "[BLANK]".

@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from openpyxl import load_workbook
 from openpyxl.drawing.image import Image
 
-def createPlot():
+def generate_plot():
 
     # Read the Excel file into a Pandas DataFrame.
     df = pd.read_excel('SCS_QA.csv')

@@ -3,7 +3,7 @@ from data.format_data import formateData
 from data.process_data import processData
 import os
 
-def cleanGranular(file):
+def clean_granular(file):
 
     try:
         df = pd.read_excel(file)
