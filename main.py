@@ -25,7 +25,7 @@ def upload_file():
             try:
                 if allowed_file(file.filename):
                     clean_report(file)
-                    generate_plot()
+                    #generate_plot()
                     return send_file('SCS_QA.xlsx', as_attachment=True)
             except Exception as e:
                 print(e)
