@@ -6,7 +6,7 @@ from openpyxl.drawing.image import Image
 def generate_plot():
 
     # Read the Excel file into a Pandas DataFrame.
-    df = pd.read_excel('SCS_QA.csv')
+    df = pd.read_excel('SCS_QA.xlsx')
 
     # Drop rows where the `Accuracy` column is `NaN`.
     df = df.dropna(subset=['Accuracy'])
@@ -45,6 +45,6 @@ def generate_plot():
     try:
         img = Image('./static/images/chart.png')
         ws.add_image(img, 'A1')
-        wb.save('SCS_QA.csv')
+        wb.save('SCS_QA.xlsx')
     except Exception as e:
         print(e)

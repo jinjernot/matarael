@@ -4,8 +4,8 @@ from openpyxl.styles import PatternFill,Font,Border,Side
 def formateData():
 
     # Load the workbook into memory.
-    wb = openpyxl.load_workbook('/home/garciagi/SCS_Tool/SCS_QA.xlsx')
-
+    #wb = openpyxl.load_workbook('/home/garciagi/SCS_Tool/SCS_QA.xlsx')
+    wb = openpyxl.load_workbook('SCS_QA.xlsx')
     # Get the active worksheet.
     worksheet = wb.active
 
@@ -51,4 +51,5 @@ def formateData():
             cell.border = Border(left=Side(border_style='thin', color='000000'), right=Side(border_style='thin', color='000000'), top=Side(border_style='thin', color='000000'), bottom=Side(border_style='thin', color='000000'))
 
     # Save the workbook to a file called `SCS_QA.xlsx`.
-    wb.save('/home/garciagi/SCS_Tool/SCS_QA.xlsx')
+    #wb.save('/home/garciagi/SCS_Tool/SCS_QA.xlsx')
+    wb.save('SCS_QA.xlsx')

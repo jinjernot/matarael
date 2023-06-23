@@ -1,0 +1,25 @@
+{
+    "Groups": [
+        {
+            "ComponentGroup": "Processor",
+            "ContainerName": ["processorfamily", "processorname", "processornameftntnbr","tsfootnote_06","facet_processortype","facet_graphics","graphicseg_01header","graphicseg_01card_01","intgcnote","tsfootnote_07","facet_processorgen"]
+        },
+        {
+            "ComponentGroup": "Graphic card",
+            "ContainerName": ["graphicseg_02card_01", "gcnote", "graphiccardftntnbr_02","tsfootnote_08","facet_graphics","graphicseg_02header","graphicseg_01header"]
+        },
+        {
+            "ComponentGroup": "Optical Drive",
+            "ContainerName": ["cdromdvd"]
+        },
+        {
+            "ComponentGroup": "Memory",
+            "ContainerName": ["memstdes_01", "memstosimp", "memstdnote","facet_memstd"]
+        },
+        {
+            "ComponentGroup": "Hard Drive",
+            "ContainerName": ["storage_acceleration", "tsfootnote_09", "flashcachenote","facet_cap","hd_01des","storage_accelerationftntnbr","storconfig","hd_03des","flashcache","filter_storagetype","hd_02des"]
+        }
+
+    ]
+}
