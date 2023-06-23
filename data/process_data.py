@@ -12,7 +12,7 @@ def processData(json_path, container_name, container_df, df):
         # For each container in the JSON file, create a mask that filters the `container_df` DataFrame to only include rows where the `PhwebDescription` column contains the container's `PhwebDescription` value and the `ContainerValue` column contains the container's `ContainerValue` value.
         for container in data[container_name]:
             maskContainer = (container_df['PhwebDescription'].str.contains(container['PhwebDescription']) & \
-                        (container_df['ContainerValue'].str.contains(container['ContainerValue'], case=False))) 
+                        (container_df['ContainerValue'].str.contains(container['ContainerValue'], case=False, regex=False))) 
             for idx in container_df[maskContainer].index:
                 container_accuracy_dict[idx] = f'SCS {container_name} OK'
         
