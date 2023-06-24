@@ -52,7 +52,8 @@ def clean_report(file):
                 container_name = x.split('.')[0]
 
                 # Get the DataFrame rows where the ContainerName column contains the container name.
-                container_df = df.loc[df['ContainerName'].str.contains(container_name)]
+                #container_df = df.loc[df['ContainerName'].str.contains(container_name)]
+                container_df = df.loc[df['ContainerName'] == container_name]
 
                 # Pass the rows to the processData() function.
                 #processData(os.path.join('/home/garciagi/SCS_Tool/json', x), container_name, container_df, df)
