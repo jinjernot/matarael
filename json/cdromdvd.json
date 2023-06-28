@@ -25,72 +25,8 @@
       "ContainerValue": "HP Slim DVD-Writer"
     },
     {
-      "PhwebDescription": " ODD DVDWR ODD",
-      "ContainerValue": "DVD-Writer"
-    },
-    {
       "PhwebDescription": "ODD 9.5 DVDWR",
       "ContainerValue": "HP 9.5 mm Slim DVD-Writer"
-    },
-    {
-      "PhwebDescription": "ODD DVDWR ODD",
-      "ContainerValue": "HP 9.5 mm Slim DVD-Writer"
-    },
-    {
-      "PhwebDescription": "ODD 9.5 DVDWR for GML(R)",
-      "ContainerValue": "HP 9.5 mm Slim DVD-Writer"
-    },
-    {
-      "PhwebDescription": "ODD 9.5 DVDWR (New FY20 ID)",
-      "ContainerValue": "HP 9.5 mm Slim DVD-Writer"
-    },
-    {
-      "PhwebDescription": "ODD 9.5 DVDWR RPOS",
-      "ContainerValue": "DVD-Writer"
-    },
-    {
-      "PhwebDescription": "ODD 9.5 DVDWR 280G4/285G3 MT/SFF",
-      "ContainerValue": "HP 9.5 mm Slim DVD-Writer"
-    },
-    {
-      "PhwebDescription": "HP Desktop External DVD-Writer",
-      "ContainerValue": "DVD-Writer"
-    },
-    {
-      "PhwebDescription": "ODD 9.5 DVDWR for Picasso/Dali",
-      "ContainerValue": "HP 9.5 mm Slim DVD-Writer"
-    },
-    {
-      "PhwebDescription": "ODD 9.5 DVDWR for TGL-U Win",
-      "ContainerValue": "DVD-Writer"
-    },
-    {
-      "PhwebDescription": "ODD 9.5 DVDWR Win",
-      "ContainerValue": "DVD-Writer"
-    },
-    {
-      "PhwebDescription": "ODD 9.5 DVDWR non-Win",
-      "ContainerValue": "DVD-Writer"
-    },
-    {
-      "PhwebDescription": "ODD DVDWR 9.5 WHT Win",
-      "ContainerValue": "DVD-Writer"
-    },
-    {
-      "PhwebDescription": "ODD 9.5 DVDWR (Picasso/Dali) Win",
-      "ContainerValue": "DVD-Writer"
-    },
-    {
-      "PhwebDescription": "ODD 9.5 DVDWR for GML(R) Win",
-      "ContainerValue": "DVD-Writer"
-    },
-    {
-      "PhwebDescription": "ODD 9.5 DVDWR w/ Adapter Win",
-      "ContainerValue": "DVD-Writer"
-    },
-    {
-      "PhwebDescription": "ODD 9.5 DVDWR for GML(R) non-Win",
-      "ContainerValue": "DVD-Writer"
     }
   ]
 }

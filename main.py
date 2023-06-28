@@ -10,7 +10,7 @@ app = Flask(__name__)
 app.use_static_for = 'static'
 
 # Allowed file extensions for the uploaded file.
-VALID_FILE_EXTENSIONS = {'xlsx', 'xlsm', 'csv'}
+VALID_FILE_EXTENSIONS = {'xlsx', 'xlsm', 'csv', "json"}
 
 # Check if a file has a valid extension.
 def allowed_file(filename):
@@ -40,6 +40,18 @@ def upload_file():
             except Exception as e:
                 print(e)
                 return render_template('error.html')
+            
+        elif 'JSON' in request.files:
+            file = request.files['JSON']
+            try:
+                if allowed_file(file.filename):
+                    filename = file.filename
+                    file.save('json/' + filename)  # Save the file to the 'json' folder
+                    return 'File uploaded successfully!'
+            except Exception as e:
+                print(e)
+                return render_template('error.html')
+
         return render_template('error.html')       
     return render_template('index.html')
 

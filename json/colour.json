@@ -1,0 +1,64 @@
+{
+    "colour": [
+        {
+            "PhwebDescription": " ID MNS PLA wHDC TNR UK layout",
+            "ContainerValue": "Mineral silver"
+        },
+        {
+            "PhwebDescription": "ID MNS PLA US layout",
+            "ContainerValue": "Mineral silver"
+        },
+        {
+            "PhwebDescription": "ID MNS PLA nSDC UK layout",
+            "ContainerValue": "Mineral silver"
+        },
+        {
+            "PhwebDescription": "ID NSV ALU",
+            "ContainerValue": "Mica silver"
+        },
+        {
+            "PhwebDescription": "ID FTL PLA nSDC UK layout",
+            "ContainerValue": "Mineral silver"
+        },
+        {
+            "PhwebDescription": "ID CCW PLA nSDC UK layout",
+            "ContainerValue": "Ceramic white"
+        },
+        {
+            "PhwebDescription": " ID FTL PLA US layout",
+            "ContainerValue": "Forest teal"
+        },
+        {
+            "PhwebDescription": "ID FTL PLA nSDC UK layout",
+            "ContainerValue": "Forest teal"
+        },
+        {
+            "PhwebDescription": " ID NSV PLA wHDC US layout f3C",
+            "ContainerValue": "Natural silver"
+        },
+        {
+            "PhwebDescription": " ID SFT PLA wHDC+PCSD FPR",
+            "ContainerValue": "Seafoam teal"
+        },
+        {
+            "PhwebDescription": " ID IOB PLA wHDC",
+            "ContainerValue": "Indigo blue"
+        },
+        {
+            "PhwebDescription": " ID CBG MSKT STD wHDC TNR",
+            "ContainerValue": "Chalkboard gray"
+        },
+        {
+            "PhwebDescription": " ID SFW PLA wHDC",
+            "ContainerValue": "Snowflake white"
+        },
+        {
+            "PhwebDescription": " ID SPB +NSV PLA wHDC FPR",
+            "ContainerValue": "Spruce blue"
+        },
+        {
+            "PhwebDescription": "ID WGD ALU FPR",
+            "ContainerValue": "Warm gold"
+        }
+    ]
+}

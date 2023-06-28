@@ -13,12 +13,24 @@
             "ContainerName": ["cdromdvd"]
         },
         {
+            "ComponentGroup": "Chipset",
+            "ContainerName": ["chipset"]
+        },
+        {
             "ComponentGroup": "Memory",
             "ContainerName": ["memstdes_01", "memstosimp", "memstdnote","facet_memstd"]
         },
         {
             "ComponentGroup": "Hard Drive",
             "ContainerName": ["storage_acceleration", "tsfootnote_09", "flashcachenote","facet_cap","hd_01des","storage_accelerationftntnbr","storconfig","hd_03des","flashcache","filter_storagetype","hd_02des"]
+        },
+        {
+            "ComponentGroup": "Appearance/WebCam",
+            "ContainerName": ["colour"]
+        },
+        {
+            "ComponentGroup": "Display",
+            "ContainerName": ["display","displaybright","displaycolorgamut"]
         }
 
     ]

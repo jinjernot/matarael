@@ -1,0 +1,232 @@
+{
+    "displaycolorgamut": [
+        {
+            "PhwebDescription": "LCD 15.6 FHD AG LED UWVA 250fHDCNWBZbent",
+            "ContainerValue": "45% NTSC"
+        },
+        {
+            "PhwebDescription": "LCD 11.6 HD BV LED 250 SVA wHDC TS slm",
+            "ContainerValue": "50% NTSC"
+        },
+        {
+            "PhwebDescription": "LCD 15.6 HD AG LED SVA 250 fHDC NWBZbent",
+            "ContainerValue": "45% NTSC"
+        },
+        {
+            "PhwebDescription": "BU RCTO UMA i5-1235UFHDUWVATPM250G9 JPN2",
+            "ContainerValue": "45% NTSC"
+        },
+        {
+            "PhwebDescription": "LCD 14.0FHDAGLED250UWVAfWANfHDCIRNWBZbnt",
+            "ContainerValue": "45% NTSC"
+        },
+        {
+            "PhwebDescription": "LCD 14 FHD AGLEDUWVA250fWWANfHDCNWBZbent",
+            "ContainerValue": "45% NTSC"
+        },
+        {
+            "PhwebDescription": "LCD 14.0 WUXGA AG LED 250 UWVA f5MP bnt",
+            "ContainerValue": "45% NTSC"
+        },
+        {
+            "PhwebDescription": "LCD 14.0WUXGAAGLED250UWVAfWANw5MPIRTOFTO",
+            "ContainerValue": "45% NTSC"
+        },
+        {
+            "PhwebDescription": "LCD 11.6 HD BV LED UWVA 220 slim TS",
+            "ContainerValue": "50% NTSC"
+        },
+        {
+            "PhwebDescription": "LCD 14 FHD AG LED UWVA 250 slimwPVSTNWBZ",
+            "ContainerValue": "45% NTSC"
+        },
+        {
+            "PhwebDescription": "LCD 13.3 FHD BV LEDUWVA1000TSSVRNWBZbent",
+            "ContainerValue": "72% NTSC"
+        },
+        {
+            "PhwebDescription": "LCD 14.0WUXGAAGWLED+LBL1000UWVAfWWANf5MP",
+            "ContainerValue": "100% sRGB"
+        },
+        {
+            "PhwebDescription": "LCD 14 HD AG LED SVA 250 fHDC NWBZ bent",
+            "ContainerValue": "45% NTSC"
+        },
+        {
+            "PhwebDescription": "LCD 16.0WUXGAAGWLED+LBL1000UWVAfWWANf5MP",
+            "ContainerValue": "100% sRGB"
+        },
+        {
+            "PhwebDescription": "LCD 13.3 FHD AG LED 250UWVAfHDCIRNWBZslm",
+            "ContainerValue": "45% NTSC"
+        },
+        {
+            "PhwebDescription": "LCD 16.0WQXGAAGLwBluLt400UWVADDS240HzNWB",
+            "ContainerValue": "100% sRGB"
+        },
+        {
+            "PhwebDescription": "LCD 14.0FHDAGLED250UWVAfWWANfHDCTOPNWBZb",
+            "ContainerValue": "45% NTSC"
+        },
+        {
+            "PhwebDescription": "LCD 14 FHD AG LwBluLt 400 UWVA fHDC bnt",
+            "ContainerValue": "100% sRGB"
+        },
+        {
+            "PhwebDescription": "BU RCTOUMARyzen75825UFHD250fBLFPRfHDC245",
+            "ContainerValue": "45% NTSC"
+        },
+        {
+            "PhwebDescription": "BU RCTO UMA i7-1255U FHD250 fBLfHDC440G9",
+            "ContainerValue": "45% NTSC"
+        },
+        {
+            "PhwebDescription": "LCD 14 FHD AG LEDUWVA400fHDCIRLPNWBZbent",
+            "ContainerValue": "72% NTSC"
+        },
+        {
+            "PhwebDescription": " OLED 16.0 WQUXGA BV 400 UWVA NWBZ bnt",
+            "ContainerValue": "100% DCI-P3"
+        },
+        {
+            "PhwebDescription": "LCD 16.0WUXGAAGWLED+LBL400UWVAf5MPIRALSb",
+            "ContainerValue": "100% sRGB"
+        },
+        {
+            "PhwebDescription": "LCD 14.0WUXGAAGWLED+LBL400UWVAfWANw5MPIR",
+            "ContainerValue": "100% sRGB"
+        },
+        {
+            "PhwebDescription": "LCD 13.3WUXGAAGWLED+LBL400UWVAfWANf5MPIR",
+            "ContainerValue": "100% sRGB"
+        },
+        {
+            "PhwebDescription": "LCD 13.5WUXGA+AGWLED+LBL1000UWVASVRALS+A",
+            "ContainerValue": "72% NTSC"
+        },
+        {
+            "PhwebDescription": "LCD 16.0WUXGAAGWLED+LBL400UWVAfWWANf5MPI",
+            "ContainerValue": "100% sRGB"
+        },
+        {
+            "PhwebDescription": "LCD 13.5WUXGA+BVWLED+LBL400UWVATSALS+ACS",
+            "ContainerValue": "72% NTSC"
+        },
+        {
+            "PhwebDescription": "LCD 13.3 FHD AG LED250UWVAfHDCTOPNWBZslm",
+            "ContainerValue": "45% NTSC"
+        },
+        {
+            "PhwebDescription": "LCD 15.6FHDAGLEDUWVA250fWWANfHDCNWBZbent",
+            "ContainerValue": "45% NTSC"
+        },
+        {
+            "PhwebDescription": "LCD 13.3 HD AG LED 250 SVA fHDC NWBZuslm",
+            "ContainerValue": "45% NTSC"
+        },
+        {
+            "PhwebDescription": "LCD 13.3 WUXGAAGLED250UWVAfWWANf5MPIRbnt",
+            "ContainerValue": "45% NTSC"
+        },
+        {
+            "PhwebDescription": "LCD 15.6 FHD AGLEDUWVA250fHDCTOPNWBZbent",
+            "ContainerValue": "45% NTSC"
+        },
+        {
+            "PhwebDescription": "LCD 16.0 WUXGA AG LED250UWVAf5MPIRTOPbnt",
+            "ContainerValue": "45% NTSC"
+        },
+        {
+            "PhwebDescription": "LCD 14 HD AG LED SVA 250 NWBZ uslim",
+            "ContainerValue": "45% NTSC"
+        },
+        {
+            "PhwebDescription": "LCD 14.0 HD AG LED250SVAfWWANfHDCNWBZbnt",
+            "ContainerValue": "45% NTSC"
+        },
+        {
+            "PhwebDescription": "LCD 13.3FHDAGLwBluLt1000UWVAfHDCIRTSPVG4",
+            "ContainerValue": "100% sRGB"
+        },
+        {
+            "PhwebDescription": "LCD 15.6FHDAGLED250UWVAfWWANfHDCTOPNWBZb",
+            "ContainerValue": "45% NTSC"
+        },
+        {
+            "PhwebDescription": " OLED 16.02.8KBVOLED+LBL400UWVAfWWANf5MPI",
+            "ContainerValue": "100% sRGB"
+        },
+        {
+            "PhwebDescription": "LCD 13.3WUXGAAGLED250UWVAfWANf5MPIRTOPbn",
+            "ContainerValue": "45% NTSC"
+        },
+        {
+            "PhwebDescription": "LCD 16WUXGAAGWLED+LBL400UWVAfWWANf5MPIRA",
+            "ContainerValue": "100% sRGB"
+        },
+        {
+            "PhwebDescription": "LCD 14FHDAGLwBluLt1000UWVAf5MPIRSVG4ALSb",
+            "ContainerValue": "72% NTSC"
+        },
+        {
+            "PhwebDescription": "LCD 16.1 FHDAGLwBluLt300UWVA144HzNWBZflt",
+            "ContainerValue": "100% sRGB"
+        },
+        {
+            "PhwebDescription": "LCD 15.6 FHD AG LED UWVA250144HzNWBZflat",
+            "ContainerValue": "45% NTSC"
+        },
+        {
+            "PhwebDescription": "LCD 16WUXGAAGLwBluLt400UWVADDS165HzNWBZf",
+            "ContainerValue": "100% sRGB"
+        },
+        {
+            "PhwebDescription": "LCD 16.1FHDAGLwBluLt300UWVADDS165HzNWBZf",
+            "ContainerValue": "100% sRGB"
+        },
+        {
+            "PhwebDescription": "LCD 17.3QHDAGLwBluLt300UWVADDS240HzNWBZf",
+            "ContainerValue": "100% sRGB"
+        },
+        {
+            "PhwebDescription": "LCD 16.1 FHD AG 250 UWVA 144Hz NWBZ flt",
+            "ContainerValue": "45% NTSC"
+        },
+        {
+            "PhwebDescription": " MLD 162.5KAGLwBluLtHDR1KUWVA240HzNWBZflt",
+            "ContainerValue": "100% DCI-P3"
+        },
+        {
+            "PhwebDescription": "LCD 16.1QHDAGLwBluLt300UWVADDS240HzNWBZf",
+            "ContainerValue": "100% sRGB"
+        },
+        {
+            "PhwebDescription": "LCD 15.6 FHD AG LED UWVA 250 NWBZ slim",
+            "ContainerValue": "45% NTSC"
+        },
+        {
+            "PhwebDescription": "LCD 15.6 FHD AG LED250CRUWVA144HzNWBZflt",
+            "ContainerValue": "45% NTSC"
+        },
+        {
+            "PhwebDescription": "LCD 16.1QHDAGLwBluLt300UWVADDS165HzNWBZf",
+            "ContainerValue": "100% sRGB"
+        },
+        {
+            "PhwebDescription": "LCD 17.3QHDAGLwBluLt300UWVADDS165HzNWBZf",
+            "ContainerValue": "100% sRGB"
+        },
+        {
+            "PhwebDescription": "LCD 17.3 FHDAGLwBluLt300UWVA144HzNWBZflt",
+            "ContainerValue": "100% sRGB"
+        },
+        {
+            "PhwebDescription": "LCD 15.6 FHD AG LED SVA 250 NWBZ uslim",
+            "ContainerValue": "45% NTSC"
+        },
+        {
+            "PhwebDescription": "LCD 16.1 FHD AG LED UWVA 250 slim NWBZ",
+            "ContainerValue": "45% NTSC"
+        }
+    ]
+}
