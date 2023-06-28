@@ -46,7 +46,7 @@ def upload_file():
             try:
                 if allowed_file(file.filename):
                     filename = file.filename
-                    file.save('json/' + filename)  # Save the file to the 'json' folder
+                    file.save('/home/garciagi/SCS_Tool/json/' + filename)  # Save the file to the 'json' folder
                     return 'File uploaded successfully!'
             except Exception as e:
                 print(e)
