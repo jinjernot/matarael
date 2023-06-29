@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SCS QA Tool</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
+</head>
+<body>
+<table>
+    <tr>
+        <td>
+            <header class="heading">
+                <h1 class="">SCS</h1>
+                <h2 class="">Quality Assurance<br>Tool</h2>
+                <h3 class="">beta</h3>
+            </header>
+            <br>
+
+            <div class="upload-container">
+                <h3 class="heading__title">Regular Content</h3>
+                <form action="/upload-file" method="POST" enctype="multipart/form-data">
+                    <input type="file" name="Regular" class="custom-file-input">
+                    <input type="submit" value="Upload" class="upload-button">
+                </form>
+                <br>
+                <h3 class="heading__title">Upload JSON</h3>
+                <form action="upload-file" method="POST" enctype="multipart/form-data">
+                    <input type="file" name="JSON" class="custom-file-input">
+                    <input type="submit" value="Upload" class="upload-button">
+                </form>
+
+            </div>
+        </td>
+    </tr>
+
+</table>
+<div class="image-container">
+    <img src="{{ url_for('static', filename='images/favicon.png') }}" alt="" width="50" height="50">
+</div>
+</body>
+</html>
