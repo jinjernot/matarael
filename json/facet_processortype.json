@@ -1,27 +1,1759 @@
 {
     "facet_processortype": [
         {
-            "PhwebDescription": "i7",
+            "PhwebDescription": "CPU INTL i7- XXXX 1.10 65W",
             "ContainerValue": "Intel Core i7"
         },
         {
-            "PhwebDescription": "i5",
+            "PhwebDescription": "CPU INTL i5- XXXX 1.00 65W",
             "ContainerValue": "Intel Core i5"
         },
         {
-            "PhwebDescription": "R7",
+            "PhwebDescription": "CPU INTL i5- XXXX 1.10 65W",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "CPU INTL i5-12500 6C 3.00 65W",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "CPU I Core i3-10100 3.6GHz 4C65W",
+            "ContainerValue": "Intel Core i3"
+        },
+        {
+            "PhwebDescription": "APU AMD R7-5700G 8C 3.80",
             "ContainerValue": "AMD Ryzen 7"
         },
         {
-            "PhwebDescription": "R5",
+            "PhwebDescription": "CPU I Core i5-10500 3.1GHz 6C65W",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "CPU INTL i3-12100 4C 3.30 60W",
+            "ContainerValue": "Intel Core i3"
+        },
+        {
+            "PhwebDescription": "CPU INTL i5-12400 6C 2.50 65W",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "CPU INTL i7-12700 12C 2.10 65W",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "APU AMD R5-5600G 6C 3.90",
             "ContainerValue": "AMD Ryzen 5"
         },
         {
-            "PhwebDescription": "Ryzen5",
+            "PhwebDescription": "CPU INTL i5-12600 6C 3.30 65W",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "CPU I Core i7-10700 2.9GHz 8C65W",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "CPU INTL Xeon W5-2445 10C 3.10 175W",
+            "ContainerValue": "Intel Xeon Ten Core"
+        },
+        {
+            "PhwebDescription": "CPU I XeonW-2225 4.1GHz 4C105W",
+            "ContainerValue": "Intel Xeon Quad Core"
+        },
+        {
+            "PhwebDescription": "CPU INTL Xeon W5-2455X 12C 3.20 200W",
+            "ContainerValue": "Intel Xeon Twelve Core"
+        },
+        {
+            "PhwebDescription": "CPU INTL Xeon W7-2495X 24C 2.50 225W",
+            "ContainerValue": "Intel Xeon Twenty Four Cores"
+        },
+        {
+            "PhwebDescription": "CPU INTL Xeon W5-2465X 16C 3.10 220W",
+            "ContainerValue": "Intel Xeon Sixteen Cores"
+        },
+        {
+            "PhwebDescription": "CPU I 4108 Xeon1.8 8C",
+            "ContainerValue": "Intel Xeon Eight Core"
+        },
+        {
+            "PhwebDescription": "CPU I XeonW-2223 3.6GHz 4C120W",
+            "ContainerValue": "Intel Xeon Quad Core"
+        },
+        {
+            "PhwebDescription": "CPU I XeonW-2235 3.8GHz 6C130W",
+            "ContainerValue": "Intel Xeon Six Core"
+        },
+        {
+            "PhwebDescription": "CPU I Xeon 4208 2.1 8C 85 1st",
+            "ContainerValue": "Intel Xeon Eight Core"
+        },
+        {
+            "PhwebDescription": "CPU INTL Xeon W3-2425 6C 3.00 130W",
+            "ContainerValue": "Intel Xeon Six Core"
+        },
+        {
+            "PhwebDescription": "CPU I XeonW-2255 3.7GHz 10C165W",
+            "ContainerValue": "Intel Xeon Ten Core"
+        },
+        {
+            "PhwebDescription": "CPU I Core i9-10980XE 3.0GHz 18C165W",
+            "ContainerValue": "Intel Core i9"
+        },
+        {
+            "PhwebDescription": "CPU INTL Xeon W3-2423 6C 2.10 110W",
+            "ContainerValue": "Intel Xeon Six Core"
+        },
+        {
+            "PhwebDescription": "CPU INTL Xeon W3-2435 8C 3.10 165W",
+            "ContainerValue": "Intel Xeon Sixteen Cores"
+        },
+        {
+            "PhwebDescription": "CPU I XeonW-2265 3.5GHz 12C165W",
+            "ContainerValue": "Intel Xeon Twelve Core"
+        },
+        {
+            "PhwebDescription": "CPU I Xeon6226R 2.9GHz 16C150W 2nd",
+            "ContainerValue": "Intel Xeon Sixteen Cores"
+        },
+        {
+            "PhwebDescription": "CPU I Xeon6226R 2.9GHz 16C150W",
+            "ContainerValue": "Intel Xeon Sixteen Cores"
+        },
+        {
+            "PhwebDescription": "CPU I Core i9-10900X 3.7GHz 10C165W",
+            "ContainerValue": "Intel Core i9"
+        },
+        {
+            "PhwebDescription": "CPU INTL Xeon W7-2475X 20C 2.60 225W",
+            "ContainerValue": "Intel Xeon Twenty Cores"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-KT 450 G9",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-KT 450 G9",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1255U 470 G9",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i3-1115G4 240 G8",
+            "ContainerValue": "Intel Core i3"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC MX570A2GBi7-1255URTKUSBC650G9",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1235U RPD 440 G9",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-RM 630 G9",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1255U RPD 450 G9",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1245U RPD 640 G9",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU RCTODSCMX570A2GBi71255URTKUSBC440G9BR",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R5 5625U 255 G9",
             "ContainerValue": "AMD Ryzen 5"
         },
         {
-            "PhwebDescription": "Ryzen7 ",
+            "PhwebDescription": "BU IDS UMA i5-1245U RPD 650 G9",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA Ryzen5 5625U 245 G9",
+            "ContainerValue": "AMD Ryzen 5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R3 3250U 255 G9",
+            "ContainerValue": "AMD Ryzen 3"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1240P 240 G9",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R7 8C 445 G9",
+            "ContainerValue": "AMD Ryzen 7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi5KT 470 G10",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1355U TIPD 640 G10",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1345U TIPD 630 G10",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1335U fWWAN TIPD 640 G10",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1335U vProE TIPD 650 G10",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1265U 32GB Dfly Folio G3",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R7 PRO 6850U 845 G9",
+            "ContainerValue": "AMD Ryzen 7"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC i7-1165G7 850 G8",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU RCTO UMA i7-1255U 16GBWUXGACPfBL830G9",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-RM 16GB 830 G9",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1135G7 16GB Elite X2 G8TAB",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-KT 16GB x360 830 G9",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1165G7 16GB 1030 G8",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1335U RTKUSBC 1040 G10",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1355U 16GB TIPDx3601040G10",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "CPU INTL i7-12700T 12C 1.40 35W",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU Pro Mini 260 G9 PH i3-XXXXX IDS",
+            "ContainerValue": "Intel Core i3"
+        },
+        {
+            "PhwebDescription": "CPU INTL i5- XXXX 1.20 35W",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA Cel N5100 4GB32GeMMCx36011G3J",
+            "ContainerValue": "Intel Celeron"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1280P RTK USBC 16 G9",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-RM Power 15.6 G9",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC PH i7-KT 16 G9",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i9-RM HW 16 G9",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC T600 4GB i7-12700HPower15.6G9",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1240P RTK USBC 14 G9",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC PH i5-KT 14 G9",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7RM HW OSR TI PD IC 14G10",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-KT HW TI PD IC 14 G10",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC T550 PH i5-RM OSR TIPDIC14G10",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC T550 PH i7RM OSR TI PDIC16G10",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC T550 PH i5-KT TI PD IC 16 G10",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC T550 PH i7-KT TI PD IC 16 G10",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA500 i7-1355U TIPD 16 G10",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA500 i7-1365U OSR TIPD14G10",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA500 i5-1345U OSR TIPD16G10",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA500 i5-1335U TIPD 16 G10",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "CPU INTL i9-12900 16C 2.40 65W",
+            "ContainerValue": "Intel Core i9"
+        },
+        {
+            "PhwebDescription": "CPU INTL i7-12700K 12C 3.60 125W",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS i7-12850HX fWWAN Fury 16 G9",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCGeFRTX30606GBi7-12700HStudio16",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS i7-12800HX fWWAN Fury 16 G9",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA300012GBi7-12800HStudio16G",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA CelN4500 4GB 32GeMMC x36011G4",
+            "ContainerValue": "Intel Celeron"
+        },
+        {
+            "PhwebDescription": "CPU INTL i7-13700K3.4016C125W120mmRGBLCS",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "CPU INTL i9-13900K 24C 3.00 125W",
+            "ContainerValue": "Intel Core i9"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1165G7 850 G8",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-KT 840 G9",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R7 8C 455 G9",
+            "ContainerValue": "AMD Ryzen 7"
+        },
+        {
+            "PhwebDescription": "CPU INTL i5- XXXX 1.20 65W",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R5 6C fWWAN 645 G9",
+            "ContainerValue": "AMD Ryzen 5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R9 PRO 6950HS 845 G9",
+            "ContainerValue": "AMD Ryzen 9"
+        },
+        {
+            "PhwebDescription": "CPU INTL i3-12100T 4C 2.20 35W",
+            "ContainerValue": "Intel Core i3"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1255U 16GB Dfly Folio G3",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-RM HW fWWAN 650 G9",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-KT HW 840 G9",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHR5PRO6C fWWAN TIPD 655 G10",
+            "ContainerValue": "AMD Ryzen 5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R7 7730U 16GB 15",
+            "ContainerValue": "AMD Ryzen 7"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX40608GB R7 7840HS 16",
+            "ContainerValue": "AMD Ryzen 7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R7 8C fWWAN RTK USBC455G10",
+            "ContainerValue": "AMD Ryzen 7"
+        },
+        {
+            "PhwebDescription": "BU RCTO UMA Ryzen3 5300UHDnSDC247G8INDIA",
+            "ContainerValue": "AMD Ryzen 3"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1260P 250 G9",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R5 6C fWWAN RTK USBC445G10",
+            "ContainerValue": "AMD Ryzen 5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PentGld8505 8GB 64GeMMCc640G3",
+            "ContainerValue": "Intel Pentium"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1235U 8GB c640 G3",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1235U RTK USBC 860 G9",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "CPU INTL i5-13400 10C 2.40 65W",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-KT 16GB TBD",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHR5PRO6C f5MPCamIRTIPD655G10",
+            "ContainerValue": "AMD Ryzen 5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA CelN4500 8GB 64GeMMCx36011G3J",
+            "ContainerValue": "Intel Celeron"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1165G7 RTK USBC 14 G8",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU RCTOUi51235UFHD250UWVAfBLFPR+TPMfHDC2",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA300012GBi9-12900HKStudio16",
+            "ContainerValue": "Intel Core i9"
+        },
+        {
+            "PhwebDescription": "BU RCTO UMA Ryzen5 5625U HDfnBLfHDC445G9",
+            "ContainerValue": "AMD Ryzen 5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA CelN4500 4GB 32GeMMC 11 G9",
+            "ContainerValue": "Intel Celeron"
+        },
+        {
+            "PhwebDescription": "BU 200 Pro G4 21.5 AiO PH i5 IDS",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS OPP 24-cr0 23.8 i7-1355U",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX40506GB i7-13700H 16",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-RM 16GB Dfly G3",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA CelN4500 4GB 64GeMMC 11 G9",
+            "ContainerValue": "Intel Celeron"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1135G7 RTK USBC 14 G8",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R3 5425C 8GB 64GeMMC c645 G2",
+            "ContainerValue": "AMD Ryzen 3"
+        },
+        {
+            "PhwebDescription": "BU RCTO UMA i5-1235U HD fnBL fHDC 440 G9",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC MX570A2GBi5-1235URTKUSBC440G9",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R7 8Cf5MPCamIRTIPDIC445G10",
+            "ContainerValue": "AMD Ryzen 7"
+        },
+        {
+            "PhwebDescription": "BU IDSUMAR7PRO7730UfHDCIRfWWANTIPD655G10",
+            "ContainerValue": "AMD Ryzen 7"
+        },
+        {
+            "PhwebDescription": "CPU I Core i9-10920X 3.5GHz 12C165W",
+            "ContainerValue": "Intel Core i9"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-KT 640 G9",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i3-1215U 250 G9",
+            "ContainerValue": "Intel Core i3"
+        },
+        {
+            "PhwebDescription": "CPU INTL i9-12900T 16C 1.40 35W",
+            "ContainerValue": "Intel Core i9"
+        },
+        {
+            "PhwebDescription": "BU RCTOUMAi31215UHDfnBLFPRfHDC240G9INDIA",
+            "ContainerValue": "Intel Core i3"
+        },
+        {
+            "PhwebDescription": "APU AMD R3-5300G 4.00 4C 65W",
+            "ContainerValue": "AMD Ryzen 3"
+        },
+        {
+            "PhwebDescription": "BU RCTO UMA i3-1115G4 HD nSDC 240G8INDIA",
+            "ContainerValue": "Intel Core i3"
+        },
+        {
+            "PhwebDescription": "BU RCTO UMA i7-1255U FHD250 fBLfHDC440G9",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1255U 240 G9",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU RCTO UMARyzen55625UFHD250fBLFPR+TPMfH",
+            "ContainerValue": "AMD Ryzen 5"
+        },
+        {
+            "PhwebDescription": "BU IDSUMAR5PRO7530UfHDCIRfWWANTIPD645G10",
+            "ContainerValue": "AMD Ryzen 5"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC MX570A2GBi7-1255URTKUSBC640G9",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "CPU I Xeon 4214R 2.4GHz 12C 100W 2nd",
+            "ContainerValue": "Intel Xeon Twelve Core"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHR56CfHDCIRRTKUSBCx360435G10",
+            "ContainerValue": "AMD Ryzen 5"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC RTX A500 PH i7KT TI PDIC14G10",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX20504GB PHi7KTRTKUSBC450G10",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX20504GB PHi5KTRTKUSBC450G10",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC T550 PH i7-RM TI PD IC 16 G10",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCGeFRTX3080Ti16GBi9-12900HStudi",
+            "ContainerValue": "Intel Core i9"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC MX570A2GBi7-1255URTKUSBC440G9",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX20504GB i7-1355U TIPD640G10",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX40708GB i9-13900H StudioG10",
+            "ContainerValue": "Intel Core i9"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX408012GBi9-13900HKStudioG10",
+            "ContainerValue": "Intel Core i9"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA20008GBi9-13900HKStudioG10",
+            "ContainerValue": "Intel Core i9"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX3000Ada8GBi7-13700HPower156",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA5004GBi7-13700HPower15.6G1",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX2000Ada8GBi7-13700HPower15.",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC T550 PH i5-KT TI PD IC 14 G10",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA20008GB i9-13900HStudioG10",
+            "ContainerValue": "Intel Core i9"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PentSilN6000 8GB 14 G9",
+            "ContainerValue": "Intel Pentium"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1235U 16GB Dfly Folio G3",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-KT 16GB Dfly G4",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-KT16GBRTKUSBCx360830G10",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-KT 16GB fOLED Dfly G4",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-RM 16GB RTK USBC 830G10",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R5 7520U 8GB 255 G10",
+            "ContainerValue": "AMD Ryzen 5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-RM 16GB OSR Dfly G4",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-RM32GBRTKUSBCx360830G10",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PentSilN6000 8GB x360 11 G9",
+            "ContainerValue": "Intel Pentium"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R3 7320U 4GB 245 G10",
+            "ContainerValue": "AMD Ryzen 3"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-KT 16GB TI PD IC 830G10",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R7 PRO 8C 16GBTIPDIC835G10",
+            "ContainerValue": "AMD Ryzen 7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-KT 8GB Dfly G3",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R5 16GB TI PD IC 835 G10",
+            "ContainerValue": "AMD Ryzen 5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R5 PRO 6C 16GBTIPDIC835G10",
+            "ContainerValue": "AMD Ryzen 5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R7 16GB TI PD IC 835 G10",
+            "ContainerValue": "AMD Ryzen 7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1335U fWWAN TIPD 650 G10",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1355U fWWAN TIPD 650 G10",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-KT fWWAN 650 G9",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i3-1315U 240 G10",
+            "ContainerValue": "Intel Core i3"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi3xxxxU 250 G10",
+            "ContainerValue": "Intel Core i3"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R5 7530U 255 G10",
+            "ContainerValue": "AMD Ryzen 5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-KT RTK USBC 860 G10",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1335U TIPD 650 G10",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-12xxx U15 nSDC 15-eg2",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BUIDSDSCMX5502GBi5-1235UnSDC15",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-12xxx P28 nSDC 15-eg2",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1355U nSDC 15",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA CelN4120 17",
+            "ContainerValue": "Intel Celeron"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PentSilN5030 17",
+            "ContainerValue": "Intel Pentium"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHPentxxxx 14",
+            "ContainerValue": "Intel Pentium"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi3xxxxU 14",
+            "ContainerValue": "Intel Core i3"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi5xxxxU 15",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i3-12xxx U15 17",
+            "ContainerValue": "Intel Core i3"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi3xxxxU 15",
+            "ContainerValue": "Intel Core i3"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi5xxxxU 17",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R7 7730U 15",
+            "ContainerValue": "AMD Ryzen 7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1155G7 15",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1195G7 15",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i3-1125G4 17",
+            "ContainerValue": "Intel Core i3"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1165G7 15",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R7 7730U 14",
+            "ContainerValue": "AMD Ryzen 7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i3-1115G4 17",
+            "ContainerValue": "Intel Core i3"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA Ath7120U 4GB 15",
+            "ContainerValue": "AMD Athlon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1360P nSDC 15",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA Ath7220U 8GB 15",
+            "ContainerValue": "AMD Athlon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1165G7 17",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i3-1115G4 15",
+            "ContainerValue": "Intel Core i3"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA CelN4120 14",
+            "ContainerValue": "Intel Celeron"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PentSilN5030 14",
+            "ContainerValue": "Intel Pentium"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHCelxxxx 15",
+            "ContainerValue": "Intel Celeron"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi312xxxU15 15",
+            "ContainerValue": "Intel Core i3"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA Ath7120U 8GB 15",
+            "ContainerValue": "AMD Athlon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i3-1115G4 14",
+            "ContainerValue": "Intel Core i3"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA Ryzen3 5300U 14",
+            "ContainerValue": "AMD Ryzen 3"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i3-1125G4 nSDC 14",
+            "ContainerValue": "Intel Core i3"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA Ath7120U 8GB 14",
+            "ContainerValue": "AMD Athlon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PentN6000 14",
+            "ContainerValue": "Intel Pentium"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA CelN4500 14",
+            "ContainerValue": "Intel Celeron"
+        },
+        {
+            "PhwebDescription": "BUIDSDSCMX5502GBi7-1255UnSDC15",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA Ath3050U 15",
+            "ContainerValue": "AMD Athlon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA CelN4120 15",
+            "ContainerValue": "Intel Celeron"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA Ryzen5 5500U 15",
+            "ContainerValue": "AMD Ryzen 5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i3-1125G4 14",
+            "ContainerValue": "Intel Core i3"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-12xxx U15 nSDC 15-eg2",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-12xxx U15 17",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-12xxx U15 17",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1135G7 17",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA Ath7120U 4GB 14",
+            "ContainerValue": "AMD Athlon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi5xxxxU 14",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi312xxxU15 14",
+            "ContainerValue": "Intel Core i3"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-xxxx nSDC 15",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHPentxxxx 15",
+            "ContainerValue": "Intel Pentium"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-12xxx U15 14",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-12xxx U15 14",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1195G7 nSDC 14",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1235U nSDC 14",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i3-12xxx U15 15",
+            "ContainerValue": "Intel Core i3"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R5 6C nSDC 15",
+            "ContainerValue": "AMD Ryzen 5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R3 17",
+            "ContainerValue": "AMD Ryzen 3"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R5 7530U 15",
+            "ContainerValue": "AMD Ryzen 5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R3 7320U 8GB 15",
+            "ContainerValue": "AMD Ryzen 3"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R3 7320U 4GB 15",
+            "ContainerValue": "AMD Ryzen 3"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R5 7520U 8GB 15",
+            "ContainerValue": "AMD Ryzen 5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R3 7320U 8GB 14",
+            "ContainerValue": "AMD Ryzen 3"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R5 7520U 8GB 14",
+            "ContainerValue": "AMD Ryzen 5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R5 7520U 16GB 15",
+            "ContainerValue": "AMD Ryzen 5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R5 7520U 8GB 17",
+            "ContainerValue": "AMD Ryzen 5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R7 8C 15",
+            "ContainerValue": "AMD Ryzen 7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R5 6C 17",
+            "ContainerValue": "AMD Ryzen 5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R5 7520U 16GB 17",
+            "ContainerValue": "AMD Ryzen 5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R5 7520U 16GB 14",
+            "ContainerValue": "AMD Ryzen 5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R5 6C 15",
+            "ContainerValue": "AMD Ryzen 5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi712xxx 16GB 14",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-12xxx P28 nSDC 15-eg2",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i3-1315U nSDC 15",
+            "ContainerValue": "Intel Core i3"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA Ryzen7 5700U 15",
+            "ContainerValue": "AMD Ryzen 7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA Ryzen3 5300U 15",
+            "ContainerValue": "AMD Ryzen 3"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCMX5502GB i7-1355U 15",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCMX5502GB i5-1335U 15",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-12xxx U15 15",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1155G7 17",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC MX550 2GB i7-1255U 17",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC MX550 2GB i5-1235U 17",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA Ryzen3 3250U 17",
+            "ContainerValue": "AMD Ryzen 3"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA Ryzen5 5600U 14",
+            "ContainerValue": "AMD Ryzen 5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1235U 16GB 14",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCMX5502GB i7-1355U nSDC 15",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCMX5502GB i5-1335U nSDC 15",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCMX5502GB i7-1355U 17",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC MX550 2GB i7-1255U nSDC 14",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA Ryzen7 5800U 14",
+            "ContainerValue": "AMD Ryzen 7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi312xxx 8GB 14",
+            "ContainerValue": "Intel Core i3"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi3xxxxU 17",
+            "ContainerValue": "Intel Core i3"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHPentxxxx nSDC 15",
+            "ContainerValue": "Intel Pentium"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1335U nSDC 15",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i3-1125G4 15",
+            "ContainerValue": "Intel Core i3"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1255U 16GB 14",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA Ryzen5 5500U 17",
+            "ContainerValue": "AMD Ryzen 5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi512xxx 8GB 14",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1155G7 14",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1135G7 14",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA CelN4500 15",
+            "ContainerValue": "Intel Celeron"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi512xxx 16GB 14",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i3-12xxx U15 nSDC 15-eg2",
+            "ContainerValue": "Intel Core i3"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1255U nSDC 14",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i3-1215U nSDC 14",
+            "ContainerValue": "Intel Core i3"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA Ryzen3 3250U 15",
+            "ContainerValue": "AMD Ryzen 3"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi5xxxx 14",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi7xxxx 15",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1235U 8GB 14",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi7xxxxU 14",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-12xxx U15 15",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-xxxx nSDC 15",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1155G7 nSDC 15",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1340P nSDC 15",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1135G7 15",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC MX550 2GB i5-1235U 15",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC MX550 2GB i7-1255U 15",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1255U 15",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i3-xxxx nSDC 15",
+            "ContainerValue": "Intel Core i3"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i3-12xxx U15 14",
+            "ContainerValue": "Intel Core i3"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1155G7 nSDC 14",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PentGld7505 15",
+            "ContainerValue": "Intel Pentium"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PentGld7505 14",
+            "ContainerValue": "Intel Pentium"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA Ryzen5 5625U 14",
+            "ContainerValue": "AMD Ryzen 5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA CelN4120 64GeMMC 14",
+            "ContainerValue": "Intel Celeron"
+        },
+        {
+            "PhwebDescription": "CPU INTL i7-13700KF 16C 3.40 125W",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "APU AMD R5- 5600G 3.90 6C 65W",
+            "ContainerValue": "AMD Ryzen 5"
+        },
+        {
+            "PhwebDescription": "APU AMD R9-7900X 12C 170W 360mm RGB LCS",
+            "ContainerValue": "AMD Ryzen 9"
+        },
+        {
+            "PhwebDescription": "APU AMD R7-7700X 8C 105W 120mm RGB LCS",
+            "ContainerValue": "AMD Ryzen 7"
+        },
+        {
+            "PhwebDescription": "CPU INTL i7-13700 2.10TBD16C65W3HPRGBAir",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "CPU INTL i7-12700 12C 2.10 65W RAir",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1230U 8GB 13",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA Ryzen5 5625U 16GB 13",
+            "ContainerValue": "AMD Ryzen 5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1230U 16GB 13",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1250U 16GB 13",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1250U 8GB 13",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1355U 15",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1240P 15",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1340P 16GB 14",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1335U 16GB 15",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX30504GB i7-1355U 17",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1335U 8GB 15",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1355U 16GB 14",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi5xxxx 8GB 14",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX40608GB i7-13700H 16",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX40608GB i7-13700H fOLED 16",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX40608GB i9-13900H fOLED 16",
+            "ContainerValue": "Intel Core i9"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi7xxxxU 32GB fOLED 14",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi5xxxxU 16GB 14",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1260P 15",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA Ryzen7 5825U 15",
+            "ContainerValue": "AMD Ryzen 7"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX20504GB i7-1255U 17",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-12700H 16GB fOLED 14",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC MX550 2GB i5-1235U 16GB 14",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX30504GB i7-1355U 16GB 15",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX30504GB i5-1335U 16GB 15",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R7 7735U 16GB 13",
+            "ContainerValue": "AMD Ryzen 7"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX20504GB i7-1255U 15",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-13700H 17",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-13500H 17",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi7xxxxU 16GB fOLED 14",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCArcA370M4GB i7-13700H fOLED 16",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R5 7530U 16GB 15",
+            "ContainerValue": "AMD Ryzen 5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R5 7535U 16GB 13",
+            "ContainerValue": "AMD Ryzen 5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R5 7535U 8GB 13",
+            "ContainerValue": "AMD Ryzen 5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R5 7530U 8GB 15",
+            "ContainerValue": "AMD Ryzen 5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi7xxxxU 32GB 14",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-13700H 16GB fOLED 14",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCMX5502GB i5-1335U 16GB 14",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA Ryzen7 5825U 16GB 13",
+            "ContainerValue": "AMD Ryzen 7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-xxxx 32GB 14",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX40608GB i9-13900H 16",
+            "ContainerValue": "Intel Core i9"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-xxxx 16GB 14",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX20504GB i7-1355U16GBfOLED14",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-13500H 16GB 14",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA Ryzen5 5625U 8GB 13",
+            "ContainerValue": "AMD Ryzen 5"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCArcA370M4GB i5-13500H 16",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC Arc A370M 4GB i5-12500H 16",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1260P 17",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA Ryzen5 5625U 15",
+            "ContainerValue": "AMD Ryzen 5"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC RTX 3060 6GB i7-12700H 16",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-13500H 16GB fOLED 14",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1235U 15",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-12500H 16GB 14",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCArc4GB i7-1360P 32GB fOLED 16",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-xxxx 8GB 14",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "APU AMD R7-5700G 3.80 8C 65W",
+            "ContainerValue": "AMD Ryzen 7"
+        },
+        {
+            "PhwebDescription": "CPU INTL i9-12900K 8C3.50125W120mmRGBLCS",
+            "ContainerValue": "Intel Core i9"
+        },
+        {
+            "PhwebDescription": "APU AMD R5-5600G 6C 3.90 65W 2HPRGBAir",
+            "ContainerValue": "AMD Ryzen 5"
+        },
+        {
+            "PhwebDescription": "APU AMD R7-5700G 8C 3.80 65W 2HPRGBAir",
+            "ContainerValue": "AMD Ryzen 7"
+        },
+        {
+            "PhwebDescription": "BU IDS OPP 24-cb1 23.8 R3 5425U",
+            "ContainerValue": "AMD Ryzen 3"
+        },
+        {
+            "PhwebDescription": "BU IDS Pav 24-ca1 23.8 R3-5425U",
+            "ContainerValue": "AMD Ryzen 3"
+        },
+        {
+            "PhwebDescription": "CPU INTL i3-13100T 2.50 4C 35W",
+            "ContainerValue": "Intel Core i3"
+        },
+        {
+            "PhwebDescription": "CPU INTL i7-13700F 5.2016C65W120mmRGBLCS",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "CPU INTL i7-13700K 3.40 16C 125W120mmLCS",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS OPP 21.5 Cel J4025 22-dd0",
+            "ContainerValue": "Intel Celeron"
+        },
+        {
+            "PhwebDescription": "BU IDS OPP 24-cb0 23.8 R5-5500U",
+            "ContainerValue": "AMD Ryzen 5"
+        },
+        {
+            "PhwebDescription": "BU IDS OPP 27-cb0 27 Ryzen 3-3250",
+            "ContainerValue": "AMD Ryzen 3"
+        },
+        {
+            "PhwebDescription": "BU IDS OPP 27-cb0 27 AS-3050U",
+            "ContainerValue": "AMD Ryzen 3"
+        },
+        {
+            "PhwebDescription": "CPU INTL i7-12700F 12C 2.10 65W3HPRGBAir",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "APU AMD R7-5700G 8C 3.80 65W 3HPRGBAir",
+            "ContainerValue": "AMD Ryzen 7"
+        },
+        {
+            "PhwebDescription": "CPU INTL i5-12400F 6C 2.50 65W 3HPRGBAir",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "APU AMD R5-5600G 6C 3.90 65W 3HPRGBAir",
+            "ContainerValue": "AMD Ryzen 5"
+        },
+        {
+            "PhwebDescription": "APU AMD R5-5600G 6C 3.90 65W RAir",
+            "ContainerValue": "AMD Ryzen 5"
+        },
+        {
+            "PhwebDescription": "CPU INTL i7-13700 16C 2.10 65W",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS OPP 24-cb0 23.8 AS-3050U",
+            "ContainerValue": "AMD Athlon"
+        },
+        {
+            "PhwebDescription": "BU IDS OPP 24-cb0 23.8 AG-3150U",
+            "ContainerValue": "AMD Athlon"
+        },
+        {
+            "PhwebDescription": "BU IDS OPP 24-cb1 23.8 R5 5625U",
+            "ContainerValue": "AMD Ryzen 5"
+        },
+        {
+            "PhwebDescription": "BU IDS OPP 27-cb1 27 R5 5600U",
+            "ContainerValue": "AMD Ryzen 5"
+        },
+        {
+            "PhwebDescription": "BU IDS OPP 27-cb1 27 R3 5400U",
+            "ContainerValue": "AMD Ryzen 3"
+        },
+        {
+            "PhwebDescription": "BU IDS OPP 24-cr0 23.8 8GB AthG 7220U",
+            "ContainerValue": "AMD Athlon"
+        },
+        {
+            "PhwebDescription": "BU IDS OPP 21.5 Athlon-3150U 22-dd0",
+            "ContainerValue": "AMD Athlon"
+        },
+        {
+            "PhwebDescription": "BU IDS OPP 21.5 Pent J5040",
+            "ContainerValue": "Intel Pentium"
+        },
+        {
+            "PhwebDescription": "BU IDS OPP 27-cr0 27 8GB R5-7520U",
+            "ContainerValue": "AMD Ryzen 5"
+        },
+        {
+            "PhwebDescription": "BU IDS OPP 27-cb1 27 R7 5800U",
+            "ContainerValue": "AMD Ryzen 7"
+        },
+        {
+            "PhwebDescription": "CPU INTL i5-13400 2.40TBD10C65W3HPRGBAir",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "APU AMD R9-7900 12C 65W 2HPRGBAir",
+            "ContainerValue": "AMD Ryzen 9"
+        },
+        {
+            "PhwebDescription": "APU AMD R7-7700X 8C 105W 240mm RGB LCS",
+            "ContainerValue": "AMD Ryzen 7"
+        },
+        {
+            "PhwebDescription": "CPU INTL i5-12400T 6C 1.80 35W",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS Pav 24-ca1 23.8 R5-5625U",
+            "ContainerValue": "AMD Ryzen 5"
+        },
+        {
+            "PhwebDescription": "BU IDS Pav 27-ca1 27 R7-5825U",
+            "ContainerValue": "AMD Ryzen 7"
+        },
+        {
+            "PhwebDescription": "BU IDS OPP 24-cb1 23.8 R7 5825U",
+            "ContainerValue": "AMD Ryzen 7"
+        },
+        {
+            "PhwebDescription": "BU IDS Pav 27-ca1 27 R5-5625U",
+            "ContainerValue": "AMD Ryzen 5"
+        },
+        {
+            "PhwebDescription": "BU IDS Pav 27-ca1 27 R3-5425U",
+            "ContainerValue": "AMD Ryzen 3"
+        },
+        {
+            "PhwebDescription": "CPU INTL PentG G6405 4.10 2C",
+            "ContainerValue": "Intel Pentium"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1340P QHD 14",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1360P QHD 14",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PentN6000 15",
+            "ContainerValue": "Intel Pentium"
+        },
+        {
+            "PhwebDescription": "CPU INTL i5-13400F 2.50 TBD 10C65W2HPAir",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i3-xxxx 16GB 14c-cd0",
+            "ContainerValue": "Intel Core i3"
+        },
+        {
+            "PhwebDescription": "BU IDS DCSPHN21X28GB PH i7-xxxxH 16",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS DCSPHN21X28GB PHi7xxxx 16",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCArc4GB PHi7RM 16GB 16",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC RTX 3050Ti 4GB PH R7 8C 16",
+            "ContainerValue": "AMD Ryzen 7"
+        },
+        {
+            "PhwebDescription": "CPU AMD R9-5900X 12C 3.70105W360mmRGBLCS",
+            "ContainerValue": "AMD Ryzen 9"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R3 7320U 4GB 14",
+            "ContainerValue": "AMD Ryzen 3"
+        },
+        {
+            "PhwebDescription": "APU AMD R3-5300G 4C 65W 2HPRGBAir",
+            "ContainerValue": "AMD Ryzen 3"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX40506GB R5 7640HS 16",
+            "ContainerValue": "AMD Ryzen 5"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC GTX xxx 4GB i7-11370H 15",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PentN6000 8GB 128GeMMC14a-ca1",
+            "ContainerValue": "Intel Pentium"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i3-xxxx 8GB 14c-cd0",
+            "ContainerValue": "Intel Core i3"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH Ath DC 17",
+            "ContainerValue": "AMD Athlon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-xxxx 16GB 14c-cd0",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA N100 128GUFS 15",
+            "ContainerValue": "Intel Celeron"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHPentxxxx 17",
+            "ContainerValue": "Intel Pentium"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-12500H 16GB fOLED 14",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA MT8195GV 4GB 64GeMMC 13b-ca0",
+            "ContainerValue": "MediaTek"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC RTX 3060 6GB i9-12900H 16",
+            "ContainerValue": "Intel Core i9"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i3-1115G4 8GB FPR 14b-nb0",
+            "ContainerValue": "Intel Core i3"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1135G7 8GB FPR 14b-nb0",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA 3020e 64GeMMC 14",
+            "ContainerValue": "AMD 3000 Series"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC RTX 3050Ti 4GB R7 6800H 16",
+            "ContainerValue": "AMD Ryzen 7"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC RTX 3060 6GB i7-12700H 17",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC RTX 3060 6GB R7 6800H 16",
             "ContainerValue": "AMD Ryzen 7"
         }
     ]

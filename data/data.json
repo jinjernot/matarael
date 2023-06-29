@@ -26,11 +26,15 @@
         },
         {
             "ComponentGroup": "Appearance/WebCam",
-            "ContainerName": ["colour"]
+            "ContainerName": ["colour","camera"]
         },
         {
             "ComponentGroup": "Display",
-            "ContainerName": ["display","displaybright","displaycolorgamut"]
+            "ContainerName": ["display","displaybright","displaycolorgamut","displaymet","displaysize","displaysizemet"]
+        },
+        {
+            "ComponentGroup": "Battery",
+            "ContainerName": ["batterytype"]
         }
 
     ]

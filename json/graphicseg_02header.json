@@ -1,0 +1,152 @@
+{
+    "graphicseg_02header": [
+        {
+            "PhwebDescription": "GFX NVIDIA T400 2GB 3mDP",
+            "ContainerValue": "Discrete"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA GeF RTX 3060",
+            "ContainerValue": "Discrete"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA T400 4GB 3mDP",
+            "ContainerValue": "Discrete"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA RTX A2000 6GB GDDR6 4mDP",
+            "ContainerValue": "Discrete"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA RTX A2000 12GB GDDR6 4mDP",
+            "ContainerValue": "Discrete"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA RTX A4000 16GB 4DP",
+            "ContainerValue": "Discrete"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA T1000 8GB 4mDP",
+            "ContainerValue": "Discrete"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA GeF RTX 3090 24GB",
+            "ContainerValue": "Discrete"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA RTX A5000 24GB 4DP",
+            "ContainerValue": "Discrete"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA RTX A2000 6GB 4mDP",
+            "ContainerValue": "Discrete"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA Qdr T1000 4GB 4mDP",
+            "ContainerValue": "Discrete"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA RTX A4500 20GB GDDR6 4DP",
+            "ContainerValue": "Discrete"
+        },
+        {
+            "PhwebDescription": "GFX AMD RdnP W6600 8GB GDDR6 4DP",
+            "ContainerValue": "Discrete"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA T1000 4GB 4mDP",
+            "ContainerValue": "Discrete"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC MX550 2GB i7-1255U 470 G9",
+            "ContainerValue": "Discrete"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX40506GB i7-13700H 16",
+            "ContainerValue": "Discrete"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX20504GB i5-1335U TIPD650G10",
+            "ContainerValue": "Discrete"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA GeF RTX 3060 12GB GDDR6",
+            "ContainerValue": "Discrete"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX20504GB i7-1355U TIPD640G10",
+            "ContainerValue": "Discrete"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA20008GBi9-13900HKStudioG10",
+            "ContainerValue": "Discrete"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA5004GBi5-13600HPwr15.6G10",
+            "ContainerValue": "Discrete"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCMX5502GB i7-1355U 15",
+            "ContainerValue": "Discrete"
+        },
+        {
+            "PhwebDescription": "BU IDS DCSPHN21X48GB PH i7-xxxxH 16",
+            "ContainerValue": "Discrete"
+        },
+        {
+            "PhwebDescription": "BU IDS DCSPHN2P0R6GB R5 7640HS 16",
+            "ContainerValue": "Discrete"
+        },
+        {
+            "PhwebDescription": "BU IDS DCSPHN21X28GB PHi7xxxx 16",
+            "ContainerValue": "Discrete"
+        },
+        {
+            "PhwebDescription": "BU IDS DCSPHN2P0R6GB R7 7840HS 16",
+            "ContainerValue": "Discrete"
+        },
+        {
+            "PhwebDescription": "BU IDS DCSPHN21X48GB PHi9xxxx 16",
+            "ContainerValue": "Discrete"
+        },
+        {
+            "PhwebDescription": "BU IDS DCSPHN21X48GB PHi7xxxx 16",
+            "ContainerValue": "Discrete"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC RTX 3050Ti 4GB i5-12500H 15",
+            "ContainerValue": "Discrete"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC GTX 1650 4GB i7-12700H 15",
+            "ContainerValue": "Discrete"
+        },
+        {
+            "PhwebDescription": "BU IDSDSCRTX3080Ti16GBfGSynci7-12800HX17",
+            "ContainerValue": "Discrete"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC RTX 3070TiMQ8GBRyzen96900HX16",
+            "ContainerValue": "Discrete"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC GTX xxx 4GB i7-11370H 15",
+            "ContainerValue": "Discrete"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC RTX 3060 6GB i9-12900H 16",
+            "ContainerValue": "Discrete"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC RTX 3050Ti 4GB R7 6800H 16",
+            "ContainerValue": "Discrete"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC RTX 3060 6GB i7-12700H 17",
+            "ContainerValue": "Discrete"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC RTX 3060 6GB R7 6800H 16",
+            "ContainerValue": "Discrete"
+        }
+    ]
+}

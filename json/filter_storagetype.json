@@ -1,0 +1,280 @@
+{
+    "filter_storagetype": [
+        {
+            "PhwebDescription": "HDD 1TB 7200RPM SATA 3.5in",
+            "ContainerValue": "HDD"
+        },
+        {
+            "PhwebDescription": "SSD 512G 2280 PCIe NVMe Value",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "SSD 256G M.2 2280 PCIe NVMe",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "SSD 256G 2280 PCIe-4x4 NVMe TLC",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "SSD 512G M.2 2280 PCIe NVMe",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "SSD 512G 2280 PCIe NVMe Value NMIC",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "SSD 1T 2280 PCIe NVMe Value",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "HDD 500GB 7200RPM 3.5",
+            "ContainerValue": "HDD"
+        },
+        {
+            "PhwebDescription": "HDD 1TB 7200RPM SATA-6G 3.5",
+            "ContainerValue": "HDD"
+        },
+        {
+            "PhwebDescription": "SSD 512G Z Turbo Drive 2280 TLC",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "SSD 1T M.2 2280 PCIe NVMe TLC",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "SSD 1T Z Turbo Drive 2280 TLC",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "SSD ZTrb 1TB 2280 PCIe-4x4 TLC M.2",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "SSD ZTrb 512GB 2280 PCIe-4x4 TLC M.2",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "SSD HPZ 2TB 2280 PCIe TLC M.2",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "ZTRB HPZ Turbo Drv Quad Pro 1TB TLCSSD",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "ZTRBHPZTrbDrvM.2 1TBTLCSSD",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "SSD 2TB PCIe NVME TLC M.2",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "ZTRB HP ZTrbDrv M.2 2TB TLCSSD",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "ZTRB HP ZTrbDrv Dual 2TB TLCSSD",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "SSD 1T Z Turbo Drive 2280 TLC 2nd",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "SSD 512G M.2 2280 PCIe NVMe TLC",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "SSD ZTrb 2TB 2280 PCIe-4x4 OPAL2 TLC M.2",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "ZTRB HP ZTrbDrv M.2 512GB TLCSSD",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "SSD 256GB PCIe NVMe Value",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "SSD 512GB PCIe NVMe Value",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "SSD 128GB PCIe NVMe Value",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "SSD 512GB PCIe-4x4 NVMe TLC",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "SSD 256G 2280 PCIe NVMe Value",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "SSD 128G 2280 PCIe TLC",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": " eMMC 32GB MMCv5.0",
+            "ContainerValue": "eMMC"
+        },
+        {
+            "PhwebDescription": "SSD 1TB 2280 PCIe-4x4 NVMe TLC",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "SSD 2TB 2280 PCIe-4x4 NVMe TLC 3rd",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "SSD 512G M.2 2280 PCIe NVMe TLC 2nd",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "HDD 500GB 7200RPM 3.5 2nd",
+            "ContainerValue": "HDD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA Cel N5100 4GB 32GeMMC 14 G7",
+            "ContainerValue": "eMMC"
+        },
+        {
+            "PhwebDescription": "SSD 256GB SATA SED OPAL2 TLC w/ca",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "SSD 256GB PCIe NVMe TLC",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "SSD 512GB 2280 PCIe NVMe Val 2nd",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA CelN4500 8GB 64GeMMCx36011G3J",
+            "ContainerValue": "eMMC"
+        },
+        {
+            "PhwebDescription": "SSD 128GB M2 SATA-3 TLC",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "SSD 1TB 2280 PCIe OPAL2 NVME TLC",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA CelN4500 8GB 32GeMMCx36011G3J",
+            "ContainerValue": "eMMC"
+        },
+        {
+            "PhwebDescription": "ZTRB HP ZTrbDrv M.2 1TB TLCSSD",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "SSD 256G M.2 2280 PCIe NVMe TLC",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "SSD 256GB SS 2280 PCIe-4x4 NVMe TLC",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "SSD 256GB PCIe Value TLC M.2",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "SSD 2TB 2280 PCIe-4x4 NVMe TLC",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "SSD 1TB PCIe NVMe Value",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "SSD HPZ 2TB 2280 PCIe TLC 2nd M.2",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": " 32 GB M.2 eMMC Flash Memory",
+            "ContainerValue": "eMMC"
+        },
+        {
+            "PhwebDescription": "HDD 1TB 7200RPM 2.5",
+            "ContainerValue": "HDD"
+        },
+        {
+            "PhwebDescription": "SSD 512GB PCIe NVMe Val CR",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "SSD 512GB 2280 PCIe-4x4 OPAL2 NVME TLC",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "HDD 1TB 7200RPM SATA 3.5 cDT 2nd",
+            "ContainerValue": "HDD"
+        },
+        {
+            "PhwebDescription": "SSD WD 1T 2280 PCIe NVMe Value",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "SSD WD Black 2TB 2280 PCIe-4x4 TLC",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "SSD WD Black 1T 2280 PCIe-4x4 NVMe TLC",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "SSD WD Black 1TB PCIe-4x4 NVME TLC",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "HDD 1TB 7200RPM SATA 3.5 2nd",
+            "ContainerValue": "HDD"
+        },
+        {
+            "PhwebDescription": "SSD WD Black 1TB 2280 PCIe NVME TLC 2nd",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "SSD 1TB PCIe NVMe TLC",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "SSD 512GB PCIe NVMe TLC",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "SSD 1TB 2280 PCIe-3x4 NVMe TLC",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "SSD 2x512GB PCIe4x4 NVMe TLC M.2",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA CelN4120 4GB 64GeMMC 11",
+            "ContainerValue": "eMMC"
+        },
+        {
+            "PhwebDescription": "SSD WD 1T 2280 PCIe NVMe Value 2nd",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "SSD WD Black 512G 2280 PCIe-4x4 NVMe TLC",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "BU IDSUMAPentSN50304GB128GeMMCnSDC14aca0",
+            "ContainerValue": "eMMC"
+        }
+    ]
+}

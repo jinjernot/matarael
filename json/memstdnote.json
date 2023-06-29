@@ -1,0 +1,32 @@
+{
+    "memstdnote": [
+        {
+            "PhwebDescription": "BU IDS DSCArc4GB i7-1360P 16GB fOLED 16",
+            "ContainerValue": "Transfer rates up to 3200 MT/s."
+        },
+        {
+            "PhwebDescription": "RAM 32GB (2x16GB) DDR4 3200 NECC",
+            "ContainerValue": "Transfer rates up to 3200 MT/s."
+        },
+        {
+            "PhwebDescription": "RAM HX 16GB (2x8GB) DDR4 3200 XMP RGBHS",
+            "ContainerValue": "Transfer rates up to 3200 MT/s."
+        },
+        {
+            "PhwebDescription": "RAM KFURY 16GB(2x8GB)DDR5 5200 XMP RGBHS",
+            "ContainerValue": "Transfer rates up to 5200 MT/s."
+        },
+        {
+            "PhwebDescription": "RAM 4GB (1x4GB) DDR4 3200",
+            "ContainerValue": "Transfer rates up to 3200 MT/s."
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R3 7320U 4GB 14",
+            "ContainerValue": "Transfer rates up to 5500 MT/s."
+        },
+        {
+            "PhwebDescription": "BU IDS DSCArc4GB i7-1360P 32GB fOLED 16",
+            "ContainerValue": "Transfer rates up to 3200 MT/s."
+        }
+    ]
+}
