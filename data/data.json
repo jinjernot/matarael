@@ -35,6 +35,10 @@
         {
             "ComponentGroup": "Battery",
             "ContainerName": ["batterytype"]
+        },
+        {
+            "ComponentGroup": "Environment",
+            "ContainerName": ["facet_environ","energyeffcomp","energystar"]
         }
 
     ]

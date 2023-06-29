@@ -1,8 +1,16 @@
 {
     "facet_environ": [
         {
-            "PhwebDescription": "FLAG",
-            "ContainerValue": "ENERGY STAR® certified; EPEAT® registered"
+            "PhwebDescription": "ENERGY STAR Certified",
+            "ContainerValue": "ENERGY STAR® certified EPEAT® registered"
+        },
+        {
+            "PhwebDescription": "Electronic TCO Certified labeling",
+            "ContainerValue": "TCO Certified"
+        },
+        {
+            "PhwebDescription": "ENERGY STAR Certified",
+            "ContainerValue": "ENERGY STAR® certified"
         }
     ]
 }

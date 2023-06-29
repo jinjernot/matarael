@@ -1,8 +1,12 @@
 {
     "energyeffcomp": [
         {
-            "PhwebDescription": "FLAG",
+            "PhwebDescription": "ENERGY STAR Certified",
             "ContainerValue": "EPEAT® registered"
+        },
+        {
+            "PhwebDescription": "Electronic TCO Certified labeling",
+            "ContainerValue": "TCO Certified"
         }
     ]
 }
