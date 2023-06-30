@@ -16,11 +16,13 @@ def clean_report(file):
 
         df = df[df['ContainerValue'] != '[BLANK]']
         df.replace('\u00A0', ' ', regex=True, inplace=True)
+        df['PhwebDescription'] = df['PhwebDescription'].str.lstrip()
+        df['ContainerValue'] = df['ContainerValue'].astype(str)
 
         cols_to_drop = ['Option', 'Status', 'SKU_FirstAppearanceDate', 'SKU_CompletionDate', 'SKU_Aging', 'PhwebValue', 'ExtendedDescription', 'ComponentCompletionDate', 'ComponentReadiness', 'SKUReadiness']
         df = df.drop(cols_to_drop, axis=1)
 
-        with open('/home/garciagi/SCS_Tool/data.json', 'r') as json_file:
+        with open('/home/garciagi/SCS_Tool/data/data.json', 'r') as json_file:
         #with open('data/data.json', 'r') as json_file:
             json_data = json.load(json_file)
 

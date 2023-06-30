@@ -6,7 +6,8 @@ from openpyxl.drawing.image import Image
 def generate_plot():
 
     # Read the Excel file into a Pandas DataFrame.
-    df = pd.read_excel('SCS_QA.xlsx')
+    #df = pd.read_excel('SCS_QA.xlsx')
+    df = pd.read_excel('/home/garciagi/SCS_Tool/SCS_QA.xlsx')
 
     # Drop rows where the `Accuracy` column is `NaN`.
     df = df.dropna(subset=['Accuracy'])
@@ -29,12 +30,14 @@ def generate_plot():
         plt.xlabel('Container Name')
         plt.ylabel('')
         plt.xticks(rotation=25, ha='right')
-        plt.savefig('./static/images/chart.png')
+        #plt.savefig('./static/images/chart.png')
+        plt.savefig('/home/garciagi/SCS_Tool/static/images/chart.png')
     except Exception as e:
         print(e)
 
     # Open the Excel file and create a new worksheet named `Bar Plot`.
-    wb = load_workbook('SCS_QA.csv')
+    #wb = load_workbook('SCS_QA.csv')
+    wb = load_workbook('/home/garciagi/SCS_Tool/SCS_QA.xlsx')
     ws = wb.active
     ws.title = 'SCS QA Report'
     ws = wb.create_sheet(title='Bar Plot')
@@ -45,6 +48,7 @@ def generate_plot():
     try:
         img = Image('./static/images/chart.png')
         ws.add_image(img, 'A1')
-        wb.save('SCS_QA.xlsx')
+        #wb.save('SCS_QA.xlsx')
+        wb.save('/home/garciagi/SCS_Tool/SCS_QA.xlsx')
     except Exception as e:
         print(e)

@@ -14,9 +14,9 @@ def processData(json_path, container_name, container_df, df):
 
     # Iterate over each container in the JSON data.
     for container in container_data.itertuples(index=False):
-        # Create a mask using vectorized string operations.
-        maskContainer = (container_df['PhwebDescription'].str.contains(container.PhwebDescription) &
-                         container_df['ContainerValue'].str.contains(container.ContainerValue, case=False, regex=False))
+        # Create a mask using exact string matching.
+        maskContainer = (container_df['PhwebDescription'] == container.PhwebDescription) & \
+                        (container_df['ContainerValue'] == container.ContainerValue)
 
         # Update the `container_accuracy_dict` dictionary using boolean indexing.
         container_accuracy_dict.update(container_df[maskContainer].index.to_series().map(lambda idx: (idx, f'SCS {container_name} OK')))
@@ -31,3 +31,4 @@ def processData(json_path, container_name, container_df, df):
     df.loc[container_df.index, 'Accuracy'] = container_df['Accuracy']
 
     return df
+
