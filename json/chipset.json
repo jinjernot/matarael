@@ -19,6 +19,30 @@
         {
             "PhwebDescription": "CPU I Core i9-10900X 3.7GHz 10C165W",
             "ContainerValue": "Intel® X299"
+        },
+        {
+            "PhwebDescription": "CPU I XeonW-2295 3.0GHz 18C165W",
+            "ContainerValue": "Intel® C422"
+        },
+        {
+            "PhwebDescription": "CPU I XeonW-2245 3.9GHz 8C155W",
+            "ContainerValue": "Intel® C422"
+        },
+        {
+            "PhwebDescription": "CPU I Core i9-10940X 3.3GHz 14C165W",
+            "ContainerValue": "Intel® X299"
+        },
+        {
+            "PhwebDescription": "CPU I XeonW-2235 3.8GHz 6C130W",
+            "ContainerValue": "Intel® C422"
+        },
+        {
+            "PhwebDescription": "CPU I Core i9-10920X 3.5GHz 12C165W",
+            "ContainerValue": "Intel® X299"
+        },
+        {
+            "PhwebDescription": "CPU I XeonW-2265 3.5GHz 12C165W",
+            "ContainerValue": "Intel® C422"
         }
     ]
 }

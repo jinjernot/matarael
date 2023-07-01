@@ -1,7 +1,15 @@
 {
     "graphiccardftntnbr_02": [
         {
-            "PhwebDescription": "BU IDS DSC RTX 3070TiMQ8GBRyzen96900HX16",
+            "PhwebDescription": "BUIDSDSCRTX3070TiMQ8GBfGSynci9-12900H16",
+            "ContainerValue": "[8]"
+        },
+        {
+            "PhwebDescription": "BUIDS DSC RTX 3070Ti MQ 8GB R7 6800H 16",
+            "ContainerValue": "[8]"
+        },
+        {
+            "PhwebDescription": "BUIDS DSC RTX 3070TiMQ8GBRyzen96900HX16",
             "ContainerValue": "[8]"
         }
     ]

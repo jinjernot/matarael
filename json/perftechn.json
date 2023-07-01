@@ -1,7 +1,11 @@
 {
     "perftechn": [
         {
-            "PhwebDescription": "Intel Evo",
+            "PhwebDescription": "LBL NBU Intel Evo Core i7 sz3 G12",
+            "ContainerValue": "Intel® Evo™ laptop"
+        },
+        {
+            "PhwebDescription": "LBL NBU Intel Evo Core i5 sz3 G12",
             "ContainerValue": "Intel® Evo™ laptop"
         }
     ]

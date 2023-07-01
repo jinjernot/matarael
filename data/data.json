@@ -26,7 +26,7 @@
         },
         {
             "ComponentGroup": "Appearance/WebCam",
-            "ContainerName": ["colour","camera"]
+            "ContainerName": ["colour","productcolour","camera"]
         },
         {
             "ComponentGroup": "Display",
@@ -39,6 +39,30 @@
         {
             "ComponentGroup": "Environment",
             "ContainerName": ["facet_environ","energyeffcomp","energystar"]
+        },
+        {
+            "ComponentGroup": "FingerPrint Reader",
+            "ContainerName": ["fingerprread"]
+        },
+        {
+            "ComponentGroup": "Keyboard",
+            "ContainerName": ["keybrd"]
+        },
+        {
+            "ComponentGroup": "Special Features",
+            "ContainerName": ["perftechn"]
+        },
+        {
+            "ComponentGroup": "Power Supply",
+            "ContainerName": ["powersupplytype"]
+        },
+        {
+            "ComponentGroup": "Box content",
+            "ContainerName": ["stylus"]
+        },
+        {
+            "ComponentGroup": "Wireless Technologies",
+            "ContainerName": ["wirelesstech"]
         }
 
     ]

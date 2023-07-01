@@ -65,923 +65,1759 @@
             "ContainerValue": "AMD Radeon"
         },
         {
-            "PhwebDescription": "BU IDS UMA i5-1235U RPD 440 G9",
-            "ContainerValue": "Intel Iris"
+            "PhwebDescription": "BUIDS DSC MX570A2GBi5-1235URTKUSBC450G9",
+            "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS UMA PH i7-RM 640 G9",
-            "ContainerValue": "Intel Iris"
+            "PhwebDescription": "BUIDS DSC MX550 2GB i7-1255U 250 G9",
+            "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS UMA i5-1240P 240 G9",
-            "ContainerValue": "Intel Iris"
+            "PhwebDescription": "BU RCTODSCMX570A2GBi71255URTKUSBC440G9BR",
+            "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS UMA i3-1315U TIPD 630 G10",
-            "ContainerValue": "Intel UHD"
+            "PhwebDescription": "BUIDS DSC MX570A2GBi7-1255URTKUSBC650G9",
+            "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS UMA R5 5625U fWWAN mt645 G9",
+            "PhwebDescription": "BUIDS DSCMX5502GB PHi7KT 470 G10",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCMX5502GB PHi7xxxxU 250 G10",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCMX5502GB PHi5xxxxU 250 G10",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA GeF RTX 3070 8GBGDDR63DP+HDMI",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDS DSC i7-1165G7 850 G8",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "GFX AMD Rdn RX 6300 2GB GDDR6",
             "ContainerValue": "AMD Radeon"
         },
         {
-            "PhwebDescription": "BU IDS UMA i5-1235U RTK USBC 840 G9",
+            "PhwebDescription": "GFX NVIDIA GeF RTX 3050 MQ 4GB GDDR6 G4",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA GeF RTX 3050",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDS DSC i7-1255U 16 G9",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BUIDS DSC i7-1265U 16 G9",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BUIDS DSC i7-1255U 14 G9",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BUIDS DSC T6XX 4GB PH i7-KT Power15.6G9",
+            "ContainerValue": "NVIDIA Quadro"
+        },
+        {
+            "PhwebDescription": "BUIDS DSC RTXA2XXX8GBPHi7-KTPower15.6G9",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BUIDS DSC i7-1265U 14 G9",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BUIDS DSC RTXA1XXX4GBPHi7-KTPower15.6G9",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BUIDS DSC T6XX 4GB PH i5-KT Power15.6G9",
+            "ContainerValue": "NVIDIA Quadro"
+        },
+        {
+            "PhwebDescription": "BUIDS DSC RTXA2XXX8GBPHi9-RMPower15.6G9",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BUIDS DSC RTXA1XXX4GBPHi9-KTPower15.6G9",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BUIDS DSC RTX A500 i7-1265U 14 G9",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BUIDS DSC RTX A500 i7-1255U 14 G9",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BUIDS DSC RTXA2XXX8GBPHi7-RMPower15.6G9",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BUIDS DSC RTXA2XXX8GBPHi9-KTPower15.6G9",
             "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BUIDS DSC i5-1235U 14 G9",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BUIDS DSC RTX A1000 4GB i9-12900HK Powe",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BUIDS DSC i5-1135G7 8GB 14 G8",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BUIDS DSC T550 PH i5RM OSR TI PDIC16G10",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BUIDS DSC T550 PH i5-KT TI PD IC 16 G10",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BUIDS DSC T550 PH i7RM OSR TI PDIC16G10",
+            "ContainerValue": "NVIDIA Quadro"
+        },
+        {
+            "PhwebDescription": "BUIDS DSC T550 PH i7-KT TI PD IC 16 G10",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BUIDS DSC RTX A500 PHi7RMOSRTIPDIC14G10",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BUIDS DSC T550 PH i5-RM OSR TIPDIC14G10",
+            "ContainerValue": "NVIDIA Quadro"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA T400 4GB 3mDP",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA T400 2GB 3mDP",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA GeF RTX 3070 3DP+HDMI LHR",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA PH x2xxx 8GB",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCGeFRTX30606GBi7-12700HStudio16",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA PH x1xxx 4GB",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA PH x3xxx 12GB",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTXA10004GBi7-12700HStudio16G9",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA PH x4xx 16GB",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA PH x5xxx 16GB",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTXA300012GBi7-12800HStudio16G",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTXA20008GBi7-12800HStudio16.0",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTXA20008GBi7-12700HStudio16.0",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA GeF RTX 4090 24GB GDDR6X",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA Qdr RTX A5000 24GB GDDR6X 4DP",
+            "ContainerValue": "NVIDIA Quadro"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA Qdr RTX A6000 24GB 4DP",
+            "ContainerValue": "NVIDIA"
         },
         {
             "PhwebDescription": "GFX NVIDIA GeF 12GB GDDR6X",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS UMA i7-1255U RTK USBC 840 G9",
-            "ContainerValue": "Intel Iris"
-        },
-        {
-            "PhwebDescription": "CPU INTL i5- XXXX 1.20 65W",
-            "ContainerValue": "Intel UHD"
-        },
-        {
-            "PhwebDescription": "BU IDS UMA PH R7 PRO 8C 645 G9",
-            "ContainerValue": "AMD Radeon"
-        },
-        {
-            "PhwebDescription": "BU IDS UMA i7-1260P 250 G9",
-            "ContainerValue": "Intel Iris"
-        },
-        {
-            "PhwebDescription": "BU IDS DSC PH i7-KT 16 G9",
+            "PhwebDescription": "BUIDS DSCRTXA300012GBi9-12900HStudio16G",
             "ContainerValue": "NVIDIA"
         },
         {
-            "PhwebDescription": "BU IDS UMA i5-1240P RTK USBC 860 G9",
-            "ContainerValue": "Intel Iris"
-        },
-        {
-            "PhwebDescription": "BU IDS UMA PHR5PRO6C fWWAN TIPD 655 G10",
-            "ContainerValue": "AMD Radeon"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40708GB i7-13700HX 16",
+            "PhwebDescription": "GFX Nvd GF RTX2060 Spr 8GB DP HDMI DVI-D",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS UMA N200 4GB x360 11 G11",
-            "ContainerValue": "Intel UHD"
+            "PhwebDescription": "BUIDS DSC MX550 2GB i7-1255U 470 G9",
+            "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS UMA i5-1135G7 nSDC 240 G8",
+            "PhwebDescription": "BUIDS DSCRTX40708GB i7-13700HX 16",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDS DSC MX570A2GBi7-1255URTKUSBC450G9",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCArc4GB PHi7RM 16GB fOLED 16",
             "ContainerValue": "Intel Iris"
         },
         {
-            "PhwebDescription": "BU IDS UMA i5-1235U RTK USBC 14 G9",
-            "ContainerValue": "Intel Iris"
+            "PhwebDescription": "BUIDS DSCRTX40608GB R7 7840HS 16",
+            "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "CPU I Core i7-10700 2.9GHz 8C65W",
-            "ContainerValue": "Intel UHD"
+            "PhwebDescription": "BUIDS DSCRTX30504GB i7-1355U 17",
+            "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "CPU INTL PentG G7400 2C 3.70 46W",
-            "ContainerValue": "Intel UHD"
+            "PhwebDescription": "GFX NVIDIA GeF RTX 3070 8GB",
+            "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTXA5004GBi5-13600HPwr15.6G10",
-            "ContainerValue": "NVIDIA"
+            "PhwebDescription": "BUIDS DSCRTX40608GB R7 7840HS ALU 16",
+            "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX2000Ada8GBi7-13700HPower15.",
-            "ContainerValue": "NVIDIA"
+            "PhwebDescription": "BUIDS DSCRTX40708GB fGSync i7-13700HX16",
+            "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS UMA PH i5-xxxx 8GB x360 11 G10",
-            "ContainerValue": "Intel Iris"
+            "PhwebDescription": "GFX NVIDIA GeF RTX 3060 12GB GDDR6",
+            "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS UMA PH R7 PRO 8C 16GBTIPDIC835G10",
+            "PhwebDescription": "GFX AMD RdnP WX 3200 4GB 4mDP",
             "ContainerValue": "AMD Radeon"
         },
         {
-            "PhwebDescription": "BU IDS UMA PH i7-RM 32GB TI PD IC 830G10",
-            "ContainerValue": "Intel UHD"
+            "PhwebDescription": "BUIDS DSCRTXA300012GBi9-12900HKStudio16",
+            "ContainerValue": "NVIDIA"
         },
         {
-            "PhwebDescription": "BU IDS UMA PH i7-KT TI PD IC 840 G10",
-            "ContainerValue": "Intel UHD"
+            "PhwebDescription": "GFX NVIDIA T400 2GB 3mDP",
+            "ContainerValue": "NVIDIA NVS"
         },
         {
-            "PhwebDescription": "BU IDS UMA PentSilN6000 4GB x360 11 G9",
+            "PhwebDescription": " CHAS OPT Elite SFF 800 G9 Non ODD Gskt",
+            "ContainerValue": "NVIDIA NVS"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA GeF RTX 3080 10GB",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDS DSC i5-1245U 14 G9",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BUIDS DSC MX570A2GBi5-1235URTKUSBC440G9",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCArcA370M4GB PHi7xxxx 16",
             "ContainerValue": "Intel Iris"
         },
         {
-            "PhwebDescription": "BU IDS UMA Cel N5100 4GB x360 11 G9",
+            "PhwebDescription": "BUIDS DSC MX570A2GBi7-1255URTKUSBC640G9",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA Qdr RTX A6000 24GB 4DP 2nd",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA T400 4GB 3mDP 2nd",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BUIDS DSC RTX A500 PH i7KT TI PDIC14G10",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCMX5502GB PHi5KT 470 G10",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTX20504GB PHi7KTRTKUSBC450G10",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA PH x4xxx 12GB",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTX20504GB i5-1335U TIPD640G10",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTX20504GB PHi5KTRTKUSBC450G10",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCGeFRTX3080Ti16GBi7-12800HStudi",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTX20504GB PHi5KTRTKUSBC440G10",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA RTX A2000 6GB GDDR6 4mDP",
+            "ContainerValue": "NVIDIA Quadro"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTX20504GB i7-1355U TIPD650G10",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA RTX A4000 16GB 4DP",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTX20504GB i5-1335U TIPD650G10",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTX20504GB PHi7KTRTKUSBC440G10",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCGeFRTX3070Ti8GBi7-12800HStudio",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDS DSC T550 PH i7-RM TI PD IC 16 G10",
+            "ContainerValue": "NVIDIA Quadro"
+        },
+        {
+            "PhwebDescription": "GFX AMD Rdn RX 6300 2GB GDDR6 DP+HDMI",
             "ContainerValue": "AMD Radeon"
         },
         {
-            "PhwebDescription": "BU IDS DSC RTXA2XXX8GBPHi7-KTPower15.6G9",
+            "PhwebDescription": "GFX NVIDIA RTX A6000 48GB 4DP",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA T400 2GB w/2 mDP-to-DP",
+            "ContainerValue": "NVIDIA Quadro"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA T400 2GB w/2 mDP-to-DP",
+            "ContainerValue": "NVIDIA NVS"
+        },
+        {
+            "PhwebDescription": "BUIDS DSC T550 PH i7-RM TI PD IC 14 G10",
+            "ContainerValue": "NVIDIA Quadro"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA T1000 4GB 4mDP",
+            "ContainerValue": "NVIDIA Quadro"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCGeFRTX3080Ti16GBi9-12900HStudi",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA RTX A5000 24GB 4DP",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA Qdr RTX A5000 24GB GDDR6X 4DP",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA GeF RTX 3060 MQ 6GB GDDR6 G4",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDS DSC MX570A2GBi7-1255URTKUSBC440G9",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTX20504GB i5-1345U TIPD640G10",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA RTX A4000 16GB 4DP 3rd",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA RTX A6000 48GB 4DP 2nd",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA RTX A4000 16GB 4DP 2nd",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA RTX A4000 16GB 4DP 4th",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BUIDS DSC MX550 2GB i5-1235U 250 G9",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTX20504GB i7-1355U TIPD640G10",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTX408012GBi9-13900HKStudioG10",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTX400012GB i7-13800HStudioG10",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA PH x1xxx 6GB",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTX40708GB i9-13900HKStudioG10",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTX40708GB i9-13900H StudioG10",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTX30008GB i9-13900HKStudioG10",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTX40708GB i7-13700H StudioG10",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTXA20008GB i7-13800HStudioG10",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTX30008GB i9-13900H StudioG10",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTX30008GB i7-13700H StudioG10",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTXA20008GBi9-13900HKStudioG10",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTX400012GB i9-13900HStudioG10",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTX3000Ada8GBi7-13700HPower156",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTX3000Ada8GBi9-13900HPower15.",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTX2000Ada8GBi9-13900HKPower15",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTXA10006GBi7-13800HPower15.6G",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTXA10006GBi7-13700HPower15.6G",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTX408012GB i9-13900HStudioG10",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTXA10006GB i7-13700HStudioG10",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTXA5004GBi5-13600HPwr15.6G10",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTX30008GB i7-13800H StudioG10",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTX2000Ada8GBi7-13800HPower15.",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTXA10006GB i5-13600H Power 15",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTX2000Ada8GBi9-13900HPower15.",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTX40708GB i7-13800H StudioG10",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTXA10006GBR9PRO7940HSPower15.",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTX2000Ada8GBi7-13700HPower15.",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTXA5004GBi7-13700HPower15.6G1",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BUIDS DSC T550 PH i5-KT TI PD IC 14 G10",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA GeF RTX 4080 12GB GDDR6X",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTXA20008GB i7-13700HStudioG10",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTXA5004GBi7-13800HPower15.6G1",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTX3000Ada8GBi9-13900HKPower15",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BUIDS UMA i3-1215U 470 G9",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTX408012GB i7-13700HStudioG10",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTXA10006GB i7-13800HStudioG10",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA GeF RTX 3050 8GB GDDR6",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA RTX A6000 48GB 4DP 3rd",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTXA5004GBi5-13500HPower15.6G1",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA PH x080Ti 16GB",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTXA20008GB i9-13900HStudioG10",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTXA10006GBi9-13900HPower15.6G",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA RTX A6000 48GB 4DP 4th",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BUIDS DSC i5-1235U 16 G9",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTX40506GBR77840HSPower15.6G10",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDS DSC RTXA2XXX8GBPHi7-KTPower15.6G9",
             "ContainerValue": "Intel Iris"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTXA20008GBi7-12700HPower15.6G",
+            "PhwebDescription": "BUIDS DSC i5-1235U 14 G9",
             "ContainerValue": "Intel Iris"
         },
         {
-            "PhwebDescription": "BU IDS DSC i5-1235U 14 G9",
+            "PhwebDescription": "BUIDS DSC RTXA1XXX4GBPHi7-RMPower15.6G9",
             "ContainerValue": "Intel Iris"
         },
         {
-            "PhwebDescription": "BU IDS DSC PH i5-KT 14 G9",
+            "PhwebDescription": "BUIDS DSC i7-1265U 14 G9",
             "ContainerValue": "Intel Iris"
         },
         {
-            "PhwebDescription": "BU IDS DSC RTXA1XXX4GBPHi7-RMPower15.6G9",
+            "PhwebDescription": "BUIDS DSCRTX20504GB PHi5KTRTKUSBC450G10",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTX20504GB i7-1365U TIPD640G10",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BUIDSDSCRTX20504GBi7-1365URTKUSBC640G10",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTX20504GB i7-1355U TIPD640G10",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTX20504GB i5-1335U TIPD640G10",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTX20504GB i7-1365U TIPD650G10",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTX20504GBi7-1365URTKUSBC650G1",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTX20504GBi5-1335URTKUSBC650G1",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTX20504GB PHi7KTRTKUSBC440G10",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTX20504GB i7-1355U TIPD650G10",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTXA550016GBi9-12900HStudio16G",
             "ContainerValue": "Intel Iris"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTXA10004GBi7-12800HPower15.6G",
+            "PhwebDescription": "BUIDS DSC MX570A2GBi7-1255URTKUSBC450G9",
             "ContainerValue": "Intel Iris"
         },
         {
-            "PhwebDescription": "BU IDS DSC PH i7-RM 14 G9",
+            "PhwebDescription": "GFX Intel Arc A380 6GB 3DP+HDMI",
+            "ContainerValue": "Intel Arc"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTX20504GB PHi5KT TIPD 450 G10",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTX20504GB i7-1365U TIPD640G10",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTX20504GB PHi7KT TIPD 440 G10",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTX20504GB PHi7KT TIPD 450 G10",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTX20504GB PHi5KT TIPD 440 G10",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTX20504GBi5-1345URTKUSBC640G1",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDSDSCRTX20504GBi7-1365URTKUSBC640G10",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIAT10008GB4mDPw/3mDPtoDPAdapters",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA T400 2GB 3mDP w/2 mDP-to-DVI",
+            "ContainerValue": "NVIDIA Quadro"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTX2000Ada8GBR7PRO7840HSPower1",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BUIDSDSCRTXA10006GBR7PRO7840HSnWLANnBTP",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTXA10006GBR97940HSPower15.6G1",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTX40506GBR9PRO7940HSPower15.6",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTX2000Ada8GBR97940HSPower15.6",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTXA10006GBR7PRO7840HSPower15.",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTX40506GBR57640HSPower15.6G10",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTXA10006GBR77840HSPower15.6G1",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BUIDS DSC T550 PH i5-RM TI PD IC 14 G10",
+            "ContainerValue": "NVIDIA Quadro"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA GeF 10GB GDDR6",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCGeFRTX30606GBi7-12800HStudio16",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "GFX AMD RdnP W6600M 8GB",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA GeF MX450 2GB ADL-P",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA GeF RTX 3050 Ti 4GB",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA GeF GTX 1650 4GB RKL-S",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA GeF MX450 2GB RKL-S",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "GFXCONTR NVD GeF GTX 1650",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA GeF RTX 3060 Ti 8GB GDDR6",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "GFXCONTR NVD GeF RTX 3050",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "GFXCONTR NVD GeF RTX 3050Ti 4GB GDDR6",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA GeF GTX 1650 4GB GDDR6 RKL-S",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA GeF 6GB GDDR6 RKL-S",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDSDSCMXxxx2GBPHi5-12xxxU15nSDC15-eg2",
             "ContainerValue": "Intel Iris"
         },
         {
-            "PhwebDescription": "BU IDS DSC i7-1265U 14 G9",
+            "PhwebDescription": "BUIDSDSCMXxxx2GBPHi5-12xxxU15nSDC15-eg2",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDSDSCMXxxx2GBPHi7-12xxxU15nSDC15-eg2",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCMX5502GB PHi7xxxxU 15",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCMX5502GB PHi5xxxxU 15",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDS DSC MXxxx 2GB PH i7-12xxx U15 17",
+            "ContainerValue": "Intel HD"
+        },
+        {
+            "PhwebDescription": "BUIDS DSC MXxxx 2GB PH i7-12xxx U15 17",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDS DSC MXxxx 2GB PH i5-12xxx U15 17",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCMX5502GB i7-1355U nSDC 15",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCMX5502GB i5-1335U nSDC 15",
             "ContainerValue": "Intel Iris"
         },
         {
-            "PhwebDescription": "CPU I Core i5-8500T 6C",
-            "ContainerValue": "Intel UHD"
+            "PhwebDescription": "BUIDS DSCMX5502GB i5-1335U nSDC 15",
+            "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX20504GBi5-1335URTKUSBC450G1",
-            "ContainerValue": "Intel UHD"
+            "PhwebDescription": "BUIDS DSCMX5502GB PHi7xxxxU 17",
+            "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX20504GB PHi5KTRTKUSBC450G10",
-            "ContainerValue": "Intel UHD"
+            "PhwebDescription": "BUIDS DSC MX550 2GB i7-1255U nSDC 14",
+            "ContainerValue": "Intel Iris"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX20504GB i7-1365U TIPD640G10",
-            "ContainerValue": "Intel UHD"
+            "PhwebDescription": "BUIDS DSC MX550 2GB i7-1255U nSDC 14",
+            "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDSDSCRTX20504GBi7-1365URTKUSBC640G10",
-            "ContainerValue": "Intel UHD"
+            "PhwebDescription": "BUIDS DSC MX550 2GB i5-1235U 15",
+            "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX20504GB i7-1355U TIPD640G10",
-            "ContainerValue": "Intel UHD"
+            "PhwebDescription": "BUIDS DSC MX550 2GB i7-1255U 15",
+            "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX20504GB i5-1335U TIPD640G10",
-            "ContainerValue": "Intel UHD"
+            "PhwebDescription": "GFX NVIDIA GeF 8GB GDDR6X",
+            "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX20504GB i7-1365U TIPD650G10",
-            "ContainerValue": "Intel UHD"
+            "PhwebDescription": "GFX NVIDIA GeFRTX4070Ti12GBGDDR6XwoAdptr",
+            "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX20504GBi7-1365URTKUSBC650G1",
-            "ContainerValue": "Intel UHD"
+            "PhwebDescription": "GFX NVIDIA GeF RTX 4080 16GB GDDR6X",
+            "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX20504GBi5-1335URTKUSBC650G1",
-            "ContainerValue": "Intel UHD"
+            "PhwebDescription": "GFX NVIDIA GeF RTX 408016GBGDDR6Xw/Adptr",
+            "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "CPU I Celeron G5900E 2C65W",
-            "ContainerValue": "Intel UHD"
+            "PhwebDescription": "GFX AMD Rdn RX 6400 4GB GDDR6",
+            "ContainerValue": "AMD Radeon"
         },
         {
-            "PhwebDescription": "CPU I Core i3-10100E 4C65W",
-            "ContainerValue": "Intel UHD"
+            "PhwebDescription": "GFX NVIDIA GeF RTX 3070 Ti 8GB GDDR6X",
+            "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "CPU I Core i5-10500E 6C65W",
-            "ContainerValue": "Intel UHD"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX20504GBi7-1355URTKUSBC440G1",
-            "ContainerValue": "Intel UHD"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX20504GB PHi7KTRTKUSBC440G10",
-            "ContainerValue": "Intel UHD"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX20504GB i7-1355U TIPD650G10",
-            "ContainerValue": "Intel UHD"
+            "PhwebDescription": "GFX Nvd GeF GTX1660 Super 6GB",
+            "ContainerValue": "NVIDIA GeForce"
         },
         {
             "PhwebDescription": "GFX Intel Arc A380 6GB GDDR6",
             "ContainerValue": "Intel Arc"
         },
         {
+            "PhwebDescription": "GFX NVIDIA GeF RTX 4070 12GB GDDR6X RA",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
             "PhwebDescription": "GFX NVIDIA GeF RTX 3070 8GB GDDR6",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSC RTX 3060 6GB i5-12500H 16",
+            "PhwebDescription": "BUIDS DSC RTX 3060 6GB i5-12500H 16",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSC RTX 3060 6GB i7-12700H 16",
+            "PhwebDescription": "BUIDS DSC RTX 3060 6GB i7-12700H 16",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSC RTX 3050 4GB i7-12700H 15",
+            "PhwebDescription": "BUIDS DSC RTX 3050 4GB i7-12700H 15",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSC GTX 1650 4GB i5-12500H 15",
+            "PhwebDescription": "BUIDS DSC GTX 1650 4GB i5-12500H 15",
             "ContainerValue": "Intel Iris"
         },
         {
-            "PhwebDescription": "BU IDS DSC GTX 1650 4GB i5-12500H 15",
+            "PhwebDescription": "BUIDS DSC GTX 1650 4GB i5-12500H 15",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSC RTX 3050Ti 4GB Ryzen7 5800H15",
+            "PhwebDescription": "BUIDS DSC RTX 3050Ti 4GB Ryzen7 5800H15",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSC RTX 3050Ti 4GB Ryzen5 5600H15",
+            "PhwebDescription": "BUIDS DSC RTX 3050Ti 4GB Ryzen5 5600H15",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSC GTX 1650 4GB Ryzen5 5600H 15",
+            "PhwebDescription": "BUIDS DSC GTX 1650 4GB Ryzen5 5600H 15",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40608GB fGSync i7-13700HX16",
+            "PhwebDescription": "BUIDS DSCRTX40608GB fGSync i7-13700HX16",
             "ContainerValue": "Intel UHD"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40608GB fGSync i7-13700HX16",
+            "PhwebDescription": "BUIDS DSCRTX40608GB fGSync i7-13700HX16",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40708GB i7-13700HX 16",
+            "PhwebDescription": "BUIDS DSCRTX40708GB i7-13700HX 16",
             "ContainerValue": "Intel UHD"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX408012GBfGSynci9-13900HX17-",
+            "PhwebDescription": "BUIDS DSCRTX408012GBfGSynci9-13900HX17-",
             "ContainerValue": "Intel UHD"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX408012GBfGSynci9-13900HX17-",
+            "PhwebDescription": "BUIDS DSCRTX408012GBfGSynci9-13900HX17-",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX30506GB R7 7840HS 16",
+            "PhwebDescription": "BUIDS DSCRTX30506GB R7 7840HS 16",
             "ContainerValue": "AMD Radeon"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX30506GB R7 7840HS 16",
+            "PhwebDescription": "BUIDS DSCRTX30506GB R7 7840HS 16",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40608GB i5-13500H 16",
+            "PhwebDescription": "BUIDS DSCRTX40608GB i5-13500H 16",
             "ContainerValue": "Intel UHD"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40608GB i5-13500H 16",
+            "PhwebDescription": "BUIDS DSCRTX40608GB i5-13500H 16",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX409016GBfGSynci9-13900HX17-",
+            "PhwebDescription": "BUIDS DSCRTX409016GBfGSynci9-13900HX17-",
             "ContainerValue": "Intel UHD"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX409016GBfGSynci9-13900HX17-",
+            "PhwebDescription": "BUIDS DSCRTX409016GBfGSynci9-13900HX17-",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX408012GBfGSynci7-13700HX17-",
+            "PhwebDescription": "BUIDS DSCRTX408012GBfGSynci7-13700HX17-",
             "ContainerValue": "Intel UHD"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX408012GBfGSynci7-13700HX17-",
+            "PhwebDescription": "BUIDS DSCRTX408012GBfGSynci7-13700HX17-",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40708GB i9-13900HX 16",
+            "PhwebDescription": "BUIDS DSCRTX40708GB i9-13900HX 16",
             "ContainerValue": "Intel UHD"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40708GB i9-13900HX 16",
+            "PhwebDescription": "BUIDS DSCRTX40708GB i9-13900HX 16",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40708GB R9 7940HS ALU 16",
+            "PhwebDescription": "BUIDS DSCRTX40708GB R9 7940HS ALU 16",
             "ContainerValue": "AMD Radeon"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40708GB R9 7940HS ALU 16",
+            "PhwebDescription": "BUIDS DSCRTX40708GB R9 7940HS ALU 16",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX20504GB i5-13420H 15",
+            "PhwebDescription": "BUIDS DSCRTX20504GB i5-13420H 15",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX30506GB R5 7640H ALU 16",
+            "PhwebDescription": "BUIDS DSCRTX30506GB R5 7640H ALU 16",
             "ContainerValue": "Intel UHD"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX30506GB R5 7640H ALU 16",
+            "PhwebDescription": "BUIDS DSCRTX30506GB R5 7640H ALU 16",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX30506GB R7 7840H ALU 16",
+            "PhwebDescription": "BUIDS DSCRTX30506GB R7 7840H ALU 16",
             "ContainerValue": "Intel UHD"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX30506GB R7 7840H ALU 16",
+            "PhwebDescription": "BUIDS DSCRTX30506GB R7 7840H ALU 16",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40506GB R5 7640H ALU 16",
+            "PhwebDescription": "BUIDS DSCRTX40506GB R5 7640H ALU 16",
             "ContainerValue": "AMD Radeon"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40506GB R5 7640H ALU 16",
+            "PhwebDescription": "BUIDS DSCRTX40506GB R5 7640H ALU 16",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40708GB i7-13700HX 16",
+            "PhwebDescription": "BUIDS DSCRTX40708GB i7-13700HX 16",
             "ContainerValue": "AMD Radeon"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40708GB i5-13500HX 16",
+            "PhwebDescription": "BUIDS DSCRTX40708GB i5-13500HX 16",
             "ContainerValue": "Intel UHD"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40708GB i5-13500HX 16",
+            "PhwebDescription": "BUIDS DSCRTX40708GB i5-13500HX 16",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40608GB i5-13500HX 16",
+            "PhwebDescription": "BUIDS DSCRTX40608GB i5-13500HX 16",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40506GB i5-13500HX 16",
+            "PhwebDescription": "BUIDS DSCRTX40506GB i5-13500HX 16",
             "ContainerValue": "AMD Radeon"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40506GB i5-13500HX 16",
+            "PhwebDescription": "BUIDS DSCRTX40506GB i5-13500HX 16",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40708GB R7 7840HS 16",
+            "PhwebDescription": "BUIDS DSCRTX40708GB R7 7840HS 16",
             "ContainerValue": "AMD Radeon"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40708GB R7 7840HS 16",
+            "PhwebDescription": "BUIDS DSCRTX40708GB R7 7840HS 16",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40608GB R7 7840HS 16",
+            "PhwebDescription": "BUIDS DSCRTX40608GB R7 7840HS 16",
             "ContainerValue": "AMD Radeon"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40608GB R7 7840HS 16",
+            "PhwebDescription": "BUIDS DSCRTX40506GB R7 7840HS 16",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40506GB R7 7840HS 16",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX30506GB R5 7640HS 16",
+            "PhwebDescription": "BUIDS DSCRTX30506GB R5 7640HS 16",
             "ContainerValue": "AMD Radeon"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX30506GB R5 7640HS 16",
+            "PhwebDescription": "BUIDS DSCRTX30506GB R5 7640HS 16",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40608GB i7-13700HX 16",
+            "PhwebDescription": "BUIDS DSCRTX40608GB i7-13700HX 16",
             "ContainerValue": "Intel UHD"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40608GB i7-13700HX 16",
+            "PhwebDescription": "BUIDS DSCRTX40608GB i7-13700HX 16",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40506GB i7-13700HX 16",
+            "PhwebDescription": "BUIDS DSCRTX40506GB i7-13700HX 16",
             "ContainerValue": "AMD Radeon"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40506GB i7-13700HX 16",
+            "PhwebDescription": "BUIDS DSCRTX40506GB i7-13700HX 16",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX30506GB i5-13500HX 16",
+            "PhwebDescription": "BUIDS DSCRTX30506GB i5-13500HX 16",
             "ContainerValue": "Intel UHD"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX30506GB i5-13500HX 16",
+            "PhwebDescription": "BUIDS DSCRTX30506GB i5-13500HX 16",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX30506GB i7-13700HX 16",
+            "PhwebDescription": "BUIDS DSCRTX30506GB i7-13700HX 16",
             "ContainerValue": "Intel UHD"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX30506GB i7-13700HX 16",
+            "PhwebDescription": "BUIDS DSCRTX30506GB i7-13700HX 16",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40608GB R5 7640HS 16",
+            "PhwebDescription": "BUIDS DSCRTX40608GB R5 7640HS 16",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40506GB R5 7640HS 16",
+            "PhwebDescription": "BUIDS DSCRTX40506GB R5 7640HS 16",
             "ContainerValue": "AMD Radeon"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40506GB R5 7640HS 16",
+            "PhwebDescription": "BUIDS DSCRTX40506GB R5 7640HS 16",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40708GB R7 7840HS ALU 16",
+            "PhwebDescription": "BUIDS DSCRTX40708GB R7 7840HS ALU 16",
             "ContainerValue": "AMD Radeon"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40708GB R7 7840HS ALU 16",
+            "PhwebDescription": "BUIDS DSCRTX40708GB R7 7840HS ALU 16",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSC RTX 3050 4GB i5-12500H 15",
+            "PhwebDescription": "BUIDS DSC RTX 3050 4GB i5-12500H 15",
             "ContainerValue": "Intel Iris"
         },
         {
-            "PhwebDescription": "BU IDS DSC RTX 3050 4GB i5-12450H 15",
+            "PhwebDescription": "BUIDS DSC RTX 3050 4GB i5-12450H 15",
             "ContainerValue": "Intel UHD"
         },
         {
-            "PhwebDescription": "BU IDS DSC RTX 3050 4GB i5-12500H 15",
+            "PhwebDescription": "BUIDS DSC RTX 3050 4GB i5-12500H 15",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSC RTX 3050 4GB i5-12450H 15",
+            "PhwebDescription": "BUIDS DSC RTX 3050 4GB i5-12450H 15",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40506GB i5-13420H 16",
+            "PhwebDescription": "BUIDS DSCRTX40506GB i5-13420H 16",
             "ContainerValue": "Intel UHD"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40506GB i5-13420H 16",
+            "PhwebDescription": "BUIDS DSCRTX40506GB i5-13420H 16",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDSDSCRTX3070TiMQ8GBfGSynci9-12900H16",
+            "PhwebDescription": "BUIDSDSCRTX3070TiMQ8GBfGSynci9-12900H16",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40708GB R7 7840H ALU 16",
+            "PhwebDescription": "BUIDS DSCRTX40708GB R7 7840H ALU 16",
             "ContainerValue": "AMD Radeon"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40708GB R7 7840H ALU 16",
+            "PhwebDescription": "BUIDS DSCRTX40708GB R7 7840H ALU 16",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40608GB i5-13500HX 16",
+            "PhwebDescription": "BUIDS DSCRTX40608GB i5-13500HX 16",
             "ContainerValue": "Intel UHD"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40608GB i9-13900HX 16",
+            "PhwebDescription": "BUIDS DSCRTX40608GB i9-13900HX 16",
             "ContainerValue": "Intel UHD"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40608GB i9-13900HX 16",
+            "PhwebDescription": "BUIDS DSCRTX40608GB i9-13900HX 16",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40608GB fGSync i9-13900HX16",
+            "PhwebDescription": "BUIDS DSCRTX40608GB fGSync i9-13900HX16",
             "ContainerValue": "Intel UHD"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40608GB fGSync i9-13900HX16",
+            "PhwebDescription": "BUIDS DSCRTX40608GB fGSync i9-13900HX16",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSC 6GB Ryzen7 5800H 16",
+            "PhwebDescription": "BUIDS DSC 6GB Ryzen7 5800H 16",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSCPHN21X26GB i7-13700H 15",
+            "PhwebDescription": "BUIDS DSCPHN21X26GB i7-13700H 15",
             "ContainerValue": "Intel Iris"
         },
         {
-            "PhwebDescription": "BU IDS DSCPHN21X26GB i7-13700H 15",
+            "PhwebDescription": "BUIDS DSCPHN21X26GB i7-13700H 15",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40708GB fGSync i7-13700HX16",
+            "PhwebDescription": "BUIDS DSCRTX40708GB fGSync i7-13700HX16",
             "ContainerValue": "Intel UHD"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40708GB fGSync i7-13700HX16",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX408012GB i7-13700HX 16",
+            "PhwebDescription": "BUIDS DSCRTX408012GB i7-13700HX 16",
             "ContainerValue": "Intel UHD"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX408012GB i7-13700HX 16",
+            "PhwebDescription": "BUIDS DSCRTX408012GB i7-13700HX 16",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40506GB R7 7840H ALU 16",
+            "PhwebDescription": "BUIDS DSCRTX40506GB R7 7840H ALU 16",
             "ContainerValue": "AMD Radeon"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40506GB R7 7840H ALU 16",
+            "PhwebDescription": "BUIDS DSCRTX40506GB R7 7840H ALU 16",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40608GB R7 7840H ALU 16",
+            "PhwebDescription": "BUIDS DSCRTX40608GB R7 7840H ALU 16",
             "ContainerValue": "AMD Radeon"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40608GB R7 7840H ALU 16",
+            "PhwebDescription": "BUIDS DSCRTX40608GB R7 7840H ALU 16",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40708GB fGSync i9-13900HX16",
+            "PhwebDescription": "BUIDS DSCRTX40708GB fGSync i9-13900HX16",
             "ContainerValue": "Intel UHD"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40708GB fGSync i9-13900HX16",
+            "PhwebDescription": "BUIDS DSCRTX40708GB fGSync i9-13900HX16",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSC RTX 3070Ti MQ 8GB R7 6800H 16",
+            "PhwebDescription": "BUIDS DSC RTX 3070Ti MQ 8GB R7 6800H 16",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX3080Ti16GBfGSynci9-12900H17",
+            "PhwebDescription": "BUIDS DSCRTX3080Ti16GBfGSynci9-12900H17",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSCPHN21X68GB i7-13700HX 17-cm2",
+            "PhwebDescription": "BUIDS DSCPHN21X68GB i7-13700HX 17-cm2",
             "ContainerValue": "Intel UHD"
         },
         {
-            "PhwebDescription": "BU IDS DSCPHN21X68GB i7-13700HX 17-cm2",
+            "PhwebDescription": "BUIDS DSCPHN21X68GB i7-13700HX 17-cm2",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40608GB i7-13700HX 17-cm2",
+            "PhwebDescription": "BUIDS DSCRTX40608GB i7-13700HX 17-cm2",
             "ContainerValue": "Intel UHD"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40608GB i7-13700HX 17-cm2",
+            "PhwebDescription": "BUIDS DSCRTX40608GB i7-13700HX 17-cm2",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40506GB i5-13500H 16",
+            "PhwebDescription": "BUIDS DSCRTX40506GB i5-13500H 16",
             "ContainerValue": "Intel Iris"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40506GB i5-13500H 16",
+            "PhwebDescription": "BUIDS DSCRTX40506GB i5-13500H 16",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSCPHN21X26GB i5-13500H 15",
+            "PhwebDescription": "BUIDS DSCPHN21X26GB i5-13500H 15",
             "ContainerValue": "Intel Iris"
         },
         {
-            "PhwebDescription": "BU IDS DSCPHN21X26GB i5-13500H 15",
+            "PhwebDescription": "BUIDS DSCPHN21X26GB i5-13500H 15",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40506GB R7 7840HS ALU 16",
+            "PhwebDescription": "BUIDS DSCRTX40506GB R7 7840HS ALU 16",
             "ContainerValue": "AMD Radeon"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40506GB R7 7840HS ALU 16",
+            "PhwebDescription": "BUIDS DSCRTX40506GB R7 7840HS ALU 16",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DCSPHN21X48GB i7-13700H 16",
+            "PhwebDescription": "BUIDS DCSPHN21X48GB i7-13700H 16",
             "ContainerValue": "Intel Iris"
         },
         {
-            "PhwebDescription": "BU IDS DCSPHN21X48GB i7-13700H 16",
+            "PhwebDescription": "BUIDS DCSPHN21X48GB i7-13700H 16",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX30506GB i7-13700H 16",
+            "PhwebDescription": "BUIDS DSCRTX30506GB i7-13700H 16",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40506GB i7-13700H 16",
+            "PhwebDescription": "BUIDS DSCRTX40506GB i7-13700H 16",
             "ContainerValue": "Intel Iris"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40708GB i7-13700H 16",
+            "PhwebDescription": "BUIDS DSCRTX40708GB i7-13700H 16",
             "ContainerValue": "Intel Iris"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40708GB i7-13700H 16",
+            "PhwebDescription": "BUIDS DSCRTX40708GB i7-13700H 16",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSC RTX 3060 6GB i7-12700H 16",
+            "PhwebDescription": "BUIDS DSC RTX 3060 6GB i7-12700H 16",
             "ContainerValue": "Intel Iris"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40608GB R7 7840HS ALU 16",
+            "PhwebDescription": "BUIDS DSCRTX40608GB R7 7840HS ALU 16",
             "ContainerValue": "AMD Radeon"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40608GB R7 7840HS ALU 16",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40506GB i5-12500H 15",
+            "PhwebDescription": "BUIDS DSCRTX40506GB i5-12500H 15",
             "ContainerValue": "Intel Iris"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40506GB i5-12500H 15",
+            "PhwebDescription": "BUIDS DSCRTX40506GB i5-12500H 15",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40608GB i5-12500H 15",
+            "PhwebDescription": "BUIDS DSCRTX40608GB i5-12500H 15",
             "ContainerValue": "Intel Iris"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40608GB i5-12500H 15",
+            "PhwebDescription": "BUIDS DSCRTX40608GB i5-12500H 15",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSC RX 6500M 4GB Ryzen5 5600H 15",
+            "PhwebDescription": "BUIDS DSC RX 6500M 4GB Ryzen5 5600H 15",
             "ContainerValue": "AMD Radeon"
         },
         {
-            "PhwebDescription": "BU IDS DSC RTX 3050Ti 4GB i7-12700H 16",
+            "PhwebDescription": "BUIDS DSC RTX 3050Ti 4GB i7-12700H 16",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSC RTX 3050Ti 4GB i5-12500H 16",
+            "PhwebDescription": "BUIDS DSC RTX 3050Ti 4GB i5-12500H 16",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSC RTX 3050 4GB i5-12500H 16",
+            "PhwebDescription": "BUIDS DSC RTX 3050 4GB i5-12500H 16",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX409016GBfGSynci7-13700HX17-",
+            "PhwebDescription": "BUIDS DSCRTX409016GBfGSynci7-13700HX17-",
             "ContainerValue": "Intel UHD"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX409016GBfGSynci7-13700HX17-",
+            "PhwebDescription": "BUIDS DSCRTX409016GBfGSynci7-13700HX17-",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSC RTX 3050Ti 4GB R5 6600H 16",
+            "PhwebDescription": "BUIDS DSC RTX 3050Ti 4GB R5 6600H 16",
             "ContainerValue": "AMD Radeon"
         },
         {
-            "PhwebDescription": "BU IDS DSC RTX 3050Ti 4GB R5 6600H 16",
+            "PhwebDescription": "BUIDS DSC RTX 3050Ti 4GB R5 6600H 16",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSC RTX 3050 4GB Ryzen5 5600H 15",
+            "PhwebDescription": "BUIDS DSC RTX 3050 4GB Ryzen5 5600H 15",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSC GTX 1650 4GB i5-11400H 16",
+            "PhwebDescription": "BUIDS DSC GTX 1650 4GB i5-11400H 16",
             "ContainerValue": "Intel UHD"
         },
         {
-            "PhwebDescription": "BU IDS DSC GTX 1650 4GB i5-11400H 16",
+            "PhwebDescription": "BUIDS DSC GTX 1650 4GB i5-11400H 16",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSC RTX 3050 4GB Ryzen7 5800H 15",
+            "PhwebDescription": "BUIDS DSC RTX 3050 4GB Ryzen7 5800H 15",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSC GTX 1650 4GB Ryzen7 5800H 15",
+            "PhwebDescription": "BUIDS DSC GTX 1650 4GB Ryzen7 5800H 15",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSC 6GB PH i7-xxxx 16",
+            "PhwebDescription": "BUIDS DSC 6GB PH i7-xxxx 16",
             "ContainerValue": "Intel UHD"
         },
         {
-            "PhwebDescription": "BU IDS DSC 4GB PH i5-xxxxH 16",
+            "PhwebDescription": "BUIDS DSC 4GB PH i5-xxxxH 16",
             "ContainerValue": "Intel UHD"
         },
         {
-            "PhwebDescription": "BU IDS DSC 4GB PH i5-xxxxH 16",
+            "PhwebDescription": "BUIDS DSC 4GB PH i5-xxxxH 16",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40608GB i7-13620H 16",
+            "PhwebDescription": "BUIDS DSCRTX40608GB i7-13620H 16",
             "ContainerValue": "Intel UHD"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40608GB i7-13620H 16",
+            "PhwebDescription": "BUIDS DSCRTX40608GB i7-13620H 16",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40506GB R5 7640HS PLA 16",
+            "PhwebDescription": "BUIDS DSCRTX40506GB R5 7640HS PLA 16",
             "ContainerValue": "AMD Radeon"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40506GB R5 7640HS PLA 16",
+            "PhwebDescription": "BUIDS DSCRTX40506GB R5 7640HS PLA 16",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40608GB R7 7840HS PLA 16",
+            "PhwebDescription": "BUIDS DSCRTX40608GB R7 7840HS PLA 16",
             "ContainerValue": "AMD Radeon"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40608GB R7 7840HS PLA 16",
+            "PhwebDescription": "BUIDS DSCRTX40608GB R7 7840HS PLA 16",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSC RTX 3050 4GB i7-12650H 15",
+            "PhwebDescription": "BUIDS DSC RTX 3050 4GB i7-12650H 15",
             "ContainerValue": "Intel UHD"
         },
         {
-            "PhwebDescription": "BU IDS DSC RTX 3050 4GB i7-12650H 15",
+            "PhwebDescription": "BUIDS DSC RTX 3050 4GB i7-12650H 15",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSC RTX 3050 4GB i7-12700H 16",
+            "PhwebDescription": "BUIDS DSC RTX 3050 4GB i7-12700H 16",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSC GTX 1650 4GB i5-12500H 16",
+            "PhwebDescription": "BUIDS DSC GTX 1650 4GB i5-12500H 16",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSC GTX 1650 4GB i7-12700H 16",
+            "PhwebDescription": "BUIDS DSC GTX 1650 4GB i7-12700H 16",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40506GB fGSync i7-13700HX16",
+            "PhwebDescription": "BUIDS DSCRTX40506GB fGSync i7-13700HX16",
             "ContainerValue": "Intel UHD"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40506GB fGSync i7-13700HX16",
+            "PhwebDescription": "BUIDS DSCRTX40506GB fGSync i7-13700HX16",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40506GB i7-13700HX 16",
+            "PhwebDescription": "BUIDS DSCRTX40506GB i7-13700HX 16",
             "ContainerValue": "Intel UHD"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40506GB i5-13500HX 16",
+            "PhwebDescription": "BUIDS DSCRTX40506GB i5-13500HX 16",
             "ContainerValue": "Intel UHD"
         },
         {
-            "PhwebDescription": "BU IDS DCSPHN2P0R6GB i5-13500H 15",
+            "PhwebDescription": "BUIDS DCSPHN2P0R6GB i5-13500H 15",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX30506GB i7-13620H 15",
+            "PhwebDescription": "BUIDS DSCRTX30506GB i7-13620H 15",
             "ContainerValue": "Intel UHD"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX30506GB i7-13620H 15",
+            "PhwebDescription": "BUIDS DSCRTX30506GB i7-13620H 15",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSC RTX 3050Ti 4GB i7-12700H 15",
+            "PhwebDescription": "BUIDS DSC RTX 3050Ti 4GB i7-12700H 15",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSC RTX 3050 4GB R5 6600H 16",
+            "PhwebDescription": "BUIDS DSC RTX 3050 4GB R5 6600H 16",
             "ContainerValue": "AMD Radeon"
         },
         {
-            "PhwebDescription": "BU IDS DSC RTX 3050 4GB R5 6600H 16",
+            "PhwebDescription": "BUIDS DSC RTX 3050 4GB R5 6600H 16",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40506GB i7-13620H 16",
+            "PhwebDescription": "BUIDS DSCRTX40506GB i7-13620H 16",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40506GB R5 7640HS ALU 16",
+            "PhwebDescription": "BUIDS DSCRTX40506GB R5 7640HS ALU 16",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40506GB R7 7840HS PLA 16",
+            "PhwebDescription": "BUIDS DSCRTX40506GB R7 7840HS PLA 16",
             "ContainerValue": "AMD Radeon"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40506GB R7 7840HS PLA 16",
+            "PhwebDescription": "BUIDS DSCRTX40506GB R7 7840HS PLA 16",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSC 6GB Ryzen5 5600H 16",
+            "PhwebDescription": "BUIDS DSC 6GB Ryzen5 5600H 16",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX30506GB R7 7840H 16",
+            "PhwebDescription": "BUIDS DSCRTX30506GB R7 7840H 16",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40608GB R7 7840H 16",
+            "PhwebDescription": "BUIDS DSCRTX40608GB R7 7840H 16",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40708GB R7 7840H 16",
+            "PhwebDescription": "BUIDS DSCRTX40708GB R7 7840H 16",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40506GB R5 7640H 16",
+            "PhwebDescription": "BUIDS DSCRTX40506GB R5 7640H 16",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40506GB R7 7840H 16",
+            "PhwebDescription": "BUIDS DSCRTX40506GB R7 7840H 16",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "CPU INTL i7-12700 12C 2.10 65W",
-            "ContainerValue": "Intel UHD"
+            "PhwebDescription": "BUIDS DSCRTX20504GB PHi7xxxxU 17",
+            "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "CPU INTL i5-12400 6C 2.50 65W",
-            "ContainerValue": "Intel UHD"
+            "PhwebDescription": "BUIDS DSCRTX40608GB i7-13700H 16",
+            "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS OPP 22-dd2 21.5 i5-1235U",
+            "PhwebDescription": "BUIDS DSCRTX40608GB i7-13700H fOLED 16",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTX40608GB i9-13900H fOLED 16",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTX20504GB i7-1255U 17",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDS DSC 2GB PH i5-xxxx 16GB 14",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTX30504GB i7-1355U 16GB 15",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTX30504GB i5-1335U 16GB 15",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTX20504GB i7-1255U 15",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCArcA370M4GB PHi7xxxx fOLED 16",
+            "ContainerValue": "Intel Arc"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCMX5502GB i5-1335U 16GB 14",
             "ContainerValue": "Intel Iris"
         },
         {
-            "PhwebDescription": "BU IDS OPP 24-cb1 23.8 i7-11xx",
+            "PhwebDescription": "BUIDS DSCMX5502GB i5-1335U 16GB 14",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTX40608GB i9-13900H 16",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTX20504GB i7-1355U16GBfOLED14",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCArcA370M4GB PHi5xxxx 16",
+            "ContainerValue": "Intel Arc"
+        },
+        {
+            "PhwebDescription": "BUIDS DSC Arc A370M 4GB i5-12500H 16",
             "ContainerValue": "Intel Iris"
         },
         {
-            "PhwebDescription": "BU IDS DSCMX5502GB i7-1355U 15",
+            "PhwebDescription": "BUIDS DSCArc4GB PHi7RM 32GB fOLED 16",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA GeF GTX 1650 MQ 4GB GDDR6 G3",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DCSPHN21X48GB PH i7-xxxxH 16",
-            "ContainerValue": "Intel UHD"
-        },
-        {
-            "PhwebDescription": "BU IDS DCSPHN21X48GB PH i7-xxxxH 16",
+            "PhwebDescription": "GFX NVIDIA GeF 8GB GDDR6 RKL-S",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DCSPHN21X912GB PH i7-xxxxH 16",
-            "ContainerValue": "Intel UHD"
-        },
-        {
-            "PhwebDescription": "BU IDS DCSPHN21X912GB PH i7-xxxxH 16",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DCSPHN2P0R6GB R5 7640HS 16",
+            "PhwebDescription": "GFX AMD Rdn RX 6700XT 12GB GDDR6",
             "ContainerValue": "AMD Radeon"
         },
         {
-            "PhwebDescription": "BU IDS DCSPHN2P0R6GB R5 7640HS 16",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DCSPHN2P0R6GB R7 7840HS 16",
+            "PhwebDescription": "GFX AMD Rdn RX 6500XT 8GB GDDR6",
             "ContainerValue": "AMD Radeon"
         },
         {
-            "PhwebDescription": "BU IDS DCSPHN2P0R6GB R7 7840HS 16",
+            "PhwebDescription": "BUIDSDSCRTX3080Ti16GBfGSynci9-12900HX17",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DCSPHN2P0R6GB i7-13700H 15",
+            "PhwebDescription": "BUIDS DSCRTX30506GB i5-13420H 15",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTX30506GB i5-13420H 15",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DCSPHN21X48GB PHi7xxxx 16",
+            "PhwebDescription": "BUIDS DSCRTX20504GB i5-1335U16GBfOLED14",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSC RTX 3070TiMQ8GBRyzen96900HX16",
+            "PhwebDescription": "BUIDS DSCArc4GB PHi7RM 16GB 16",
+            "ContainerValue": "Intel Arc"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTX40506GB i7-13700H 16",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSC GTX xxx 4GB i7-11370H 15",
+            "PhwebDescription": "BUIDS DSCRTX30506GB i7-13700H 15",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSC RTX 3050Ti 4GB R7 6800H 16",
+            "PhwebDescription": "BUIDS DSCRTX30506GB i5-13500H 16",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSC RTX 3060 6GB R7 6800H 16",
+            "PhwebDescription": "BUIDS DSC MX550 2GB i5-1235U nSDC 14",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDS DSC RTX 3050 4GB R7 6800H 16",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BUIDS DSC RTX 3050 4GB R7 6800H 16",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDS DSC RTX 3050Ti 4GB i5-12450H 15",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDS DSC GTX 1650 4GB i5-12450H 15",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BUIDS DSC GTX 1650 4GB i5-12450H 15",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDS DSC RTX 3050Ti 4GB i7-12650H 15",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BUIDS DSC RTX 3050Ti 4GB i7-12650H 15",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA GeF RTX 4060 Ti 8GB GDDR6",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA GeF RTX 4070 12GB GDDR6X",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDS DSC RTX 3050Ti 4GB PH R7 8C 16",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BUIDS DSC RTX 3050Ti 4GB PH R7 8C 16",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTX30506GB i5-13500H 16",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTX20504GB i7-1255U16GBfOLED14",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDS DSC Arc A370M 4GB i7-12700H 16",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BUIDS DSCRTX3080Ti16GBfGSynci7-12700H17",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDS DSC RTX 3070Ti 8GB i7-12700H 17",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDS DSC RTX 3060 6GB i5-11400H 16",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BUIDS DSC RTX 3060 6GB i5-11400H 16",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDS DSC Arc A370M 4GBi7-12700HfOLED16",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "GFX AMD Rdn RX 6600XT 8GB GDDR6",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA GeF RTX 3080 10GB GDDR6X",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDS DSC RTX 3070TiMQ8GBRyzen96900HX16",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "GFX AMD Rdn 12GB GDDR6",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA GeF RTX 3080Ti 12GB GDDR6X",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA GeF RTX 3090 24GB GDDR6X",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDS DSC GTX xxx 4GB i7-11370H 15",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDS DSC RTX 3050Ti 4GB R7 6800H 16",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BUIDS DSC RTX 3060 6GB R7 6800H 16",
             "ContainerValue": "NVIDIA GeForce"
         }
     ]
