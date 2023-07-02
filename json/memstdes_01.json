@@ -201,10 +201,6 @@
       "ContainerValue": "16 GB LPDDR5-6400 MHz RAM (onboard)"
     },
     {
-      "PhwebDescription": "RAM 16GB (2x8GB) DDR4 3200 CR",
-      "ContainerValue": "16 GB DDR4-3200 MHz RAM (2 x 8 GB)"
-    },
-    {
       "PhwebDescription": "BUIDS UMA PH i5-RM 16GB x360 830 G9",
       "ContainerValue": "16 GB DDR5-4800 MHz RAM (onboard)"
     },
@@ -363,10 +359,6 @@
     {
       "PhwebDescription": "RAM 16GB(1x16GB) DDR4 2933 DIMM",
       "ContainerValue": "16 GB DDR4-3200 MHz RAM (1 x 16 GB)"
-    },
-    {
-      "PhwebDescription": "RAM 16GB (2x8GB) DDR4 3200 SODIMM",
-      "ContainerValue": "16 GB DDR4-3200 MHz RAM (2 x 8 GB)"
     },
     {
       "PhwebDescription": "RAM 16GB (1x16GB) DDR4 2666 NECC",
@@ -637,10 +629,6 @@
       "ContainerValue": "8 GB LPDDR4x-4266 MHz RAM (onboard)"
     },
     {
-      "PhwebDescription": "RAM 16GB (2x8GB) DDR4 3200 NECC",
-      "ContainerValue": "16 GB DDR4-3200 MHz RAM (2 x 8 GB)"
-    },
-    {
       "PhwebDescription": "BUIDS UMA PHi7xxxx 16GB 16",
       "ContainerValue": "16 GB DDR4-3200 MHz RAM (onboard)"
     },
@@ -737,15 +725,11 @@
       "ContainerValue": "16 GB DDR4-3200 MHz RAM (onboard)"
     },
     {
-      "PhwebDescription": "RAM 16GB (2x8GB) DDR4 3200 SODIMM",
-      "ContainerValue": "16 GB DDR4-3200 MHz RAM (1 x 16 GB)"
-    },
-    {
       "PhwebDescription": "BUIDS UMA i5-1235U 8GB c640 G3",
       "ContainerValue": "8 GB LPDDR4x-4266 MHz RAM (onboard)"
     },
     {
-      "PhwebDescription": " 32GB (2x16GB)  DDR4 3200",
+      "PhwebDescription": "32GB (2x16GB)  DDR4 3200",
       "ContainerValue": "32 GB DDR4-3200 MHz RAM (2 x 16 GB)"
     },
     {
@@ -1377,10 +1361,6 @@
       "ContainerValue": "32 GB LPDDR5-6400 MHz RAM (onboard)"
     },
     {
-      "PhwebDescription": "RAM 16GB (2x8GB) DDR4 3200 SODIMM",
-      "ContainerValue": "16 GB DDR4-3200 RAM (2 x 8 GB)"
-    },
-    {
       "PhwebDescription": "RAM 32GB (2x16GB)  DDR4 2933",
       "ContainerValue": "32 GB DDR4-2933 MHz RAM (2 x 16 GB)"
     },
@@ -1413,16 +1393,12 @@
       "ContainerValue": "32 GB LPDDR5-3200 MHz RAM (onboard)"
     },
     {
-      "PhwebDescription": " 16GB (2x8GB)  DDR4 3200 NECC",
+      "PhwebDescription": "16GB (2x8GB)  DDR4 3200 NECC",
       "ContainerValue": "16 GB DDR4-3200 MHz RAM (2 x 8 GB)"
     },
     {
       "PhwebDescription": "BUIDS OPP 27-cr0 27 8GB R3-7320U",
       "ContainerValue": "8 GB LPDDR5-5500 MHz RAM (onboard)"
-    },
-    {
-      "PhwebDescription": "RAM 16GB (2x8GB) DDR4 3200 NECC",
-      "ContainerValue": "16 GB DDR4-3200 RAM (2 x 8 GB)"
     },
     {
       "PhwebDescription": "RAM 64GB (4x16GB) DDR5 4000",
@@ -1475,10 +1451,6 @@
     {
       "PhwebDescription": "BUIDS UMA Ath7120U 8GB 15",
       "ContainerValue": "8 GB LPDDR5-5500 MHz RAM (onboard)"
-    },
-    {
-      "PhwebDescription": "RAM 16GB (2x8GB) DDR4 3200 CR",
-      "ContainerValue": "16 GB DDR4-3200 RAM (2 x 8 GB)"
     },
     {
       "PhwebDescription": "BUIDS UMA Ath7120U 8GB 14",
@@ -1973,7 +1945,7 @@
       "ContainerValue": "8 GB LPDDR5-6400 MHz RAM (onboard)"
     },
     {
-      "PhwebDescription": " 12GB (1x8GB+1x4GB)  DDR4 3200 NECC",
+      "PhwebDescription": "12GB (1x8GB+1x4GB)  DDR4 3200 NECC",
       "ContainerValue": "12 GB DDR4-3200 MHz RAM (1 x 8 GB, 1 x 4 GB)"
     },
     {

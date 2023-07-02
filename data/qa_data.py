@@ -16,6 +16,7 @@ def clean_report(file):
 
         df = df[df['ContainerValue'] != '[BLANK]']
         df.replace('\u00A0', ' ', regex=True, inplace=True)
+        df.loc[df['ContainerValue'].str.endswith(';'), 'ContainerValue'] = df['ContainerValue'].str.slice(stop=-1)
         df['PhwebDescription'] = df['PhwebDescription'].str.lstrip()
         df['ContainerValue'] = df['ContainerValue'].astype(str)
 
@@ -42,7 +43,6 @@ def clean_report(file):
                 processData(os.path.join('/home/garciagi/SCS_Tool/json', x), container_name, container_df, df)
                 #processData(os.path.join('json', x), container_name, container_df, df)
 
-        df.loc[df['ContainerValue'].str.endswith(';'), 'ContainerValue'] = df['ContainerValue'].str.slice(stop=-1)
         df.to_excel('/home/garciagi/SCS_Tool/SCS_QA.xlsx', index=False)
         #df.to_excel('SCS_QA.xlsx', index=False)
         formateData()

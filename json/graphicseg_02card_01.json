@@ -357,7 +357,7 @@
       "ContainerValue": "AMD Radeon™ Pro WX 3200 (4 GB GDDR5 dedicated)"
     },
     {
-      "PhwebDescription": " CHAS OPT Elite SFF 800 G9 Non ODD Gskt",
+      "PhwebDescription": "CHAS OPT Elite SFF 800 G9 Non ODD Gskt",
       "ContainerValue": "NVIDIA® T400 (2 GB GDDR6 dedicated)"
     },
     {
@@ -1406,7 +1406,7 @@
     },
     {
       "PhwebDescription": "GFX AMD Rdn RX 6500XT 8GB GDDR6",
-      "ContainerValue": " AMD Radeon™ RX 6500 XT Graphics (8 GB GDDR6 dedicated)"
+      "ContainerValue": "AMD Radeon™ RX 6500 XT Graphics (8 GB GDDR6 dedicated)"
     },
     {
       "PhwebDescription": "BUIDSDSCRTX3080Ti16GBfGSynci9-12900HX17",

@@ -49,7 +49,7 @@
             "ContainerValue": "Transfer rates up to 3200 MT/s."
         },
         {
-            "PhwebDescription": " 32GB (2x16GB)  DDR4 3200",
+            "PhwebDescription": "32GB (2x16GB)  DDR4 3200",
             "ContainerValue": "Transfer rates up to 3200 MT/s."
         },
         {
@@ -109,7 +109,7 @@
             "ContainerValue": "Transfer rates up to 5500 MT/s."
         },
         {
-            "PhwebDescription": " 16GB (2x8GB)  DDR4 3200 NECC",
+            "PhwebDescription": "16GB (2x8GB)  DDR4 3200 NECC",
             "ContainerValue": "Transfer rates up to 3200 MT/s."
         },
         {
@@ -589,7 +589,7 @@
             "ContainerValue": "Transfer rates up to 3600 MT/s."
         },
         {
-            "PhwebDescription": " 12GB (1x8GB+1x4GB)  DDR4 3200 NECC",
+            "PhwebDescription": "12GB (1x8GB+1x4GB)  DDR4 3200 NECC",
             "ContainerValue": "Transfer rates up to 3200 MT/s."
         },
         {

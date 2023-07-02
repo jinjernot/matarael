@@ -305,10 +305,6 @@
             "ContainerValue": "16"
         },
         {
-            "PhwebDescription": "RAM 16GB (2x8GB) DDR5 4800 CR",
-            "ContainerValue": "16"
-        },
-        {
             "PhwebDescription": "BUIDS UMA i7-1365U 16GB TIPDx3601040G10",
             "ContainerValue": "16"
         },
@@ -415,10 +411,6 @@
         {
             "PhwebDescription": "RAM 32GB (1x32GB) DDR5 4800 NECC",
             "ContainerValue": "32"
-        },
-        {
-            "PhwebDescription": "RAM 16GB (2x8GB) DDR5 4800 NECC",
-            "ContainerValue": "16"
         },
         {
             "PhwebDescription": "RAM 16GB(1x16GB) DDR4 3200 UDIMM NECC",
@@ -621,7 +613,7 @@
             "ContainerValue": "8"
         },
         {
-            "PhwebDescription": " 32GB (2x16GB)  DDR4 3200",
+            "PhwebDescription": "32GB (2x16GB)  DDR4 3200",
             "ContainerValue": "32"
         },
         {
@@ -1253,7 +1245,7 @@
             "ContainerValue": "32"
         },
         {
-            "PhwebDescription": " 16GB (2x8GB)  DDR4 3200 NECC",
+            "PhwebDescription": "16GB (2x8GB)  DDR4 3200 NECC",
             "ContainerValue": "16"
         },
         {
@@ -1621,7 +1613,7 @@
             "ContainerValue": "64"
         },
         {
-            "PhwebDescription": " 12GB (1x8GB+1x4GB)  DDR4 3200 NECC",
+            "PhwebDescription": "12GB (1x8GB+1x4GB)  DDR4 3200 NECC",
             "ContainerValue": "12"
         },
         {

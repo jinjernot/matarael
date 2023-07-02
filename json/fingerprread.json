@@ -1,11 +1,11 @@
 {
     "fingerprread": [
         {
-            "PhwebDescription": " SEC Fingerprint Sensor",
+            "PhwebDescription": "SEC Fingerprint Sensor",
             "ContainerValue": "Fingerprint reader"
         },
         {
-            "PhwebDescription": " HP SEC Fingerprint Sensor",
+            "PhwebDescription": "HP SEC Fingerprint Sensor",
             "ContainerValue": "Fingerprint reader"
         }
     ]
