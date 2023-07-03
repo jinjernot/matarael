@@ -67,28 +67,54 @@
   color: black;
 }
 
-.upload-button {
+.custom-button {
   border: 1px solid #e6e6e6;
-  padding: 5px;
+  background-color: #0096d6;
+  color: #fff;  
+  border-radius: 5px; 
+  outline: none; 
+  transition: background-color 0.3s ease-in-out; 
+  width: 290px;
+  height: 40px;
+  font-size: 16px;
 }
 
-.custom-file-input {
-  border: 1px solid #e6e6e6;
+.custom-button:hover {
+  background-color: #0081b3;
 }
 
-.input-file {
-  position: absolute;
-  opacity: 0;
+.custom-button:focus {
+  border-color: #bfbfbf; 
+}
+
+.custom-input {
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  padding: 10px 20px; 
+  outline: none; 
+  height: 30px;
+  width: 250px; 
+  font-size: 16px;
+}
+
+.custom-input:focus {
+  border-color: #bfbfbf;
+}
+
+.custom-input:focus {
+  border-color: #bfbfbf; 
 }
 
 table {
   margin: 0 auto;
-  
 }
 
-td{
+td {
   border: 2px solid #0096d6;
-  background-color: #549ef7;
-  padding: 100px;
-  border-radius: 50px;
+  background-color: #ffffff;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 100px;
+  padding-bottom: 200px;
+  border-radius: 25px;
 }
