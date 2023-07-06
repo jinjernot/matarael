@@ -835,6 +835,34 @@
         {
             "PhwebDescription": "BUIDS UMA i5-13500H 16GB fOLED 14",
             "ContainerValue": "13th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-12xxx P28 14",
+            "ContainerValue": "12th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1260P fBL 14",
+            "ContainerValue": "12th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-12xxx P28 14",
+            "ContainerValue": "12th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i3-12xxx U15 14",
+            "ContainerValue": "12th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1240P fBL 14",
+            "ContainerValue": "12th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-12xxx U15 14",
+            "ContainerValue": "12th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-12xxx U15 14",
+            "ContainerValue": "12th Generation"
         }
     ]
 }

@@ -1367,6 +1367,10 @@
         {
             "PhwebDescription": "ID MNS ALU FPR US layout",
             "ContainerValue": "Mineral silver aluminum cover and keyboard frame, mineral silver base"
+        },
+        {
+            "PhwebDescription": "ID SFW PLA wHDC TNR FPR JPN layout",
+            "ContainerValue": "Snow flake white cover and base, snow white keyboard frame"
         }
     ]
 }

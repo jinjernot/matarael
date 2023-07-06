@@ -2,7 +2,7 @@
     "facet_environ": [
         {
             "PhwebDescription": "ENERGY STAR Certified",
-            "ContainerValue": "ENERGY STAR® certified EPEAT® registered"
+            "ContainerValue": "ENERGY STAR® certified; EPEAT® registered"
         },
         {
             "PhwebDescription": "Electronic TCO Certified labeling",
@@ -34,7 +34,7 @@
         },
         {
             "PhwebDescription": "ENERGY STAR Certified",
-            "ContainerValue": "ENERGY STAR® certified EPEAT® registered"
+            "ContainerValue": "ENERGY STAR® certified; EPEAT® registered"
         },
         {
             "PhwebDescription": "LBL Electronic ENERGY STAR",
@@ -46,15 +46,15 @@
         },
         {
             "PhwebDescription": "LBL Electronic ENERGY STAR",
-            "ContainerValue": "ENERGY STAR® certified EPEAT® registered"
+            "ContainerValue": "ENERGY STAR® certified; EPEAT® registered"
         },
         {
             "PhwebDescription": "FLAG EPEAT",
-            "ContainerValue": "ENERGY STAR® certified EPEAT® registered"
+            "ContainerValue": "ENERGY STAR® certified; EPEAT® registered"
         },
         {
             "PhwebDescription": "FLAG ENERGY STAR Qualified",
-            "ContainerValue": "ENERGY STAR® certified EPEAT® registered"
+            "ContainerValue": "ENERGY STAR® certified; EPEAT® registered"
         },
         {
             "PhwebDescription": "LBL ENERGY STAR Certified",
@@ -62,11 +62,11 @@
         },
         {
             "PhwebDescription": "FLAG Energy Star PHTM",
-            "ContainerValue": "ENERGY STAR® certified EPEAT® registered"
+            "ContainerValue": "ENERGY STAR® certified; EPEAT® registered"
         },
         {
             "PhwebDescription": "LBL ENERGY STAR Certified",
-            "ContainerValue": "ENERGY STAR® certified EPEAT® registered"
+            "ContainerValue": "ENERGY STAR® certified; EPEAT® registered"
         },
         {
             "PhwebDescription": "Electronic TCO Edge Certified labeling",
@@ -78,11 +78,11 @@
         },
         {
             "PhwebDescription": "Electronic Energy Star labeling (EStar)",
-            "ContainerValue": "ENERGY STAR® certified EPEAT® registered"
+            "ContainerValue": "ENERGY STAR® certified; EPEAT® registered"
         },
         {
             "PhwebDescription": "LBL ENERGY STAR Certified",
-            "ContainerValue": "ENERGY STAR® certified EPEAT® registered"
+            "ContainerValue": "ENERGY STAR® certified; EPEAT® registered"
         },
         {
             "PhwebDescription": "P/S 350W ESTAR+CEC",
@@ -90,11 +90,11 @@
         },
         {
             "PhwebDescription": "FLAG CarePaq 0/0/1 APJ",
-            "ContainerValue": "ENERGY STAR® certified EPEAT® registered"
+            "ContainerValue": "ENERGY STAR® certified; EPEAT® registered"
         },
         {
             "PhwebDescription": "FLAG OLS PHTM",
-            "ContainerValue": "ENERGY STAR® certified EPEAT® registered"
+            "ContainerValue": "ENERGY STAR® certified; EPEAT® registered"
         }
     ]
 }

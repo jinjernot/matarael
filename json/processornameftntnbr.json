@@ -5079,6 +5079,34 @@
         {
             "PhwebDescription": "BUIDS DSC RTX 3060 6GB R7 6800H 16",
             "ContainerValue": "[6,7]"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i3-12xxx U15 14",
+            "ContainerValue": "[6,7]"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-12xxx U15 14",
+            "ContainerValue": "[6,7]"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-12xxx P28 14",
+            "ContainerValue": "[6,7]"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-12xxx P28 14",
+            "ContainerValue": "[6,7]"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1260P fBL 14",
+            "ContainerValue": "[6,7]"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1240P fBL 14",
+            "ContainerValue": "[6,7]"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-12xxx U15 14",
+            "ContainerValue": "[6,7]"
         }
     ]
 }

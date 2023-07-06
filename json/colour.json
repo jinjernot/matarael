@@ -863,6 +863,10 @@
         {
             "PhwebDescription": "ID MNS ALU FPR US layout",
             "ContainerValue": "Mineral silver"
+        },
+        {
+            "PhwebDescription": "ID SFW PLA wHDC TNR FPR JPN layout",
+            "ContainerValue": "Snow flake white"
         }
     ]
 }

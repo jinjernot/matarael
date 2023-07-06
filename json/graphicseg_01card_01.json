@@ -807,6 +807,26 @@
         {
             "PhwebDescription": "BUIDS DSCRTX40608GB i9-13900H fOLED 16",
             "ContainerValue": "Intel® Iris® Xᵉ Graphics"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i3-12xxx U15 14",
+            "ContainerValue": "Intel® UHD Graphics"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-12xxx U15 14",
+            "ContainerValue": "Intel® Iris® Xᵉ Graphics"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-12xxx P28 14",
+            "ContainerValue": "Intel® Iris® Xᵉ Graphics"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1240P fBL 14",
+            "ContainerValue": "Intel® Iris® Xᵉ Graphics"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-12xxx U15 14",
+            "ContainerValue": "Intel® Iris® Xᵉ Graphics"
         }
     ]
 }

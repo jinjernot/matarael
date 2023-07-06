@@ -5671,6 +5671,34 @@
     {
       "PhwebDescription": "BUIDS DSC RTX 3060 6GB R7 6800H 16",
       "ContainerValue": "AMD Ryzen™ 7 6800H (up to 4.7 GHz max boost clock, 16 MB L3 cache, 8 cores, 16 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA PH i3-12xxx U15 14",
+      "ContainerValue": "Intel® Core™ i3-1215U (up to 4.4 GHz with Intel® Turbo Boost Technology, 10 MB L3 cache, 6 cores, 8 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA i7-1260P fBL 14",
+      "ContainerValue": "Intel® Core™ i7-1260P (up to 4.7 GHz with Intel® Turbo Boost Technology, 18 MB L3 cache, 12 cores, 16 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA PH i7-12xxx P28 14",
+      "ContainerValue": "Intel® Core™ i7-1260P (up to 4.7 GHz with Intel® Turbo Boost Technology, 18 MB L3 cache, 12 cores, 16 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA PH i5-12xxx U15 14",
+      "ContainerValue": "Intel® Core™ i5-1235U (up to 4.4 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 10 cores, 12 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA i5-1240P fBL 14",
+      "ContainerValue": "Intel® Core™ i5-1240P (up to 4.4 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 12 cores, 16 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA PH i7-12xxx U15 14",
+      "ContainerValue": "Intel® Core™ i7-1255U (up to 4.7 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 10 cores, 12 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA PH i5-12xxx P28 14",
+      "ContainerValue": "Intel® Core™ i5-1240P (up to 4.4 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 12 cores, 16 threads)"
     }
   ]
 }
