@@ -1191,6 +1191,14 @@
         {
             "PhwebDescription": "KBD MNS ISK PT CP BL SR",
             "ContainerValue": "Full-size, backlit, mineral silver keyboard"
+        },
+        {
+            "PhwebDescription": "MISC No Included Mouse",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "MISC No Included Keyboard",
+            "ContainerValue": "##BLANK##"
         }
     ]
 }

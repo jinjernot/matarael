@@ -75,6 +75,30 @@
         {
             "PhwebDescription": "BUIDS DSC RTX 3070TiMQ8GBRyzen96900HX16",
             "ContainerValue": "NVIDIA® Max-Q technology"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA GeF RTX 3060 MQ 6GB GDDR6 G4",
+            "ContainerValue": "NVIDIA® Max-Q technology"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA GeF 8GB GDDR6 RKL-S",
+            "ContainerValue": "NVIDIA® Max-Q technology"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA GeF GTX 1650 MQ 4GB GDDR6 G3",
+            "ContainerValue": "NVIDIA® Max-Q technology"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA GeF RTX 3070 Ti 8GB GDDR6X",
+            "ContainerValue": "Support for Blu-ray and Microsoft ® DirectX ® 12"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC RTX 3070Ti MQ 8GB R7 6800H 16",
+            "ContainerValue": "NVIDIA® Max-Q technology"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA GeF RTX 3060 12GB GDDR6",
+            "ContainerValue": "Powered by NVIDIA Ampere architecture"
         }
     ]
 }

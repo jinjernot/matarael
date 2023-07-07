@@ -1807,6 +1807,282 @@
         {
             "PhwebDescription": "BUIDS UMA i5-1135G7 8GB FPR 14b-nb0",
             "ContainerValue": "8"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-xxxx 8GB 14",
+            "ContainerValue": "8"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1230U 8GB 13",
+            "ContainerValue": "8"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1230U 16GB 13",
+            "ContainerValue": "16"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA CelN4500 8GB 128GeMMC 14a-na1",
+            "ContainerValue": "8"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R3 7320U 8GB 15",
+            "ContainerValue": "8"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R3 7320U 4GB 15",
+            "ContainerValue": "4"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA CelN4120 4GB 64GeMMC 11",
+            "ContainerValue": "4"
+        },
+        {
+            "PhwebDescription": "BU IDS OPP 24-cr0 23.8 8GB R5-7520U",
+            "ContainerValue": "8"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1250U 16GB 13",
+            "ContainerValue": "16"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-xxxx 16GB 14",
+            "ContainerValue": "16"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-xxxx 16GB fOLED 14",
+            "ContainerValue": "16"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1335U 8GB 15",
+            "ContainerValue": "8"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R5 7520U 16GB 15",
+            "ContainerValue": "16"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R5 7520U 8GB 15",
+            "ContainerValue": "8"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R3 7320U 8GB 17",
+            "ContainerValue": "8"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX20504GB i7-1355U16GBfOLED14",
+            "ContainerValue": "16"
+        },
+        {
+            "PhwebDescription": "BU IDS OPP 27-cr0 27 8GB R5-7520U",
+            "ContainerValue": "8"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R3 7320U 8GB 14",
+            "ContainerValue": "8"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R5 7520U 8GB 14",
+            "ContainerValue": "8"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1250U 8GB 13",
+            "ContainerValue": "8"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi7xxxxU 16GB 14",
+            "ContainerValue": "16"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHPentxxxx 4GB 14",
+            "ContainerValue": "4"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1340P 16GB 14",
+            "ContainerValue": "16"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA Ath7120U 4GB 15",
+            "ContainerValue": "4"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi712xxx 16GB 14",
+            "ContainerValue": "16"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX20504GB i5-1335U16GBfOLED14",
+            "ContainerValue": "16"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-13700H 16GB fOLED 14",
+            "ContainerValue": "16"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1355U 16GB 15",
+            "ContainerValue": "16"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1335U 16GB 15",
+            "ContainerValue": "16"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi512xxx 16GB 14",
+            "ContainerValue": "16"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R7 7730U 16GB 15",
+            "ContainerValue": "16"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1235U 8GB 14",
+            "ContainerValue": "8"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi7xxxxU 16GB fOLED 14",
+            "ContainerValue": "16"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi7xxxxU 32GB fOLED 14",
+            "ContainerValue": "32"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCArc4GB PHi7RM 16GB 16",
+            "ContainerValue": "16"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi7xxxx 16GB 16",
+            "ContainerValue": "16"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-13500H 16GB fOLED 14",
+            "ContainerValue": "16"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi512xxx 8GB 14",
+            "ContainerValue": "8"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCArc4GB PHi7RM 32GB fOLED 16",
+            "ContainerValue": "32"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi5xxxxU 16GB 14",
+            "ContainerValue": "16"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R5 7535U 8GB 13",
+            "ContainerValue": "8"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R7 7735U 16GB 13",
+            "ContainerValue": "16"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-13500H 16GB 14",
+            "ContainerValue": "16"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA Ath7220U 8GB 15",
+            "ContainerValue": "8"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA Ryzen7 5825U 16GB 13",
+            "ContainerValue": "16"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R5 7530U 16GB 15",
+            "ContainerValue": "16"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi7xxxxU 32GB 14",
+            "ContainerValue": "32"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi5xxxxU 8GB 14",
+            "ContainerValue": "8"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i3-1215U 8GB 14",
+            "ContainerValue": "8"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1255U 16GB 14",
+            "ContainerValue": "16"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R5 7535U 16GB 13",
+            "ContainerValue": "16"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA Ath7120U 8GB 14",
+            "ContainerValue": "8"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA Ath7120U 4GB 14",
+            "ContainerValue": "4"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA Ath7120U 8GB 15",
+            "ContainerValue": "8"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCArc4GB PHi7RM 16GB fOLED 16",
+            "ContainerValue": "16"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1355U 16GB 14",
+            "ContainerValue": "16"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA MT8195GV 8GB 13b-ca0",
+            "ContainerValue": "8"
+        },
+        {
+            "PhwebDescription": "BU IDS UMAPentSilN60004GB128GeMMC15a-na0",
+            "ContainerValue": "4"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCMX5502GB i5-1335U 16GB 14",
+            "ContainerValue": "16"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi5xxxx 8GB 14",
+            "ContainerValue": "8"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R5 7520U 16GB 14",
+            "ContainerValue": "16"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA CelN41204GB64GeMMCnSDC14a-ca0",
+            "ContainerValue": "4"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-12700H 16GB fOLED 14",
+            "ContainerValue": "16"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R5 7520U 8GB 17",
+            "ContainerValue": "8"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA CelN4500 4GB 64GeMMC 15a-na0",
+            "ContainerValue": "4"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi312xxx 8GB 14",
+            "ContainerValue": "8"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA CelN4500 8GB 128GeMMC 15a-na0",
+            "ContainerValue": "8"
+        },
+        {
+            "PhwebDescription": "BU IDS UMACelN41208GB128GeMMCnSDC14a-na0",
+            "ContainerValue": "8"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1235U 16GB 14",
+            "ContainerValue": "16"
         }
     ]
 }
