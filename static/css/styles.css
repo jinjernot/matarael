@@ -34,7 +34,6 @@
   }
  
   .heading {
-    padding:2%;
     margin: 0 auto;
     color: #000000;
   }
@@ -47,15 +46,19 @@
     font-size: 20pt;
   }
 
+  h3 {
+  padding-top: 20px;
+  padding-bottom: 5px;
+  font-size: 16pt;
+  }
   
   .image-container {
-    position: fixed;
-    left: 0; 
-    bottom: 0; 
-    width: 100%; 
-    text-align: center; 
-    margin-bottom: 33px;
-}
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 20%;
+  }
+  
 
 .bottom-center {
     width: 40px; 
@@ -71,11 +74,11 @@
   border: 1px solid #e6e6e6;
   background-color: #0096d6;
   color: #fff;  
-  border-radius: 5px; 
+  border-radius: 10px;
   outline: none; 
   transition: background-color 0.3s ease-in-out; 
   width: 290px;
-  height: 40px;
+  height: 45px;
   font-size: 16px;
 }
 
@@ -87,22 +90,32 @@
   border-color: #bfbfbf; 
 }
 
+.custom-label {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ccc;
+  color: #000;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
 .custom-input {
   border: 1px solid #e6e6e6;
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 10px 20px; 
   outline: none; 
-  height: 30px;
+  height: 25px;
   width: 250px; 
   font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.custom-input:hover {
+  border: 1px solid #0096d6;
 }
 
 .custom-input:focus {
-  border-color: #bfbfbf;
-}
-
-.custom-input:focus {
-  border-color: #bfbfbf; 
+  border: 1px solid #0096d6;
 }
 
 table {
@@ -117,4 +130,25 @@ td {
   padding-top: 100px;
   padding-bottom: 200px;
   border-radius: 25px;
+}
+.modal {
+  display: none;
+  border: 2px solid #0096d6;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 300px;
+  text-align: center;
 }

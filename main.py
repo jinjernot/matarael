@@ -1,5 +1,4 @@
-from flask import Flask, request, render_template, send_file
-from data.plot_data import generate_plot
+from flask import Flask, request, render_template, send_file, redirect
 from data.qa_data import clean_report 
 
 app = Flask(__name__)
@@ -32,7 +31,6 @@ def process_file():
         try:
             if allowed_file(file.filename):
                 clean_report(file)
-                generate_plot()
                 return send_file('SCS_QA.xlsx', as_attachment=True)
         except Exception as e:
             print(e)
