@@ -32,19 +32,19 @@
                     <input type="submit" value="Upload" class="custom-button">
                 </form>
                 <div id="processingModal" class="modal">
-                <div class="modal-content">
-                    <p>Processing...</p>
+                    <div class="modal-content">
+                        <p>Processing...</p>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <img src="{{ url_for('static', filename='images/favicon.png') }}" alt="" width="50" height="50">
+                </div>
+                <div class="bottom-right-link">
+                    <a href="{{ url_for('documentation') }}">Documentation</a>
                 </div>
             </div>
-            <div class="image-container">
-                <img src="{{ url_for('static', filename='images/favicon.png') }}" alt="" width="50" height="50">
-            </div>
-
-        </div>
         </td>
     </tr>
-
 </table>
-
 </body>
 </html>

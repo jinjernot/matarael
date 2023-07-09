@@ -90,14 +90,6 @@
   border-color: #bfbfbf; 
 }
 
-.custom-label {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #ccc;
-  color: #000;
-  border-radius: 4px;
-  cursor: pointer;
-}
 
 .custom-input {
   border: 1px solid #e6e6e6;
@@ -151,4 +143,9 @@ td {
   border: 1px solid #888;
   width: 300px;
   text-align: center;
+}
+
+.bottom-right-link {
+  font-size: 14pt;
+  text-align: right;
 }
