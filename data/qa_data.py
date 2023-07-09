@@ -4,10 +4,6 @@ from data.process_data import processData
 import os
 import json
 
-import pandas as pd
-import os
-import json
-
 def clean_report(file):
     try:
 

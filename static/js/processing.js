@@ -3,7 +3,7 @@ function showProcessingMessage() {
   modal.style.display = "block";
 
   // Send an asynchronous request to the server
-  fetch('/upload-file')
+  fetch('/upload-file-data')
     .then(response => {
       if (response.ok) {
         return response.text();
