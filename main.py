@@ -1,28 +1,28 @@
-from flask import Flask, request, render_template, send_file, redirect
-from data.qa_data import clean_report 
+from flask import Flask, request, render_template, send_from_directory, abort
+from data.qa_data import clean_report
+import config
 
 app = Flask(__name__)
 app.use_static_for = 'static'
 
-VALID_FILE_EXTENSIONS = {'xlsx', 'xlsm', 'csv', "json"}
-VALID_PASSWORD = "123"
+# Configuration
+app.config.from_object(config)
 
 def is_valid_password(password):
-    return password == VALID_PASSWORD
+    return password == app.config['VALID_PASSWORD']
 
 def allowed_file(filename):
-    return '.' in filename and filename.rsplit('.', 1)[1].lower() in VALID_FILE_EXTENSIONS
+    return '.' in filename and filename.rsplit('.', 1)[1].lower() in app.config['VALID_FILE_EXTENSIONS']
 
 @app.route('/', methods=['GET', 'POST'])
 def upload_file():
     if request.method == 'POST':
-        password = request.form.get('password')  # Get the password from the form input
+        password = request.form.get('password')
         if is_valid_password(password):
-            return render_template('index2.html')  # Load index2.html if the password is valid
+            return render_template('index2.html')
         else:
-            return render_template('error password.html')
+            return render_template('error_password.html')
     return render_template('index.html')
-
 
 @app.route('/upload-file', methods=['POST'])
 def process_file():
@@ -31,23 +31,23 @@ def process_file():
         try:
             if allowed_file(file.filename):
                 clean_report(file)
-                return send_file('SCS_QA.xlsx', as_attachment=True)
+                return send_from_directory('.', filename='SCS_QA.xlsx', as_attachment=True)
         except Exception as e:
             print(e)
-            return render_template('error.html')
+            return render_template('error.html'), 500
 
     elif 'JSON' in request.files:
         file = request.files['JSON']
         try:
             if allowed_file(file.filename):
                 filename = file.filename
-                file.save('/home/garciagi/SCS_Tool/json/' + filename)
+                file.save(app.config['UPLOAD_DIRECTORY'] + filename)
                 return render_template('file_uploaded.html')
         except Exception as e:
             print(e)
-            return render_template('error.html')
+            return render_template('error.html'), 500
 
-    return render_template('error.html')  # Display the error page if none of the upload conditions are met
+    return render_template('error.html'), 400
 
 if __name__ == '__main__':
     app.run(debug=True)

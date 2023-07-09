@@ -35,4 +35,16 @@ def processData(json_path, container_name, container_df, df):
     # Update the `Accuracy` column of the `df` DataFrame for unmatched containers.
     df.loc[unmatched_containers.index, 'Accuracy'] = unmatched_containers['Accuracy']
 
+    unmatched_container_values = []
+    for container in unmatched_containers.itertuples(index=False):
+        matching_containers = container_data[container_data['PhwebDescription'] == container.PhwebDescription]
+        if len(matching_containers) > 0:
+            correct_value = matching_containers.iloc[0]['ContainerValue']
+            unmatched_container_values.append(correct_value)
+        else:
+            unmatched_container_values.append('N/A')
+
+    # Add 'Correct Value' column to the df DataFrame for unmatched containers
+    df.loc[unmatched_containers.index, 'Correct Value'] = unmatched_container_values
+
     return df
