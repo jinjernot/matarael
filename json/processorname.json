@@ -6871,6 +6871,10 @@
     {
       "PhwebDescription": "BU IDS DSC GTX 1650 4GB i5-12450H 15",
       "ContainerValue": "Intel® Core™ i5-12450H (up to 4.4 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 8 cores, 12 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA OPP PENT J5040 S01-aF2 NC",
+      "ContainerValue": "Intel® Pentium® Silver J5040 (up to 3.2 GHz burst frequency, 4 MB L2 cache, 4 cores, 4 threads)"
     }
   ]
 }

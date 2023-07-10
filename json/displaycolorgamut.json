@@ -1243,6 +1243,10 @@
         {
             "PhwebDescription": "LCD 14 HD BV LED SVA 220 slim TOP NWBZ",
             "ContainerValue": "45% NTSC"
+        },
+        {
+            "PhwebDescription": "MLD 162.5KAGLwBluLtHDR1KUWVA240HzNWBZflt",
+            "ContainerValue": "100% DCI-P3"
         }
     ]
 }

@@ -1363,6 +1363,46 @@
         {
             "PhwebDescription": "LCD 15.6 FHD AG LEDUWVA300uslim144HzNWBZ",
             "ContainerValue": "39.6 cm (15.6\")"
+        },
+        {
+            "PhwebDescription": "MLD 162.5KAGLwBluLtHDR1KUWVA240HzNWBZflt",
+            "ContainerValue": "40.6 cm (16\")"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA N100 128GUFS 15",
+            "ContainerValue": "128"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA CelN4500 4GB 128GeMMC 14a-ca1",
+            "ContainerValue": "128"
+        },
+        {
+            "PhwebDescription": "BU IDSUPentSN50308GB64GeMMCfBLnSDC14aca0",
+            "ContainerValue": "64"
+        },
+        {
+            "PhwebDescription": "BU IDS UMAPentSilN60008GB128GeMMC15a-na0",
+            "ContainerValue": "128"
+        },
+        {
+            "PhwebDescription": "BU IDSUMAPSilN50308GB128GeMMCnSDC14a-na0",
+            "ContainerValue": "128"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i3-N305 8GB 256GUFS 15a-nb0",
+            "ContainerValue": "256"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA CelN41204GB64GeMMCnSDC14a-na0",
+            "ContainerValue": "64"
+        },
+        {
+            "PhwebDescription": "SSD 1TB 2280 PCIe-4x4 NVME TLC 2nd",
+            "ContainerValue": "1000"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i3-N305 8GB 128GUFS 15a-nb0",
+            "ContainerValue": "128"
         }
     ]
 }

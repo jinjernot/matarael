@@ -6799,6 +6799,10 @@
         {
             "PhwebDescription": "BU IDS UMA PHi5xxxx 15",
             "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA OPP PENT J5040 S01-aF2 NC",
+            "ContainerValue": "Intel Pentium"
         }
     ]
 }

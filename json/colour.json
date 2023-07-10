@@ -867,6 +867,10 @@
         {
             "PhwebDescription": "ID SFW PLA wHDC TNR FPR JPN layout",
             "ContainerValue": "Snow flake white"
+        },
+        {
+            "PhwebDescription": "ID SDB PLA US layout wNumPad",
+            "ContainerValue": "Shadow black"
         }
     ]
 }

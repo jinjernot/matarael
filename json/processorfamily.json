@@ -6899,6 +6899,10 @@
         {
             "PhwebDescription": "BU IDS UMA CelN4500 15",
             "ContainerValue": "Intel® Celeron® processor"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA OPP PENT J5040 S01-aF2 NC",
+            "ContainerValue": "Intel® Pentium® Silver processor"
         }
     ]
 }

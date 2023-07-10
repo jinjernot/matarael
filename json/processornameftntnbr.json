@@ -5107,6 +5107,10 @@
         {
             "PhwebDescription": "BU IDS UMA PH i7-12xxx U15 14",
             "ContainerValue": "[6,7]"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA OPP PENT J5040 S01-aF2 NC",
+            "ContainerValue": "[6,7]"
         }
     ]
 }

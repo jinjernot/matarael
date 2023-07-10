@@ -146,6 +146,10 @@ td {
 }
 
 .bottom-right-link {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 20px;
   font-size: 14pt;
   text-align: right;
 }

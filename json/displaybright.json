@@ -1243,6 +1243,10 @@
         {
             "PhwebDescription": "LCD 15.6 FHD AG LEDUWVA300uslim144HzNWBZ",
             "ContainerValue": "300 nits"
+        },
+        {
+            "PhwebDescription": "MLD 162.5KAGLwBluLtHDR1KUWVA240HzNWBZflt",
+            "ContainerValue": "1180 nits"
         }
     ]
 }

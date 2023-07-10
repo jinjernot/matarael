@@ -2251,6 +2251,10 @@
         {
             "PhwebDescription": "BU IDS UMA OPP Cel J4025 S01-aF2 NC",
             "ContainerValue": "Intel® UHD Graphics 600"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA OPP PENT J5040 S01-aF2 NC",
+            "ContainerValue": "Intel® UHD Graphics 605"
         }
     ]
 }
