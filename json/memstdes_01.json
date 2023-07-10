@@ -2279,6 +2279,22 @@
     {
       "PhwebDescription": "RAM 16GB (2x8GB) DDR4 3200 CR",
       "ContainerValue": "16 GB DDR4-3200 RAM (2 x 8 GB)"
+    },
+    {
+      "PhwebDescription": "BU IDS OPP 24-cr0 23.8 8GB R3",
+      "ContainerValue": "8 GB LPDDR5-5500 MHz RAM (onboard)"
+    },
+    {
+      "PhwebDescription": "BU IDS OPP 24-cr0 23.8 16GB R5",
+      "ContainerValue": "16 GB LPDDR5-5500 MHz RAM (onboard)"
+    },
+    {
+      "PhwebDescription": "BU IDS OPP 27-cr0 27 16GB R5-7520U",
+      "ContainerValue": "16 GB LPDDR5-5500 MHz RAM (onboard)"
+    },
+    {
+      "PhwebDescription": "BU IDS OPP 27-cr0 27 8GB R3-7320U",
+      "ContainerValue": "8 GB LPDDR5-5500 MHz RAM (onboard)"
     }
   ]
 }

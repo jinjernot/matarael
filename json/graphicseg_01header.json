@@ -2195,6 +2195,38 @@
         {
             "PhwebDescription": "BU IDS UMA OPP PENT J5040 S01-aF2 NC",
             "ContainerValue": "Integrated"
+        },
+        {
+            "PhwebDescription": "BU IDS OPP 27-cr0 27 R7-7730U",
+            "ContainerValue": "Integrated"
+        },
+        {
+            "PhwebDescription": "APU AMD R7-7700 8C 65W 2HPRGBAir",
+            "ContainerValue": "Integrated"
+        },
+        {
+            "PhwebDescription": "BU IDS OPP 27-cr0 27 8GB R3-7320U",
+            "ContainerValue": "Integrated"
+        },
+        {
+            "PhwebDescription": "BU IDS OPP 24-cr0 23.8 Cel N100",
+            "ContainerValue": "Integrated"
+        },
+        {
+            "PhwebDescription": "BU IDS OPP 27-cr0 27 16GB R5-7520U",
+            "ContainerValue": "Integrated"
+        },
+        {
+            "PhwebDescription": "BU IDS Pav 24-ca0 23.8 FHD R5-5500U",
+            "ContainerValue": "Integrated"
+        },
+        {
+            "PhwebDescription": "CPU INTL i7-13700K3.4016C125W240mmRGBLCS",
+            "ContainerValue": "Integrated"
+        },
+        {
+            "PhwebDescription": "CPU INTL i5-13600K3.50TBD14C125W120mmLCS",
+            "ContainerValue": "Integrated"
         }
     ]
 }

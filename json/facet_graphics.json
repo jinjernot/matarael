@@ -3947,6 +3947,14 @@
         {
             "PhwebDescription": "BU IDS UMA i5-12500H 16GB 14",
             "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA GeF 8GB GDDR6",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "CPU INTL i5-13600K3.50TBD14C125W120mmLCS",
+            "ContainerValue": "Intel UHD"
         }
     ]
 }

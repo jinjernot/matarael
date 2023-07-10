@@ -1595,6 +1595,14 @@
         {
             "PhwebDescription": "BU IDS DSC RTX 3050Ti 4GB i5-12450H 15",
             "ContainerValue": "12th Generation"
+        },
+        {
+            "PhwebDescription": "CPU INTL i7-13700K3.4016C125W240mmRGBLCS",
+            "ContainerValue": "13th Generation"
+        },
+        {
+            "PhwebDescription": "CPU INTL i5-13600K3.50TBD14C125W120mmLCS",
+            "ContainerValue": "13th Generation"
         }
     ]
 }

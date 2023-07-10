@@ -6903,6 +6903,18 @@
         {
             "PhwebDescription": "BU IDS UMA OPP PENT J5040 S01-aF2 NC",
             "ContainerValue": "Intel® Pentium® Silver processor"
+        },
+        {
+            "PhwebDescription": "BU IDS OPP 27-cr0 27 16GB R5-7520U",
+            "ContainerValue": "AMD Ryzen™ 5 processor"
+        },
+        {
+            "PhwebDescription": "BU IDS Pav 24-ca0 23.8 FHD R5-5500U",
+            "ContainerValue": "AMD Ryzen™ 5 processor"
+        },
+        {
+            "PhwebDescription": "BU IDS OPP 27-cr0 27 8GB R3-7320U",
+            "ContainerValue": "AMD Ryzen™ 3 processor"
         }
     ]
 }

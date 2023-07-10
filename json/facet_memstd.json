@@ -2187,6 +2187,14 @@
         {
             "PhwebDescription": "BU IDSUPentSN50308GB64GeMMCfBLnSDC14aca0",
             "ContainerValue": "8"
+        },
+        {
+            "PhwebDescription": "BU IDS OPP 24-cr0 23.8 16GB R5",
+            "ContainerValue": "16"
+        },
+        {
+            "PhwebDescription": "BU IDS OPP 24-cr0 23.8 8GB R3",
+            "ContainerValue": "8"
         }
     ]
 }

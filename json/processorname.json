@@ -30,11 +30,11 @@
     },
     {
       "PhwebDescription": "CPU INTL i3-12100 4C 3.30 60W",
-      "ContainerValue": "Intel® Core™ i3-12100 (up to 4.3 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 4 cores, 8 threads)"
+      "ContainerValue": "Intel® Core™ i3-12100 (3.3 GHz base frequency(2b), up to 4.3 GHz with Intel® Turbo Boost Technology(2g), 12 MB L3 cache, 4 cores, 8 threads)"
     },
     {
       "PhwebDescription": "CPU INTL i5-12400 6C 2.50 65W",
-      "ContainerValue": "Intel® Core™ i5-12400 (up to 4.4 GHz with Intel® Turbo Boost Technology, 18 MB L3 cache, 6 cores, 12 threads)"
+      "ContainerValue": "Intel® Core™ i5- 12400 (2.5 GHz base frequency, up to 4.4 GHz with Intel® Turbo Boost Technology, 18 MB L3 cache, 6 cores, 12 threads)"
     },
     {
       "PhwebDescription": "APU AMD R5-5600G 6C 3.90",
@@ -42,7 +42,7 @@
     },
     {
       "PhwebDescription": "CPU INTL i7-12700 12C 2.10 65W",
-      "ContainerValue": "Intel® Core™ i7-12700 (up to 4.9 GHz with Intel® Turbo Boost Technology, 25 MB L3 cache, 12 cores, 20 threads)"
+      "ContainerValue": "Intel® Core™ i7-12700 (2.1 GHz base frequency(2b), up to 4.9 GHz with Intel® Turbo Boost Technology(2g), 25 MB L3 cache, 12 cores, 20 threads)"
     },
     {
       "PhwebDescription": "CPU INTL i5-12600 6C 3.30 65W",
@@ -1674,7 +1674,7 @@
     },
     {
       "PhwebDescription": "CPU INTL i7-12700 12C 2.10 65W",
-      "ContainerValue": "Intel® Core™ i7- 12700 (2.1 GHz base frequency, up to 4.9 GHz with Intel® Turbo Boost Technology, 25 MB L3 cache, 12 cores, 20 threads)"
+      "ContainerValue": "Intel® Core™ i7-12700 (2.1 GHz base frequency(2b), up to 4.9 GHz with Intel® Turbo Boost Technology(2g), 25 MB L3 cache, 12 cores, 20 threads)"
     },
     {
       "PhwebDescription": "BUIDS UMA N100 4GB x360 11 G11",
@@ -3646,7 +3646,7 @@
     },
     {
       "PhwebDescription": "CPU INTL i5-12400T 6C 1.80 35W",
-      "ContainerValue": "Intel® Core™ i5-12400T (up to 4.2 GHz with Intel® Turbo Boost Technology, 18 MB L3 cache, 6 cores, 12 threads)"
+      "ContainerValue": "Intel® Core™ i5-12400T (1.8 GHz base frequency(2b), up to 4.2 GHz with Intel® Turbo Boost Technology(2g), 18 MB L3 cache, 6 cores, 12 threads)"
     },
     {
       "PhwebDescription": "BUIDS 205 G4 Athlon3050U 21.5 NT AiO",
@@ -6594,7 +6594,7 @@
     },
     {
       "PhwebDescription": "BU IDS OPP 24-cb0 23.8 R5-5500U",
-      "ContainerValue": "AMD Ryzen™ 5 5500U (up to 4.0 GHz max boost clock, 8 MB L3 cache, 6 cores, 12 threads)"
+      "ContainerValue": "AMD Ryzen™ 5 5500U (2.1 GHz base clock, up to 4.0 GHz max boost clock, 8 MB L3 cache, 6 cores, 12 threads)"
     },
     {
       "PhwebDescription": "BU IDS OPP 24-cb0 23.8 AG-3150U",
@@ -6875,6 +6875,22 @@
     {
       "PhwebDescription": "BU IDS UMA OPP PENT J5040 S01-aF2 NC",
       "ContainerValue": "Intel® Pentium® Silver J5040 (up to 3.2 GHz burst frequency, 4 MB L2 cache, 4 cores, 4 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS Pav 24-ca0 23.8 FHD R5-5500U",
+      "ContainerValue": "AMD Ryzen™ 5 5500U (2.1 GHz base clock, up to 4.0 GHz max boost clock, 8 MB L3 cache, 6 cores, 12 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS OPP 27-cr0 27 16GB R5-7520U",
+      "ContainerValue": "AMD Ryzen™ 5 7520U (up to 4.3 GHz max boost clock, 4 MB L3 cache, 4 cores, 8 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS OPP 27-cr0 27 R7-7730U",
+      "ContainerValue": "AMD Ryzen™ 7 7730U (up to 4.5 GHz max boost clock, 16 MB L3 cache, 8 cores, 16 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS OPP 27-cr0 27 8GB R3-7320U",
+      "ContainerValue": "AMD Ryzen™ 3 7320U (up to 4.1 GHz max boost clock, 4 MB L3 cache, 4 cores, 8 threads)"
     }
   ]
 }

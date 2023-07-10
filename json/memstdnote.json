@@ -811,6 +811,30 @@
         {
             "PhwebDescription": "BUIDS UMA i5-1135G7 8GB FPR 14b-nb0",
             "ContainerValue": "Transfer rates up to 3200 MT/s."
+        },
+        {
+            "PhwebDescription": "BU IDS OPP 24-cr0 23.8 8GB R3",
+            "ContainerValue": "Transfer rates up to 5500 MT/s."
+        },
+        {
+            "PhwebDescription": "BU IDS OPP 24-cr0 23.8 8GB R5-7520U",
+            "ContainerValue": "Transfer rates up to 5500 MT/s."
+        },
+        {
+            "PhwebDescription": "BU IDS OPP 27-cr0 27 8GB R3-7320U",
+            "ContainerValue": "Transfer rates up to 5500 MT/s."
+        },
+        {
+            "PhwebDescription": "BU IDS OPP 24-cr0 23.8 16GB R5",
+            "ContainerValue": "Transfer rates up to 5500 MT/s."
+        },
+        {
+            "PhwebDescription": "BU IDS OPP 27-cr0 27 16GB R5-7520U",
+            "ContainerValue": "Transfer rates up to 5500 MT/s."
+        },
+        {
+            "PhwebDescription": "BU IDS OPP 27-cr0 27 8GB R5-7520U",
+            "ContainerValue": "Transfer rates up to 5500 MT/s."
         }
     ]
 }

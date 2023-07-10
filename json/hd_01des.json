@@ -710,7 +710,7 @@
     },
     {
       "PhwebDescription": "SSD 128G 2230 PCIe NVMe Value",
-      "ContainerValue": "128 GB PCIe® NVMe™ M.2 SSD"
+      "ContainerValue": "128 GB PCIe® NVMe™ TLC M.2 SSD"
     },
     {
       "PhwebDescription": "SSD 512GB 2280 PCIe NVMe Val M.2",

@@ -99,6 +99,10 @@
         {
             "PhwebDescription": "GFX NVIDIA GeF RTX 3060 12GB GDDR6",
             "ContainerValue": "Powered by NVIDIA Ampere architecture"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA GeF RTX 4070 12GB GDDR6X",
+            "ContainerValue": "Support for Blu-ray and Microsoft ® DirectX ® 12"
         }
     ]
 }
