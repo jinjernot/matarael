@@ -153,11 +153,11 @@
       "ContainerValue": "512 GB PCIe® NVMe™ TLC SSD"
     },
     {
-      "PhwebDescription": "BUIDS UMA CelN4500 4GB 64GeMMC x36011G9",
+      "PhwebDescription": "BU IDS UMA CelN4500 4GB 64GeMMC x36011G9",
       "ContainerValue": "64 GB eMMC"
     },
     {
-      "PhwebDescription": "BUIDSUMACelN45004GB64GeMMCRTKUSBCx36011",
+      "PhwebDescription": "BU IDSUMACelN45004GB64GeMMCRTKUSBCx36011",
       "ContainerValue": "64 GB eMMC"
     },
     {
@@ -225,15 +225,15 @@
       "ContainerValue": "512 GB PCIe® NVMe™ M.2 SSD"
     },
     {
-      "PhwebDescription": "BUIDS UMA Cel N5100 8GB64GeMMCx36011G3J",
+      "PhwebDescription": "BU IDS UMA Cel N5100 8GB64GeMMCx36011G3J",
       "ContainerValue": "64 GB eMMC"
     },
     {
-      "PhwebDescription": "BUIDS UMA Cel N5100 4GB32GeMMCx36011G3J",
+      "PhwebDescription": "BU IDS UMA Cel N5100 4GB32GeMMCx36011G3J",
       "ContainerValue": "32 GB eMMC"
     },
     {
-      "PhwebDescription": "BUIDS UMA PentN6000 4GB64GeMMCx36011G4J",
+      "PhwebDescription": "BU IDS UMA PentN6000 4GB64GeMMCx36011G4J",
       "ContainerValue": "64 GB eMMC"
     },
     {
@@ -341,15 +341,15 @@
       "ContainerValue": "256 GB SATA SED SSD"
     },
     {
-      "PhwebDescription": "BUIDS UMA Cel N5100 4GB 64GeMMC 14 G7",
+      "PhwebDescription": "BU IDS UMA Cel N5100 4GB 64GeMMC 14 G7",
       "ContainerValue": "64 GB eMMC"
     },
     {
-      "PhwebDescription": "BUIDS UMA CelN4500 4GB 32GeMMC x36011G4",
+      "PhwebDescription": "BU IDS UMA CelN4500 4GB 32GeMMC x36011G4",
       "ContainerValue": "32 GB eMMC"
     },
     {
-      "PhwebDescription": "BUIDS UMA Cel N5100 8GB 64GeMMC 11 G9",
+      "PhwebDescription": "BU IDS UMA Cel N5100 8GB 64GeMMC 11 G9",
       "ContainerValue": "64 GB eMMC"
     },
     {
@@ -369,7 +369,7 @@
       "ContainerValue": "256 GB PCIe® NVMe™ TLC M.2 SSD"
     },
     {
-      "PhwebDescription": "BUIDS UMA Cel N5100 4GB 32GeMMC 14 G7",
+      "PhwebDescription": "BU IDS UMA Cel N5100 4GB 32GeMMC 14 G7",
       "ContainerValue": "32 GB eMMC"
     },
     {
@@ -401,11 +401,11 @@
       "ContainerValue": "1 TB PCIe® NVMe™ M.2 SSD"
     },
     {
-      "PhwebDescription": "BUIDS UMA CelN4500 4GB 32GeMMCx36011G3J",
+      "PhwebDescription": "BU IDS UMA CelN4500 4GB 32GeMMCx36011G3J",
       "ContainerValue": "32 GB eMMC"
     },
     {
-      "PhwebDescription": "BUIDS UMA PH Cel QC 4GB64GeMMCx36011G11",
+      "PhwebDescription": "BU IDS UMA PH Cel QC 4GB64GeMMCx36011G11",
       "ContainerValue": "64 GB eMMC"
     },
     {
@@ -413,7 +413,7 @@
       "ContainerValue": "1 TB PCIe® Gen4 NVMe™ TLC M.2 SSD"
     },
     {
-      "PhwebDescription": "BUIDS UMA CelN4500 4GB 32GeMMC 11 G9",
+      "PhwebDescription": "BU IDS UMA CelN4500 4GB 32GeMMC 11 G9",
       "ContainerValue": "32 GB eMMC"
     },
     {
@@ -429,7 +429,7 @@
       "ContainerValue": "512 GB PCIe® NVMe™ SSD"
     },
     {
-      "PhwebDescription": "BUIDS UMA CelN4500 8GB 64GeMMCx36011G3J",
+      "PhwebDescription": "BU IDS UMA CelN4500 8GB 64GeMMCx36011G3J",
       "ContainerValue": "64 GB eMMC"
     },
     {
@@ -449,7 +449,7 @@
       "ContainerValue": "512 GB PCIe® NVMe™ TLC SSD"
     },
     {
-      "PhwebDescription": "BUIDS UMA PentGld8505 8GB 64GeMMCc640G3",
+      "PhwebDescription": "BU IDS UMA PentGld8505 8GB 64GeMMCc640G3",
       "ContainerValue": "64 GB eMMC"
     },
     {
@@ -457,7 +457,7 @@
       "ContainerValue": "1 TB 5400 rpm SATA HDD"
     },
     {
-      "PhwebDescription": "BUIDS UMA CelN4500 4GB 64GeMMC 11 G9",
+      "PhwebDescription": "BU IDS UMA CelN4500 4GB 64GeMMC 11 G9",
       "ContainerValue": "64 GB eMMC"
     },
     {
@@ -477,7 +477,7 @@
       "ContainerValue": "1 TB SATA SSD"
     },
     {
-      "PhwebDescription": "BUIDS UMA R3 5425C 8GB 64GeMMC c645 G2",
+      "PhwebDescription": "BU IDS UMA R3 5425C 8GB 64GeMMC c645 G2",
       "ContainerValue": "64 GB eMMC"
     },
     {
@@ -497,7 +497,7 @@
       "ContainerValue": "512 GB PCIe® NVMe™ TLC SSD"
     },
     {
-      "PhwebDescription": "BUIDS UMA CelN4500 8GB 32GeMMCx36011G3J",
+      "PhwebDescription": "BU IDS UMA CelN4500 8GB 32GeMMCx36011G3J",
       "ContainerValue": "32 GB eMMC"
     },
     {
@@ -529,7 +529,7 @@
       "ContainerValue": "1 TB PCIe® NVMe™ TLC SSD"
     },
     {
-      "PhwebDescription": "BUIDS UMA Cel N5100 8GB 64GeMMCx36011G4",
+      "PhwebDescription": "BU IDS UMA Cel N5100 8GB 64GeMMCx36011G4",
       "ContainerValue": "64 GB eMMC"
     },
     {
@@ -689,7 +689,7 @@
       "ContainerValue": "2 TB 7200 rpm SATA HDD"
     },
     {
-      "PhwebDescription": "BUIDS UMA CelN4500 8GB 32GeMMC 11 G9",
+      "PhwebDescription": "BU IDS UMA CelN4500 8GB 32GeMMC 11 G9",
       "ContainerValue": "32 GB eMMC"
     },
     {
@@ -733,11 +733,11 @@
       "ContainerValue": "2 TB PCIe® Gen4 NVMe™ TLC M.2 SSD"
     },
     {
-      "PhwebDescription": "BUIDS UMA N200 128GUFS 15",
+      "PhwebDescription": "BU IDS UMA N200 128GUFS 15",
       "ContainerValue": "128 GB UFS"
     },
     {
-      "PhwebDescription": "BUIDS UMA N100 128GUFS 15",
+      "PhwebDescription": "BU IDS UMA N100 128GUFS 15",
       "ContainerValue": "128 GB UFS"
     },
     {
@@ -749,7 +749,7 @@
       "ContainerValue": "128 GB PCIe® NVMe™ TLC M.2 SSD"
     },
     {
-      "PhwebDescription": "BUIDS UMA CelN4120 64GeMMC 14",
+      "PhwebDescription": "BU IDS UMA CelN4120 64GeMMC 14",
       "ContainerValue": "64 GB eMMC"
     },
     {
@@ -785,43 +785,43 @@
       "ContainerValue": "1 TB WD Black PCIe® NVMe™ M.2 SSD"
     },
     {
-      "PhwebDescription": "BUIDS UMA CelN4500 4GB 128GeMMC 14a-ca1",
+      "PhwebDescription": "BU IDS UMA CelN4500 4GB 128GeMMC 14a-ca1",
       "ContainerValue": "128 GB eMMC"
     },
     {
-      "PhwebDescription": "BUIDS UMA CelN4500 8GB 128GeMMC 15a-na0",
+      "PhwebDescription": "BU IDS UMA CelN4500 8GB 128GeMMC 15a-na0",
       "ContainerValue": "128 GB eMMC"
     },
     {
-      "PhwebDescription": "BUIDS UMA CelN41204GB64GeMMCnSDC14a-ca0",
+      "PhwebDescription": "BU IDS UMA CelN41204GB64GeMMCnSDC14a-ca0",
       "ContainerValue": "64 GB eMMC"
     },
     {
-      "PhwebDescription": "BUIDS UMAPentSilN60008GB128GeMMC15a-na0",
+      "PhwebDescription": "BU IDS UMAPentSilN60008GB128GeMMC15a-na0",
       "ContainerValue": "128 GB eMMC"
     },
     {
-      "PhwebDescription": "BUIDSUPentSN50308GB64GeMMCfBLnSDC14aca0",
+      "PhwebDescription": "BU IDSUPentSN50308GB64GeMMCfBLnSDC14aca0",
       "ContainerValue": "64 GB eMMC"
     },
     {
-      "PhwebDescription": "BUIDS UMACelN41208GB128GeMMCnSDC14a-na0",
+      "PhwebDescription": "BU IDS UMACelN41208GB128GeMMCnSDC14a-na0",
       "ContainerValue": "128 GB eMMC"
     },
     {
-      "PhwebDescription": "BUIDSUMAPSilN50308GB128GeMMCnSDC14a-na0",
+      "PhwebDescription": "BU IDSUMAPSilN50308GB128GeMMCnSDC14a-na0",
       "ContainerValue": "128 GB eMMC"
     },
     {
-      "PhwebDescription": "BUIDS UMA CelN41204GB64GeMMCnSDC14a-na0",
+      "PhwebDescription": "BU IDS UMA CelN41204GB64GeMMCnSDC14a-na0",
       "ContainerValue": "64 GB eMMC"
     },
     {
-      "PhwebDescription": "BUIDS UMA i3-N305 8GB 128GUFS 15a-nb0",
+      "PhwebDescription": "BU IDS UMA i3-N305 8GB 128GUFS 15a-nb0",
       "ContainerValue": "128 GB UFS"
     },
     {
-      "PhwebDescription": "BUIDS UMA i3-N305 8GB 256GUFS 15a-nb0",
+      "PhwebDescription": "BU IDS UMA i3-N305 8GB 256GUFS 15a-nb0",
       "ContainerValue": "256 GB UFS"
     },
     {
@@ -881,15 +881,15 @@
       "ContainerValue": "256 GB PCIe® NVMe™ M.2 SSD"
     },
     {
-      "PhwebDescription": "BUIDS UMA CelN4500 8GB 128GeMMC 14a-na1",
+      "PhwebDescription": "BU IDS UMA CelN4500 8GB 128GeMMC 14a-na1",
       "ContainerValue": "128 GB eMMC"
     },
     {
-      "PhwebDescription": "BUIDS UMA N200 128GUFS 14",
+      "PhwebDescription": "BU IDS UMA N200 128GUFS 14",
       "ContainerValue": "128 GB UFS"
     },
     {
-      "PhwebDescription": "BUIDS UMAPentSilN60004GB128GeMMC15a-na0",
+      "PhwebDescription": "BU IDS UMAPentSilN60004GB128GeMMC15a-na0",
       "ContainerValue": "128 GB eMMC"
     },
     {
@@ -897,35 +897,35 @@
       "ContainerValue": "1 TB PCIe® NVMe™ M.2 SSD"
     },
     {
-      "PhwebDescription": "BUIDS UMAR77736U16GB512NVMESKBDragonfly",
+      "PhwebDescription": "BU IDS UMAR77736U16GB512NVMESKBDragonfly",
       "ContainerValue": "512 GB PCIe® NVMe™ M.2 SSD"
     },
     {
-      "PhwebDescription": "BUIDS UMAR77736U32GB1TNVMECCWDragonflyP",
+      "PhwebDescription": "BU IDS UMAR77736U32GB1TNVMECCWDragonflyP",
       "ContainerValue": "1 TB PCIe® NVMe™ M.2 SSD"
     },
     {
-      "PhwebDescription": "BUIDS UMAi5-1235U16GBChrmDflyCCWHPCHBG1",
+      "PhwebDescription": "BU IDS UMAi5-1235U16GBChrmDflyCCWHPCHBG1",
       "ContainerValue": "256 GB PCIe® NVMe™ M.2 SSD"
     },
     {
-      "PhwebDescription": "BUIDS UMA CelN4500 4GB 128GeMMC 15a-na0",
+      "PhwebDescription": "BU IDS UMA CelN4500 4GB 128GeMMC 15a-na0",
       "ContainerValue": "128 GB eMMC"
     },
     {
-      "PhwebDescription": "BUIDS UMA CelN4500 4GB 64GeMMC 15a-na0",
+      "PhwebDescription": "BU IDS UMA CelN4500 4GB 64GeMMC 15a-na0",
       "ContainerValue": "64 GB eMMC"
     },
     {
-      "PhwebDescription": "BUIDS UMA CelN4120 4GB 64GeMMC 11",
+      "PhwebDescription": "BU IDS UMA CelN4120 4GB 64GeMMC 11",
       "ContainerValue": "64 GB eMMC"
     },
     {
-      "PhwebDescription": "BUIDS UMA N100 128GUFS 17",
+      "PhwebDescription": "BU IDS UMA N100 128GUFS 17",
       "ContainerValue": "128 GB UFS"
     },
     {
-      "PhwebDescription": "BUIDS UMA i3-N305 128GUFS 15",
+      "PhwebDescription": "BU IDS UMA i3-N305 128GUFS 15",
       "ContainerValue": "128 GB UFS"
     },
     {
@@ -937,11 +937,11 @@
       "ContainerValue": "512 GB WD Black PCIe® Gen4 NVMe™ TLC M.2  SSD"
     },
     {
-      "PhwebDescription": "BUIDSUMAPentSN50304GB128GeMMCnSDC14aca0",
+      "PhwebDescription": "BU IDSUMAPentSN50304GB128GeMMCnSDC14aca0",
       "ContainerValue": "128 GB eMMC"
     },
     {
-      "PhwebDescription": "BUIDS UMA i3-N305 4GB 128GUFS 15a-nb0",
+      "PhwebDescription": "BU IDS UMA i3-N305 4GB 128GUFS 15a-nb0",
       "ContainerValue": "128 GB UFS"
     },
     {
@@ -985,15 +985,15 @@
       "ContainerValue": "1 TB PCIe® NVMe™ SSD"
     },
     {
-      "PhwebDescription": "BUIDS UMA PentN6000 8GB 128GeMMC14a-ca1",
+      "PhwebDescription": "BU IDS UMA PentN6000 8GB 128GeMMC14a-ca1",
       "ContainerValue": "128 GB eMMC"
     },
     {
-      "PhwebDescription": "BUIDS UMA MT8195GV 4GB 64GeMMC 13b-ca0",
+      "PhwebDescription": "BU IDS UMA MT8195GV 4GB 64GeMMC 13b-ca0",
       "ContainerValue": "64 GB eMMC"
     },
     {
-      "PhwebDescription": "BUIDS UMA 3020e 64GeMMC 14",
+      "PhwebDescription": "BU IDS UMA 3020e 64GeMMC 14",
       "ContainerValue": "64 GB eMMC"
     },
     {
