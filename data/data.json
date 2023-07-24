@@ -26,7 +26,7 @@
         },
         {
             "ComponentGroup": "Appearance/WebCam",
-            "ContainerName": ["colour","productcolour","camera"]
+            "ContainerName": ["colour","productcolour","camera","systemfan"]
         },
         {
             "ComponentGroup": "Display",
@@ -62,7 +62,7 @@
         },
         {
             "ComponentGroup": "Wireless Technologies",
-            "ContainerName": ["wirelesstech"]
+            "ContainerName": ["wirelesstech","wirelesstechnonoteftntnbr"]
         }
 
     ]
