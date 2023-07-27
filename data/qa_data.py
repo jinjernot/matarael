@@ -15,6 +15,7 @@ def clean_report(file):
 
         df = df[df['ContainerValue'] != '[BLANK]']
         df = df[df['ContainerName'] != '[BLANK]']
+        df = df.dropna(subset=['ContainerValue', 'ContainerName'])
 
         df.replace('\u00A0', ' ', regex=True, inplace=True)
         df.loc[df['ContainerValue'].str.endswith(';'), 'ContainerValue'] = df['ContainerValue'].str.slice(stop=-1)
