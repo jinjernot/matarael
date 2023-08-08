@@ -38,8 +38,8 @@ def clean_report(file):
                 container_name = x.split('.')[0]
                 container_df = df[df['ContainerName'] == container_name]
                 processData(os.path.join('/home/garciagi/SCS_Tool/json', x), container_name, container_df, df)
+                print ("paso el loop")
                 #processData(os.path.join('json', x), container_name, container_df, df)
-
         df.to_excel('/home/garciagi/SCS_Tool/SCS_QA.xlsx', index=False)
         #df.to_excel('SCS_QA.xlsx', index=False)
         formateData()
