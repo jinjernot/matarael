@@ -1,6 +1,9 @@
-from flask import Flask, request, render_template, send_from_directory, abort
+from flask import Flask, request, render_template, send_from_directory, jsonify
 from data.qa_data import clean_report
+
 import config
+import json
+import os
 
 app = Flask(__name__)
 app.use_static_for = 'static'
@@ -48,6 +51,27 @@ def process_file():
             return render_template('error.html'), 500
 
     return render_template('error.html'), 400
+
+@app.route('/json-review', methods=['GET'])
+def json_review():
+    filename = request.args.get('filename')
+    if filename:
+        try:
+            file_path = os.path.join('/home/garciagi/SCS_Tool/json', filename + '.json')
+            if os.path.exists(file_path):
+                with open(file_path, 'r', encoding='utf-8') as json_file:
+                    data = json.load(json_file)
+                    return render_template('json_review.html', json_data=json.dumps(data, indent=4))
+            else:
+                return "File not found"
+        except Exception as e:
+            print(e)
+            return render_template('error_json.html'), 500
+    return render_template('json_review.html', json_data=None)
+
+@app.route('/index2')
+def mainpage():
+    return render_template('index2.html')
 
 @app.route('/documentation')
 def documentation():

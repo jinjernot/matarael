@@ -15,12 +15,14 @@
 
     <div class="container">
         <div class="menu">
+            <h4><a href="{{ url_for('mainpage') }}">Home</a><br></h4>
+            <hr>
             <h3>QA Reports</h3>
             <hr>
             <ul>
                 <a href="{{ url_for('regular_content') }}">Regular Content</a><br>
                 <a href="#">Upload JSON</a><br>
-                <a href="#">Review JSON</a><br>
+                <a href="{{ url_for('json_review') }}">Review Data</a><br>
             </ul>
             <h3>Documentation</h3>
             <hr>
@@ -31,7 +33,7 @@
         </div>
         <div class="content">
             <h3 class="">Regular Content</h3><br>
-                <form action="upload-file" method="POST" enctype="multipart/form-data" onsubmit="showProcessingMessage(this)">
+                <form action="upload-file" method="POST" enctype="multipart/form-data">
                     <input type="file" name="Regular" class="custom-input">
                     <br><br>
                     <input type="submit" value="Upload" class="custom-button">

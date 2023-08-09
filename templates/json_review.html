@@ -32,8 +32,19 @@
             </ul>
         </div>
         <div class="content">
-            <h3>What's New</h3>
-            8/8/2023 - Review data module added
+            <h3 class="">JSON Review</h3>
+            <form action="json-review" method="GET" >
+                <input type="text" name="filename" placeholder="Enter container name" class="custom-input">
+                <br><br>
+                <input type="submit" value="View JSON" class="custom-button">
+                <br>
+            </form>
+            <br><br>
+            <pre>
+                {% if json_data %}
+                    {{ json_data }}
+                {% endif %}
+            </pre>
         </div>
     </div>
     <div class="footer-container">

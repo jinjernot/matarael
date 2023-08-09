@@ -170,3 +170,10 @@
     padding: 1%;
     text-align: right;
   }
+  pre {
+    border: 1px solid #0096d6;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    overflow: auto;
+  }
