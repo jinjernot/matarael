@@ -19,13 +19,7 @@
     
   body {
     background-color: #e6e6e6;
-    border: 5px solid #0096d6; 
-    box-sizing: border-box;
-    height: 100vh;
-    display: flex;
-    flex-direction: column; 
-    justify-content: center;
-    font-family: Forma DJR Micro; 
+    font-family: Forma DJR Micro;
   }
 
   a {
@@ -39,7 +33,7 @@
   }
 
   .heading > h1 {
-    font-size: 35pt;
+    font-size: 25pt;
   }
   
   .heading > h2 {
@@ -47,109 +41,132 @@
   }
 
   h3 {
-  padding-top: 20px;
-  padding-bottom: 5px;
-  font-size: 16pt;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    font-size: 16pt;
   }
-  
+
+  .upload-container {
+    margin: 0 auto;
+    color: black;
+  }
+
+  .custom-button {
+    border: 1px solid #e6e6e6;
+    background-color: #0096d6;
+    color: #fff;  
+    border-radius: 10px;
+    outline: none; 
+    transition: background-color 0.3s ease-in-out; 
+    width: 290px;
+    height: 45px;
+    font-size: 16px;
+  }
   .image-container {
     width: 100%;
     display: flex;
     justify-content: center;
     padding-top: 20%;
   }
+
+  .custom-button:hover {
+    background-color: #0081b3;
+  }
+
+  .custom-button:focus {
+    border-color: #bfbfbf; 
+  }
+
+  .custom-input {
+    border: 1px solid #e6e6e6;
+    border-radius: 10px;
+    padding: 10px 20px; 
+    outline: none; 
+    height: 25px;
+    width: 250px; 
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+
+  .custom-input:hover {
+    border: 1px solid #0096d6;
+  }
+
+  .custom-input:focus {
+    border: 1px solid #0096d6;
+  }
+
+  table {
+    margin: 0 auto;
+    border: 0;
+    
+  }
+
+  .login {
+    border: 2px solid #0096d6;
+    background-color: #ffffff;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    border-radius: 25px;
+    
+  }
+
+  .menu, .content {
+    padding: 10px; /* Adding some padding for better appearance */
+    flex: 1; /* Let both columns grow to take available space */
+    background-color: #ffffff;
+    border: 1px solid #e6e6e6;;
+}
+
+.menu {
+    flex: 0 0 25%
+}
+
+  .content {
+    width: 75%;
+    vertical-align: top;
+    background-color: #ffffff;
+    padding: 2%;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-right: 15%;
+}
   
+  .hero-container {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 2%;
+    border: 5px;
+    vertical-align: top
+  }
 
-.bottom-center {
-    width: 40px; 
-    height: 40px; 
-}
+  .hero-container img {
+      width: 50px;
+      height: 50px;
+      align-items: right;
+  }
 
-.upload-container {
-  margin: 0 auto;
-  color: black;
-}
+  hr {
+    margin: 10px 0;
+    border: none;
+    border-top: 1px solid #ccc;
+  }
 
-.custom-button {
-  border: 1px solid #e6e6e6;
-  background-color: #0096d6;
-  color: #fff;  
-  border-radius: 10px;
-  outline: none; 
-  transition: background-color 0.3s ease-in-out; 
-  width: 290px;
-  height: 45px;
-  font-size: 16px;
-}
-
-.custom-button:hover {
-  background-color: #0081b3;
-}
-
-.custom-button:focus {
-  border-color: #bfbfbf; 
-}
-
-
-.custom-input {
-  border: 1px solid #e6e6e6;
-  border-radius: 10px;
-  padding: 10px 20px; 
-  outline: none; 
-  height: 25px;
-  width: 250px; 
-  font-size: 16px;
-  transition: border-color 0.3s ease;
-}
-
-.custom-input:hover {
-  border: 1px solid #0096d6;
-}
-
-.custom-input:focus {
-  border: 1px solid #0096d6;
-}
-
-table {
-  margin: 0 auto;
-}
-
-td {
-  border: 2px solid #0096d6;
-  background-color: #ffffff;
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-top: 100px;
-  padding-bottom: 200px;
-  border-radius: 25px;
-}
-.modal {
-  display: none;
-  border: 2px solid #0096d6;
-  position: fixed;
-  z-index: 1;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-.modal-content {
-  background-color: #fefefe;
-  margin: 15% auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 300px;
-  text-align: center;
-}
-
-.bottom-right-link {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  padding: 20px;
-  font-size: 14pt;
-  text-align: right;
-}
+  .footer-container {
+    background-color: #ffffff;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 1%;
+    text-align: right;
+  }

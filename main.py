@@ -53,6 +53,10 @@ def process_file():
 def documentation():
     return render_template('documentation.html')
 
+@app.route('/regular_content')
+def regular_content():
+    return render_template('regular_content.html')
+
 
 if __name__ == '__main__':
     app.run(debug=True)

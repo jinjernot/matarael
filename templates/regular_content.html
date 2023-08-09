@@ -30,8 +30,13 @@
             </ul>
         </div>
         <div class="content">
-            <h3>What's New</h3>
-            8/8/2023 - Hello world
+            <h3 class="">Regular Content</h3><br>
+                <form action="upload-file" method="POST" enctype="multipart/form-data" onsubmit="showProcessingMessage(this)">
+                    <input type="file" name="Regular" class="custom-input">
+                    <br><br>
+                    <input type="submit" value="Upload" class="custom-button">
+                </form><br>
+                Note: The excel file must be in the same format as scs export report.
         </div>
     </div>
     <div class="footer-container">
