@@ -7219,6 +7219,10 @@
         {
             "PhwebDescription": "BU IDS UMA Ryzen7 5700U 17",
             "ContainerValue": "[7] Max Boost clock frequency performance varies depending on hardware, software and overall system configuration."
+        },
+        {
+            "PhwebDescription": "CPU INTL i7-12700K 12C 3.60 125W",
+            "ContainerValue": "[7] Intel® Turbo Boost performance varies depending on hardware, software and overall system configuration. See http://www.intel.com/technology/turboboost/ for more information."
         }
     ]
 }

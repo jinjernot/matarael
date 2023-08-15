@@ -1371,6 +1371,70 @@
         {
             "PhwebDescription": "ID SFW PLA wHDC TNR FPR JPN layout",
             "ContainerValue": "Snow flake white cover and base, snow white keyboard frame"
+        },
+        {
+            "PhwebDescription": "ID RCTO SWH PLA Akali 180W",
+            "ContainerValue": "Dark black"
+        },
+        {
+            "PhwebDescription": "ID SHW PLA",
+            "ContainerValue": "Shell white"
+        },
+        {
+            "PhwebDescription": "ID NSV ALU fRTX fOLED US layout",
+            "ContainerValue": "Natural silver aluminum"
+        },
+        {
+            "PhwebDescription": "ID MCS PLA wHDC TNR nBEO",
+            "ContainerValue": "Mica silver"
+        },
+        {
+            "PhwebDescription": "ID MGB ALU",
+            "ContainerValue": "Moonlight blue aluminum"
+        },
+        {
+            "PhwebDescription": "ID TUP ALU",
+            "ContainerValue": "Tranquil pink aluminum"
+        },
+        {
+            "PhwebDescription": "ID SKB MAG",
+            "ContainerValue": "Slate blue"
+        },
+        {
+            "PhwebDescription": "ID PLG PLA wHDC TNR FPR",
+            "ContainerValue": "Pale gold cover and base, natural silver keyboard frame"
+        },
+        {
+            "PhwebDescription": "ID RCTO SDB GLA RGB LCS ARGB3 800W",
+            "ContainerValue": "Black, glass side panel, dark chrome logo"
+        },
+        {
+            "PhwebDescription": "ID WFB ALU wFHDC FPR QHD",
+            "ContainerValue": "Waterfall blue aluminum cover, waterfall blue keyboard frame, watercolor blue base"
+        },
+        {
+            "PhwebDescription": "ID MNS PLA wFHDC US layout f3C PLUS",
+            "ContainerValue": "Mineral silver"
+        },
+        {
+            "PhwebDescription": "ID MGB PLA wHDC+PCSD TS",
+            "ContainerValue": "Moonlight blue cover, natural silver base and keyboard frame"
+        },
+        {
+            "PhwebDescription": "ID SFT PLA wHDC FPR",
+            "ContainerValue": "Seafoam teal"
+        },
+        {
+            "PhwebDescription": "ID PLG PLA wHDC+PCSD FPR TS",
+            "ContainerValue": "Warm gold cover, natural silver base and keyboard frame"
+        },
+        {
+            "PhwebDescription": "ID WLD PLA wHDC FPR",
+            "ContainerValue": "Winter lavender"
+        },
+        {
+            "PhwebDescription": "ID ASV PLA wSDC wHDC TNR",
+            "ContainerValue": "Asteroid silver"
         }
     ]
 }

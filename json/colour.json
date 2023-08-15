@@ -871,6 +871,54 @@
         {
             "PhwebDescription": "ID SDB PLA US layout wNumPad",
             "ContainerValue": "Shadow black"
+        },
+        {
+            "PhwebDescription": "ID WLD PLA wHDC FPR",
+            "ContainerValue": "Winter lavender"
+        },
+        {
+            "PhwebDescription": "ID PLG PLA wHDC TNR FPR",
+            "ContainerValue": "Pale gold"
+        },
+        {
+            "PhwebDescription": "ID SFT PLA wHDC FPR",
+            "ContainerValue": "Seafoam teal"
+        },
+        {
+            "PhwebDescription": "ID MGB PLA wHDC+PCSD TS",
+            "ContainerValue": "Moonlight blue"
+        },
+        {
+            "PhwebDescription": "ID PLG PLA wHDC+PCSD FPR TS",
+            "ContainerValue": "Warm gold"
+        },
+        {
+            "PhwebDescription": "ID WFB ALU wFHDC FPR QHD",
+            "ContainerValue": "Waterfall blue"
+        },
+        {
+            "PhwebDescription": "ID MNS PLA wFHDC US layout f3C PLUS",
+            "ContainerValue": "Mineral silver"
+        },
+        {
+            "PhwebDescription": "ID MCS PLA wHDC TNR nBEO",
+            "ContainerValue": "Mica silver"
+        },
+        {
+            "PhwebDescription": "ID NSV ALU fRTX fOLED US layout",
+            "ContainerValue": "Natural silver"
+        },
+        {
+            "PhwebDescription": "ID MGB ALU",
+            "ContainerValue": "Moonlight blue"
+        },
+        {
+            "PhwebDescription": "ID TUP ALU",
+            "ContainerValue": "Tranquil pink"
+        },
+        {
+            "PhwebDescription": "ID SKB MAG",
+            "ContainerValue": "Space blue"
         }
     ]
 }

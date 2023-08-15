@@ -1199,6 +1199,90 @@
         {
             "PhwebDescription": "MISC No Included Keyboard",
             "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "HP KBD MUS WL BSlim",
+            "ContainerValue": "HP Wireless Business Slim Keyboard and mouse combo"
+        },
+        {
+            "PhwebDescription": "KBDWD USB Chrome MUSWD",
+            "ContainerValue": "HP USB Premium Keyboard and mouse combo"
+        },
+        {
+            "PhwebDescription": "KBD SGY FS CP+IS BL",
+            "ContainerValue": "Full-size, backlit, soft grey keyboard"
+        },
+        {
+            "PhwebDescription": "KBD HP 720 WHT TCHPD",
+            "ContainerValue": "HP 720 White Touchpad Integrated Bluetooth Keyboard"
+        },
+        {
+            "PhwebDescription": "KBD SGY ISK CP+IS BL num kypd",
+            "ContainerValue": "Full-size, backlit, soft grey keyboard with numeric keypad"
+        },
+        {
+            "PhwebDescription": "KBD CPK FS CP+IS BL",
+            "ContainerValue": "Full-size, backlit, crepe pink keyboard"
+        },
+        {
+            "PhwebDescription": "KBD MBO FS CP+IS BL",
+            "ContainerValue": "Full-size, backlit, moonlight blue opaque keyboard"
+        },
+        {
+            "PhwebDescription": "KBD HP RBL SC",
+            "ContainerValue": "Full-size, detachable rudy black soft cover Bluetooth® keyboard"
+        },
+        {
+            "PhwebDescription": "KBD MNS FS PT CP+IS num kypd",
+            "ContainerValue": "Full-size, mineral silver keyboard with numeric keypad"
+        },
+        {
+            "PhwebDescription": "KBD SFT ISK CP+IS BL num kypd",
+            "ContainerValue": "Full-size, backlit, seafoam teal pearl keyboard with numeric keypad"
+        },
+        {
+            "PhwebDescription": "KBD LLD ISK CP+IS BL num kypd",
+            "ContainerValue": "Full-size, backlit, wisteria lavender pearl keyboard with numeric keypad"
+        },
+        {
+            "PhwebDescription": "KBD MNS FS PT CP+IS BL num kypd",
+            "ContainerValue": "Full-size, backlit, mineral silver keyboard with numeric keypad"
+        },
+        {
+            "PhwebDescription": "HP KBDWD BLK KAT",
+            "ContainerValue": "HP USB wired keyboard"
+        },
+        {
+            "PhwebDescription": "HP KBDWD USB BusSlim SCard CCID",
+            "ContainerValue": "HP USB Business Slim Wired SmartCard CCID Keyboard"
+        },
+        {
+            "PhwebDescription": "KBDWD USB BusSlim",
+            "ContainerValue": "HP USB Slim Business Keyboard"
+        },
+        {
+            "PhwebDescription": "HP KBDWD WHT KAT",
+            "ContainerValue": "HP USB wired keyboard"
+        },
+        {
+            "PhwebDescription": "HP KBDWD USB BusSlim SCard CCID",
+            "ContainerValue": "HP USB Business Slim SmartCard CCID Keyboard"
+        },
+        {
+            "PhwebDescription": "Mouse HP BLK 125 WRD",
+            "ContainerValue": "HP 125 USB Black Wired Keyboard"
+        },
+        {
+            "PhwebDescription": "KBDWD USB Chrome MUSWD",
+            "ContainerValue": "Chrome USB keyboard and mouse combo"
+        },
+        {
+            "PhwebDescription": "KBD HP Slim USB",
+            "ContainerValue": "HP USB Slim Business Keyboard"
+        },
+        {
+            "PhwebDescription": "KBD NTT ISK CP",
+            "ContainerValue": "Spill-resistant keyboard"
         }
     ]
 }

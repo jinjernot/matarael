@@ -103,6 +103,10 @@
         {
             "PhwebDescription": "GFX NVIDIA GeF RTX 4070 12GB GDDR6X",
             "ContainerValue": "Support for Blu-ray and Microsoft ® DirectX ® 12"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX30506GB i7-13700H 16",
+            "ContainerValue": "NVIDIA® Studio"
         }
     ]
 }

@@ -1039,6 +1039,194 @@
     {
       "PhwebDescription": "BU IDS UMA CelN4500 8GB 128GeMMC 15a-na0",
       "ContainerValue": "128 GB eMMC"
+    },
+    {
+      "PhwebDescription": "HDD 6TB 7200RPM SATA Ent 3.5 5th",
+      "ContainerValue": "6 TB SATA HDD"
+    },
+    {
+      "PhwebDescription": "ZTRB HP ZTrbDrv Dual 2TB TLC SSD",
+      "ContainerValue": "2 TB SATA SSD"
+    },
+    {
+      "PhwebDescription": "ZTRB HP ZTrbDrv Quad 2TB TLC SSD",
+      "ContainerValue": "2 TB SATA SSD"
+    },
+    {
+      "PhwebDescription": "ZTRB HP ZTrbDrv Quad 2TB TLC SSD 3rd",
+      "ContainerValue": "2 TB SATA SSD"
+    },
+    {
+      "PhwebDescription": "ZTRB HP ZTrbDrv M.2 2TB TLC SSD 3rd",
+      "ContainerValue": "2 TB SATA SSD"
+    },
+    {
+      "PhwebDescription": "ZTRB HP ZTrbDrv Quad 2TB TLC SSD 4th",
+      "ContainerValue": "2 TB SATA SSD"
+    },
+    {
+      "PhwebDescription": "HDD 8TB 7200RPM SATA Ent 3.5in 4th",
+      "ContainerValue": "8 TB 7200 rpm SATA HDD"
+    },
+    {
+      "PhwebDescription": "ZTRB HP ZTrbDrv M.2 2TB TLC SSD",
+      "ContainerValue": "2 TB SATA SSD"
+    },
+    {
+      "PhwebDescription": "ZTRB HP ZTrbDrv M.2 2TB TLC SSD 4th",
+      "ContainerValue": "2 TB SATA SSD"
+    },
+    {
+      "PhwebDescription": "ZTRB HP ZTrbDrv QX310 2TB SSD",
+      "ContainerValue": "2 TB HP Z Turbo Drive PCIe® NVMe™ SSD"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA CelN51008GB128GeMMCfWWAN14G10",
+      "ContainerValue": "128 GB eMMC"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA CelN4500 4GB 64GeMMC 14 G7",
+      "ContainerValue": "64 GB eMMC"
+    },
+    {
+      "PhwebDescription": "ZTRB HP ZTrbDrv Quad 2TB TLC SSD 2nd",
+      "ContainerValue": "2 TB SATA SSD"
+    },
+    {
+      "PhwebDescription": "HDD 4TB 7200RPM SATA Ent 3.5in",
+      "ContainerValue": "4 TB 7200 rpm SATA"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA N100 128GUFS 14",
+      "ContainerValue": "128 GB UFS"
+    },
+    {
+      "PhwebDescription": "SSD WD Black 1T 2280 PCIe NVMe TLC",
+      "ContainerValue": "1 TB WD Black PCIe® NVMe™ TLC M.2 SSD"
+    },
+    {
+      "PhwebDescription": "BU IDS UMAPentN60008GB128GeMMCfBL14b-cb0",
+      "ContainerValue": "128 GB eMMC"
+    },
+    {
+      "PhwebDescription": "HDD 4TB 7200RPM SATA Ent 3.5in",
+      "ContainerValue": "4 TB 7200 rpm SATA HDD"
+    },
+    {
+      "PhwebDescription": "eMMC 32GB MMCv5.0",
+      "ContainerValue": "32 GB eMMC"
+    },
+    {
+      "PhwebDescription": "SSD 512G M.2 2280 PCIe NVMe OPAL2 TLC",
+      "ContainerValue": "512 GB PCIe® NVMe™ SED M.2 SSD"
+    },
+    {
+      "PhwebDescription": "HDD 500GB 7200RPM SATA 3.5in",
+      "ContainerValue": "500 GB 7200 rpm SATA HDD"
+    },
+    {
+      "PhwebDescription": "HDD 1TB 7200RPM SATA Ent 3.5in",
+      "ContainerValue": "1 TB 7200 rpm SATA HDD"
+    },
+    {
+      "PhwebDescription": "128 GB M.2 SATA Flash Memory",
+      "ContainerValue": "128 GB SATA M.2 SSD"
+    },
+    {
+      "PhwebDescription": "ZTRB HP ZTrbDrv M.2 1TB TLC SSD",
+      "ContainerValue": "1 TB HP Z Turbo Drive PCIe® NVMe™ SSD"
+    },
+    {
+      "PhwebDescription": "HDD 500GB 7200RPM SED-OPAL2 2.5",
+      "ContainerValue": "500 GB 7200 rpm SATA HDD"
+    },
+    {
+      "PhwebDescription": "HDD 1TB 7200RPM SATA 2.5in 2nd cDT",
+      "ContainerValue": "1 TB 7200 rpm SATA HDD"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA i3-1315U 64GeMMC Chromebox G4",
+      "ContainerValue": "64 GB eMMC"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA Cel7305 64GeMMC Chromebox G4",
+      "ContainerValue": "64 GB eMMC"
+    },
+    {
+      "PhwebDescription": "SSD ZTrb 1TB 2280 PCIe TLC M.2 FL Rmv",
+      "ContainerValue": "1 TB HP Z Turbo Drive PCIe® NVMe™ TLC M.2 SSD"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA i5-1345U 64GeMMC Chromebox G4",
+      "ContainerValue": "64 GB eMMC"
+    },
+    {
+      "PhwebDescription": "eMMC 64GB MMCv5.0",
+      "ContainerValue": "64 GB eMMC"
+    },
+    {
+      "PhwebDescription": "HDD 1TB 7200RPM SATA-6G 2nd",
+      "ContainerValue": "1 TB 7200 rpm SATA HDD"
+    },
+    {
+      "PhwebDescription": "HDD 1TB 5400RPM 2.5in",
+      "ContainerValue": "1 TB 5400 rpm SATA HDD"
+    },
+    {
+      "PhwebDescription": "ZTRB HPZ Turbo Drv Quad Pro 512GB TLCSSD",
+      "ContainerValue": "512 GB SATA SSD"
+    },
+    {
+      "PhwebDescription": "ZTRB HP ZTrbDrv M.2 512GB TLC SSD",
+      "ContainerValue": "512 GB HP Z Turbo Drive PCIe® M.2 SSD"
+    },
+    {
+      "PhwebDescription": "SSD 512GB 2280 PCIe-4x4 NVMe TLC M.2",
+      "ContainerValue": "512 GB PCIe® NVMe™ TLC M.2 SSD"
+    },
+    {
+      "PhwebDescription": "SSD 256GB 2280 PCIe-4x4 OPAL2 NVME TLC",
+      "ContainerValue": "256 GB PCIe® NVMe™ TLC SSD"
+    },
+    {
+      "PhwebDescription": "SSD 2TB 2280 PCIe-4x4 NVMe TLC 2nd",
+      "ContainerValue": "2 TB PCIe® NVMe™ TLC SSD"
+    },
+    {
+      "PhwebDescription": "HDD 2TB 7200RPM SATA Ent 3.5in",
+      "ContainerValue": "2 TB 7200 rpm SATA HDD"
+    },
+    {
+      "PhwebDescription": "HDD 1TB 7200RPM SATA Ent 3.5in FrntLdRmv",
+      "ContainerValue": "1 TB 7200 rpm SATA HDD"
+    },
+    {
+      "PhwebDescription": "SSD 1T M.2 2280 PCIe NVMe TLC 2nd",
+      "ContainerValue": "1 TB PCIe® NVMe™ SSD"
+    },
+    {
+      "PhwebDescription": "HDD 2TB 7200RPM SATA Ent 3.5in 5th",
+      "ContainerValue": "2 TB SATA SSD"
+    },
+    {
+      "PhwebDescription": "HDD 2TB 7200RPM SATA Ent 3.5in 4th",
+      "ContainerValue": "2 TB 7200 rpm SATA HDD"
+    },
+    {
+      "PhwebDescription": "BU RCTOUMACelN45004GBHD32GeMMCCPJTBINDIA",
+      "ContainerValue": "32 GB eMMC"
+    },
+    {
+      "PhwebDescription": "SSD HPZ 2TB 2280 PCIe-4x4 TLC 4th M.2",
+      "ContainerValue": "2 TB HP Z Turbo Drive PCIe® NVMe™ TLC M.2 SSD"
+    },
+    {
+      "PhwebDescription": "HDD 2TB 7200RPM SATA Ent 3.5in 6th",
+      "ContainerValue": "2 TB SATA SSD"
+    },
+    {
+      "PhwebDescription": "SSD HP 512GB 2280 PCIe-4x4 Val 2nd M.2",
+      "ContainerValue": "512 GB HP Z Turbo Drive PCIe® M.2 SSD"
     }
   ]
 }

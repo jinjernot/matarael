@@ -6891,6 +6891,606 @@
     {
       "PhwebDescription": "BU IDS OPP 27-cr0 27 8GB R3-7320U",
       "ContainerValue": "AMD Ryzen™ 3 7320U (up to 4.1 GHz max boost clock, 4 MB L3 cache, 4 cores, 8 threads)"
+    },
+    {
+      "PhwebDescription": "CPU I Xeon4215R 3.2GHz 8C130W",
+      "ContainerValue": "Intel® Xeon® Silver 4215R (3.2 GHz base frequency, up to 4.0 GHz with Intel® Turbo Boost Technology, 11 MB L3 cache, 8 cores)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA i7-1165G7 TI PD IC 840 G8",
+      "ContainerValue": "Intel® Core™ i7-1165G7 (up to 4.7 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 4 cores, 8 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA CelN51008GB128GeMMCfWWAN14G10",
+      "ContainerValue": "Intel® Celeron® N5100 (up to 2.8 GHz burst frequency, 4 MB L3 cache, 4 cores)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA CelN4500 4GB 64GeMMC 14 G7",
+      "ContainerValue": "Intel® Celeron® N4500 (up to 2.8 GHz burst frequency, 4 MB L3 cache, 2 cores, 2 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA i3-10110U Chromebox G3",
+      "ContainerValue": "Intel® Core™ i3-10110U (2.1 GHz base frequency, up to 4.1 GHz with Intel® Turbo Boost Technology, 4 MB L3 cache, 2 cores)"
+    },
+    {
+      "PhwebDescription": "BU IDS i7-11850H Fury 17.3 G8",
+      "ContainerValue": "Intel® Core™ i7-11850H (2.5 GHz base frequency, up to 4.8 GHz with Intel® Turbo Boost Technology, 24 MB L3 cache, 8 cores, 16 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS DSCRTX400012GBi9-13900HKStudioG10",
+      "ContainerValue": "Intel® Core™ i9-13900HK (up to 5.4 GHz with Intel® Turbo Boost Technology, 24 MB L3 cache, 14 cores, 20 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS DSC i7-1165G7 32GB 14 G8",
+      "ContainerValue": "Intel® Core™ i7-1165G7 (up to 4.7 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 4 cores)"
+    },
+    {
+      "PhwebDescription": "BU IDS DSCRTX408012GB i7-13800HStudioG10",
+      "ContainerValue": "Intel® Core™ i7-13800H (up to 5.2 GHz with Intel® Turbo Boost Technology, 24 MB L3 cache, 14 cores, 20 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA PH i5-KT vProE fWWAN 640 G9",
+      "ContainerValue": "Intel® Core™ i5-1235U (up to 4.4 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 10 cores, 12 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA PH i7-KT TI PD IC 860 G10",
+      "ContainerValue": "Intel® Core™ i7-1355U (up to 5.0 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 10 cores, 12 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA PH i5-KT HW TI PD IC 16 G10",
+      "ContainerValue": "Intel® Core™ i5-1340P (up to 4.6 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 12 cores, 16 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA i7-1265U RTK USBC 16 G9",
+      "ContainerValue": "Intel®️ Core™️ i7-1265U (up to 4.8 GHz with Intel®️ Turbo Boost Technology, 12 MB L3 cache, 10 cores, 12 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA PH i5-KT 8GB TI PD IC 830 G10",
+      "ContainerValue": "Intel® Core™ i5-1335U (up to 4.6 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 10 cores, 12 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS DSCRTX20504GB R5 7535HS 15",
+      "ContainerValue": "AMD Ryzen™ 5 7535HS (up to 4.5 GHz max boost clock, 16 MB L3 cache, 6 cores, 12 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS DSC RX 6650M 8GB R7 6800H 16",
+      "ContainerValue": "AMD Ryzen™ 7 6800H (up to 4.7 GHz max boost clock, 16 MB L3 cache, 8 cores, 16 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS OPP 27-cb0 27 R7-5700U",
+      "ContainerValue": "AMD Ryzen™ 7 5700U (up to 4.3 GHz max boost clock, 8 MB L3 cache, 8 cores, 16 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA i5-1335U 16GB 14",
+      "ContainerValue": "Intel® Core™ i5-1335U (up to 4.6 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 10 cores, 12 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS DSCRTX20504GB i7-12650H 15",
+      "ContainerValue": "Intel® Core™ i7-12650H (up to 4.7 GHz with Intel® Turbo Boost Technology, 24 MB L3 cache, 10 cores, 16 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA i7-13700H 16",
+      "ContainerValue": "Intel® Core™ i7-13700H (up to 5.0 GHz with Intel® Turbo Boost Technology, 24 MB L3 cache, 14 cores, 20 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS Envy 23.8 AiO 16GB i5-1335U",
+      "ContainerValue": "Intel® Core™ i5-1335U (up to 4.6 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 10 cores, 12 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA R7 7840U 16GB fOLED 14",
+      "ContainerValue": "AMD Ryzen™ 7 7840U (up to 5.1 GHz max boost clock, 16 MB L3 cache, 8 cores, 16 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA PHPentxxxx 17",
+      "ContainerValue": "Intel® Processor N200 (up to 3.7 GHz with Intel® Turbo Boost Technology, 6 MB L3 cache, 4 cores, 4 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS Envy 23.8 AiO 8GB i5-1335U",
+      "ContainerValue": "Intel® Core™ i5-1335U (up to 4.6 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 10 cores, 12 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS DSCRTX20504GB i5-12450H 15",
+      "ContainerValue": "Intel® Core™ i5-12450H (up to 4.4 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 8 cores, 12 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS Envy 23.8 AiO 8GB i3-1315U",
+      "ContainerValue": "Intel® Core™ i3-1315U (up to 4.5 GHz with Intel® Turbo Boost Technology, 10 MB L3 cache, 6 cores, 8 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA i7-1355U 16GB fOLED 14",
+      "ContainerValue": "Intel® Core™ i7-1355U (up to 5.0 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 10 cores, 12 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA R5 7540U 16GB 14",
+      "ContainerValue": "AMD Ryzen™ 5 7540U (up to 4.9 GHz max boost clock, 16 MB L3 cache, 6 cores, 12 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA i7-1250U 16GB 17",
+      "ContainerValue": "Intel® Core™ i7-1250U (up to 4.7 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 10 cores, 12 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA N100 128GUFS 14",
+      "ContainerValue": "Intel® Processor N100 (up to 3.4 GHz with Intel® Turbo Boost Technology, 6 MB L3 cache, 4 cores, 4 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS Pav 24-ca0 23.8 FHD R7-5700U",
+      "ContainerValue": "AMD Ryzen™ 7 5700U (1.8 GHz base clock, up to 4.3 GHz max boost clock, 8 MB L3 cache, 8 cores, 16 threads)"
+    },
+    {
+      "PhwebDescription": "CPU AMD R5-5600X 6C 3.70 65W RAir",
+      "ContainerValue": "AMD Ryzen™ 5 5600X (up to 4.6 GHz max boost clock, 32 MB L3 cache, 6 cores, 12 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS DSC RX 6500M 4GB Ryzen7 5800H 15",
+      "ContainerValue": "AMD Ryzen™ 7 5800H (up to 4.4 GHz max boost clock, 16 MB L3 cache, 8 cores, 16 threads)"
+    },
+    {
+      "PhwebDescription": "APU AMD R7-7800X3D 8C 120W 360mm RGB LCS",
+      "ContainerValue": "AMD Ryzen™ 7 7800X3D (up to 5.0 GHz max boost clock, 96 MB L3 cache, 8 cores, 16 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA i7-1360P 14",
+      "ContainerValue": "Intel® Core™ i7-1360P (up to 5.0 GHz with Intel® Turbo Boost Technology, 18 MB L3 cache, 12 cores, 16 threads)"
+    },
+    {
+      "PhwebDescription": "APU AMD R7-7800X3D 8C 120W 120mm RGB LCS",
+      "ContainerValue": "AMD Ryzen™ 7 7800X3D (up to 5.0 GHz max boost clock, 96 MB L3 cache, 8 cores, 16 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS DSCRTX40608GB i7-13700H 15",
+      "ContainerValue": "Intel® Core™ i7-13700H (up to 5.0 GHz with Intel® Turbo Boost Technology, 24 MB L3 cache, 14 cores, 20 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS Envy Move 23.8 16GB PRC i5-1335U",
+      "ContainerValue": "Intel® Core™ i5-1335U (up to 4.6 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 10 cores, 12 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS DSCRTX40506GB i7-12650H 15",
+      "ContainerValue": "Intel® Core™ i7-12650H (up to 4.7 GHz with Intel® Turbo Boost Technology, 24 MB L3 cache, 10 cores, 16 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA R7 7840H 32GB fOLED 14",
+      "ContainerValue": "AMD Ryzen™ 7 7840H (up to 5.1 GHz max boost clock, 16 MB L3 cache, 8 cores, 16 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA R7 7840H 16GB fOLED 14",
+      "ContainerValue": "AMD Ryzen™ 7 7840H (up to 5.1 GHz max boost clock, 16 MB L3 cache, 8 cores, 16 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS DSCRTX40608GB i5-13500H 15",
+      "ContainerValue": "Intel® Core™ i5-13500H (up to 4.7 GHz with Intel® Turbo Boost Technology, 18 MB L3 cache, 12 cores, 16 threads)"
+    },
+    {
+      "PhwebDescription": "APU AMD R9-7950X3D 16C 120W 360mm RGBLCS",
+      "ContainerValue": "AMD Ryzen™ 9 7950X3D (up to 5.7 GHz max boost clock, 128 MB L3 cache, 16 cores, 32 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA R5 7640H 16GB 14",
+      "ContainerValue": "AMD Ryzen™ 5 7640H (up to 5.0 GHz max boost clock, 16 MB L3 cache, 6 cores, 12 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS OPP 24-ck0 23.8 I7-1255U",
+      "ContainerValue": "Intel® Core™ i7-1255U (up to 4.7 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 10 cores, 12 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS 205 G4 R3-3250U 21.5 NT AiO",
+      "ContainerValue": "AMD Ryzen™ 3 3250U (2.6 GHz base clock, up to 3.5 GHz max boost clock, 1 MB L2 cache, 2 cores)"
+    },
+    {
+      "PhwebDescription": "BU HP IDS Elite t655 TC",
+      "ContainerValue": "AMD Ryzen™ Embedded R2314 (up to 3.5 GHz max boost clock, 2 MB L2 cache, 4 cores, 4 threads)"
+    },
+    {
+      "PhwebDescription": "BU 205 G8 23.8 AiO R5-5500U IDS",
+      "ContainerValue": "AMD Ryzen™ 5 5500U (up to 4.0 GHz max boost clock, 8 MB L3 cache, 6 cores, 12 threads)"
+    },
+    {
+      "PhwebDescription": "BU 240 Pro G9 23.8 AiO i5-1235U IDS",
+      "ContainerValue": "Intel® Core™ i5-1235U (up to 4.4 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 10 cores, 12 threads)"
+    },
+    {
+      "PhwebDescription": "BU HP IDS Elite t550 TC",
+      "ContainerValue": "Intel® Celeron® J6412 (2.0 GHz base frequency, up to 2.6 GHz burst frequency, 1.5 MB L2 cache, 4 cores, 4 threads)"
+    },
+    {
+      "PhwebDescription": "CPU INTL i3-13100TE 2.40 4C 35W",
+      "ContainerValue": "Intel® Core™ i3-13100TE (4.1 GHz Max Turbo frequency, 12 MB L3 cache, 4 cores, 8 threads)"
+    },
+    {
+      "PhwebDescription": "CPU INTL Xn 6438Y+ 32C 2.00 205W 2nd",
+      "ContainerValue": "Intel® Xeon® Gold 6438Y+ (up to 4.0 GHz with Intel® Turbo Boost Technology, 60 MB L3 cache, 32 cores, 64 threads)"
+    },
+    {
+      "PhwebDescription": "BU 205 G8 23.8 AiO R3-5300U IDS",
+      "ContainerValue": "AMD Ryzen™ 3 5300U (up to 3.8 GHz max boost clock, 4 MB L3 cache, 4 cores, 8 thread)"
+    },
+    {
+      "PhwebDescription": "BU IDS DSC i7-1165G7 16GB 14 G8",
+      "ContainerValue": "Intel® Core™ i7-1165G7 (up to 4.7 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 4 cores)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA i3-1110G48GBANDREngageGo10TAB",
+      "ContainerValue": "Intel® Core™ i3-1110G4 (up to 3.9 GHz with Intel® Turbo Boost Technology, 6 MB L3 cache, 2 cores, 4 threads)"
+    },
+    {
+      "PhwebDescription": "CPU INTL Xn 6438Y+ 32C 2.00 205W",
+      "ContainerValue": "Intel® Xeon® Gold 6438Y+ (up to 4.0 GHz with Intel® Turbo Boost Technology, 60 MB L3 cache, 32 cores, 64 threads)"
+    },
+    {
+      "PhwebDescription": "BU 240 Pro G9 23.8 AiO i3-1215U IDS",
+      "ContainerValue": "Intel® Core™ i3-1215U (up to 4.4 GHz with Intel® Turbo Boost Technology, 10 MB L3 cache, 6 cores, 8 threads)"
+    },
+    {
+      "PhwebDescription": "CPU INTL i5-XX6XX 6C",
+      "ContainerValue": "Intel® Core™ i5-12600 (up to 4.8 GHz with Intel® Turbo Boost Technology, 18 MB L3 cache, 6 cores, 12 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS DSCRTX2000Ada8GBR9PRO7940HSPower1",
+      "ContainerValue": "AMD Ryzen™ 9 PRO 7940HS (up to 5.2 GHz max boost clock, 16 MB L3 cache, 8 cores, 16 threads)"
+    },
+    {
+      "PhwebDescription": "BU PON 245 G10 23.8 AiO 8GB R3-7320U IDS",
+      "ContainerValue": "AMD Ryzen™ 3 7320U (up to 4.1 GHz max boost clock, 4 MB L3 cache, 4 cores, 8 threads)"
+    },
+    {
+      "PhwebDescription": "BU 200 G4 21.5 AiO i5-1235U IDS",
+      "ContainerValue": "Intel® Core™ i5-1235U (up to 4.4 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 10 cores, 12 threads)"
+    },
+    {
+      "PhwebDescription": "BU HP ProMini G9 i5-1335U IDS",
+      "ContainerValue": "Intel® Core™ i5-1335U (up to 4.6 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 10 cores, 12 threads)"
+    },
+    {
+      "PhwebDescription": "BU HP ProMini G9 i3-1315U IDS",
+      "ContainerValue": "Intel® Core™ i3-1315U (up to 4.5 GHz with Intel® Turbo Boost Technology, 10 MB L3 cache, 6 cores, 8 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA CelN4500 250 G9",
+      "ContainerValue": "Intel® Celeron® N4500 (up to 2.8 GHz burst frequency, 4 MB L3 cache, 2 cores, 2 threads)"
+    },
+    {
+      "PhwebDescription": "BU Pro Mini 260 G9 PH i3-XXXXX IDS",
+      "ContainerValue": "Intel® Core™ i3-1215U (up to 4.4 GHz with Intel® Turbo Boost Technology, 10 MB L3 cache, 6 cores, 8 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA i7-1365U TIPD 1040 G10",
+      "ContainerValue": "Intel® Core™ i7-1365U (up to 5.2 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 10 cores, 12 threads)"
+    },
+    {
+      "PhwebDescription": "BU PON 240 G10 23.8 AiO i3-N300 IDS",
+      "ContainerValue": "Intel® Core™ i3-N300 (up to 3.8 GHz with Intel® Turbo Boost Technology, 6 MB L3 cache, 8 cores, 8 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA i5-1240P 250 G9",
+      "ContainerValue": "Intel® Core™ i5-1240P (up to 4.4 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 12 cores, 16 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA i7-1360P fWLAN RTKUSBC 860G10",
+      "ContainerValue": "Intel® Core™ i7-1360P (up to 5.0 GHz with Intel® Turbo Boost Technology, 18 MB L3 cache, 12 cores, 16 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA PH R5 PRO 6C 8GB TIPDIC835G10",
+      "ContainerValue": "AMD Ryzen™ 5 PRO 7540U (up to 4.9 GHz max boost clock, 16 MB L3 cache, 6 cores, 12 threads)"
+    },
+    {
+      "PhwebDescription": "BU PON 245 G10 23.8 AiO 16GB R5-7520UIDS",
+      "ContainerValue": "AMD Ryzen™ 5 7520U (up to 4.3 GHz max boost clock, 4 MB L3 cache, 4 cores, 8 threads)"
+    },
+    {
+      "PhwebDescription": "BU PON 240 G10 23.8 AiO i7-1355U IDS",
+      "ContainerValue": "Intel® Core™ i5-1335U (up to 4.6 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 10 cores, 12 threads)"
+    },
+    {
+      "PhwebDescription": "BU PON 245 G10 23.8 AiO 8GB R5-7520U IDS",
+      "ContainerValue": "AMD Ryzen™ 5 7520U (up to 4.3 GHz max boost clock, 4 MB L3 cache, 4 cores, 8 threads)"
+    },
+    {
+      "PhwebDescription": "BU PON 240 G10 23.8 AiO i5-1335U IDS",
+      "ContainerValue": "Intel® Core™ i5-1335U (up to 4.6 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 10 cores, 12 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA i7-1365U OSR RTKUSBC 1040 G10",
+      "ContainerValue": "Intel® Core™ i7-1365U (up to 5.2 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 10 cores, 12 threads)"
+    },
+    {
+      "PhwebDescription": "CPU INTL i7-13700E 1.90 16C 65W",
+      "ContainerValue": "Intel® Core™ i7-13700E (up to 5.1 GHz Max Turbo frequency, 30 MB L3 cache, 16 cores, 24 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA Cel7305 64GeMMC Chromebox G4",
+      "ContainerValue": "Intel® Celeron® 7305 (1.1 GHz base frequency, 8 MB L3 cache, 5 cores, 5 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA i5-1345U 64GeMMC Chromebox G4",
+      "ContainerValue": "Intel® Core™ i5-1345U (up to 4.7 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 10 cores, 12 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA i3-1315U 64GeMMC Chromebox G4",
+      "ContainerValue": "Intel® Core™ i3-1315U (up to 4.5 GHz with Intel® Turbo Boost Technology, 10 MB L3 cache, 6 cores, 8 threads)"
+    },
+    {
+      "PhwebDescription": "CPU INTL i5-13500TE 1.30 14C 35W",
+      "ContainerValue": "Intel® Core™ i5-13500TE (up to 4.5 GHz Max Turbo frequency, 24 MB L3 cache, 14 cores, 20 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA PH Cel xxxx 440 G9",
+      "ContainerValue": "Intel® Celeron® 7305 (1.1 GHz base frequency, 8 MB L3 cache, 5 cores, 5 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA i5-1145G7 16GB Elite x2 G8TAB",
+      "ContainerValue": "Intel® Core™ i5-1145G7 (2.6 GHz base frequency, up to 4.4 GHz with Intel® Turbo Boost Technology, 8 MB L3 cache, 4 cores, 8 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA i5-1345U RTKUSBC 440 G10",
+      "ContainerValue": "Intel® Core™ i5-1345U (up to 4.7 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 10 cores, 12 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS Pro 205 G4 R3-3250U 21.5 NT AiO",
+      "ContainerValue": "AMD Ryzen™ 3 3250U (2.6 GHz base clock, up to 3.5 GHz max boost clock, 1 MB L2 cache, 2 cores)"
+    },
+    {
+      "PhwebDescription": "CPU I Core i9-10900E 10C65W",
+      "ContainerValue": "Intel® Core™ i9-10900E (up to 4.7 GHz with Intel® Turbo Boost Technology, 20 MB L3 cache, 10 cores, 20 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA R5 PRO 7640HS Power 15.6 G10A",
+      "ContainerValue": "AMD Ryzen™ 5 PRO 7640HS (up to 5.0 GHz max boost clock, 16 MB L3 cache, 6 cores, 12 threads)"
+    },
+    {
+      "PhwebDescription": "CPU INTL i9-13900E 1.80 24C 65W",
+      "ContainerValue": "Intel® Core™ i9-13900E (up to 5.2 GHz Max Turbo frequency, 36 MB L3 cache, 24 cores, 32 threads)"
+    },
+    {
+      "PhwebDescription": "CPU INTL Cel G6900E 3.00 2C 46W",
+      "ContainerValue": "Intel® Celeron® G6900E (3.0 GHz base frequency, 4 MB L3 cache, 2 cores, 2 threads)"
+    },
+    {
+      "PhwebDescription": "BU RCTO UMA PH i7-RM fWWAN 640 G9 BRZP",
+      "ContainerValue": "Intel®️ Core™️ i7-1265U (up to 4.8 GHz with Intel®️ Turbo Boost Technology, 12 MB L3 cache, 10 cores, 12 threads)"
+    },
+    {
+      "PhwebDescription": "BU RCTO UMAi5-1335UFHDwBLwHDCIRTIPD630G1",
+      "ContainerValue": "Intel® Core™ i5-1335U (up to 4.6 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 10 cores, 12 threads)"
+    },
+    {
+      "PhwebDescription": "BU RCTO UMAi3-1315UFHDwBLwHDCIRTIPD630G1",
+      "ContainerValue": "Intel® Core™ i3-1315U (up to 4.5 GHz with Intel® Turbo Boost Technology, 10 MB L3 cache, 6 cores, 8 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA PH R5 PRO 6C 855 G8",
+      "ContainerValue": "AMD Ryzen™ 5 PRO 5650U (2.3 GHz base clock, up to 4.2 GHz max boost clock, 16 MB L3 cache, 6 cores)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA PH R9 HS PRO8COSRTIPDIC14G10A",
+      "ContainerValue": "AMD Ryzen™ 9 7940HS (up to 5.2 GHz max boost clock, 16 MB L3 cache, 8 cores, 16 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS DSCRTXA10006GBR5PRO7640HSPower15.",
+      "ContainerValue": "AMD Ryzen™ 5 PRO 7640HS (up to 5.0 GHz max boost clock, 16 MB L3 cache, 6 cores, 12 threads)"
+    },
+    {
+      "PhwebDescription": "BU 240 Pro G9 23.8 AiO i7-1255U IDS",
+      "ContainerValue": "Intel® Core™ i7-1255U (up to 4.7 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 10 cores, 12 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA Cel7305 Chromebox G4",
+      "ContainerValue": "Intel® Celeron® 7305 (1.1 GHz base frequency, 8 MB L3 cache, 5 cores, 5 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA PH i7-RM OSR TI PD IC 840 G10",
+      "ContainerValue": "Intel® Core™ i7-1365U (up to 5.2 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 10 cores, 12 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS DSCRTXA10004GBi9-12900HStudio16.0",
+      "ContainerValue": "Intel® Core™ i9-12900H (up to 5.0 GHz with Intel® Turbo Boost Technology, 24 MB L3 cache, 14 cores, 20 threads)"
+    },
+    {
+      "PhwebDescription": "CPU INTL i3- XXXX 1.20 65W",
+      "ContainerValue": "Intel® Core™ i3-12300 (up to 4.4 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 4 cores, 8 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA PH R7 PRO 8C OSR TIPDIC845G10",
+      "ContainerValue": "AMD Ryzen™ 7 PRO 7840U (up to 5.1 GHz max boost clock, 16 MB L3 cache, 8 cores, 16 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA i5-1335U Chromebox G4",
+      "ContainerValue": "Intel® Core™ i5-1335U (up to 4.6 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 10 cores, 12 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA i3-1315U Chromebox G4",
+      "ContainerValue": "Intel® Core™ i3-1315U (up to 4.5 GHz with Intel® Turbo Boost Technology, 10 MB L3 cache, 6 cores, 8 threads)"
+    },
+    {
+      "PhwebDescription": "BU RCTO UMA PH i5-KT fWWAN 640 G9 BRZP",
+      "ContainerValue": "Intel® Core™ i5-1235U (up to 4.4 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 10 cores, 12 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS DSC MX550 2GB i5-1235U 240 G9",
+      "ContainerValue": "Intel® Core™ i5-1235U (up to 4.4 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 10 cores, 12 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA Ath3150U 255 G9",
+      "ContainerValue": "AMD Athlon™ 3150U (2.4 GHz base clock, up to 3.3 GHz max boost clock, 4 MB L3 cache, 2 cores, 4 threads)"
+    },
+    {
+      "PhwebDescription": "CPU INTL i5-13500E 2.40 14C 65W",
+      "ContainerValue": "Intel® Core™ i5-13500E (up to 4.6 GHz Max Turbo frequency, 24 MB L3 cache, 14 cores, 20 threads)"
+    },
+    {
+      "PhwebDescription": "CPU INTL i3-12300T 4C 2.30 35W",
+      "ContainerValue": "Intel® Core™ i3-12300T (up to 4.2 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 4 cores, 8 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA PH R5 8GB TI PD IC 835 G10",
+      "ContainerValue": "AMD Ryzen™ 5 PRO 7540U (up to 4.9 GHz max boost clock, 16 MB L3 cache, 6 cores, 12 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA i5-1345U fWLAN TIPD 840 G10",
+      "ContainerValue": "Intel® Core™ i5-1345U (up to 4.7 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 10 cores, 12 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA i7-1280P RTK USBC 840 G9",
+      "ContainerValue": "Intel® Core™ i7-1280P (up to 4.8 GHz with Intel® Turbo Boost Technology, 24 MB L3 cache, 14 cores, 20 threads)"
+    },
+    {
+      "PhwebDescription": "CPU INTL i3-13100E 3.30 4C 65W",
+      "ContainerValue": "Intel® Core™ i3-13100E (up to 4.4 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 4 cores, 8 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA i5-1345U OSR RTKUSBC 1040 G10",
+      "ContainerValue": "Intel® Core™ i5-1345U (up to 4.7 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 10 cores, 12 threads)"
+    },
+    {
+      "PhwebDescription": "CPU INTL Xn 4410Y 12C 2.00 145W",
+      "ContainerValue": "Intel® Xeon® Silver 4410Y (up to 3.9 GHz with Intel® Turbo Boost Technology, 30 MB L3 cache, 12 cores, 24 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA PH i5-RM 16GBOSRRTKUSBC830G10",
+      "ContainerValue": "Intel® Core™ i5-1345U (up to 4.7 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 10 cores, 12 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMAi7-1365U16GBOSRTIPDx3601040G10",
+      "ContainerValue": "Intel® Core™ i7-1365U (up to 5.2 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 10 cores, 12 threads)"
+    },
+    {
+      "PhwebDescription": "BU Pro Mini 260 G9 PH i5-XXXXX IDS",
+      "ContainerValue": "Intel® Core™ i5-1235U (up to 4.4 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 10 cores, 12 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA PH i5-KT 16GBOSRRTKUSBC830G10",
+      "ContainerValue": "Intel® Core™ i5-1335U (up to 4.6 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 10 cores, 12 threads)"
+    },
+    {
+      "PhwebDescription": "CPU I Xeon4215R 3.2GHz 8C130W",
+      "ContainerValue": "Intel® Xeon® Silver 4215R (3.2 GHz base frequency, up to 4.0 GHz with Intel® Turbo Boost Technology, 11 MB L3 cache, 8 cores)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA i5-1345U TIPD 14 G10",
+      "ContainerValue": "Intel® Core™ i5-1345U (up to 4.7 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 10 cores, 12 threads)"
+    },
+    {
+      "PhwebDescription": "CPU I XeonW-2275 3.3GHz 14C165W",
+      "ContainerValue": "Intel® Xeon® W-2275 (3.3 GHz base frequency, up to 4.6 GHz with Intel® Turbo Boost Technology, 19.25 MB L3 cache, 14 cores)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA PH i5-RM HW OSR 860 G9",
+      "ContainerValue": "Intel®️ Core™️ i5-1250P (up to 4.4 GHz with Intel®️ Turbo Boost Technology, 12 MB L3 cache, 12 cores, 16 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA i7-1185G7 16GB Elite x2 G8TAB",
+      "ContainerValue": "Intel® Core™ i7-1185G7 (up to 4.8 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 4 cores)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA i7-1365U Chromebox G4",
+      "ContainerValue": "Intel® Core™ i7-1365U (up to 5.2 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 10 cores, 12 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA i7-1185G7 TI PD IC 830 G8",
+      "ContainerValue": "Intel® Core™ i7-1185G7 (up to 4.8 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 4 cores)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA R3 7440U 8GB TIPD 835 G10",
+      "ContainerValue": "AMD Ryzen™ 3 7440U (up to 4.7 GHz max boost clock, 8 MB L3 cache, 4 cores, 8 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA R3 7440U TIPD 865 G10",
+      "ContainerValue": "AMD Ryzen™ 3 7440U (up to 4.7 GHz max boost clock, 8 MB L3 cache, 4 cores, 8 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA Cel N5100 8GB 14 G9",
+      "ContainerValue": "Intel® Celeron® N5100 (up to 2.8 GHz burst frequency, 4 MB L3 cache, 4 cores)"
+    },
+    {
+      "PhwebDescription": "BU IDS DSCRTXA10004GBi7-12800HStudio16G9",
+      "ContainerValue": "Intel® Core™ i7-12800H (up to 4.8 GHz with Intel® Turbo Boost Technology, 24 MB L3 cache, 14 cores, 20 threads)"
+    },
+    {
+      "PhwebDescription": "BU RCTO UMA i7-1365U RTKUSBC 840 BRZL",
+      "ContainerValue": "Intel® Core™ i7-1365U (up to 5.2 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 10 cores, 12 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA PH R5 PRO 6C 32GBTIPDIC835G10",
+      "ContainerValue": "AMD Ryzen™ 5 7540U (up to 4.9 GHz max boost clock, 16 MB L3 cache, 6 cores, 12 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA PH R5 PRO 6C OSR TIPDIC865G10",
+      "ContainerValue": "AMD Ryzen™ 5 7540U (up to 4.9 GHz max boost clock, 16 MB L3 cache, 6 cores, 12 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS DSCRTXA500 i5-1345U TIPD 16 G10",
+      "ContainerValue": "Intel® Core™ i5-1345U (up to 4.7 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 10 cores, 12 threads)"
+    },
+    {
+      "PhwebDescription": "CPU I 6136 Xeon3.0 12C",
+      "ContainerValue": "Intel® Xeon® Gold 6136 (3 GHz base frequency, up to 3.7 GHz with Intel® Turbo Boost Technology, 24.75 MB cache, 12 cores)"
+    },
+    {
+      "PhwebDescription": "BU PON 245 G10 23.8AiO 8GBAthS7120UIDS",
+      "ContainerValue": "AMD Athlon™ Silver 7120U (up to 3.5 GHz max boost clock, 2 MB L3 cache, 2 cores, 2 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA i7-1355U TIPD 16 G10",
+      "ContainerValue": "Intel® Core™ i7-1355U (up to 5.0 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 10 cores, 12 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS DSCGeFRTX3070Ti8GBi9-12900HStudio",
+      "ContainerValue": "Intel® Core™ i9-12900H (up to 5.0 GHz with Intel® Turbo Boost Technology, 24 MB L3 cache, 14 cores, 20 threads)"
+    },
+    {
+      "PhwebDescription": "CPU INTL i3- XXXX 1.10 35W",
+      "ContainerValue": "Intel® Core™ i3-12100T (up to 4.1 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 4 cores, 8 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA i7-1365U TIPD 14 G10",
+      "ContainerValue": "Intel® Core™ i7-1365U (up to 5.2 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 10 cores, 12 threads)"
+    },
+    {
+      "PhwebDescription": "CPU INTL Xeon W3-2425 3.00 6C 130W",
+      "ContainerValue": "Intel® Xeon® W3-2425 (up to 4.2 GHz with Intel® Turbo Boost Technology, 15 MB L3 cache, 6 cores, 12 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA R3 7440U 16GB TIPD 835 G10",
+      "ContainerValue": "AMD Ryzen™ 3 7440U (up to 4.7 GHz max boost clock, 8 MB L3 cache, 4 cores, 8 threads)"
+    },
+    {
+      "PhwebDescription": "CPU INTL Xeon W3-2423 2.10 6C 120W",
+      "ContainerValue": "Intel® Xeon® W3-2423 (up to 4.0 GHz with Intel® Turbo Boost Technology, 15 MB L3 cache, 6 cores, 12 threads)"
+    },
+    {
+      "PhwebDescription": "CPU INTL i3-12300 4C 3.50 60W",
+      "ContainerValue": "Intel® Core™ i3-12300 (up to 4.4 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 4 cores, 8 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA R3 7440U TIPD 845 G10",
+      "ContainerValue": "AMD Ryzen™ 3 7440U (up to 4.7 GHz max boost clock, 8 MB L3 cache, 4 cores, 8 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA Ryzen5 6600U 16GB 835 G9",
+      "ContainerValue": "AMD Ryzen™ 5 6600U (up to 4.5 GHz max boost clock, 16 MB L3 cache, 6 cores, 12 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS DSCRTXA10006GB i5-13600HStudioG10",
+      "ContainerValue": "Intel® Core™ i5-13600H (up to 4.8 GHz with Intel® Turbo Boost Technology, 18 MB L3 cache, 12 cores, 16 threads)"
+    },
+    {
+      "PhwebDescription": "BU RCTOUMACelN45004GBHD32GeMMCCPJTBINDIA",
+      "ContainerValue": "Intel® Celeron® N4500 (up to 2.8 GHz burst frequency, 4 MB L3 cache, 2 cores, 2 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA R3 7440U 32GB TIPD 835 G10",
+      "ContainerValue": "AMD Ryzen™ 3 7440U (up to 4.7 GHz max boost clock, 8 MB L3 cache, 4 cores, 8 threads)"
+    },
+    {
+      "PhwebDescription": "BU PON 240 G10 23.8 AiO N200 IDS",
+      "ContainerValue": "Intel® Processor N200 (up to 3.7 GHz with Intel® Turbo Boost Technology, 6 MB L3 cache, 4 cores, 4 threads)"
+    },
+    {
+      "PhwebDescription": "BU RCTO UMA i5-1345U RTKUSBC 840 G10BRZL",
+      "ContainerValue": "Intel® Core™ i5-1345U (up to 4.7 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 10 cores, 12 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA PH i5-RM HW OSR TI PDIC840G10",
+      "ContainerValue": "Intel® Core™ i5-1350P (up to 4.7 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 12 cores, 16 threads)"
     }
   ]
 }

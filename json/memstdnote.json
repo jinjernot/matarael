@@ -835,6 +835,78 @@
         {
             "PhwebDescription": "BU IDS OPP 27-cr0 27 8GB R5-7520U",
             "ContainerValue": "Transfer rates up to 5500 MT/s."
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1335U 16GB 14",
+            "ContainerValue": "Transfer rates up to 5200 MT/s."
+        },
+        {
+            "PhwebDescription": "BU IDS Envy 23.8 AiO 16GB i5-1335U",
+            "ContainerValue": "Transfer rates up to 6400 MT/s."
+        },
+        {
+            "PhwebDescription": "RAM 8GB (1x8GB) DDR5 4800 CR",
+            "ContainerValue": "Transfer rates up to 4800 MT/s."
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R7 7840U 16GB fOLED 14",
+            "ContainerValue": "Transfer rates up to 6400 MT/s."
+        },
+        {
+            "PhwebDescription": "BU IDS OPP 24-cr0 23.8 8GB AthlonS",
+            "ContainerValue": "Transfer rates up to 5500 MT/s."
+        },
+        {
+            "PhwebDescription": "BU IDS Envy 23.8 AiO 8GB i5-1335U",
+            "ContainerValue": "Transfer rates up to 6400 MT/s."
+        },
+        {
+            "PhwebDescription": "BU IDS Envy 23.8 AiO 8GB i3-1315U",
+            "ContainerValue": "Transfer rates up to 6400 MT/s."
+        },
+        {
+            "PhwebDescription": "BU IDS OPP 24-cr0 23.8 8GB AthlonG",
+            "ContainerValue": "Transfer rates up to 5500 MT/s."
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1335U 16GB 14",
+            "ContainerValue": "Transfer rates up to 5200 MT/s."
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1355U 16GB fOLED 14",
+            "ContainerValue": "Transfer rates up to 5200 MT/s."
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R5 7540U 16GB 14",
+            "ContainerValue": "Transfer rates up to 6400 MT/s."
+        },
+        {
+            "PhwebDescription": "BU IDS UMAPentN60008GB128GeMMCfBL14b-cb0",
+            "ContainerValue": "Transfer rates up to 2933 MT/s."
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1250U 16GB 17",
+            "ContainerValue": "Transfer rates up to 6400 MT/s."
+        },
+        {
+            "PhwebDescription": "BU IDS Envy Move 23.8 16GB PRC i5-1335U",
+            "ContainerValue": "Transfer rates up to 6400 MT/s."
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R7 7840H 32GB fOLED 14",
+            "ContainerValue": "Transfer rates up to 6400 MT/s."
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R7 7840H 16GB fOLED 14",
+            "ContainerValue": "Transfer rates up to 6400 MT/s."
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R5 7640H 16GB 14",
+            "ContainerValue": "Transfer rates up to 6400 MT/s."
+        },
+        {
+            "PhwebDescription": "RAM KFURY 32GB(4x8GB)DDR5 4400 XMP RGBHS",
+            "ContainerValue": "Transfer rates up to 5200 MT/s."
         }
     ]
 }

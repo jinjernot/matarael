@@ -3955,6 +3955,2366 @@
         {
             "PhwebDescription": "CPU INTL i5-13600K3.50TBD14C125W120mmLCS",
             "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA PH x3xxx 6GB",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX408012GB i7-13800HStudioG10",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX408012GB i7-13800HStudioG10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX400012GBi9-13900HKStudioG10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX400012GBi9-13900HKStudioG10",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC i7-1165G7 32GB 14 G8",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX20504GB R5 7535HS 15",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX20504GB i7-12650H 15",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX20504GB i5-12450H 15",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "GFX AMD Rdn RX 5500 4GB",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC RX 6650M 8GB R7 6800H 16",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX20504GB i5-12450H 15",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX20504GB i7-12650H 15",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX40608GB i7-13700H 15",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX40608GB i7-13700H 15",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC RX 6500M 4GB Ryzen7 5800H 15",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX40506GB i7-12650H 15",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX40608GB i5-13500H 15",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX40506GB i7-12650H 15",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX40608GB i5-13500H 15",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC i7-1165G7 16GB 14 G8",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX2000Ada8GBR9PRO7940HSPower1",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX2000Ada8GBR9PRO7940HSPower1",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "GFX Intel Arc 6GB 4mDP",
+            "ContainerValue": "Intel Iris Pro"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA10004GBi9-12900HStudio16.0",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA10006GBR5PRO7640HSPower15.",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA RTX A2000 12GB GDDR6 4mDP 2nd",
+            "ContainerValue": "NVIDIA Quadro"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC MX550 2GB i5-1235U 240 G9",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX2000Ada8GBR77840HSPower15.6",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA10004GBi9-12900HStudio16.0",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX2000Ada8GBR77840HSPower15.6",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA10006GBR5PRO7640HSPower15.",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC MX550 2GB i5-1235U 240 G9",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA PH x6xxx 4DP",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA PH x6xxx 4DP 2nd",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA PH x6xxx 4DP 3rd",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA PH x6xxx 4DP 4th",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA10004GBi7-12800HStudio16G9",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC T550 PH i5-RM TI PD IC 16 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA10006GB i5-13600HStudioG10",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA10004GBi7-12800HStudio16G9",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA LL T1000E 8GB 4mDP",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC T550 PH i5-RM TI PD IC 16 G10",
+            "ContainerValue": "NVIDIA Quadro"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA T400 4GB w/2 mDP-to-DP",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCGeFRTX3070Ti8GBi9-12900HStudio",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCGeFRTX3070Ti8GBi9-12900HStudio",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BU HP Z2 TWR G9 500W RCTO",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA10006GB i5-13600HStudioG10",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1165G7 TI PD IC 840 G8",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "CPU INTL i5-XX5XX 6C",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "CPU INTL i7-13700 2.10 16C 65W",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "CPU INTL i7-XX7XX 8C 65W",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1165G7 RTK USBC 840 G8",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "CPU INTL i7-12700K 12C 3.60 125W",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS i7-13850HX fWWAN Fury 16 G10",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "CPU INTL i9-13900K 24C 3.00 125W",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS i7-13700HX nWWAN Fury 16 G10",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "CPU INTL i7-13700K 16C 3.40 125W",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "CPU INTL i9-13900 2.00 24C 65W",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS i7-12800HX nWWAN Fury 16 G9",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS i9-13950HX nWWAN Fury 16 G10",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS i9-13950HX fWWAN Fury 16 G10",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA Ryzen5 5625U 245 G9",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA CelN4500 4GB 64GeMMC 14 G7",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA500 i5-1335U TIPD 14 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS i7-11850H Fury 17.3 G8",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1260P RTK USBC 14 G9",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS i7-13700HX fWWAN Fury 16 G10",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA500 i7-1355U TIPD 16 G10",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BU IDS i9-12950HX nWWAN Fury 16 G9",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS i7-11850H nWWAN Fury 15.6 G8",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX408012GB i7-13800HStudioG10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA CelN4500 4GB 64GeMMC 11 G9",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX400012GBi9-13900HKStudioG10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-KT HW TI PD IC 840 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-KT HW TI PD IC 16 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHR5PRO6C f5MPCamIRTIPD645G10",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHR7PRO8C fWWAN TIPD 645 G10",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS i9-13900HX fWWAN Fury 16 G10",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1235U RPD 450 G9",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-RM HW RTK USBC 14 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA10004GBi7-12700HPower15.6G",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-KT HW TI PD IC 16 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA500 i7-1355U TIPD 14 G10",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-KT HW RTK USBC 14 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX408012GB i7-13800HStudioG10",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BU IDS i7-13850HX nWWAN Fury 16 G10",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-KT HW RTK USBC 16 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi7KT 470 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA500 i7-1355U TIPD 14 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "CPU INTL i5-13500 2.50 14C 65W",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-KT HW RTK USBC 14 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA500 i7-1355U TIPD 16 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R7 8C 865 G9",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1235U RPD 440 G9",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA500 i5-1345U TIPD 14 G10",
+            "ContainerValue": "NVIDIA Quadro"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1235U RTK USBC 860 G9",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R7 7730U 255 G10",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-RM HW TI PD IC 14 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi7KT RTKUSBC 440 G10",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX20504GBi7-1355URTKUSBC450G1",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi5KT RTKUSBC 440 G10",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-KT RTK USBC 840 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R7 PRO 8C TI PD IC 865 G10",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-KT Power 15.6 G9",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-KT 450 G9",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-KT HW TI PD IC 14 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-KT 16GB RTK USBC 830G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHR5PRO6C fWWAN TIPD 645 G10",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA500 i5-1335U TIPD 14 G10",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-KT TI PD IC 840 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1355U TIPD 630 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1355U RTKUSBC 1040 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-KT fWWAN 440 G9",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX400012GBi9-13900HKStudioG10",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1255U RTK USBC 14 G9",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-RM 840 G9",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-RM HW RTK USBC 16 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX20504GBi5-1335URTKUSBC450G1",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-KT HW RTK USBC 16 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-KT 440 G9",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA500 i7-1365U TIPD 14 G10",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA10004GBi7-12700HPower15.6G",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA500 i5-1345U TIPD 14 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA500 i7-1365U TIPD 14 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-KT HW TI PD IC 14 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-KT vProE fWWAN 640 G9",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-KT 440 G9",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-KT 16GB x360 1040 G9",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-KT 16GB Dfly G3",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHR5PRO6C TIPD 645 G10",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-KT RTK USBC 860 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1355U TIPD 650 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i3-1215U 250 G9",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "CPU INTL i7- XXXX 1.10 65W",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "CPU INTL i7-13700 16C 2.10 65W",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-KT 630 G9",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX20504GBi7-1355URTKUSBC450G1",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi5KT RTKUSBC 450 G10",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-13800H Studio G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi3xxxxU 250 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-KT TI PD IC 860 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1335U fWWAN TIPD 650 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCMX5502GB i7-1355U 250 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1355U fWWAN TIPD 650 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R78Cf5MPCamIRRTKUSBC455G10",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCMX5502GB i7-1355U 250 G10",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-KT 16GB x360 830 G9",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-KT 16GB 830 G9",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R5 5625U x360 435 G9",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R7 PRO 6850U 845 G9",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi7KT RTKUSBC 450 G10",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX20504GB i7-1355U TIPD450G10",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH Cel QC 8GB x360 11 G11",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDSUMAR5PRO7530UfHDCIRfWWANTIPD655G10",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "CPU INTL i5- XXXX 1.10 65W",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "CPU INTL i3-13100 3.40 4C 60W",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R5 6C fWWAN RTK USBC445G10",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1265U RTK USBC 16 G9",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R5 6C RTK USBC 445 G10",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1335U TIPD 630 G10",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC i7-1165G7 32GB 14 G8",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi5xxxxU 250 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1335U 240 G10",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi7xxxx 250 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1255U 240 G9",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-KT16GBRTKUSBCx360830G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi5KT fWWAN RTKUSBC 450 G10",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-RM 16GB Dfly G3",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU RCTO UMAR35425UHDfnBLFPRfHDC245G9INDI",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMAR7PRO7730UfHDCIRfWWANTIPD645G1",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R5 7520U 8GB 255 G10",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-KT 16GB RTK USBC 830G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA N100 4GB x360 11 G11",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R56Cf5MPCamIRRTKUSBC455G10",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R5 5625U RTK USBC 455 G9",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-KT RTK USBC 860 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R5 TI PD IC 865 G10",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1235U 240 G9",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-KT16GBRTKUSBCx360830G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R5 PRO 6C TI PD IC 845 G10",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-KT 16GB fOLED Dfly G4",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1255U RPD 450 G9",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R7 8C 445 G9",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1235U TPM 250 G9",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-KT 16GB Dfly G4",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDSUMAR5PRO7530UfHDCIRfWWANTIPD645G10",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi7xxxxU 250 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1165G7 16GB Elite X2 G8TAB",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU RCTOUMAi31215UHDfnBLFPRfHDC250G9INDIA",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA Ryzen3 5425U 245 G9",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX20504GBi5-1335URTKUSBC440G1",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-KT 32GB Dfly G4",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-KT TI PD IC 840 G10",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "CPU I Core i5-10500 3.1GHz 6C65W",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R5 6C TI PD IC 445 G10",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1355U 16GB TIPDx3601040G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX20504GBi7-1355URTKUSBC440G1",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX20504GB i7-1355U TIPD450G10",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i3-1315U 240 G10",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX20504GBi7-1355URTKUSBC440G1",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1235U 250 G9",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-KT 8GB 830 G9",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R5 7530U 255 G10",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi3KT 470 G10",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA500 i7-1365U TIPD 16 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS i9-12900HX nWWAN Fury 16 G9",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R7 8C f5MP Cam IR RTK USBC",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi5KT TIPD 440 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1135G7 RTK USBC 840 G8",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS OPP 27-cb0 27 R7-5700U",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU RCTO UMA Ryzen5 5625U HDfnBLfHDC445G9",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-KT 16GBTIPDICx360830G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1240P 240 G9",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX20504GBi5-1335URTKUSBC440G1",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-KT 32GB Dfly G3",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX20504GBi5-1335URTKUSBC450G1",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R7 8C TI PD IC 445 G10",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1335U 14",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi5KT 470 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R3  7330U 255 G10",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R5 5625U TPM 255 G9",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi3KT RTKUSBC 450 G10",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi5KTHW RTKUSBC 450 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCMX5502GB i7-1355U 470 G10",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDSUMAR7PRO7730UfHDCIRfWWANTIPD655G10",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHR78C fWWAN TIPD 645 G10",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1235U DDR4 TIPD 840 G9",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-KT 16GB Dfly G3",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-RM 16GB fOLED Dfly G3",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX20504GB R5 7535HS 15",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX20504GB i5-1335U TIPD450G10",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-KT 16GB TI PD IC 830G10",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R7 8C RTK USBC 445 G10",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCMX5502GB i5-1335U 470 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1255U RPD 440 G9",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA500 i7-1365U TIPD 16 G10",
+            "ContainerValue": "NVIDIA Quadro"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX20504GB i5-1335U TIPD440G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-KT 16GB 830 G9",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-KT 16GB Dfly G4",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX20504GB i7-12650H 15",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1365U 32GB TIPDx3601040G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi5KT fWWAN RTKUSBC 440 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1245U 16GB OSR DflyFolioG3",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHR78C fWWAN TIPD 655 G10",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1355U 240 G10",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHR78CfHDCIRRTKUSBCx360435G10",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHR56C fWWAN TIPD 655 G10",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi3KT RTKUSBC 440 G10",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i3-1315U 14",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-RM 32GB Dfly G4",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R7 5825U 255 G9",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i3-1315U TIPD 650 G10",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R5 TI PD IC 845 G10",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R5 16GB TI PD IC 835 G10",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCMX5502GB i7-1355U 470 G10",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX20504GB i5-12450H 15",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX20504GB i5-12450H 15",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX20504GB i7-1355U TIPD440G10",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-KT 16GB fOLED Dfly G4",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-KT HW RTK USBC 860 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX20504GB i5-1335U TIPD440G10",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX20504GB i7-1355U TIPD440G10",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS Envy 23.8 AiO 16GB i5-1335U",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R3 5425U 255 G9",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS Envy 23.8 AiO 8GB i5-1335U",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-KT 8GB TI PD IC 830 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1335U TIPD 650 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHR56C fWWAN TIPD 645 G10",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS Pav 24-ca0 23.8 FHD R7-5700U",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1370P fWWAN TIPD 640 G10",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHPentxxxx 17",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1355U 14",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS Envy 23.8 AiO 8GB i3-1315U",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX20504GB i7-12650H 15",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1155G7 14",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHR56C TIPD 655 G10",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-RM 16GB Dfly G4",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-RM 16GB Dfly G4",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX40608GB i7-13700H 15",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX40608GB i7-13700H 15",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BU IDS UMAPentN60008GB128GeMMCfBL14b-cb0",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1360P 14",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "APU AMD R5-7600 6C 65W 2HPRGBAir",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA Ryzen5 5500U 14",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHR78C TIPD 655 G10",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC RX 6650M 8GB R7 6800H 16",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC RX 6500M 4GB Ryzen7 5800H 15",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "APU AMD R7-7800X3D 8C 120W 120mm RGB LCS",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDSUMAPentSN50304GB128GeMMCnSDC14aca0",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "CPU INTL i3-13100 3.40 12 MB 4C 60W",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA Ryzen3 3250U 14",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX40506GB i7-12650H 15",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-RM 16GB OSR Dfly G4",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS Envy Move 23.8 16GB PRC i5-1335U",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "APU AMD R9-7950X3D 16C 120W 360mm RGBLCS",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS OPP 24-ck0 23.8 I7-1255U",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX40608GB i5-13500H 15",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX40608GB i5-13500H 15",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX40506GB i7-12650H 15",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "APU AMD R7-7800X3D 8C 120W 360mm RGB LCS",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCMX5502GB i5-1335U 470 G10",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1255U 32GB Dfly Folio G3",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1135G7 16GB Elite X2 G8TAB",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX20504GB i5-1335U TIPD450G10",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS 205 G4 R3-3250U 21.5 NT AiO",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "CPU INTL i5-12600K 10C 3.70 125W",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "CPU INTL i5-13500T 1.60 14C 35W",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "CPU INTL i5-12500 6C 3.00 65W",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU Eng One Ess Cel N6211 14 TSAiOAndroid",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "CPU INTL i5-13600K 3.50 14C 125W",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU 240 Pro G9 23.8 AiO i5-1235U IDS",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU 205 G8 23.8 AiO R5-5500U IDS",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "CPU I Core i3-10100E 4C65W",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "CPU I Core i5-10500E 6C65W",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "CPU INTL i5-12500 6C 3.30 65W",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "CPU I Core i3-10100 3.6GHz 4C65W",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "CPU INTL i9-12900K 16C 3.20 125W",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "CPU INTL i5- XXXX 1.20 35W",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU 205 G8 23.8 AiO R3-5300U IDS",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "CPU INTL i7- XXXX 1.10 65W",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i3-1110G44GBANDREngageGo10TAB",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC i7-1165G7 16GB 14 G8",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "CPU INTL i5-12500T 6C 2.00 35W",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1335U TIPD 640 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "CPU I Core i7-10700 2.9GHz 8C65W",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R7 5825U RTK USBC 445 G9",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R9 HS PRO 8C TI PDIC865G10",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "CPU INTL i5-12600 6C 3.30 65W",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "CPU I Core i3-10100T 3.0GHz 4C35W",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1255U 250 G9",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1240P RTK USBC 440 G9",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHR56C fWWAN RTKUSBC 455 G10",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-KT 840 G9",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-RM 630 G9",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1235U RPD 640 G9",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-KT HW RTK USBC 860 G10",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-RM HW RTK USBC 860 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R3 QC RTK USBC 445 G10",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "CPU INTL i5-XX6XX 6C",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R5 6C 445 G9",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHR56CfHDCIRRTKUSBCx360435G10",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC T600 4GB i7-12700HPower15.6G9",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "CPU INTL i7- XXXX 1.10 35W",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU t640 APJ TC",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1355U 32GB TIPDx3601040G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU RCTO UMA i5-1235UFHDUWVATPM250G9 JPN2",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R7 HS PRO 8C TI PDIC14G10A",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1335U 16GB TIPDx3601040G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-RM HW OSR TI PD IC16G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R56Cf5MPCamIRRTKUSBC445G10",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA20008GBi7-12800HPower15.6G",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R7 8C fWWAN RTK USBC445G10",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1355U TIPD 14 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU 240 Pro G9 23.8 AiO i3-1215U IDS",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA20008GBi9-12900HPower15.6G",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX2000Ada8GBR9PRO7940HSPower1",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1355U fWWAN TIPD 640 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R7 7800U Power 15.6 G10 A",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU RCTO UMAR77730UFHD250fBLfHDCTIPD445G1",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "CPU INTL i5-13600 2.70 14C 65W",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA N100 240 G10",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R9 HS PRO 8C TI PDIC14G10A",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi7KT fWWAN RTK USBC 440 G10",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA20008GBi7-12800HPower15.6G",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R7 PRO 7850HS Power 15.6 G10A",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R9 PRO 7950HS Power 15.6 G10A",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC T600 4GB i7-12700HPower15.6G9",
+            "ContainerValue": "NVIDIA Quadro"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-RM HW TI PD IC 16 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA500 i7-1365U OSR TIPD16G10",
+            "ContainerValue": "NVIDIA Quadro"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA500 i7-1365U OSR TIPD16G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX2000Ada8GBR9PRO7940HSPower1",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "CPU INTL i7-13700T 1.40 16C 35W",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R7 TI PD IC 845 G10",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU HP ProMini G9 i5-1335U IDS",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-KT TI PD IC 860 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-RM 840 G9",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU HP ProMini G9 i3-1315U IDS",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R5 7530U 245 G10",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-RM 32GB Dfly G3",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R5 7600U Power 15.6 G10 A",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R5 HS PRO 6C TI PDIC14G10A",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R7 TI PD IC 865 G10",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA500 i7-1365U OSR TIPD14G10",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R7 PRO 8C TI PD IC 845 G10",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA500 i7-1365U OSR TIPD14G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R5 PRO 6C TI PD IC 865 G10",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU PON 245 G10 23.8 AiO 8GB R3-7320U IDS",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU Pro Mini 260 G9 PH i3-XXXXX IDS",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1335U TIPD 1040 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-KT 630 G9",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R7 HS PRO 8C TI PDIC845G10",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1340P 240 G10",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R7 8C RTK USBC 455 G10",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA10006GBR5PRO7640HSPower15.",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BU PON 240 G10 23.8 AiO i3-N300 IDS",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1365U OSR RTKUSBC 1040 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1365U TIPD 1040 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R7 PRO 8C 16GBTIPDIC835G10",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "CPU INTL PentG G7400 2C 3.70 46W",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU RCTO UMAR57530UFHD250fBLfHDCTIPD445G1",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU PON 245 G10 23.8 AiO 16GB R5-7520UIDS",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-RM HW TI PD IC 840 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA CelN4500 250 G9",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS i9-13900HX nWWAN Fury 16 G10",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i3-1215U 240 G9",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1355U TIPD 640 G10",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1355U TIPD 1040 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1360P fWLAN RTKUSBC 860G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R7 HS PRO 8C TI PDIC865G10",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU 200 G4 21.5 AiO i5-1235U IDS",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU PON 245 G10 23.8 AiO 8GB R5-7520U IDS",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCMX5502GB i5-1335U 250 G10",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1335U fWWAN TIPD 640 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi5xxxx 250 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-KT 16GBTIPDICx360830G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1240P 250 G9",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-KT32GBRTKUSBCx360830G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-KT 16GB TI PD IC 830G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-KT 8GB RTK USBC 830 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R5 7520U 8GB 245 G10",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1360P TIPD 1040 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA10004GBi9-12900HStudio16.0",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R7 7730U 245 G10",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R5 PRO 6C 8GB TIPDIC835G10",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU PON 240 G10 23.8 AiO i5-1335U IDS",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1235U fWWAN RTK USBC 640G9",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA Cel N5100 8GB 64GeMMC 11 G9",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU 240 Pro G9 23.8 AiO i7-1255U IDS",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU RCTO UMA i5-1235U RTKUSBC 440 G9 BRZP",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1360P 240 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R3 7320U 8GB 255 G10",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHR56C TIPD 645 G10",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH Cel QC 4GB64GeMMCx36011G11",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1245U RPD 640 G9",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i3-KT 440 G9",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA Ryzen7 5825U 245 G9",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi7KTHW RTKUSBC 450 G10",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i3-KT 450 G9",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1145G7 16GB Elite x2 G8TAB",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R3 3250U wSDC 245 G9",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R5 6C RTK USBC 455 G10",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU RCTO UMAi5-1335UFHDwBLwHDCIRTIPD630G1",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R5 5625U RTK USBC 445 G9",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R3 7320U 8GB 245 G10",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCMX5502GB i5-1335U 250 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1365U TIPD 630 G10",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1345U TIPD 630 G10",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1235U RPD 650 G9",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "CPU INTL i3-12100 4C 3.30 65W",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC MX550 2GB i5-1235U 240 G9",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU RCTO UMA PH R5 6C 445 G9 BRZP",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1365U TIPD 640 G10",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i3-N305 240 G10",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "CPU INTL i3-XX3XX 6C",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-RM 640 G9",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU RCTOUMARyzen75825UFHD250fBLFPRfHDC245",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA CelN4500 240 G9",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-KT HW 450 G9",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1345U RTKUSBC 440 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1265U 32GB Dfly Folio G3",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R7 PRO 8C 32GBTIPDIC835G10",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU RCTOUi51235UFHD250fBLFPR+TPMfHDC240G9",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC MX550 2GB i5-1235U 240 G9",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1350P fWWAN TIPD 640 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i3-1215U 240 G9",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-RM 16GBOSRRTKUSBC830G10",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1365U 16GB TIPDx3601040G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-RM 16GB RTK USBC 830G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1345U fWLAN TIPD 840 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA10006GBR5PRO7640HSPower15.",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHR78C TIPD 645 G10",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1335U TIPD 14 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-RM 16GB 830 G9",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS i5-12600HX fWWAN Fury 16 G9",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-RM OSR TI PD IC 840 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU RCTOUi51235UFHD250UWVAfBLFPR+TPMfHDC2",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU RCTOUi71255UFHD250UWVAfBLFPRfHDC250G9",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R7 16GB TI PD IC 835 G10",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R9 HS PRO8COSRTIPDIC14G10A",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-RM 16GB x360 1040",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU RCTOUi51235UHDfnBLFPR+TPMfHDC240G9IND",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU RCTOUMAi71255UFHDfBLFPRfHDC240G9INDIA",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "CPU INTL i3-12300T 4C 2.30 35W",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R5 PRO 7640HS Power 15.6 G10A",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1335U RTKUSBC 1040 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1335U TIPD 16 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-KT 840 G9",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1280P RTK USBC 840 G9",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1235U TPM 240 G9",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1235U RTK USBC 840 G9",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX2000Ada8GBR77840HSPower15.6",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1345U 32GB TIPDx3601040G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU RCTO UMA PH i7-RM fWWAN 640 G9 BRZP",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU RCTO UMA PH i5-KT fWWAN 640 G9 BRZP",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU PON 240 G10 23.8 AiO i7-1355U IDS",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R3 7330U 245 G10",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1265U RTK USBC 14 G9",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1345U TIPD 640 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-RM TI PD IC 840 G10",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "CPU INTL i3- XXXX 1.20 65W",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R5 8GB TI PD IC 835 G10",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU RCTO UMAi3-1315UFHDwBLwHDCIRTIPD630G1",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R7 PRO 8C OSR TIPDIC845G10",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R9 HS PRO 8C TI PDIC845G10",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS i7-12850HX fWWAN Fury 16 G9",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "CPU I Core i7-10700 2.9GHz 8C65W",
+            "ContainerValue": "Intel HD"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX2000Ada8GBR77840HSPower15.6",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-RM16GBRTKUSBCx360830G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU RCTO UMA i7-1255U FHD250 fBLfHDC440G9",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "CPU I Core i5-10500 3.1GHz 6C65W",
+            "ContainerValue": "Intel HD"
+        },
+        {
+            "PhwebDescription": "BU IDS 205 G4 Athlon3050U 21.5 NT AiO",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i3-1315U TIPD 630 G10",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1345U RTKUSBC 1040 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA10004GBi9-12900HStudio16.0",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA Ath3150U 255 G9",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH Cel xxxx 440 G9",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU Pro Mini 260 G9 PH i5-XXXXX IDS",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-RM HW OSR 860 G9",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1365U fWWAN TIPD 640 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1255U RTK USBC 840 G9",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R5 6C RTK USBC x360 435G10",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1370P fWWAN TIPD 650 G10",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU RCTO UMAi3-1315UHDfnBLfHDCTIPD440G10I",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-RM 16GBOSRRTKUSBC830G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1365U fWWAN TIPD 650 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDSUMAPHi7-RM16GBOSRRTKUSBCx360830G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU RCTO UMAi7-1355UFHD250fBLfHDCTIPD440G",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "CPU I Core i5-10500T 2.3GHz 6C35W",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "CPU I Core i7-10700T 2GHz 8C35W",
+            "ContainerValue": "Intel HD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-KT 32GB RTK USBC 830G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-RM 16GB OSR Dfly G4",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R5 5625U 255 G9",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMAi7-1365U16GBOSRTIPDx3601040G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA10004GBi7-12800HStudio16G9",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU RCTO UMAi5-1335UFHD250fBLfHDCTIPD440G",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1345U OSR RTKUSBC 1040 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU RCTOUMAi31215UHDfnBLFPRfHDC240G9INDIA",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R5 PRO 6C OSR TIPDIC865G10",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-KT 16GBOSRRTKUSBC830G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-KT HW TI PD IC 840 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R7 8C fWWAN RTK USBC455G10",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi7KT fWWAN RTKUSBC 450 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHCelxxxx 250 G10",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "CPU INTL i3- XXXX 1.10 65W",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA500 i5-1335U TIPD 16 G10",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-RM RTK USBC 860 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1245U RTK USBC 840 G9",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "CPU I Core i7-10700E 8C65W",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1245U DDR4 TIPD 840 G9",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R3 7440U 16GB TIPD 835 G10",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R5 PRO 6C 16GBTIPDIC835G10",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU PON 240 G10 23.8 AiO N200 IDS",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-RM HW TI PD IC 840 G10",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-RM TI PD IC 840 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU PON 245 G10 23.8AiO 8GBAthS7120UIDS",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA10004GBi7-12800HStudio16G9",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA Ryzen5 6600U 16GB 835 G9",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1185G7 16GB Elite x2 G8TAB",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA10006GB i5-13600HStudioG10",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BU RCTO UMA i7-1365U RTKUSBC 840 BRZL",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA Cel N5100 8GB 14 G9",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1355U TIPD 16 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R3 7440U 32GB TIPD 835 G10",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R3 7440U TIPD 845 G10",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA500 i5-1345U TIPD 16 G10",
+            "ContainerValue": "NVIDIA Quadro"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R5 6C fWWAN 645 G9",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "CPU INTL i3- XXXX 1.10 35W",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU RCTOUMACelN45004GBHD32GeMMCCPJTBINDIA",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "CPU INTL i5- XXXX 1.20 65W",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1345U 16GB TIPDx3601040G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCGeFRTX3070Ti8GBi9-12900HStudio",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R3 5425U fWWAN mt645 G9",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1185G7 TI PD IC 830 G8",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU RCTO UMA i5-1235U FHD250 fBLfHDC440G9",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA500 i5-1335U TIPD 16 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R3 7440U TIPD 865 G10",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA10006GB i5-13600HStudioG10",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-KT 650 G9",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R3 7440U 8GB TIPD 835 G10",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-RM HW OSR TI PDIC840G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R5 PRO 6C 32GBTIPDIC835G10",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1365U TIPD 14 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA500 i5-1345U TIPD 16 G10",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU RCTO UMA i5-1345U RTKUSBC 840 G10BRZL",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCGeFRTX3070Ti8GBi9-12900HStudio",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BU RCTO UMAR37330UHDfnBLnFPRwHDC245G10IN",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-RM 16GB 830 G9",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "CPU INTL i3-12300 4C 3.50 60W",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-KT 640 G9",
+            "ContainerValue": "Intel Iris"
         }
     ]
 }

@@ -1247,6 +1247,74 @@
         {
             "PhwebDescription": "MLD 162.5KAGLwBluLtHDR1KUWVA240HzNWBZflt",
             "ContainerValue": "100% DCI-P3"
+        },
+        {
+            "PhwebDescription": "LCD 14.0FHDAGLED250UWVAfWANfHDCIRTOPNWBZ",
+            "ContainerValue": "45% NTSC"
+        },
+        {
+            "PhwebDescription": "LCD 14 HD AG LED SVA 250 TOP NWBZ flat",
+            "ContainerValue": "45% NTSC"
+        },
+        {
+            "PhwebDescription": "LCD 15.6 FHD BV LED 250 UWVATOPLWNWBZflt",
+            "ContainerValue": "45% NTSC"
+        },
+        {
+            "PhwebDescription": "LCD 14 HD AG LED SVA 220 slim",
+            "ContainerValue": "45% NTSC"
+        },
+        {
+            "PhwebDescription": "OLED 142.8KBVOLED+LBL400UWVA48H-120Hz(VR",
+            "ContainerValue": "100% DCI-P3"
+        },
+        {
+            "PhwebDescription": "LCD 14WQXGAAGWLED+LBL300UWVA48H-120Hz(VR",
+            "ContainerValue": "100% sRGB"
+        },
+        {
+            "PhwebDescription": "LCD 14.0 WUXGA AG LED 300 UWVA NWBZ flt",
+            "ContainerValue": "45% NTSC"
+        },
+        {
+            "PhwebDescription": "LCD 14 FHD AG LEDUWVA250slimTOPwPVSTNWBZ",
+            "ContainerValue": "45% NTSC"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA CelN51008GB128GeMMCfWWAN14G10",
+            "ContainerValue": "45% NTSC"
+        },
+        {
+            "PhwebDescription": "LCD 15.6 FHD AGLED250CRUWVAfHDCIRNWBZbnt",
+            "ContainerValue": "45% NTSC"
+        },
+        {
+            "PhwebDescription": "LCD 14FHDAGLwBluLt1000UWVAfWWANfHDCIRSVR",
+            "ContainerValue": "72% NTSC"
+        },
+        {
+            "PhwebDescription": "BU RCTO UMAi3-1315UFHDwBLwHDCIRTIPD630G1",
+            "ContainerValue": "100% sRGB"
+        },
+        {
+            "PhwebDescription": "BU RCTO UMAi5-1335UFHDwBLwHDCIRTIPD630G1",
+            "ContainerValue": "72% NTSC"
+        },
+        {
+            "PhwebDescription": "LCD 15.6 HD AG LED SVA 250fHDCIRNWBZbent",
+            "ContainerValue": "45% NTSC"
+        },
+        {
+            "PhwebDescription": "LCD 14.0FHDAGLED250UWVAfWANfHDCIRTOPNWBZ",
+            "ContainerValue": "45% NTSC"
+        },
+        {
+            "PhwebDescription": "BU RCTOUMACelN45004GBHD32GeMMCCPJTBINDIA",
+            "ContainerValue": "45% NTSC"
+        },
+        {
+            "PhwebDescription": "LCD 16WUXGAAGWLED+LBL400UWVAf5MPALS+ACSN",
+            "ContainerValue": "100% sRGB"
         }
     ]
 }

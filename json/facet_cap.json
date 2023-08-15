@@ -683,6 +683,18 @@
         {
             "PhwebDescription": "BU IDS UMA CelN4500 8GB 128GeMMC 15a-na0",
             "ContainerValue": "128"
+        },
+        {
+            "PhwebDescription": "ZTRB HP ZTrbDrv M.2 1TB TLC SSD",
+            "ContainerValue": "1000"
+        },
+        {
+            "PhwebDescription": "ZTRB HP ZTrbDrv M.2 512GB TLC SSD",
+            "ContainerValue": "512"
+        },
+        {
+            "PhwebDescription": "HDD 4TB 7200RPM SATA Ent 3.5in",
+            "ContainerValue": "4000"
         }
     ]
 }

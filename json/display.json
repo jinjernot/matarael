@@ -2011,6 +2011,218 @@
         {
             "PhwebDescription": "LCD 15.6 FHD AG LEDUWVA300uslim144HzNWBZ",
             "ContainerValue": "15.6\" diagonal, FHD (1920 x 1080), 144 Hz, 7 ms response time, IPS, micro-edge, anti-glare, 300 nits, 72% NTSC"
+        },
+        {
+            "PhwebDescription": "LCD 14.0FHDAGLED250UWVAfWANfHDCIRTOPNWBZ",
+            "ContainerValue": "14\" diagonal, FHD (1920 x 1080), touch, IPS, narrow bezel, 250 nits, 45% NTSC"
+        },
+        {
+            "PhwebDescription": "LCD 14 FHD AG LEDUWVA250slimTOPwPVSTNWBZ",
+            "ContainerValue": "14\" diagonal, FHD (1920 x 1080), touch, IPS, narrow bezel, 250 nits, 45% NTSC"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA CelN51008GB128GeMMCfWWAN14G10",
+            "ContainerValue": "14\" diagonal, FHD (1920 x 1080), IPS, anti-glare, 250 nits, 45% NTSC"
+        },
+        {
+            "PhwebDescription": "LCD 14 HD AG LED SVA 250 TOP NWBZ flat",
+            "ContainerValue": "14\" diagonal, HD (1366 x 768), micro-edge, anti-glare, 250 nits, 45% NTSC"
+        },
+        {
+            "PhwebDescription": "LCD 15.6 FHD BV LED 250 UWVATOPLWNWBZflt",
+            "ContainerValue": "15.6\" diagonal, FHD (1920 x 1080), touch, IPS, micro-edge, BrightView, 250 nits, 45% NTSC"
+        },
+        {
+            "PhwebDescription": "LCD 14 HD AG LED SVA 220 slim",
+            "ContainerValue": "14\" diagonal, HD (1366 x 768), micro-edge, anti-glare, 220 nits, 45% NTSC"
+        },
+        {
+            "PhwebDescription": "OLED 142.8KBVOLED+LBL400UWVA48H-120Hz(VR",
+            "ContainerValue": "14\" diagonal, 2.8K (2880 x 1800), OLED, 48-120 Hz, UWVA, micro-edge, BrightView, Low Blue Light, SDR 400 nits, HDR 500 nits, 100% DCI-P3"
+        },
+        {
+            "PhwebDescription": "OLED 16.02.8KBVOLED+LBL400UWVA48H-120Hz(",
+            "ContainerValue": "16\" diagonal, 2.8K (2880 x 1800), OLED, multitouch-enabled, 48-120 Hz, UWVA, edge-to-edge glass, micro-edge, Low Blue Light, SDR 400 nits, HDR 500 nits, 100% DCI-P3"
+        },
+        {
+            "PhwebDescription": "LCD 14WQXGAAGWLED+LBL300UWVA48H-120Hz(VR",
+            "ContainerValue": "14\" diagonal, WQXGA (2560 x 1600), 48-120 Hz, IPS, micro-edge, anti-glare, Low Blue Light, 300 nits, 100% sRGB"
+        },
+        {
+            "PhwebDescription": "LCD 14.0 WUXGA AG LED 300 UWVA NWBZ flt",
+            "ContainerValue": "14\" diagonal, WUXGA (1920 x 1200), IPS, micro-edge, anti-glare, 300 nits, 45% NTSC"
+        },
+        {
+            "PhwebDescription": "FLD 17.0 2.5K BV OLED+LBL 400 UWVATOPbnt",
+            "ContainerValue": "17\" diagonal, 2.5K (1920 x 2560), foldable OLED, touch, UWVA, BrightView, Low Blue Light, SDR 400 nits, HDR 500 nits, 99.5% DCI-P3"
+        },
+        {
+            "PhwebDescription": "LCD 14.0FHDAGLED250UWVAfWANfHDCIRTOPNWBZ",
+            "ContainerValue": "14\" diagonal, FHD (1920 x 1080), IPS, anti-glare, 250 nits, 45% NTSC"
+        },
+        {
+            "PhwebDescription": "LCD 23.8 QHD AG WLED+LBL 300 UWVA 3SBbnt",
+            "ContainerValue": "23.8\" diagonal, QHD (2560 x 1440), touch, IPS, three-sided micro-edge, anti-glare, Low Blue Light, 300 nits, 99% sRBG"
+        },
+        {
+            "PhwebDescription": "LCD 15.6 FHD AGLED250CRUWVAfHDCIRNWBZbnt",
+            "ContainerValue": "15.6\" diagonal, FHD (1920 x 1080), IPS, narrow bezel, anti-glare, 250 nits, 45% NTSC"
+        },
+        {
+            "PhwebDescription": "BU EON 870 G9 27.0 AiO NT GFX RCTO",
+            "ContainerValue": "27\" diagonal, FHD (1920 x 1080), IPS, anti-glare, 250 nits, 72% NTSC"
+        },
+        {
+            "PhwebDescription": "BU 245 G8 23.8 AiO R3-5300U IDS",
+            "ContainerValue": "23.8\" diagonal, FHD (1920 x 1080), IPS, anti-glare, 250 nits, 72% NTSC"
+        },
+        {
+            "PhwebDescription": "BU PON 440 G9 23.8 AiO NT IDS",
+            "ContainerValue": "23.8\" diagonal, FHD (1920 x 1080), IPS, anti-glare, 250 nits, 72% NTSC"
+        },
+        {
+            "PhwebDescription": "BU PON 400 G9 23.8 AiO NT IDS",
+            "ContainerValue": "23.8\" diagonal, FHD (1920 x 1080), IPS, anti-glare, Low Blue Light, 250 nits, 72% NTSC"
+        },
+        {
+            "PhwebDescription": "BU 245 G8 23.8 AiO R5-5500U IDS",
+            "ContainerValue": "23.8\" diagonal, FHD (1920 x 1080), IPS, anti-glare, 250 nits, 72% NTSC"
+        },
+        {
+            "PhwebDescription": "BU 240 Pro G9 23.8 AiO i5-1235U IDS",
+            "ContainerValue": "23.8\" diagonal, FHD (1920 x 1080), IPS, anti-glare, 250 nits, 72% NTSC"
+        },
+        {
+            "PhwebDescription": "BU 240 Pro G9 23.8 AiO i3-1215U IDS",
+            "ContainerValue": "23.8\" diagonal, FHD (1920 x 1080), IPS, anti-glare, 250 nits, 72% NTSC"
+        },
+        {
+            "PhwebDescription": "BU PON 400 G9 23.8 AiO NT GFX IDS",
+            "ContainerValue": "23.8\" diagonal, FHD (1920 x 1080), IPS, anti-glare, Low Blue Light, 250 nits, 72% NTSC"
+        },
+        {
+            "PhwebDescription": "BU PON 245 G10 23.8 AiO 16GB R5-7520UIDS",
+            "ContainerValue": "23.8\" diagonal, FHD (1920 x 1080), IPS, anti-glare, 250 nits, 72% NTSC"
+        },
+        {
+            "PhwebDescription": "BU 200 G4 21.5 AiO PH i5 IDS",
+            "ContainerValue": "21.5\" diagonal, FHD (1920 x 1080), IPS, anti-glare, 250 nits, 45% NTSC"
+        },
+        {
+            "PhwebDescription": "BU PON 400 G9 23.8 AiO NT RCTO JPN",
+            "ContainerValue": "23.8\" diagonal, FHD (1920 x 1080), IPS, anti-glare, Low Blue Light, 250 nits, 72% NTSC"
+        },
+        {
+            "PhwebDescription": "BU PON 440 G9 23.8 AiO TS IDS",
+            "ContainerValue": "23.8\" diagonal, FHD (1920 x 1080), touch, IPS, anti-glare, 250 nits, 72% NTSC"
+        },
+        {
+            "PhwebDescription": "BU PON 245 G10 23.8 AiO 8GB R3-7320U IDS",
+            "ContainerValue": "23.8\" diagonal, FHD (1920 x 1080), IPS, anti-glare, 250 nits, 72% NTSC"
+        },
+        {
+            "PhwebDescription": "BU PON 440 G9 R 23.8 AiO TS IDS",
+            "ContainerValue": "23.8\" diagonal, FHD (1920 x 1080), touch, IPS, anti-glare, Low Blue Light, 250 nits, 72% NTSC"
+        },
+        {
+            "PhwebDescription": "BU PON 240 G10 23.8 AiO PHi7 IDS",
+            "ContainerValue": "23.8\" diagonal, FHD (1920 x 1080), IPS, anti-glare, 250 nits, 72% NTSC"
+        },
+        {
+            "PhwebDescription": "BU PON 245 G10 23.8 AiO 8GB R5-7520U IDS",
+            "ContainerValue": "23.8\" diagonal, FHD (1920 x 1080), IPS, anti-glare, 250 nits, 72% NTSC"
+        },
+        {
+            "PhwebDescription": "BU PON 400 G9 23.8 AiO NT RCTO IN",
+            "ContainerValue": "23.8\" diagonal, FHD (1920 x 1080), IPS, anti-glare, 250 nits, 72% NTSC"
+        },
+        {
+            "PhwebDescription": "BU EON 800 G9 23.8 AiO FHD TS IDS",
+            "ContainerValue": "23.8\" diagonal, FHD (1920 x 1080), touch, IPS, anti-glare, Low Blue Light, 250 nits, 72% NTSC"
+        },
+        {
+            "PhwebDescription": "LCD 14FHDAGLwBluLt1000UWVAfWWANfHDCIRSVR",
+            "ContainerValue": "14\" diagonal, FHD (1920 x 1080), IPS, anti-glare, 1000 nits, 72% NTSC, HP Sure View Reflect integrated privacy screen"
+        },
+        {
+            "PhwebDescription": "BU EON 840 G9 23.8 AiO TS FHD IDS",
+            "ContainerValue": "23.8\" diagonal, FHD (1920 x 1080), touch, IPS, anti-glare, 250 nits, 72% NTSC"
+        },
+        {
+            "PhwebDescription": "BU 240 Pro G9 23.8 AiO i7-1255U IDS",
+            "ContainerValue": "23.8\" diagonal, FHD (1920 x 1080), IPS, anti-glare, 250 nits, 72% NTSC"
+        },
+        {
+            "PhwebDescription": "BU EON 800 G9 27.0 AiO QHD TS IDS",
+            "ContainerValue": "27\" diagonal, QHD (2560 x 1440), touch, IPS, anti-glare, 250 nits, 72% NTSC"
+        },
+        {
+            "PhwebDescription": "BU EON 870 G9 27.0 AiO TS QHD IDS",
+            "ContainerValue": "27\" diagonal, QHD (2560 x 1440), touch, IPS, anti-glare, 300 nits, 72% NTSC"
+        },
+        {
+            "PhwebDescription": "BU EON 800 G9 23.8 AiO FHD NT GFX IDS",
+            "ContainerValue": "23.8\" diagonal, FHD (1920 x 1080), IPS, anti-glare, Low Blue Light, 250 nits, 72% NTSC"
+        },
+        {
+            "PhwebDescription": "BU EON 800 G9 23.8 AiO FHD NT IDS",
+            "ContainerValue": "23.8\" diagonal, FHD (1920 x 1080), IPS, anti-glare, Low Blue Light, 250 nits, 72% NTSC"
+        },
+        {
+            "PhwebDescription": "LCD 15.6 HD AG LED SVA 250fHDCIRNWBZbent",
+            "ContainerValue": "15.6\" diagonal, HD (1366 x 768), narrow bezel, anti-glare, 250 nits, 45% NTSC"
+        },
+        {
+            "PhwebDescription": "BU RCTO UMAi5-1335UFHDwBLwHDCIRTIPD630G1",
+            "ContainerValue": "13.3\" diagonal, FHD (1920 x 1080), IPS, anti-glare, 400 nits, 72% NTSC"
+        },
+        {
+            "PhwebDescription": "LCD 14.0FHDAGLED250UWVAfWANfHDCIRTOPNWBZ",
+            "ContainerValue": "14\" diagonal, FHD (1920 x 1080), touch, IPS, narrow bezel, 250 nits, 45% NTSC"
+        },
+        {
+            "PhwebDescription": "BU RCTO UMAi3-1315UFHDwBLwHDCIRTIPD630G1",
+            "ContainerValue": "13.3\" diagonal, FHD (1920 x 1080), UWVA, anti-glare, 400 nits, low power, 100% sRGB"
+        },
+        {
+            "PhwebDescription": "BU EON 800 G9 27.0 AiO FHD NT RCTO",
+            "ContainerValue": "27\" diagonal, FHD (1920 x 1080), IPS, anti-glare, 250 nits, 72% NTSC"
+        },
+        {
+            "PhwebDescription": "BU PON 400 G9 23.8 AiO TS GFX IDS",
+            "ContainerValue": "23.8\" diagonal, FHD (1920 x 1080), touch, IPS, anti-glare, Low Blue Light, 250 nits, 72% NTSC"
+        },
+        {
+            "PhwebDescription": "BU EON 800 G9 27.0 AiO NT GFX RCTO",
+            "ContainerValue": "27\" diagonal, QHD (2560 x 1440), IPS, anti-glare, 250 nits, 72% NTSC"
+        },
+        {
+            "PhwebDescription": "BU EON 800 G9 27.0 AiO QHD NT IDS",
+            "ContainerValue": "27\" diagonal, QHD (2560 x 1440), IPS, anti-glare, 250 nits, 72% NTSC"
+        },
+        {
+            "PhwebDescription": "LCD 16WUXGAAGWLED+LBL400UWVAf5MPALS+ACSN",
+            "ContainerValue": "16\" diagonal, WUXGA (1920 x 1200), IPS, anti-glare, 400 nits, 100% sRGB"
+        },
+        {
+            "PhwebDescription": "BU EON 800 G9 27.0 AiO FHD NT IDS",
+            "ContainerValue": "27\" diagonal, FHD (1920 x 1080), IPS, 250 nits, 72% NTSC"
+        },
+        {
+            "PhwebDescription": "BU EON 840 G9 23.8 AiO NT FHD IDS",
+            "ContainerValue": "23.8\" diagonal, FHD (1920 x 1080), IPS, anti-glare, 250 nits, 72% NTSC"
+        },
+        {
+            "PhwebDescription": "BU EON 800 G9 27.0 AiO NT GFX IDS",
+            "ContainerValue": "27\" diagonal, QHD (2560 x 1440), IPS, anti-glare, 250 nits, 72% NTSC"
+        },
+        {
+            "PhwebDescription": "BU EON 870 G9 27.0 AiO NT FHD IDS",
+            "ContainerValue": "27\" diagonal, FHD (1920 x 1080), IPS, anti-glare, 250 nits, 72% NTSC"
+        },
+        {
+            "PhwebDescription": "BU RCTOUMACelN45004GBHD32GeMMCCPJTBINDIA",
+            "ContainerValue": "11.6\" diagonal, HD (1366 x 768), anti-glare, 220 nits, 45% NTSC"
         }
     ]
 }

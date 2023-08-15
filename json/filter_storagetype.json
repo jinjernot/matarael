@@ -855,6 +855,218 @@
         {
             "PhwebDescription": "BU IDS UMA CelN4500 8GB 128GeMMC 15a-na0",
             "ContainerValue": "eMMC"
+        },
+        {
+            "PhwebDescription": "ZTRB HP ZTrbDrv M.2 2TB TLC SSD 4th",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "HDD 8TB 7200RPM SATA Ent 3.5in 4th",
+            "ContainerValue": "HDD"
+        },
+        {
+            "PhwebDescription": "ZTRB HP ZTrbDrv M.2 2TB TLC SSD 2nd",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "HDD 8TB 7200RPM SATA Ent 3.5in 3rd",
+            "ContainerValue": "HDD"
+        },
+        {
+            "PhwebDescription": "ZTRB HP ZTrbDrv Quad 2TB TLC SSD",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "ZTRB HP ZTrbDrv M.2 2TB TLC SSD 3rd",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "HDD 6TB 7200RPM SATA Ent 3.5 5th",
+            "ContainerValue": "HDD"
+        },
+        {
+            "PhwebDescription": "ZTRB HP ZTrbDrv Quad 2TB TLC SSD 3rd",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "ZTRB HP ZTrbDrv Quad 2TB TLC SSD 4th",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "ZTRB HP ZTrbDrv Quad 2TB TLC SSD 2nd",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "HDD 8TB 7200RPM SATA Ent 3.5in 2nd",
+            "ContainerValue": "HDD"
+        },
+        {
+            "PhwebDescription": "ZTRB HP ZTrbDrv M.2 2TB TLC SSD",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "ZTRB HP ZTrbDrv QX310 2TB SSD",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "ZTRB HP ZTrbDrv Dual 2TB TLC SSD",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "ZTRB HP ZTrbDrv Dual 2TB TLC SSD 2nd",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA CelN51008GB128GeMMCfWWAN14G10",
+            "ContainerValue": "eMMC"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA CelN4500 4GB 64GeMMC 14 G7",
+            "ContainerValue": "eMMC"
+        },
+        {
+            "PhwebDescription": "ZTRB HPZTrbDrvM.2 512GBTLCSSD",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "HDD 4TB 7200RPM SATA Ent 3.5in",
+            "ContainerValue": "HDD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMAPentN60008GB128GeMMCfBL14b-cb0",
+            "ContainerValue": "eMMC"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA N100 128GUFS 14",
+            "ContainerValue": "UFS"
+        },
+        {
+            "PhwebDescription": "SSD WD Black 1T 2280 PCIe NVMe TLC",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "SSD 512G M.2 2280 PCIe NVMe OPAL2 TLC",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "HDD 500GB 7200RPM SED-OPAL2 2.5",
+            "ContainerValue": "HDD"
+        },
+        {
+            "PhwebDescription": "HDD 500GB 7200RPM SATA 3.5in",
+            "ContainerValue": "HDD"
+        },
+        {
+            "PhwebDescription": "ZTRB HP ZTrbDrv M.2 1TB TLC SSD",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "HDD 1TB 7200RPM SATA Ent 3.5in",
+            "ContainerValue": "HDD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA Cel7305 64GeMMC Chromebox G4",
+            "ContainerValue": "eMMC"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1345U 64GeMMC Chromebox G4",
+            "ContainerValue": "eMMC"
+        },
+        {
+            "PhwebDescription": "SSD ZTrb 1TB 2280 PCIe TLC M.2 FL Rmv",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i3-1315U 64GeMMC Chromebox G4",
+            "ContainerValue": "eMMC"
+        },
+        {
+            "PhwebDescription": "SSD HPZ 2TB 2280 PCIe-4x4 TLC 3rd M.2",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "SSD 256GB 2280 PCIe NVMe Val 2nd",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "SSD ZTrb 512GB 2280 PCIe-4x4 TLC 2nd M.2",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "SSD HPZ 2TB 2280 PCIe-4x4 TLC 4th M.2",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "HDD 1TB 5400RPM 2.5in",
+            "ContainerValue": "HDD"
+        },
+        {
+            "PhwebDescription": "ZTRB HPZ Turbo Drv Quad Pro 512GB TLCSSD",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "HDD 2TB 7200RPM SATA Ent 3.5in 3rd",
+            "ContainerValue": "HDD"
+        },
+        {
+            "PhwebDescription": "HDD 2TB 7200RPM SATA Ent 3.5in 6th",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "HDD 4TB 7200RPM SATA Ent 3.5in 2nd",
+            "ContainerValue": "HDD"
+        },
+        {
+            "PhwebDescription": "HDD 2TB 7200RPM SATA-6G 2nd",
+            "ContainerValue": "HDD"
+        },
+        {
+            "PhwebDescription": "SSD HP 512GB 2280 PCIe-4x4 Val 2nd M.2",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "BU RCTOUMACelN45004GBHD32GeMMCCPJTBINDIA",
+            "ContainerValue": "eMMC"
+        },
+        {
+            "PhwebDescription": "SSD 512GB 2280 PCIe-4x4 NVMe TLC M.2",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "HDD 2TB 7200RPM SATA Ent 3.5in 2nd",
+            "ContainerValue": "HDD"
+        },
+        {
+            "PhwebDescription": "SSD 512GB 2280 PCIe-4x4 NVMe TLC 2nd",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "HDD 2TB 7200RPM SATA Ent 3.5in 4th",
+            "ContainerValue": "HDD"
+        },
+        {
+            "PhwebDescription": "HDD 1TB 7200RPM SATA Ent 3.5in FrntLdRmv",
+            "ContainerValue": "HDD"
+        },
+        {
+            "PhwebDescription": "ZTRB HP ZTrbDrv M.2 512GB TLC SSD",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "SSD 256GB 2280 PCIe-4x4 OPAL2 NVME TLC",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "HDD 2TB 7200RPM SATA Ent 3.5in 5th",
+            "ContainerValue": "SSD"
+        },
+        {
+            "PhwebDescription": "HDD 2TB 7200RPM SATA Ent 3.5in",
+            "ContainerValue": "HDD"
+        },
+        {
+            "PhwebDescription": "SSD 1T M.2 2280 PCIe NVMe TLC 2nd",
+            "ContainerValue": "SSD"
         }
     ]
 }

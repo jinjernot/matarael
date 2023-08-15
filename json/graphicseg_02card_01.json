@@ -1547,6 +1547,134 @@
     {
       "PhwebDescription": "GFX NVIDIA GeF 8GB GDDR6 RKL-S",
       "ContainerValue": "NVIDIA® GeForce RTX™ 3080 (8 GB GDDR6 dedicated)"
+    },
+    {
+      "PhwebDescription": "BU IDS DSCRTX400012GBi9-13900HKStudioG10",
+      "ContainerValue": "NVIDIA RTX™ 4000 Ada Generation Laptop GPU (12 GB GDDR6 dedicated)"
+    },
+    {
+      "PhwebDescription": "BU IDS DSCRTX408012GB i7-13800HStudioG10",
+      "ContainerValue": "NVIDIA® GeForce RTX™ 4080 (12 GB GDDR6X dedicated)"
+    },
+    {
+      "PhwebDescription": "BU IDS DSCRTX20504GB R5 7535HS 15",
+      "ContainerValue": "NVIDIA® GeForce RTX™ 2050 Laptop GPU (4 GB GDDR6 dedicated)"
+    },
+    {
+      "PhwebDescription": "BU IDS DSCRTX20504GB i5-12450H 15",
+      "ContainerValue": "NVIDIA® GeForce RTX™ 2050 Laptop GPU (4 GB GDDR6 dedicated)"
+    },
+    {
+      "PhwebDescription": "BU IDS DSCRTX20504GB i7-12650H 15",
+      "ContainerValue": "NVIDIA® GeForce RTX™ 2050 Laptop GPU (4 GB GDDR6 dedicated)"
+    },
+    {
+      "PhwebDescription": "BU IDS DSC RX 6650M 8GB R7 6800H 16",
+      "ContainerValue": "AMD Radeon™ RX 6650M Graphics (8 GB GDDR6 dedicated)"
+    },
+    {
+      "PhwebDescription": "GFX AMD Rdn RX 5500 4GB",
+      "ContainerValue": "AMD Radeon™ RX 5500 Graphics (4 GB GDDR5 dedicated)"
+    },
+    {
+      "PhwebDescription": "BU IDS DSC RX 6500M 4GB Ryzen7 5800H 15",
+      "ContainerValue": "AMD Radeon™ RX 6500M Graphics (4 GB GDDR6 dedicated)"
+    },
+    {
+      "PhwebDescription": "BU IDS DSCRTX40608GB i7-13700H 15",
+      "ContainerValue": "NVIDIA® GeForce RTX™ 4060 Laptop GPU (8 GB GDDR6 dedicated)"
+    },
+    {
+      "PhwebDescription": "BU IDS DSCRTX40506GB i7-12650H 15",
+      "ContainerValue": "NVIDIA® GeForce RTX™ 4050 Laptop GPU (6 GB GDDR6 dedicated)"
+    },
+    {
+      "PhwebDescription": "BU IDS DSCRTX40608GB i5-13500H 15",
+      "ContainerValue": "NVIDIA® GeForce RTX™ 4060 Laptop GPU (8 GB GDDR6 dedicated)"
+    },
+    {
+      "PhwebDescription": "BU IDS DSC i7-1165G7 32GB 14 G8",
+      "ContainerValue": "NVIDIA® T500 (4 GB GDDR6 dedicated)"
+    },
+    {
+      "PhwebDescription": "BU IDS DSC i7-1165G7 16GB 14 G8",
+      "ContainerValue": "NVIDIA® T500 (4 GB GDDR6 dedicated)"
+    },
+    {
+      "PhwebDescription": "BU IDS DSCRTX2000Ada8GBR9PRO7940HSPower1",
+      "ContainerValue": "NVIDIA RTX™ 2000 Ada Generation Laptop GPU (8 GB GDDR6 dedicated)"
+    },
+    {
+      "PhwebDescription": "BU IDS DSCRTXA10006GBR5PRO7640HSPower15.",
+      "ContainerValue": "NVIDIA RTX™ A1000 Laptop GPU (6 GB GDDR6 dedicated)"
+    },
+    {
+      "PhwebDescription": "GFX Intel Arc 6GB 4mDP",
+      "ContainerValue": "Intel® Arc™ Pro A40 (6 GB GDDR6 dedicated)"
+    },
+    {
+      "PhwebDescription": "BU IDS DSCRTX400012GBi9-13900HKStudioG10",
+      "ContainerValue": "NVIDIA RTX™ 4000 Ada Generation Laptop GPU (12 GB GDDR6 dedicated)"
+    },
+    {
+      "PhwebDescription": "GFX NVIDIA RTX A2000 12GB GDDR6 4mDP 2nd",
+      "ContainerValue": "NVIDIA RTX™️ A2000 (12 GB GDDR6 dedicated)"
+    },
+    {
+      "PhwebDescription": "BU IDS DSC MX550 2GB i5-1235U 240 G9",
+      "ContainerValue": "NVIDIA® GeForce® MX550 (2 GB GDDR6 dedicated)"
+    },
+    {
+      "PhwebDescription": "BU IDS DSCRTXA10004GBi9-12900HStudio16.0",
+      "ContainerValue": "NVIDIA RTX™ A1000 Laptop GPU (4 GB GDDR6 dedicated)"
+    },
+    {
+      "PhwebDescription": "BU IDS DSCRTX2000Ada8GBR77840HSPower15.6",
+      "ContainerValue": "NVIDIA RTX™ 2000 Ada Generation Laptop GPU (8 GB GDDR6 dedicated)"
+    },
+    {
+      "PhwebDescription": "GFX NVIDIA PH x6xxx 4DP 2nd",
+      "ContainerValue": "NVIDIA RTX™ 6000 Ada Generation (48 GB GDDR6 dedicated)"
+    },
+    {
+      "PhwebDescription": "GFX NVIDIA PH x6xxx 4DP 3rd",
+      "ContainerValue": "NVIDIA RTX™ 6000 Ada Generation (48 GB GDDR6 dedicated)"
+    },
+    {
+      "PhwebDescription": "GFX NVIDIA PH x6xxx 4DP",
+      "ContainerValue": "NVIDIA RTX™ 6000 Ada Generation (48 GB GDDR6 dedicated)"
+    },
+    {
+      "PhwebDescription": "BU IDS DSCRTXA10006GB i5-13600HStudioG10",
+      "ContainerValue": "NVIDIA RTX™ A1000 Laptop GPU (6 GB GDDR6 dedicated)"
+    },
+    {
+      "PhwebDescription": "GFX NVIDIA PH x6xxx 4DP 4th",
+      "ContainerValue": "NVIDIA RTX™ 6000 Ada Generation (48 GB GDDR6 dedicated)"
+    },
+    {
+      "PhwebDescription": "BU IDS DSCGeFRTX3070Ti8GBi9-12900HStudio",
+      "ContainerValue": "NVIDIA® GeForce RTX™ 3070 Ti (8 GB GDDR6X dedicated)"
+    },
+    {
+      "PhwebDescription": "GFX NVIDIA LL T1000E 8GB 4mDP",
+      "ContainerValue": "NVIDIA® T1000 (8 GB GDDR6 dedicated)"
+    },
+    {
+      "PhwebDescription": "BU HP Z2 TWR G9 500W RCTO",
+      "ContainerValue": "NVIDIA® T400 (2 GB GDDR6 dedicated)"
+    },
+    {
+      "PhwebDescription": "BU IDS DSCRTXA10004GBi7-12800HStudio16G9",
+      "ContainerValue": "NVIDIA RTX™ A1000 Laptop GPU (4 GB GDDR6 dedicated)"
+    },
+    {
+      "PhwebDescription": "BU IDS DSC T550 PH i5-RM TI PD IC 16 G10",
+      "ContainerValue": "NVIDIA RTX™ A500 Laptop GPU (4 GB GDDR6 dedicated)"
+    },
+    {
+      "PhwebDescription": "GFX NVIDIA T400 4GB w/2 mDP-to-DP",
+      "ContainerValue": "NVIDIA® T400 (4 GB GDDR6 dedicated)"
     }
   ]
 }
