@@ -38,18 +38,23 @@ def process_file():
         except Exception as e:
             print(e)
             return render_template('error.html'), 500
+    return render_template('error.html'), 400
 
-    elif 'JSON' in request.files:
-        file = request.files['JSON']
+@app.route('/json-upload', methods=['POST'])
+def json_upload():
+    print("Inside /json-upload route")  # Check if the route is accessed
+    if 'uploadjson' in request.files:
+        file = request.files['uploadjson']
+        print("File received:", file.filename)  # Check if the file is being received
         try:
             if allowed_file(file.filename):
                 filename = file.filename
-                file.save(app.config['UPLOAD_DIRECTORY'] + filename)
+                file_path = os.path.join('/home/garciagi/SCS_Tool/json', filename)
+                file.save(file_path)
                 return render_template('file_uploaded.html')
         except Exception as e:
             print(e)
-            return render_template('error.html'), 500
-
+            return render_template('error_json.html'), 500
     return render_template('error.html'), 400
 
 @app.route('/json-review', methods=['GET'])
@@ -63,13 +68,15 @@ def json_review():
                     data = json.load(json_file)
                     return render_template('json_review.html', json_data=json.dumps(data, indent=4))
             else:
-                return "File not found"
-        except Exception as e:
+                return render_template('error_json.html'), 400
+        except Exception as e: 
             print(e)
             return render_template('error_json.html'), 500
     return render_template('json_review.html', json_data=None)
 
-@app.route('/index2')
+
+
+@app.route('/main')
 def mainpage():
     return render_template('index2.html')
 
@@ -77,10 +84,13 @@ def mainpage():
 def documentation():
     return render_template('documentation.html')
 
-@app.route('/regular_content')
+@app.route('/regular-content')
 def regular_content():
     return render_template('regular_content.html')
 
+@app.route('/json-upload')
+def upload_json():
+    return render_template('json_upload.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
