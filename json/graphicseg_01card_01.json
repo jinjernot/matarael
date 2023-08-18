@@ -4567,6 +4567,70 @@
         {
             "PhwebDescription": "BU RCTO UMAR37330UHDfnBLnFPRwHDC245G10IN",
             "ContainerValue": "AMD Radeon™ Graphics"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX30008GB i9-13900H StudioG10",
+            "ContainerValue": "Intel® Iris® Xᵉ Graphics"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1355U nSDC 15",
+            "ContainerValue": "Intel® Iris® Xᵉ Graphics"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1335U nSDC 15",
+            "ContainerValue": "Intel® Iris® Xᵉ Graphics"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi3xxxxU 15",
+            "ContainerValue": "Intel® Iris® Xᵉ Graphics"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-12xxx U15 15",
+            "ContainerValue": "Intel® Iris® Xᵉ Graphics"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi7xxxxU 15",
+            "ContainerValue": "Intel® Iris® Xᵉ Graphics"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-12xxx U15 14",
+            "ContainerValue": "Intel® Iris® Xᵉ Graphics"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi512xxx 16GB 14",
+            "ContainerValue": "Intel® Iris® Xᵉ Graphics"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi312xxx 8GB 14",
+            "ContainerValue": "Intel® Iris® Xᵉ Graphics"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-12xxx U15 17",
+            "ContainerValue": "Intel® Iris® Xᵉ Graphics"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX2000Ada8GBi9-13900HPower15.",
+            "ContainerValue": "Intel® Iris® Xᵉ Graphics"
+        },
+        {
+            "PhwebDescription": "CPU INTL i9-12900 16C 2.40 65W",
+            "ContainerValue": "Intel® UHD Graphics 770"
+        },
+        {
+            "PhwebDescription": "CPU INTL i7-12700 12C 2.10 65W",
+            "ContainerValue": "Intel® UHD Graphics 770"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1165G7 840 G8",
+            "ContainerValue": "Intel® Iris® Xᵉ Graphics"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1135G7 250 G8",
+            "ContainerValue": "Intel® Iris® Xᵉ Graphics"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1135G7 850 G8",
+            "ContainerValue": "Intel® Iris® Xᵉ Graphics"
         }
     ]
 }

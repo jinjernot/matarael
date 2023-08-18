@@ -695,6 +695,14 @@
         {
             "PhwebDescription": "HDD 4TB 7200RPM SATA Ent 3.5in",
             "ContainerValue": "4000"
+        },
+        {
+            "PhwebDescription": "SSD 256GB 2280 PCIe OPAL2 NVMe Val",
+            "ContainerValue": "256"
+        },
+        {
+            "PhwebDescription": "SSD 1T Z Turbo Drive 2280 TLC 2nd",
+            "ContainerValue": "1000"
         }
     ]
 }

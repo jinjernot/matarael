@@ -6315,6 +6315,294 @@
         {
             "PhwebDescription": "BU IDS UMA PH i7-KT 640 G9",
             "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "CPU I Core i5-10400 2.9GHz 6C65W",
+            "ContainerValue": "Intel HD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi3xxxxU 15",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "CPU INTL i7-12700 12C 2.10 65W",
+            "ContainerValue": "Intel UHD"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1165G7 840 G8",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1135G7 250 G8",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1135G7 850 G8",
+            "ContainerValue": "Intel Iris"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX30008GB i7-13700H StudioG10",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX400012GB i9-13900HStudioG10",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA20008GB i7-13700HStudioG10",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC RTX A500 PH i7KT TI PDIC14G10",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA10006GB i7-13700HStudioG10",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX30008GB i9-13900H StudioG10",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA20008GBi7-12800HStudio16.0",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX400012GB i7-13800HStudioG10",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA20008GB i7-13800HStudioG10",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA10006GB i7-13800HStudioG10",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX30008GB i9-13900HKStudioG10",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC T550 PH i7-KT TI PD IC 16 G10",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX30008GB i7-13800H StudioG10",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC RTXA1XXX4GBPHi7-KTPower15.6G9",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC T550 PH i5-KT TI PD IC 14 G10",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX3000Ada8GBi9-13900HPower15.",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA10006GBi7-13700HPower15.6G",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX2000Ada8GBi7-13800HPower15.",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA5004GBi7-13700HPower15.6G1",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA5004GBi5-13500HPower15.6G1",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX2000Ada8GBi7-13700HPower15.",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA10006GBR77840HSPower15.6G1",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC RTXA2XXX8GBPHi7-RMPower15.6G9",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA10006GB i5-13600H Power 15",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX2000Ada8GBi9-13900HKPower15",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA10006GBi9-13900HPower15.6G",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA5004GBi5-13600HPwr15.6G10",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX2000Ada8GBR7PRO7840HSPower1",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA10006GBi7-13800HPower15.6G",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX3000Ada8GBi9-13900HKPower15",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA10006GBR7PRO7840HSPower15.",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX3000Ada8GBi7-13700HPower156",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX2000Ada8GBi9-13900HPower15.",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC RTX A500 PHi7RMOSRTIPDIC14G10",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA10006GBR9PRO7940HSPower15.",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX2000Ada8GBR97940HSPower15.6",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA10006GBR97940HSPower15.6G1",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC i7-1255U 14 G9",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC T550 PH i5-KT TI PD IC 16 G10",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC i7-1265U 16 G9",
+            "ContainerValue": "NVIDIA"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX408012GB i9-13900HStudioG10",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX40708GB i9-13900H StudioG10",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX40708GB i9-13900HKStudioG10",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX40708GB i7-13700H StudioG10",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX408012GBi9-13900HKStudioG10",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX40708GB i7-13800H StudioG10",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCMX5502GB PHi5KT 470 G10",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC MX550 2GB i7-1255U 250 G9",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC MX550 2GB i5-1235U 250 G9",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX20504GB PHi7KTRTKUSBC450G10",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCMX5502GB PHi7xxxxU 250 G10",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX20504GB PHi7KT TIPD 440 G10",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC MX570A2GBi5-1235URTKUSBC450G9",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX20504GB PHi5KT TIPD 440 G10",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX20504GB PHi5KT TIPD 450 G10",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX20504GB PHi7KT TIPD 450 G10",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCMX5502GB PHi7KT 470 G10",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX20504GB PHi5KTRTKUSBC440G10",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX20504GB i5-1345U TIPD640G10",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCMX5502GB PHi5xxxxU 250 G10",
+            "ContainerValue": "NVIDIA GeForce"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC T550 PH i7-RM TI PD IC 14 G10",
+            "ContainerValue": "NVIDIA Quadro"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC T550 PH i5-RM TI PD IC 14 G10",
+            "ContainerValue": "NVIDIA Quadro"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC T550 PH i7-RM TI PD IC 16 G10",
+            "ContainerValue": "NVIDIA Quadro"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC T6XX 4GB PH i7-KT Power15.6G9",
+            "ContainerValue": "NVIDIA Quadro"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC T550 PH i7RM OSR TI PDIC16G10",
+            "ContainerValue": "NVIDIA Quadro"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA T400 2GB w/2 mDP-to-DP",
+            "ContainerValue": "NVIDIA Quadro"
         }
     ]
 }

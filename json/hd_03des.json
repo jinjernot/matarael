@@ -1,0 +1,20 @@
+{
+    "hd_03des": [
+        {
+            "PhwebDescription": "HDD 8TB 7200RPM SATA Ent 3.5in 3rd",
+            "ContainerValue": "8 TB 7200 rpm SATA HDD"
+        },
+        {
+            "PhwebDescription": "ZTRB HP ZTrbDrv Quad 2TB TLC SSD 3rd",
+            "ContainerValue": "2 TB SATA SSD"
+        },
+        {
+            "PhwebDescription": "SSD HPZ 2TB 2280 PCIe-4x4 TLC 3rd M.2",
+            "ContainerValue": "2 TB HP Z Turbo Drive PCIe® NVMe™ TLC M.2 SSD"
+        },
+        {
+            "PhwebDescription": "HDD 2TB 7200RPM SATA Ent 3.5in 3rd",
+            "ContainerValue": "2 TB 7200 rpm SATA HDD"
+        },
+    ]
+}

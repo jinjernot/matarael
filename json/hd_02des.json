@@ -231,6 +231,22 @@
         {
             "PhwebDescription": "HDD 2TB 7200RPM SATA-6G 2nd",
             "ContainerValue": "2 TB 7200 rpm SATA HDD"
+        },
+        {
+            "PhwebDescription": "SSD 1TB 2280 PCIe NVMe Val 2nd",
+            "ContainerValue": "1 TB PCIe® NVMe™ M.2 SSD"
+        },
+        {
+            "PhwebDescription": "SSD ZTrb 1TB 2280 PCIe-4x4 TLC 2nd M.2",
+            "ContainerValue": "1 TB PCIe® NVMe™ TLC M.2 SSD"
+        },
+        {
+            "PhwebDescription": "SSD WD Black 1TB 2280 PCIe NVME TLC 2nd",
+            "ContainerValue": "1 TB WD Black PCIe® NVMe™ TLC M.2 SSD"
+        },
+        {
+            "PhwebDescription": "HDD 4TB 7200RPM SATA Ent 3.5in 2nd",
+            "ContainerValue": "4 TB 7200 rpm SATA HDD"
         }
     ]
 }

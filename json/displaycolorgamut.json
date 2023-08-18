@@ -1315,6 +1315,10 @@
         {
             "PhwebDescription": "LCD 16WUXGAAGWLED+LBL400UWVAf5MPALS+ACSN",
             "ContainerValue": "100% sRGB"
+        },
+        {
+            "PhwebDescription": "LCD 13.3FHDAGLEDUWVA1000fHDCIRSVRALSbent",
+            "ContainerValue": "72% NTSC"
         }
     ]
 }

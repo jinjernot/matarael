@@ -211,6 +211,34 @@
         {
             "PhwebDescription": "ACADPT 200W SLM 4.5mm PFC Rt Ang Smart",
             "ContainerValue": "200 W Smart AC power adapter"
+        },
+        {
+            "PhwebDescription": "ACADPT HP 90W 4.5mmnPFCRtAngSmt",
+            "ContainerValue": "90 W Smart AC power adapter"
+        },
+        {
+            "PhwebDescription": "ACADPT 90W SLM 4.5mm Rt Ang",
+            "ContainerValue": "90 W AC power adapter"
+        },
+        {
+            "PhwebDescription": "ACADPT 135W SLM 4.5mm Rt Ang",
+            "ContainerValue": "135 W AC power adapter"
+        },
+        {
+            "PhwebDescription": "ACADPT HP100W+10WSLMUSB-C+USB-A",
+            "ContainerValue": "100 W USB Type-C® power adapter"
+        },
+        {
+            "PhwebDescription": "ID RCTO SDB GLA RGB2 600W 23C1",
+            "ContainerValue": "600 W 80 Plus Gold certified ATX power supply"
+        },
+        {
+            "PhwebDescription": "P/S 310W MTSir2ENTL19",
+            "ContainerValue": "310 W 80 Plus Gold certified power supply"
+        },
+        {
+            "PhwebDescription": "ACADPT 200WSLM4.5mmPFCRtAngSmtL",
+            "ContainerValue": "200 W Smart AC power adapter"
         }
     ]
 }

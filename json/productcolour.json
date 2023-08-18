@@ -1435,6 +1435,46 @@
         {
             "PhwebDescription": "ID ASV PLA wSDC wHDC TNR",
             "ContainerValue": "Asteroid silver"
+        },
+        {
+            "PhwebDescription": "ID CCW ALU nSDC wHDC TNR FPR",
+            "ContainerValue": "Ceramic white aluminum cover, natural silver base and natural silver aluminum keyboard frame"
+        },
+        {
+            "PhwebDescription": "ID FGB ALU nSDC wHDC TNR nFPR",
+            "ContainerValue": "Fog blue aluminum cover, cloud blue base and cloud blue aluminum keyboard frame"
+        },
+        {
+            "PhwebDescription": "ID FGB ALU nSDC wHDC TNR FPR",
+            "ContainerValue": "Fog blue aluminum cover, cloud blue base and cloud blue aluminum keyboard frame"
+        },
+        {
+            "PhwebDescription": "ID NSV PLA US layout",
+            "ContainerValue": "Natural silver cover and keyboard frame, ash gray base"
+        },
+        {
+            "PhwebDescription": "ID RCTO SDB GLA ARGB3 800W",
+            "ContainerValue": "Black, glass side panel, dark chrome logo"
+        },
+        {
+            "PhwebDescription": "ID BLK PLA w5MPC",
+            "ContainerValue": "Jet black"
+        },
+        {
+            "PhwebDescription": "ID PRG PLA wHDC FPR",
+            "ContainerValue": "Pale rose gold cover and base, natural silver keyboard frame"
+        },
+        {
+            "PhwebDescription": "ID PKS PLA",
+            "ContainerValue": "Pike silver plastic"
+        },
+        {
+            "PhwebDescription": "ID SNP ALU nSDC wHDC TNR FPR",
+            "ContainerValue": "Serene pink aluminum cover, tranquil pink base and tranquil pink aluminum keyboard frame"
+        },
+        {
+            "PhwebDescription": "ID SDB GLA RGB3 23C1",
+            "ContainerValue": "Shadow black"
         }
     ]
 }

@@ -919,6 +919,26 @@
         {
             "PhwebDescription": "ID SKB MAG",
             "ContainerValue": "Space blue"
+        },
+        {
+            "PhwebDescription": "ID PRG PLA w5MPC FPR nWWAN",
+            "ContainerValue": "Pale rose gold"
+        },
+        {
+            "PhwebDescription": "ID PRG PLA wHDC FPR",
+            "ContainerValue": "Pale rose gold"
+        },
+        {
+            "PhwebDescription": "ID PRG PLA wHDC+PCSD FPR",
+            "ContainerValue": "Pale rose gold"
+        },
+        {
+            "PhwebDescription": "ID NSV PLA US layout",
+            "ContainerValue": "Natural silver"
+        },
+        {
+            "PhwebDescription": "ID PRG ALU+MAG wHDC TNR US layout 23C1",
+            "ContainerValue": "Pale rose gold"
         }
     ]
 }

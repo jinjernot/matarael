@@ -2967,6 +2967,30 @@
     {
       "PhwebDescription": "BU IDS UMA R3 7440U 8GB TIPD 835 G10",
       "ContainerValue": "8 GB LPDDR5-6400 MHz RAM (onboard)"
+    },
+    {
+      "PhwebDescription": "RAM 16GB (2x8GB) DDR4 3200 SODIMM",
+      "ContainerValue": "16 GB DDR4-3200 MHz RAM (2 x 8 GB)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA R5 7535U 16GB 13",
+      "ContainerValue": "16 GB DDR4-3200 MHz RAM (onboard)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA R7 7735U 16GB 13",
+      "ContainerValue": "16 GB DDR4-3200 MHz RAM (onboard)"
+    },
+    {
+      "PhwebDescription": "RAM 16GB (2x8GB) DDR4 3200 CR",
+      "ContainerValue": "16 GB DDR4-3200 RAM (2 x 8 GB)"
+    },
+    {
+      "PhwebDescription": "RAM 8GB (2x4GB) DDR4 2666",
+      "ContainerValue": "8 GB DDR4-2666 MHz RAM (2 x 4 GB)"
+    },
+    {
+      "PhwebDescription": "RAM 8GB(1x8GB) DDR4 2933 UDIMM NECC",
+      "ContainerValue": "8 GB DDR4-2933 MHz RAM (1 x 8 GB)"
     }
   ]
 }

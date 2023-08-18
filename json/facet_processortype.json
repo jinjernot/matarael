@@ -7367,6 +7367,26 @@
         {
             "PhwebDescription": "BU PON 245 G10 23.8AiO 8GBAthS7120UIDS",
             "ContainerValue": "AMD Athlon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA N100 128GUFS 15",
+            "ContainerValue": "Intel Celeron"
+        },
+        {
+            "PhwebDescription": "CPU INTL i5-13400T 1.30 10C 35W",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-RM HW TI PD IC 840 G10",
+            "ContainerValue": "Intel Xeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-RM TI PD IC 840 G10",
+            "ContainerValue": "Intel Xeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1165G7 840 G8",
+            "ContainerValue": "Intel Core i7"
         }
     ]
 }

@@ -931,6 +931,62 @@
         {
             "PhwebDescription": "WLAN bgn 1x1 +BT 4.2 WW",
             "ContainerValue": "Realtek RTL8723DE 802.11b/g/n (1x1) Wi-Fi® and Bluetooth® 4.2 combo"
+        },
+        {
+            "PhwebDescription": "WLAN I AX201 ax 2x2 MU-MIMOnvP+BT5WW2Ant",
+            "ContainerValue": "Intel® AX201 Wi-Fi 6 (2x2) and Bluetooth® 5 combo, non-vPro®"
+        },
+        {
+            "PhwebDescription": "WLAN I AX211 Wi-Fi6e WW ExtAnt",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.2 combo (Supporting Gigabit data rate)"
+        },
+        {
+            "PhwebDescription": "WLAN I AX211 Wi-Fi6e WW EA2",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "PhwebDescription": "WLAN I AX211 Wi-Fi6e 160MHz +BT 5.2 WW",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "PhwebDescription": "WLAN I AX211 Wi-Fi 6E 160MHz +BT 5.2 WW",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "PhwebDescription": "WLAN I 9560 ac 2x2 MU-MIMO nvP+BT5WW2Ant",
+            "ContainerValue": "Intel® Wireless-AC 9560 802.11a/b/g/n/ac (2x2) Wi-Fi® and Bluetooth® 5 combo"
+        },
+        {
+            "PhwebDescription": "WLAN Wi-Fi6 +BT 5.3 WW 2Ant",
+            "ContainerValue": "MediaTek Wi-Fi 6 MT7921 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "PhwebDescription": "WLAN Q WCN6856 Wi-Fi6e 160MHz +BT 5.2 WW",
+            "ContainerValue": "Qualcomm® FastConnect™️ 6900 Wi-Fi 6E (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "PhwebDescription": "WLAN RT RTL8821CE ac 1x1 +BT 4.2LE WW",
+            "ContainerValue": "Realtek RTL8821CE 802.11a/b/g/n/ac (1x1) Wi-Fi® and Bluetooth® 4.2 wireless card"
+        },
+        {
+            "PhwebDescription": "WLAN RT ac 2x2 +BT 5 WW 2Ant",
+            "ContainerValue": "Realtek RTL8822CE 802.11a/b/g/n/ac (2x2) Wi-Fi® and Bluetooth® 5 wireless card"
+        },
+        {
+            "PhwebDescription": "WLAN RT 8852BE Wi-Fi6 +BT 5.3 WW",
+            "ContainerValue": "Realtek RTL8852BE Wi-Fi 6 (2x2) and Bluetooth®️ 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "PhwebDescription": "WLAN RT 8852BE-VS Wi-Fi6 +BT 5.3 WW",
+            "ContainerValue": "Realtek Wi-Fi 6 (2x2) and Bluetooth®️ 5.3 wireless card"
+        },
+        {
+            "PhwebDescription": "WLAN RT 8852BE Wi-Fi6 +BT 5.2 WW",
+            "ContainerValue": "Realtek Wi-Fi 6 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "PhwebDescription": "WLAN Wi-Fi 6E +BT 5.3 WW 2Ant",
+            "ContainerValue": "Realtek Wi-Fi 6E (2x2) and Bluetooth®️ 5.3 wireless card (supporting gigabit data rate)"
         }
     ]
 }

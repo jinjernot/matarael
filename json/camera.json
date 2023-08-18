@@ -459,6 +459,22 @@
         {
             "PhwebDescription": "BU IDS UMA i5-1145G7 8GB OSREliteX2G8TAB",
             "ContainerValue": "1080p FHD IR camera"
+        },
+        {
+            "PhwebDescription": "LCD 13.3WUXGAAGWLED+LBL400UWVAw5MPIRTSAL",
+            "ContainerValue": "5 MP camera"
+        },
+        {
+            "PhwebDescription": "LCD 13.3 FHD BVLEDUWVA400wHDCIRuslimTSLP",
+            "ContainerValue": "720p HD IR privacy camera"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHR78CfHDCIRRTKUSBCx360435G10",
+            "ContainerValue": "IR camera"
+        },
+        {
+            "PhwebDescription": "LCD 14.0WQXGABVLED500UWVAfWWANw5MPIRTOFT",
+            "ContainerValue": "IR camera"
         }
     ]
 }

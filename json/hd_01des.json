@@ -1227,6 +1227,46 @@
     {
       "PhwebDescription": "SSD HP 512GB 2280 PCIe-4x4 Val 2nd M.2",
       "ContainerValue": "512 GB HP Z Turbo Drive PCIe® M.2 SSD"
+    },
+    {
+      "PhwebDescription": "SSD 1T 2280 PCIe NVMe Value 2nd",
+      "ContainerValue": "1 TB PCIe® NVMe™ M.2 SSD"
+    },
+    {
+      "PhwebDescription": "SSD 1TB 2280 PCIe NVMe Val 2nd",
+      "ContainerValue": "1 TB PCIe® NVMe™ SSD"
+    },
+    {
+      "PhwebDescription": "SSD ZTrb 1TB 2280 PCIe-4x4 OPAL2 TLC M.2",
+      "ContainerValue": "1 TB PCIe® NVMe™ TLC M.2 SSD"
+    },
+    {
+      "PhwebDescription": "SSD 1TB 2280 PCIe-4x4 NVMe TLC",
+      "ContainerValue": "1 TB PCIe® NVMe™ TLC SSD"
+    },
+    {
+      "PhwebDescription": "SSD 128GB PCIe NVMe Value",
+      "ContainerValue": "128 GB PCIe® NVMe™ SSD"
+    },
+    {
+      "PhwebDescription": "HDD 2TB 7200RPM SATA 3.5in",
+      "ContainerValue": "2 TB 7200 rpm SATA HDD"
+    },
+    {
+      "PhwebDescription": "SSD 256GB 2280 PCIe OPAL2 NVMe Val",
+      "ContainerValue": "256 GB Intel® PCIe® NVMe™ M.2 SSD"
+    },
+    {
+      "PhwebDescription": "SSD 256G M.2 2280 PCIe NVMe OPAL2 TLC",
+      "ContainerValue": "256 GB PCIe® NVMe™ TLC M.2 SSD"
+    },
+    {
+      "PhwebDescription": "SSD 256GB SS 2280 PCIe-4x4 NVMe TLC",
+      "ContainerValue": "256 GB PCIe® NVMe™ TLC SSD"
+    },
+    {
+      "PhwebDescription": "SSD 512GB 2280 PCIe-4x4 OPAL2 NVME TLC",
+      "ContainerValue": "512 GB PCIe® NVMe™ TLC SSD"
     }
   ]
 }

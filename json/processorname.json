@@ -7491,6 +7491,86 @@
     {
       "PhwebDescription": "BU IDS UMA PH i5-RM HW OSR TI PDIC840G10",
       "ContainerValue": "Intel® Core™ i5-1350P (up to 4.7 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 12 cores, 16 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA PH R5 HS PRO 6C TI PDIC14G10A",
+      "ContainerValue": "AMD Ryzen™ 5 7640HS (up to 5.0 GHz max boost clock, 16 MB L3 cache, 6 cores, 12 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA PH R7 HS PRO 8C TI PDIC14G10A",
+      "ContainerValue": "AMD Ryzen™ 7 7840HS (up to 5.1 GHz max boost clock, 16 MB L3 cache, 8 cores, 16 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA R7 PRO 7850HS Power 15.6 G10A",
+      "ContainerValue": "AMD Ryzen™ 7 7840HS (up to 5.1 GHz max boost clock, 16 MB L3 cache, 8 cores, 16 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS DSCRTXA10006GBR7PRO7840HSPower15.",
+      "ContainerValue": "AMD Ryzen™ 7 7840HS (up to 5.1 GHz max boost clock, 16 MB L3 cache, 8 cores, 16 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS DSCRTX2000Ada8GBR7PRO7840HSPower1",
+      "ContainerValue": "AMD Ryzen™ 7 7840HS (up to 5.1 GHz max boost clock, 16 MB L3 cache, 8 cores, 16 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA PH R9 HS PRO 8C TI PDIC14G10A",
+      "ContainerValue": "AMD Ryzen™ 9 7940HS (up to 5.2 GHz max boost clock, 16 MB L3 cache, 8 cores, 16 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA R9 PRO 7950HS Power 15.6 G10A",
+      "ContainerValue": "AMD Ryzen™ 9 7940HS (up to 5.2 GHz max boost clock, 16 MB L3 cache, 8 cores, 16 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS DSCRTXA10006GBR9PRO7940HSPower15.",
+      "ContainerValue": "AMD Ryzen™ 9 7940HS (up to 5.2 GHz max boost clock, 16 MB L3 cache, 8 cores, 16 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA CelN4120 17",
+      "ContainerValue": "Intel® Celeron® N4120 (up to 2.6 GHz burst frequency, 4 MB L2 cache, 4 cores, 4 threads)"
+    },
+    {
+      "PhwebDescription": "CPU INTL i3-12100 4C 3.30 60W",
+      "ContainerValue": "Intel® Core™ i3-12100 (3.3 GHz base frequency(2b), up to 4.3 GHz with Intel® Turbo Boost Technology(2g), 12 MB L3 cache, 4 cores, 8 threads)"
+    },
+    {
+      "PhwebDescription": "CPU INTL i5-12400 6C 2.50 65W",
+      "ContainerValue": "Intel® Core™ i5- 12400 (2.5 GHz base frequency, up to 4.4 GHz with Intel® Turbo Boost Technology, 18 MB L3 cache, 6 cores, 12 threads)"
+    },
+    {
+      "PhwebDescription": "CPU INTL i5-12400T 6C 1.80 35W",
+      "ContainerValue": "Intel® Core™ i5-12400T (1.8 GHz base frequency(2b), up to 4.2 GHz with Intel® Turbo Boost Technology(2g), 18 MB L3 cache, 6 cores, 12 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA i5-1245U DDR4 TIPD 840 G9",
+      "ContainerValue": "Intel® Core™️ i5-1245U (up to 4.4 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 10 cores, 12 threads)"
+    },
+    {
+      "PhwebDescription": "CPU INTL i5-13400T 1.30 10C 35W",
+      "ContainerValue": "Intel® Core™ i5-13400T (up to 4.4 GHz with Intel® Turbo Boost Technology, 20 MB L3 cache, 10 cores, 16 threads)"
+    },
+    {
+      "PhwebDescription": "CPU INTL i7-12700 12C 2.10 65W",
+      "ContainerValue": "Intel® Core™ i7-12700 (2.1 GHz base frequency(2b), up to 4.9 GHz with Intel® Turbo Boost Technology(2g), 25 MB L3 cache, 12 cores, 20 threads)"
+    },
+    {
+      "PhwebDescription": "CPU I Xeon5220R 2.2GHz 24C150W",
+      "ContainerValue": "Intel® Xeon® Gold 5220 (2.2 GHz base frequency, up to 3.9 GHz with Intel® Turbo Boost Technology, 24.75 MB cache, 18 cores)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA PH i7-RM HW TI PD IC 840 G10",
+      "ContainerValue": "Intel® Xeon® W-2245 (3.9 GHz base frequency, up to 4.5 GHz with Intel® Turbo Boost Technology, 16.5 MB L3 cache, 8 cores)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA PH i7-RM TI PD IC 840 G10",
+      "ContainerValue": "Intel® Xeon® W-2245 (3.9 GHz base frequency, up to 4.5 GHz with Intel® Turbo Boost Technology, 16.5 MB L3 cache, 8 cores)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA i7-1165G7 840 G8",
+      "ContainerValue": "Intel® Core™ i7-1165G7 (up to 4.7 GHz with Intel® Turbo Boost Technology, 12 MB L3 cache, 4 cores)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMAPentN60008GB128GeMMCfBL14b-cb0",
+      "ContainerValue": "Intel® Pentium® Silver N6000 (up to 3.3 GHz burst frequency, 4 MB L3 cache, 4 cores, 4 threads)"
     }
   ]
 }

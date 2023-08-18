@@ -3615,6 +3615,10 @@
     {
       "PhwebDescription": "BU IDS UMA Ath7220U 8GB 15",
       "ContainerValue": "##BLANK##"
+    },
+    {
+      "PhwebDescription": "BU IDS DSC RX 6500M 4GB Ryzen7 5800H 15",
+      "ContainerValue": "Optical drive not included"
     }
   ]
 }

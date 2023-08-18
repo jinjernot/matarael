@@ -1283,6 +1283,30 @@
         {
             "PhwebDescription": "KBD NTT ISK CP",
             "ContainerValue": "Spill-resistant keyboard"
+        },
+        {
+            "PhwebDescription": "KBD JTB ISK CP",
+            "ContainerValue": "Full-size island-style, spill and pick resistant keyboard"
+        },
+        {
+            "PhwebDescription": "KBD SDB CP BL-WHT 1Zone",
+            "ContainerValue": "Full-size, 1-zone white backlit, shadow black keyboard with numeric keypad and 26-Key Rollover Anti-Ghosting Key technology"
+        },
+        {
+            "PhwebDescription": "KBD HP 125 BLK Paper Pckg WD",
+            "ContainerValue": "HP 125 USB Black Wired Keyboard"
+        },
+        {
+            "PhwebDescription": "KBD HP 125 WHT Paper Pckg WD",
+            "ContainerValue": "HP 125 USB White Wired Keyboard"
+        },
+        {
+            "PhwebDescription": "KBD/MSE HP 510SP WHT Paper Pkg",
+            "ContainerValue": "HP 510SP White Wireless Keyboard and mouse combo"
+        },
+        {
+            "PhwebDescription": "KBDWD USB BusSlim",
+            "ContainerValue": "HP USB Slim Business Keyboard"
         }
     ]
 }

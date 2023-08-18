@@ -907,6 +907,14 @@
         {
             "PhwebDescription": "RAM KFURY 32GB(4x8GB)DDR5 4400 XMP RGBHS",
             "ContainerValue": "Transfer rates up to 5200 MT/s."
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R5 7535U 16GB 13",
+            "ContainerValue": "Transfer rates up to 3200 MT/s."
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R7 7735U 16GB 13",
+            "ContainerValue": "Transfer rates up to 3200 MT/s."
         }
     ]
 }

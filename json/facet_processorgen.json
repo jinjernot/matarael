@@ -3139,6 +3139,26 @@
         {
             "PhwebDescription": "BU IDS UMA PH i5-RM 16GB 830 G9",
             "ContainerValue": "12th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1165G7 840 G8",
+            "ContainerValue": "11th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1165G7 16GB 1030 G8",
+            "ContainerValue": "11th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1135G7 250 G8",
+            "ContainerValue": "11th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC i7-1165G7 850 G8",
+            "ContainerValue": "11th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1135G7 850 G8",
+            "ContainerValue": "11th Generation"
         }
     ]
 }

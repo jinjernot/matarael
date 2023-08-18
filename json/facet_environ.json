@@ -95,6 +95,18 @@
         {
             "PhwebDescription": "FLAG OLS PHTM",
             "ContainerValue": "ENERGY STAR® certified; EPEAT® registered"
+        },
+        {
+            "PhwebDescription": "LBL ENERGY STAR Certified",
+            "ContainerValue": "ENERGY STAR® certified"
+        },
+        {
+            "PhwebDescription": "ENERGY STAR Certified",
+            "ContainerValue": "ENERGY STAR® certified; EPEAT® registered"
+        },
+        {
+            "PhwebDescription": "Electronic Energy Star labeling (EStar)",
+            "ContainerValue": "TCO Certified ENERGY STAR® certified"
         }
     ]
 }
