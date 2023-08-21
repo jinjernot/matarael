@@ -46,6 +46,11 @@
     font-size: 16pt;
   }
 
+  h4 {
+    padding-bottom: 5px;
+    font-size: 14pt;
+  }
+
   .upload-container {
     margin: 0 auto;
     color: black;

@@ -80,9 +80,9 @@ def json_review():
 def mainpage():
     return render_template('index2.html')
 
-@app.route('/documentation')
-def documentation():
-    return render_template('documentation.html')
+@app.route('/user_guide')
+def user_guide():
+    return render_template('user_guide.html')
 
 @app.route('/regular-content')
 def regular_content():

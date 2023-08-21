@@ -32,19 +32,20 @@
             </ul>
         </div>
         <div class="content">
-            <h3 class="">JSON Review</h3>
-            <form action="json-review" method="GET" >
-                <input type="text" name="filename" placeholder="Enter container name" class="custom-input">
-                <br><br>
-                <input type="submit" value="View JSON" class="custom-button">
-                <br>
-            </form>
-            <br><br>
-            <pre>
-                {% if json_data %}
-                    {{ json_data }}
-                {% endif %}
-            </pre>
+            <h3>User Guide</h3><br>
+            The SCS QA Tool is a software solution designed to enhance the accuracy data acquired by SCS Team.
+            This tool streamlines the process of cleaning and verifying SKU Accuracy Reports,
+            ensuring that the acquired content aligns seamlessly with HP's content database.<br>
+            The tool first comprehensively cleans the SKU Accuracy Report, addressing common data inconsistencies, formatting errors, and duplications.<br>
+            After cleaning the data, the tool performs a robust comparison with the product database.
+            It identifies discrepancies, inconsistencies, and mismatches between the acquired content and the existing records.<br> 
+
+            <br>
+            <h4>Regular Content</h4><br>
+            Log into SCS <br>
+            Get SKU Accurracy Report<br>
+            Upload to Regular content<br>
+            Profit<br>
         </div>
     </div>
     <div class="footer-container">
