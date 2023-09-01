@@ -4,7 +4,6 @@
     <title>SCS QA Tool</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
     <link rel="shortcut icon" type="image/x-icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
-    <script src="{{ url_for('static', filename='js/processing.js') }}"></script>
 </head>
 
 <body>
@@ -42,10 +41,13 @@
 
             <br>
             <h4>Regular Content</h4><br>
-            Log into SCS <br>
-            Get SKU Accurracy Report<br>
-            Upload to Regular content<br>
-            Profit<br>
+            From SCS main page, go to reports:<br>
+            <img src="{{ url_for('static', filename='images/SCS1.png') }}" alt="" width="900" height="600"><br><br>
+            Input the SKUs to be audited and click SKU Accuracy<br>
+            <img src="{{ url_for('static', filename='images/SCS2.png') }}" alt="" width="900" height="600"><br><br>
+            Upload the excel file to Regular content<br>
+            <img src="{{ url_for('static', filename='images/SCS3.png') }}" alt="" width="900" height="300"><br><br>
+            <br>
         </div>
     </div>
     <div class="footer-container">
