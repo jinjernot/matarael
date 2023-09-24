@@ -2294,11 +2294,11 @@
         },
         {
             "PhwebDescription": "LCD 14.0WQXGABVLED500UWVAfWWANw5MPIRTOFT",
-            "ContainerValue": "14\" diagonal, WQXGA (2560 x 1600), touch, IPS, BrightView, 500 nits, 100% DCI-P3"
+            "ContainerValue": "14\" diagonal, WQXGA (2560 x 1600), touch, IPS, BrightView, 500 nits, 100% DCI-P3"
         },
         {
             "PhwebDescription": "LCD 14.0 WUXGA AG LED 250 UWVA NWBZ bnt",
-            "ContainerValue": "14\" diagonal, WUXGA (1920 x 1200), IPS, narrow bezel, anti-glare, 250 nits, 45% NTSC"
+            "ContainerValue": "14\" diagonal, WUXGA (1920 x 1200), IPS, narrow bezel, anti-glare, 250 nits, 45% NTSC"
         },
         {
             "PhwebDescription": "BU EON 870 G9 27.0 AiO TS QHD RCTO",
@@ -2307,6 +2307,10 @@
         {
             "PhwebDescription": "LCD 13.3FHDAGLEDUWVA1000fHDCIRSVRALSbent",
             "ContainerValue": "13.3\" diagonal, FHD (1920 x 1080), IPS, anti-glare, 1000 nits, 72% NTSC, HP Sure View integrated privacy screen"
+        },
+        {
+            "PhwebDescription": "LCD 13.5 WUXGA+ BV LED UWVA nWWAN BLKbnt",
+            "ContainerValue": "13.5\" diagonal, WUXGA+ (1920 x 1280) touch, IPS, Corning® Gorilla® Glass 5, 340 nits, 100% sRGB"
         }
     ]
 }

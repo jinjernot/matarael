@@ -7387,6 +7387,122 @@
         {
             "PhwebDescription": "BU IDS UMA i7-1165G7 840 G8",
             "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU 200 G4 21.5 AiO i3-1215U IDS",
+            "ContainerValue": "Intel Core i3"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA Ath3050U 245 G9",
+            "ContainerValue": "AMD Athlon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA Ath3050U 17",
+            "ContainerValue": "AMD Athlon"
+        },
+        {
+            "PhwebDescription": "BU IDS Pav 24-ca1 23.8 R7-5825U",
+            "ContainerValue": "AMD Ryzen 7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA Cel N5100 8GB RTKUSBCx36011G9",
+            "ContainerValue": "Intel Celeron"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA Cel N5100 8GB x360 11 G9",
+            "ContainerValue": "Intel Celeron"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA CelN4120 64GeMMC nSDC 14",
+            "ContainerValue": "Intel Celeron"
+        },
+        {
+            "PhwebDescription": "BU 200 G4 21.5 AiO i3-1215U IDS",
+            "ContainerValue": "Intel Core i3"
+        },
+        {
+            "PhwebDescription": "BU 200 Pro G4 AiO i3-1215U IDS",
+            "ContainerValue": "Intel Core i3"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i3-1215U 8GB nFPR 14c-cd0",
+            "ContainerValue": "Intel Core i3"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1135G7 840 G8",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "CPU INTL i5-13400T 1.30 10C 35W",
+            "ContainerValue": "Intel Core i3"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-RM HW TI PD IC 14 G10",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1245U 8GB fWWAN c640 G3",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1235U 8GB Dfly CHB",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-13500H 16 PRC",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX30506GB i5-13500H 16 PRC",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-13500H 16",
+            "ContainerValue": "Intel Core i5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1165G7 840 G8",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU RCTO UMA i7-1370P wBL OSR TIPD 840G10",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX3070Ti8GBfGSynci7-12800HX17",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX30506GB i7-13700H 16 PRC",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-13700H 16 PRC",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS i913950HX nWLANnBT nWWANFury16G10",
+            "ContainerValue": "Intel Core i9"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-RM HW TI PD IC 840 G10",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-RM TI PD IC 840 G10",
+            "ContainerValue": "Intel Core i7"
+        },
+        {
+            "PhwebDescription": "CPU I Xeon 4210 2.2 10C 85 2nd",
+            "ContainerValue": "Intel Xeon Ten Core"
+        },
+        {
+            "PhwebDescription": "CPU I Xeon 4210 2.2 10C 85 1st",
+            "ContainerValue": "Intel Xeon Ten Core"
+        },
+        {
+            "PhwebDescription": "CPU INTL Xn 4410Y 12C 2.00 145W 2nd",
+            "ContainerValue": "Intel Xeon Twelve Core"
         }
     ]
 }

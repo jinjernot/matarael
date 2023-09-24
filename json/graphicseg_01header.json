@@ -4627,6 +4627,230 @@
         {
             "PhwebDescription": "BU IDS UMA i5-1135G7 250 G8",
             "ContainerValue": "Integrated"
+        },
+        {
+            "PhwebDescription": "BU 200 G4 21.5 AiO i3-1215U IDS",
+            "ContainerValue": "Integrated"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX30506GB i5-13500H 16 PRC",
+            "ContainerValue": "Integrated"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX30506GB i7-13700H 16 PRC",
+            "ContainerValue": "Integrated"
+        },
+        {
+            "PhwebDescription": "BU IDS OPP 24-cb0 23.8 CelJ4025",
+            "ContainerValue": "Integrated"
+        },
+        {
+            "PhwebDescription": "BU IDS OPP 24-cb0 23.8 PentJ5040",
+            "ContainerValue": "Integrated"
+        },
+        {
+            "PhwebDescription": "BU IDS Pav 24-ca1 23.8 R5-5625U",
+            "ContainerValue": "Integrated"
+        },
+        {
+            "PhwebDescription": "BU IDS Pav 24-ca1 23.8 R7-5825U",
+            "ContainerValue": "Integrated"
+        },
+        {
+            "PhwebDescription": "BU IDS Pav 27-ca1 27 R7-5825U",
+            "ContainerValue": "Integrated"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA Cel N5100 8GB x360 11 G9",
+            "ContainerValue": "Integrated"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA Cel N5100 8GB RTKUSBCx36011G9",
+            "ContainerValue": "Integrated"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-KT HW 450 G9",
+            "ContainerValue": "Integrated"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-KT 450 G9",
+            "ContainerValue": "Integrated"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i3-1115G4 nSDC 240 G8",
+            "ContainerValue": "Integrated"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHR56C f5MP Cam IR TIPD645G10",
+            "ContainerValue": "Integrated"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi5KTHW RTKUSBC 440 G10",
+            "ContainerValue": "Integrated"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA Ath3050U 245 G9",
+            "ContainerValue": "Integrated"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHR7PRO8C fWWAN TIPD 655 G10",
+            "ContainerValue": "Integrated"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i3-1115G4 250 G8",
+            "ContainerValue": "Integrated"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1135G7 TI PD IC 840 G8",
+            "ContainerValue": "Integrated"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1165G7 840 G8",
+            "ContainerValue": "Integrated"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1135G7 840 G8",
+            "ContainerValue": "Integrated"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-RM16GBRTKUSBCx360830G10",
+            "ContainerValue": "Integrated"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-KT 860 G9",
+            "ContainerValue": "Integrated"
+        },
+        {
+            "PhwebDescription": "BU RCTO UMA i7-1370P wBL OSR TIPD 840G10",
+            "ContainerValue": "Integrated"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-RM 16GB RTK USBC 830G10",
+            "ContainerValue": "Integrated"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1365U RTKUSBC 1040 G10",
+            "ContainerValue": "Integrated"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-KT HW 840 G9",
+            "ContainerValue": "Integrated"
+        },
+        {
+            "PhwebDescription": "BU 200 G4 21.5 AiO i3-1215U IDS",
+            "ContainerValue": "Integrated"
+        },
+        {
+            "PhwebDescription": "BU 200 Pro G4 AiO i3-1215U IDS",
+            "ContainerValue": "Integrated"
+        },
+        {
+            "PhwebDescription": "CPU INTL i5-12400 6C 2.50",
+            "ContainerValue": "Integrated"
+        },
+        {
+            "PhwebDescription": "CPU INTL Cel G6900 2C 3.40 46W",
+            "ContainerValue": "Integrated"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA CelN4500 4GB 32GeMMC x36011G4",
+            "ContainerValue": "Integrated"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i3-1110G4 4GB EngGo13.5 TAB",
+            "ContainerValue": "Integrated"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i3-1110G4 8GB EngGo13.5 TAB",
+            "ContainerValue": "Integrated"
+        },
+        {
+            "PhwebDescription": "BU HP t740 EMEA+LA TC",
+            "ContainerValue": "Integrated"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA20008GBi7-12700HPower15.6G",
+            "ContainerValue": "Integrated"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA10004GBi9-12900HPower15.6G",
+            "ContainerValue": "Integrated"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-RM HW TI PD IC 14 G10",
+            "ContainerValue": "Integrated"
+        },
+        {
+            "PhwebDescription": "BU IDS Engage One 14 T AiO 143",
+            "ContainerValue": "Integrated"
+        },
+        {
+            "PhwebDescription": "CPU I Pentium G6400E 2C65W",
+            "ContainerValue": "Integrated"
+        },
+        {
+            "PhwebDescription": "CPU I Celeron G5900E 2C65W",
+            "ContainerValue": "Integrated"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i3-1215U 8GB c640 G3",
+            "ContainerValue": "Integrated"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1245U 8GB fWWAN c640 G3",
+            "ContainerValue": "Integrated"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1235U 8GB Dfly CHB",
+            "ContainerValue": "Integrated"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-13700H 16 PRC",
+            "ContainerValue": "Integrated"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX30506GB i5-13500H 16 PRC",
+            "ContainerValue": "Integrated"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-13500H 16 PRC",
+            "ContainerValue": "Integrated"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX30506GB i7-13700H 16 PRC",
+            "ContainerValue": "Integrated"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-13500H 16",
+            "ContainerValue": "Integrated"
+        },
+        {
+            "PhwebDescription": "BU IDS i9-12900HX fWWAN Fury 16 G9",
+            "ContainerValue": "Integrated"
+        },
+        {
+            "PhwebDescription": "BU IDS i9-12950HX fWWAN Fury 16 G9",
+            "ContainerValue": "Integrated"
+        },
+        {
+            "PhwebDescription": "BU IDS i7-12800HX fWWAN Fury 16 G9",
+            "ContainerValue": "Integrated"
+        },
+        {
+            "PhwebDescription": "BU IDS i913950HX nWLANnBT nWWANFury16G10",
+            "ContainerValue": "Integrated"
+        },
+        {
+            "PhwebDescription": "CPU I Pentium GoldG5400 2C58W",
+            "ContainerValue": "Integrated"
+        },
+        {
+            "PhwebDescription": "CPU INTL PentG G7400E 3.60 2C 46W",
+            "ContainerValue": "Integrated"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH Cel xxxx mt440 G3",
+            "ContainerValue": "Integrated"
         }
     ]
 }

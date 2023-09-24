@@ -2991,6 +2991,62 @@
     {
       "PhwebDescription": "RAM 8GB(1x8GB) DDR4 2933 UDIMM NECC",
       "ContainerValue": "8 GB DDR4-2933 MHz RAM (1 x 8 GB)"
+    },
+    {
+      "PhwebDescription": "RAM 128GB (4x32GB) DDR5 4800 ECC",
+      "ContainerValue": "128 GB DDR5-4800 MHz ECC RAM (4 x 32 GB)"
+    },
+    {
+      "PhwebDescription": "RAM 16GB (1x16GB) DDR5 4800 ECC NMIC",
+      "ContainerValue": "16 GB DDR5-4800 MHz ECC RAM (1 x 16 GB)"
+    },
+    {
+      "PhwebDescription": "RAM 256GB (16x16GB) DDR5 4800 ECC",
+      "ContainerValue": "256 GB DDR5-4800 MHz ECC RAM (16 x 16 GB)"
+    },
+    {
+      "PhwebDescription": "RAM 256GB (8x32GB) DDR5 4800 ECC",
+      "ContainerValue": "256 GB DDR5-4800 MHz ECC RAM (4 x 64 GB)"
+    },
+    {
+      "PhwebDescription": "BU IDSUMAi7-1365U32GBfWLANRTKUSBCx360830",
+      "ContainerValue": "32 GB LPDDR5-6400 MHz RAM (onboard)"
+    },
+    {
+      "PhwebDescription": "RAM 512GB (16x32GB) DDR5 4800 ECC",
+      "ContainerValue": "512 GB DDR5-4800 MHz ECC RAM (16 x 32 GB)"
+    },
+    {
+      "PhwebDescription": "RAM 64GB (4x16GB) DDR4 2933 ECC",
+      "ContainerValue": "64 GB DDR4-2933 MHz RAM (4 x 16 GB)"
+    },
+    {
+      "PhwebDescription": "RAM 8GB(1x8GB) DDR4 2933 UDIMM NECC",
+      "ContainerValue": "8 GB DDR4-2933 SDRAM (1 x 8 GB)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA Cel N5100 8GB x360 11 G9",
+      "ContainerValue": "8 GB DDR4-3200 MHz RAM (onboard)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA Cel N5100 8GB RTKUSBCx36011G9",
+      "ContainerValue": "8 GB DDR4-3200 MHz RAM (onboard)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA i5-1235U 8GB Dfly CHB",
+      "ContainerValue": "8 GB LPDDR4x-4266 MHz RAM (onboard)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA i5-1245U 8GB fWWAN c640 G3",
+      "ContainerValue": "8 GB LPDDR4x-4266 MHz RAM (onboard)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA i3-1215U 8GB nFPR 14c-cd0",
+      "ContainerValue": "8 GB LPDDR4x-4266 MHz RAM (onboard)"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA CelN4500 8GB 32GeMMC 14 G7",
+      "ContainerValue": "8 GB LPDDR4x-4266 SDRAM (onboard)"
     }
   ]
 }

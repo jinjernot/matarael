@@ -7571,6 +7571,22 @@
     {
       "PhwebDescription": "BU IDS UMAPentN60008GB128GeMMCfBL14b-cb0",
       "ContainerValue": "Intel® Pentium® Silver N6000 (up to 3.3 GHz burst frequency, 4 MB L3 cache, 4 cores, 4 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS Pav 24-ca1 23.8 R5-5625U",
+      "ContainerValue": "AMD Ryzen™ 5 5625U (up to 4.3 GHz max boost clock, 16 MB L3 cache, 6 cores, 12 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS Pav 27-ca1 27 R5-5625U",
+      "ContainerValue": "AMD Ryzen™ 5 5625U (up to 4.3 GHz max boost clock, 16 MB L3 cache, 6 cores, 12 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS Pav 24-ca1 23.8 R7-5825U",
+      "ContainerValue": "AMD Ryzen™ 7 5825U (up to 4.5 GHz max boost clock, 16 MB L3 cache, 8 cores, 16 threads)"
+    },
+    {
+      "PhwebDescription": "BU IDS OPP 24-cb0 23.8 PentJ5040",
+      "ContainerValue": "Intel® Pentium® Silver J5040 (up to 3.2 GHz burst frequency, 4 MB L2 cache, 4 cores, 4 threads)"
     }
   ]
 }

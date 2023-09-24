@@ -475,6 +475,18 @@
         {
             "PhwebDescription": "LCD 14.0WQXGABVLED500UWVAfWWANw5MPIRTOFT",
             "ContainerValue": "IR camera"
+        },
+        {
+            "PhwebDescription": "ID ASV PLA nSDC wHDC",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "PhwebDescription": "BU RCTO UMAi5-1335UFHDwBLwHDCIRTIPD630G1",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "PhwebDescription": "BU RCTO UMAi5-1345UFHDwBLwHDCIRTIPD630G1",
+            "ContainerValue": "720p HD IR camera"
         }
     ]
 }

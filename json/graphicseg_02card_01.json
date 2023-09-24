@@ -1697,10 +1697,6 @@
       "ContainerValue": "NVIDIA® GeForce RTX™ 3080 (10 GB GDDR6X dedicated) with LHR"
     },
     {
-      "PhwebDescription": "GFX NVIDIA GeF 8GB GDDR6",
-      "ContainerValue": "NVIDIA® GeForce RTX™ 4060 Ti (8 GB GDDR6 dedicated)"
-    },
-    {
       "PhwebDescription": "GFX NVIDIA GeF MX450 2GB ADL-P",
       "ContainerValue": "NVIDIA® GeForce® MX450 (2 GB DDR5 dedicated)"
     },

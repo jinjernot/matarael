@@ -4631,6 +4631,10 @@
         {
             "PhwebDescription": "BU IDS UMA i5-1135G7 850 G8",
             "ContainerValue": "Intel® Iris® Xᵉ Graphics"
+        },
+        {
+            "PhwebDescription": "CPU INTL i5-13400 2.40 TBD 10C 65W2HPAir",
+            "ContainerValue": "Intel® UHD Graphics 730"
         }
     ]
 }

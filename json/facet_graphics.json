@@ -6603,6 +6603,34 @@
         {
             "PhwebDescription": "GFX NVIDIA T400 2GB w/2 mDP-to-DP",
             "ContainerValue": "NVIDIA Quadro"
+        },
+        {
+            "PhwebDescription": "APU AMD R7-5700G 8C 3.80 65W RGB LCS",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS Pav 24-ca1 23.8 R7-5825U",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA Ath3050U 245 G9",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHR56C f5MP Cam IR TIPD645G10",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHR7PRO8C fWWAN TIPD 655 G10",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA Ath3050U 17",
+            "ContainerValue": "AMD Radeon"
+        },
+        {
+            "PhwebDescription": "APU AMD R7-5700G 8C 3.80 65W RGB LCS",
+            "ContainerValue": "AMD Radeon"
         }
     ]
 }

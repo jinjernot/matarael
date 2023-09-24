@@ -3619,6 +3619,26 @@
     {
       "PhwebDescription": "BU IDS DSC RX 6500M 4GB Ryzen7 5800H 15",
       "ContainerValue": "Optical drive not included"
+    },
+    {
+      "PhwebDescription": "ODD 9.5 DVDWR 1st ODD",
+      "ContainerValue": "9.5 mm Slim DVD-Writer"
+    },
+    {
+      "PhwebDescription": "ODD DVDWR ODD",
+      "ContainerValue": "DVD-Writer"
+    },
+    {
+      "PhwebDescription": "ODD DVDWR ODD",
+      "ContainerValue": "HP 9.5 mm Slim DVD-Writer"
+    },
+    {
+      "PhwebDescription": "ODD 9.5 DVDWR 1st ODD",
+      "ContainerValue": "HP 9.5 mm Slim DVD-Writer"
+    },
+    {
+      "PhwebDescription": "ODD 9.5 DVDWR (New FY20 ID)",
+      "ContainerValue": "HP 9.5 mm Slim DVD-Writer"
     }
   ]
 }

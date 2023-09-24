@@ -1579,6 +1579,22 @@
         {
             "PhwebDescription": "GFX NVIDIA T400 4GB w/2 mDP-to-DP",
             "ContainerValue": "Discrete"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA RTX A5000 24GB 4DP 2nd",
+            "ContainerValue": "Discrete"
+        },
+        {
+            "PhwebDescription": "GFX NVIDIA RTX 6000 Ada 48GB 4DP",
+            "ContainerValue": "Discrete"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCMX570A2GBi5-1235UvProERTKUSBC6",
+            "ContainerValue": "Discrete"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC T6XX 4GB PH i7-RM Power15.6G9",
+            "ContainerValue": "Discrete"
         }
     ]
 }

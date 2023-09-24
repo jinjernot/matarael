@@ -85,7 +85,7 @@
       "ContainerValue": "2 TB HP Z Turbo Drive PCIe® NVMe™ SSD"
     },
     {
-      "PhwebDescription": " ZTRB HP ZTrbDrv QX310 1TBSSD",
+      "PhwebDescription": "ZTRB HP ZTrbDrv QX310 1TBSSD",
       "ContainerValue": "1 TB SATA SSD"
     },
     {
@@ -241,7 +241,7 @@
       "ContainerValue": "500 GB 7200 rpm SATA HDD"
     },
     {
-      "PhwebDescription": " eMMC 32GB MMCv5.0",
+      "PhwebDescription": "eMMC 32GB MMCv5.0",
       "ContainerValue": "32 GB eMMC"
     },
     {
@@ -353,12 +353,8 @@
       "ContainerValue": "64 GB eMMC"
     },
     {
-      "PhwebDescription": " eMMC 64GB MMCv5.0",
+      "PhwebDescription": "eMMC 64GB MMCv5.0",
       "ContainerValue": "64 GB eMMC"
-    },
-    {
-      "PhwebDescription": " 64 GB M.2 eMMC Flash Memory",
-      "ContainerValue": "64 GB Flash memory"
     },
     {
       "PhwebDescription": "HDD 500GB 7200RPM 3.5 2nd",
@@ -375,10 +371,6 @@
     {
       "PhwebDescription": "SSD 512GB 2280 PCIe-4x4 OPAL2 NVME TLC",
       "ContainerValue": "512 GB PCIe® NVMe™ TLC SED SSD"
-    },
-    {
-      "PhwebDescription": " 64 GB M.2 eMMC Flash Memory",
-      "ContainerValue": "64 GB eMMC"
     },
     {
       "PhwebDescription": "SSD 256GB PCIe NVMe TLC",
@@ -465,7 +457,7 @@
       "ContainerValue": "1 TB 7200 rpm SATA HDD"
     },
     {
-      "PhwebDescription": " ZTRB HP ZTrbDrv Dual 2TB TLCSSD",
+      "PhwebDescription": "ZTRB HP ZTrbDrv Dual 2TB TLCSSD",
       "ContainerValue": "2 TB SATA SSD"
     },
     {
@@ -517,11 +509,11 @@
       "ContainerValue": "1 TB 7200 rpm SATA HDD"
     },
     {
-      "PhwebDescription": " 16 GB M.2 eMMC Flash Memory",
+      "PhwebDescription": "16 GB M.2 eMMC Flash Memory",
       "ContainerValue": "16 GB M.2 Flash memory"
     },
     {
-      "PhwebDescription": " 128 GB M.2 SATA Flash Memory",
+      "PhwebDescription": "128 GB M.2 SATA Flash Memory",
       "ContainerValue": "128 GB SATA M.2 SSD"
     },
     {
@@ -533,15 +525,15 @@
       "ContainerValue": "64 GB eMMC"
     },
     {
-      "PhwebDescription": " ZTRB HP ZTrbDrv Quad 2TB TLCSSD 4th",
+      "PhwebDescription": "ZTRB HP ZTrbDrv Quad 2TB TLCSSD 4th",
       "ContainerValue": "2 TB SATA SSD"
     },
     {
-      "PhwebDescription": " ZTRB HP ZTrbDrv Quad 2TB TLCSSD",
+      "PhwebDescription": "ZTRB HP ZTrbDrv Quad 2TB TLCSSD",
       "ContainerValue": "2 TB SATA SSD"
     },
     {
-      "PhwebDescription": " 128 GB M.2 SATA Flash Memory",
+      "PhwebDescription": "128 GB M.2 SATA Flash Memory",
       "ContainerValue": "128 GB Flash memory"
     },
     {
@@ -557,7 +549,7 @@
       "ContainerValue": "2 TB SATA SSD"
     },
     {
-      "PhwebDescription": " ZTRB HP ZTrbDrv QX310 2TBSSD",
+      "PhwebDescription": "ZTRB HP ZTrbDrv QX310 2TBSSD",
       "ContainerValue": "2 TB HP Z Turbo Drive PCIe® NVMe™ SSD"
     },
     {
@@ -585,7 +577,7 @@
       "ContainerValue": "256 GB HP Turbo Drive G2 PCIe® M.2 SSD"
     },
     {
-      "PhwebDescription": " ZTrbDrv HP Dual 1TB TLCSSD",
+      "PhwebDescription": "ZTrbDrv HP Dual 1TB TLCSSD",
       "ContainerValue": "1 TB HP Z Turbo Drive PCIe® NVMe™ TLC SSD"
     },
     {
@@ -605,11 +597,11 @@
       "ContainerValue": "256 GB Intel® PCIe® NVMe™ M.2 SSD"
     },
     {
-      "PhwebDescription": " 32 GB M.2 eMMC Flash Memory",
+      "PhwebDescription": "32 GB M.2 eMMC Flash Memory",
       "ContainerValue": "32 GB eMMC"
     },
     {
-      "PhwebDescription": " 32 GB M.2 eMMC Flash Memory",
+      "PhwebDescription": "32 GB M.2 eMMC Flash Memory",
       "ContainerValue": "32 GB M.2 Flash memory"
     },
     {
@@ -617,7 +609,7 @@
       "ContainerValue": "4 TB PCIe® NVMe™ TLC M.2 SSD"
     },
     {
-      "PhwebDescription": " ZTRB HP ZTrbDrv M.2 2TB TLCSSD",
+      "PhwebDescription": "ZTRB HP ZTrbDrv M.2 2TB TLCSSD",
       "ContainerValue": "2 TB SATA SSD"
     },
     {
@@ -1267,6 +1259,42 @@
     {
       "PhwebDescription": "SSD 512GB 2280 PCIe-4x4 OPAL2 NVME TLC",
       "ContainerValue": "512 GB PCIe® NVMe™ TLC SSD"
+    },
+    {
+      "PhwebDescription": "ZTrbDrv HP Dual 1TB TLC SSD",
+      "ContainerValue": "1 TB HP Z Turbo Drive PCIe® NVMe™ TLC SSD"
+    },
+    {
+      "PhwebDescription": "SSD HPZ 2TB 2280 PCIe TLC M.2 FL Rmv",
+      "ContainerValue": "2 TB HP Z Turbo Drive PCIe® Gen4 TLC M.2 SSD"
+    },
+    {
+      "PhwebDescription": "SSD HPZ 2TB 2280 PCIe TLC M.2 FL Rmv",
+      "ContainerValue": "2 TB HP Z Turbo Drive PCIe® NVMe™ TLC M.2 SSD"
+    },
+    {
+      "PhwebDescription": "SSD 256GB 2280 PCIe-4x4 NVME TLC M.2",
+      "ContainerValue": "256 GB PCIe® NVMe™ TLC M.2 SSD"
+    },
+    {
+      "PhwebDescription": "BU IDS UMA CelN4500 8GB 32GeMMC 14 G7",
+      "ContainerValue": "32 GB eMMC"
+    },
+    {
+      "PhwebDescription": "HDD 4TB 7200RPM SATA Ent 3.5 1st",
+      "ContainerValue": "4 TB 7200 rpm SATA HDD"
+    },
+    {
+      "PhwebDescription": "SSD ZTrb 512GB 2280 PCIe TLC M.2 FL Rmv",
+      "ContainerValue": "512 GB HP Z Turbo Drive PCIe® Gen4 TLC M.2 SSD"
+    },
+    {
+      "PhwebDescription": "SSD 512GB 2280 PCIe-4x4 NVMe TLC NMIC",
+      "ContainerValue": "512 GB PCIe® NVMe™ TLC M.2 SSD"
+    },
+    {
+      "PhwebDescription": "64 GB M.2 eMMC Flash Memory",
+      "ContainerValue": "64 GB eMMC"
     }
   ]
 }
