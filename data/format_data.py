@@ -35,6 +35,7 @@ def formateData():
         # Set the width of the column to the adjusted width.
         worksheet.column_dimensions[column_name].width = adjusted_width
         worksheet.column_dimensions['H'].width = 100
+        worksheet.column_dimensions['J'].width = 100
 
     # Loop over all the cells in column `I`.
     for cell in worksheet['I']:
