@@ -1,0 +1,40 @@
+{
+    "ProductLine": [
+        {
+            "PL": "1M",
+            "ContainerName": [
+                "facet_os",
+                "facet_processortype",
+                "filter_storagetype",
+                "graphicseg_01card_01",
+                "hd_01des",
+                "memstdes_01",
+                "osinstalled",
+                "powersupplytype",
+                "processorfamily",
+                "processorname",
+                "prodnetinterface",
+                "videoconnectors",
+                "wirelesstech",
+                "facet_cap",
+                "facet_memstd",
+                "facet_processorgen"
+            ]
+        },
+        {
+            "PL": "2C",
+            "ContainerName": [
+                "facet_os",
+                "filter_storagetype",
+                "graphicseg_01card_01",
+                "hd_01des",
+                "memstdes_01",
+                "osinstalled",
+                "processorname",
+                "securitymgmt",
+                "prodnetinterface",
+                "facet_processorgen"
+            ]
+        }
+    ]
+}

@@ -34,21 +34,20 @@ def formateData():
 
         # Set the width of the column to the adjusted width.
         worksheet.column_dimensions[column_name].width = adjusted_width
-        worksheet.column_dimensions['G'].width = 100
+        worksheet.column_dimensions['H'].width = 100
 
-    # Loop over all the cells in column `H`.
-    for cell in worksheet['H']:
+    # Loop over all the cells in column `I`.
+    for cell in worksheet['I']:
         if 'ERROR' in str(cell.value):
 
             # Change the color of the font in the cell to red.
             font = cell.font
             cell.font = Font(color='FF0000', name=font.name, size=font.size)
 
-    for row in worksheet.rows:
-        for cell in row:
-            
-            # Add a border to each cell in the worksheet.
-            cell.border = Border(left=Side(border_style='thin', color='000000'), right=Side(border_style='thin', color='000000'), top=Side(border_style='thin', color='000000'), bottom=Side(border_style='thin', color='000000'))
+    #for row in worksheet.rows:
+    #    for cell in row:
+    #        # Add a border to each cell in the worksheet.
+    #        cell.border = Border(left=Side(border_style='thin', color='000000'), right=Side(border_style='thin', color='000000'), top=Side(border_style='thin', color='000000'), bottom=Side(border_style='thin', color='000000'))
 
     # Save the workbook to a file called `SCS_QA.xlsx`.
     wb.save('/home/garciagi/SCS_Tool/SCS_QA.xlsx')
