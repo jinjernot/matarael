@@ -4550,7 +4550,7 @@
         },
         {
             "PhwebDescription": "BU IDS DCSPHN21X28GB R7 7840HS 16",
-            "ContainerValue": " [7] Max Boost clock frequency performance varies depending on hardware, software and overall system configuration."
+            "ContainerValue": "[7] Max Boost clock frequency performance varies depending on hardware, software and overall system configuration."
         },
         {
             "PhwebDescription": "BU IDS DCSPHN2P0R6GB R5 7640HS 16",

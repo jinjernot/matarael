@@ -2186,7 +2186,7 @@
     },
     {
       "PhwebDescription": "BU IDS DSC Arc A370M 4GB i7-12700H 16",
-      "ContainerValue": "Optical drive not included"
+      "ContainerValue": "##BLANK##"
     },
     {
       "PhwebDescription": "BU IDS DSC 2GB PH i5-xxxx 16GB 14",
@@ -3234,7 +3234,7 @@
     },
     {
       "PhwebDescription": "BU IDS DSC Arc A370M 4GBi7-12700HfOLED16",
-      "ContainerValue": "Optical drive not included"
+      "ContainerValue": "##BLANK##"
     },
     {
       "PhwebDescription": "BU IDS UMA Ryzen3 3250U 17",

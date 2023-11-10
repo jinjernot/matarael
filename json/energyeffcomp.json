@@ -2,7 +2,7 @@
     "energyeffcomp": [
         {
             "PhwebDescription": "ENERGY STAR Certified",
-            "ContainerValue": "EPEAT® registered"
+            "ContainerValue": "TCO Certified Edge"
         },
         {
             "PhwebDescription": "Electronic TCO Certified labeling",
@@ -14,7 +14,7 @@
         },
         {
             "PhwebDescription": "Electronic TCO Edge Certified labeling",
-            "ContainerValue": "TCO Certified"
+            "ContainerValue": "TCO Certified Edge"
         },
         {
             "PhwebDescription": "LBL ENERGY STAR Certified",
@@ -22,10 +22,6 @@
         },
         {
             "PhwebDescription": "FLAG EPEAT",
-            "ContainerValue": "EPEAT® registered"
-        },
-        {
-            "PhwebDescription": "ENERGY STAR Certified",
             "ContainerValue": "EPEAT® registered"
         },
         {
@@ -50,7 +46,7 @@
         },
         {
             "PhwebDescription": "FLAG Energy Star PHTM",
-            "ContainerValue": "EPEAT® registered"
+            "ContainerValue": "EPEAT® Gold registered"
         },
         {
             "PhwebDescription": "FLAG CarePaq 0/0/1 APJ",

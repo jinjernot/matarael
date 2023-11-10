@@ -26,7 +26,7 @@
         },
         {
             "PhwebDescription": "ID JTB PLA+TPU MCDT",
-            "ContainerValue": "Jack black"
+            "ContainerValue": "Jet black"
         },
         {
             "PhwebDescription": "ID ASV PLA wHDC TNR FPR JPN layout",
@@ -86,7 +86,7 @@
         },
         {
             "PhwebDescription": "ID JTB +HRG PLA",
-            "ContainerValue": "Jack black"
+            "ContainerValue": "Jet black"
         },
         {
             "PhwebDescription": "ID GXB MAG fWWAN",
@@ -117,10 +117,6 @@
             "ContainerValue": "Jet black cover and base, starry black keyboard frame"
         },
         {
-            "PhwebDescription": "ID NFB ALU",
-            "ContainerValue": "Nightfall black aluminum, pale brass accents"
-        },
-        {
             "PhwebDescription": "ID JKB PLA wFHDC IR Entry",
             "ContainerValue": "Shell white"
         },
@@ -130,7 +126,7 @@
         },
         {
             "PhwebDescription": "ID JKB PLA wFHDC IR Entry",
-            "ContainerValue": "Jack black"
+            "ContainerValue": "Jet black"
         },
         {
             "PhwebDescription": "ID NSV ALU wHDC TNR US layout",
@@ -262,7 +258,7 @@
         },
         {
             "PhwebDescription": "ID JKB PLA wHDC PREM",
-            "ContainerValue": "Jack black"
+            "ContainerValue": "Jet black"
         },
         {
             "PhwebDescription": "ID SHW PLA wHDC PREM",
@@ -282,11 +278,11 @@
         },
         {
             "PhwebDescription": "ID JKB PLA wHDC Entry",
-            "ContainerValue": "Jack black"
+            "ContainerValue": "Jet black"
         },
         {
             "PhwebDescription": "ID JKB PLA wFHDC IR PREM",
-            "ContainerValue": "Jack black"
+            "ContainerValue": "Jet black"
         },
         {
             "PhwebDescription": "ID SHW PLA wFHDC IR Entry",
@@ -594,7 +590,7 @@
         },
         {
             "PhwebDescription": "ID SFW PLA wHDC TNR",
-            "ContainerValue": "Snow flake white cover and base, snow white keyboard frame"
+            "ContainerValue": "Snowflake white cover and base, snow white keyboard frame"
         },
         {
             "PhwebDescription": "ID SCB PLA wHDC TNR FPR nWWAN",
@@ -650,7 +646,7 @@
         },
         {
             "PhwebDescription": "ID FGB ALU nSDC wHDC TNR FPR",
-            "ContainerValue": "Fog blue aluminum cover, cloud blue base and cloud blue aluminum keyboard frame"
+            "ContainerValue": "Fog blue aluminum cover, cloud blue aluminum keyboard frame, cloud blue base"
         },
         {
             "PhwebDescription": "ID PRG PLA wHDC+PCSD FPR",
@@ -822,7 +818,7 @@
         },
         {
             "PhwebDescription": "ID CCW PLA nSDC UK layout",
-            "ContainerValue": "Ceramic white cover, natural silver keyboard frame"
+            "ContainerValue": "Ceramic white cover, natural silver base and keyboard framee"
         },
         {
             "PhwebDescription": "ID FTL PLA US layout",
@@ -950,7 +946,7 @@
         },
         {
             "PhwebDescription": "ID NFB ALU",
-            "ContainerValue": "Nightfall black aluminum"
+            "ContainerValue": "Nightfall black"
         },
         {
             "PhwebDescription": "ID NSV ALU",
@@ -962,7 +958,7 @@
         },
         {
             "PhwebDescription": "ID NFB ALU US layout",
-            "ContainerValue": "Nightfall black aluminum, pale brass accents"
+            "ContainerValue": "Nightfall black aluminum"
         },
         {
             "PhwebDescription": "ID NSV ALU FPR",
@@ -1066,10 +1062,6 @@
         },
         {
             "PhwebDescription": "ID SDB GLA RGB2 23C1",
-            "ContainerValue": "Shadow black"
-        },
-        {
-            "PhwebDescription": "ID SDB GLA RGB3 23C1",
             "ContainerValue": "Shadow black"
         },
         {
@@ -1445,10 +1437,6 @@
             "ContainerValue": "Fog blue aluminum cover, cloud blue base and cloud blue aluminum keyboard frame"
         },
         {
-            "PhwebDescription": "ID FGB ALU nSDC wHDC TNR FPR",
-            "ContainerValue": "Fog blue aluminum cover, cloud blue base and cloud blue aluminum keyboard frame"
-        },
-        {
             "PhwebDescription": "ID NSV PLA US layout",
             "ContainerValue": "Natural silver cover and keyboard frame, ash gray base"
         },
@@ -1474,7 +1462,7 @@
         },
         {
             "PhwebDescription": "ID SDB GLA RGB3 23C1",
-            "ContainerValue": "Shadow black"
+            "ContainerValue": "Black, glass side panel, dark chrome logo"
         }
     ]
 }

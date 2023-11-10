@@ -6,7 +6,7 @@
         },
         {
             "PhwebDescription": "RAM 4GB (1x4GB) DDR4 3200",
-            "ContainerValue": "8 GB memory; 128 GB UFS storage"
+            "ContainerValue": "4 GB memory; 128 GB UFS storage"
         },
         {
             "PhwebDescription": "RAM 128GB (8x16GB) DDR4 2933 ECC AP 2CPU",

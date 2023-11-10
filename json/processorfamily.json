@@ -297,10 +297,6 @@
             "ContainerValue": "AMD Ryzen™ 7 processor"
         },
         {
-            "PhwebDescription": "BU IDS UMA i5-1235U TPM 250 G9",
-            "ContainerValue": "12th Generation Intel® Core™ i5 processor12th Generation Intel® Core™ i5 processor12th Generation Intel® Core™ i5 processor"
-        },
-        {
             "PhwebDescription": "BU IDS UMA CelN4500 4GB 64GeMMC x36011G9",
             "ContainerValue": "Intel® Celeron® processor"
         },
@@ -2457,10 +2453,6 @@
             "ContainerValue": "11th Generation Intel® Core™ i3 processor"
         },
         {
-            "PhwebDescription": "BU IDS UMA PH i7-RM TI PD IC 840 G10",
-            "ContainerValue": "Intel® Xeon® processor"
-        },
-        {
             "PhwebDescription": "CPU INTL i5-13600 2.70 14C 65W",
             "ContainerValue": "13th Generation Intel® Core™ i5 processor"
         },
@@ -2583,10 +2575,6 @@
         {
             "PhwebDescription": "BU IDS UMA i5-1245U RTK USBC 860 G9",
             "ContainerValue": "12th Generation Intel® Core™ i5 processor"
-        },
-        {
-            "PhwebDescription": "BU IDS UMA PH i7-RM HW TI PD IC 840 G10",
-            "ContainerValue": "Intel® Xeon® W processor"
         },
         {
             "PhwebDescription": "BU RCTO UMA i5-1235U FHD250 fBLfHDC440G9",
@@ -2958,7 +2946,7 @@
         },
         {
             "PhwebDescription": "BU IDS UMA PH R7 HS PRO 8C TI PDIC14G10A",
-            "ContainerValue": "AMD Ryzen™ 7 processor"
+            "ContainerValue": "AMD Ryzen™ 7 PRO processor"
         },
         {
             "PhwebDescription": "BU IDS DSCRTXA20008GB i7-13700HStudioG10",
@@ -2991,10 +2979,6 @@
         {
             "PhwebDescription": "BU IDS UMA i3-1215U 470 G9",
             "ContainerValue": "12th Generation Intel® Core™ i3 processor"
-        },
-        {
-            "PhwebDescription": "BU IDS UMA PH R9 HS PRO 8C TI PDIC14G10A",
-            "ContainerValue": "AMD Ryzen™ 9 processor"
         },
         {
             "PhwebDescription": "BU RCTO UMA R37330U TIPD 445 G10 BRZP",
@@ -3071,10 +3055,6 @@
         {
             "PhwebDescription": "BU IDS DSCRTXA5004GBi5-13600HPwr15.6G10",
             "ContainerValue": "13th Generation Intel® Core™ i5 processor"
-        },
-        {
-            "PhwebDescription": "BU IDS UMA PH R5 HS PRO 6C TI PDIC14G10A",
-            "ContainerValue": "AMD Ryzen™ 5 processor"
         },
         {
             "PhwebDescription": "CPU INTL i3-13100 3.40 4C 60W",
@@ -3605,18 +3585,6 @@
             "ContainerValue": "12th Generation Intel® Core™ i7 processor"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTXA10006GBR7PRO7840HSPower15.",
-            "ContainerValue": "AMD Ryzen™ 7 processor"
-        },
-        {
-            "PhwebDescription": "BU IDS UMA R7 PRO 7850HS Power 15.6 G10A",
-            "ContainerValue": "AMD Ryzen™ 7 processor"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX2000Ada8GBR7PRO7840HSPower1",
-            "ContainerValue": "AMD Ryzen™ 7 processor"
-        },
-        {
             "PhwebDescription": "BU IDS UMA R5 7600U Power 15.6 G10 A",
             "ContainerValue": "AMD Ryzen™ 5 processor"
         },
@@ -3802,7 +3770,7 @@
         },
         {
             "PhwebDescription": "BU IDS OPP 24-cr0 23.8 i3-N300",
-            "ContainerValue": "13th Generation Intel® Core™ i3 processor"
+            "ContainerValue": "Intel® Core™ N-series processor"
         },
         {
             "PhwebDescription": "BU IDS OPP 24-cb0 23.8 Ryzen 3-3250",
@@ -4495,10 +4463,6 @@
         {
             "PhwebDescription": "BU IDSUMAPSilN50308GB128GeMMCnSDC14a-na0",
             "ContainerValue": "Intel® Pentium® Silver processor"
-        },
-        {
-            "PhwebDescription": "BU IDS UMA i3-N305 8GB 128GUFS 15a-nb0",
-            "ContainerValue": "Intel® Processor N-series"
         },
         {
             "PhwebDescription": "BU IDS UMA i3-N305 8GB 256GUFS 15a-nb0",
@@ -5735,10 +5699,6 @@
         {
             "PhwebDescription": "BU IDS DSC RTX 3050 4GB R5 6600H 16",
             "ContainerValue": "AMD Ryzen™ 5 processor"
-        },
-        {
-            "PhwebDescription": "BU IDS OPP 24-cr0 23.8 i3-N300",
-            "ContainerValue": "13th Generation Intel® Core™ i3 processor"
         },
         {
             "PhwebDescription": "BU IDS UMA i5-1135G7 14",
@@ -7510,11 +7470,7 @@
         },
         {
             "PhwebDescription": "BU IDS UMA i5-1235U TPM 250 G9",
-            "ContainerValue": "12th Generation Intel® Core™ i5 processor12th Generation Intel® Core™ i5 processor12th Generation Intel® Core™ i5 processor"
-        },
-        {
-            "PhwebDescription": "BU IDS OPP 24-cr0 23.8 i3-N300",
-            "ContainerValue": "13th Generation Intel® Core™ i3 processor"
+            "ContainerValue": "12th Generation Intel® Core™ i5 processor"
         },
         {
             "PhwebDescription": "CPU INTL i5-13400T 1.30 10C 35W",
@@ -7522,27 +7478,23 @@
         },
         {
             "PhwebDescription": "BU IDS UMA PH R5 HS PRO 6C TI PDIC14G10A",
-            "ContainerValue": "AMD Ryzen™ 5 processor"
-        },
-        {
-            "PhwebDescription": "BU IDS UMA PH R7 HS PRO 8C TI PDIC14G10A",
-            "ContainerValue": "AMD Ryzen™ 7 processor"
+            "ContainerValue": "AMD Ryzen™ 5 PRO processor"
         },
         {
             "PhwebDescription": "BU IDS UMA R7 PRO 7850HS Power 15.6 G10A",
-            "ContainerValue": "AMD Ryzen™ 7 processor"
+            "ContainerValue": "AMD Ryzen™ 7 PRO processor"
         },
         {
             "PhwebDescription": "BU IDS DSCRTX2000Ada8GBR7PRO7840HSPower1",
-            "ContainerValue": "AMD Ryzen™ 7 processor"
+            "ContainerValue": "AMD Ryzen™ 7 PRO processor"
         },
         {
             "PhwebDescription": "BU IDS DSCRTXA10006GBR7PRO7840HSPower15.",
-            "ContainerValue": "AMD Ryzen™ 7 processor"
+            "ContainerValue": "AMD Ryzen™ 7 PRO processor"
         },
         {
             "PhwebDescription": "BU IDS UMA PH R9 HS PRO 8C TI PDIC14G10A",
-            "ContainerValue": "AMD Ryzen™ 9 processor"
+            "ContainerValue": "AMD Ryzen™ 9 PRO processor"
         },
         {
             "PhwebDescription": "BU IDS UMA R9 PRO 7950HS Power 15.6 G10A",
@@ -7558,15 +7510,15 @@
         },
         {
             "PhwebDescription": "BU IDS UMA i3-N305 8GB 128GUFS 15a-nb0",
-            "ContainerValue": "Intel® Processor N-series"
+            "ContainerValue": "Intel® Core™ N-series processor"
         },
         {
             "PhwebDescription": "BU IDS UMA PH i7-RM TI PD IC 840 G10",
-            "ContainerValue": "Intel® Xeon® processor"
+            "ContainerValue": "13th Generation Intel® Core™ i7 processor"
         },
         {
             "PhwebDescription": "BU IDS UMA PH i7-RM HW TI PD IC 840 G10",
-            "ContainerValue": "Intel® Xeon® W processor"
+            "ContainerValue": "13th Generation Intel® Core™ i7 processor"
         },
         {
             "PhwebDescription": "BU IDS UMA i7-1165G7 840 G8",

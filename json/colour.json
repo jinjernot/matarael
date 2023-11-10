@@ -242,7 +242,7 @@
         },
         {
             "PhwebDescription": "ID PRG PLA w5MPC FPR nWWAN",
-            "ContainerValue": "Pale rose gold"
+            "ContainerValue": "Pale golden rose"
         },
         {
             "PhwebDescription": "ID NSV ALU wHDC",
@@ -282,7 +282,7 @@
         },
         {
             "PhwebDescription": "ID SFW PLA wHDC TNR",
-            "ContainerValue": "Snow flake white"
+            "ContainerValue": "Snowflake white"
         },
         {
             "PhwebDescription": "ID SCB PLA wHDC TNR FPR nWWAN",
@@ -591,10 +591,6 @@
         {
             "PhwebDescription": "ID WGD ALU FPR 23C1",
             "ContainerValue": "Warm gold"
-        },
-        {
-            "PhwebDescription": "ID PRG ALU+MAG wHDC TNR US layout 23C1",
-            "ContainerValue": "Pale rose gold"
         },
         {
             "PhwebDescription": "ID CCW ALU+MAG wHDC TNR US layout",
@@ -921,10 +917,6 @@
             "ContainerValue": "Space blue"
         },
         {
-            "PhwebDescription": "ID PRG PLA w5MPC FPR nWWAN",
-            "ContainerValue": "Pale rose gold"
-        },
-        {
             "PhwebDescription": "ID PRG PLA wHDC FPR",
             "ContainerValue": "Pale rose gold"
         },
@@ -938,7 +930,7 @@
         },
         {
             "PhwebDescription": "ID PRG ALU+MAG wHDC TNR US layout 23C1",
-            "ContainerValue": "Pale rose gold"
+            "ContainerValue": "Pale golden rose"
         }
     ]
 }

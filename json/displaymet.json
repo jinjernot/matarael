@@ -21,10 +21,6 @@
             "ContainerValue": "35.6 cm (14\") diagonal, FHD (1920 x 1080), IPS, narrow bezel, anti-glare, 250 nits, 45% NTSC"
         },
         {
-            "PhwebDescription": "LCD 14 HD AG LED SVA 250 NWBZ uslim",
-            "ContainerValue": "35.6 cm (14\") diagonal, HD (1366 x 768), narrow bezel, anti-glare, 250 nits, 45% NTSC"
-        },
-        {
             "PhwebDescription": "LCD 15.6FHDAGLED250UWVAfWANfHDCIRNWBZbnt",
             "ContainerValue": "39.6 cm (15.6\") diagonal, FHD (1920 x 1080), IPS, narrow bezel, anti-glare, 250 nits, 45% NTSC"
         },
@@ -87,10 +83,6 @@
         {
             "PhwebDescription": "LCD 11.6 HD BV LED 250 SVA wHDC TS slm",
             "ContainerValue": "29.5 cm (11.6\") diagonal, HD (1366 x 768), touch, IPS, BrightView, 220 nits, 50% NTSC"
-        },
-        {
-            "PhwebDescription": "LCD 15.6 HD AG LED SVA 250 fHDC NWBZbent",
-            "ContainerValue": "39.6 cm (15.6\") diagonal, HD (1366 x 768), narrow bezel, anti-glare, 250 nits, 45% NTSC"
         },
         {
             "PhwebDescription": "LCD 14 FHD AGLEDUWVA250fWWANfHDCNWBZbent",
@@ -162,10 +154,6 @@
         },
         {
             "PhwebDescription": "BU EON 870 G9 27.0 AiO TS QHDIDS",
-            "ContainerValue": "68.6 (27\") diagonal, QHD (2560 x 1440), touch, IPS, anti-glare, 300 nits, 72% NTSC"
-        },
-        {
-            "PhwebDescription": "BU EON 870 G9 27.0 AiO TS QHD RCTO",
             "ContainerValue": "68.6 (27\") diagonal, QHD (2560 x 1440), touch, IPS, anti-glare, 300 nits, 72% NTSC"
         },
         {
@@ -273,10 +261,6 @@
             "ContainerValue": "39.6 cm (15.6\") diagonal, FHD (1920 x 1080), IPS, anti-glare, 250 nits, 45% NTSC"
         },
         {
-            "PhwebDescription": "OLED 13.5 3k2k BV OLED 400 UWVATSACSuslm",
-            "ContainerValue": "34.3 cm (13.5\") diagonal, 3K2K (3000 x 2000), touch, IPS, narrow bezel, BrightView, 400 nits, 100% sRGB"
-        },
-        {
             "PhwebDescription": "LCD 16.0WUXGAAGWLED+LBL400UWVAfWWANf5MPA",
             "ContainerValue": "40.6 cm (16\") diagonal, WUXGA (1920 x 1200), IPS, anti-glare, 400 nits, 100% sRGB"
         },
@@ -330,7 +314,7 @@
         },
         {
             "PhwebDescription": "LCD 14.0WQXGABVLED500UWVAfWWANw5MPIRTOFT",
-            "ContainerValue": "35.6 cm (14\") diagonal, WQXGA (2560 x 1600), touch, IPS, BrightView, 500 nits, 100% DCI-P3"
+            "ContainerValue": "35.6 cm (14\") diagonal, WQXGA (2560 x 1600), touch, IPS, BrightView, 500 nits, 100% DCI-P3"
         },
         {
             "PhwebDescription": "LCD 14.0WUXGAAGWLED+LBL1000UWVAfWWANw5MP",
@@ -475,10 +459,6 @@
         {
             "PhwebDescription": "LCD 15.6 FHD AG LEDUWVA400fHDCLPNWBZbent",
             "ContainerValue": "39.6 cm (15.6\") diagonal, FHD (1920 x 1080), IPS, narrow bezel, anti-glare, 400 nits, 72% NTSC"
-        },
-        {
-            "PhwebDescription": "LCD 14.0DRMWQXGAAGLED500UWVAf5MPIR120HzN",
-            "ContainerValue": "35.6 cm (14\") diagonal, WQXGA (2560 x 1600), IPS, anti-glare, micro-edge, 500 nits, 100% DCI-P3, HP DreamColor"
         },
         {
             "PhwebDescription": "LCD 16.0 WUXGA AG LED 250 UWVA f5MP bnt",
@@ -806,7 +786,7 @@
         },
         {
             "PhwebDescription": "LCD 16.0WUXGAAGWLED+LBL1000UWVAfWWANf5MP",
-            "ContainerValue": "40.6 cm (16\") diagonal, WUXGA (1920 x 1200), IPS, anti-glare, 1000 nits, 100% sRGB, HP Sure View Reflect integrated privacy screen"
+            "ContainerValue": "40.6 cm (16\") diagonal, WUXGA (1920 x 1200), IPS, anti-glare, 1000 nits, 72% NTSC, HP Sure View Reflect integrated privacy screen"
         },
         {
             "PhwebDescription": "LCD 15.6FHDAGLED250UWVAfWWANfHDCTOPNWBZb",
@@ -815,10 +795,6 @@
         {
             "PhwebDescription": "LCD 15.6 HD BV LED SVA 250 NWBZ uslim",
             "ContainerValue": "39.6 cm (15.6\") diagonal, HD (1366 x 768), micro-edge, BrightView, 250 nits, 45% NTSC"
-        },
-        {
-            "PhwebDescription": "LCD 13.5WUXGA+BVWLED+LBL400UWVAALS+ACSNW",
-            "ContainerValue": "34.3 cm (13.5\") diagonal, WUXGA+ (1920 x 1280), IPS, BrightView, 400 nits, 72% NTSC"
         },
         {
             "PhwebDescription": "LCD 13.3FHDAGLwBluLt1000UWVAfHDCIRPVG4PN",
@@ -845,16 +821,8 @@
             "ContainerValue": "35.6 cm (14\") diagonal, FHD (1920 x 1080), touch, IPS, narrow bezel, anti-glare, 250 nits, 45% NTSC"
         },
         {
-            "PhwebDescription": "LCD 13.5 WUXGA+ BV LwBluLt400UWVANWBZbnt",
-            "ContainerValue": "34.3 cm (13.5\") diagonal, WUXGA+ (1920 x 1280), multitouch-enabled, IPS, edge-to-edge glass, micro-edge, anti-reflection Corning® Gorilla® Glass NBT™, Low Blue Light, 400 nits, 100% sRGB"
-        },
-        {
             "PhwebDescription": "LCD 16.1QHDAGLwBluLt300UWVADDS240HzNWBZf",
             "ContainerValue": "40.9 cm (16.1\") diagonal, QHD (2560 x 1440), 240 Hz, 3 ms response time, IPS, micro-edge, anti-glare, Low Blue Light, 300 nits, 100% sRGB"
-        },
-        {
-            "PhwebDescription": "LCD 15.6 FHD AG LED UWVA 400 bent LPNWBZ",
-            "ContainerValue": "39.6 cm (15.6\") diagonal, FHD (1920 x 1080), multitouch-enabled, IPS, edge-to-edge glass, micro-edge, 400 nits, 100% sRGB"
         },
         {
             "PhwebDescription": "BU RCTO UMARyzen75825UFHD250fBLfHDC445G9",
@@ -862,7 +830,7 @@
         },
         {
             "PhwebDescription": "LCD 15.6 HD AG LED SVA 250 fHDC NWBZbent",
-            "ContainerValue": "39.6 cm (15.6\") diagonal, HD (1366 x 768), micro-edge, anti-glare, 250 nits, 45% NTSC"
+            "ContainerValue": "39.6 cm (15.6\") diagonal, HD (1366 x 768), IPS, narrow bezel, anti-glare, 250 nits, 45% NTSC"
         },
         {
             "PhwebDescription": "LCD 16.1 FHD AG 300 UWVA NWBZ flt",
@@ -986,7 +954,7 @@
         },
         {
             "PhwebDescription": "OLED 13.53k2kBVOLED400UWVATSALS+ACSNWBZu",
-            "ContainerValue": "34.3 cm (13.5\") diagonal, 3K2K (3000 x 2000), touch, IPS, narrow bezel, BrightView, 400 nits, 100% sRGB"
+            "ContainerValue": "34.3 cm (13.5\") diagonal, 3K2K (3000 x 2000), touch, IPS, narrow bezel, BrightView, 400 nits, 100% sRGB"
         },
         {
             "PhwebDescription": "BU RCTOUMAi31215UHDfnBLFPRfHDC240G9INDIA",
@@ -1089,10 +1057,6 @@
             "ContainerValue": "33.8 cm (13.3\") diagonal, FHD (1920 x 1080), touch, IPS, BrightView, 400 nits, 72% NTSC"
         },
         {
-            "PhwebDescription": "LCD 14.0 FHD AG LED 250 UWVA NWBZ flt",
-            "ContainerValue": "35.6 cm (14\") diagonal, FHD (1920 x 1080), IPS, narrow bezel, anti-glare, 250 nits, 45% NTSC"
-        },
-        {
             "PhwebDescription": "LCD 16WUXGAAGWLED+LBL400UWVAfWWANf5MPIRA",
             "ContainerValue": "40.6 cm (16\") diagonal, WUXGA (1920 x 1200), IPS, anti-glare, 400 nits, 100% sRGB"
         },
@@ -1126,7 +1090,7 @@
         },
         {
             "PhwebDescription": "OLED 13.53k2kBVOLED400UWVAALS+ACSNWBZusl",
-            "ContainerValue": "34.3 cm (13.5\") diagonal, 3K2K (3000 x 2000), OLED, UWVA, BrightView, Corning® Gorilla® Glass 7, 400 nits, 100% DCI-P3"
+            "ContainerValue": "34.3 cm (13.5\") diagonal, 3K2K (3000 x 2000), OLED, UWVA, BrightView, Corning® Gorilla® Glass 7, 400 nits, 100% DCI-P3"
         },
         {
             "PhwebDescription": "LCD 13.5WUXGA+BVWLED+LBL400UWVATSALS+ACS",
@@ -1138,7 +1102,7 @@
         },
         {
             "PhwebDescription": "LCD 13.3 FHD AG LED 400 UWVAfHDCNWBZuslm",
-            "ContainerValue": " 33.8 cm (13.3\") diagonal, FHD (1920 x 1080), IPS, narrow bezel, anti-glare, 400 nits, 72% NTSC"
+            "ContainerValue": "33.8 cm (13.3\") diagonal, FHD (1920 x 1080), IPS, narrow bezel, anti-glare, 400 nits, 72% NTSC"
         },
         {
             "PhwebDescription": "LCD 14.0WUXGAAGWLED+LBL1000UWVAf5MPIRSVR",
@@ -1178,7 +1142,7 @@
         },
         {
             "PhwebDescription": "LCD 14.0DRMWQXGAAGLED500UWVAf5MPIR120HzN",
-            "ContainerValue": "35.6 cm (14\") diagonal, WQXGA (2560 x 1600), IPS, anti-glare, 500 nits, 100% sRGB"
+            "ContainerValue": "35.6 cm (14\") diagonal, WQXGA (2560 x 1600), IPS, anti-glare, micro-edge, 500 nits, 100% DCI-P3, HP DreamColor"
         },
         {
             "PhwebDescription": "LCD 16WUXGAAGWLED+LBL1000UWVAfWWANw5MPIR",
@@ -1278,7 +1242,7 @@
         },
         {
             "PhwebDescription": "LCD 14.0 WUXGA AG LED 250 UWVA NWBZ bnt",
-            "ContainerValue": "35.6 cm (14\") diagonal, WUXGA (1920 x 1200), IPS, narrow bezel, anti-glare, 250 nits, 45% NTSC"
+            "ContainerValue": "35.6 cm (14\") diagonal, WUXGA (1920 x 1200), IPS, narrow bezel, anti-glare, 250 nits, 45% NTSC"
         },
         {
             "PhwebDescription": "LCD 13.3WUXGAAGWLED+LBL1000UWVAf5MPSVRAL",
@@ -1670,7 +1634,7 @@
         },
         {
             "PhwebDescription": "LCD 14 HD AG LED SVA 250 NWBZ uslim",
-            "ContainerValue": "35.6 cm (14\") diagonal, HD (1366 x 768), micro-edge, anti-glare, 250 nits, 45% NTSC"
+            "ContainerValue": "35.6 cm (14\") diagonal, HD (1366 x 768), multitouch-enabled, edge-to-edge glass, micro-edge, 250 nits, 45% NTSC"
         },
         {
             "PhwebDescription": "LCD 15.6 FHD BV 250 UWVA TOP NWBZ flt",
@@ -1741,10 +1705,6 @@
             "ContainerValue": "39.6 cm (15.6\") diagonal, FHD (1920 x 1080), touch, IPS, micro-edge, BrightView, 250 nits, 45% NTSC"
         },
         {
-            "PhwebDescription": "LCD 14.0 FHD AG LED 250 UWVA NWBZ bnt",
-            "ContainerValue": "35.6 cm (14\") diagonal, FHD (1920 x 1080), multitouch-enabled, IPS, edge-to-edge glass, micro-edge, 250 nits, 45% NTSC"
-        },
-        {
             "PhwebDescription": "LCD 14 FHD AG LED UWVA 250 NWBZ bent",
             "ContainerValue": "35.6 cm (14\") diagonal, FHD (1920 x 1080), multitouch-enabled, IPS, edge-to-edge glass, micro-edge, 250 nits, 45% NTSC"
         },
@@ -1774,7 +1734,7 @@
         },
         {
             "PhwebDescription": "LCD 14.0 FHD AG LED 250 UWVA NWBZ flt",
-            "ContainerValue": "35.6 cm (14\") diagonal, FHD (1920 x 1080), IPS, micro-edge, anti-glare, 250 nits, 45% NTSC"
+            "ContainerValue": "35.6 cm (14\") diagonal, FHD (1920 x 1080), IPS, micro-edge, anti-glare, 250 nits, low power, 45% NTSC"
         },
         {
             "PhwebDescription": "LCD 14 FHD AG LED UWVA 250 slim TOP NWBZ",
@@ -1857,10 +1817,6 @@
             "ContainerValue": "39.6 cm (15.6\") diagonal, FHD (1920 x 1080), IPS, micro-edge, anti-glare, 250 nits, 45% NTSC"
         },
         {
-            "PhwebDescription": "LCD 14.0 FHD AG LED 250 UWVA NWBZ bnt",
-            "ContainerValue": "35.6 cm (14\") diagonal, FHD (1920 x 1080), IPS, micro-edge, anti-glare, 250 nits, 45% NTSC"
-        },
-        {
             "PhwebDescription": "LCD 17.3 FHD AG LED 300 UWVA flt",
             "ContainerValue": "43.9 cm (17.3\") diagonal, FHD (1920 x 1080), IPS, edge-to-edge glass, micro-edge, 300 nits, 100% sRGB"
         },
@@ -1919,10 +1875,6 @@
         {
             "PhwebDescription": "LCD 13.3 WQXGA AG 400 UWVA NWBZ flt",
             "ContainerValue": "33.8 cm (13.3\") diagonal, WQXGA (2560 x 1600), IPS, micro-edge, anti-glare, 400 nits, 100% sRGB"
-        },
-        {
-            "PhwebDescription": "LCD 16.0 WQXGA AG LwBluLt400UWVA120Hzflt",
-            "ContainerValue": "40.6 cm (16\")  diagonal, WQXGA (2560 x 1600), 120 Hz, IPS, edge-to-edge glass, micro-edge, Low Blue Light, 400 nits, 100% sRGB"
         },
         {
             "PhwebDescription": "LCD 17.3 FHD AG LED 300 UWVA TS flt",
@@ -1997,10 +1949,6 @@
             "ContainerValue": "39.6 cm (15.6\") diagonal, FHD (1920 x 1080), IPS, micro-edge, BrightView, 250 nits, 45% NTSC"
         },
         {
-            "PhwebDescription": "LCD 14.0 WUXGA AG LED 250 UWVA NWBZ bnt",
-            "ContainerValue": "35.6 cm (14\") diagonal, WUXGA (1920 x 1200), multitouch-enabled, IPS, edge-to-edge glass, micro-edge, Corning® Gorilla® Glass 5™, 250 nits, 45% NTSC"
-        },
-        {
             "PhwebDescription": "LCD 14 HD BV LED SVA 220 slim TOP NWBZ",
             "ContainerValue": "35.6 cm (14\") diagonal, HD (1366 x 768), touch, micro-edge, BrightView, 220 nits, 45% NTSC"
         },
@@ -2038,7 +1986,7 @@
         },
         {
             "PhwebDescription": "OLED 142.8KBVOLED+LBL400UWVA48H-120Hz(VR",
-            "ContainerValue": "35.6 cm (14\") diagonal, 2.8K (2880 x 1800), OLED, 48-120 Hz, UWVA, micro-edge, BrightView, Low Blue Light, SDR 400 nits, HDR 500 nits, 100% DCI-P3"
+            "ContainerValue": "35.6 cm (14\") diagonal, 2.8K (2880 x 1800), OLED, multitouch-enabled, 48-120 Hz, 0.2 ms response time, UWVA, edge-to-edge glass, micro-edge, anti-reflection Corning® Gorilla® Glass NBT™, Low Blue Light, SDR 400 nits, HDR 500 nits, 100% DCI-P3"
         },
         {
             "PhwebDescription": "LCD 14WQXGAAGWLED+LBL300UWVA48H-120Hz(VR",
@@ -2237,12 +2185,8 @@
             "ContainerValue": "35.6 cm (14\") diagonal, FHD (1920 x 1080), IPS, micro-edge, anti-glare, 250 nits, 45% NTSC"
         },
         {
-            "PhwebDescription": "LCD 14.0 FHD AG LED 250 UWVA NWBZ flt",
-            "ContainerValue": "35.6 cm (14\") diagonal, FHD (1920 x 1080), IPS, narrow bezel, anti-glare, 250 nits, 45% NTSC"
-        },
-        {
             "PhwebDescription": "LCD 14.0 FHD AG LED 250 UWVA NWBZ bnt",
-            "ContainerValue": "35.6 cm (14\") diagonal, FHD (1920 x 1080), multitouch-enabled, IPS, edge-to-edge glass, micro-edge, 250 nits, 45% NTSC"
+            "ContainerValue": "35.6 cm (14\") diagonal, FHD (1920 x 1080), multitouch-enabled, IPS, edge-to-edge glass, micro-edge, 250 nits, low power, 45% NTSC"
         },
         {
             "PhwebDescription": "LCD 17.3 HD+BVLED250SVA23HDFF-TOPNWBZflt",
@@ -2254,15 +2198,15 @@
         },
         {
             "PhwebDescription": "LCD 13.5 WUXGA+ BV LwBluLt400UWVANWBZbnt",
-            "ContainerValue": "34.3 cm (13.5\") diagonal, WUXGA+ (1920 x 1280), multitouch-enabled, IPS, edge-to-edge glass, micro-edge, anti-reflection Corning® Gorilla® Glass NBT™, Low Blue Light, 400 nits, 100% sRGB"
+            "ContainerValue": "34.3 cm (13.5\") diagonal, WUXGA+ (1920 x 1280), multitouch-enabled, IPS, edge-to-edge glass, micro-edge, anti-reflection Corning® Gorilla® Glass NBT™, Low Blue Light, 400 nits, low power, 100% sRGB"
         },
         {
             "PhwebDescription": "LCD 15.6 FHD AG LED UWVA 400 bent LPNWBZ",
-            "ContainerValue": "39.6 cm (15.6\") diagonal, FHD (1920 x 1080), multitouch-enabled, IPS, edge-to-edge glass, micro-edge, 400 nits, 100% sRGB"
+            "ContainerValue": "39.6 cm (15.6\") diagonal, FHD (1920 x 1080), multitouch-enabled, IPS, edge-to-edge glass, micro-edge, 400 nits, low power, 100% sRGB"
         },
         {
             "PhwebDescription": "LCD 16.0 WQXGA AG LwBluLt400UWVA120Hzflt",
-            "ContainerValue": "40.6 cm (16\")  diagonal, WQXGA (2560 x 1600), 120 Hz, IPS, edge-to-edge glass, micro-edge, Low Blue Light, 400 nits, 100% sRGB"
+            "ContainerValue": "40.6 cm (16\") diagonal, WQXGA (2560 x 1600), 48-120 Hz, IPS, micro-edge, anti-glare, Low Blue Light, 400 nits, 100% sRGB"
         },
         {
             "PhwebDescription": "LCD 16.0WUXGAAGWLED+LBL1000UWVAw5MPIRPVG",
@@ -2278,23 +2222,19 @@
         },
         {
             "PhwebDescription": "LCD 13.3WUXGAAGWLED+LBL400UWVAfWWANw5MPI",
-            "ContainerValue": "33.8 cm (13.3\") diagonal, WUXGA (1920 x 1200), touch, IPS, anti-glare, 400 nits, 100% sRGB"
-        },
-        {
-            "PhwebDescription": "OLED 13.53k2kBVOLED400UWVAALS+ACSNWBZusl",
-            "ContainerValue": "34.3 cm (13.5\") diagonal, 3K2K (3000 x 2000), OLED, UWVA, BrightView, Corning® Gorilla® Glass 7, 400 nits, 100% DCI-P3"
+            "ContainerValue": "33.8 cm (13.3\") diagonal, WUXGA (1920 x 1200), touch, IPS, anti-glare, 400 nits, 100% sRGB"
         },
         {
             "PhwebDescription": "OLED 13.5 3k2k BV OLED 400 UWVATSACSuslm",
-            "ContainerValue": "34.3 cm (13.5\") diagonal, 3K2K (3000 x 2000), touch, IPS, narrow bezel, BrightView, 400 nits, 100% sRGB"
+            "ContainerValue": "34.3 cm (13.5\") diagonal, 3K2K (3000 x 2000), touch, IPS, narrow bezel, BrightView, 400 nits, 100% sRGB"
         },
         {
             "PhwebDescription": "OLED 13.53k2kBVOLED400UWVATSALS+ACSNWBZu",
-            "ContainerValue": "34.3 cm (13.5\") diagonal, 3K2K (3000 x 2000), touch, IPS, narrow bezel, BrightView, 400 nits, 100% sRGB"
+            "ContainerValue": "34.3 cm (13.5\") diagonal, 3K2K (3000 x 2000), touch, IPS, narrow bezel, BrightView, 400 nits, 100% sRGB"
         },
         {
             "PhwebDescription": "LCD 13.5WUXGA+BVWLED+LBL400UWVAALS+ACSNW",
-            "ContainerValue": "34.3 cm (13.5\") diagonal, WUXGA+ (1920 x 1280), IPS, BrightView, 400 nits, 72% NTSC"
+            "ContainerValue": "34.3 cm (13.5\") diagonal, WUXGA+ (1920 x 1280), IPS, BrightView, 400 nits, 72% NTSC"
         },
         {
             "PhwebDescription": "LCD 14 FHD AG LED UWVA 250 fHDCIRbentTOP",
@@ -2305,28 +2245,12 @@
             "ContainerValue": "35.6 cm (14\") diagonal, FHD (1920 x 1080), touch, IPS, narrow bezel, 250 nits, 45% NTSC"
         },
         {
-            "PhwebDescription": "LCD 14.0DRMWQXGAAGLED500UWVAf5MPIR120HzN",
-            "ContainerValue": "35.6 cm (14\") diagonal, WQXGA (2560 x 1600), IPS, anti-glare, micro-edge, 500 nits, 100% DCI-P3, HP DreamColor"
-        },
-        {
-            "PhwebDescription": "LCD 14.0WQXGABVLED500UWVAfWWANw5MPIRTOFT",
-            "ContainerValue": "35.6 cm (14\") diagonal, WQXGA (2560 x 1600), touch, IPS, BrightView, 500 nits, 100% DCI-P3"
-        },
-        {
-            "PhwebDescription": "LCD 14.0 WUXGA AG LED 250 UWVA NWBZ bnt",
-            "ContainerValue": "35.6 cm (14\") diagonal, WUXGA (1920 x 1200), IPS, narrow bezel, anti-glare, 250 nits, 45% NTSC"
-        },
-        {
-            "PhwebDescription": "LCD 16.0WUXGAAGWLED+LBL1000UWVAfWWANf5MP",
-            "ContainerValue": "40.6 cm (16\") diagonal, WUXGA (1920 x 1200), IPS, anti-glare, 1000 nits, 100% sRGB, HP Sure View Reflect integrated privacy screen"
-        },
-        {
             "PhwebDescription": "LCD 16.0WUXGAAGLED250UWVAfWWANf5MPIRTOPb",
             "ContainerValue": "40.6 cm (16\") diagonal, WUXGA (1920 x 1200), IPS, anti-glare, 250 nits, 45% NTSC"
         },
         {
             "PhwebDescription": "BU EON 870 G9 27.0 AiO TS QHD RCTO",
-            "ContainerValue": "68.6 (27\") diagonal, QHD (2560 x 1440), touch, IPS, anti-glare, 300 nits, 72% NTSC"
+            "ContainerValue": "68.6 cm (27\") diagonal, QHD (2560 x 1440), touch, IPS, 250 nits, 72% NTSC"
         },
         {
             "PhwebDescription": "LCD 13.3FHDAGLEDUWVA1000fHDCIRSVRALSbent",

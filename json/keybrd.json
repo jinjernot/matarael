@@ -45,10 +45,6 @@
             "ContainerValue": "Full-size keyboard with numeric keypad"
         },
         {
-            "PhwebDescription": "KBD CP num kypd SR",
-            "ContainerValue": "Spill-resistant, full-size keyboard with numeric keypad"
-        },
-        {
             "PhwebDescription": "KBD AHS CP BL num kypd",
             "ContainerValue": "Full-size keyboard with numeric keypad"
         },
@@ -138,7 +134,7 @@
         },
         {
             "PhwebDescription": "KBD CP num kypd SR",
-            "ContainerValue": "HP Premium Collaboration Keyboard – spill-resistant keyboard with numeric keypad"
+            "ContainerValue": "HP Premium Keyboard – spill resistant keyboard with numeric keypad"
         },
         {
             "PhwebDescription": "KBD FOP TP+IS num kypd SR",
@@ -163,10 +159,6 @@
         {
             "PhwebDescription": "KBD AHS ISK STD TP num kypd",
             "ContainerValue": "Island-style, ash silver keyboard with numeric keypad, optional backlit and touchpad with image sensor"
-        },
-        {
-            "PhwebDescription": "KBD CP num kypd SR",
-            "ContainerValue": "HP Premium Keyboard – spill-resistant, optional backlit keyboard with numeric keypad"
         },
         {
             "PhwebDescription": "KBD CP BL SR",
@@ -422,7 +414,7 @@
         },
         {
             "PhwebDescription": "KBD FLS ISK PT CP BL",
-            "ContainerValue": "Full-size, island-style keyboard with numeric keypad and optional backlit"
+            "ContainerValue": "Full-size, textured, island-style keyboard with optional backlit"
         },
         {
             "PhwebDescription": "KBD MSG FS CP+IS BL num kypd",
@@ -506,7 +498,7 @@
         },
         {
             "PhwebDescription": "KBD SBL ISK TP+HT BL",
-            "ContainerValue": "Full-size, backlit, textured, black keyboard"
+            "ContainerValue": "Full-size, backlit, slate blue keyboard"
         },
         {
             "PhwebDescription": "KBDPM NSV fWWAN CP BL SR PVCY",
@@ -741,20 +733,12 @@
             "ContainerValue": "HP Premium Quiet Keyboard – spill-resistant, full-size, backlit keyboard with programmable key"
         },
         {
-            "PhwebDescription": "KBD HP 125 WHT Paper Pckg WD",
-            "ContainerValue": "HP 125 USB White Wired Keyboard"
-        },
-        {
             "PhwebDescription": "KBD HP 125 WHT WD",
             "ContainerValue": "HP 125 USB White Wired Keyboard"
         },
         {
             "PhwebDescription": "KBD/MSE HP 310 WHT Paper Pkg WD",
             "ContainerValue": "HP 310 White Wired Keyboard and mouse combo"
-        },
-        {
-            "PhwebDescription": "KBD/MSE HP 510SP WHT Paper Pkg",
-            "ContainerValue": "HP 510SP White Wireless Keyboard and mouse combo"
         },
         {
             "PhwebDescription": "HP 510SP WHT WRLS KB/Mse",
@@ -991,10 +975,6 @@
         {
             "PhwebDescription": "KBD PFBISKPTCP+ISBL-RGB1Zonenum",
             "ContainerValue": "Full-size, 1-zone RGB backlit, performance blue opaque keyboard with numeric keypad"
-        },
-        {
-            "PhwebDescription": "KBD SDB CP BL-WHT 1Zone",
-            "ContainerValue": "Full-size, 1-zone white backlit, shadow black keyboard with numeric keypad and 26-Key Rollover Anti-Ghosting Key technology"
         },
         {
             "PhwebDescription": "KBD CCW CP+IS BL-RGB 4Zone",
@@ -1270,7 +1250,7 @@
         },
         {
             "PhwebDescription": "Mouse HP BLK 125 WRD",
-            "ContainerValue": "HP 125 USB Black Wired Keyboard"
+            "ContainerValue": "HP 125 Wired Keyboard (bulk)"
         },
         {
             "PhwebDescription": "KBDWD USB Chrome MUSWD",
@@ -1290,7 +1270,7 @@
         },
         {
             "PhwebDescription": "KBD SDB CP BL-WHT 1Zone",
-            "ContainerValue": "Full-size, 1-zone white backlit, shadow black keyboard with numeric keypad and 26-Key Rollover Anti-Ghosting Key technology"
+            "ContainerValue": "Full-size, 1-zone white backlit, shadow black keyboard and 26-Key Rollover Anti-Ghosting Key technology"
         },
         {
             "PhwebDescription": "KBD HP 125 BLK Paper Pckg WD",
@@ -1298,11 +1278,11 @@
         },
         {
             "PhwebDescription": "KBD HP 125 WHT Paper Pckg WD",
-            "ContainerValue": "HP 125 USB White Wired Keyboard"
+            "ContainerValue": "HP 125 USB White Paper Packaging Wired Keyboard"
         },
         {
             "PhwebDescription": "KBD/MSE HP 510SP WHT Paper Pkg",
-            "ContainerValue": "HP 510SP White Wireless Keyboard and mouse combo"
+            "ContainerValue": "HP 510SP White Paper Packaging Wireless Keyboard and Mouse Combo"
         },
         {
             "PhwebDescription": "KBDWD USB BusSlim",

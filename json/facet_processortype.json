@@ -106,7 +106,7 @@
         },
         {
             "PhwebDescription": "CPU INTL Xeon W3-2435 8C 3.10 165W",
-            "ContainerValue": "Intel Xeon Sixteen Cores"
+            "ContainerValue": "Intel Xeon Eight Core"
         },
         {
             "PhwebDescription": "CPU I XeonW-2265 3.5GHz 12C165W",
@@ -5558,7 +5558,7 @@
         },
         {
             "PhwebDescription": "BU IDS UMA N100 128GUFS 15",
-            "ContainerValue": "Intel Celeron"
+            "ContainerValue": "Intel N-series"
         },
         {
             "PhwebDescription": "BU IDS UMA PHPentxxxx 17",
@@ -7367,10 +7367,6 @@
         {
             "PhwebDescription": "BU PON 245 G10 23.8AiO 8GBAthS7120UIDS",
             "ContainerValue": "AMD Athlon"
-        },
-        {
-            "PhwebDescription": "BU IDS UMA N100 128GUFS 15",
-            "ContainerValue": "Intel Celeron"
         },
         {
             "PhwebDescription": "CPU INTL i5-13400T 1.30 10C 35W",

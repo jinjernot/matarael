@@ -21,10 +21,6 @@
       "ContainerValue": "NVIDIA® Quadro® T400 (4 GB GDDR6 dedicated)"
     },
     {
-      "PhwebDescription": "GFX NVIDIA RTX A2000 12GB GDDR6 4mDP",
-      "ContainerValue": "NVIDIA RTX™️ A2000 (12 GB GDDR6 dedicated)"
-    },
-    {
       "PhwebDescription": "GFX NVIDIA T1000 8GB 4mDP",
       "ContainerValue": "NVIDIA® T1000 (8 GB GDDR6 dedicated)"
     },
@@ -437,10 +433,6 @@
       "ContainerValue": "NVIDIA® GeForce RTX™ 2050 Laptop GPU (4 GB GDDR6 dedicated)"
     },
     {
-      "PhwebDescription": "BU IDS DSC T550 PH i7-RM TI PD IC 14 G10",
-      "ContainerValue": "NVIDIA® T550 Laptop GPU (4 GB GDDR6 dedicated)"
-    },
-    {
       "PhwebDescription": "BU IDS DSCRTX20504GB PHi7KTRTKUSBC440G10",
       "ContainerValue": "NVIDIA® GeForce RTX™ 2050 Laptop GPU (4 GB GDDR6 dedicated)"
     },
@@ -602,7 +594,7 @@
     },
     {
       "PhwebDescription": "BU IDS DSC T550 PH i5-KT TI PD IC 14 G10",
-      "ContainerValue": "NVIDIA® T550 Laptop GPU (4 GB GDDR6 dedicated)"
+      "ContainerValue": "NVIDIA RTX™ A500 Laptop GPU (4 GB GDDR6 dedicated)"
     },
     {
       "PhwebDescription": "BU IDS DSCRTXA10006GBi7-13700HPower15.6G",
@@ -870,7 +862,7 @@
     },
     {
       "PhwebDescription": "GFXCONTR NVD GeF RTX 3050Ti 4GB GDDR6",
-      "ContainerValue": "NVIDIA®️ GeForce RTX™️ 3050 Ti (4 GB GDDR6 dedicated)"
+      "ContainerValue": "NVIDIA® GeForce RTX™ 3050 Ti (4 GB GDDR6 dedicated)"
     },
     {
       "PhwebDescription": "GFX NVIDIA GeF RTX 3050 MQ 4GB GDDR6 G4",
@@ -1505,10 +1497,6 @@
       "ContainerValue": "NVIDIA® GeForce® GTX 1650 Laptop GPU (4 GB GDDR6 dedicated)"
     },
     {
-      "PhwebDescription": "BU IDS DSCRTX30506GB i5-13420H 15",
-      "ContainerValue": "NVIDIA® GeForce RTX™ 3050 (4 GB GDDR6 dedicated)"
-    },
-    {
       "PhwebDescription": "BU IDSDSCRTX3080Ti16GBfGSynci7-12800HX17",
       "ContainerValue": "NVIDIA® GeForce RTX™ 3080 Ti Laptop GPU (16 GB GDDR6 dedicated)"
     },
@@ -1542,7 +1530,7 @@
     },
     {
       "PhwebDescription": "GFX NVIDIA GeF 8GB GDDR6",
-      "ContainerValue": "NVIDIA® GeForce RTX™ 4060 Ti (8 GB GDDR6 dedicated)"
+      "ContainerValue": "NVIDIA® GeForce RTX™ 4060 (8 GB GDDR6 dedicated)"
     },
     {
       "PhwebDescription": "GFX NVIDIA GeF 8GB GDDR6 RKL-S",
@@ -1678,7 +1666,7 @@
     },
     {
       "PhwebDescription": "GFX NVIDIA RTX A2000 12GB GDDR6 4mDP",
-      "ContainerValue": "NVIDIA RTX™️ A2000 (12 GB GDDR6 dedicated)"
+      "ContainerValue": "NVIDIA RTX™ A2000 (12 GB GDDR6 dedicated)"
     },
     {
       "PhwebDescription": "BU IDS DSCRTX30504GB i7-1355U 17",
@@ -1686,7 +1674,7 @@
     },
     {
       "PhwebDescription": "BU IDS DSCRTX30506GB i5-13420H 15",
-      "ContainerValue": "NVIDIA® GeForce RTX™ 3050 (4 GB GDDR6 dedicated)"
+      "ContainerValue": "NVIDIA® GeForce RTX™ 3050 Laptop GPU (6 GB GDDR6 dedicated)"
     },
     {
       "PhwebDescription": "BU IDS DSC RTX 3050 4GB i7-12650H 15",
@@ -1702,7 +1690,7 @@
     },
     {
       "PhwebDescription": "BU IDS DSC T550 PH i7-RM TI PD IC 14 G10",
-      "ContainerValue": "NVIDIA® T550 Laptop GPU (4 GB GDDR6 dedicated)"
+      "ContainerValue": "NVIDIA RTX™ A500 Laptop GPU (4 GB GDDR6 dedicated)"
     }
   ]
 }

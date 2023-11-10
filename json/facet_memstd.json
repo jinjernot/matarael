@@ -798,7 +798,7 @@
         },
         {
             "PhwebDescription": "RAM 32GB (2x16GB) DDR5 5200 CR",
-            "ContainerValue": "16"
+            "ContainerValue": "32"
         },
         {
             "PhwebDescription": "RAM 16GB (2x8GB) DDR5 5200 CR",
