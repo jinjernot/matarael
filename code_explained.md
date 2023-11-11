@@ -1,4 +1,4 @@
-# main.py
+# scs-scs-main.py
 
 The application first checks if the file has a valid extension. If it does, the file is processed by the appropriate function and the results are returned. Otherwise, an error is returned.
 
@@ -6,7 +6,7 @@ The ALLOWED_EXTENSIONS variable is a set of allowed file extensions for the uplo
 
 The cleanReport(), cleanGranular(), cleanSummary(), and cleanExport() functions are all functions that process Excel files. The createPlot() function creates a plot of the data in the Excel file. The send_file() function returns the Excel file as an attachment.
 
-The main() function calls the upload_file() function. The if __name__ == '__main__': block tells Python to run the main() function if the code is being run as the main program.
+The scs-scs-main() function calls the upload_file() function. The if __name__ == '__scs-scs-main__': block tells Python to run the scs-scs-main() function if the code is being run as the scs-scs-main program.
 
 
 # qa_data.py

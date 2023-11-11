@@ -27,7 +27,7 @@ def upload_file():
             return render_template('error_password.html')
     return render_template('index.html')
 
-@app.route('/upload-file', methods=['POST'])
+@app.route('/scs-upload-file', methods=['POST'])
 def process_file():
     if 'Regular' in request.files:
         file = request.files['Regular']
@@ -40,12 +40,10 @@ def process_file():
             return render_template('error.html'), 500
     return render_template('error.html'), 400
 
-@app.route('/json-upload', methods=['POST'])
+@app.route('/scs-json-upload', methods=['POST'])
 def json_upload():
-    print("Inside /json-upload route")  # Check if the route is accessed
     if 'uploadjson' in request.files:
         file = request.files['uploadjson']
-        print("File received:", file.filename)  # Check if the file is being received
         try:
             if allowed_file(file.filename):
                 filename = file.filename
@@ -57,7 +55,7 @@ def json_upload():
             return render_template('error_json.html'), 500
     return render_template('error.html'), 400
 
-@app.route('/json-review', methods=['GET'])
+@app.route('/scs-json-review', methods=['GET'])
 def json_review():
     filename = request.args.get('filename')
     if filename:
@@ -76,19 +74,19 @@ def json_review():
 
 
 
-@app.route('/main')
+@app.route('/scs-mainpage')
 def mainpage():
     return render_template('index2.html')
 
-@app.route('/user_guide')
+@app.route('/scs-user_guide')
 def user_guide():
     return render_template('user_guide.html')
 
-@app.route('/regular-content')
+@app.route('/scs-regular-content')
 def regular_content():
     return render_template('regular_content.html')
 
-@app.route('/json-upload')
+@app.route('/scs-json-upload')
 def upload_json():
     return render_template('json_upload.html')
 
