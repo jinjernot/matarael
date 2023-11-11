@@ -1,31 +1,31 @@
 {
     "batteryrechrg": [
         {
-            "PhwebDescription": " ACADPT 65 Watt Smart nPFC RA",
+            "PhwebDescription": "ACADPT 65 Watt Smart nPFC RA",
             "ContainerValue": "Supports battery fast charge: approximately 50% in 30 minutes"
         },
         {
-            "PhwebDescription": " ACADPT 90 Watt Smart PFC RA",
+            "PhwebDescription": "ACADPT 90 Watt Smart PFC RA",
             "ContainerValue": "Supports battery fast charge: approximately 50% in 45 minutes"
         },
         {
-            "PhwebDescription": " ACADPT 135 Watt Smart PFC Slim",
+            "PhwebDescription": "ACADPT 135 Watt Smart PFC Slim",
             "ContainerValue": "Supports battery fast charge: approximately 50% in 30 minutes"
         },
         {
-            "PhwebDescription": " ACADPT 45 Watt Smart nPFC RA",
+            "PhwebDescription": "ACADPT 45 Watt Smart nPFC RA",
             "ContainerValue": "Supports battery fast charge: approximately 50% in 45 minutes"
         },
         {
-            "PhwebDescription": " ACADPT 150 Watt Smart PFC Slim",
+            "PhwebDescription": "ACADPT 150 Watt Smart PFC Slim",
             "ContainerValue": "Supports battery fast charge: approximately 50% in 30 minutes"
         },
         {
-            "PhwebDescription": " ACADPT 65W SLM USB-C Str",
+            "PhwebDescription": "ACADPT 65W SLM USB-C Str",
             "ContainerValue": "Supports battery fast charge: approximately 50% in 45 minutes"
         },
         {
-            "PhwebDescription": " ACADPT 45 Watt Smart nPFC RA LA MERCO",
+            "PhwebDescription": "ACADPT 45 Watt Smart nPFC RA LA MERCO",
             "ContainerValue": "Supports battery fast charge: approximately 50% in 45 minutes"
         }
     ]
