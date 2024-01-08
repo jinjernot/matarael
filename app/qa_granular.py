@@ -1,6 +1,6 @@
 import pandas as pd
-from data.format_data import formateData
-from data.process_data import processData
+from app.format_data import formateData
+from app.process_data import processData
 import os
 
 def clean_granular(file):

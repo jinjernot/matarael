@@ -1,5 +1,5 @@
 from flask import Flask, request, render_template, send_from_directory
-from data.qa_data import clean_report
+from app.qa_data import clean_report
 
 import config
 import json
@@ -17,7 +17,7 @@ def is_valid_password(password):
 def allowed_file(filename):
     return '.' in filename and filename.rsplit('.', 1)[1].lower() in app.config['VALID_FILE_EXTENSIONS']
 
-@app.route('/', methods=['GET', 'POST'])
+@app.route('/app1', methods=['GET', 'POST'])
 def upload_file():
     if request.method == 'POST':
         password = request.form.get('password')

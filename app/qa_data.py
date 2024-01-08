@@ -1,7 +1,7 @@
 import pandas as pd
-from data.format_data import formateData
-from data.process_data import processData
-from data.product_line import plCheck
+from app.format_data import formateData
+from app.process_data import processData
+from app.product_line import plCheck
 import os
 import json
 
