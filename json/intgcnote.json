@@ -26,7 +26,7 @@
         },
         {
             "PhwebDescription": "BU IDS OPP 22-dd2 21.5 i5-1235U",
-            "ContainerValue": "Intel® Iris® Xᵉ Graphics capabilities require system to be configured with Intel® Core™ i5 or i7 processors and dual channel memory. Intel® Iris® Xᶱ Graphics with Intel® Core™ i5 or i7 processors and single channel memory will only function as Intel® UHD Graphics."
+            "ContainerValue": "Intel® Iris® Xᵉ Graphics capabilities require system to be configured with Intel® Core™ i5 or i7 processors and dual channel memory. Intel® Iris® Xe Graphics with Intel® Core™ i5 or i7 processors and single channel memory will only function as Intel® UHD Graphics."
         },
         {
             "PhwebDescription": "BU IDS OPP 24-cb1 23.8 i7-11xx",

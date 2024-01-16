@@ -1018,7 +1018,7 @@
     },
     {
       "PhwebDescription": "RAM 32GB (2x16GB) DDR5 5600 ECC",
-      "ContainerValue": "32 GB DDR5-5600 MHz RAM (2 x 16 GB)"
+      "ContainerValue": "32 GB DDR5-5600 MHz ECC RAM (2 x 16 GB)"
     },
     {
       "PhwebDescription": "RAM 128GB (8x16GB) DDR5 4800 ECC",

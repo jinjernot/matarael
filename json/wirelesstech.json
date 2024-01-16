@@ -2,7 +2,7 @@
     "wirelesstech": [
         {
             "PhwebDescription": "WLAN RT 8852BE Wi-Fi6 +BT 5.2 WW",
-            "ContainerValue": "Realtek Wi-Fi 6 RTL8852BE (2x2) and Bluetooth® 5.3 wireless card"
+            "ContainerValue": "Realtek RTL8852BE Wi-Fi 6 (2x2) and Bluetooth® 5.3 wireless card"
         },
         {
             "PhwebDescription": "WLAN RT RTL8822CE ac 2x2 +BT 5 WW",
@@ -698,7 +698,7 @@
         },
         {
             "PhwebDescription": "WLAN RT 8852BE Wi-Fi6 +BT 5.2 WW Screw",
-            "ContainerValue": "Realtek RTL8852BE Wi-Fi 6 (2x2) and Bluetooth®️ 5.3 wireless card (supporting gigabit data rate)"
+            "ContainerValue": "Realtek RTL8852BE Wi-Fi 6 (2x2) and Bluetooth® 5.3 wireless card"
         },
         {
             "PhwebDescription": "WLAN I 9260 ac 2x2 160MHz +BT 5 WW",

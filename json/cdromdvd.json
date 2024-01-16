@@ -3622,7 +3622,7 @@
     },
     {
       "PhwebDescription": "ODD 9.5 DVDWR 1st ODD",
-      "ContainerValue": "9.5 mm Slim DVD-Writer"
+      "ContainerValue": "DVD-Writer"
     },
     {
       "PhwebDescription": "ODD DVDWR ODD",
@@ -3630,10 +3630,6 @@
     },
     {
       "PhwebDescription": "ODD DVDWR ODD",
-      "ContainerValue": "HP 9.5 mm Slim DVD-Writer"
-    },
-    {
-      "PhwebDescription": "ODD 9.5 DVDWR 1st ODD",
       "ContainerValue": "HP 9.5 mm Slim DVD-Writer"
     },
     {

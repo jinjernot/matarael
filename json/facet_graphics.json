@@ -194,7 +194,7 @@
         },
         {
             "PhwebDescription": "BU IDS DSC T550 PH i7-KT TI PD IC 16 G10",
-            "ContainerValue": "Intel Iris"
+            "ContainerValue": "NVIDIA"
         },
         {
             "PhwebDescription": "BU IDS DSC RTX A500 PHi7RMOSRTIPDIC14G10",
@@ -502,7 +502,7 @@
         },
         {
             "PhwebDescription": "BU IDS DSCRTX40708GB i9-13900H StudioG10",
-            "ContainerValue": "Intel Iris"
+            "ContainerValue": "NVIDIA® GeForce RTX™ 4070"
         },
         {
             "PhwebDescription": "BU IDS DSCRTX30008GB i9-13900HKStudioG10",
@@ -538,7 +538,7 @@
         },
         {
             "PhwebDescription": "BU IDS DSCRTXA10006GBi7-13700HPower15.6G",
-            "ContainerValue": "Intel Iris"
+            "ContainerValue": "NVIDIA® RTX™ A1000"
         },
         {
             "PhwebDescription": "BU IDS DSCRTXA5004GBi5-13600HPwr15.6G10",
@@ -550,7 +550,7 @@
         },
         {
             "PhwebDescription": "BU IDS DSCRTX2000Ada8GBi9-13900HPower15.",
-            "ContainerValue": "Intel Iris"
+            "ContainerValue": "NVIDIA"
         },
         {
             "PhwebDescription": "BU IDS DSCRTX40708GB i7-13800H StudioG10",
@@ -562,7 +562,7 @@
         },
         {
             "PhwebDescription": "BU IDS DSCRTXA5004GBi7-13700HPower15.6G1",
-            "ContainerValue": "Intel Iris"
+            "ContainerValue": "NVIDIA® RTX™ A500"
         },
         {
             "PhwebDescription": "BU IDS DSC T550 PH i5-KT TI PD IC 14 G10",
@@ -590,7 +590,7 @@
         },
         {
             "PhwebDescription": "BU IDS DSCRTX408012GB i7-13700HStudioG10",
-            "ContainerValue": "NVIDIA GeForce"
+            "ContainerValue": "Intel Iris"
         },
         {
             "PhwebDescription": "BU IDS DSCRTXA10006GB i7-13800HStudioG10",
@@ -4950,7 +4950,7 @@
         },
         {
             "PhwebDescription": "BU IDS Envy 23.8 AiO 16GB i5-1335U",
-            "ContainerValue": "Intel Iris"
+            "ContainerValue": "Intel UHD"
         },
         {
             "PhwebDescription": "BU IDS UMA R3 5425U 255 G9",
@@ -6286,7 +6286,7 @@
         },
         {
             "PhwebDescription": "BU IDS DSC RTX A500 PH i7KT TI PDIC14G10",
-            "ContainerValue": "Intel Iris"
+            "ContainerValue": "NVIDIA® RTX™ A500"
         },
         {
             "PhwebDescription": "BU IDS DSCRTXA10006GB i7-13700HStudioG10",
@@ -6294,7 +6294,7 @@
         },
         {
             "PhwebDescription": "BU IDS DSCRTX30008GB i9-13900H StudioG10",
-            "ContainerValue": "Intel Iris"
+            "ContainerValue": "NVIDIA® RTX™ 3000"
         },
         {
             "PhwebDescription": "BU IDS DSCRTXA20008GBi7-12800HStudio16.0",
@@ -6318,7 +6318,7 @@
         },
         {
             "PhwebDescription": "BU IDS DSCRTX30008GB i7-13800H StudioG10",
-            "ContainerValue": "Intel Iris"
+            "ContainerValue": "NVIDIA"
         },
         {
             "PhwebDescription": "BU IDS DSC RTXA1XXX4GBPHi7-KTPower15.6G9",
@@ -6326,11 +6326,11 @@
         },
         {
             "PhwebDescription": "BU IDS DSCRTX3000Ada8GBi9-13900HPower15.",
-            "ContainerValue": "Intel Iris"
+            "ContainerValue": "NVIDIA® RTX™ 3000"
         },
         {
             "PhwebDescription": "BU IDS DSCRTX2000Ada8GBi7-13800HPower15.",
-            "ContainerValue": "Intel Iris"
+            "ContainerValue": "NVIDIA"
         },
         {
             "PhwebDescription": "BU IDS DSCRTXA5004GBi5-13500HPower15.6G1",
@@ -6338,7 +6338,7 @@
         },
         {
             "PhwebDescription": "BU IDS DSCRTX2000Ada8GBi7-13700HPower15.",
-            "ContainerValue": "Intel Iris"
+            "ContainerValue": "NVIDIA"
         },
         {
             "PhwebDescription": "BU IDS DSCRTXA10006GBR77840HSPower15.6G1",
@@ -6370,7 +6370,7 @@
         },
         {
             "PhwebDescription": "BU IDS DSCRTXA10006GBR7PRO7840HSPower15.",
-            "ContainerValue": "NVIDIA"
+            "ContainerValue": "AMD Radeon"
         },
         {
             "PhwebDescription": "BU IDS DSCRTX3000Ada8GBi7-13700HPower156",
@@ -6463,7 +6463,7 @@
         },
         {
             "PhwebDescription": "BU IDS DSC T550 PH i7-RM TI PD IC 14 G10",
-            "ContainerValue": "Intel Iris"
+            "ContainerValue": "NVIDIA® RTX™ A500"
         },
         {
             "PhwebDescription": "BU IDS DSC T550 PH i5-RM TI PD IC 14 G10",

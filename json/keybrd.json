@@ -18,7 +18,7 @@
         },
         {
             "PhwebDescription": "KBD HP 125 AntiMic WD",
-            "ContainerValue": "HP 125 Antimicrobial Wired Keyboard"
+            "ContainerValue": "HP 125 Wired Keyboard"
         },
         {
             "PhwebDescription": "HP USB 320K KB ALL",
@@ -466,7 +466,7 @@
         },
         {
             "PhwebDescription": "HP 710 White WLS KB/Mse",
-            "ContainerValue": "HP 710 White Wireless Keyboard and mouse combo"
+            "ContainerValue": "HP 710 White Wireless Keyboard and Mouse Combo"
         },
         {
             "PhwebDescription": "KBD SDB CP BL-RGB 4Zone",
@@ -486,7 +486,7 @@
         },
         {
             "PhwebDescription": "HP 710 Blk WLS KB/Mse",
-            "ContainerValue": "HP 710 Black Wireless Keyboard and mouse combo"
+            "ContainerValue": "HP 710 Black Wireless Keyboard and Mouse Combo"
         },
         {
             "PhwebDescription": "KBD NSV FS PT CP+IS BL-WHT",
@@ -762,7 +762,7 @@
         },
         {
             "PhwebDescription": "KBD HP 125 BLK Paper Pckg WD",
-            "ContainerValue": "HP 125 USB Black Wired Keyboard"
+            "ContainerValue": "HP 125 Wired Keyboard"
         },
         {
             "PhwebDescription": "HP 225 White Wired KB/Mse Combo",
@@ -1102,7 +1102,7 @@
         },
         {
             "PhwebDescription": "KBD/MSE HP 710 WHT Paper Pkg WL",
-            "ContainerValue": "HP 710 White Wireless Keyboard and mouse combo"
+            "ContainerValue": "HP 710 White Wireless Keyboard and Mouse Combo"
         },
         {
             "PhwebDescription": "HPKBD MUS WL USB S/B BLK",
@@ -1110,7 +1110,7 @@
         },
         {
             "PhwebDescription": "KBD/MSE HP 710 BLK Paper Pkg WL",
-            "ContainerValue": "HP 710 Black Wireless Keyboard and mouse combo"
+            "ContainerValue": "HP 710 Black Wireless Keyboard and Mouse Combo"
         },
         {
             "PhwebDescription": "KBD SNW ISK STD CP",
@@ -1278,11 +1278,11 @@
         },
         {
             "PhwebDescription": "KBD HP 125 WHT Paper Pckg WD",
-            "ContainerValue": "HP 125 USB White Paper Packaging Wired Keyboard"
+            "ContainerValue": "HP 125 USB White Wired Keyboard"
         },
         {
             "PhwebDescription": "KBD/MSE HP 510SP WHT Paper Pkg",
-            "ContainerValue": "HP 510SP White Paper Packaging Wireless Keyboard and Mouse Combo"
+            "ContainerValue": "HP 510SP White Wireless Keyboard and Mouse Combo"
         },
         {
             "PhwebDescription": "KBDWD USB BusSlim",
