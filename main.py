@@ -11,6 +11,10 @@ app.use_static_for = 'static'
 # Configuration
 app.config.from_object(config)
 
+#########################################################
+### Functions to validate password and file extension ###
+#########################################################
+
 def is_valid_password(password):
     return password == app.config['VALID_PASSWORD']
 
@@ -26,6 +30,10 @@ def upload_file():
         else:
             return render_template('error_password.html')
     return render_template('index.html')
+
+#######################################################
+### Functions to validate and serve processed files ###
+#######################################################
 
 @app.route('/scs-upload-file', methods=['POST'])
 def process_file():
@@ -72,7 +80,9 @@ def json_review():
             return render_template('error_json.html'), 500
     return render_template('json_review.html', json_data=None)
 
-
+####################################
+### Routes to generate the pages ###
+####################################
 
 @app.route('/scs-mainpage')
 def mainpage():
