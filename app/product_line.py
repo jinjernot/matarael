@@ -4,7 +4,7 @@ import json
 
 def plCheck(df):
     # Read JSON data from the external file
-    with open("/home/garciagi/SCS_Tool/data/PL.json", "r") as json_file:
+    with open("/home/garciagi/SCS_Tool/app/PL.json", "r") as json_file:
     #with open('data/PL.json', 'r') as json_file:
         json_data = json.load(json_file)
 

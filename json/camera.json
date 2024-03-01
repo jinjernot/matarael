@@ -13,6 +13,30 @@
             "ContainerValue": "720p HD privacy camera"
         },
         {
+            "PhwebDescription": "MISC No Webcam",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "Intgrtd Cam DM FHD",
+            "ContainerValue": "1080p FHD camera"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R7 8C f5MP Cam IR RTK USBC",
+            "ContainerValue": "5MP IR camera"
+        },
+        {
+            "PhwebDescription": "ID ASV PLA wSDC wHDC TNR",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "PhwebDescription": "Intgrtd Cam SM 8MP MRAW",
+            "ContainerValue": "8 MP camera"
+        },
+        {
+            "PhwebDescription": "ID PKS ALU fUMA U15",
+            "ContainerValue": "HP camera"
+        },
+        {
             "PhwebDescription": "ID DAS PLA MSKT wHDC",
             "ContainerValue": "720p HD camera"
         },

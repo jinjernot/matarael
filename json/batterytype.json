@@ -11977,6 +11977,26 @@
             "ContainerValue": "ENERGY STAR® certified"
         },
         {
+            "PhwebDescription": "BATT 6 cellC Long Life 83Whr FstCrg",
+            "ContainerValue": "6-cell, 83 Wh Li-ion polymer"
+        },
+        {
+            "PhwebDescription": "BATT BX 3C Long Life 56Whr FstCrg",
+            "ContainerValue": "HP Long Life 3-cell, 56 Wh Li-ion polymer"
+        },
+        {
+            "PhwebDescription": "BATT GD 3C Long Life 59Whr FstCrg",
+            "ContainerValue": "3-cell, 59 Wh Li-ion polymer"
+        },
+        {
+            "PhwebDescription": "BATT RX 3C Long Life 56Whr FstCrg",
+            "ContainerValue": "HP Long Life 3-cell, 56 Wh Li-ion"
+        },
+        {
+            "PhwebDescription": "BATT VO 6C Long Life 71Whr FstCrg",
+            "ContainerValue": "6-cell, 71 Wh Li-ion polymer"
+        },
+        {
             "PhwebDescription": "ENERGY STAR Certified",
             "ContainerValue": "ENERGY STAR® certified"
         },
