@@ -2,7 +2,7 @@ import pandas as pd
 from app.format_data import formateData  
 from app.process_data import processData  
 from app.product_line import plCheck  
-from app.av_check import avCheck
+from app.av_check import av_check
 import os
 import json
 
@@ -63,7 +63,7 @@ def clean_report(file):
         
 
         # Validate AV's
-        avCheck(df)
+        av_check(df)
         
         # Writing DataFrame to Excel file
         df.to_excel('/home/garciagi/SCS_Tool/SCS_QA.xlsx', index=False)
