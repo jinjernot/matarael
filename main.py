@@ -1,5 +1,6 @@
 from flask import Flask, request, render_template, send_from_directory
 from app.qa_data import clean_report
+from app.battery_life import battery_life
 
 import config
 import json
@@ -43,6 +44,21 @@ def process_file():
             if allowed_file(file.filename):
                 clean_report(file)
                 return send_from_directory('.', filename='SCS_QA.xlsx', as_attachment=True)
+        except Exception as e:
+            print(e)
+            return render_template('error.html'), 500
+    return render_template('error.html'), 400
+
+@app.route('/scs-battery-life', methods=['POST'])
+def process_file_battery():
+    if 'battery' in request.files:
+        file = request.files['battery']
+        file2 = request.files['life']
+        
+        try:
+            if allowed_file(file.filename):
+                battery_life(file,file2)
+                return send_from_directory('.', filename='Battery_Life_QA.xlsx', as_attachment=True)
         except Exception as e:
             print(e)
             return render_template('error.html'), 500
@@ -95,6 +111,10 @@ def user_guide():
 @app.route('/scs-regular-content')
 def regular_content():
     return render_template('regular_content.html')
+
+@app.route('/scs-battery-life')
+def battery_life_content():
+    return render_template('battery_life.html')
 
 @app.route('/scs-json-upload')
 def upload_json():

@@ -32,23 +32,14 @@
             </ul>
         </div>
         <div class="content">
-            <h3>User Guide</h3><br>
-            The SCS QA Tool is a software solution designed to enhance the accuracy data acquired by SCS Team.
-            This tool streamlines the process of cleaning and verifying SKU Accuracy Reports,
-            ensuring that the acquired content aligns seamlessly with HP's content database.<br>
-            The tool first comprehensively cleans the SKU Accuracy Report, addressing common data inconsistencies, formatting errors, and duplications.<br>
-            After cleaning the data, the tool performs a robust comparison with the product database.
-            It identifies discrepancies, inconsistencies, and mismatches between the acquired content and the existing records.<br> 
-
-            <br>
-            <h4>Regular Content</h4><br>
-            From SCS scs-scs-main page, go to reports:<br>
-            <img src="{{ url_for('static', filename='images/SCS1.png') }}" alt="" width="900" height="600"><br><br>
-            Input the SKUs to be audited and click SKU Accuracy<br>
-            <img src="{{ url_for('static', filename='images/SCS2.png') }}" alt="" width="900" height="600"><br><br>
-            Upload the excel file to Regular content<br>
-            <img src="{{ url_for('static', filename='images/SCS3.png') }}" alt="" width="900" height="300"><br><br>
-            <br>
+            <h3 class="">Battery Life Report</h3><br>
+                <form action="scs-battery-life" method="POST" enctype="multipart/form-data">
+                    <input type="file" name="battery" class="custom-input">
+                    <input type="file" name="life" class="custom-input">
+                    <br><br>
+                    <input type="submit" value="Upload" class="custom-button">
+                </form><br>
+                Note: The excel files must be in the same format as exported by SCS.
         </div>
     </div>
     <div class="footer-container">
