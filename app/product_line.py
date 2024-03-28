@@ -1,8 +1,6 @@
-import pandas as pd
 import json
 
-
-def plCheck(df):
+def pl_check(df):
     # Read JSON data from the external file
     with open("/home/garciagi/SCS_Tool/app/PL.json", "r") as json_file:
     #with open('data/PL.json', 'r') as json_file:

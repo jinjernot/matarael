@@ -1,5 +1,6 @@
 from flask import Flask, request, render_template, send_from_directory
 from app.qa_data import clean_report
+from app.qa_granular import clean_granular
 from app.battery_life import battery_life
 
 import config
@@ -44,6 +45,19 @@ def process_file():
             if allowed_file(file.filename):
                 clean_report(file)
                 return send_from_directory('.', filename='SCS_QA.xlsx', as_attachment=True)
+        except Exception as e:
+            print(e)
+            return render_template('error.html'), 500
+    return render_template('error.html'), 400
+
+@app.route('/scs-granular-file', methods=['POST'])
+def process_file_granular():
+    if 'Granular' in request.files:
+        file = request.files['Granular']
+        try:
+            if allowed_file(file.filename):
+                clean_granular(file)
+                return send_from_directory('.', filename='Granular_QA.xlsx', as_attachment=True)
         except Exception as e:
             print(e)
             return render_template('error.html'), 500
@@ -111,6 +125,10 @@ def user_guide():
 @app.route('/scs-regular-content')
 def regular_content():
     return render_template('regular_content.html')
+
+@app.route('/scs-granular-content')
+def granular_content():
+    return render_template('granular_content.html')
 
 @app.route('/scs-battery-life')
 def battery_life_content():

@@ -1,7 +1,8 @@
-import openpyxl
-from openpyxl.styles import PatternFill,Font,Border,Side
+from openpyxl.styles import PatternFill,Font
 
-def formateData():
+import openpyxl
+
+def formate_data():
 
     # Load the workbook into memory.
     wb = openpyxl.load_workbook('/home/garciagi/SCS_Tool/SCS_QA.xlsx')

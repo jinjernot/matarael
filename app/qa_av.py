@@ -1,5 +1,3 @@
-import pandas as pd
-
 def av_check(df):
     # Check for duplicate combinations
     duplicate_mask = df.duplicated(subset=['SKU', 'ComponentGroup', 'ContainerName'], keep=False)

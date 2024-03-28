@@ -19,9 +19,9 @@ The function then creates a list of columns to drop. These columns are Option, S
 
 The function then creates three new columns in the DataFrame: Accuracy, Correct Value, and Additional Information. These columns are all initialized to the empty string.
 
-The function then loops over all the files in the json directory. For each file, it checks if the file name ends with .json. If it does, the function splits the file name on the period character and gets the first part of the file name. This is the name of the container. The function then gets the DataFrame rows where the ContainerName column contains the container name. It then passes these rows to the processData() function.
+The function then loops over all the files in the json directory. For each file, it checks if the file name ends with .json. If it does, the function splits the file name on the period character and gets the first part of the file name. This is the name of the container. The function then gets the DataFrame rows where the ContainerName column contains the container name. It then passes these rows to the process_data() function.
 
-The processData() function takes a DataFrame, a container name, and the original DataFrame as input. It then creates a new DataFrame that contains only the rows where the ContainerName column is equal to the container name. It then calls the formatData() function to format the DataFrame.
+The process_data() function takes a DataFrame, a container name, and the original DataFrame as input. It then creates a new DataFrame that contains only the rows where the ContainerName column is equal to the container name. It then calls the formatData() function to format the DataFrame.
 
 The formatData() function takes a DataFrame as input and formats the DataFrame. It does this by removing all trailing semicolons from the ContainerValue column. It then saves the DataFrame to a file called SCS_QA.xlsx.
 
@@ -53,7 +53,7 @@ The createPlot() function handles errors by printing the error message to the co
 
 # process_data.py
 
-The processData() function processes data from a JSON file and updates a Pandas DataFrame.
+The process_data() function processes data from a JSON file and updates a Pandas DataFrame.
 
 The function first opens the JSON file and loads the data into a dictionary. The function then creates an empty dictionary to store the accuracy of each container.
 

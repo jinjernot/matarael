@@ -1,7 +1,7 @@
-import json
 import pandas as pd
+import json
 
-def processData(json_path, container_name, container_df, df):
+def process_data(json_path, container_name, container_df, df):
     # Open the JSON file and load the data into a dictionary.
     with open(json_path, 'r', encoding='utf-8') as f:
         data = json.load(f)

@@ -1,10 +1,11 @@
+from app.format_data import formate_data  
+from app.process_data import process_data  
+from app.product_line import pl_check  
+from app.qa_av import av_check
+
 import pandas as pd
-from app.format_data import formateData  
-from app.process_data import processData  
-from app.product_line import plCheck  
-from app.av_check import av_check
-import os
 import json
+import os
 
 def clean_report(file):
     try:
@@ -20,7 +21,7 @@ def clean_report(file):
         df[['Accuracy', 'Correct Value', 'Additional Information']] = ''
         
         # Checking product line
-        plCheck(df)
+        pl_check(df)
 
         # Filtering out rows where ContainerValue and ContainerName are '[BLANK]'
         df = df[df['ContainerValue'] != '[BLANK]']
@@ -58,8 +59,8 @@ def clean_report(file):
             if x.endswith('.json'):
                 container_name = x.split('.')[0]
                 container_df = df[df['ContainerName'] == container_name]
-                processData(os.path.join('/home/garciagi/SCS_Tool/json', x), container_name, container_df, df)
-                #processData(os.path.join('json', x), container_name, container_df, df)
+                process_data(os.path.join('/home/garciagi/SCS_Tool/json', x), container_name, container_df, df)
+                #process_data(os.path.join('json', x), container_name, container_df, df)
         
 
         # Validate AV's
@@ -70,7 +71,7 @@ def clean_report(file):
         #df.to_excel('SCS_QA.xlsx', index=False)
         
         # Formatting data
-        formateData()
+        formate_data()
     
     except Exception as e:
         print(e)

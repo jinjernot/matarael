@@ -126,7 +126,8 @@
         },
         {
             "PhwebDescription": "BATT 4C 55 WHr Long Life",
-            "ContainerValue": "4-cell, 55 Wh Li-ion polymer"
+            "ContainerValue": "4-cell, 55 Wh Li-ion polymer",
+            "Component":"761Y4AV"
         },
         {
             "PhwebDescription": "BATT 6 cell C Long Life 97Whr FstCrg",
@@ -631,10 +632,6 @@
         {
             "PhwebDescription": "BATT 3C 51 WHr Long Life",
             "ContainerValue": "3-cell, 51 Wh Li-ion polymer"
-        },
-        {
-            "PhwebDescription": "BATT 4C 55 WHr Long Life",
-            "ContainerValue": "4-cell, 55 Wh Li-ion polymer"
         },
         {
             "PhwebDescription": "BATT 4C 66 WHr Long Life",

@@ -20,6 +20,7 @@
             <hr>
             <ul>
                 <a href="{{ url_for('regular_content') }}">Regular Content</a><br>
+                <a href="{{ url_for('granular_content') }}">Granular Content</a><br>
                 <a href="{{ url_for('battery_life_content') }}">Battery Life</a><br>
                 <a href="{{ url_for('json_upload') }}">Upload JSON</a><br>
                 <a href="{{ url_for('json_review') }}">Review JSON</a><br>
@@ -35,7 +36,7 @@
             <h3 class="">Battery Life Report</h3><br>
                 <form action="scs-battery-life" method="POST" enctype="multipart/form-data">
                     SCS report:
-                    <input type="file" name="battery" class="custom-input">
+                    <input type="file" name="battery" class="custom-input"><br><br>
                     Battery Life report:
                     <input type="file" name="life" class="custom-input">
                     <br><br>

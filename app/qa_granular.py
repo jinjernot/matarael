@@ -1,31 +1,51 @@
 import pandas as pd
-from app.format_data import formateData
-from app.process_data import processData
 import os
+import json
 
 def clean_granular(file):
-
     try:
-        df = pd.read_excel(file)
-        df.rename(columns={'PH Web Description': 'PhwebDescription'}, inplace=True)
-        df.rename(columns={'Granular Container Value': 'ContainerValue'}, inplace=True)
-        df = df[df['ContainerValue'] != '[BLANK]']
-        df.replace('\u00A0', ' ', regex=True, inplace=True)
-        cols_to_drop = ['PL','ExtendedDescription', 'PH Web Value', 'Createddate']
-        df = df.drop(cols_to_drop, axis=1)
-        df[['Accuracy']] = ''
+        
+        df = pd.read_excel(file.stream, engine='openpyxl') 
+        # Add a new column 'Comments' initially with 'ERROR'
+        df['Comments'] = 'ERROR'
 
-        for x in os.listdir('json'):
-            if x.endswith('.json'):
-                container_name = x.split('.')[0]
-                container_df = df.loc[df['Granular Container Tag'].str.contains(container_name)]
-                processData(os.path.join('json', x), container_name, container_df, df)
+        # Path to the folder containing JSON files
+        json_folder_path = os.path.join(os.getcwd(), 'json')
 
-        df.loc[df['ContainerValue'].str.endswith(';'), 'ContainerValue'] = df['ContainerValue'].str.slice(stop=-1)
-        df.to_excel('SCS_QA.xlsx', index=False)
-        formateData()
+        # Iterate over each row in the DataFrame
+        for index, row in df.iterrows():
+            component = row['Component']
+            container_value = row['Granular Container Value']
+            found = False  # Flag to track if Component is found
+
+            # Check if container_value is "[BLANK]" and set 'Comments' to 'Verify'
+            if container_value == "[BLANK]":
+                df.at[index, 'Comments'] = 'Verify'
+                continue
+
+            # Iterate over JSON files
+            for filename in os.listdir('/home/garciagi/SCS_Tool/json'):
+                if filename.endswith('.json'):
+                    json_path = os.path.join('/home/garciagi/SCS_Tool/json', filename)
+                    with open(json_path, 'r', encoding='utf-8') as f:
+                        data = json.load(f)
+                        # Iterate over all keys in the JSON
+                        for key, value in data.items():
+                            if isinstance(value, list):
+                                for entry in value:
+                                    if 'Component' in entry and entry['Component'] == component:
+                                        # Check if Granular Container Value is contained in ContainerValue
+                                        if container_value in entry.get("ContainerValue", ""):
+                                            df.at[index, 'Comments'] = 'OK'
+                                        found = True  # Component found, stop searching
+                                        break
+                            if found:
+                                break
+                if found:
+                    break
+
+        # Export DataFrame to Excel with the updated 'Comments' column
+        df.to_excel('/home/garciagi/SCS_Tool/Granular_QA.xlsx', index=False)
 
     except Exception as e:
         print(e)
-    return
-    
