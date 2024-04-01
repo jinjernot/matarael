@@ -1,5 +1,5 @@
-from app.format_data import formate_data  
 from app.process_data import process_data  
+from app.format_data import formate_data  
 from app.product_line import pl_check  
 from app.qa_av import av_check
 

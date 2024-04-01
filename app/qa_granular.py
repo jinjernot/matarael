@@ -1,6 +1,6 @@
 import pandas as pd
-import os
 import json
+import os
 
 def clean_granular(file):
     try:
