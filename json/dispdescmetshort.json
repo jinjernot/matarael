@@ -681,6 +681,122 @@
             "ContainerValue": "39.6 cm (15.6\") diagonal FHD display"
         },
         {
+            "PhwebDescription": "LCD 11.6 HD AG 250 UWVA flt",
+            "ContainerValue": "29.5 cm (11.6\") diagonal HD display"
+        },
+        {
+            "PhwebDescription": "LCD 11.6 HD AG 250 SVA flt",
+            "ContainerValue": "29.5 cm (11.6\") diagonal HD display"
+        },
+        {
+            "PhwebDescription": "LCD 11.6 HD AG LED 220 UWVA TS slm",
+            "ContainerValue": "29.5 cm (11.6\") diagonal HD touch display"
+        },
+        {
+            "PhwebDescription": "LCD 11.6 HD BV LED UWVA 220 slim TS",
+            "ContainerValue": "29.5 cm (11.6\") diagonal HD touch display"
+        },
+        {
+            "PhwebDescription": "LCD 11.6 HD AG 250 UWVA TOP flt",
+            "ContainerValue": "29.5 cm (11.6\") diagonal HD touch display"
+        },
+        {
+            "PhwebDescription": "LCD 11.6 HD BV LED 250 UWVA TS slm",
+            "ContainerValue": "29.5 cm (11.6\") diagonal HD touch display"
+        },
+        {
+            "PhwebDescription": "LCD 11.6 HD AG LED UWVA 220 TOP slim",
+            "ContainerValue": "29.5 cm (11.6\") diagonal HD touch display"
+        },
+        {
+            "PhwebDescription": "LCD 11.6 HD BV LED 250 UWVA wHDC TS slm",
+            "ContainerValue": "29.5 cm (11.6\") diagonal HD touch display"
+        },
+        {
+            "PhwebDescription": "LCD 11.6 HD BV LED 250 SVA wHDC TS slm",
+            "ContainerValue": "29.5 cm (11.6\") diagonal HD touch display"
+        },
+        {
+            "PhwebDescription": "LCD 11.6 HD BV LED 250UWVAfWWANwHDCTSslm",
+            "ContainerValue": "29.5 cm (11.6\") diagonal HD touch display"
+        },
+        {
+            "PhwebDescription": "LCD 13.3 FHD AG LED 250 UWVA fHDCNWBZslm",
+            "ContainerValue": "33.8 cm (13.3\") diagonal FHD display"
+        },
+        {
+            "PhwebDescription": "LCD 13.3 FHD AG LED 250UWVAfHDCIRNWBZslm",
+            "ContainerValue": "33.8 cm (13.3\") diagonal FHD display"
+        },
+        {
+            "PhwebDescription": "LCD 13.3 FHD BV LED UWVA 250fHDCIRslimTS",
+            "ContainerValue": "33.8 cm (13.3\") diagonal FHD touch display"
+        },
+        {
+            "PhwebDescription": "LCD 13.3FHDAGLwBluLt1000UWVAfHDCIRTSPVG4",
+            "ContainerValue": "33.8 cm (13.3\") diagonal FHD touch display"
+        },
+        {
+            "PhwebDescription": "LCD 13.3 FHD BV LED UWVA 250 fHDC slimTS",
+            "ContainerValue": "33.8 cm (13.3\") diagonal FHD touch display"
+        },
+        {
+            "PhwebDescription": "LCD 13.3 FHDAGLED250UWVAfHDCIRTOPNWBZslm",
+            "ContainerValue": "33.8 cm (13.3\") diagonal FHD touch display"
+        },
+        {
+            "PhwebDescription": "LCD 13.3 WQXGA AG 400 UWVA NWBZ flt",
+            "ContainerValue": "33.8 cm (13.3\") diagonal WQXGA display"
+        },
+        {
+            "PhwebDescription": "LCD 14.0DRMWQXGAAGLED500UWVAfWANf5MPIR12",
+            "ContainerValue": "33.8 cm (13.3\") diagonal WQXGA display"
+        },
+        {
+            "PhwebDescription": "LCD 13.3WUXGAAGWLED+LBL400UWVAf5MPIRALS+",
+            "ContainerValue": "33.8 cm (13.3\") diagonal WUXGA display"
+        },
+        {
+            "PhwebDescription": "LCD 13.3 WUXGA AG LED250UWVAfWWANf5MPbnt",
+            "ContainerValue": "33.8 cm (13.3\") diagonal WUXGA display"
+        },
+        {
+            "PhwebDescription": "LCD 13.3 WUXGA AG LED 250 UWVA f5MP bnt",
+            "ContainerValue": "33.8 cm (13.3\") diagonal WUXGA display"
+        },
+        {
+            "PhwebDescription": "LCD 13.3 WUXGA AG 400 UWVA NWBZ flt",
+            "ContainerValue": "33.8 cm (13.3\") diagonal WUXGA display"
+        },
+        {
+            "PhwebDescription": "LCD 13.3WUXGAAGWLED+LBL400UWVAw5MPIRTSLP",
+            "ContainerValue": "33.8 cm (13.3\") diagonal WUXGA display"
+        },
+        {
+            "PhwebDescription": "LCD 13.3WUXGAAGWLED+LBL400UWVAfWANf5MPIR",
+            "ContainerValue": "33.8 cm (13.3\") diagonal WUXGA display"
+        },
+        {
+            "PhwebDescription": "LCD 13.3 WUXGAAGLED250UWVAfWWANf5MPIRbnt",
+            "ContainerValue": "33.8 cm (13.3\") diagonal WUXGA display"
+        },
+        {
+            "PhwebDescription": "LCD 13.3WUXGAAGLED300UWVAf5MPIRTOPACSNWB",
+            "ContainerValue": "33.8 cm (13.3\") diagonal WUXGA display"
+        },
+        {
+            "PhwebDescription": "LCD 13.3WUXGAAGWLED+LBL400UWVAfWWANw5MPI",
+            "ContainerValue": "33.8 cm (13.3\") diagonal WUXGA display"
+        },
+        {
+            "PhwebDescription": "LCD 13.3WUXGAAGWLED+LBL1000UWVAf5MPSVRAL",
+            "ContainerValue": "33.8 cm (13.3\") diagonal WUXGA display"
+        },
+        {
+            "PhwebDescription": "LCD 13.3 WUXGA AG LED 250 UWVA f5MPIRbnt",
+            "ContainerValue": "33.8 cm (13.3\") diagonal WUXGA display"
+        },
+        {
             "PhwebDescription": "LCD 15.6 FHD AG LED UWVA250144HzNWBZflat",
             "ContainerValue": "39.6 cm (15.6\") diagonal FHD display"
         }

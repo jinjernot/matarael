@@ -437,6 +437,734 @@
             "ContainerValue": "Intel Core i7"
         },
         {
+            "PhwebDescription": "BU RCTOUMAAth3050UHDfnBLnFPRfHDC245G9IND",
+            "ContainerValue": "AMD Athlon"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R5 8640HS 16GB 14",
+            "ContainerValue": "AMD Ryzen 5"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX40506GB R5 8640H 15",
+            "ContainerValue": "AMD Ryzen 5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R5 8640HS 8GB 16",
+            "ContainerValue": "AMD Ryzen 5"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX40608GB R5 8640H 16",
+            "ContainerValue": "AMD Ryzen 5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R5 7430U 15",
+            "ContainerValue": "AMD Ryzen 5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R5 8640U 16GB 13",
+            "ContainerValue": "AMD Ryzen 5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R5 8640H 16GB 14",
+            "ContainerValue": "AMD Ryzen 5"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX30506GB R5 8640H 15",
+            "ContainerValue": "AMD Ryzen 5"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX40506GB R5 8640H 16",
+            "ContainerValue": "AMD Ryzen 5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R5 8640HS 16GB 14 PRC",
+            "ContainerValue": "AMD Ryzen 5"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX30506GB R5 8640H 16",
+            "ContainerValue": "AMD Ryzen 5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R5 5625U nWWAN mt645 G7",
+            "ContainerValue": "AMD Ryzen 5"
+        },
+        {
+            "PhwebDescription": "BU 205 Pro G8 23.8 AiO R5-5500U IDS",
+            "ContainerValue": "AMD Ryzen 5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R5 8540U 16GB 16",
+            "ContainerValue": "AMD Ryzen 5"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX20504GB R5 8640H 15",
+            "ContainerValue": "AMD Ryzen 5"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX40608GB R5 8640H 15",
+            "ContainerValue": "AMD Ryzen 5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R5PRO 8645HS fWWANPower16G11A",
+            "ContainerValue": "AMD Ryzen 5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R5 PRO 8640HS TIPD 865 G11",
+            "ContainerValue": "AMD Ryzen 5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R5 8540U 8GB 16",
+            "ContainerValue": "AMD Ryzen 5"
+        },
+        {
+            "PhwebDescription": "BU RCTOUMAR55625UHDfnBLnFPRfHDC245G9INDI",
+            "ContainerValue": "AMD Ryzen 5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R5 8645HS fWWAN Power 16 G11A",
+            "ContainerValue": "AMD Ryzen 5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R5PRO 8645HS Power 16 G11 A",
+            "ContainerValue": "AMD Ryzen 5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHR5PRO6C TIPD 845 G11",
+            "ContainerValue": "AMD Ryzen 5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R7 8840HS 16GB 14",
+            "ContainerValue": "AMD Ryzen 7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R7 8840HS 16GB 16",
+            "ContainerValue": "AMD Ryzen 7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R7 8840HS 32GB 14",
+            "ContainerValue": "AMD Ryzen 7"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX40608GB R7 8840H 15",
+            "ContainerValue": "AMD Ryzen 7"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX40506GB R7 8840H 15",
+            "ContainerValue": "AMD Ryzen 7"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX40608GB R7 8840H 16",
+            "ContainerValue": "AMD Ryzen 7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R7 8840HS 16GB 14 PRC",
+            "ContainerValue": "AMD Ryzen 7"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX40708GB R7 8840H 16",
+            "ContainerValue": "AMD Ryzen 7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R7 8840HS 16GB 16 PRC",
+            "ContainerValue": "AMD Ryzen 7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R7 8840U 16GB 16",
+            "ContainerValue": "AMD Ryzen 7"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX40506GB R7 8840H 16",
+            "ContainerValue": "AMD Ryzen 7"
+        },
+        {
+            "PhwebDescription": "BU IDSDSCRTX1000Ada6GBR7PRO8845HSfWWANPo",
+            "ContainerValue": "AMD Ryzen 7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R7 8840HS 32GB 14 PRC",
+            "ContainerValue": "AMD Ryzen 7"
+        },
+        {
+            "PhwebDescription": "BU PON 245 G10 23.8 AiO R7-7730U IDS",
+            "ContainerValue": "AMD Ryzen 7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R7 8845HS fWWAN Power 16 G11A",
+            "ContainerValue": "AMD Ryzen 7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHR7 16GB TIPD 835 G11",
+            "ContainerValue": "AMD Ryzen 7"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX30506GB R7 8840H 15",
+            "ContainerValue": "AMD Ryzen 7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R7 8840U 16GB 13",
+            "ContainerValue": "AMD Ryzen 7"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX40708GB R7 8840H 17",
+            "ContainerValue": "AMD Ryzen 7"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX40608GB R7 8840H 17",
+            "ContainerValue": "AMD Ryzen 7"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX40506GB R7 8840H 17",
+            "ContainerValue": "AMD Ryzen 7"
+        },
+        {
+            "PhwebDescription": "BU IDSDSCRTX1000Ada6GBR7PRO8845HSPower16",
+            "ContainerValue": "AMD Ryzen 7"
+        },
+        {
+            "PhwebDescription": "BU RCTODSCRTXA10006GBR78845HSfBLwSQADPow",
+            "ContainerValue": "AMD Ryzen 7"
+        },
+        {
+            "PhwebDescription": "BU RCTO UMA PHR7PRO8C WUXGAfBLTIPD845G10",
+            "ContainerValue": "AMD Ryzen 7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R7 8840H 16GB fOLED 14",
+            "ContainerValue": "AMD Ryzen 7"
+        },
+        {
+            "PhwebDescription": "BU IDSDSCRTX2000Ada8GBR7PRO8845HSfWWANPo",
+            "ContainerValue": "AMD Ryzen 7"
+        },
+        {
+            "PhwebDescription": "BU IDSDSCRTX2000Ada8GBR7PRO8845HSPower16",
+            "ContainerValue": "AMD Ryzen 7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R7PRO 8845HS Power 16 G11 A",
+            "ContainerValue": "AMD Ryzen 7"
+        },
+        {
+            "PhwebDescription": "BU IDSDSCRTX1000Ada6GBR78845HSPower16G11",
+            "ContainerValue": "AMD Ryzen 7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R7 8845HS Power 16 G11 A",
+            "ContainerValue": "AMD Ryzen 7"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX40506GB R7 8840HPower16G11A",
+            "ContainerValue": "AMD Ryzen 7"
+        },
+        {
+            "PhwebDescription": "BU IDSDSCRTX1000Ada6GBR7PRO8845HSnWLANnB",
+            "ContainerValue": "AMD Ryzen 7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R9PRO 8945HS Power 16 G11 A",
+            "ContainerValue": "AMD Ryzen 9"
+        },
+        {
+            "PhwebDescription": "BU IDSDSCRTX2000Ada8GBR9PRO8945HSPower16",
+            "ContainerValue": "AMD Ryzen 9"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX40506GB R9 8940HPower16G11A",
+            "ContainerValue": "AMD Ryzen 9"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX40608GB R9 8940H 17",
+            "ContainerValue": "AMD Ryzen 9"
+        },
+        {
+            "PhwebDescription": "BU IDSDSCRTX2000Ada8GBR9PRO8945HSfWWANPo",
+            "ContainerValue": "AMD Ryzen 9"
+        },
+        {
+            "PhwebDescription": "BU IDSDSCRTX1000Ada6GBR9PRO8945HSPower16",
+            "ContainerValue": "AMD Ryzen 9"
+        },
+        {
+            "PhwebDescription": "BU IDSDSCRTX3000Ada8GBR9PRO8945HSfWWANPo",
+            "ContainerValue": "AMD Ryzen 9"
+        },
+        {
+            "PhwebDescription": "BU IDSDSCRTX3000Ada8GBR9PRO8945HSPower16",
+            "ContainerValue": "AMD Ryzen 9"
+        },
+        {
+            "PhwebDescription": "BU IDSDSCRTX1000Ada6GBR9PRO8945HSfWWANPo",
+            "ContainerValue": "AMD Ryzen 9"
+        },
+        {
+            "PhwebDescription": "BU RCTODSCRTX2000Ada8GBR9PRO8945HSfBLwSQ",
+            "ContainerValue": "AMD Ryzen 9"
+        },
+        {
+            "PhwebDescription": "CPU AMDRyzenThreadripperPRO7965WX24C350W",
+            "ContainerValue": "AMD Ryzen™"
+        },
+        {
+            "PhwebDescription": "CPU AMDRyzenThreadripperPRO7985WX64C350W",
+            "ContainerValue": "AMD Ryzen™"
+        },
+        {
+            "PhwebDescription": "CPU AMDRyzenThreadripperPRO7995WX96C350W",
+            "ContainerValue": "AMD Ryzen™"
+        },
+        {
+            "PhwebDescription": "CPU AMDRyzenThreadripperPRO7945WX12C350W",
+            "ContainerValue": "AMD Ryzen™"
+        },
+        {
+            "PhwebDescription": "CPU AMDRyzenThreadripperPRO7955WX16C350W",
+            "ContainerValue": "AMD Ryzen™"
+        },
+        {
+            "PhwebDescription": "CPU AMDRyzenThreadripperPRO7975WX32C350W",
+            "ContainerValue": "AMD Ryzen™"
+        },
+        {
+            "PhwebDescription": "BU IDS OPP 22-dg0 21.45 AiO N100",
+            "ContainerValue": "Intel Celeron"
+        },
+        {
+            "PhwebDescription": "BU IDS OPP 22-dg0 21.45 AiO J4025",
+            "ContainerValue": "Intel Celeron"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA Core 3 100U 17",
+            "ContainerValue": "Intel Core"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi7xxxx 16GB 14",
+            "ContainerValue": "Intel Core"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA Core 5 120U 17",
+            "ContainerValue": "Intel Core"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA Core 5 120U 15",
+            "ContainerValue": "Intel Core"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA Core 7 150U 17",
+            "ContainerValue": "Intel Core"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA Core 7 150U 15",
+            "ContainerValue": "Intel Core"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA Core 3 100U 15",
+            "ContainerValue": "Intel Core"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA Core 5 120U 16GB 14",
+            "ContainerValue": "Intel Core"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi3xxxx 8GB 14",
+            "ContainerValue": "Intel Core"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA Core 5 120U 14",
+            "ContainerValue": "Intel Core"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA Core 7 150U 14",
+            "ContainerValue": "Intel Core"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA N200 8GB 128GUFS 14b-cd0",
+            "ContainerValue": "Intel Core"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA Core 3 100U 14",
+            "ContainerValue": "Intel Core"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA Core 5 120U 8GB 16, BU IDS UMA PHRi5U 8GB 16",
+            "ContainerValue": "Intel Core"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA N200 4GB 128GUFS 14b-cd0",
+            "ContainerValue": "Intel Core"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi5KT 16GB TIPD 830 G11",
+            "ContainerValue": "Intel Core Ultra 5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi5KT 16GB TIPD x360 830 G11",
+            "ContainerValue": "Intel Core Ultra 5"
+        },
+        {
+            "PhwebDescription": "BU IDS OPP 24-cr1 23.8 i5",
+            "ContainerValue": "Intel Core Ultra 5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA U5-125U TIPD 860 G11",
+            "ContainerValue": "Intel Core Ultra 5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi5KT RTKUSBC 840 G11",
+            "ContainerValue": "Intel Core Ultra 5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA U5-125U 16GB 16",
+            "ContainerValue": "Intel Core Ultra 5"
+        },
+        {
+            "PhwebDescription": "BU IDS OPP 27-cr1 27 i5",
+            "ContainerValue": "Intel Core Ultra 5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA U5-125U 16GB 14",
+            "ContainerValue": "Intel Core Ultra 5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi5RM 16GB TIPD 830 G11",
+            "ContainerValue": "Intel Core Ultra 5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi5RMHW RTKUSBC 14 G11",
+            "ContainerValue": "Intel Core Ultra 5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA U5-125U 8GB 16",
+            "ContainerValue": "Intel Core Ultra 5"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC U5-135H TIPD 14 G11",
+            "ContainerValue": "Intel Core Ultra 5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi5RM RTKUSBC 840 G11",
+            "ContainerValue": "Intel Core Ultra 5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA U5-125H 15",
+            "ContainerValue": "Intel Core Ultra 5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH MTL i5H 16GB 14",
+            "ContainerValue": "Intel Core Ultra 5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA U5-125U 16GB 14 PRC",
+            "ContainerValue": "Intel Core Ultra 5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA U5-135U TIPD 860 G11",
+            "ContainerValue": "Intel Core Ultra 5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA U5-125H 14",
+            "ContainerValue": "Intel Core Ultra 5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHMTLi5H 16GB fOLED 14",
+            "ContainerValue": "Intel Core Ultra 5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA U5-125H 17",
+            "ContainerValue": "Intel Core Ultra 5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA U5-125H 16GB 16",
+            "ContainerValue": "Intel Core Ultra 5"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX40506GB U5-125H Power 16G11",
+            "ContainerValue": "Intel Core Ultra 5"
+        },
+        {
+            "PhwebDescription": "BU IDSDSCRTX500Ada4GBU5-135HfWWANPower16",
+            "ContainerValue": "Intel Core Ultra 5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA U5-135U RTKUSBC 14 G11",
+            "ContainerValue": "Intel Core Ultra 5"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX500Ada4GB U5-135HPower16G11",
+            "ContainerValue": "Intel Core Ultra 5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHMTLi5H 16GB 14",
+            "ContainerValue": "Intel Core Ultra 5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA U5-135H RTKUSBC 16 G11",
+            "ContainerValue": "Intel Core Ultra 5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA U5-135U RTKUSBC 16 G11",
+            "ContainerValue": "Intel Core Ultra 5"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi5RM 16GB TIPD x360 830 G11",
+            "ContainerValue": "Intel Core Ultra 5"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC U7-155H TIPD 16 G11",
+            "ContainerValue": "Intel Core Ultra 7"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC U7-155H TIPD 14 G11",
+            "ContainerValue": "Intel Core Ultra 7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA U7-155U 32GB 14",
+            "ContainerValue": "Intel Core Ultra 7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi7KT 16GB TIPD x360 830 G11",
+            "ContainerValue": "Intel Core Ultra 7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA U7-155U TIPD 860 G11",
+            "ContainerValue": "Intel Core Ultra 7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA U7-155H RTKUSBC 16 G11",
+            "ContainerValue": "Intel Core Ultra 7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA U7-155U 16GB 14",
+            "ContainerValue": "Intel Core Ultra 7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA U7-155U 16GB 16",
+            "ContainerValue": "Intel Core Ultra 7"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX40608GB U7-155H 16GB 14",
+            "ContainerValue": "Intel Core Ultra 7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi7KTHW RTKUSBC 14 G11",
+            "ContainerValue": "Intel Core Ultra 7"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC U7-165H TIPD 14 G11",
+            "ContainerValue": "Intel Core Ultra 7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHMTLi7H 17",
+            "ContainerValue": "Intel Core Ultra 7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA U7-155H 15",
+            "ContainerValue": "Intel Core Ultra 7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi7xxxxU 16GB 15",
+            "ContainerValue": "Intel Core Ultra 7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA U7-155U 32GB 16",
+            "ContainerValue": "Intel Core Ultra 7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi7KT RTKUSBC 840 G11",
+            "ContainerValue": "Intel Core Ultra 7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi7KTHW RTKUSBC 840 G11",
+            "ContainerValue": "Intel Core Ultra 7"
+        },
+        {
+            "PhwebDescription": "BU IDSDSCRTX40506GBfGSyncU7-155H16GBfOLE",
+            "ContainerValue": "Intel Core Ultra 7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi7RMHW RTKUSBC 14 G11",
+            "ContainerValue": "Intel Core Ultra 7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHMTLi7H 32GB 14",
+            "ContainerValue": "Intel Core Ultra 7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHMTLi7H 32GB fOLED 16",
+            "ContainerValue": "Intel Core Ultra 7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA U7-165U TIPD 860 G11",
+            "ContainerValue": "Intel Core Ultra 7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi7RM 16GB TIPD 830 G11",
+            "ContainerValue": "Intel Core Ultra 7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA U7-155U 32GB 14 PRC",
+            "ContainerValue": "Intel Core Ultra 7"
+        },
+        {
+            "PhwebDescription": "BU IDSDSCRTX40506GBfGSyncU7-155H32GBfOLE",
+            "ContainerValue": "Intel Core Ultra 7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA U7-155H 17",
+            "ContainerValue": "Intel Core Ultra 7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA U7-155H 32GB fOLED 14",
+            "ContainerValue": "Intel Core Ultra 7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi7KT 16GB TIPD 830 G11",
+            "ContainerValue": "Intel Core Ultra 7"
+        },
+        {
+            "PhwebDescription": "BU IDS OPP 27-cr1 27 i7",
+            "ContainerValue": "Intel Core Ultra 7"
+        },
+        {
+            "PhwebDescription": "BU IDS OPP 24-cr1 23.8 i7",
+            "ContainerValue": "Intel Core Ultra 7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHMTLi7H 16GB 14",
+            "ContainerValue": "Intel Core Ultra 7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi7RM RTKUSBC 840 G11",
+            "ContainerValue": "Intel Core Ultra 7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi7RM 16GB TIPD x360 830 G11",
+            "ContainerValue": "Intel Core Ultra 7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA U7-155U 16GB 14 PRC",
+            "ContainerValue": "Intel Core Ultra 7"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX30504GB U7-155U 17",
+            "ContainerValue": "Intel Core Ultra 7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHMTLi7H 16GB fOLED 16",
+            "ContainerValue": "Intel Core Ultra 7"
+        },
+        {
+            "PhwebDescription": "BU IDSDSCRTX500Ada4GBU7-155UfWWANPower16",
+            "ContainerValue": "Intel Core Ultra 7"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX500Ada4GB U7-165HPower16G11",
+            "ContainerValue": "Intel Core Ultra 7"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX2000Ada8GBU7-165HPower16G11",
+            "ContainerValue": "Intel Core Ultra 7"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX1000Ada6GBU7-165HPower16G11",
+            "ContainerValue": "Intel Core Ultra 7"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX40506GB U7-155H 32GB 16",
+            "ContainerValue": "Intel Core Ultra 7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA U7-165U RTKUSBC 16 G11",
+            "ContainerValue": "Intel Core Ultra 7"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX40506GB U7-155H 16GB 14",
+            "ContainerValue": "Intel Core Ultra 7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA U7-165U RTKUSBC 14 G11",
+            "ContainerValue": "Intel Core Ultra 7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi7RM OSR RTKUSBC 840 G11",
+            "ContainerValue": "Intel Core Ultra 7"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX3000Ada8GBU7-165HPower16G11",
+            "ContainerValue": "Intel Core Ultra 7"
+        },
+        {
+            "PhwebDescription": "BU IDSDSCRTX1000Ada6GBU7-165HnWLANnBTPow",
+            "ContainerValue": "Intel Core Ultra 7"
+        },
+        {
+            "PhwebDescription": "BU IDSDSCRTX1000Ada6GBU7-165HfWWANPower1",
+            "ContainerValue": "Intel Core Ultra 7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA U7-155H 32GB 16",
+            "ContainerValue": "Intel Core Ultra 7"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX500Ada4GB U7-155UPower16G11",
+            "ContainerValue": "Intel Core Ultra 7"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX2000Ada8GBU7-155HPower16G11",
+            "ContainerValue": "Intel Core Ultra 7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA U7-155H 16GB 16",
+            "ContainerValue": "Intel Core Ultra 7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA U7-165H32GBOSRTIPDx3601040G11",
+            "ContainerValue": "Intel Core Ultra 7"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCMX570A4GB U7-155U 32GB 16",
+            "ContainerValue": "Intel Core Ultra 7"
+        },
+        {
+            "PhwebDescription": "BU RCTODSCRTX3000Ada8GBU7-165HfBLwSQADPo",
+            "ContainerValue": "Intel Core Ultra 7"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX1000Ada6GBU7-155HPower16G11",
+            "ContainerValue": "Intel Core Ultra 7"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA U7-165H 32GB OSR TIPD 1040G11",
+            "ContainerValue": "Intel Core Ultra 7"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX40708GB U9-185H 32GB 14",
+            "ContainerValue": "Intel Core Ultra 9"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX40608GB U9-185H 32GB 14",
+            "ContainerValue": "Intel Core Ultra 9"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX2000Ada8GBU9-185HPower16G11",
+            "ContainerValue": "Intel Core Ultra 9"
+        },
+        {
+            "PhwebDescription": "BU IDSDSCRTX3000Ada8GBU9-185HfWWANPower1",
+            "ContainerValue": "Intel Core Ultra 9"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX40708GB U9-185H 16GB 14",
+            "ContainerValue": "Intel Core Ultra 9"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX1000Ada6GBU9-185HPower16G11",
+            "ContainerValue": "Intel Core Ultra 9"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX3000Ada8GBU9-185HPower16G11",
+            "ContainerValue": "Intel Core Ultra 9"
+        },
+        {
             "PhwebDescription": "BU IDS UMA PHi5xxxx 250 G10",
             "ContainerValue": "Intel Core i5"
         },

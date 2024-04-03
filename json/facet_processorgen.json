@@ -45,6 +45,438 @@
             "ContainerValue": "12th Generation"
         },
         {
+            "PhwebDescription": "BU IDS UMA PH i3-xxxx 8GB x360 11 G10",
+            "ContainerValue": "12th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-KT vProE 650 G9",
+            "ContainerValue": "12th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-KT vProE 640 G9",
+            "ContainerValue": "12th Generation"
+        },
+        {
+            "PhwebDescription": "BU RCTO UMA PH i5-KT HD fnBL fHDC 450 G9",
+            "ContainerValue": "12th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1245U 16GB Dfly CHB",
+            "ContainerValue": "12th Generation"
+        },
+        {
+            "PhwebDescription": "BU RCTO UMA PH i5-KT FHD fnBL fHDC 450G9",
+            "ContainerValue": "12th Generation"
+        },
+        {
+            "PhwebDescription": "CPU INTL i5-12400 6C 2.50",
+            "ContainerValue": "12th Generation"
+        },
+        {
+            "PhwebDescription": "BU RCTO UMA PH i3-KT HD fnBL fHDC 450 G9",
+            "ContainerValue": "12th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX40506GB i5-12450H 15",
+            "ContainerValue": "12th Generation"
+        },
+        {
+            "PhwebDescription": "BU 200 Pro G4 AiO i3-1215U IDS",
+            "ContainerValue": "12th Generation"
+        },
+        {
+            "PhwebDescription": "BU RCTOUMAi3-1215UFHD400CPfBLfHDCIR630G9",
+            "ContainerValue": "12th Generation"
+        },
+        {
+            "PhwebDescription": "CPU INTL i5- XXXX 1.10 35W",
+            "ContainerValue": "12th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1334U 250 G10",
+            "ContainerValue": "13th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1334U 470 G10",
+            "ContainerValue": "13th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1334U RTKUSBC 450 G10",
+            "ContainerValue": "13th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1345U fWWAN TIPD 650 G10",
+            "ContainerValue": "13th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1334U 15",
+            "ContainerValue": "13th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1365U RTKUSBC 1040 G10",
+            "ContainerValue": "13th Generation"
+        },
+        {
+            "PhwebDescription": "BU RCTOUMAi5-1334UHDfnBLfHDCTIPD450G10JP",
+            "ContainerValue": "13th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX408012GB i7-13700HStudioG10",
+            "ContainerValue": "13th Generation"
+        },
+        {
+            "PhwebDescription": "BU RCTO UMAi5-1335UHDfnBLfHDCTIPD450G10J",
+            "ContainerValue": "13th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCMX570A2GB i5-1334U 15",
+            "ContainerValue": "13th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1345U fWWAN TIPD 640 G10",
+            "ContainerValue": "13th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1334U fWWAN RTKUSBC 440G10",
+            "ContainerValue": "13th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1334U 17",
+            "ContainerValue": "13th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCMX570A2GB i7-1355U 15",
+            "ContainerValue": "13th Generation"
+        },
+        {
+            "PhwebDescription": "BU RCTOUMAi5-1335UfWWANRTKUSBC640G10BRZP",
+            "ContainerValue": "13th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX40608GB i7-13620H 15",
+            "ContainerValue": "13th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDS i7-13850HX nWWAN Fury 16 G11",
+            "ContainerValue": "13th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-RM HW TI PD IC 14 G10",
+            "ContainerValue": "13th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDS i9-13950HX nWWAN Fury 16 G11",
+            "ContainerValue": "13th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDS i9-13950HX fWWAN Fury 16 G11",
+            "ContainerValue": "13th Generation"
+        },
+        {
+            "PhwebDescription": "BU RCTOUMAi7-1365UfWWANRTKUSBC640G10BRZP",
+            "ContainerValue": "13th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1370P TIPD 1040 G10",
+            "ContainerValue": "13th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDS Envy 23.8 AiO 16GB i3-1315U",
+            "ContainerValue": "13th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX3000Ada8GBi7-13800HPower15.",
+            "ContainerValue": "13th Generation"
+        },
+        {
+            "PhwebDescription": "BU RCTOUMAi5-1345UfWWANRTKUSBC640G10BRZP",
+            "ContainerValue": "13th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDS i7-13850HX fWWAN Fury 16 G11",
+            "ContainerValue": "13th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-RM OSR RTK USBC 860 G10",
+            "ContainerValue": "13th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-RM HW RTK USBC 860 G10",
+            "ContainerValue": "13th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1334U TIPD 440 G10",
+            "ContainerValue": "13th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi7KTHW RTKUSBC 440 G10",
+            "ContainerValue": "13th Generation"
+        },
+        {
+            "PhwebDescription": "BU RCTO UMA i7-1370P wBL TIPD 840 G10",
+            "ContainerValue": "13th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX40506GB i7-13620H 15",
+            "ContainerValue": "13th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1334U RTKUSBC 440 G10",
+            "ContainerValue": "13th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA5004GBi7-13800HPower15.6G1",
+            "ContainerValue": "13th Generation"
+        },
+        {
+            "PhwebDescription": "CPU INTL i5-13600T 1.80 14C 35W",
+            "ContainerValue": "13th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA10006GB i7-13800HStudioG10",
+            "ContainerValue": "13th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1345U TIPD 650 G10",
+            "ContainerValue": "13th Generation"
+        },
+        {
+            "PhwebDescription": "BU RCTODSCRTXA10006GBi7-13800HPower15.6G",
+            "ContainerValue": "13th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1335U vProEfWWANTIPD650G10",
+            "ContainerValue": "13th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDS i5-13600HX nWWAN Fury 16 G11",
+            "ContainerValue": "13th Generation"
+        },
+        {
+            "PhwebDescription": "BU RCTOUMAi5-1334UHDfBLFPRwFHDC250G10IND",
+            "ContainerValue": "13th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1335U 8GB TIPD x3601040G10",
+            "ContainerValue": "13th Generation"
+        },
+        {
+            "PhwebDescription": "CPU INTL i7-14700T vPro Ent 5.00 20C 35W",
+            "ContainerValue": "14th Generation"
+        },
+        {
+            "PhwebDescription": "CPU INTL i7-14700K vPro Ent 5.60 20C125W",
+            "ContainerValue": "14th Generation"
+        },
+        {
+            "PhwebDescription": "CPU INTL i3-14100 4.70 4C 65W",
+            "ContainerValue": "14th Generation"
+        },
+        {
+            "PhwebDescription": "CPU INTL i5-14600K vPro Ent 5.30 14C125W",
+            "ContainerValue": "14th Generation"
+        },
+        {
+            "PhwebDescription": "CPU INTL i7-14700 vPro Ent 5.40 20C 65W",
+            "ContainerValue": "14th Generation"
+        },
+        {
+            "PhwebDescription": "CPU INTL i9-14900K vPro Ent 6.00G24C125W",
+            "ContainerValue": "14th Generation"
+        },
+        {
+            "PhwebDescription": "CPU INTL i9-14900 vPro Ent 5.80 24C 65W",
+            "ContainerValue": "14th Generation"
+        },
+        {
+            "PhwebDescription": "CPU INTL i5-14400 TBD 10C 65W",
+            "ContainerValue": "14th Generation"
+        },
+        {
+            "PhwebDescription": "CPU INTL i7-14700K5.6020C125W120mmRGBLCS",
+            "ContainerValue": "14th Generation"
+        },
+        {
+            "PhwebDescription": "CPU INTL i7-14700F 5.40 20C 65W",
+            "ContainerValue": "14th Generation"
+        },
+        {
+            "PhwebDescription": "CPU INTL i9-14900K TBD24C125W120mmRGBLCS",
+            "ContainerValue": "14th Generation"
+        },
+        {
+            "PhwebDescription": "CPU INTL i7-14700 5.40 20C 65W",
+            "ContainerValue": "14th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX40506GB i5-14500HX 16",
+            "ContainerValue": "14th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX40506GB i7-14700HX 16",
+            "ContainerValue": "14th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX40708GB i7-14700HX 16",
+            "ContainerValue": "14th Generation"
+        },
+        {
+            "PhwebDescription": "CPU INTL i7-14700F TBD 20C 65W 2HPAir",
+            "ContainerValue": "14th Generation"
+        },
+        {
+            "PhwebDescription": "CPU INTL i7-14700F 5.40 20C 65W2HPRGBAir",
+            "ContainerValue": "14th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX40708GB fGSync i7-14700HX16",
+            "ContainerValue": "14th Generation"
+        },
+        {
+            "PhwebDescription": "CPU INTL i9-14900K TBD24C125W360mmRGBLCS",
+            "ContainerValue": "14th Generation"
+        },
+        {
+            "PhwebDescription": "CPU INTL i7-14700K5.6020C125W360mmRGBLCS",
+            "ContainerValue": "14th Generation"
+        },
+        {
+            "PhwebDescription": "CPU INTL i7-14700F 5.4020C65W120mmRGBLCS",
+            "ContainerValue": "14th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX408012GB fGSynci9-14900HX16",
+            "ContainerValue": "14th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX40608GB i7-14700HX 16",
+            "ContainerValue": "14th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX40708GB fGSync i9-14900HX16",
+            "ContainerValue": "14th Generation"
+        },
+        {
+            "PhwebDescription": "CPU INTL i5-14400F TBD 10C 65W 2HPAir",
+            "ContainerValue": "14th Generation"
+        },
+        {
+            "PhwebDescription": "CPU INTL i5-14400F 4.70 10C 65W",
+            "ContainerValue": "14th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDSDSCRTX40708GBfGSynci9-14900HX16PRC",
+            "ContainerValue": "14th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDSDSCRTX40608GBfGSynci9-14900HX16PRC",
+            "ContainerValue": "14th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX40608GB i5-14450HX 16",
+            "ContainerValue": "14th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX40506GB fGSync i7-14700HX16",
+            "ContainerValue": "14th Generation"
+        },
+        {
+            "PhwebDescription": "CPU INTL i7-14700KF TBD 20C 125W120mmLCS",
+            "ContainerValue": "14th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX40708GB i7-14650HX 16",
+            "ContainerValue": "14th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX40608GB i7-14650HX 16",
+            "ContainerValue": "14th Generation"
+        },
+        {
+            "PhwebDescription": "CPU INTL i7-14700F TBD 20C 65W 3HPRGBAir",
+            "ContainerValue": "14th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDS i7-14700HX nWWAN Fury 16 G11",
+            "ContainerValue": "14th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX40608GB fGSync i9-14900HX16",
+            "ContainerValue": "14th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX40608GB fGSync i7-14700HX16",
+            "ContainerValue": "14th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDS i9-14900HX nWWAN Fury 16 G11",
+            "ContainerValue": "14th Generation"
+        },
+        {
+            "PhwebDescription": "CPU INTL i5-14400F TBD 10C 65W 3HPRGBAir",
+            "ContainerValue": "14th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX40506GB i7-14650HX 16",
+            "ContainerValue": "14th Generation"
+        },
+        {
+            "PhwebDescription": "CPU INTL i5-14400 4.70 10C 65W",
+            "ContainerValue": "14th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDS i9-14900HX fWWAN Fury 16 G11",
+            "ContainerValue": "14th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX40506GB fGSync i5-14500HX16",
+            "ContainerValue": "14th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX30506GB i5-14450HX 16",
+            "ContainerValue": "14th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX40608GB fGSync i5-14500HX16",
+            "ContainerValue": "14th Generation"
+        },
+        {
+            "PhwebDescription": "CPU INTL i5-14600 vPro Ent 5.20 14C 65W",
+            "ContainerValue": "14th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDS i7-14700HX fWWAN Fury 16 G11",
+            "ContainerValue": "14th Generation"
+        },
+        {
+            "PhwebDescription": "CPU INTL i5-14500 vPro Ent 5.00 14C 65W",
+            "ContainerValue": "14th Generation"
+        },
+        {
+            "PhwebDescription": "CPU INTL i5-14500T vPro Ent 4.80 14C 35W",
+            "ContainerValue": "14th Generation"
+        },
+        {
+            "PhwebDescription": "CPU INTL i3-14100T 4.40 4C 35W",
+            "ContainerValue": "14th Generation"
+        },
+        {
+            "PhwebDescription": "CPU INTL i5-14400 TBD 10C 65W",
+            "ContainerValue": "14th Generation"
+        },
+        {
+            "PhwebDescription": "CPU INTL i5-14400F 4.70 10C 65W2HPRGBAir",
+            "ContainerValue": "14th Generation"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-8650U 840 G5",
+            "ContainerValue": "8th Generation"
+        },
+        {
+            "PhwebDescription": "CPU I Core i5-8500 6C",
+            "ContainerValue": "8th Generation"
+        },
+        {
             "PhwebDescription": "BU IDS OPP 24-cb1 23.8 i3-11xx",
             "ContainerValue": "12th Generation"
         },

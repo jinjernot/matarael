@@ -56,6 +56,10 @@
     color: black;
   }
 
+  .small-text {
+    font-size: 12px; 
+}
+
   .custom-button {
     border: 1px solid #e6e6e6;
     background-color: #0096d6;

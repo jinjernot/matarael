@@ -105,6 +105,206 @@
             "ContainerValue": "Pale gold"
         },
         {
+            "PhwebDescription": "ID ABL ALU",
+            "ContainerValue": "Atmospheric blue"
+        },
+        {
+            "PhwebDescription": "ID CCW PLA wHDC TNR HyperX",
+            "ContainerValue": "Ceramic white"
+        },
+        {
+            "PhwebDescription": "ID CCW MAG+ALU fOLED JPN layout HyperX",
+            "ContainerValue": "Ceramic white"
+        },
+        {
+            "PhwebDescription": "ID CCW PLA HyperX fThin",
+            "ContainerValue": "Ceramic white"
+        },
+        {
+            "PhwebDescription": "ID GLS PT wHDC US layout",
+            "ContainerValue": "Chalkboard gray"
+        },
+        {
+            "PhwebDescription": "ID CBG PLA wHDC US layout",
+            "ContainerValue": "Chalkboard gray"
+        },
+        {
+            "PhwebDescription": "ID DMW PLA wHDC+PCSD",
+            "ContainerValue": "Diamond white"
+        },
+        {
+            "PhwebDescription": "ID GLS ALU",
+            "ContainerValue": "Glacier silver"
+        },
+        {
+            "PhwebDescription": "ID GLS PLA wHDC JPN layout f2USB-C",
+            "ContainerValue": "Glacier silver"
+        },
+        {
+            "PhwebDescription": "ID GLS PLA wHDC US layout f2USB-C",
+            "ContainerValue": "Glacier silver"
+        },
+        {
+            "PhwebDescription": "ID JTB PLA wHDC nFPR USB-C",
+            "ContainerValue": "Jet black"
+        },
+        {
+            "PhwebDescription": "ID LLA PLA wHDC US layout",
+            "ContainerValue": "Lilac lavender"
+        },
+        {
+            "PhwebDescription": "ID MSV ALU wFHDC",
+            "ContainerValue": "Meteor silver"
+        },
+        {
+            "PhwebDescription": "ID MSV ALU",
+            "ContainerValue": "Meteor silver"
+        },
+        {
+            "PhwebDescription": "ID MSV PT wFHDC US layout PLUS",
+            "ContainerValue": "Meteor silver"
+        },
+        {
+            "PhwebDescription": "ID MSV PLA",
+            "ContainerValue": "Meteor silver"
+        },
+        {
+            "PhwebDescription": "ID MCS PLA HyperX",
+            "ContainerValue": "Mica silver"
+        },
+        {
+            "PhwebDescription": "ID MCS PLA wHDC TNR HyperX",
+            "ContainerValue": "Mica silver"
+        },
+        {
+            "PhwebDescription": "ID MCS PLA JPN layout HyperX",
+            "ContainerValue": "Mica silver"
+        },
+        {
+            "PhwebDescription": "ID MCS PLA HyperX fThin",
+            "ContainerValue": "Mica silver"
+        },
+        {
+            "PhwebDescription": "ID MSV PLA wFHDC US layout PLUS",
+            "ContainerValue": "Mineral silver"
+        },
+        {
+            "PhwebDescription": "ID MGB ALU poly studio",
+            "ContainerValue": "Moonlight blue"
+        },
+        {
+            "PhwebDescription": "ID NSV ALU poly studio",
+            "ContainerValue": "Natural silver"
+        },
+        {
+            "PhwebDescription": "ID NSV ALU wFHDC",
+            "ContainerValue": "Natural silver"
+        },
+        {
+            "PhwebDescription": "ID NSV ALU w5MPC TNR poly studio",
+            "ContainerValue": "Natural silver"
+        },
+        {
+            "PhwebDescription": "ID NSV +NSV PLA + ALU w5MPC FPRnWWANnBEO",
+            "ContainerValue": "Natural silver"
+        },
+        {
+            "PhwebDescription": "ID NSV +NSV PLA + ALU w5MPCnFPRnWWANnBEO",
+            "ContainerValue": "Natural silver"
+        },
+        {
+            "PhwebDescription": "ID NSV +NSV PLA+PLA wHDCTNRnFPRnWWANnBEO",
+            "ContainerValue": "Natural silver"
+        },
+        {
+            "PhwebDescription": "ID NSV MAG+ALU",
+            "ContainerValue": "Natural silver"
+        },
+        {
+            "PhwebDescription": "ID NSV PLA wFHDC PCSD",
+            "ContainerValue": "Natural silver"
+        },
+        {
+            "PhwebDescription": "ID NSV PLA wFHDC FPR JPN layout USB-C",
+            "ContainerValue": "Natural silver"
+        },
+        {
+            "PhwebDescription": "ID NSV PLA wFHDC nFPR USB-C",
+            "ContainerValue": "Natural silver"
+        },
+        {
+            "PhwebDescription": "ID NSV ALU wFHDC IR",
+            "ContainerValue": "Natural silver"
+        },
+        {
+            "PhwebDescription": "ID NSV +NSV PLA+PLA wHDC TNRFPRnWWANnBEO",
+            "ContainerValue": "Natural silver"
+        },
+        {
+            "PhwebDescription": "ID NSV PLA wFHDC PCSD FPR",
+            "ContainerValue": "Natural silver"
+        },
+        {
+            "PhwebDescription": "ID NSV PLA wHDC nFPR USB-C",
+            "ContainerValue": "Natural silver"
+        },
+        {
+            "PhwebDescription": "ID NSV PLA wHDC FPR USB-C",
+            "ContainerValue": "Natural silver"
+        },
+        {
+            "PhwebDescription": "ID PRG PLA w5MPC FPR nWWAN nBEO",
+            "ContainerValue": "Pale golden rose"
+        },
+        {
+            "PhwebDescription": "ID PFB PLA HyperX",
+            "ContainerValue": "Performance blue"
+        },
+        {
+            "PhwebDescription": "ID PFB PLA wHDC TNR HyperX",
+            "ContainerValue": "Performance blue"
+        },
+        {
+            "PhwebDescription": "ID SDB ALU US layout HyperX",
+            "ContainerValue": "Shadow black"
+        },
+        {
+            "PhwebDescription": "ID SDB MAG+ALU US layout nBEO",
+            "ContainerValue": "Shadow black"
+        },
+        {
+            "PhwebDescription": "ID SDB MAG+ALU fOLED US layout HyperX",
+            "ContainerValue": "Shadow black"
+        },
+        {
+            "PhwebDescription": "ID SDB ALU US layout with Num Pad HyperX",
+            "ContainerValue": "Shadow black"
+        },
+        {
+            "PhwebDescription": "ID SYB PLA wHDC US layout",
+            "ContainerValue": "Sky black"
+        },
+        {
+            "PhwebDescription": "ID SYB ALU wFHDC IR",
+            "ContainerValue": "Sky blue"
+        },
+        {
+            "PhwebDescription": "ID SBL ALU US layout",
+            "ContainerValue": "Slate blue"
+        },
+        {
+            "PhwebDescription": "ID SCB PLA wHDC TNR FPR nWWAN nBEO",
+            "ContainerValue": "Space blue"
+        },
+        {
+            "PhwebDescription": "ID TUP ALU poly studio",
+            "ContainerValue": "Tranquil pink"
+        },
+        {
+            "PhwebDescription": "ID WGD ALU",
+            "ContainerValue": "Warm gold"
+        },
+        {
             "PhwebDescription": "ID CCW ALU nSDC wHDC TNR FPR",
             "ContainerValue": "Ceramic white"
         },

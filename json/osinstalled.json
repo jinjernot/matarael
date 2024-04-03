@@ -777,6 +777,42 @@
             "ContainerValue": "Windows 11 Home Single Language"
         },
         {
+            "PhwebDescription": "OST Chrome Premium wChromeEdUpg",
+            "ContainerValue": "ChromeOS"
+        },
+        {
+            "PhwebDescription": "OST Chrome Non-Premium",
+            "ContainerValue": "ChromeOS"
+        },
+        {
+            "PhwebDescription": "No OS Software",
+            "ContainerValue": "No operating system"
+        },
+        {
+            "PhwebDescription": "OST UBTLINUX 22.04",
+            "ContainerValue": "Ubuntu"
+        },
+        {
+            "PhwebDescription": "OST W11H6 SL AF PPP",
+            "ContainerValue": "Windows 10 Home Single Language – HP recommends Windows 11 Pro for business"
+        },
+        {
+            "PhwebDescription": "LOC W10P6",
+            "ContainerValue": "Windows 10 Pro"
+        },
+        {
+            "PhwebDescription": "OST W10P6 MSNA STD",
+            "ContainerValue": "Windows 10 Pro"
+        },
+        {
+            "PhwebDescription": "OST NWZH6 PLS SL IDPPP",
+            "ContainerValue": "Windows 11 Home Single Language"
+        },
+        {
+            "PhwebDescription": "OST NWZH6 SL IDPPP",
+            "ContainerValue": "Windows 11 Home Single Language"
+        },
+        {
             "PhwebDescription": "OST NWZH6 VA SL",
             "ContainerValue": "Windows 11 Home Single Language"
         }
