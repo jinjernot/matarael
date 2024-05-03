@@ -11,16 +11,16 @@ def clean_report(file):
     try:
         # Reading Excel file
         # df = pd.read_excel(file, engine='openpyxl')
-        df = pd.read_excel(file.stream, engine='openpyxl')  # Reading Excel file from a stream
+        df = pd.read_excel(file.stream, engine='openpyxl')  # Reading Excel file / server side
 
-        # Columns to drop from DataFrame
+        # Columns to drop from df
         cols_to_drop = ['Option', 'Status', 'SKU_FirstAppearanceDate', 'SKU_CompletionDate', 'SKU_Aging', 'PhwebValue', 'ExtendedDescription', 'ComponentCompletionDate', 'ComponentReadiness', 'SKUReadiness']
         df = df.drop(cols_to_drop, axis=1)
 
-        # Adding new columns to DataFrame
+        # Adding new columns to df
         df[['Accuracy', 'Correct Value', 'Additional Information']] = ''
         
-        # Checking product line
+        # Checking PL
         pl_check(df)
 
         # Filtering out rows where ContainerValue and ContainerName are '[BLANK]'
@@ -42,7 +42,7 @@ def clean_report(file):
         # Converting ContainerValue column to string type
         df['ContainerValue'] = df['ContainerValue'].astype(str)
 
-        # Loading JSON data
+        # Load JSON data
         with open('/home/garciagi/SCS_Tool/app/data.json', 'r') as json_file:
         #with open('app/data.json', 'r') as json_file:
             json_data = json.load(json_file)
@@ -54,20 +54,19 @@ def clean_report(file):
         df = df.drop(rows_to_delete)
 
         # Processing JSON files in a directory
-        for x in os.listdir('/home/garciagi/SCS_Tool/json'):
-        #for x in os.listdir('json'):
+        for x in os.listdir('/home/garciagi/SCS_Tool/json'): # server side
+        #for x in os.listdir('json'): # local side
             if x.endswith('.json'):
                 container_name = x.split('.')[0]
                 container_df = df[df['ContainerName'] == container_name]
-                process_data(os.path.join('/home/garciagi/SCS_Tool/json', x), container_name, container_df, df)
+                process_data(os.path.join('/home/garciagi/SCS_Tool/json', x), container_name, container_df, df) #server side
                 #process_data(os.path.join('json', x), container_name, container_df, df)
         
-
         # Validate AV's
         av_check(df)
         
         # Writing DataFrame to Excel file
-        df.to_excel('/home/garciagi/SCS_Tool/SCS_QA.xlsx', index=False)
+        df.to_excel('/home/garciagi/SCS_Tool/SCS_QA.xlsx', index=False) # server
         #df.to_excel('SCS_QA.xlsx', index=False)
         
         # Formatting data
