@@ -1,7 +1,7 @@
-from app.process_data import process_data  
-from app.format_data import formate_data  
-from app.product_line import pl_check  
-from app.qa_av import av_check
+from app.core.process_data import process_data  
+from app.core.format_data import formate_data  
+from app.core.product_line import pl_check  
+from app.core.qa_av import av_check
 
 import pandas as pd
 import json
@@ -43,8 +43,8 @@ def clean_report(file):
         df['ContainerValue'] = df['ContainerValue'].astype(str)
 
         # Load JSON data
-        with open('/home/garciagi/SCS_Tool/app/data.json', 'r') as json_file:
-        #with open('app/data.json', 'r') as json_file:
+        with open('/home/garciagi/SCS_Tool/app/core/data/component_groups.json', 'r') as json_file:
+        #with open('app/core/data/component_groups.json', 'r') as json_file:
             json_data = json.load(json_file)
         groups = json_data['Groups']
         

@@ -2,8 +2,8 @@ import json
 
 def pl_check(df):
     # Read JSON data from the external file
-    with open("/home/garciagi/SCS_Tool/app/PL.json", "r") as json_file:
-    #with open('data/PL.json', 'r') as json_file:
+    with open("/home/garciagi/SCS_Tool/app/core/data/product_lines.json", "r") as json_file:
+    #with open('app/core/data/product_lines.json', 'r') as json_file:
         json_data = json.load(json_file)
 
     # Iterate through each product line in the JSON

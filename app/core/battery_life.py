@@ -3,7 +3,6 @@ import pandas as pd
 def battery_life(file, file2):
     df = pd.read_excel(file.stream, engine='openpyxl') 
     
-
     # Create a new DataFrame       
     battery_life_df = pd.DataFrame(columns=['SKU', 'displaybright', 'displaymet', 'displaycolorgamut',
                                        'facet_maxres', 'graphicseg_01header', 'processorname',
