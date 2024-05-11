@@ -32,7 +32,7 @@ def upload_file():
         if is_valid_password(password):
             return render_template('index2.html')  # Render index2 template if password is valid
         else:
-            return render_template('error', error_message='Incorrect password')  # Render error template if password is invalid
+            return render_template('error.html', error_message='Incorrect password')  # Render error template if password is invalid
     return render_template('index.html')  # Render index page
 
 # Route for regular files
@@ -82,10 +82,9 @@ def process_file_battery():
 
 # Route for matrix file
 @app.route('/scs-matrix-file', methods=['POST'])
-def process_matrix_file():
+def process_file_matrix():
     if 'matrix' in request.files:
-        file = request.files['battery']
-        file2 = request.files['life']
+        file = request.files['matrix']
         
         try:
             if allowed_file(file.filename):  # Check if the file has a valid extension
@@ -153,7 +152,7 @@ def battery_life_content():
     return render_template('battery_life.html')
 
 @app.route('/scs-matrix-file')
-def battery_life_content():
+def matrix_file_content():
     return render_template('matrix_file.html')
 
 @app.route('/scs-json-upload')

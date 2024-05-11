@@ -110,7 +110,8 @@
         },
         {
             "PhwebDescription": "BATT 3C 58 WHr Long Life",
-            "ContainerValue": "HP Long Life 3-cell, 58 Wh Li-ion"
+            "ContainerValue": "HP Long Life 3-cell, 58 Wh Li-ion",
+            "Component":"761Y4AV"
         },
         {
             "PhwebDescription": "BATT 6 cell C Long Life 83Whr FstCrg",

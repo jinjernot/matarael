@@ -2,7 +2,8 @@
     "batteryrechrg": [
         {
             "PhwebDescription": "ACADPT 65 Watt Smart nPFC RA",
-            "ContainerValue": "Supports battery fast charge: approximately 50% in 30 minutes"
+            "ContainerValue": "Supports battery fast charge: approximately 50% in 30 minutes",
+            "Component":"761Y4AV"
         },
         {
             "PhwebDescription": "ACADPT 90 Watt Smart PFC RA",

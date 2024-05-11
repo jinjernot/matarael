@@ -185,6 +185,14 @@ pre {
   align-items: right;
 }
 
+.footer-container {
+  background-color: #ffffff;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding: 1%;
+  text-align: right;
+}
+
 #error-message {
   display: flex;
   justify-content: center;
