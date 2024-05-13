@@ -43,8 +43,8 @@ def clean_report(file):
         df['ContainerValue'] = df['ContainerValue'].astype(str)
 
         # Load JSON data
-        with open('/home/garciagi/SCS_Tool/app/core/data/component_groups.json', 'r') as json_file:
-        #with open('app/core/data/component_groups.json', 'r') as json_file:
+        with open('/home/garciagi/SCS_Tool/app/data/component_groups.json', 'r') as json_file:
+        #with open('app/data/component_groups.json', 'r') as json_file:
             json_data = json.load(json_file)
         groups = json_data['Groups']
         
