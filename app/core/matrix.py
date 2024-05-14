@@ -2,7 +2,6 @@ import pandas as pd
 import os
 import json
 
-# Function to search for a specific value in JSON files within specified container names
 def search_json_files(value, container_names):
     json_folder = "json"  # Folder containing JSON files
     for filename in os.listdir(json_folder):  # Iterate through files in the JSON folder
@@ -19,21 +18,28 @@ def search_json_files(value, container_names):
                                 return filename.split(".")[0], container_value  # Return matching file and value
     return None, None  # Return None if no match is found
 
-# Function to load component groups from a JSON file
 def load_component_groups():
     with open('app/data/component_groups.json', 'r', encoding='utf-8') as json_file:
         component_groups = json.load(json_file)  # Load component groups data
     # Create a dictionary mapping component groups to container names
     return {group['ComponentGroup']: group['ContainerName'] for group in component_groups['Groups']}
 
-# Main function to process the Excel file and search JSON files
+def clean_characteristic(value):
+    # List of substrings to remove
+    to_remove = ["0.00,", "2.00,", "6.00,", "8.00,", "4.00,", "16.00,", "2.00G", "Intel Core"]
+    for substring in to_remove:
+        value = value.replace(substring, "")  # Replace each substring with an empty string
+    return value.strip()  # Remove leading/trailing whitespace
+
 def matrix_file():
     try:
         component_groups = load_component_groups()  # Load component groups
 
         df = pd.read_excel("compo.xlsx", engine='openpyxl', skiprows=1)  # Load the Excel file into a DataFrame
         df = df.dropna(subset=["Characteristic"])  # Drop rows with NaN values in the "Characteristic" column
-        df["Characteristic"] = df["Characteristic"].str.strip()  # Strip whitespace from the "Characteristic" column
+        
+        # Clean the "Characteristic" column
+        df["Characteristic"] = df["Characteristic"].apply(clean_characteristic)
 
         group_data = {group: [] for group in component_groups}  # Dictionary to store data for each group
 
