@@ -778,7 +778,7 @@
         },
         {
             "PhwebDescription": "BU IDS UMA N200 8GB 128GUFS 14b-cd0",
-            "ContainerValue": "Intel Core"
+            "ContainerValue": "Intel N-series"
         },
         {
             "PhwebDescription": "BU IDS UMA Core 3 100U 14",
