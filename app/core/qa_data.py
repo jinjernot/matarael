@@ -10,7 +10,6 @@ import os
 def clean_report(file):
     try:
         # Reading Excel file
-        # df = pd.read_excel(file, engine='openpyxl')
         df = pd.read_excel(file.stream, engine='openpyxl')  # Reading Excel file / server side
 
         # Columns to drop from df
@@ -62,13 +61,15 @@ def clean_report(file):
                 process_data(os.path.join('/home/garciagi/SCS_Tool/json', x), container_name, container_df, df) #server side
                 #process_data(os.path.join('json', x), container_name, container_df, df)
         
-        # Validate AV's
-        av_check(df)
+        # Check if "ms4" sheet exists
+        excel_file = pd.ExcelFile(file.stream, engine='openpyxl')
+        if "ms4" in excel_file.sheet_names:
+            av_check(df)
         
         # Writing DataFrame to Excel file
         df.to_excel('/home/garciagi/SCS_Tool/SCS_QA.xlsx', index=False) # server
         #df.to_excel('SCS_QA.xlsx', index=False)
-        
+            
         # Formatting data
         formate_data()
     
