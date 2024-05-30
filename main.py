@@ -16,11 +16,11 @@ app.use_static_for = 'static'
 # Loading config
 app.config.from_object(config)
 
-# Function to check password
+# Validate password
 def is_valid_password(password):
     return password == app.config['VALID_PASSWORD']
 
-# Function to validate exstension
+# Validate extension
 def allowed_file(filename):
     return '.' in filename and filename.rsplit('.', 1)[1].lower() in app.config['VALID_FILE_EXTENSIONS']
 
