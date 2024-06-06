@@ -3,7 +3,7 @@ import json
 def pl_check(df):
     
     # Read JSON data
-    with open("/home/garciagi/SCS_Tool/app/core/data/product_lines.json", "r") as json_file: # Server
+    with open("/home/garciagi/SCS_Tool/app/data/product_lines.json", "r") as json_file: # Server
     #with open('app/core/data/product_lines.json', 'r') as json_file: # Local
         json_data = json.load(json_file)
 
