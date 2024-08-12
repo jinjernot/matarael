@@ -8,4 +8,3 @@ COLS_TO_DROP = [
 
 COLS_TO_ADD = ['Accuracy', 'Correct Value', 'Additional Information']
 
-# Files
