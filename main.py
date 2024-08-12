@@ -4,8 +4,10 @@ from app.core.qa_granular import clean_granular
 from app.core.battery_life import battery_life
 from app.core.qa_data import clean_report
 from app.core.matrix import matrix_file
+from app.config.paths import JSON_PATH
 
-import config
+import app.config.config as config
+
 import json
 import os
 
@@ -104,7 +106,7 @@ def json_upload():
         try:
             if allowed_file(file.filename):  # Check if the file has a valid extension
                 filename = file.filename
-                file_path = os.path.join('/home/garciagi/SCS_Tool/json', filename)
+                file_path = os.path.join(JSON_PATH, filename)
                 file.save(file_path)
                 return render_template('file_uploaded.html')  # Render success template if file is uploaded successfully
         except Exception as e:
@@ -118,7 +120,7 @@ def json_review():
     filename = request.args.get('filename')
     if filename:
         try:
-            file_path = os.path.join('/home/garciagi/SCS_Tool/json', filename + '.json')
+            file_path = os.path.join(JSON_PATH, filename + '.json')
             if os.path.exists(file_path):
                 with open(file_path, 'r', encoding='utf-8') as json_file:
                     data = json.load(json_file)
