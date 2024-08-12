@@ -2,6 +2,8 @@ import pandas as pd
 import os
 import json
 
+from app.config.paths import COMPONENT_GROUPS_PATH
+
 def search_json_files(value, container_names):
     json_folder = "json"  # Folder containing JSON files
     for filename in os.listdir(json_folder):  # Iterate through files in the JSON folder
@@ -19,7 +21,7 @@ def search_json_files(value, container_names):
     return None, None  # Return None if no match is found
 
 def load_component_groups():
-    with open('app/data/component_groups.json', 'r', encoding='utf-8') as json_file:
+    with open(COMPONENT_GROUPS_PATH, 'r', encoding='utf-8') as json_file:
         component_groups = json.load(json_file)  # Load component groups data
     # Create a dictionary mapping component groups to container names
     return {group['ComponentGroup']: group['ContainerName'] for group in component_groups['Groups']}

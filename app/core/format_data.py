@@ -1,12 +1,14 @@
 from openpyxl.styles import PatternFill,Font
 
+from app.config.paths import SCS_QA_FILE_PATH
+
 import openpyxl
 
 def format_data():
     """This function is used to to formate the data in the excel file, bold headers, adjust the column width and highlight the errors"""
 
     # Load Workbook and get the active sheet
-    wb = openpyxl.load_workbook('/home/garciagi/SCS_Tool/SCS_QA.xlsx') # Server
+    wb = openpyxl.load_workbook(SCS_QA_FILE_PATH) # Server
     #wb = openpyxl.load_workbook('SCS_QA.xlsx') # Local
     worksheet = wb.active
 
