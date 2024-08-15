@@ -7,12 +7,9 @@ from app.config.paths import *
 def clean_granular(file):
     try:
         
-        df = pd.read_excel(file.stream, engine='openpyxl') 
+        df = pd.read_excel(file, engine='openpyxl') 
         # Add a new column 'Comments' initially with 'ERROR'
         df['Comments'] = 'ERROR'
-
-        # Path to the folder containing JSON files
-        json_folder_path = os.path.join(os.getcwd(), 'json')
 
         # Iterate over each row in the DataFrame
         for index, row in df.iterrows():
@@ -47,7 +44,7 @@ def clean_granular(file):
                     break
 
         # Export DataFrame to Excel with the updated 'Comments' column
-        df.to_excel(SCS_GRANULAR_FILE_PATH, index=False)
+        df.to_excel('Granular_QA.xlsx', index=False)
 
     except Exception as e:
         print(e)
