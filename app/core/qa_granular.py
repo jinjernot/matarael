@@ -2,7 +2,7 @@ import pandas as pd
 import json
 import os
 from app.core.process_data_granular import process_data_granular
-
+from app.core.product_line_granular import pl_check_granular
 from app.config.paths import *
 from app.config.variables import *
 
@@ -17,6 +17,9 @@ def clean_granular(file):
         
         # Add a list of columns
         df[COLS_TO_ADD] = ''
+        
+        # Call the pl_check
+        pl_check_granular(df)
         
         # Filter out the rows where any column in COLS_TO_CHECK has '[BLANK]'
         mask = df[COLS_TO_CHECK].apply(lambda x: x.isin(['[BLANK]']).any(), axis=1)
