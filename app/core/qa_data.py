@@ -56,7 +56,7 @@ def clean_report(file):
         df = df.drop(rows_to_delete)
 
         # Process JSON files
-        for x in os.listdir(JSON_PATH): # Server
+        for x in os.listdir(JSON_GRANULAR_PATH): # Server
         #for x in os.listdir('json'): # Local
             if x.endswith('.json'):
                 container_name = x.split('.')[0]

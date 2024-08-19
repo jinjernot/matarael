@@ -3,6 +3,7 @@
 import os
 
 JSON_PATH = 'app/data/json/'
+JSON_GRANULAR_PATH = 'app/data/json_granular/'
 
 COMPONENT_GROUPS_PATH = '/home/garciagi/SCS_Tool/app/data/component_groups.json'
 
