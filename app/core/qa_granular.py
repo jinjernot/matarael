@@ -1,48 +1,37 @@
 import pandas as pd
 import json
 import os
+from app.core.process_data_granular import process_data_granular
 
 from app.config.paths import *
+from app.config.variables import *
 
 def clean_granular(file):
     try:
-        
+        # Read excel file
         df = pd.read_excel(file, engine='openpyxl') 
-        # Add a new column 'Comments' initially with 'ERROR'
-        df['Comments'] = 'ERROR'
 
-        # Iterate over each row in the DataFrame
-        for index, row in df.iterrows():
-            component = row['Component']
-            container_value = row['Granular Container Value']
-            found = False  # Flag to track if Component is found
+        # Drop a list of columns
+        cols_to_drop = COLS_TO_DROP_GRANULAR
+        df = df.drop(cols_to_drop, axis=1)
+        
+        # Add a list of columns
+        df[COLS_TO_ADD] = ''
+        
+        # Filter out the rows where any column in COLS_TO_CHECK has '[BLANK]'
+        mask = df[COLS_TO_CHECK].apply(lambda x: x.isin(['[BLANK]']).any(), axis=1)
+        df = df[~mask]
 
-            # Check if container_value is "[BLANK]" and set 'Comments' to 'Verify'
-            if container_value == "[BLANK]":
-                df.at[index, 'Comments'] = 'Verify'
-                continue
-
-            # Iterate over JSON files
-            for filename in os.listdir(JSON_PATH):
-                if filename.endswith('.json'):
-                    json_path = os.path.join(JSON_PATH, filename)
-                    with open(json_path, 'r', encoding='utf-8') as f:
-                        data = json.load(f)
-                        # Iterate over all keys in the JSON
-                        for key, value in data.items():
-                            if isinstance(value, list):
-                                for entry in value:
-                                    if 'Component' in entry and entry['Component'] == component:
-                                        # Check if Granular Container Value is contained in ContainerValue
-                                        if container_value in entry.get("ContainerValue", ""):
-                                            df.at[index, 'Comments'] = 'OK'
-                                        found = True  # Component found, stop searching
-                                        break
-                            if found:
-                                break
-                if found:
-                    break
-
+        df = df.dropna(subset=COLS_TO_CHECK)
+        
+        # Walk through all subdirectories and process JSON files
+        for root, dirs, files in os.walk(JSON_GRANULAR_PATH): # Server
+            for x in files:
+                if x.endswith('.json'):
+                    container_name = x.split('.')[0]
+                    container_df = df[df['Granular Container Tag'] == container_name]
+                    process_data_granular(os.path.join(root, x), container_name, container_df, df) # Server 
+        
         # Export DataFrame to Excel with the updated 'Comments' column
         df.to_excel('Granular_QA.xlsx', index=False)
 

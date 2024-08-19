@@ -11,7 +11,6 @@ SCS_QA_FILE_PATH = '/home/garciagi/SCS_Tool/SCS_QA.xlsx'
 
 SCS_GRANULAR_FILE_PATH = '/home/garciagi/SCS_Tool/Granular_QA.xlsx'
 
-
 SCS_GRANULAR_FILE_PATH_LOCAL = '.'
 
 PRODUCT_LINES_PATH = '/home/garciagi/SCS_Tool/app/data/product_lines.json'

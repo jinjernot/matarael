@@ -6,5 +6,16 @@ COLS_TO_DROP = [
     'ComponentReadiness', 'SKUReadiness'
 ]
 
-COLS_TO_ADD = ['Accuracy', 'Correct Value', 'Additional Information']
+COLS_TO_DROP_GRANULAR = [
+    'PH Web Value','Createddate'
+]
+
+
+COLS_TO_ADD = [
+    'Accuracy', 'Correct Value', 'Additional Information'
+]
+
+COLS_TO_CHECK = [
+    'Granular Container Value','SCSGroup'  
+]
 
