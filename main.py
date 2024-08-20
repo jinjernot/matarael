@@ -3,7 +3,7 @@ from app.core.qa_granular import clean_granular
 from app.core.battery_life import battery_life
 from app.core.qa_data import clean_report
 from app.core.matrix import matrix_file
-from app.config.paths import JSON_PATH, SCS_GRANULAR_FILE_PATH
+from app.config.paths import JSON_PATH
 import app.config.config as config
 import json
 import os
@@ -42,7 +42,7 @@ def process_file():
         try:
             if allowed_file(file.filename):  # Check if the file has a valid extension
                 clean_report(file)  # Process the file
-                return send_from_directory(directory='.', path='SCS_QA.xlsx', as_attachment=True)  # Serve file for download
+                return send_from_directory('.', filename='SCS_QA.xlsx', as_attachment=True)  # Serve file for download
         except Exception as e:
             print(e)
             return render_template('error.html', error_message=str(e)), 500  # Render error template for server errors

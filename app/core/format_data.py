@@ -17,30 +17,11 @@ def format_data():
     for cell in worksheet[1]:
         cell.fill = header_fill
     
-    # Loop over all the columns in the worksheet.
-    for column in worksheet.columns:
-        # Get the maximum length of any value in the column.
-        max_length = 0
-        column_name = column[0].column_letter
-        for cell in column:
-            try:
-                if len(str(cell.value)) > max_length:
-                    max_length = len(str(cell.value))
-            except:
-                pass
-        # Calculate the adjusted width of the column.
-        adjusted_width = (max_length + 2)
-        # Set the width of the column to the adjusted width.
-        worksheet.column_dimensions[column_name].width = adjusted_width
-        worksheet.column_dimensions['H'].width = 100
-        worksheet.column_dimensions['J'].width = 100
-
     # Loop over all the cells in column `I`.
-    for cell in worksheet['I']:
+    for cell in worksheet['J']:
         if 'ERROR' in str(cell.value):
-            # Change the color of the font in the cell to red.
             font = cell.font
             cell.font = Font(color='FF0000', name=font.name, size=font.size)
     # Save the workbook to a file called `SCS_QA.xlsx`.
-    wb.save('/home/garciagi/SCS_Tool/SCS_QA.xlsx') # Server
+    wb.save(SCS_QA_FILE_PATH) # Server
     #wb.save('SCS_QA.xlsx') # Local

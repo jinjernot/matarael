@@ -16,7 +16,7 @@ def clean_report(file):
         #df = pd.read_excel(file, engine='openpyxl')  # Local
 
         # Drop a list of columns
-        cols_to_drop = [COLS_TO_DROP]
+        cols_to_drop = COLS_TO_DROP
         df = df.drop(cols_to_drop, axis=1)
 
         # Add a list of columns
