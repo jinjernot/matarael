@@ -401,42 +401,6 @@
             "ContainerValue": "Intel® Iris® Xᵉ Graphics capabilities require system to be configured with Intel® Core™ i5 or i7 processors and dual channel memory. Intel® Iris® Xᶱ Graphics with Intel® Core™ i5 or i7 processors and single channel memory will only function as Intel® UHD Graphics."
         },
         {
-            "PhwebDescription": "BU IDS UMA PH i7-12xxx U15 14",
-            "ContainerValue": "Intel® Iris® Xᵉ Graphics capabilities require system to be configured with Intel® Core™ i5 or i7 processors and dual channel memory. Intel® Iris® Xᶱ Graphics with Intel® Core™ i5 or i7 processors and single channel memory will only function as Intel® UHD Graphics."
-        },
-        {
-            "PhwebDescription": "BU IDS OPP 24-cr0 23.8 i5-1335U",
-            "ContainerValue": "Intel® Iris® Xᵉ Graphics capabilities require system to be configured with Intel® Core™ i5 or i7 processors and dual channel memory. Intel® Iris® Xᶱ Graphics with Intel® Core™ i5 or i7 processors and single channel memory will only function as Intel® UHD Graphics."
-        },
-        {
-            "PhwebDescription": "BU IDS OPP 27-cr0 27 i5-1335U",
-            "ContainerValue": "Intel® Iris® Xᵉ Graphics capabilities require system to be configured with Intel® Core™ i5 or i7 processors and dual channel memory. Intel® Iris® Xᶱ Graphics with Intel® Core™ i5 or i7 processors and single channel memory will only function as Intel® UHD Graphics."
-        },
-        {
-            "PhwebDescription": "BU IDS OPP 27-cr0 27 i7-1355U",
-            "ContainerValue": "Intel® Iris® Xᵉ Graphics capabilities require system to be configured with Intel® Core™ i5 or i7 processors and dual channel memory. Intel® Iris® Xᶱ Graphics with Intel® Core™ i5 or i7 processors and single channel memory will only function as Intel® UHD Graphics."
-        },
-        {
-            "PhwebDescription": "BU IDS OPP 27-cb1 27 i5-11xx",
-            "ContainerValue": "Intel® Iris® Xᵉ Graphics capabilities require system to be configured with Intel® Core™ i5 or i7 processors and dual channel memory. Intel® Iris® Xᶱ Graphics with Intel® Core™ i5 or i7 processors and single channel memory will only function as Intel® UHD Graphics."
-        },
-        {
-            "PhwebDescription": "BU IDS OPP 27-cb1 27 i7-11xx",
-            "ContainerValue": "Intel® Iris® Xᵉ Graphics capabilities require system to be configured with Intel® Core™ i5 or i7 processors and dual channel memory. Intel® Iris® Xᶱ Graphics with Intel® Core™ i5 or i7 processors and single channel memory will only function as Intel® UHD Graphics."
-        },
-        {
-            "PhwebDescription": "BU IDS OPP 24-cr0 23.8 i7-1355U",
-            "ContainerValue": "Intel® Iris® Xᵉ Graphics capabilities require system to be configured with Intel® Core™ i5 or i7 processors and dual channel memory. Intel® Iris® Xᶱ Graphics with Intel® Core™ i5 or i7 processors and single channel memory will only function as Intel® UHD Graphics."
-        },
-        {
-            "PhwebDescription": "BU IDS OPP 24-cb1 23.8 i5-11xx",
-            "ContainerValue": "Intel® Iris® Xᵉ Graphics capabilities require system to be configured with Intel® Core™ i5 or i7 processors and dual channel memory. Intel® Iris® Xᶱ Graphics with Intel® Core™ i5 or i7 processors and single channel memory will only function as Intel® UHD Graphics."
-        },
-        {
-            "PhwebDescription": "BU IDS OPP 24-cb1 23.8 i7-11xx",
-            "ContainerValue": "Intel® Iris® Xᵉ Graphics capabilities require system to be configured with Intel® Core™ i5 or i7 processors and dual channel memory. Intel® Iris® Xᶱ Graphics with Intel® Core™ i5 or i7 processors and single channel memory will only function as Intel® UHD Graphics."
-        },
-        {
             "PhwebDescription": "BU IDS UMA i7-1165G7 RTK USBC 840 G8",
             "ContainerValue": "Intel® Iris® Xᵉ Graphics capabilities require system to be configured with Intel® Core™ i5 or i7 processors and dual channel memory. Intel® Iris® Xᶱ Graphics with Intel® Core™ i5 or i7 processors and single channel memory will only function as Intel® UHD Graphics."
         },
@@ -573,10 +537,6 @@
             "ContainerValue": "Intel® Iris® Xᵉ Graphics capabilities require system to be configured with Intel® Core™ i5 or i7 processors and dual channel memory. Intel® Iris® Xᶱ Graphics with Intel® Core™ i5 or i7 processors and single channel memory will only function as Intel® UHD Graphics."
         },
         {
-            "PhwebDescription": "BU IDS UMA i7-1165G7 RTK USBC 840 G8",
-            "ContainerValue": "Intel® Iris® Xᵉ Graphics capabilities require system to be configured with Intel® Core™ i5 or i7 processors and dual channel memory. Intel® Iris® Xᶱ Graphics with Intel® Core™ i5 or i7 processors and single channel memory will only function as Intel® UHD Graphics."
-        },
-        {
             "PhwebDescription": "BU IDS UMA i5-1335U 16GB 14",
             "ContainerValue": "Intel® Iris® Xᵉ Graphics capabilities require system to be configured with Intel® Core™ i5 or i7 processors and dual channel memory. Intel® Iris® Xᶱ Graphics with Intel® Core™ i5 or i7 processors and single channel memory will only function as Intel® UHD Graphics."
         },
@@ -622,10 +582,6 @@
         },
         {
             "PhwebDescription": "BU IDS UMA PHi5xxxx 15",
-            "ContainerValue": "Intel® Iris® Xᵉ Graphics capabilities require system to be configured with Intel® Core™ i5 or i7 processors and dual channel memory. Intel® Iris® Xᶱ Graphics with Intel® Core™ i5 or i7 processors and single channel memory will only function as Intel® UHD Graphics."
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX30506GB i7-13700H 16",
             "ContainerValue": "Intel® Iris® Xᵉ Graphics capabilities require system to be configured with Intel® Core™ i5 or i7 processors and dual channel memory. Intel® Iris® Xᶱ Graphics with Intel® Core™ i5 or i7 processors and single channel memory will only function as Intel® UHD Graphics."
         },
         {
@@ -953,183 +909,7 @@
             "ContainerValue": "Intel® Iris® Xᵉ Graphics capabilities require system to be configured with Intel® Core™ i5 or i7 processors and dual channel memory. Intel® Iris® Xᶱ Graphics with Intel® Core™ i5 or i7 processors and single channel memory will only function as Intel® UHD Graphics."
         },
         {
-            "PhwebDescription": "BU IDS UMA PHi5xxxxU 15",
-            "ContainerValue": "Intel® Iris® Xᵉ Graphics capabilities require system to be configured with Intel® Core™ i5 or i7 processors and dual channel memory. Intel® Iris® Xᶱ Graphics with Intel® Core™ i5 or i7 processors and single channel memory will only function as Intel® UHD Graphics."
-        },
-        {
-            "PhwebDescription": "BU IDS UMA i7-1355U 14",
-            "ContainerValue": "Intel® Iris® Xᵉ Graphics capabilities require system to be configured with Intel® Core™ i5 or i7 processors and dual channel memory. Intel® Iris® Xᶱ Graphics with Intel® Core™ i5 or i7 processors and single channel memory will only function as Intel® UHD Graphics."
-        },
-        {
-            "PhwebDescription": "BU IDS OPP 27-cr0 27 i5-1335U",
-            "ContainerValue": "Intel® Iris® Xᵉ Graphics capabilities require system to be configured with Intel® Core™ i5 or i7 processors and dual channel memory. Intel® Iris® Xᶱ Graphics with Intel® Core™ i5 or i7 processors and single channel memory will only function as Intel® UHD Graphics."
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX30504GB i7-1355U 17",
-            "ContainerValue": "Intel® Iris® Xᵉ Graphics capabilities require system to be configured with Intel® Core™ i5 or i7 processors and dual channel memory. Intel® Iris® Xᶱ Graphics with Intel® Core™ i5 or i7 processors and single channel memory will only function as Intel® UHD Graphics."
-        },
-        {
-            "PhwebDescription": "BU IDS UMA i5-1335U 16GB 15",
-            "ContainerValue": "Intel® Iris® Xᵉ Graphics capabilities require system to be configured with Intel® Core™ i5 or i7 processors and dual channel memory. Intel® Iris® Xᶱ Graphics with Intel® Core™ i5 or i7 processors and single channel memory will only function as Intel® UHD Graphics."
-        },
-        {
-            "PhwebDescription": "BU IDS UMA i3-1315U 14",
-            "ContainerValue": "Intel® Iris® Xᵉ Graphics capabilities require system to be configured with Intel® Core™ i5 or i7 processors and dual channel memory. Intel® Iris® Xᶱ Graphics with Intel® Core™ i5 or i7 processors and single channel memory will only function as Intel® UHD Graphics."
-        },
-        {
-            "PhwebDescription": "BU IDS UMA PHi512xxx 8GB 14",
-            "ContainerValue": "Intel® Iris® Xᵉ Graphics capabilities require system to be configured with Intel® Core™ i5 or i7 processors and dual channel memory. Intel® Iris® Xᶱ Graphics with Intel® Core™ i5 or i7 processors and single channel memory will only function as Intel® UHD Graphics."
-        },
-        {
-            "PhwebDescription": "BU IDS UMA i5-1335U 14",
-            "ContainerValue": "Intel® Iris® Xᵉ Graphics capabilities require system to be configured with Intel® Core™ i5 or i7 processors and dual channel memory. Intel® Iris® Xᶱ Graphics with Intel® Core™ i5 or i7 processors and single channel memory will only function as Intel® UHD Graphics."
-        },
-        {
-            "PhwebDescription": "BU IDS UMA PHi7xxxxU 15",
-            "ContainerValue": "Intel® Iris® Xᵉ Graphics capabilities require system to be configured with Intel® Core™ i5 or i7 processors and dual channel memory. Intel® Iris® Xᶱ Graphics with Intel® Core™ i5 or i7 processors and single channel memory will only function as Intel® UHD Graphics."
-        },
-        {
-            "PhwebDescription": "BU IDS UMA PHi7xxxx 16GB 16",
-            "ContainerValue": "Intel® Iris® Xᵉ Graphics capabilities require system to be configured with Intel® Core™ i5 or i7 processors and dual channel memory. Intel® Iris® Xᶱ Graphics with Intel® Core™ i5 or i7 processors and single channel memory will only function as Intel® UHD Graphics."
-        },
-        {
-            "PhwebDescription": "BU IDS UMA PHi512xxx 16GB 14",
-            "ContainerValue": "Intel® Iris® Xᵉ Graphics capabilities require system to be configured with Intel® Core™ i5 or i7 processors and dual channel memory. Intel® Iris® Xᶱ Graphics with Intel® Core™ i5 or i7 processors and single channel memory will only function as Intel® UHD Graphics."
-        },
-        {
-            "PhwebDescription": "BU IDS OPP 24-cr0 23.8 i5-1335U",
-            "ContainerValue": "Intel® Iris® Xᵉ Graphics capabilities require system to be configured with Intel® Core™ i5 or i7 processors and dual channel memory. Intel® Iris® Xᶱ Graphics with Intel® Core™ i5 or i7 processors and single channel memory will only function as Intel® UHD Graphics."
-        },
-        {
-            "PhwebDescription": "BU IDS UMA PHi7xxxxU 16GB 14",
-            "ContainerValue": "Intel® Iris® Xᵉ Graphics capabilities require system to be configured with Intel® Core™ i5 or i7 processors and dual channel memory. Intel® Iris® Xᶱ Graphics with Intel® Core™ i5 or i7 processors and single channel memory will only function as Intel® UHD Graphics."
-        },
-        {
-            "PhwebDescription": "BU IDS OPP 24-cr0 23.8 i7-1355U",
-            "ContainerValue": "Intel® Iris® Xᵉ Graphics capabilities require system to be configured with Intel® Core™ i5 or i7 processors and dual channel memory. Intel® Iris® Xᶱ Graphics with Intel® Core™ i5 or i7 processors and single channel memory will only function as Intel® UHD Graphics."
-        },
-        {
-            "PhwebDescription": "BU IDS OPP 27-cr0 27 i7-1355U",
-            "ContainerValue": "Intel® Iris® Xᵉ Graphics capabilities require system to be configured with Intel® Core™ i5 or i7 processors and dual channel memory. Intel® Iris® Xᶱ Graphics with Intel® Core™ i5 or i7 processors and single channel memory will only function as Intel® UHD Graphics."
-        },
-        {
-            "PhwebDescription": "BU IDS UMA PHi7xxxxU 32GB fOLED 14",
-            "ContainerValue": "Intel® Iris® Xᵉ Graphics capabilities require system to be configured with Intel® Core™ i5 or i7 processors and dual channel memory. Intel® Iris® Xᶱ Graphics with Intel® Core™ i5 or i7 processors and single channel memory will only function as Intel® UHD Graphics."
-        },
-        {
-            "PhwebDescription": "BU IDS OPP 24-cb1 23.8 i5-11xx",
-            "ContainerValue": "Intel® Iris® Xᵉ Graphics capabilities require system to be configured with Intel® Core™ i5 or i7 processors and dual channel memory. Intel® Iris® Xᶱ Graphics with Intel® Core™ i5 or i7 processors and single channel memory will only function as Intel® UHD Graphics."
-        },
-        {
-            "PhwebDescription": "BU IDS UMA i7-1355U 16GB 15",
-            "ContainerValue": "Intel® Iris® Xᵉ Graphics capabilities require system to be configured with Intel® Core™ i5 or i7 processors and dual channel memory. Intel® Iris® Xᶱ Graphics with Intel® Core™ i5 or i7 processors and single channel memory will only function as Intel® UHD Graphics."
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX30504GB i7-1355U 16GB 15",
-            "ContainerValue": "Intel® Iris® Xᵉ Graphics capabilities require system to be configured with Intel® Core™ i5 or i7 processors and dual channel memory. Intel® Iris® Xᶱ Graphics with Intel® Core™ i5 or i7 processors and single channel memory will only function as Intel® UHD Graphics."
-        },
-        {
-            "PhwebDescription": "BU IDS OPP 24-cb1 23.8 i7-11xx",
-            "ContainerValue": "Intel® Iris® Xᵉ Graphics capabilities require system to be configured with Intel® Core™ i5 or i7 processors and dual channel memory. Intel® Iris® Xᶱ Graphics with Intel® Core™ i5 or i7 processors and single channel memory will only function as Intel® UHD Graphics."
-        },
-        {
             "PhwebDescription": "BU IDS UMA i5-1135G7 250 G8",
-            "ContainerValue": "Intel® Iris® Xᵉ Graphics capabilities require system to be configured with Intel® Core™ i5 or i7 processors and dual channel memory. Intel® Iris® Xᶱ Graphics with Intel® Core™ i5 or i7 processors and single channel memory will only function as Intel® UHD Graphics."
-        },
-        {
-            "PhwebDescription": "BU IDS UMA PHi5xxxxU 14",
-            "ContainerValue": "Intel® Iris® Xᵉ Graphics capabilities require system to be configured with Intel® Core™ i5 or i7 processors and dual channel memory. Intel® Iris® Xᶱ Graphics with Intel® Core™ i5 or i7 processors and single channel memory will only function as Intel® UHD Graphics."
-        },
-        {
-            "PhwebDescription": "BU IDS UMA i5-1335U 14",
-            "ContainerValue": "Intel® Iris® Xᵉ Graphics capabilities require system to be configured with Intel® Core™ i5 or i7 processors and dual channel memory. Intel® Iris® Xᶱ Graphics with Intel® Core™ i5 or i7 processors and single channel memory will only function as Intel® UHD Graphics."
-        },
-        {
-            "PhwebDescription": "BU IDS DSCMX5502GB i7-1355U nSDC 15",
-            "ContainerValue": "Intel® Iris® Xᵉ Graphics capabilities require system to be configured with Intel® Core™ i5 or i7 processors and dual channel memory. Intel® Iris® Xᶱ Graphics with Intel® Core™ i5 or i7 processors and single channel memory will only function as Intel® UHD Graphics."
-        },
-        {
-            "PhwebDescription": "BU IDS DSCMX5502GB i7-1355U 15",
-            "ContainerValue": "Intel® Iris® Xᵉ Graphics capabilities require system to be configured with Intel® Core™ i5 or i7 processors and dual channel memory. Intel® Iris® Xᶱ Graphics with Intel® Core™ i5 or i7 processors and single channel memory will only function as Intel® UHD Graphics."
-        },
-        {
-            "PhwebDescription": "BU IDS DSCMX5502GB i5-1335U 15",
-            "ContainerValue": "Intel® Iris® Xᵉ Graphics capabilities require system to be configured with Intel® Core™ i5 or i7 processors and dual channel memory. Intel® Iris® Xᶱ Graphics with Intel® Core™ i5 or i7 processors and single channel memory will only function as Intel® UHD Graphics."
-        },
-        {
-            "PhwebDescription": "BU IDS UMA i7-1355U 14",
-            "ContainerValue": "Intel® Iris® Xᵉ Graphics capabilities require system to be configured with Intel® Core™ i5 or i7 processors and dual channel memory. Intel® Iris® Xᶱ Graphics with Intel® Core™ i5 or i7 processors and single channel memory will only function as Intel® UHD Graphics."
-        },
-        {
-            "PhwebDescription": "BU IDS UMA i5-1235U 8GB 14",
-            "ContainerValue": "Intel® Iris® Xᵉ Graphics capabilities require system to be configured with Intel® Core™ i5 or i7 processors and dual channel memory. Intel® Iris® Xᶱ Graphics with Intel® Core™ i5 or i7 processors and single channel memory will only function as Intel® UHD Graphics."
-        },
-        {
-            "PhwebDescription": "BU IDS UMA i7-1255U 16GB 14",
-            "ContainerValue": "Intel® Iris® Xᵉ Graphics capabilities require system to be configured with Intel® Core™ i5 or i7 processors and dual channel memory. Intel® Iris® Xᶱ Graphics with Intel® Core™ i5 or i7 processors and single channel memory will only function as Intel® UHD Graphics."
-        },
-        {
-            "PhwebDescription": "BU IDS UMA PH i7-12xxx U15 14",
-            "ContainerValue": "Intel® Iris® Xᵉ Graphics capabilities require system to be configured with Intel® Core™ i5 or i7 processors and dual channel memory. Intel® Iris® Xᶱ Graphics with Intel® Core™ i5 or i7 processors and single channel memory will only function as Intel® UHD Graphics."
-        },
-        {
-            "PhwebDescription": "BU IDS DSC RTX 3050 4GB i5-12500H 15",
-            "ContainerValue": "Intel® Iris® Xᵉ Graphics capabilities require system to be configured with Intel® Core™ i5 or i7 processors and dual channel memory. Intel® Iris® Xᶱ Graphics with Intel® Core™ i5 or i7 processors and single channel memory will only function as Intel® UHD Graphics."
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40506GB i5-12500H 15",
-            "ContainerValue": "Intel® Iris® Xᵉ Graphics capabilities require system to be configured with Intel® Core™ i5 or i7 processors and dual channel memory. Intel® Iris® Xᶱ Graphics with Intel® Core™ i5 or i7 processors and single channel memory will only function as Intel® UHD Graphics."
-        },
-        {
-            "PhwebDescription": "BU IDS UMA i7-1355U 16GB 15",
-            "ContainerValue": "Intel® Iris® Xᵉ Graphics capabilities require system to be configured with Intel® Core™ i5 or i7 processors and dual channel memory. Intel® Iris® Xᶱ Graphics with Intel® Core™ i5 or i7 processors and single channel memory will only function as Intel® UHD Graphics."
-        },
-        {
-            "PhwebDescription": "BU IDS UMA i7-13700H 16GB fOLED 14",
-            "ContainerValue": "Intel® Iris® Xᵉ Graphics capabilities require system to be configured with Intel® Core™ i5 or i7 processors and dual channel memory. Intel® Iris® Xᶱ Graphics with Intel® Core™ i5 or i7 processors and single channel memory will only function as Intel® UHD Graphics."
-        },
-        {
-            "PhwebDescription": "BU IDS UMA i5-13500H 16GB 14",
-            "ContainerValue": "Intel® Iris® Xᵉ Graphics capabilities require system to be configured with Intel® Core™ i5 or i7 processors and dual channel memory. Intel® Iris® Xᶱ Graphics with Intel® Core™ i5 or i7 processors and single channel memory will only function as Intel® UHD Graphics."
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX30504GB i7-1355U 16GB 15",
-            "ContainerValue": "Intel® Iris® Xᵉ Graphics capabilities require system to be configured with Intel® Core™ i5 or i7 processors and dual channel memory. Intel® Iris® Xᶱ Graphics with Intel® Core™ i5 or i7 processors and single channel memory will only function as Intel® UHD Graphics."
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40608GB i7-13700H 16",
-            "ContainerValue": "Intel® Iris® Xᵉ Graphics capabilities require system to be configured with Intel® Core™ i5 or i7 processors and dual channel memory. Intel® Iris® Xᶱ Graphics with Intel® Core™ i5 or i7 processors and single channel memory will only function as Intel® UHD Graphics."
-        },
-        {
-            "PhwebDescription": "BU IDS UMA i5-1335U 16GB 15",
-            "ContainerValue": "Intel® Iris® Xᵉ Graphics capabilities require system to be configured with Intel® Core™ i5 or i7 processors and dual channel memory. Intel® Iris® Xᶱ Graphics with Intel® Core™ i5 or i7 processors and single channel memory will only function as Intel® UHD Graphics."
-        },
-        {
-            "PhwebDescription": "BU IDS UMA PHi7xxxxU 16GB 14",
-            "ContainerValue": "Intel® Iris® Xᵉ Graphics capabilities require system to be configured with Intel® Core™ i5 or i7 processors and dual channel memory. Intel® Iris® Xᶱ Graphics with Intel® Core™ i5 or i7 processors and single channel memory will only function as Intel® UHD Graphics."
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX30506GB i5-13500H 16",
-            "ContainerValue": "Intel® Iris® Xᵉ Graphics capabilities require system to be configured with Intel® Core™ i5 or i7 processors and dual channel memory. Intel® Iris® Xᶱ Graphics with Intel® Core™ i5 or i7 processors and single channel memory will only function as Intel® UHD Graphics."
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX30504GB i7-1355U 17",
-            "ContainerValue": "Intel® Iris® Xᵉ Graphics capabilities require system to be configured with Intel® Core™ i5 or i7 processors and dual channel memory. Intel® Iris® Xᶱ Graphics with Intel® Core™ i5 or i7 processors and single channel memory will only function as Intel® UHD Graphics."
-        },
-        {
-            "PhwebDescription": "BU IDS UMA PHi7xxxxU 32GB fOLED 14",
-            "ContainerValue": "Intel® Iris® Xᵉ Graphics capabilities require system to be configured with Intel® Core™ i5 or i7 processors and dual channel memory. Intel® Iris® Xᶱ Graphics with Intel® Core™ i5 or i7 processors and single channel memory will only function as Intel® UHD Graphics."
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX20504GB i7-1355U16GBfOLED14",
-            "ContainerValue": "Intel® Iris® Xᵉ Graphics capabilities require system to be configured with Intel® Core™ i5 or i7 processors and dual channel memory. Intel® Iris® Xᶱ Graphics with Intel® Core™ i5 or i7 processors and single channel memory will only function as Intel® UHD Graphics."
-        },
-        {
-            "PhwebDescription": "BU IDS UMA PHi7xxxx 16GB 16",
-            "ContainerValue": "Intel® Iris® Xᵉ Graphics capabilities require system to be configured with Intel® Core™ i5 or i7 processors and dual channel memory. Intel® Iris® Xᶱ Graphics with Intel® Core™ i5 or i7 processors and single channel memory will only function as Intel® UHD Graphics."
-        },
-        {
-            "PhwebDescription": "BU IDS UMA i7-1250U 16GB 17",
             "ContainerValue": "Intel® Iris® Xᵉ Graphics capabilities require system to be configured with Intel® Core™ i5 or i7 processors and dual channel memory. Intel® Iris® Xᶱ Graphics with Intel® Core™ i5 or i7 processors and single channel memory will only function as Intel® UHD Graphics."
         }
     ]

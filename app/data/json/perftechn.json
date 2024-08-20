@@ -13,10 +13,6 @@
             "ContainerValue": "Intel® Evo™ laptop"
         },
         {
-            "PhwebDescription": "Intel EVO verified design",
-            "ContainerValue": "Intel® Evo™ laptop"
-        },
-        {
             "PhwebDescription": "LBL Intel Evo Core i7 sz3 G13",
             "ContainerValue": "Intel® Evo™ laptop"
         },
@@ -66,7 +62,7 @@
         },
         {
             "PhwebDescription": "LBL Intel Evo Core i5 sz2 vPro G13",
-            "ContainerValue": "Intel® Evo™ laptop"  
+            "ContainerValue": "Intel® Evo™ laptop"
         }
     ]
 }

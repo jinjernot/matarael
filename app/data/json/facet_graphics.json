@@ -1785,26 +1785,6 @@
             "ContainerValue": "Intel Iris"
         },
         {
-            "PhwebDescription": "BU IDS DSC GTX 1650 4GB i5-11400H 16",
-            "ContainerValue": "Intel UHD"
-        },
-        {
-            "PhwebDescription": "BU IDS DSC RTX 3060 6GB i5-12500H 16",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DSC MX550 2GB i5-1235U 15",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DSC GTX 1650 4GB i5-11400H 16",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DSC MX550 2GB i7-1255U 15",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
             "PhwebDescription": "BU IDS UMA i3-1125G4 15",
             "ContainerValue": "Intel UHD"
         },
@@ -1817,24 +1797,8 @@
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDSDSCMXxxx2GBPHi5-12xxxU15nSDC15-eg2",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DSC RTX 3060 6GB i7-12700H 16",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDSDSCMXxxx2GBPHi5-12xxxU15nSDC15-eg2",
-            "ContainerValue": "Intel Iris"
-        },
-        {
             "PhwebDescription": "BU IDS UMA i3-1215U nSDC 14",
             "ContainerValue": "Intel UHD"
-        },
-        {
-            "PhwebDescription": "BU IDSDSCMXxxx2GBPHi7-12xxxU15nSDC15-eg2",
-            "ContainerValue": "NVIDIA GeForce"
         },
         {
             "PhwebDescription": "CPU INTL i9-12900K 8C3.50125W120mmRGBLCS",
@@ -1853,18 +1817,6 @@
             "ContainerValue": "Intel Iris"
         },
         {
-            "PhwebDescription": "BU IDS DSC RTX 3050 4GB R5 6600H 16",
-            "ContainerValue": "AMD Radeon"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX30504GB i7-1355U 17",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DSC RTX 3050 4GB R5 6600H 16",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
             "PhwebDescription": "BU IDS UMA PH i5-12xxx P28 nSDC 15-eg2",
             "ContainerValue": "Intel Iris"
         },
@@ -1875,10 +1827,6 @@
         {
             "PhwebDescription": "BU IDS UMA i3-1125G4 14",
             "ContainerValue": "Intel UHD"
-        },
-        {
-            "PhwebDescription": "BU IDS DSC RTX 3050Ti 4GB Ryzen7 5800H15",
-            "ContainerValue": "NVIDIA GeForce"
         },
         {
             "PhwebDescription": "BU IDS UMA i5-1135G7 14",
@@ -1893,10 +1841,6 @@
             "ContainerValue": "AMD Radeon"
         },
         {
-            "PhwebDescription": "BU IDS DSC RTX 3050Ti 4GB PH R7 8C 16",
-            "ContainerValue": "AMD Radeon"
-        },
-        {
             "PhwebDescription": "BU IDS UMA CelN4120 4GB 64GeMMC 11",
             "ContainerValue": "Intel UHD"
         },
@@ -1907,10 +1851,6 @@
         {
             "PhwebDescription": "BU IDS UMA i7-1165G7 15",
             "ContainerValue": "Intel Iris"
-        },
-        {
-            "PhwebDescription": "BU IDS DSC RTX 3050Ti 4GB Ryzen5 5600H15",
-            "ContainerValue": "NVIDIA GeForce"
         },
         {
             "PhwebDescription": "BU IDS UMA CelN4120 17",
@@ -1929,20 +1869,8 @@
             "ContainerValue": "AMD Radeon"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX20504GB PHi7xxxxU 17",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DSC RTX 3050Ti 4GB R5 6600H 16",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
             "PhwebDescription": "BU IDS OPP 27-cr0 27 8GB R5-7520U",
             "ContainerValue": "AMD Radeon"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX30506GB R5 7640HS 16",
-            "ContainerValue": "NVIDIA GeForce"
         },
         {
             "PhwebDescription": "BU IDS UMA i7-13700H 17",
@@ -1961,36 +1889,16 @@
             "ContainerValue": "AMD Radeon"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40608GB fGSync i7-13700HX16",
-            "ContainerValue": "Intel UHD"
-        },
-        {
             "PhwebDescription": "BU IDS OPP 27-cr0 27 i7-1355U",
             "ContainerValue": "Intel Iris"
-        },
-        {
-            "PhwebDescription": "BU IDS DSC GTX 1650 4GB Ryzen5 5600H 15",
-            "ContainerValue": "NVIDIA GeForce"
         },
         {
             "PhwebDescription": "BU IDS UMA i3-1115G4 14",
             "ContainerValue": "Intel UHD"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX409016GBfGSynci9-13900HX17-",
-            "ContainerValue": "Intel UHD"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX408012GBfGSynci7-13700HX17-",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
             "PhwebDescription": "BU IDS UMA PHi5xxxxU 17",
             "ContainerValue": "Intel Iris"
-        },
-        {
-            "PhwebDescription": "BU IDS DSC RTX 3050 4GB i7-12700H 15",
-            "ContainerValue": "NVIDIA GeForce"
         },
         {
             "PhwebDescription": "BU IDS UMA R7 7730U 15",
@@ -2001,16 +1909,8 @@
             "ContainerValue": "Intel UHD"
         },
         {
-            "PhwebDescription": "BU IDS DSC RTX 3050 4GB R7 6800H 16",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
             "PhwebDescription": "BU IDS UMA PHi7xxxxU 15",
             "ContainerValue": "Intel Iris"
-        },
-        {
-            "PhwebDescription": "BU IDS DSC RTX 3050Ti 4GB R5 6600H 16",
-            "ContainerValue": "AMD Radeon"
         },
         {
             "PhwebDescription": "BU IDS UMA Ryzen5 5625U 16GB 13",
@@ -2021,20 +1921,12 @@
             "ContainerValue": "AMD Radeon"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40708GB i7-13700HX 16",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
             "PhwebDescription": "BU IDS OPP 24-cr0 23.8 Cel N100",
             "ContainerValue": "Intel UHD"
         },
         {
             "PhwebDescription": "BU IDS DSC GTX 1650 4GB PH i5-RM 15",
             "ContainerValue": "Intel Iris"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX408012GBfGSynci7-13700HX17-",
-            "ContainerValue": "Intel UHD"
         },
         {
             "PhwebDescription": "BU IDS UMA PHi3xxxxU 14",
@@ -2053,19 +1945,7 @@
             "ContainerValue": "AMD Radeon"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40708GB i7-13700HX 16",
-            "ContainerValue": "Intel UHD"
-        },
-        {
             "PhwebDescription": "BU IDS UMA i5-1155G7 15",
-            "ContainerValue": "Intel Iris"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX409016GBfGSynci9-13900HX17-",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DSC GTX 1650 4GB i5-12500H 15",
             "ContainerValue": "Intel Iris"
         },
         {
@@ -2077,10 +1957,6 @@
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX30506GB i5-13420H 15",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
             "PhwebDescription": "BU IDS UMA i5-1135G7 17",
             "ContainerValue": "Intel Iris"
         },
@@ -2089,32 +1965,8 @@
             "ContainerValue": "Intel Iris"
         },
         {
-            "PhwebDescription": "BU IDS DSC RTX 3050 4GB R7 6800H 16",
-            "ContainerValue": "AMD Radeon"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40708GB fGSync i7-13700HX16",
-            "ContainerValue": "Intel UHD"
-        },
-        {
             "PhwebDescription": "BU IDS UMA N200 128GUFS 14",
             "ContainerValue": "Intel UHD"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX20504GB i7-1355U16GBfOLED14",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX409016GBfGSynci7-13700HX17-",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40608GB i5-13500H 16",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40708GB fGSync i9-13900HX16",
-            "ContainerValue": "NVIDIA GeForce"
         },
         {
             "PhwebDescription": "BU IDS UMA PHi5xxxxU 14",
@@ -2125,22 +1977,6 @@
             "ContainerValue": "Intel Iris"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40608GB fGSync i7-13700HX16",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX30506GB R5 7640HS 16",
-            "ContainerValue": "AMD Radeon"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40608GB i7-13700H 16",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX408012GBfGSynci9-13900HX17-",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
             "PhwebDescription": "BU IDS UMA i3-1315U nSDC 15",
             "ContainerValue": "Intel UHD"
         },
@@ -2149,16 +1985,8 @@
             "ContainerValue": "Intel UHD"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40608GB i7-13700HX 16",
-            "ContainerValue": "Intel UHD"
-        },
-        {
             "PhwebDescription": "BU IDS OPP 24-cr0 23.8 8GB R5-7520U",
             "ContainerValue": "AMD Radeon"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX408012GBfGSynci9-13900HX17-",
-            "ContainerValue": "Intel UHD"
         },
         {
             "PhwebDescription": "BU IDS UMA PH R3 17",
@@ -2173,36 +2001,8 @@
             "ContainerValue": "Intel Iris"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40708GB fGSync i9-13900HX16",
-            "ContainerValue": "Intel UHD"
-        },
-        {
-            "PhwebDescription": "BU IDS DSC RTX 3050Ti 4GB PH R7 8C 16",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX30506GB R7 7840HS 16",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DCSPHN21X48GB i7-13700H 16",
-            "ContainerValue": "Intel Iris"
-        },
-        {
-            "PhwebDescription": "BU IDS DSC GTX 1650 4GB i5-12500H 15",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
             "PhwebDescription": "BU IDS UMA CelN4120 64GeMMC 14",
             "ContainerValue": "Intel UHD"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40708GB i9-13900HX 16",
-            "ContainerValue": "Intel UHD"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40608GB R7 7840HS PLA 16",
-            "ContainerValue": "NVIDIA GeForce"
         },
         {
             "PhwebDescription": "BU IDS DSCRTX40708GB i7-13700HX 17-cm2",
@@ -2217,32 +2017,12 @@
             "ContainerValue": "Intel Iris"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX20504GB i5-1335U16GBfOLED14",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
             "PhwebDescription": "BU IDS UMA i5-1240P 15",
             "ContainerValue": "Intel Iris"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40506GB i7-13700HX 16",
-            "ContainerValue": "Intel UHD"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40506GB i7-13700HX 16",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DCSPHN21X48GB i7-13700H 16",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
             "PhwebDescription": "BU IDS DCSPHN21X48GB R7 7840HS 16",
             "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX30506GB i5-13420H 15",
-            "ContainerValue": "Intel UHD"
         },
         {
             "PhwebDescription": "BU IDS OPP 24-cr0 23.8 R7-7730U",
@@ -2285,35 +2065,11 @@
             "ContainerValue": "AMD Radeon"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40608GB R7 7840HS PLA 16",
-            "ContainerValue": "AMD Radeon"
-        },
-        {
             "PhwebDescription": "BU IDS UMA i7-1195G7 15",
             "ContainerValue": "Intel Iris"
         },
         {
             "PhwebDescription": "BU IDS UMA R3 7320U 8GB 14",
-            "ContainerValue": "AMD Radeon"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40506GB i5-13500HX 16",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40506GB R5 7640HS PLA 16",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX30506GB i5-13500HX 16",
-            "ContainerValue": "Intel UHD"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40608GB i5-13500HX 16",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX30506GB R7 7840HS 16",
             "ContainerValue": "AMD Radeon"
         },
         {
@@ -2325,14 +2081,6 @@
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40608GB i5-13500H 16",
-            "ContainerValue": "Intel UHD"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40708GB fGSync i7-13700HX16",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
             "PhwebDescription": "CPU INTL i5-13400T 1.30 10C 35W",
             "ContainerValue": "Intel UHD"
         },
@@ -2341,28 +2089,12 @@
             "ContainerValue": "Intel UHD"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40608GB i7-13620H 16",
-            "ContainerValue": "Intel UHD"
-        },
-        {
             "PhwebDescription": "BU IDS OPP 24-cr0 23.8 8GB R3-7320U",
             "ContainerValue": "AMD Radeon"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40506GB i5-13500HX 16",
-            "ContainerValue": "Intel UHD"
-        },
-        {
             "PhwebDescription": "BU IDS OPP 27-cr0 27 i5-1335U",
             "ContainerValue": "Intel Iris"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCPHN21X68GB i7-13700HX 17-cm2",
-            "ContainerValue": "Intel UHD"
-        },
-        {
-            "PhwebDescription": "BU IDS DCSPHN2P0R6GB i5-13500H 15",
-            "ContainerValue": "NVIDIA GeForce"
         },
         {
             "PhwebDescription": "BU IDS UMA i5-13500H 16GB fOLED 14",
@@ -2373,14 +2105,6 @@
             "ContainerValue": "Intel UHD"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX409016GBfGSynci7-13700HX17-",
-            "ContainerValue": "Intel UHD"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCPHN21X68GB i7-13700HX 17-cm2",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
             "PhwebDescription": "APU AMD R5-5600G 6C 3.90 65W 2HPRGBAir",
             "ContainerValue": "AMD Radeon"
         },
@@ -2389,40 +2113,12 @@
             "ContainerValue": "Intel Iris"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40608GB i9-13900H fOLED 16",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40708GB R9 7940HS ALU 16",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40708GB R9 7940HS ALU 16",
-            "ContainerValue": "AMD Radeon"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX30506GB i5-13500HX 16",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40506GB i7-13620H 16",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
             "PhwebDescription": "BU IDS UMA PH i5-12xxx U15 17",
             "ContainerValue": "Intel Iris"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40708GB i9-13900HX 16",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
             "PhwebDescription": "BU IDS UMA i7-1360P nSDC 15",
             "ContainerValue": "Intel Iris"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40608GB i7-13700HX 16",
-            "ContainerValue": "NVIDIA GeForce"
         },
         {
             "PhwebDescription": "BU IDS DCSPHN21X28GB R5 7640HS 16",
@@ -2445,48 +2141,16 @@
             "ContainerValue": "Intel Iris"
         },
         {
-            "PhwebDescription": "BU IDS DSCPHN21X26GB i5-13500H 15",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
             "PhwebDescription": "BU IDS UMA i7-1355U 16GB 15",
             "ContainerValue": "Intel Iris"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCMX5502GB i7-1355U nSDC 15",
-            "ContainerValue": "NVIDIA GeForce"
         },
         {
             "PhwebDescription": "BU IDS UMA PHPentxxxx 4GB 14",
             "ContainerValue": "Intel UHD"
         },
         {
-            "PhwebDescription": "BU IDS DSCPHN21X26GB i5-13500H 15",
-            "ContainerValue": "Intel Iris"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40506GB i5-13500HX 16",
-            "ContainerValue": "AMD Radeon"
-        },
-        {
             "PhwebDescription": "BU IDS DCSPHN21X28GB R5 7640HS 16",
             "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40506GB i5-13500H 16",
-            "ContainerValue": "Intel Iris"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40608GB i7-13700H fOLED 16",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40506GB i7-13700HX 16",
-            "ContainerValue": "AMD Radeon"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40708GB i7-13700HX 16",
-            "ContainerValue": "AMD Radeon"
         },
         {
             "PhwebDescription": "BU IDS UMA PH i5-12xxx U15 15",
@@ -2501,40 +2165,12 @@
             "ContainerValue": "AMD Radeon"
         },
         {
-            "PhwebDescription": "BU IDS DSC RTX 3050 4GB Ryzen5 5600H 15",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40506GB R5 7640HS 16",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCArcA370M4GB PHi7xxxx 16",
-            "ContainerValue": "Intel Iris"
-        },
-        {
             "PhwebDescription": "BU IDS UMA Ath7120U 8GB 14",
             "ContainerValue": "AMD Radeon"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40608GB R7 7840HS 16",
-            "ContainerValue": "AMD Radeon"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCArc4GB PHi7RM 16GB 16",
-            "ContainerValue": "Intel Arc"
-        },
-        {
             "PhwebDescription": "BU IDS DSCArc4GB i7-1360P 16GB 16",
             "ContainerValue": "Intel Arc"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40506GB i5-13420H 16",
-            "ContainerValue": "Intel UHD"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX408012GB i7-13700HX 16",
-            "ContainerValue": "Intel UHD"
         },
         {
             "PhwebDescription": "BU IDS UMA i5-1335U nSDC 15",
@@ -2545,22 +2181,6 @@
             "ContainerValue": "Intel UHD"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40506GB R5 7640HS 16",
-            "ContainerValue": "AMD Radeon"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40506GB i5-13500H 16",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40506GB i5-13420H 16",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40608GB i7-13620H 16",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
             "PhwebDescription": "BU IDS UMA PHi312xxxU15 14",
             "ContainerValue": "Intel UHD"
         },
@@ -2569,19 +2189,7 @@
             "ContainerValue": "Intel UHD"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX408012GB i7-13700HX 16",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
             "PhwebDescription": "BU IDS UMA i5-1135G7 15",
-            "ContainerValue": "Intel Iris"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40608GB i5-13500HX 16",
-            "ContainerValue": "Intel UHD"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40506GB i7-13700H 16",
             "ContainerValue": "Intel Iris"
         },
         {
@@ -2613,16 +2221,8 @@
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40506GB R5 7640HS PLA 16",
-            "ContainerValue": "AMD Radeon"
-        },
-        {
             "PhwebDescription": "CPU INTL i5-12400F 6C 2.50 65W 3HPRGBAir",
             "ContainerValue": "##BLANK##"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCArc4GB PHi7RM 32GB fOLED 16",
-            "ContainerValue": "Intel Iris"
         },
         {
             "PhwebDescription": "BU IDS DSCArc4GB i7-1360P 32GB fOLED 16",
@@ -2639,14 +2239,6 @@
         {
             "PhwebDescription": "APU AMD R5- 5600G 3.90 6C 65W",
             "ContainerValue": "AMD Radeon"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40608GB i7-13700HX 17-cm2",
-            "ContainerValue": "Intel UHD"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40608GB R7 7840HS 16",
-            "ContainerValue": "NVIDIA GeForce"
         },
         {
             "PhwebDescription": "CPU INTL i7-13700 2.10 TBD 16C 65W2HPAir",
@@ -2667,10 +2259,6 @@
         {
             "PhwebDescription": "BU IDS OPP 27-cb0 27 AS-3050U",
             "ContainerValue": "AMD Radeon"
-        },
-        {
-            "PhwebDescription": "BU IDS DSC RTX 3050 4GB i7-12650H 15",
-            "ContainerValue": "Intel UHD"
         },
         {
             "PhwebDescription": "BU IDS UMA Ryzen3 5300U 14",
@@ -2705,10 +2293,6 @@
             "ContainerValue": "AMD Radeon"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40608GB i9-13900H 16",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
             "PhwebDescription": "BU IDS UMA i3-1115G4 17",
             "ContainerValue": "Intel Iris"
         },
@@ -2729,28 +2313,12 @@
             "ContainerValue": "AMD Radeon"
         },
         {
-            "PhwebDescription": "BU IDS DSCMX5502GB i5-1335U 16GB 14",
-            "ContainerValue": "Intel Iris"
-        },
-        {
-            "PhwebDescription": "BU IDS DSC RTX 3050 4GB i7-12650H 15",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
             "PhwebDescription": "BU IDS UMA Ath3050U 14",
             "ContainerValue": "AMD Radeon"
         },
         {
             "PhwebDescription": "BU IDS UMA CelN4500 14",
             "ContainerValue": "Intel UHD"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCMX5502GB PHi7xxxxU 15",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DSC RTX 3050 4GB i5-12500H 15",
-            "ContainerValue": "NVIDIA GeForce"
         },
         {
             "PhwebDescription": "BU IDS UMA PHi712xxx 16GB 14",
@@ -2773,23 +2341,11 @@
             "ContainerValue": "Intel Iris"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40608GB i7-13700HX 17-cm2",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
             "PhwebDescription": "CPU INTL i9-13900K 3.00 24C 125W120mmLCS",
             "ContainerValue": "Intel UHD"
         },
         {
             "PhwebDescription": "BU IDS UMA i7-1255U 16GB 14",
-            "ContainerValue": "Intel Iris"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCPHN21X26GB i7-13700H 15",
-            "ContainerValue": "Intel Iris"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40708GB i7-13700H 16",
             "ContainerValue": "Intel Iris"
         },
         {
@@ -2799,10 +2355,6 @@
         {
             "PhwebDescription": "APU AMD R7-7700X 8C 105W 360mm RGB LCS",
             "ContainerValue": "AMD Radeon"
-        },
-        {
-            "PhwebDescription": "BU IDS DSC RTX 3050 4GB Ryzen7 5800H 15",
-            "ContainerValue": "NVIDIA GeForce"
         },
         {
             "PhwebDescription": "BU IDS UMA i5-1340P 16GB 14",
@@ -2817,10 +2369,6 @@
             "ContainerValue": "Intel UHD"
         },
         {
-            "PhwebDescription": "BU IDS DSC RTX 3050 4GB i5-12500H 15",
-            "ContainerValue": "Intel Iris"
-        },
-        {
             "PhwebDescription": "BU IDS DCSPHN21X68GB R7 7840HS 16",
             "ContainerValue": "NVIDIA GeForce"
         },
@@ -2831,10 +2379,6 @@
         {
             "PhwebDescription": "BU IDS OPP 24-df1 23.8 i5-1135G7",
             "ContainerValue": "Intel Iris"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX20504GB i5-13420H 15",
-            "ContainerValue": "NVIDIA GeForce"
         },
         {
             "PhwebDescription": "BU IDS UMA Ryzen7 5825U 16GB 13",
@@ -2849,16 +2393,8 @@
             "ContainerValue": "AMD Radeon"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40608GB R5 7640HS 16",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
             "PhwebDescription": "BU IDS OPP 24-cb0 23.8 AG-3150U",
             "ContainerValue": "Intel Iris"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40708GB R7 7840HS 16",
-            "ContainerValue": "NVIDIA GeForce"
         },
         {
             "PhwebDescription": "BU IDS DCSPHN21X68GB R7 7840HS 16",
@@ -2869,16 +2405,8 @@
             "ContainerValue": "NVIDIA GeForce"
         },
         {
-            "PhwebDescription": "BU IDS DSCPHN21X26GB i7-13700H 15",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
             "PhwebDescription": "APU AMD R7-5700G 8C 3.80 65W 3HPRGBAir",
             "ContainerValue": "AMD Radeon"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCArc4GB PHi7RM 16GB fOLED 16",
-            "ContainerValue": "Intel Iris"
         },
         {
             "PhwebDescription": "BU IDS OPP 27-cb0 27 Ryzen 3-3250",
@@ -2923,10 +2451,6 @@
         {
             "PhwebDescription": "APU AMD R7-5700G 3.80 8C 65W",
             "ContainerValue": "AMD Radeon"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCMX5502GB i5-1335U 16GB 14",
-            "ContainerValue": "NVIDIA GeForce"
         },
         {
             "PhwebDescription": "BU IDS UMA CelN4500 4GB 128GeMMC 15a-na0",
@@ -2981,10 +2505,6 @@
             "ContainerValue": "Intel UHD"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40708GB i7-13700H 16",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
             "PhwebDescription": "BU IDS OPP 21.5 Athlon-3150U 22-dd0",
             "ContainerValue": "AMD Radeon"
         },
@@ -3001,32 +2521,8 @@
             "ContainerValue": "AMD Radeon"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40506GB i7-13700H 16",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX30506GB i7-13700HX 16",
-            "ContainerValue": "Intel UHD"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX30506GB i7-13700HX 16",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX30506GB R5 7640H ALU 16",
-            "ContainerValue": "Intel UHD"
-        },
-        {
             "PhwebDescription": "BU IDS OPP 24-cr0 23.8 i3-1315U",
             "ContainerValue": "Intel UHD"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40708GB R7 7840HS 16",
-            "ContainerValue": "AMD Radeon"
-        },
-        {
-            "PhwebDescription": "BU IDS DSC RTX 3070Ti MQ 8GB R7 6800H 16",
-            "ContainerValue": "NVIDIA GeForce"
         },
         {
             "PhwebDescription": "BU IDS UMA CelN4120 14",
@@ -3037,44 +2533,8 @@
             "ContainerValue": "Intel UHD"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40506GB R7 7840HS 16",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
             "PhwebDescription": "APU AMD R3-5300G 4.00 4C 65W",
             "ContainerValue": "AMD Radeon"
-        },
-        {
-            "PhwebDescription": "BU IDS DSC MX550 2GB i7-1255U nSDC 14",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX30506GB R7 7840H ALU 16",
-            "ContainerValue": "Intel UHD"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40708GB R7 7840HS ALU 16",
-            "ContainerValue": "AMD Radeon"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40708GB R7 7840HS ALU 16",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40608GB R7 7840HS ALU 16",
-            "ContainerValue": "AMD Radeon"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40506GB R7 7840HS PLA 16",
-            "ContainerValue": "AMD Radeon"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40608GB R7 7840HS ALU 16",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40506GB R7 7840HS PLA 16",
-            "ContainerValue": "NVIDIA GeForce"
         },
         {
             "PhwebDescription": "CPU INTL i9-13900 2.50 TBD 24C 65W2HPAir",
@@ -3097,10 +2557,6 @@
             "ContainerValue": "AMD Radeon"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40506GB R5 7640H ALU 16",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
             "PhwebDescription": "BU IDS OPP 27-cb1 27 R7 5800U",
             "ContainerValue": "AMD Radeon"
         },
@@ -3113,40 +2569,12 @@
             "ContainerValue": "Intel UHD"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX30506GB R5 7640H ALU 16",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX30506GB R7 7840H ALU 16",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40506GB R5 7640H ALU 16",
-            "ContainerValue": "AMD Radeon"
-        },
-        {
-            "PhwebDescription": "BU IDS DSC MX550 2GB i5-1235U nSDC 14",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
             "PhwebDescription": "CPU INTL i7-13700 2.10TBD16C65W3HPRGBAir",
             "ContainerValue": "Intel UHD"
         },
         {
-            "PhwebDescription": "BU IDS DSCMX5502GB i5-1335U nSDC 15",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
             "PhwebDescription": "BU IDS UMA Ryzen7 5700U 17",
             "ContainerValue": "AMD Radeon"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40708GB i5-13500HX 16",
-            "ContainerValue": "Intel UHD"
-        },
-        {
-            "PhwebDescription": "BU IDS DSC GTX 1650 4GB i7-12700H 16",
-            "ContainerValue": "NVIDIA GeForce"
         },
         {
             "PhwebDescription": "BU IDS UMACelN41208GB128GeMMCnSDC14a-na0",
@@ -3155,10 +2583,6 @@
         {
             "PhwebDescription": "BU IDS OPP 24-ck0 23.8 I5-1235U",
             "ContainerValue": "Intel Iris"
-        },
-        {
-            "PhwebDescription": "BU IDS DSC RTX 3050 4GB i5-12500H 16",
-            "ContainerValue": "NVIDIA GeForce"
         },
         {
             "PhwebDescription": "BU IDS UMA Ryzen7 5800U 14",
@@ -3177,20 +2601,8 @@
             "ContainerValue": "Intel Iris"
         },
         {
-            "PhwebDescription": "BU IDS DSCMX5502GB i5-1335U nSDC 15",
-            "ContainerValue": "Intel Iris"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX30506GB i5-13500H 16",
-            "ContainerValue": "Intel Iris"
-        },
-        {
             "PhwebDescription": "CPU INTL i7-13700 2.10TBD16C65W2HPRGBAir",
             "ContainerValue": "Intel UHD"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX30506GB i7-13700H 16",
-            "ContainerValue": "NVIDIA GeForce"
         },
         {
             "PhwebDescription": "BU IDS UMA PH i3-12xxx U15 15",
@@ -3199,10 +2611,6 @@
         {
             "PhwebDescription": "BU IDS UMA PentSilN5030 15",
             "ContainerValue": "Intel UHD"
-        },
-        {
-            "PhwebDescription": "BU IDS DSC MX550 2GB i7-1255U nSDC 14",
-            "ContainerValue": "Intel Iris"
         },
         {
             "PhwebDescription": "BU IDS UMA i5-1235U nSDC 14",
@@ -3217,23 +2625,11 @@
             "ContainerValue": "Intel Iris"
         },
         {
-            "PhwebDescription": "BU IDS DSC 6GB PH i7-xxxx 16",
-            "ContainerValue": "Intel UHD"
-        },
-        {
             "PhwebDescription": "BU IDS UMA CelN4500 4GB 64GeMMC 15a-na0",
             "ContainerValue": "Intel UHD"
         },
         {
-            "PhwebDescription": "BU IDS DSC RTX 3050Ti 4GB i5-12500H 16",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
             "PhwebDescription": "BU IDS DSC MX550 2GB i5-1235U 17",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40608GB fGSync i9-13900HX16",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
@@ -3249,40 +2645,12 @@
             "ContainerValue": "Intel UHD"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40708GB i5-13500HX 16",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DSC GTX 1650 4GB i5-12500H 16",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX30506GB i7-13700H 15",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DSC MXxxx 2GB PH i5-12xxx U15 17",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
             "PhwebDescription": "BU IDS UMA i7-1255U nSDC 14",
             "ContainerValue": "Intel Iris"
         },
         {
-            "PhwebDescription": "BU IDS DSCMX5502GB PHi5xxxxU 15",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
             "PhwebDescription": "BU IDS OPP 21.5 Pent J5040 22-dd0",
             "ContainerValue": "Intel UHD"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX30506GB i7-13620H 15",
-            "ContainerValue": "Intel UHD"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX30506GB i7-13620H 15",
-            "ContainerValue": "NVIDIA GeForce"
         },
         {
             "PhwebDescription": "BU IDS UMA PH R7 8C 15",
@@ -3293,16 +2661,8 @@
             "ContainerValue": "AMD Radeon"
         },
         {
-            "PhwebDescription": "BU IDS DSC RTX 3050Ti 4GB i5-12450H 15",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
             "PhwebDescription": "BU IDS UMA PHi7xxxx 15",
             "ContainerValue": "Intel Iris"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40608GB fGSync i9-13900HX16",
-            "ContainerValue": "Intel UHD"
         },
         {
             "PhwebDescription": "BU IDS UMA PHi7xxxx 14",
@@ -3310,18 +2670,6 @@
         },
         {
             "PhwebDescription": "BU IDS UMA OPP Cel J4025 S01-aF2 NC",
-            "ContainerValue": "Intel UHD"
-        },
-        {
-            "PhwebDescription": "BU IDS DSC GTX 1650 4GB i5-12450H 15",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DSC RTX 3050 4GB i5-12450H 15",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DSC RTX 3050Ti 4GB i7-12650H 15",
             "ContainerValue": "Intel UHD"
         },
         {
@@ -3333,10 +2681,6 @@
             "ContainerValue": "Intel Iris"
         },
         {
-            "PhwebDescription": "BU IDS DSC RTX 3050 4GB i5-12450H 15",
-            "ContainerValue": "Intel UHD"
-        },
-        {
             "PhwebDescription": "BU IDS UMA i7-1260P 15",
             "ContainerValue": "Intel Iris"
         },
@@ -3345,15 +2689,7 @@
             "ContainerValue": "Intel Iris"
         },
         {
-            "PhwebDescription": "BU IDS DSCMX5502GB PHi7xxxxU 17",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
             "PhwebDescription": "BU IDS UMA CelN4500 8GB 128GeMMC 15a-na0",
-            "ContainerValue": "Intel UHD"
-        },
-        {
-            "PhwebDescription": "BU IDS DSC GTX 1650 4GB i5-12450H 15",
             "ContainerValue": "Intel UHD"
         },
         {
@@ -3389,14 +2725,6 @@
             "ContainerValue": "Intel UHD"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX20504GB i7-1255U 15",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DSC RTX 3050Ti 4GB i7-12650H 15",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
             "PhwebDescription": "BU IDS UMA i7-12700H 16GB fOLED 14",
             "ContainerValue": "Intel Iris"
         },
@@ -3411,10 +2739,6 @@
         {
             "PhwebDescription": "BU IDS UMA PHPentxxxx nSDC 15",
             "ContainerValue": "Intel UHD"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCArcA370M4GB PHi7xxxx fOLED 16",
-            "ContainerValue": "Intel Arc"
         },
         {
             "PhwebDescription": "BU IDS OPP 24-cb1 23.8 R7 5825U",
@@ -3433,28 +2757,8 @@
             "ContainerValue": "AMD Radeon"
         },
         {
-            "PhwebDescription": "BU IDS DSC 6GB Ryzen7 5800H 16",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40506GB fGSync i7-13700HX16",
-            "ContainerValue": "Intel UHD"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX20504GB i7-1255U16GBfOLED14",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
             "PhwebDescription": "BU IDS Pav 27-ca1 27 R7-5825U",
             "ContainerValue": "AMD Radeon"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX20504GB i7-1255U 17",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DSC RTX 3070TiMQ8GBRyzen96900HX16",
-            "ContainerValue": "NVIDIA GeForce"
         },
         {
             "PhwebDescription": "BU IDS Pav 27-ca1 27 R5-5625U",
@@ -3489,32 +2793,12 @@
             "ContainerValue": "Intel Iris"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40506GB fGSync i7-13700HX16",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
             "PhwebDescription": "BU IDS UMA R5 7520U 16GB 17",
             "ContainerValue": "AMD Radeon"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40708GB R7 7840H ALU 16",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40708GB R7 7840H ALU 16",
-            "ContainerValue": "AMD Radeon"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40608GB i9-13900HX 16",
-            "ContainerValue": "Intel UHD"
-        },
-        {
             "PhwebDescription": "BU IDS OPP 24-cr0 23.8 8GB AthS 7120U",
             "ContainerValue": "AMD Radeon"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX30504GB i7-1355U 16GB 15",
-            "ContainerValue": "NVIDIA GeForce"
         },
         {
             "PhwebDescription": "BU IDS OPP 27-cr0 27 R7-7730U",
@@ -3527,10 +2811,6 @@
         {
             "PhwebDescription": "BU IDS UMA PHCelxxxx 14",
             "ContainerValue": "Intel UHD"
-        },
-        {
-            "PhwebDescription": "BU IDSDSCRTX3070TiMQ8GBfGSynci9-12900H16",
-            "ContainerValue": "NVIDIA GeForce"
         },
         {
             "PhwebDescription": "BU IDS DSC RTX 3050Ti 4GB i5-12500H 15",
@@ -3553,18 +2833,6 @@
             "ContainerValue": "Intel UHD"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40608GB i9-13900HX 16",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40608GB R7 7840H ALU 16",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX3080Ti16GBfGSynci7-12700H17",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
             "PhwebDescription": "BU IDS UMA PHCelxxxx 15",
             "ContainerValue": "Intel UHD"
         },
@@ -3579,14 +2847,6 @@
         {
             "PhwebDescription": "BU IDS OPP 27-cb0 27 R5-5500U",
             "ContainerValue": "AMD Radeon"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40608GB i5-12500H 15",
-            "ContainerValue": "Intel Iris"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40506GB i5-12500H 15",
-            "ContainerValue": "Intel Iris"
         },
         {
             "PhwebDescription": "BU IDS OPP 22-dd2 21.5 i5-1235U",
@@ -3613,55 +2873,11 @@
             "ContainerValue": "Intel UHD"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40506GB R7 7840H ALU 16",
-            "ContainerValue": "AMD Radeon"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40506GB R7 7840H ALU 16",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40608GB R7 7840H ALU 16",
-            "ContainerValue": "AMD Radeon"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX3080Ti16GBfGSynci9-12900H17",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DSC RTX 3050Ti 4GB i7-12700H 16",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
             "PhwebDescription": "BU IDS UMA i5-1240P 17",
             "ContainerValue": "Intel Iris"
         },
         {
-            "PhwebDescription": "BU IDS DSC 4GB PH i5-xxxxH 16",
-            "ContainerValue": "Intel UHD"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX30504GB i5-1335U 16GB 15",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
             "PhwebDescription": "BU IDS OPP 27-cr0 27 16GB R5-7520U",
-            "ContainerValue": "AMD Radeon"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40506GB R7 7840HS ALU 16",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40506GB i5-12500H 15",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40608GB i5-12500H 15",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DSC RX 6500M 4GB Ryzen5 5600H 15",
             "ContainerValue": "AMD Radeon"
         },
         {
@@ -3669,16 +2885,8 @@
             "ContainerValue": "Intel UHD"
         },
         {
-            "PhwebDescription": "BU IDS DSC MXxxx 2GB PH i7-12xxx U15 17",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
             "PhwebDescription": "BU IDS UMA PH i5-12xxx U15 nSDC 15-eg2",
             "ContainerValue": "Intel Iris"
-        },
-        {
-            "PhwebDescription": "BU IDS DSC 4GB PH i5-xxxxH 16",
-            "ContainerValue": "NVIDIA GeForce"
         },
         {
             "PhwebDescription": "BU IDS UMA PH i3-12xxx U15 nSDC 15-eg2",
@@ -3687,14 +2895,6 @@
         {
             "PhwebDescription": "BU IDS UMA Ryzen3 5300U 15",
             "ContainerValue": "AMD Radeon"
-        },
-        {
-            "PhwebDescription": "BU IDS DSC MXxxx 2GB PH i7-12xxx U15 17",
-            "ContainerValue": "Intel HD"
-        },
-        {
-            "PhwebDescription": "BU IDS DSC GTX 1650 4GB Ryzen7 5800H 15",
-            "ContainerValue": "NVIDIA GeForce"
         },
         {
             "PhwebDescription": "BU IDS UMA Ryzen3 3250U 17",
@@ -3707,10 +2907,6 @@
         {
             "PhwebDescription": "BU IDS UMA i5-1155G7 17",
             "ContainerValue": "Intel Iris"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40506GB R7 7840HS ALU 16",
-            "ContainerValue": "AMD Radeon"
         },
         {
             "PhwebDescription": "BU IDS UMA PH i7-12xxx U15 17",
@@ -3737,10 +2933,6 @@
             "ContainerValue": "AMD Radeon"
         },
         {
-            "PhwebDescription": "BU IDS DSC RTX 3050 4GB i7-12700H 16",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
             "PhwebDescription": "BU IDS UMAPentSilN60008GB128GeMMC15a-na0",
             "ContainerValue": "Intel UHD"
         },
@@ -3757,10 +2949,6 @@
             "ContainerValue": "Intel UHD"
         },
         {
-            "PhwebDescription": "BU IDS DSC Arc A370M 4GB i5-12500H 16",
-            "ContainerValue": "Intel Iris"
-        },
-        {
             "PhwebDescription": "BU IDS OPP 27-cb0 27 CelJ4025",
             "ContainerValue": "Intel UHD"
         },
@@ -3771,10 +2959,6 @@
         {
             "PhwebDescription": "BU IDSUMAPSilN50308GB128GeMMCnSDC14a-na0",
             "ContainerValue": "Intel Iris"
-        },
-        {
-            "PhwebDescription": "BU IDS DSC RTX 3050Ti 4GB i7-12700H 15",
-            "ContainerValue": "NVIDIA GeForce"
         },
         {
             "PhwebDescription": "BU IDS UMA Ryzen5 5625U 8GB 13",
@@ -3797,22 +2981,6 @@
             "ContainerValue": "AMD Radeon"
         },
         {
-            "PhwebDescription": "BU IDS DSCArcA370M4GB PHi5xxxx 16",
-            "ContainerValue": "Intel Arc"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX30506GB R7 7840H 16",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40608GB R7 7840H 16",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40506GB R5 7640HS ALU 16",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
             "PhwebDescription": "CPU INTL i3-10105 3.70 4C",
             "ContainerValue": "Intel UHD"
         },
@@ -3823,14 +2991,6 @@
         {
             "PhwebDescription": "BU IDS UMA Ryzen3 3250U 15",
             "ContainerValue": "AMD Radeon"
-        },
-        {
-            "PhwebDescription": "BU IDS DSC 6GB Ryzen5 5600H 16",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40506GB R7 7840H 16",
-            "ContainerValue": "NVIDIA GeForce"
         },
         {
             "PhwebDescription": "APU AMD R3-4300G 3.80 4C 65W",
@@ -3853,20 +3013,12 @@
             "ContainerValue": "AMD Radeon"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40708GB R7 7840H 16",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
             "PhwebDescription": "BU IDS OPP 27-cr0 27 8GB R3-7320U",
             "ContainerValue": "AMD Radeon"
         },
         {
             "PhwebDescription": "CPU INTL i7-12700 12C 2.10 65W RAir",
             "ContainerValue": "Intel UHD"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40506GB R5 7640H 16",
-            "ContainerValue": "NVIDIA GeForce"
         },
         {
             "PhwebDescription": "CPU INTL i3-12100T 4C 2.20 35W",
@@ -3879,10 +3031,6 @@
         {
             "PhwebDescription": "BU IDS UMA Ryzen5 5625U 15",
             "ContainerValue": "AMD Radeon"
-        },
-        {
-            "PhwebDescription": "BU IDS DSC 2GB PH i5-xxxx 16GB 14",
-            "ContainerValue": "NVIDIA GeForce"
         },
         {
             "PhwebDescription": "BU IDS UMA i5-12500H 16GB 14",
@@ -4181,16 +3329,8 @@
             "ContainerValue": "Intel UHD"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX408012GB i7-13800HStudioG10",
-            "ContainerValue": "Intel Iris"
-        },
-        {
             "PhwebDescription": "BU IDS UMA CelN4500 4GB 64GeMMC 11 G9",
             "ContainerValue": "Intel UHD"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX400012GBi9-13900HKStudioG10",
-            "ContainerValue": "Intel Iris"
         },
         {
             "PhwebDescription": "BU IDS UMA PH i7-KT HW TI PD IC 840 G10",
@@ -4235,10 +3375,6 @@
         {
             "PhwebDescription": "BU IDS UMA PH i5-KT HW RTK USBC 14 G10",
             "ContainerValue": "Intel Iris"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX408012GB i7-13800HStudioG10",
-            "ContainerValue": "NVIDIA GeForce"
         },
         {
             "PhwebDescription": "BU IDS i7-13850HX nWWAN Fury 16 G10",
@@ -4351,10 +3487,6 @@
         {
             "PhwebDescription": "BU IDS UMA PH i5-KT fWWAN 440 G9",
             "ContainerValue": "Intel Iris"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX400012GBi9-13900HKStudioG10",
-            "ContainerValue": "NVIDIA"
         },
         {
             "PhwebDescription": "BU IDS UMA i7-1255U RTK USBC 14 G9",
@@ -4539,10 +3671,6 @@
         {
             "PhwebDescription": "BU IDS UMA i5-1335U TIPD 630 G10",
             "ContainerValue": "Intel UHD"
-        },
-        {
-            "PhwebDescription": "BU IDS DSC i7-1165G7 32GB 14 G8",
-            "ContainerValue": "NVIDIA"
         },
         {
             "PhwebDescription": "BU IDS UMA PHi5xxxxU 250 G10",
@@ -4817,10 +3945,6 @@
             "ContainerValue": "Intel Iris"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX20504GB R5 7535HS 15",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
             "PhwebDescription": "BU IDS DSCRTX20504GB i5-1335U TIPD450G10",
             "ContainerValue": "NVIDIA GeForce"
         },
@@ -4855,10 +3979,6 @@
         {
             "PhwebDescription": "BU IDS UMA PH i5-KT 16GB Dfly G4",
             "ContainerValue": "Intel Iris"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX20504GB i7-12650H 15",
-            "ContainerValue": "NVIDIA GeForce"
         },
         {
             "PhwebDescription": "BU IDS UMA i7-1365U 32GB TIPDx3601040G10",
@@ -4918,14 +4038,6 @@
         },
         {
             "PhwebDescription": "BU IDS DSCMX5502GB i7-1355U 470 G10",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX20504GB i5-12450H 15",
-            "ContainerValue": "Intel UHD"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX20504GB i5-12450H 15",
             "ContainerValue": "NVIDIA GeForce"
         },
         {
@@ -4993,10 +4105,6 @@
             "ContainerValue": "Intel UHD"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX20504GB i7-12650H 15",
-            "ContainerValue": "Intel UHD"
-        },
-        {
             "PhwebDescription": "BU IDS UMA i5-1155G7 14",
             "ContainerValue": "Intel Iris"
         },
@@ -5011,14 +4119,6 @@
         {
             "PhwebDescription": "BU IDS UMA PH i5-RM 16GB Dfly G4",
             "ContainerValue": "Intel Iris"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40608GB i7-13700H 15",
-            "ContainerValue": "Intel Iris"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40608GB i7-13700H 15",
-            "ContainerValue": "NVIDIA GeForce"
         },
         {
             "PhwebDescription": "BU IDS UMAPentN60008GB128GeMMCfBL14b-cb0",
@@ -5041,14 +4141,6 @@
             "ContainerValue": "AMD Radeon"
         },
         {
-            "PhwebDescription": "BU IDS DSC RX 6650M 8GB R7 6800H 16",
-            "ContainerValue": "AMD Radeon"
-        },
-        {
-            "PhwebDescription": "BU IDS DSC RX 6500M 4GB Ryzen7 5800H 15",
-            "ContainerValue": "AMD Radeon"
-        },
-        {
             "PhwebDescription": "APU AMD R7-7800X3D 8C 120W 120mm RGB LCS",
             "ContainerValue": "AMD Radeon"
         },
@@ -5065,10 +4157,6 @@
             "ContainerValue": "AMD Radeon"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40506GB i7-12650H 15",
-            "ContainerValue": "Intel UHD"
-        },
-        {
             "PhwebDescription": "BU IDS UMA PH i5-RM 16GB OSR Dfly G4",
             "ContainerValue": "Intel Iris"
         },
@@ -5083,18 +4171,6 @@
         {
             "PhwebDescription": "BU IDS OPP 24-ck0 23.8 I7-1255U",
             "ContainerValue": "Intel Iris"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40608GB i5-13500H 15",
-            "ContainerValue": "Intel Iris"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40608GB i5-13500H 15",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40506GB i7-12650H 15",
-            "ContainerValue": "NVIDIA GeForce"
         },
         {
             "PhwebDescription": "APU AMD R7-7800X3D 8C 120W 360mm RGB LCS",
@@ -5183,10 +4259,6 @@
         {
             "PhwebDescription": "BU IDS UMA i3-1110G44GBANDREngageGo10TAB",
             "ContainerValue": "Intel UHD"
-        },
-        {
-            "PhwebDescription": "BU IDS DSC i7-1165G7 16GB 14 G8",
-            "ContainerValue": "NVIDIA"
         },
         {
             "PhwebDescription": "CPU INTL i5-12500T 6C 2.00 35W",
@@ -5321,10 +4393,6 @@
             "ContainerValue": "Intel Iris"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX2000Ada8GBR9PRO7940HSPower1",
-            "ContainerValue": "NVIDIA"
-        },
-        {
             "PhwebDescription": "BU IDS UMA i7-1355U fWWAN TIPD 640 G10",
             "ContainerValue": "Intel Iris"
         },
@@ -5379,10 +4447,6 @@
         {
             "PhwebDescription": "BU IDS DSCRTXA500 i7-1365U OSR TIPD16G10",
             "ContainerValue": "Intel Iris"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX2000Ada8GBR9PRO7940HSPower1",
-            "ContainerValue": "AMD Radeon"
         },
         {
             "PhwebDescription": "CPU INTL i7-13700T 1.40 16C 35W",
@@ -5471,10 +4535,6 @@
         {
             "PhwebDescription": "BU IDS UMA PH R7 8C RTK USBC 455 G10",
             "ContainerValue": "AMD Radeon"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTXA10006GBR5PRO7640HSPower15.",
-            "ContainerValue": "NVIDIA"
         },
         {
             "PhwebDescription": "BU PON 240 G10 23.8 AiO i3-N300 IDS",
@@ -5585,10 +4645,6 @@
             "ContainerValue": "Intel Iris"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTXA10004GBi9-12900HStudio16.0",
-            "ContainerValue": "NVIDIA"
-        },
-        {
             "PhwebDescription": "BU IDS UMA R7 7730U 245 G10",
             "ContainerValue": "AMD Radeon"
         },
@@ -5697,10 +4753,6 @@
             "ContainerValue": "Intel UHD"
         },
         {
-            "PhwebDescription": "BU IDS DSC MX550 2GB i5-1235U 240 G9",
-            "ContainerValue": "Intel Iris"
-        },
-        {
             "PhwebDescription": "BU RCTO UMA PH R5 6C 445 G9 BRZP",
             "ContainerValue": "AMD Radeon"
         },
@@ -5749,10 +4801,6 @@
             "ContainerValue": "Intel Iris"
         },
         {
-            "PhwebDescription": "BU IDS DSC MX550 2GB i5-1235U 240 G9",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
             "PhwebDescription": "BU IDS UMA i5-1350P fWWAN TIPD 640 G10",
             "ContainerValue": "Intel Iris"
         },
@@ -5775,10 +4823,6 @@
         {
             "PhwebDescription": "BU IDS UMA i5-1345U fWLAN TIPD 840 G10",
             "ContainerValue": "Intel Iris"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTXA10006GBR5PRO7640HSPower15.",
-            "ContainerValue": "AMD Radeon"
         },
         {
             "PhwebDescription": "BU IDS UMA PHR78C TIPD 645 G10",
@@ -5861,10 +4905,6 @@
             "ContainerValue": "Intel Iris"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX2000Ada8GBR77840HSPower15.6",
-            "ContainerValue": "NVIDIA"
-        },
-        {
             "PhwebDescription": "BU IDS UMA i5-1345U 32GB TIPDx3601040G10",
             "ContainerValue": "Intel Iris"
         },
@@ -5925,10 +4965,6 @@
             "ContainerValue": "Intel HD"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX2000Ada8GBR77840HSPower15.6",
-            "ContainerValue": "AMD Radeon"
-        },
-        {
             "PhwebDescription": "BU IDS UMA PH i7-RM16GBRTKUSBCx360830G10",
             "ContainerValue": "Intel Iris"
         },
@@ -5950,10 +4986,6 @@
         },
         {
             "PhwebDescription": "BU IDS UMA i5-1345U RTKUSBC 1040 G10",
-            "ContainerValue": "Intel Iris"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTXA10004GBi9-12900HStudio16.0",
             "ContainerValue": "Intel Iris"
         },
         {
@@ -6030,10 +5062,6 @@
         },
         {
             "PhwebDescription": "BU IDS UMAi7-1365U16GBOSRTIPDx3601040G10",
-            "ContainerValue": "Intel Iris"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTXA10004GBi7-12800HStudio16G9",
             "ContainerValue": "Intel Iris"
         },
         {
@@ -6121,20 +5149,12 @@
             "ContainerValue": "AMD Radeon"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTXA10004GBi7-12800HStudio16G9",
-            "ContainerValue": "NVIDIA"
-        },
-        {
             "PhwebDescription": "BU IDS UMA Ryzen5 6600U 16GB 835 G9",
             "ContainerValue": "AMD Radeon"
         },
         {
             "PhwebDescription": "BU IDS UMA i7-1185G7 16GB Elite x2 G8TAB",
             "ContainerValue": "Intel Iris"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTXA10006GB i5-13600HStudioG10",
-            "ContainerValue": "NVIDIA"
         },
         {
             "PhwebDescription": "BU RCTO UMA i7-1365U RTKUSBC 840 BRZL",
@@ -6181,10 +5201,6 @@
             "ContainerValue": "Intel Iris"
         },
         {
-            "PhwebDescription": "BU IDS DSCGeFRTX3070Ti8GBi9-12900HStudio",
-            "ContainerValue": "Intel Iris"
-        },
-        {
             "PhwebDescription": "BU IDS UMA R3 5425U fWWAN mt645 G9",
             "ContainerValue": "AMD Radeon"
         },
@@ -6203,10 +5219,6 @@
         {
             "PhwebDescription": "BU IDS UMA R3 7440U TIPD 865 G10",
             "ContainerValue": "AMD Radeon"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTXA10006GB i5-13600HStudioG10",
-            "ContainerValue": "Intel UHD"
         },
         {
             "PhwebDescription": "BU IDS UMA PH i7-KT 650 G9",
@@ -6237,10 +5249,6 @@
             "ContainerValue": "Intel Iris"
         },
         {
-            "PhwebDescription": "BU IDS DSCGeFRTX3070Ti8GBi9-12900HStudio",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
             "PhwebDescription": "BU RCTO UMAR37330UHDfnBLnFPRwHDC245G10IN",
             "ContainerValue": "Intel Iris"
         },
@@ -6261,10 +5269,6 @@
             "ContainerValue": "Intel UHD"
         },
         {
-            "PhwebDescription": "CPU INTL i7-12700 12C 2.10 65W",
-            "ContainerValue": "Intel UHD"
-        },
-        {
             "PhwebDescription": "BU IDS UMA i7-1165G7 840 G8",
             "ContainerValue": "Intel Iris"
         },
@@ -6281,10 +5285,6 @@
             "ContainerValue": "Intel Iris"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX400012GB i9-13900HStudioG10",
-            "ContainerValue": "NVIDIA"
-        },
-        {
             "PhwebDescription": "BU IDS DSC RTX A500 PH i7KT TI PDIC14G10",
             "ContainerValue": "NVIDIA® RTX™ A500"
         },
@@ -6297,31 +5297,7 @@
             "ContainerValue": "NVIDIA® RTX™ 3000"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTXA20008GBi7-12800HStudio16.0",
-            "ContainerValue": "NVIDIA"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX400012GB i7-13800HStudioG10",
-            "ContainerValue": "NVIDIA"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTXA20008GB i7-13800HStudioG10",
-            "ContainerValue": "NVIDIA"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTXA10006GB i7-13800HStudioG10",
-            "ContainerValue": "NVIDIA"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX30008GB i9-13900HKStudioG10",
-            "ContainerValue": "NVIDIA"
-        },
-        {
             "PhwebDescription": "BU IDS DSCRTX30008GB i7-13800H StudioG10",
-            "ContainerValue": "NVIDIA"
-        },
-        {
-            "PhwebDescription": "BU IDS DSC RTXA1XXX4GBPHi7-KTPower15.6G9",
             "ContainerValue": "NVIDIA"
         },
         {
@@ -6333,10 +5309,6 @@
             "ContainerValue": "NVIDIA"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTXA5004GBi5-13500HPower15.6G1",
-            "ContainerValue": "NVIDIA"
-        },
-        {
             "PhwebDescription": "BU IDS DSCRTX2000Ada8GBi7-13700HPower15.",
             "ContainerValue": "NVIDIA"
         },
@@ -6345,136 +5317,24 @@
             "ContainerValue": "AMD Radeon"
         },
         {
-            "PhwebDescription": "BU IDS DSC RTXA2XXX8GBPHi7-RMPower15.6G9",
-            "ContainerValue": "NVIDIA"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTXA10006GB i5-13600H Power 15",
-            "ContainerValue": "NVIDIA"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX2000Ada8GBi9-13900HKPower15",
-            "ContainerValue": "NVIDIA"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTXA5004GBi5-13600HPwr15.6G10",
-            "ContainerValue": "NVIDIA"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX2000Ada8GBR7PRO7840HSPower1",
-            "ContainerValue": "NVIDIA"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX3000Ada8GBi9-13900HKPower15",
-            "ContainerValue": "NVIDIA"
-        },
-        {
             "PhwebDescription": "BU IDS DSCRTXA10006GBR7PRO7840HSPower15.",
             "ContainerValue": "AMD Radeon"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX3000Ada8GBi7-13700HPower156",
-            "ContainerValue": "NVIDIA"
-        },
-        {
-            "PhwebDescription": "BU IDS DSC RTX A500 PHi7RMOSRTIPDIC14G10",
-            "ContainerValue": "NVIDIA"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTXA10006GBR9PRO7940HSPower15.",
-            "ContainerValue": "NVIDIA"
         },
         {
             "PhwebDescription": "BU IDS DSCRTX2000Ada8GBR97940HSPower15.6",
             "ContainerValue": "AMD Radeon"
         },
         {
-            "PhwebDescription": "BU IDS DSC T550 PH i5-KT TI PD IC 16 G10",
-            "ContainerValue": "NVIDIA"
-        },
-        {
-            "PhwebDescription": "BU IDS DSC i7-1265U 16 G9",
-            "ContainerValue": "NVIDIA"
-        },
-        {
             "PhwebDescription": "BU IDS DSCRTX408012GB i9-13900HStudioG10",
             "ContainerValue": "Intel Iris"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40708GB i9-13900HKStudioG10",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX408012GBi9-13900HKStudioG10",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40708GB i7-13800H StudioG10",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCMX5502GB PHi5KT 470 G10",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DSC MX550 2GB i7-1255U 250 G9",
-            "ContainerValue": "NVIDIA GeForce"
         },
         {
             "PhwebDescription": "BU IDS DSC MX550 2GB i5-1235U 250 G9",
             "ContainerValue": "Intel Iris"
         },
         {
-            "PhwebDescription": "BU IDS DSCMX5502GB PHi7xxxxU 250 G10",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX20504GB PHi7KT TIPD 440 G10",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DSC MX570A2GBi5-1235URTKUSBC450G9",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX20504GB PHi5KT TIPD 440 G10",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX20504GB PHi5KT TIPD 450 G10",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX20504GB PHi7KT TIPD 450 G10",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX20504GB PHi5KTRTKUSBC440G10",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX20504GB i5-1345U TIPD640G10",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCMX5502GB PHi5xxxxU 250 G10",
-            "ContainerValue": "NVIDIA GeForce"
-        },
-        {
             "PhwebDescription": "BU IDS DSC T550 PH i7-RM TI PD IC 14 G10",
             "ContainerValue": "NVIDIA® RTX™ A500"
-        },
-        {
-            "PhwebDescription": "BU IDS DSC T550 PH i5-RM TI PD IC 14 G10",
-            "ContainerValue": "NVIDIA Quadro"
-        },
-        {
-            "PhwebDescription": "BU IDS DSC T550 PH i7RM OSR TI PDIC16G10",
-            "ContainerValue": "NVIDIA Quadro"
-        },
-        {
-            "PhwebDescription": "GFX NVIDIA T400 2GB w/2 mDP-to-DP",
-            "ContainerValue": "NVIDIA Quadro"
         },
         {
             "PhwebDescription": "APU AMD R7-5700G 8C 3.80 65W RGB LCS",
@@ -6885,10 +5745,6 @@
             "ContainerValue": "Intel UHD"
         },
         {
-            "PhwebDescription": "BU IDS UMA N200 16GB 128GUFS 14 G11",
-            "ContainerValue": "Intel UHD"
-        },
-        {
             "PhwebDescription": "BU Eng One Ess Pent N6415 14 TS AiO Win",
             "ContainerValue": "Intel UHD"
         },
@@ -7157,10 +6013,6 @@
             "ContainerValue": "NVIDIA® GeForce RTX™ 3050"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX30504GB U7-155U 17",
-            "ContainerValue": "NVIDIA® GeForce RTX™ 3050"
-        },
-        {
             "PhwebDescription": "BU IDS DSCRTX40506GB R5 8640H 15",
             "ContainerValue": "NVIDIA® GeForce RTX™ 4050"
         },
@@ -7339,10 +6191,6 @@
         {
             "PhwebDescription": "BU IDS DSCRTX500Ada4GB U5-135HPower16G11",
             "ContainerValue": "NVIDIA® RTX™ A500"
-        },
-        {
-            "PhwebDescription": "APU AMD R7-5700G 8C 3.80 65W RGB LCS",
-            "ContainerValue": "AMD Radeon"
         }
     ]
 }

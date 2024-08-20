@@ -297,10 +297,6 @@
             "ContainerValue": "HP Premium Quiet Keyboard – spill-resistant, full-size, backlit keyboard with drain and DuraKeys"
         },
         {
-            "PhwebDescription": "HP USB 320K KB",
-            "ContainerValue": "HP Wired Desktop 320K Keyboard"
-        },
-        {
             "PhwebDescription": "KBDPM HP TP BL num kypd SR",
             "ContainerValue": "HP Premium Keyboard – spill-resistant, full-size, backlit keyboard with numeric keypad"
         },
@@ -331,10 +327,6 @@
         {
             "PhwebDescription": "KBD CPfNFC BL SR PVCY",
             "ContainerValue": "HP Premium Keyboard – spill-resistant, backlit keyboard"
-        },
-        {
-            "PhwebDescription": "HPKBDWD USB",
-            "ContainerValue": "HP USB wired keyboard"
         },
         {
             "PhwebDescription": "HP 310 Blk Wired KB/Mse",
@@ -659,10 +651,6 @@
         {
             "PhwebDescription": "KBDQ CP BL SR",
             "ContainerValue": "HP Premium Quiet Keyboard  – spill-resistant, full-size keyboard with drain and DuraKeys"
-        },
-        {
-            "PhwebDescription": "HP 655 WRLS KB/MSE Combo",
-            "ContainerValue": "HP 655 Wireless  Keyboard and mouse combo"
         },
         {
             "PhwebDescription": "KBD CP BL num kypd SR",
@@ -1265,10 +1253,6 @@
             "ContainerValue": "Spill-resistant keyboard"
         },
         {
-            "PhwebDescription": "KBD JTB ISK CP",
-            "ContainerValue": "Full-size island-style, spill and pick resistant keyboard"
-        },
-        {
             "PhwebDescription": "KBD SDB CP BL-WHT 1Zone",
             "ContainerValue": "Full-size, 1-zone white backlit, shadow black keyboard and 26-Key Rollover Anti-Ghosting Key technology"
         },
@@ -1283,10 +1267,6 @@
         {
             "PhwebDescription": "KBD/MSE HP 510SP WHT Paper Pkg",
             "ContainerValue": "HP 510SP White Wireless Keyboard and Mouse Combo"
-        },
-        {
-            "PhwebDescription": "KBDWD USB BusSlim",
-            "ContainerValue": "HP USB Slim Business Keyboard"
         }
     ]
 }

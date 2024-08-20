@@ -817,23 +817,7 @@
             "ContainerValue": "Transfer rates up to 5500 MT/s."
         },
         {
-            "PhwebDescription": "BU IDS OPP 24-cr0 23.8 8GB R5-7520U",
-            "ContainerValue": "Transfer rates up to 5500 MT/s."
-        },
-        {
-            "PhwebDescription": "BU IDS OPP 27-cr0 27 8GB R3-7320U",
-            "ContainerValue": "Transfer rates up to 5500 MT/s."
-        },
-        {
             "PhwebDescription": "BU IDS OPP 24-cr0 23.8 16GB R5",
-            "ContainerValue": "Transfer rates up to 5500 MT/s."
-        },
-        {
-            "PhwebDescription": "BU IDS OPP 27-cr0 27 16GB R5-7520U",
-            "ContainerValue": "Transfer rates up to 5500 MT/s."
-        },
-        {
-            "PhwebDescription": "BU IDS OPP 27-cr0 27 8GB R5-7520U",
             "ContainerValue": "Transfer rates up to 5500 MT/s."
         },
         {
@@ -867,10 +851,6 @@
         {
             "PhwebDescription": "BU IDS OPP 24-cr0 23.8 8GB AthlonG",
             "ContainerValue": "Transfer rates up to 5500 MT/s."
-        },
-        {
-            "PhwebDescription": "BU IDS UMA i5-1335U 16GB 14",
-            "ContainerValue": "Transfer rates up to 5200 MT/s."
         },
         {
             "PhwebDescription": "BU IDS UMA i7-1355U 16GB fOLED 14",

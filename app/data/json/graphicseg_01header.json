@@ -837,10 +837,6 @@
             "ContainerValue": "Integrated"
         },
         {
-            "PhwebDescription": "BU IDS DSC RTX 3060 6GB i5-12500H 16",
-            "ContainerValue": "Integrated"
-        },
-        {
             "PhwebDescription": "BU IDS DSC MX550 2GB i7-1255U 15",
             "ContainerValue": "Integrated"
         },
@@ -861,27 +857,11 @@
             "ContainerValue": "Integrated"
         },
         {
-            "PhwebDescription": "BU IDSDSCMXxxx2GBPHi7-12xxxU15nSDC15-eg2",
-            "ContainerValue": "Integrated"
-        },
-        {
             "PhwebDescription": "BU IDS UMA i7-1250U 16GB 13",
             "ContainerValue": "Integrated"
         },
         {
-            "PhwebDescription": "BU IDS DSC RTX 3060 6GB i7-12700H 16",
-            "ContainerValue": "Integrated"
-        },
-        {
             "PhwebDescription": "BU IDS UMA i3-1125G4 15",
-            "ContainerValue": "Integrated"
-        },
-        {
-            "PhwebDescription": "BU IDSDSCMXxxx2GBPHi5-12xxxU15nSDC15-eg2",
-            "ContainerValue": "Integrated"
-        },
-        {
-            "PhwebDescription": "BU IDS DSC RTX 3050Ti 4GB Ryzen5 5600H15",
             "ContainerValue": "Integrated"
         },
         {
@@ -890,14 +870,6 @@
         },
         {
             "PhwebDescription": "BU IDS UMA i7-1355U 15",
-            "ContainerValue": "Integrated"
-        },
-        {
-            "PhwebDescription": "BU IDS DSC RTX 3050Ti 4GB PH R7 8C 16",
-            "ContainerValue": "Integrated"
-        },
-        {
-            "PhwebDescription": "BU IDS DSC RTX 3050 4GB R5 6600H 16",
             "ContainerValue": "Integrated"
         },
         {
@@ -961,10 +933,6 @@
             "ContainerValue": "Integrated"
         },
         {
-            "PhwebDescription": "BU IDS DSC RTX 3050Ti 4GB R5 6600H 16",
-            "ContainerValue": "Integrated"
-        },
-        {
             "PhwebDescription": "BU IDS UMA i5-1230U 8GB 13",
             "ContainerValue": "Integrated"
         },
@@ -1013,10 +981,6 @@
             "ContainerValue": "Integrated"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40608GB fGSync i7-13700HX16",
-            "ContainerValue": "Integrated"
-        },
-        {
             "PhwebDescription": "BU IDS UMA N200 128GUFS 15",
             "ContainerValue": "Integrated"
         },
@@ -1045,14 +1009,6 @@
             "ContainerValue": "Integrated"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX409016GBfGSynci9-13900HX17-",
-            "ContainerValue": "Integrated"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX408012GBfGSynci7-13700HX17-",
-            "ContainerValue": "Integrated"
-        },
-        {
             "PhwebDescription": "BU IDS UMA i5-1135G7 17",
             "ContainerValue": "Integrated"
         },
@@ -1077,31 +1033,11 @@
             "ContainerValue": "Integrated"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX30506GB R7 7840HS 16",
-            "ContainerValue": "Integrated"
-        },
-        {
             "PhwebDescription": "BU IDS UMA i7-13700H 17",
             "ContainerValue": "Integrated"
         },
         {
-            "PhwebDescription": "BU IDS DCSPHN21X48GB i7-13700H 16",
-            "ContainerValue": "Integrated"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX408012GBfGSynci9-13900HX17-",
-            "ContainerValue": "Integrated"
-        },
-        {
             "PhwebDescription": "BU IDS UMA PHi7xxxxU 17",
-            "ContainerValue": "Integrated"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX30506GB R5 7640HS 16",
-            "ContainerValue": "Integrated"
-        },
-        {
-            "PhwebDescription": "BU IDS DSC RTX 3050 4GB R7 6800H 16",
             "ContainerValue": "Integrated"
         },
         {
@@ -1149,10 +1085,6 @@
             "ContainerValue": "Integrated"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX20504GB i7-1355U16GBfOLED14",
-            "ContainerValue": "Integrated"
-        },
-        {
             "PhwebDescription": "BU IDS OPP 24-cr0 23.8 i5-1335U",
             "ContainerValue": "Integrated"
         },
@@ -1165,15 +1097,7 @@
             "ContainerValue": "Integrated"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40608GB R7 7840HS PLA 16",
-            "ContainerValue": "Integrated"
-        },
-        {
             "PhwebDescription": "BU IDS DSCArcA370M4GB i7-13700H 16",
-            "ContainerValue": "Integrated"
-        },
-        {
-            "PhwebDescription": "BU IDS DCSPHN2P0R6GB i5-13500H 15",
             "ContainerValue": "Integrated"
         },
         {
@@ -1205,19 +1129,7 @@
             "ContainerValue": "Integrated"
         },
         {
-            "PhwebDescription": "BU IDS DSCPHN21X68GB i7-13700HX 17-cm2",
-            "ContainerValue": "Integrated"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40506GB i7-13620H 16",
-            "ContainerValue": "Integrated"
-        },
-        {
             "PhwebDescription": "BU IDS DSCRTX20504GB i5-1335U16GBfOLED14",
-            "ContainerValue": "Integrated"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40708GB i9-13900HX 16",
             "ContainerValue": "Integrated"
         },
         {
@@ -1233,19 +1145,7 @@
             "ContainerValue": "Integrated"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40608GB i7-13700HX 16",
-            "ContainerValue": "Integrated"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40708GB R9 7940HS ALU 16",
-            "ContainerValue": "Integrated"
-        },
-        {
             "PhwebDescription": "BU IDS UMA i3-1125G4 17",
-            "ContainerValue": "Integrated"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40608GB i5-13500H 16",
             "ContainerValue": "Integrated"
         },
         {
@@ -1261,19 +1161,7 @@
             "ContainerValue": "Integrated"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40608GB i7-13620H 16",
-            "ContainerValue": "Integrated"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40608GB i7-13700H fOLED 16",
-            "ContainerValue": "Integrated"
-        },
-        {
             "PhwebDescription": "BU IDS UMA PHPentxxxx 4GB 14",
-            "ContainerValue": "Integrated"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40708GB fGSync i7-13700HX16",
             "ContainerValue": "Integrated"
         },
         {
@@ -1305,15 +1193,7 @@
             "ContainerValue": "Integrated"
         },
         {
-            "PhwebDescription": "BU IDS DSCArc4GB PHi7RM 16GB 16",
-            "ContainerValue": "Integrated"
-        },
-        {
             "PhwebDescription": "BU IDS UMA R3 7320U 8GB 14",
-            "ContainerValue": "Integrated"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40608GB i7-13700H 16",
             "ContainerValue": "Integrated"
         },
         {
@@ -1322,10 +1202,6 @@
         },
         {
             "PhwebDescription": "BU IDS UMA PH i5-12xxx U15 15",
-            "ContainerValue": "Integrated"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40708GB i7-13700HX 16",
             "ContainerValue": "Integrated"
         },
         {
@@ -1361,15 +1237,7 @@
             "ContainerValue": "Integrated"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40608GB i5-13500HX 16",
-            "ContainerValue": "Integrated"
-        },
-        {
             "PhwebDescription": "BU IDS UMA R7 7730U 16GB 15",
-            "ContainerValue": "Integrated"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40506GB i7-13700HX 16",
             "ContainerValue": "Integrated"
         },
         {
@@ -1381,19 +1249,11 @@
             "ContainerValue": "Integrated"
         },
         {
-            "PhwebDescription": "BU IDS DSCPHN21X26GB i5-13500H 15",
-            "ContainerValue": "Integrated"
-        },
-        {
             "PhwebDescription": "BU IDS UMA CelN4120 17",
             "ContainerValue": "Integrated"
         },
         {
             "PhwebDescription": "BU IDS DSCRTX30506GB i5-13420H 15",
-            "ContainerValue": "Integrated"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40608GB i9-13900H fOLED 16",
             "ContainerValue": "Integrated"
         },
         {
@@ -1414,10 +1274,6 @@
         },
         {
             "PhwebDescription": "BU IDS UMA i5-1335U 16GB 15",
-            "ContainerValue": "Integrated"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40506GB R5 7640HS 16",
             "ContainerValue": "Integrated"
         },
         {
@@ -1449,10 +1305,6 @@
             "ContainerValue": "Integrated"
         },
         {
-            "PhwebDescription": "BU IDS DSCArc4GB PHi7RM 32GB fOLED 16",
-            "ContainerValue": "Integrated"
-        },
-        {
             "PhwebDescription": "CPU INTL i9-13900K 3.00 24C 125W120mmLCS",
             "ContainerValue": "Integrated"
         },
@@ -1465,31 +1317,11 @@
             "ContainerValue": "Integrated"
         },
         {
-            "PhwebDescription": "BU IDS DSC RTX 3050 4GB i5-12500H 15",
-            "ContainerValue": "Integrated"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX408012GB i7-13700HX 16",
-            "ContainerValue": "Integrated"
-        },
-        {
             "PhwebDescription": "BU IDS UMA PHi7xxxx 16GB 16",
             "ContainerValue": "Integrated"
         },
         {
             "PhwebDescription": "BU IDS DSCRTX40506GB R5 7640HS PLA 16",
-            "ContainerValue": "Integrated"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40506GB i7-13700H 16",
-            "ContainerValue": "Integrated"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40608GB R7 7840HS 16",
-            "ContainerValue": "Integrated"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40506GB i5-13420H 16",
             "ContainerValue": "Integrated"
         },
         {
@@ -1518,10 +1350,6 @@
         },
         {
             "PhwebDescription": "CPU INTL i3-13100T 2.50 4C 35W",
-            "ContainerValue": "Integrated"
-        },
-        {
-            "PhwebDescription": "BU IDS DSC RTX 3050 4GB Ryzen5 5600H 15",
             "ContainerValue": "Integrated"
         },
         {
@@ -1561,10 +1389,6 @@
             "ContainerValue": "Integrated"
         },
         {
-            "PhwebDescription": "BU IDS DSCArcA370M4GB PHi7xxxx 16",
-            "ContainerValue": "Integrated"
-        },
-        {
             "PhwebDescription": "BU IDS UMA PHi312xxxU15 15",
             "ContainerValue": "Integrated"
         },
@@ -1578,10 +1402,6 @@
         },
         {
             "PhwebDescription": "BU IDS UMA PHi3xxxxU 17",
-            "ContainerValue": "Integrated"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40506GB i5-13500H 16",
             "ContainerValue": "Integrated"
         },
         {
@@ -1685,10 +1505,6 @@
             "ContainerValue": "Integrated"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40608GB i7-13700HX 17-cm2",
-            "ContainerValue": "Integrated"
-        },
-        {
             "PhwebDescription": "BU IDS UMA Ath7120U 8GB 15",
             "ContainerValue": "Integrated"
         },
@@ -1733,10 +1549,6 @@
             "ContainerValue": "Integrated"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40708GB R7 7840HS 16",
-            "ContainerValue": "Integrated"
-        },
-        {
             "PhwebDescription": "BU IDS UMA PentGld7505 14",
             "ContainerValue": "Integrated"
         },
@@ -1746,14 +1558,6 @@
         },
         {
             "PhwebDescription": "BU IDS OPP 24-cb0 23.8 AS-3050U",
-            "ContainerValue": "Integrated"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40506GB R7 7840HS PLA 16",
-            "ContainerValue": "Integrated"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40708GB i7-13700H 16",
             "ContainerValue": "Integrated"
         },
         {
@@ -1785,15 +1589,7 @@
             "ContainerValue": "Integrated"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40608GB R7 7840HS ALU 16",
-            "ContainerValue": "Integrated"
-        },
-        {
             "PhwebDescription": "BU IDS UMA PH R5 6C 15",
-            "ContainerValue": "Integrated"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX20504GB i5-13420H 15",
             "ContainerValue": "Integrated"
         },
         {
@@ -1813,19 +1609,7 @@
             "ContainerValue": "Integrated"
         },
         {
-            "PhwebDescription": "BU IDS DSCMX5502GB i5-1335U 16GB 14",
-            "ContainerValue": "Integrated"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40506GB R7 7840HS 16",
-            "ContainerValue": "Integrated"
-        },
-        {
             "PhwebDescription": "BU IDS UMA PHi5xxxx 8GB 14",
-            "ContainerValue": "Integrated"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40608GB R5 7640HS 16",
             "ContainerValue": "Integrated"
         },
         {
@@ -1897,14 +1681,6 @@
             "ContainerValue": "Integrated"
         },
         {
-            "PhwebDescription": "BU IDS DSCPHN21X26GB i7-13700H 15",
-            "ContainerValue": "Integrated"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40708GB R7 7840HS ALU 16",
-            "ContainerValue": "Integrated"
-        },
-        {
             "PhwebDescription": "BU IDS OPP 24-cr0 23.8 i3-1315U",
             "ContainerValue": "Integrated"
         },
@@ -1953,10 +1729,6 @@
             "ContainerValue": "Integrated"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40608GB i9-13900H 16",
-            "ContainerValue": "Integrated"
-        },
-        {
             "PhwebDescription": "BU IDS UMA Ryzen5 5600U 14",
             "ContainerValue": "Integrated"
         },
@@ -1974,10 +1746,6 @@
         },
         {
             "PhwebDescription": "CPU INTL i3-13100 3.40 12 MB 4C 60W",
-            "ContainerValue": "Integrated"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX30506GB i5-13500H 16",
             "ContainerValue": "Integrated"
         },
         {
@@ -2026,14 +1794,6 @@
         },
         {
             "PhwebDescription": "BU IDS DSCRTX30506GB R5 7640H ALU 16",
-            "ContainerValue": "Integrated"
-        },
-        {
-            "PhwebDescription": "BU IDS DSC GTX 1650 4GB i7-12700H 16",
-            "ContainerValue": "Integrated"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX30506GB i7-13700H 15",
             "ContainerValue": "Integrated"
         },
         {
@@ -2101,10 +1861,6 @@
             "ContainerValue": "Integrated"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX30506GB i7-13620H 15",
-            "ContainerValue": "Integrated"
-        },
-        {
             "PhwebDescription": "BU IDS UMA PH i3-12xxx U15 15",
             "ContainerValue": "Integrated"
         },
@@ -2130,10 +1886,6 @@
         },
         {
             "PhwebDescription": "BU IDS UMA i7-12700H 16GB 16",
-            "ContainerValue": "Integrated"
-        },
-        {
-            "PhwebDescription": "BU IDS DSC 6GB Ryzen7 5800H 16",
             "ContainerValue": "Integrated"
         },
         {
@@ -2317,10 +2069,6 @@
             "ContainerValue": "Integrated"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX400012GBi9-13900HKStudioG10",
-            "ContainerValue": "Integrated"
-        },
-        {
             "PhwebDescription": "BU IDS DSCRTXA10004GBi9-12900HStudio16.0",
             "ContainerValue": "Integrated"
         },
@@ -2465,10 +2213,6 @@
             "ContainerValue": "Integrated"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX400012GBi9-13900HKStudioG10",
-            "ContainerValue": "Integrated"
-        },
-        {
             "PhwebDescription": "BU IDS i7-13850HX nWWAN Fury 16 G10",
             "ContainerValue": "Integrated"
         },
@@ -2525,15 +2269,7 @@
             "ContainerValue": "Integrated"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX408012GB i7-13800HStudioG10",
-            "ContainerValue": "Integrated"
-        },
-        {
             "PhwebDescription": "BU IDS UMA PH i7-KT HW RTK USBC 14 G10",
-            "ContainerValue": "Integrated"
-        },
-        {
-            "PhwebDescription": "BU IDS DSC i7-1165G7 32GB 14 G8",
             "ContainerValue": "Integrated"
         },
         {
@@ -3013,10 +2749,6 @@
             "ContainerValue": "Integrated"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX20504GB R5 7535HS 15",
-            "ContainerValue": "Integrated"
-        },
-        {
             "PhwebDescription": "BU IDS UMA i5-1240P 240 G9",
             "ContainerValue": "Integrated"
         },
@@ -3081,14 +2813,6 @@
             "ContainerValue": "Integrated"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX20504GB i5-12450H 15",
-            "ContainerValue": "Integrated"
-        },
-        {
-            "PhwebDescription": "BU IDS UMA i7-1165G7 RTK USBC 840 G8",
-            "ContainerValue": "Integrated"
-        },
-        {
             "PhwebDescription": "BU IDS UMA PH i5-KT fWWAN 440 G9",
             "ContainerValue": "Integrated"
         },
@@ -3122,10 +2846,6 @@
         },
         {
             "PhwebDescription": "BU IDS UMA PH i7-RM 32GB Dfly G4",
-            "ContainerValue": "Integrated"
-        },
-        {
-            "PhwebDescription": "BU IDS DSC RTX 3070Ti MQ 8GB R7 6800H 16",
             "ContainerValue": "Integrated"
         },
         {
@@ -3165,10 +2885,6 @@
             "ContainerValue": "Integrated"
         },
         {
-            "PhwebDescription": "BU IDS DSC RTX 3050 4GB i7-12650H 15",
-            "ContainerValue": "Integrated"
-        },
-        {
             "PhwebDescription": "BU IDS UMA PHPentxxxx 17",
             "ContainerValue": "Integrated"
         },
@@ -3205,19 +2921,11 @@
             "ContainerValue": "Integrated"
         },
         {
-            "PhwebDescription": "BU IDS DSC RX 6650M 8GB R7 6800H 16",
-            "ContainerValue": "Integrated"
-        },
-        {
             "PhwebDescription": "BU IDS UMA PH i7-12xxx U15 15",
             "ContainerValue": "Integrated"
         },
         {
             "PhwebDescription": "BU IDS UMA N100 128GUFS 15",
-            "ContainerValue": "Integrated"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX20504GB i7-12650H 15",
             "ContainerValue": "Integrated"
         },
         {
@@ -3230,10 +2938,6 @@
         },
         {
             "PhwebDescription": "BU IDS UMA PHCelxxxx 15",
-            "ContainerValue": "Integrated"
-        },
-        {
-            "PhwebDescription": "BU IDS DSC MX550 2GB i7-1255U nSDC 14",
             "ContainerValue": "Integrated"
         },
         {
@@ -3269,10 +2973,6 @@
             "ContainerValue": "Integrated"
         },
         {
-            "PhwebDescription": "BU IDS DSCMX5502GB i5-1335U nSDC 15",
-            "ContainerValue": "Integrated"
-        },
-        {
             "PhwebDescription": "BU IDS UMA i7-1355U 16GB fOLED 14",
             "ContainerValue": "Integrated"
         },
@@ -3286,14 +2986,6 @@
         },
         {
             "PhwebDescription": "BU IDSUPentSN50308GB64GeMMCfBLnSDC14aca0",
-            "ContainerValue": "Integrated"
-        },
-        {
-            "PhwebDescription": "BU IDS DSC RX 6500M 4GB Ryzen7 5800H 15",
-            "ContainerValue": "Integrated"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40608GB i7-13700H 15",
             "ContainerValue": "Integrated"
         },
         {
@@ -3338,10 +3030,6 @@
         },
         {
             "PhwebDescription": "APU AMD R5-7600 6C 65W 2HPRGBAir",
-            "ContainerValue": "Integrated"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40506GB i7-12650H 15",
             "ContainerValue": "Integrated"
         },
         {
@@ -3393,10 +3081,6 @@
             "ContainerValue": "Integrated"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX40608GB i5-13500H 15",
-            "ContainerValue": "Integrated"
-        },
-        {
             "PhwebDescription": "BU IDS UMA CelN41204GB64GeMMCnSDC14a-na0",
             "ContainerValue": "Integrated"
         },
@@ -3414,10 +3098,6 @@
         },
         {
             "PhwebDescription": "BU IDS OPP 24-ck0 23.8 I7-1255U",
-            "ContainerValue": "Integrated"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX40608GB i9-13900HX 16",
             "ContainerValue": "Integrated"
         },
         {
@@ -3549,10 +3229,6 @@
             "ContainerValue": "Integrated"
         },
         {
-            "PhwebDescription": "BU IDS DSC i7-1165G7 16GB 14 G8",
-            "ContainerValue": "Integrated"
-        },
-        {
             "PhwebDescription": "BU IDS UMA i7-1355U 32GB TIPDx3601040G10",
             "ContainerValue": "Integrated"
         },
@@ -3654,10 +3330,6 @@
         },
         {
             "PhwebDescription": "BU IDS UMA PH R9 HS PRO 8C TI PDIC14G10A",
-            "ContainerValue": "Integrated"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX2000Ada8GBR9PRO7940HSPower1",
             "ContainerValue": "Integrated"
         },
         {
@@ -4073,10 +3745,6 @@
             "ContainerValue": "Integrated"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTXA10006GBR5PRO7640HSPower15.",
-            "ContainerValue": "Integrated"
-        },
-        {
             "PhwebDescription": "BU IDS UMA PHR56C TIPD 645 G10",
             "ContainerValue": "Integrated"
         },
@@ -4110,10 +3778,6 @@
         },
         {
             "PhwebDescription": "BU IDS UMA i5-1350P fWWAN TIPD 640 G10",
-            "ContainerValue": "Integrated"
-        },
-        {
-            "PhwebDescription": "BU IDS DSC MX550 2GB i5-1235U 240 G9",
             "ContainerValue": "Integrated"
         },
         {
@@ -4218,10 +3882,6 @@
         },
         {
             "PhwebDescription": "BU IDS UMA i7-1265U RTK USBC 14 G9",
-            "ContainerValue": "Integrated"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTXA10004GBi9-12900HStudio16.0",
             "ContainerValue": "Integrated"
         },
         {
@@ -4501,10 +4161,6 @@
             "ContainerValue": "Integrated"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTXA10004GBi7-12800HStudio16G9",
-            "ContainerValue": "Integrated"
-        },
-        {
             "PhwebDescription": "BU RCTO UMAR37330UHDfnBLnFPRwHDC245G10IN",
             "ContainerValue": "Integrated"
         },
@@ -4585,10 +4241,6 @@
             "ContainerValue": "Integrated"
         },
         {
-            "PhwebDescription": "BU IDS DSCGeFRTX3070Ti8GBi9-12900HStudio",
-            "ContainerValue": "Integrated"
-        },
-        {
             "PhwebDescription": "BU RCTOUMACelN45004GBHD32GeMMCCPJTBINDIA",
             "ContainerValue": "Integrated"
         },
@@ -4602,10 +4254,6 @@
         },
         {
             "PhwebDescription": "BU IDS UMA PH i5-KT HW TI PD IC 840 G10",
-            "ContainerValue": "Integrated"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTXA10006GB i5-13600HStudioG10",
             "ContainerValue": "Integrated"
         },
         {
@@ -4705,10 +4353,6 @@
             "ContainerValue": "Integrated"
         },
         {
-            "PhwebDescription": "BU IDS UMA i7-1165G7 840 G8",
-            "ContainerValue": "Integrated"
-        },
-        {
             "PhwebDescription": "BU IDS UMA i5-1135G7 840 G8",
             "ContainerValue": "Integrated"
         },
@@ -4734,10 +4378,6 @@
         },
         {
             "PhwebDescription": "BU IDS UMA PH i5-KT HW 840 G9",
-            "ContainerValue": "Integrated"
-        },
-        {
-            "PhwebDescription": "BU 200 G4 21.5 AiO i3-1215U IDS",
             "ContainerValue": "Integrated"
         },
         {
@@ -4809,15 +4449,7 @@
             "ContainerValue": "Integrated"
         },
         {
-            "PhwebDescription": "BU IDS DSCRTX30506GB i5-13500H 16 PRC",
-            "ContainerValue": "Integrated"
-        },
-        {
             "PhwebDescription": "BU IDS UMA i5-13500H 16 PRC",
-            "ContainerValue": "Integrated"
-        },
-        {
-            "PhwebDescription": "BU IDS DSCRTX30506GB i7-13700H 16 PRC",
             "ContainerValue": "Integrated"
         },
         {

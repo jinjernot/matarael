@@ -165,10 +165,6 @@
             "ContainerValue": "MU-MIMO supported Miracast® compatible"
         },
         {
-            "PhwebDescription": "WLAN IWiFi6AX201ax2x2MUMIMOnvP160MHz+BT5",
-            "ContainerValue": "MU-MIMO supported Miracast compatible"
-        },
-        {
             "PhwebDescription": "WLAN I AX210 Wi-Fi6e nvP 160MHz +BT5.2WW",
             "ContainerValue": "MU-MIMO supported Miracast® compatible"
         },
@@ -279,10 +275,6 @@
         {
             "PhwebDescription": "WLAN RT ac 2x2 +BT 4.2LE WW",
             "ContainerValue": "Miracast compatible MU-MIMO supported"
-        },
-        {
-            "PhwebDescription": "WLAN ax2x2 +BT 5.2 2Ant",
-            "ContainerValue": "MU-MIMO supported Modern Standby (Connected)"
         },
         {
             "PhwebDescription": "WLAN Wi-Fi6e +BT 5.2",

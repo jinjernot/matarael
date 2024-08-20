@@ -2757,10 +2757,6 @@
             "ContainerValue": "[6,7]"
         },
         {
-            "PhwebDescription": "CPU I Xeon4214R 2.4GHz 12C100W",
-            "ContainerValue": "[6,7]"
-        },
-        {
             "PhwebDescription": "CPU I Xeon5220R 2.2GHz 24C150W",
             "ContainerValue": "[6,7]"
         },
@@ -5077,14 +5073,6 @@
             "ContainerValue": "[6,7]"
         },
         {
-            "PhwebDescription": "BU IDS UMA PH i3-12xxx U15 14",
-            "ContainerValue": "[6,7]"
-        },
-        {
-            "PhwebDescription": "BU IDS UMA PH i5-12xxx U15 14",
-            "ContainerValue": "[6,7]"
-        },
-        {
             "PhwebDescription": "BU IDS UMA PH i7-12xxx P28 14",
             "ContainerValue": "[6,7]"
         },
@@ -5098,98 +5086,6 @@
         },
         {
             "PhwebDescription": "BU IDS UMA i5-1240P fBL 14",
-            "ContainerValue": "[6,7]"
-        },
-        {
-            "PhwebDescription": "BU IDS UMA PH i7-12xxx U15 14",
-            "ContainerValue": "[6,7]"
-        },
-        {
-            "PhwebDescription": "BU IDS UMA OPP PENT J5040 S01-aF2 NC",
-            "ContainerValue": "[6,7]"
-        },
-        {
-            "PhwebDescription": "BU IDS OPP 24-cr0 23.8 8GB R5-7520U",
-            "ContainerValue": "[6,7]"
-        },
-        {
-            "PhwebDescription": "BU IDS OPP 27-cr0 27 i5-1335U",
-            "ContainerValue": "[6,7]"
-        },
-        {
-            "PhwebDescription": "BU IDS OPP 27-cr0 27 i3-1315U",
-            "ContainerValue": "[6,7]"
-        },
-        {
-            "PhwebDescription": "BU IDS OPP 24-cr0 23.8 16GB R5-7520U",
-            "ContainerValue": "[6,7]"
-        },
-        {
-            "PhwebDescription": "BU IDS OPP 24-cr0 23.8 8GB R3-7320U",
-            "ContainerValue": "[6,7]"
-        },
-        {
-            "PhwebDescription": "BU IDS OPP 24-cr0 23.8 i5-1335U",
-            "ContainerValue": "[6,7]"
-        },
-        {
-            "PhwebDescription": "BU IDS OPP 24-cr0 23.8 i3-1315U",
-            "ContainerValue": "[6,7]"
-        },
-        {
-            "PhwebDescription": "BU IDS OPP 27-cr0 27 R7-7730U",
-            "ContainerValue": "[6,7]"
-        },
-        {
-            "PhwebDescription": "BU IDS OPP 27-cr0 27 16GB R5-7520U",
-            "ContainerValue": "[6,7]"
-        },
-        {
-            "PhwebDescription": "BU IDS OPP 24-cr0 23.8 Cel N100",
-            "ContainerValue": "[6,7]"
-        },
-        {
-            "PhwebDescription": "BU IDS OPP 22-dd2 21.5 i3-1215U",
-            "ContainerValue": "[6,7]"
-        },
-        {
-            "PhwebDescription": "BU IDS OPP 27-cr0 27 8GB R5-7520U",
-            "ContainerValue": "[6,7]"
-        },
-        {
-            "PhwebDescription": "BU IDS OPP 24-cb1 23.8 i7-11xx",
-            "ContainerValue": "[6,7]"
-        },
-        {
-            "PhwebDescription": "BU IDS OPP 24-cr0 23.8 i7-1355U",
-            "ContainerValue": "[6,7]"
-        },
-        {
-            "PhwebDescription": "BU IDS OPP 27-cb1 27 i5-11xx",
-            "ContainerValue": "[6,7]"
-        },
-        {
-            "PhwebDescription": "BU IDS OPP 27-cr0 27 8GB R3-7320U",
-            "ContainerValue": "[6,7]"
-        },
-        {
-            "PhwebDescription": "BU IDS OPP 27-cb1 27 i7-11xx",
-            "ContainerValue": "[6,7]"
-        },
-        {
-            "PhwebDescription": "BU IDS OPP 27-cr0 27 i7-1355U",
-            "ContainerValue": "[6,7]"
-        },
-        {
-            "PhwebDescription": "BU IDS OPP 24-cb1 23.8 i5-11xx",
-            "ContainerValue": "[6,7]"
-        },
-        {
-            "PhwebDescription": "BU IDS OPP 24-cb0 23.8 R5-5500U",
-            "ContainerValue": "[6,7]"
-        },
-        {
-            "PhwebDescription": "BU IDS Pav 24-ca0 23.8 FHD R5-5500U",
             "ContainerValue": "[6,7]"
         }
     ]

@@ -201,10 +201,6 @@
             "ContainerValue": "5 MP privacy camera"
         },
         {
-            "PhwebDescription": "Intgrtd Cam DM HD IR",
-            "ContainerValue": "720p HD IR camera"
-        },
-        {
             "PhwebDescription": "Intgrtd Cam DM 5MP IR",
             "ContainerValue": "5MP HD IR camera"
         },
@@ -223,10 +219,6 @@
         {
             "PhwebDescription": "WEBCAM Integrated HD 720p IR DM",
             "ContainerValue": "720p HD IR privacy camera with integrated dual array microphones"
-        },
-        {
-            "PhwebDescription": "Intgrtd Cam DM HD",
-            "ContainerValue": "720p HD camera"
         },
         {
             "PhwebDescription": "ID JTB +HRG PLA",
@@ -249,10 +241,6 @@
             "ContainerValue": "720p HD camera"
         },
         {
-            "PhwebDescription": "Intgrtd Cam DM HD IR",
-            "ContainerValue": "720p HD IR privacy camera"
-        },
-        {
             "PhwebDescription": "WEBCAM Integrated HD 720p IR DM",
             "ContainerValue": "720p HD IR camera"
         },
@@ -273,16 +261,8 @@
             "ContainerValue": "HP  HD IR Camera 720p with face authentication and Windows Hello"
         },
         {
-            "PhwebDescription": "Intgrtd Cam DM 5MP IR",
-            "ContainerValue": "5 MP camera"
-        },
-        {
             "PhwebDescription": "LCD 11.6 HD BV LED 250 SVAfWWANwHDCTSslm",
             "ContainerValue": "720p HD camera"
-        },
-        {
-            "PhwebDescription": "Intgrtd Cam DM 5MP",
-            "ContainerValue": "5 MP camera"
         },
         {
             "PhwebDescription": "ID RCTO DAS PLA wHDC TNR FPR",
@@ -475,10 +455,6 @@
         {
             "PhwebDescription": "BU IDS UMA i5-1145G7 8GB OSREliteX2G8TAB",
             "ContainerValue": "1080p FHD IR camera"
-        },
-        {
-            "PhwebDescription": "BU IDS UMA PHR78CfHDCIRRTKUSBCx360435G10",
-            "ContainerValue": "IR camera"
         },
         {
             "PhwebDescription": "ID ASV PLA nSDC wHDC",

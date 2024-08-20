@@ -329,10 +329,6 @@
             "ContainerValue": "HDD"
         },
         {
-            "PhwebDescription": "ZTRB HP ZTrbDrv Dual 2TB TLCSSD",
-            "ContainerValue": "SSD"
-        },
-        {
             "PhwebDescription": "SSD 256GB SS 2280 PCIe-4x4 NVMe TLC",
             "ContainerValue": "SSD"
         },
@@ -383,10 +379,6 @@
         {
             "PhwebDescription": "HDD 1TB 7200RPM 3.5in w/Caddy 2nd",
             "ContainerValue": "HDD"
-        },
-        {
-            "PhwebDescription": "ZTRB HP ZTrbDrv M.2 2TB TLCSSD 2nd",
-            "ContainerValue": "SSD"
         },
         {
             "PhwebDescription": "BU IDS UMA CelN4500 4GB 64GeMMC 11 G9",
@@ -486,10 +478,6 @@
         },
         {
             "PhwebDescription": "SSD HPZ 4TB 2280 PCIe-4x4 M.2",
-            "ContainerValue": "SSD"
-        },
-        {
-            "PhwebDescription": "ZTRB HP ZTrbDrv M.2 2TB TLCSSD",
             "ContainerValue": "SSD"
         },
         {
@@ -805,56 +793,12 @@
             "ContainerValue": "eMMC"
         },
         {
-            "PhwebDescription": "BU IDS UMA CelN4120 4GB 64GeMMC 11",
-            "ContainerValue": "eMMC"
-        },
-        {
-            "PhwebDescription": "BU IDS UMA CelN4500 8GB 128GeMMC 14a-na1",
-            "ContainerValue": "eMMC"
-        },
-        {
-            "PhwebDescription": "BU IDS UMA N200 128GUFS 15",
-            "ContainerValue": "UFS"
-        },
-        {
-            "PhwebDescription": "BU IDS UMA N200 128GUFS 14",
-            "ContainerValue": "UFS"
-        },
-        {
             "PhwebDescription": "SSD 1TB 2280 PCIe-4x4 NVME TLC",
             "ContainerValue": "SSD"
         },
         {
-            "PhwebDescription": "BU IDS UMA CelN4120 64GeMMC 14",
-            "ContainerValue": "eMMC"
-        },
-        {
-            "PhwebDescription": "BU IDS UMAPentSilN60004GB128GeMMC15a-na0",
-            "ContainerValue": "eMMC"
-        },
-        {
             "PhwebDescription": "SSD 2TB 2280 PCIe-4x4 NVME TLC 2nd",
             "ContainerValue": "SSD"
-        },
-        {
-            "PhwebDescription": "BU IDS UMA CelN4500 4GB 128GeMMC 15a-na0",
-            "ContainerValue": "eMMC"
-        },
-        {
-            "PhwebDescription": "BU IDS UMA CelN41204GB64GeMMCnSDC14a-ca0",
-            "ContainerValue": "eMMC"
-        },
-        {
-            "PhwebDescription": "BU IDS UMA CelN4500 4GB 64GeMMC 15a-na0",
-            "ContainerValue": "eMMC"
-        },
-        {
-            "PhwebDescription": "BU IDS UMACelN41208GB128GeMMCnSDC14a-na0",
-            "ContainerValue": "eMMC"
-        },
-        {
-            "PhwebDescription": "BU IDS UMA CelN4500 8GB 128GeMMC 15a-na0",
-            "ContainerValue": "eMMC"
         },
         {
             "PhwebDescription": "ZTRB HP ZTrbDrv M.2 2TB TLC SSD 4th",

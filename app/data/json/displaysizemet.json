@@ -1365,10 +1365,6 @@
             "ContainerValue": "39.6 cm (15.6\")"
         },
         {
-            "PhwebDescription": "MLD 162.5KAGLwBluLtHDR1KUWVA240HzNWBZflt",
-            "ContainerValue": "40.6 cm (16\")"
-        },
-        {
             "PhwebDescription": "BU IDS UMA N100 128GUFS 15",
             "ContainerValue": "128"
         },
@@ -1427,10 +1423,6 @@
         {
             "PhwebDescription": "FLD 17.0 2.5K BV OLED+LBL 400 UWVATOPbnt",
             "ContainerValue": "43.2 cm (17\")"
-        },
-        {
-            "PhwebDescription": "LCD 14.0FHDAGLED250UWVAfWANfHDCIRTOPNWBZ",
-            "ContainerValue": "35.6 cm (14\")"
         },
         {
             "PhwebDescription": "LCD 14 FHD AG LEDUWVA250slimTOPwPVSTNWBZ",
