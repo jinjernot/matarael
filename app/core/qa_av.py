@@ -22,7 +22,6 @@ def av_check(file):
     
     if MS4_len != SKUAcc_len:
         error_message = "Data of one of both tabs are corrupted, please verify the file and try again"
-
         error_df = pd.DataFrame({"ERROR": [error_message]})
         return error_df
 
