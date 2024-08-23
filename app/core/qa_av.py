@@ -16,9 +16,15 @@ def av_check(file):
     #Validacion de datos de ambos dataframes ya limpios
     MS4_len=len(ms4sku_df.drop_duplicates())
     SKUAcc_len=len(SkuAcc["SKU"].drop_duplicates())
-    if (MS4_len!=SKUAcc_len):
-        print("Data of one of both tabs are corrupted, please verify the file and try again")
-        sys.exit()
+    #if (MS4_len!=SKUAcc_len):
+    #    print("Data of one of both tabs are corrupted, please verify the file and try again")
+    #   sys.exit()
+    
+    if MS4_len != SKUAcc_len:
+        error_message = "Data of one of both tabs are corrupted, please verify the file and try again"
+
+        error_df = pd.DataFrame({"ERROR": [error_message]})
+        return error_df
 
     #Crear nuevos data frames para el análisis
     #DataFrame de SCS (Sku Accuracy)
