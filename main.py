@@ -3,6 +3,7 @@ from app.core.qa_granular import clean_granular
 from app.core.battery_life import battery_life
 from app.core.qa_data import clean_report
 from app.core.matrix import matrix_file
+from app.core.json_update import process_json_input
 from app.config.paths import JSON_PATH
 import app.config.config as config
 import json
@@ -94,18 +95,19 @@ def process_file_matrix():
 # Route for uploading JSON files
 @app.route('/scs-json-upload', methods=['POST'])
 def json_upload():
-    if 'uploadjson' in request.files:
-        file = request.files['uploadjson']
+    tag = request.form.get('tag')
+    component = request.form.get('component')
+    value = request.form.get('value')
+    
+    if tag and component and value:
         try:
-            if allowed_file(file.filename):  # Check if the file has a valid extension
-                filename = file.filename
-                file_path = os.path.join(JSON_PATH, filename)
-                file.save(file_path)
-                return render_template('file_uploaded.html')  # Render success template if file is uploaded successfully
+            # Call the process_json_input function with the user inputs
+            process_json_input(tag, component, value)
+            return render_template('file_uploaded.html')  # Render success template if processing is successful
         except Exception as e:
             print(e)
             return render_template('error.html', error_message=str(e)), 500  # Render error template for server errors
-    return render_template('error.html', error_message='No file part in request'), 400  # Render error template for bad requests
+    return render_template('error.html', error_message='Missing required fields'), 400  # Render error template for missing fields
 
 # Route for reviewing JSON files
 @app.route('/scs-json-review', methods=['GET'])

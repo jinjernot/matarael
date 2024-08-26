@@ -34,12 +34,19 @@
             </ul>
         </div>
         <div class="content">
-            <h3 class="">Upload JSON</h3><br>
-                <form action="scs-json-upload" method="POST" enctype="multipart/form-data">
-                    <input type="file" name="uploadjson" class="custom-input">
-                    <br><br>
-                    <input type="submit" value="Upload" class="custom-button">
-                </form>
+            <h3 class="">Update JSON</h3><br>
+            <form action="scs-json-upload" method="POST">
+                <label for="tag">Tag:</label>
+                <input type="text" id="tag" name="tag" class="custom-input">
+                <br><br>
+                <label for="component">Component:</label>
+                <input type="text" id="component" name="component" class="custom-input">
+                <br><br>
+                <label for="value">Value:</label>
+                <input type="text" id="value" name="value" class="custom-input">
+                <br><br>
+                <input type="submit" value="Submit" class="custom-button">
+            </form>
         </div>
     </div>
     <div class="footer-container">
