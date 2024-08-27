@@ -1,7 +1,7 @@
 from flask import Flask, request, render_template, send_from_directory
 from app.core.qa_granular import clean_granular
 from app.core.battery_life import battery_life
-from app.core.qa_data import clean_report
+from app.core.qa_data import clean_report, clean_report_av
 from app.core.matrix import matrix_file
 from app.core.json_update import process_json_input
 from app.config.paths import JSON_PATH
@@ -47,6 +47,17 @@ def process_file():
         except Exception as e:
             print(e)
             return render_template('error.html', error_message=str(e)), 500  # Render error template for server errors
+
+    elif 'av_regular' in request.files:
+        file = request.files['av_regular']
+        try:
+            if allowed_file(file.filename):  # Check if the file has a valid extension
+                clean_report_av(file)  # Process the AV report file
+                return send_from_directory('.', filename='SCS_QA_AV.xlsx', as_attachment=True)  # Serve AV report file for download
+        except Exception as e:
+            print(e)
+            return render_template('error.html', error_message=str(e)), 500  # Render error template for server errors
+
     return render_template('error.html', error_message='No file part in request'), 400  # Render error template for bad requests
 
 # Route for processing granular files
@@ -94,7 +105,7 @@ def process_file_matrix():
 
 # Route for uploading JSON files
 @app.route('/scs-json-upload', methods=['POST'])
-def json_upload():
+def json_update():
     tag = request.form.get('tag')
     component = request.form.get('component')
     value = request.form.get('value')
@@ -104,8 +115,11 @@ def json_upload():
             # Call the process_json_input function with the user inputs
             process_json_input(tag, component, value)
             return render_template('file_uploaded.html')  # Render success template if processing is successful
+        except FileNotFoundError as e:
+            # Handle the specific case where the JSON file is not found
+            return render_template('error.html', error_message=str(e)), 404  # Return a 404 Not Found status code
         except Exception as e:
-            print(e)
+            # Handle other exceptions
             return render_template('error.html', error_message=str(e)), 500  # Render error template for server errors
     return render_template('error.html', error_message='Missing required fields'), 400  # Render error template for missing fields
 
@@ -154,7 +168,7 @@ def matrix_file_content():
 
 @app.route('/scs-json-upload')
 def upload_json():
-    return render_template('json_upload.html')
+    return render_template('json_update.html')
 
 if __name__ == '__main__':
     app.run(debug=True)

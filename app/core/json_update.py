@@ -2,7 +2,6 @@ import json
 import os
 from app.config.paths import JSON_PATH
 
-
 def process_json_input(tag, component, value):
     # Construct the file path using the tag as the file name
     file_path = os.path.join(JSON_PATH, f"{tag}.json")
@@ -18,7 +17,7 @@ def process_json_input(tag, component, value):
             # Check if the component and value are already present
             for entry in data.get(root_key, []):
                 if entry.get('PhwebDescription') == component and entry.get('ContainerValue') == value:
-                    return  # If component and value are already in the file, exit the function
+                    raise ValueError("Value already in JSON")  # Raise an error if the component and value are already in the file
 
             # If not present, add the new component and value
             data[root_key].append({
@@ -32,14 +31,5 @@ def process_json_input(tag, component, value):
             json.dump(data, json_file, indent=4)
 
     else:
-        # If the file doesn't exist, create a new one with the provided data
-        data = {
-            tag: [
-                {
-                    'PhwebDescription': component,
-                    'ContainerValue': value
-                }
-            ]
-        }
-        with open(file_path, 'w', encoding='utf-8') as json_file:
-            json.dump(data, json_file, indent=4)
+        # If the file doesn't exist, raise an error
+        raise FileNotFoundError("JSON file not found. Please ensure the file exists before attempting to update it.")

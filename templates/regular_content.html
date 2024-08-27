@@ -23,7 +23,7 @@
                 <a href="{{ url_for('granular_content') }}">Granular Content</a><br>
                 <a href="{{ url_for('battery_life_content') }}">Battery Life</a><br>
                 <a href="{{ url_for('matrix_file_content') }}">Matrix File</a><br>
-                <a href="{{ url_for('json_upload') }}">Upload JSON</a><br>
+                <a href="{{ url_for('json_update') }}">Upload JSON</a><br>
                 <a href="{{ url_for('json_review') }}">Review JSON</a><br>
             </ul>
             <h3>Documentation</h3>
@@ -41,6 +41,15 @@
                     <input type="submit" value="Upload" class="custom-button">
                 </form><br>
                 Note: The excel file must be in the same format as scs export report.
+
+                    <!-- Form for AV Regular Content Upload -->
+    <h3 class="">AV Regular Content</h3><br>
+    <form action="scs-upload-av-regular" method="POST" enctype="multipart/form-data">
+        <input type="file" name="av_regular" class="custom-input">
+        <br><br>
+        <input type="submit" value="Upload" class="custom-button">
+    </form><br>
+    Note: The excel file must be in the same format as av export report.
         </div>
     </div>
     <div class="footer-container">
