@@ -1,0 +1,40 @@
+{
+    "batterylife": [
+        {
+            "Component": "7M407AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "7M408AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "7M409AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "7M410AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "7P098AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "872H2AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "872H3AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "872H4AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "872H5AV",
+            "ContainerValue": "[BLANK]"
+        }
+    ]
+}
