@@ -53,7 +53,7 @@ def process_file():
         try:
             if allowed_file(file.filename):  # Check if the file has a valid extension
                 clean_report_av(file)  # Process the AV report file
-                return send_from_directory('.', filename='SCS_QA_AV.xlsx', as_attachment=True)  # Serve AV report file for download
+                return send_from_directory('.', filename='SCS_QA.xlsx', as_attachment=True)  # Serve AV report file for download
         except Exception as e:
             print(e)
             return render_template('error.html', error_message=str(e)), 500  # Render error template for server errors

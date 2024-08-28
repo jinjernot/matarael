@@ -113,7 +113,7 @@ def clean_report_av(file):
         
         # Removing ';' from end of ContainerValue
         df.loc[df['ContainerValue'].str.endswith(';'), 'ContainerValue'] = df['ContainerValue'].str.slice(stop=-1)
-        
+
         # Stripping leading whitespaces from PhwebDescription
         df['PhwebDescription'] = df['PhwebDescription'].str.lstrip()
         

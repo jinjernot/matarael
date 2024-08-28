@@ -1,8 +1,7 @@
 # PATHS
 
-import os
-
 JSON_PATH = '/home/garciagi/SCS_Tool/app/data/json/'
+
 JSON_PATH_AV = '/home/garciagi/SCS_Tool/app/data/new_json/'
 
 JSON_PATH_LOCAL = 'app/data/json/'
