@@ -139,7 +139,7 @@ def clean_report_av(file):
                 container_df = df[df['ContainerName'] == container_name]
                 process_data_av(os.path.join(JSON_PATH_AV, x), container_name, container_df, df) # Server 
                 #process_data(os.path.join('json', x), container_name, container_df, df) # Local
-        
+        print("si fue el AV")
         excel_file = pd.ExcelFile(file.stream, engine='openpyxl')
         # Check if "ms4" sheet exists
         if "ms4" in excel_file.sheet_names:
