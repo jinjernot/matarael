@@ -1,8 +1,8 @@
 {
     "display": [
         {
-            "Component": "9E4H3AV",
-            "ContainerValue": "14\" diagonal, 2.8K (2880 x 1800), OLED, multitouch-enabled, 48-120 Hz, 0.2 ms response time, UWVA, edge-to-edge glass, micro-edge, Corning® Gorilla® Glass 5, Low Blue Light, SDR 400 nits, HDR 500 nits, 100% DCI-P3"
+            "Component": "10C52AV",
+            "ContainerValue": "13.3\" diagonal, FHD (1920 x 1080), IPS, anti-glare, 1000 nits, 72% NTSC, HP Sure View integrated privacy screen"
         },
         {
             "Component": "10C53AV",
@@ -3083,6 +3083,10 @@
         {
             "Component": "2NS90AV",
             "ContainerValue": "13.3\" diagonal FHD IPS BrightView WLED-backlit touch screen, 300 nits, 72% NTSC (1920 x 1080)"
+        },
+        {
+            "Component": "2NS91AV",
+            "ContainerValue": NaN
         },
         {
             "Component": "2NS92AV",
@@ -16843,6 +16847,10 @@
         {
             "Component": "V6E61AV",
             "ContainerValue": "14\" diagonal, HD (1366 x 768), anti-glare, 220 nits, 45% NTSC"
+        },
+        {
+            "Component": "V6F37AV",
+            "ContainerValue": NaN
         },
         {
             "Component": "V6F38AV",

@@ -2,7 +2,7 @@ import os
 import json
 
 # Folder containing the JSON files
-folder_path = 'app/data/json'
+folder_path = 'app/data/new_json'
 
 # Function to remove duplicates in a JSON file and update it
 def remove_duplicates_in_file(file_path):
@@ -18,7 +18,7 @@ def remove_duplicates_in_file(file_path):
         seen_pairs = set()
         unique_items = []
         for item in items:
-            pair = (item["PhwebDescription"], item["ContainerValue"])
+            pair = (item["Component"], item["ContainerValue"])
             if pair not in seen_pairs:
                 unique_items.append(item)
                 seen_pairs.add(pair)

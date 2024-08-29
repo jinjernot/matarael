@@ -2,35 +2,35 @@
     "videoconnectors": [
         {
             "Component": "17P79AV",
-            "ContainerValue": "1 DVI; 1 HDMI; 1 DisplayPort™;"
+            "ContainerValue": "1 DVI; 1 HDMI; 1 DisplayPort™"
         },
         {
             "Component": "17P85AV",
-            "ContainerValue": "1 DVI; 1 HDMI; 1 DisplayPort™;"
+            "ContainerValue": "1 DVI; 1 HDMI; 1 DisplayPort™"
         },
         {
             "Component": "17P88AV",
-            "ContainerValue": "1 HDMI 2.0;1 DVI;"
+            "ContainerValue": "1 HDMI 2.0;1 DVI"
         },
         {
             "Component": "17P91AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI-D"
         },
         {
             "Component": "17Q05AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI-D"
         },
         {
             "Component": "17Q15AV",
-            "ContainerValue": "1 DVI; 1 HDMI; 1 DisplayPort™;"
+            "ContainerValue": "1 DVI; 1 HDMI; 1 DisplayPort™"
         },
         {
             "Component": "17Q16AV",
-            "ContainerValue": "1 DVI; 1 HDMI; 1 DisplayPort™;"
+            "ContainerValue": "1 DVI; 1 HDMI; 1 DisplayPort™"
         },
         {
             "Component": "17Q59AV",
-            "ContainerValue": "1 DVI; 1 HDMI; 1 DisplayPort™;"
+            "ContainerValue": "1 DVI; 1 HDMI; 1 DisplayPort™"
         },
         {
             "Component": "1AC02AV",
@@ -54,7 +54,7 @@
         },
         {
             "Component": "1AY01AV",
-            "ContainerValue": "1 DVI; 1 HDMI; 1 DisplayPort™;"
+            "ContainerValue": "1 DVI; 1 HDMI; 1 DisplayPort™"
         },
         {
             "Component": "1DE15AV",
@@ -66,7 +66,7 @@
         },
         {
             "Component": "1DR43AV",
-            "ContainerValue": "1 DVI; 1 HDMI; 1 DisplayPort™;"
+            "ContainerValue": "1 DVI; 1 HDMI; 1 DisplayPort™"
         },
         {
             "Component": "1DR44AV",
@@ -86,7 +86,7 @@
         },
         {
             "Component": "1FW52AV",
-            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0;"
+            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0"
         },
         {
             "Component": "1FW53AV",
@@ -94,7 +94,7 @@
         },
         {
             "Component": "1GS46AV",
-            "ContainerValue": "1 DisplayPort™ 1.4;1 HDMI 2.0;1 dual-link DVI;"
+            "ContainerValue": "1 DisplayPort™ 1.4;1 HDMI 2.0;1 dual-link DVI"
         },
         {
             "Component": "1GS47AV",
@@ -190,11 +190,11 @@
         },
         {
             "Component": "1QD92AV",
-            "ContainerValue": "1 DisplayPort™;1 HDMI;"
+            "ContainerValue": "1 DisplayPort™;1 HDMI"
         },
         {
             "Component": "1QD93AV",
-            "ContainerValue": "1 DisplayPort™;1 HDMI;"
+            "ContainerValue": "1 DisplayPort™;1 HDMI"
         },
         {
             "Component": "1QF65AV",
@@ -246,7 +246,7 @@
         },
         {
             "Component": "1WM14AV",
-            "ContainerValue": "1 HDMI 2.0; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.0; 3 DisplayPort™"
         },
         {
             "Component": "1WN97AV",
@@ -282,27 +282,27 @@
         },
         {
             "Component": "21S56AV",
-            "ContainerValue": "1 VGA; 1 HDMI v1.4;"
+            "ContainerValue": "1 VGA; 1 HDMI v1.4"
         },
         {
             "Component": "236B6AV",
-            "ContainerValue": "1 HDMI; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI; 3 DisplayPort™"
         },
         {
             "Component": "236B7AV",
-            "ContainerValue": "1 HDMI; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI; 3 DisplayPort™"
         },
         {
             "Component": "28N51AV",
-            "ContainerValue": "1 HDMI; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI; 3 DisplayPort™"
         },
         {
             "Component": "28N53AV",
-            "ContainerValue": "1 HDMI; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI; 3 DisplayPort™"
         },
         {
             "Component": "2AN02AV",
-            "ContainerValue": "1 HDMI 2.0; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.0; 3 DisplayPort™"
         },
         {
             "Component": "2CH62AV",
@@ -310,27 +310,27 @@
         },
         {
             "Component": "2D4H2AV",
-            "ContainerValue": "1 HDMI 2.1; 1 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.1; 1 DisplayPort™"
         },
         {
             "Component": "2DS65AV",
-            "ContainerValue": "1 HDMI 2.0; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.0; 3 DisplayPort™"
         },
         {
             "Component": "2DS66AV",
-            "ContainerValue": "1 HDMI 2.0; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.0; 3 DisplayPort™"
         },
         {
             "Component": "2EJ49AV",
-            "ContainerValue": "1 HDMI 2.0; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.0; 3 DisplayPort™"
         },
         {
             "Component": "2EJ57AV",
-            "ContainerValue": "1 HDMI 2.0;3 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.0;3 DisplayPort™"
         },
         {
             "Component": "2EJ67AV",
-            "ContainerValue": "1 HDMI 2.0;3 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.0;3 DisplayPort™"
         },
         {
             "Component": "2EM77AV",
@@ -338,15 +338,15 @@
         },
         {
             "Component": "2EX39AV",
-            "ContainerValue": "1 HDMI 2.0; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.0; 3 DisplayPort™"
         },
         {
             "Component": "2FC15AV",
-            "ContainerValue": "1 HDMI 2.0;3 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.0;3 DisplayPort™"
         },
         {
             "Component": "2FC16AV",
-            "ContainerValue": "1 HDMI 2.0;3 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.0;3 DisplayPort™"
         },
         {
             "Component": "2FC18AV",
@@ -362,15 +362,15 @@
         },
         {
             "Component": "2GA71AV",
-            "ContainerValue": "1 HDMI 2.0;3 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.0;3 DisplayPort™"
         },
         {
             "Component": "2GA72AV",
-            "ContainerValue": "1 HDMI 2.0;3 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.0;3 DisplayPort™"
         },
         {
             "Component": "2GP37AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4"
         },
         {
             "Component": "2HZ80AV",
@@ -382,15 +382,15 @@
         },
         {
             "Component": "2L8T0AV",
-            "ContainerValue": "1 HDMI; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI; 3 DisplayPort™"
         },
         {
             "Component": "2L8T1AV",
-            "ContainerValue": "1 HDMI; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI; 3 DisplayPort™"
         },
         {
             "Component": "2L8T2AV",
-            "ContainerValue": "1 DVI; 1 HDMI;"
+            "ContainerValue": "1 DVI; 1 HDMI"
         },
         {
             "Component": "2LL39AV",
@@ -398,7 +398,7 @@
         },
         {
             "Component": "2LX77AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4"
         },
         {
             "Component": "2M7L9AV",
@@ -406,7 +406,7 @@
         },
         {
             "Component": "2M7M0AV",
-            "ContainerValue": "1 HDMI; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI; 3 DisplayPort™"
         },
         {
             "Component": "2M7M1AV",
@@ -414,11 +414,11 @@
         },
         {
             "Component": "2PB05AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.3;1 dual-link DVI;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.3;1 dual-link DVI"
         },
         {
             "Component": "2PB07AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.3;1 dual-link DVI;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.3;1 dual-link DVI"
         },
         {
             "Component": "2PB08AV",
@@ -430,7 +430,7 @@
         },
         {
             "Component": "2PB13AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.3;1 dual-link DVI;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.3;1 dual-link DVI"
         },
         {
             "Component": "2Q574AV",
@@ -454,47 +454,47 @@
         },
         {
             "Component": "2RE47AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4"
         },
         {
             "Component": "2RE49AV",
-            "ContainerValue": "1 HDMI 2.0;3 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.0;3 DisplayPort™"
         },
         {
             "Component": "2RE50AV",
-            "ContainerValue": "1 HDMI 2.0; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.0; 3 DisplayPort™"
         },
         {
             "Component": "2RE51AV",
-            "ContainerValue": "1 DVI;1 HDMI 2.0;"
+            "ContainerValue": "1 DVI;1 HDMI 2.0"
         },
         {
             "Component": "2RE53AV",
-            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0;"
+            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0"
         },
         {
             "Component": "2RE54AV",
-            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0;"
+            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0"
         },
         {
             "Component": "2RK79AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4"
         },
         {
             "Component": "2RK80AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.3;1 dual-link DVI;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.3;1 dual-link DVI"
         },
         {
             "Component": "2RK81AV",
-            "ContainerValue": "1 HDMI 2.0; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.0; 3 DisplayPort™"
         },
         {
             "Component": "2RK82AV",
-            "ContainerValue": "1 HDMI 2.0;3 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.0;3 DisplayPort™"
         },
         {
             "Component": "2RK83AV",
-            "ContainerValue": "1 DVI;1 HDMI 2.0;"
+            "ContainerValue": "1 DVI;1 HDMI 2.0"
         },
         {
             "Component": "2RK84AV",
@@ -502,15 +502,15 @@
         },
         {
             "Component": "2RK85AV",
-            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0;"
+            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0"
         },
         {
             "Component": "2RK86AV",
-            "ContainerValue": "1 DVI; 1 HDMI 2.0; 3 DisplayPort™;"
+            "ContainerValue": "1 DVI; 1 HDMI 2.0; 3 DisplayPort™"
         },
         {
             "Component": "2RK87AV",
-            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0;"
+            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0"
         },
         {
             "Component": "2RL40AV",
@@ -518,27 +518,27 @@
         },
         {
             "Component": "2RL86AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4"
         },
         {
             "Component": "2RL88AV",
-            "ContainerValue": "1 HDMI 2.0; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.0; 3 DisplayPort™"
         },
         {
             "Component": "2RL89AV",
-            "ContainerValue": "1 HDMI 2.0;3 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.0;3 DisplayPort™"
         },
         {
             "Component": "2RL92AV",
-            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0;"
+            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0"
         },
         {
             "Component": "2RL93AV",
-            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0;"
+            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0"
         },
         {
             "Component": "2RL94AV",
-            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0;"
+            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0"
         },
         {
             "Component": "2RM43AV",
@@ -546,19 +546,19 @@
         },
         {
             "Component": "2RP18AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4"
         },
         {
             "Component": "2RP19AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4"
         },
         {
             "Component": "2RP20AV",
-            "ContainerValue": "1 HDMI 2.0; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.0; 3 DisplayPort™"
         },
         {
             "Component": "2RP21AV",
-            "ContainerValue": "1 HDMI 2.0; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.0; 3 DisplayPort™"
         },
         {
             "Component": "2RP22AV",
@@ -566,11 +566,11 @@
         },
         {
             "Component": "2RP24AV",
-            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0;"
+            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0"
         },
         {
             "Component": "2RP25AV",
-            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0;"
+            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0"
         },
         {
             "Component": "2RP26AV",
@@ -586,11 +586,11 @@
         },
         {
             "Component": "2RZ09AV",
-            "ContainerValue": "1 HDMI 2.0; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.0; 3 DisplayPort™"
         },
         {
             "Component": "2RZ10AV",
-            "ContainerValue": "1 HDMI 2.0;3 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.0;3 DisplayPort™"
         },
         {
             "Component": "2RZ11AV",
@@ -602,11 +602,11 @@
         },
         {
             "Component": "2RZ15AV",
-            "ContainerValue": "1 HDMI 2.0; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.0; 3 DisplayPort™"
         },
         {
             "Component": "2RZ16AV",
-            "ContainerValue": "1 HDMI 2.0;3 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.0;3 DisplayPort™"
         },
         {
             "Component": "2RZ17AV",
@@ -638,7 +638,7 @@
         },
         {
             "Component": "2SC19AV",
-            "ContainerValue": "1 HDMI 2.0;1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0;1 DVI-D"
         },
         {
             "Component": "2SH04AV",
@@ -658,15 +658,15 @@
         },
         {
             "Component": "2SZ15AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4"
         },
         {
             "Component": "2SZ16AV",
-            "ContainerValue": "1 HDMI 2.0; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.0; 3 DisplayPort™"
         },
         {
             "Component": "2SZ17AV",
-            "ContainerValue": "1 HDMI 2.0;3 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.0;3 DisplayPort™"
         },
         {
             "Component": "2SZ18AV",
@@ -678,15 +678,15 @@
         },
         {
             "Component": "2SZ20AV",
-            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0;"
+            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0"
         },
         {
             "Component": "2SZ21AV",
-            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0;"
+            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0"
         },
         {
             "Component": "2SZ22AV",
-            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0;"
+            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0"
         },
         {
             "Component": "2TS15AV",
@@ -698,15 +698,15 @@
         },
         {
             "Component": "2TZ44AV",
-            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0;"
+            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0"
         },
         {
             "Component": "2U5Q0AV",
-            "ContainerValue": "1 HDMI; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI; 3 DisplayPort™"
         },
         {
             "Component": "2UF77AV",
-            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0;"
+            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0"
         },
         {
             "Component": "2UF89AV",
@@ -714,19 +714,19 @@
         },
         {
             "Component": "2UJ14AV",
-            "ContainerValue": "1 HDMI 1.4;1 DisplayPort™;1 DVI-D;"
+            "ContainerValue": "1 HDMI 1.4;1 DisplayPort™;1 DVI-D"
         },
         {
             "Component": "2UJ18AV",
-            "ContainerValue": "1 HDMI 1.4;1 DisplayPort™;1 DVI-D;"
+            "ContainerValue": "1 HDMI 1.4;1 DisplayPort™;1 DVI-D"
         },
         {
             "Component": "2UL15AV",
-            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0;"
+            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0"
         },
         {
             "Component": "2UL16AV",
-            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0;"
+            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0"
         },
         {
             "Component": "2UT04AV",
@@ -734,11 +734,11 @@
         },
         {
             "Component": "2UW13AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4"
         },
         {
             "Component": "2UW14AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4"
         },
         {
             "Component": "2UZ63AV",
@@ -762,27 +762,27 @@
         },
         {
             "Component": "2V2L2AV",
-            "ContainerValue": "1 HDMI; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI; 3 DisplayPort™"
         },
         {
             "Component": "2V2L5AV",
-            "ContainerValue": "1 HDMI; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI; 3 DisplayPort™"
         },
         {
             "Component": "2V2R4AV",
-            "ContainerValue": "1 HDMI; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI; 3 DisplayPort™"
         },
         {
             "Component": "2V2R5AV",
-            "ContainerValue": "1 HDMI; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI; 3 DisplayPort™"
         },
         {
             "Component": "2V2R6AV",
-            "ContainerValue": "1 HDMI; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI; 3 DisplayPort™"
         },
         {
             "Component": "2V2S7AV",
-            "ContainerValue": "1 HDMI; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI; 3 DisplayPort™"
         },
         {
             "Component": "2VE89AV",
@@ -834,79 +834,79 @@
         },
         {
             "Component": "34A16AV",
-            "ContainerValue": "1 HDMI 2.1; 1 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.1; 1 DisplayPort™"
         },
         {
             "Component": "34A17AV",
-            "ContainerValue": "1 HDMI 2.1; 1 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.1; 1 DisplayPort™"
         },
         {
             "Component": "34A18AV",
-            "ContainerValue": "1 HDMI; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI; 3 DisplayPort™"
         },
         {
             "Component": "34Y58AV",
-            "ContainerValue": "1 HDMI; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI; 3 DisplayPort™"
         },
         {
             "Component": "388J6AV",
-            "ContainerValue": "1 HDMI; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI; 3 DisplayPort™"
         },
         {
             "Component": "388J7AV",
-            "ContainerValue": "1 HDMI; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI; 3 DisplayPort™"
         },
         {
             "Component": "388J8AV",
-            "ContainerValue": "1 HDMI; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI; 3 DisplayPort™"
         },
         {
             "Component": "38W99AV",
-            "ContainerValue": "1 HDMI; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI; 3 DisplayPort™"
         },
         {
             "Component": "38X01AV",
-            "ContainerValue": "1 HDMI; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI; 3 DisplayPort™"
         },
         {
             "Component": "38X03AV",
-            "ContainerValue": "1 HDMI 2.1; 1 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.1; 1 DisplayPort™"
         },
         {
             "Component": "38Y55AV",
-            "ContainerValue": "1 HDMI; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI; 3 DisplayPort™"
         },
         {
             "Component": "38Y57AV",
-            "ContainerValue": "1 HDMI; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI; 3 DisplayPort™"
         },
         {
             "Component": "392H1AV",
-            "ContainerValue": "1 HDMI; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI; 3 DisplayPort™"
         },
         {
             "Component": "392H2AV",
-            "ContainerValue": "1 HDMI; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI; 3 DisplayPort™"
         },
         {
             "Component": "392H3AV",
-            "ContainerValue": "1 HDMI; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI; 3 DisplayPort™"
         },
         {
             "Component": "392H4AV",
-            "ContainerValue": "1 HDMI; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI; 3 DisplayPort™"
         },
         {
             "Component": "392H5AV",
-            "ContainerValue": "1 HDMI 2.1; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.1; 3 DisplayPort™"
         },
         {
             "Component": "393D0AV",
-            "ContainerValue": "1 HDMI 2.1; 1 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.1; 1 DisplayPort™"
         },
         {
             "Component": "393D1AV",
-            "ContainerValue": "1 HDMI; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI; 3 DisplayPort™"
         },
         {
             "Component": "393D2AV",
@@ -914,11 +914,11 @@
         },
         {
             "Component": "393D3AV",
-            "ContainerValue": "1 HDMI; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI; 3 DisplayPort™"
         },
         {
             "Component": "393D4AV",
-            "ContainerValue": "1 HDMI; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI; 3 DisplayPort™"
         },
         {
             "Component": "39T38AV",
@@ -938,23 +938,23 @@
         },
         {
             "Component": "3A2T7AV",
-            "ContainerValue": "1 HDMI; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI; 3 DisplayPort™"
         },
         {
             "Component": "3A2T8AV",
-            "ContainerValue": "1 HDMI; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI; 3 DisplayPort™"
         },
         {
             "Component": "3A2Y7AV",
-            "ContainerValue": "1 HDMI; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI; 3 DisplayPort™"
         },
         {
             "Component": "3A2Y8AV",
-            "ContainerValue": "1 HDMI; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI; 3 DisplayPort™"
         },
         {
             "Component": "3A2Z3AV",
-            "ContainerValue": "1 HDMI; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI; 3 DisplayPort™"
         },
         {
             "Component": "3AB68AV",
@@ -1022,15 +1022,15 @@
         },
         {
             "Component": "3DV93AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.3;1 dual-link DVI;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.3;1 dual-link DVI"
         },
         {
             "Component": "3DV94AV",
-            "ContainerValue": "1 HDMI 2.0; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.0; 3 DisplayPort™"
         },
         {
             "Component": "3DV95AV",
-            "ContainerValue": "1 HDMI 2.0;3 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.0;3 DisplayPort™"
         },
         {
             "Component": "3DV96AV",
@@ -1038,23 +1038,23 @@
         },
         {
             "Component": "3DV97AV",
-            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0;"
+            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0"
         },
         {
             "Component": "3DV98AV",
-            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0;"
+            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0"
         },
         {
             "Component": "3DV99AV",
-            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0;"
+            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0"
         },
         {
             "Component": "3DW00AV",
-            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0;"
+            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0"
         },
         {
             "Component": "3DW01AV",
-            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0;"
+            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0"
         },
         {
             "Component": "3EK22AV",
@@ -1062,31 +1062,31 @@
         },
         {
             "Component": "3EU87AV",
-            "ContainerValue": "1 HDMI 1.4;1 DisplayPort™;1 DVI-D;"
+            "ContainerValue": "1 HDMI 1.4;1 DisplayPort™;1 DVI-D"
         },
         {
             "Component": "3G5Z8AV",
-            "ContainerValue": "1 HDMI 2.1;3 DisplayPort™ 1.4a;"
+            "ContainerValue": "1 HDMI 2.1;3 DisplayPort™ 1.4a"
         },
         {
             "Component": "3G6A0AV",
-            "ContainerValue": "1 HDMI; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI; 3 DisplayPort™"
         },
         {
             "Component": "3G6A1AV",
-            "ContainerValue": "1 HDMI; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI; 3 DisplayPort™"
         },
         {
             "Component": "3G6A2AV",
-            "ContainerValue": "1 HDMI 2.1;3 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.1;3 DisplayPort™"
         },
         {
             "Component": "3G6A3AV",
-            "ContainerValue": "1 HDMI; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI; 3 DisplayPort™"
         },
         {
             "Component": "3G6A4AV",
-            "ContainerValue": "1 HDMI 2.1; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.1; 3 DisplayPort™"
         },
         {
             "Component": "3GG31AV",
@@ -1118,11 +1118,11 @@
         },
         {
             "Component": "3N9R6AV",
-            "ContainerValue": "3 HDMI 2.0; 1 DVI-D;"
+            "ContainerValue": "3 HDMI 2.0; 1 DVI-D"
         },
         {
             "Component": "3N9S7AV",
-            "ContainerValue": "1 HDMI 2.0; 1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0; 1 DVI-D"
         },
         {
             "Component": "3N9S8AV",
@@ -1130,7 +1130,7 @@
         },
         {
             "Component": "3N9S9AV",
-            "ContainerValue": "1 HDMI 2.0; 1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0; 1 DVI-D"
         },
         {
             "Component": "3NJ60AV",
@@ -1222,7 +1222,7 @@
         },
         {
             "Component": "3RY90AV",
-            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0;"
+            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0"
         },
         {
             "Component": "3SZ22AV",
@@ -1242,7 +1242,7 @@
         },
         {
             "Component": "3T143AV",
-            "ContainerValue": "1 HDMI 2.1; 1 DisplayPort™ 1.4;"
+            "ContainerValue": "1 HDMI 2.1; 1 DisplayPort™ 1.4"
         },
         {
             "Component": "3TN94AV",
@@ -1250,27 +1250,27 @@
         },
         {
             "Component": "3V751AV",
-            "ContainerValue": "1 HDMI 2.1; 1 DisplayPort™ 1.4;"
+            "ContainerValue": "1 HDMI 2.1; 1 DisplayPort™ 1.4"
         },
         {
             "Component": "3V752AV",
-            "ContainerValue": "1 HDMI 2.1; 1 DisplayPort™ 1.4;"
+            "ContainerValue": "1 HDMI 2.1; 1 DisplayPort™ 1.4"
         },
         {
             "Component": "3V756AV",
-            "ContainerValue": "1 HDMI 2.1;3 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.1;3 DisplayPort™"
         },
         {
             "Component": "3V757AV",
-            "ContainerValue": "1 HDMI 2.1;3 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.1;3 DisplayPort™"
         },
         {
             "Component": "3V758AV",
-            "ContainerValue": "1 HDMI 2.1;3 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.1;3 DisplayPort™"
         },
         {
             "Component": "3V759AV",
-            "ContainerValue": "1 HDMI 2.1; 1 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.1; 1 DisplayPort™"
         },
         {
             "Component": "3VG72AV",
@@ -1278,47 +1278,47 @@
         },
         {
             "Component": "3VG73AV",
-            "ContainerValue": "1 HDMI 1.4;1 DisplayPort™;1 DVI-D;"
+            "ContainerValue": "1 HDMI 1.4;1 DisplayPort™;1 DVI-D"
         },
         {
             "Component": "3VG74AV",
-            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0;"
+            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0"
         },
         {
             "Component": "3VG75AV",
-            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0;"
+            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0"
         },
         {
             "Component": "3VG76AV",
-            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0;"
+            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0"
         },
         {
             "Component": "3VG77AV",
-            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0;"
+            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0"
         },
         {
             "Component": "3VH44AV",
-            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0;"
+            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0"
         },
         {
             "Component": "3VH45AV",
-            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0;"
+            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0"
         },
         {
             "Component": "3VH46AV",
-            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0;"
+            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0"
         },
         {
             "Component": "3VH47AV",
-            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0;"
+            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0"
         },
         {
             "Component": "3VH48AV",
-            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0;"
+            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0"
         },
         {
             "Component": "3VH49AV",
-            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0;"
+            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0"
         },
         {
             "Component": "3WL82AV",
@@ -1354,75 +1354,75 @@
         },
         {
             "Component": "3WU70AV",
-            "ContainerValue": "1 HDMI 2.0;1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0;1 DVI-D"
         },
         {
             "Component": "3Y3R3AV",
-            "ContainerValue": "1 HDMI 2.1; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.1; 3 DisplayPort™"
         },
         {
             "Component": "3Y3R4AV",
-            "ContainerValue": "1 HDMI 2.1; 1 DisplayPort™ 1.4;"
+            "ContainerValue": "1 HDMI 2.1; 1 DisplayPort™ 1.4"
         },
         {
             "Component": "3Y3R8AV",
-            "ContainerValue": "1 HDMI 2.1; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.1; 3 DisplayPort™"
         },
         {
             "Component": "3Y3R9AV",
-            "ContainerValue": "1 HDMI 2.1; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.1; 3 DisplayPort™"
         },
         {
             "Component": "3Y3S0AV",
-            "ContainerValue": "1 HDMI 2.1;  3 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.1;  3 DisplayPort™"
         },
         {
             "Component": "3Y3S1AV",
-            "ContainerValue": "1 HDMI 2.1; 1 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.1; 1 DisplayPort™"
         },
         {
             "Component": "3Y617AV",
-            "ContainerValue": "1 HDMI; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI; 3 DisplayPort™"
         },
         {
             "Component": "3Y623AV",
-            "ContainerValue": "1 HDMI; 2 DisplayPort™;"
+            "ContainerValue": "1 HDMI; 2 DisplayPort™"
         },
         {
             "Component": "3Y624AV",
-            "ContainerValue": "1 HDMI 2.1; 1 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.1; 1 DisplayPort™"
         },
         {
             "Component": "457V1AV",
-            "ContainerValue": "1 HDMI; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI; 3 DisplayPort™"
         },
         {
             "Component": "457V2AV",
-            "ContainerValue": "1 HDMI 2.1; 1 DisplayPort™ 1.4;"
+            "ContainerValue": "1 HDMI 2.1; 1 DisplayPort™ 1.4"
         },
         {
             "Component": "48J67AV",
-            "ContainerValue": "1 HDMI 2.1; 1 DisplayPort™ 1.4;"
+            "ContainerValue": "1 HDMI 2.1; 1 DisplayPort™ 1.4"
         },
         {
             "Component": "48J68AV",
-            "ContainerValue": "1 HDMI 2.1; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.1; 3 DisplayPort™"
         },
         {
             "Component": "48J69AV",
-            "ContainerValue": "1 HDMI 2.1; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.1; 3 DisplayPort™"
         },
         {
             "Component": "48J89AV",
-            "ContainerValue": "1 HDMI; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI; 3 DisplayPort™"
         },
         {
             "Component": "490N2AV",
-            "ContainerValue": "1 HDMI 2.0; 1 DisplayPort™ 1.4;"
+            "ContainerValue": "1 HDMI 2.0; 1 DisplayPort™ 1.4"
         },
         {
             "Component": "490N5AV",
-            "ContainerValue": "1 HDMI 2.0; 1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0; 1 DVI-D"
         },
         {
             "Component": "490N8AV",
@@ -1430,71 +1430,71 @@
         },
         {
             "Component": "490N9AV",
-            "ContainerValue": "1 HDMI 2.1;1 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.1;1 DisplayPort™"
         },
         {
             "Component": "49J14AV",
-            "ContainerValue": "1 HDMI 2.1; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.1; 3 DisplayPort™"
         },
         {
             "Component": "49J15AV",
-            "ContainerValue": "1 HDMI; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI; 3 DisplayPort™"
         },
         {
             "Component": "49J16AV",
-            "ContainerValue": "1 HDMI; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI; 3 DisplayPort™"
         },
         {
             "Component": "49J21AV",
-            "ContainerValue": "1 HDMI; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI; 3 DisplayPort™"
         },
         {
             "Component": "49J22AV",
-            "ContainerValue": "1 HDMI; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI; 3 DisplayPort™"
         },
         {
             "Component": "49J76AV",
-            "ContainerValue": "1 HDMI; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI; 3 DisplayPort™"
         },
         {
             "Component": "49J77AV",
-            "ContainerValue": "1 HDMI; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI; 3 DisplayPort™"
         },
         {
             "Component": "49J78AV",
-            "ContainerValue": "1 HDMI; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI; 3 DisplayPort™"
         },
         {
             "Component": "4A9X4AV",
-            "ContainerValue": "1 HDMI; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI; 3 DisplayPort™"
         },
         {
             "Component": "4A9X5AV",
-            "ContainerValue": "1 HDMI 2.1;1 DisplayPort™ 1.4;"
+            "ContainerValue": "1 HDMI 2.1;1 DisplayPort™ 1.4"
         },
         {
             "Component": "4B0H9AV",
-            "ContainerValue": "1 HDMI; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI; 3 DisplayPort™"
         },
         {
             "Component": "4D273AV",
-            "ContainerValue": "1 HDMI; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI; 3 DisplayPort™"
         },
         {
             "Component": "4D274AV",
-            "ContainerValue": "1 HDMI; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI; 3 DisplayPort™"
         },
         {
             "Component": "4D275AV",
-            "ContainerValue": "1 HDMI; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI; 3 DisplayPort™"
         },
         {
             "Component": "4D360AV",
-            "ContainerValue": "1 HDMI; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI; 3 DisplayPort™"
         },
         {
             "Component": "4E0G1AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4"
         },
         {
             "Component": "4E0G2AV",
@@ -1502,39 +1502,39 @@
         },
         {
             "Component": "4E0G3AV",
-            "ContainerValue": "1 HDMI 2.1;2 DisplayPort™ 1.4;"
+            "ContainerValue": "1 HDMI 2.1;2 DisplayPort™ 1.4"
         },
         {
             "Component": "4E989AV",
-            "ContainerValue": "1 HDMI 2.1;1 DisplayPort™ 1.4;"
+            "ContainerValue": "1 HDMI 2.1;1 DisplayPort™ 1.4"
         },
         {
             "Component": "4E990AV",
-            "ContainerValue": "1 HDMI 2.1; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.1; 3 DisplayPort™"
         },
         {
             "Component": "4E991AV",
-            "ContainerValue": "1 HDMI 2.0;"
+            "ContainerValue": "1 HDMI 2.0"
         },
         {
             "Component": "4E992AV",
-            "ContainerValue": "1 HDMI; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI; 3 DisplayPort™"
         },
         {
             "Component": "4E993AV",
-            "ContainerValue": "1 HDMI; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI; 3 DisplayPort™"
         },
         {
             "Component": "4E994AV",
-            "ContainerValue": "1 HDMI; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI; 3 DisplayPort™"
         },
         {
             "Component": "4E995AV",
-            "ContainerValue": "1 HDMI; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI; 3 DisplayPort™"
         },
         {
             "Component": "4E996AV",
-            "ContainerValue": "1 HDMI; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI; 3 DisplayPort™"
         },
         {
             "Component": "4FJ10AV",
@@ -1550,7 +1550,7 @@
         },
         {
             "Component": "4G1Q6AV",
-            "ContainerValue": "1 DVI-D;1 HDMI 2.0;1 DisplayPort™ 1.4;"
+            "ContainerValue": "1 DVI-D;1 HDMI 2.0;1 DisplayPort™ 1.4"
         },
         {
             "Component": "4G587AV",
@@ -1558,23 +1558,23 @@
         },
         {
             "Component": "4H513AV",
-            "ContainerValue": "1 HDMI 2.0; 2 DisplayPort™ 1.4;"
+            "ContainerValue": "1 HDMI 2.0; 2 DisplayPort™ 1.4"
         },
         {
             "Component": "4H514AV",
-            "ContainerValue": "1 HDMI;3 DisplayPort™;"
+            "ContainerValue": "1 HDMI;3 DisplayPort™"
         },
         {
             "Component": "4H517AV",
-            "ContainerValue": "1 HDMI 2.0; 1 DVI;"
+            "ContainerValue": "1 HDMI 2.0; 1 DVI"
         },
         {
             "Component": "4H518AV",
-            "ContainerValue": "1 HDMI 2.0; 1 DisplayPort™ 1.4; 1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0; 1 DisplayPort™ 1.4; 1 DVI-D"
         },
         {
             "Component": "4H521AV",
-            "ContainerValue": "1 HDMI 2.1;3 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.1;3 DisplayPort™"
         },
         {
             "Component": "4H522AV",
@@ -1622,39 +1622,39 @@
         },
         {
             "Component": "4PX14AV",
-            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0;"
+            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0"
         },
         {
             "Component": "4Q7D2AV",
-            "ContainerValue": "1 HDMI; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI; 3 DisplayPort™"
         },
         {
             "Component": "4Q7E2AV",
-            "ContainerValue": "1 HDMI;1 DisplayPort™;"
+            "ContainerValue": "1 HDMI;1 DisplayPort™"
         },
         {
             "Component": "4Q9T4AV",
-            "ContainerValue": "1 HDMI; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI; 3 DisplayPort™"
         },
         {
             "Component": "4Q9T5AV",
-            "ContainerValue": "1 HDMI; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI; 3 DisplayPort™"
         },
         {
             "Component": "4Q9T8AV",
-            "ContainerValue": "3 DisplayPort™; 1 HDMI 2.1;"
+            "ContainerValue": "3 DisplayPort™; 1 HDMI 2.1"
         },
         {
             "Component": "4Q9T9AV",
-            "ContainerValue": "1 HDMI 2.1; 1 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.1; 1 DisplayPort™"
         },
         {
             "Component": "4Q9U0AV",
-            "ContainerValue": "3 DisplayPort™;1 HDMI 1.4;"
+            "ContainerValue": "3 DisplayPort™;1 HDMI 1.4"
         },
         {
             "Component": "4Q9U1AV",
-            "ContainerValue": "1 HDMI 2.1; 1 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.1; 1 DisplayPort™"
         },
         {
             "Component": "4QV10AV",
@@ -1666,7 +1666,7 @@
         },
         {
             "Component": "4S2M9AV",
-            "ContainerValue": "1 HDMI; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI; 3 DisplayPort™"
         },
         {
             "Component": "4TJ86AV",
@@ -1674,51 +1674,51 @@
         },
         {
             "Component": "4TJ88AV",
-            "ContainerValue": "1 HDMI 2.0;"
+            "ContainerValue": "1 HDMI 2.0"
         },
         {
             "Component": "4TP81AV",
-            "ContainerValue": "1 HDMI 2.0;"
+            "ContainerValue": "1 HDMI 2.0"
         },
         {
             "Component": "4TP82AV",
-            "ContainerValue": "1 DisplayPort™;1 HDMI 2.0;"
+            "ContainerValue": "1 DisplayPort™;1 HDMI 2.0"
         },
         {
             "Component": "4TP83AV",
-            "ContainerValue": "1 DisplayPort™;1 HDMI 2.0;"
+            "ContainerValue": "1 DisplayPort™;1 HDMI 2.0"
         },
         {
             "Component": "4TP84AV",
-            "ContainerValue": "1 HDMI;2 DisplayPort™;1 Virtual Link (USB Type-C™);"
+            "ContainerValue": "1 HDMI;2 DisplayPort™;1 Virtual Link (USB Type-C™)"
         },
         {
             "Component": "4TP86AV",
-            "ContainerValue": "1 DisplayPort™;1 HDMI 2.0;"
+            "ContainerValue": "1 DisplayPort™;1 HDMI 2.0"
         },
         {
             "Component": "4TQ04AV",
-            "ContainerValue": "1 DisplayPort™;1 HDMI 2.0;"
+            "ContainerValue": "1 DisplayPort™;1 HDMI 2.0"
         },
         {
             "Component": "4TQ05AV",
-            "ContainerValue": "1 DisplayPort™;1 HDMI 2.0;"
+            "ContainerValue": "1 DisplayPort™;1 HDMI 2.0"
         },
         {
             "Component": "4TQ06AV",
-            "ContainerValue": "1 DisplayPort™;1 HDMI 2.0;"
+            "ContainerValue": "1 DisplayPort™;1 HDMI 2.0"
         },
         {
             "Component": "4TQ12AV",
-            "ContainerValue": "1 DisplayPort™;1 HDMI 2.0;"
+            "ContainerValue": "1 DisplayPort™;1 HDMI 2.0"
         },
         {
             "Component": "4TQ13AV",
-            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0;"
+            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0"
         },
         {
             "Component": "4TQ14AV",
-            "ContainerValue": "1 DisplayPort™;1 HDMI 2.0;"
+            "ContainerValue": "1 DisplayPort™;1 HDMI 2.0"
         },
         {
             "Component": "4V3C7AV",
@@ -1734,39 +1734,39 @@
         },
         {
             "Component": "4Z980AV",
-            "ContainerValue": "3 HDMI-in;"
+            "ContainerValue": "3 HDMI-in"
         },
         {
             "Component": "567F1AV",
-            "ContainerValue": "1 HDMI; 1 DisplayPort™;"
+            "ContainerValue": "1 HDMI; 1 DisplayPort™"
         },
         {
             "Component": "5AR75AV",
-            "ContainerValue": "1 HDMI; 3 DisplayPort™; 1 Virtual Link (USB-c);"
+            "ContainerValue": "1 HDMI; 3 DisplayPort™; 1 Virtual Link (USB-c)"
         },
         {
             "Component": "5BJ34AV",
-            "ContainerValue": "1 HDMI;1 DVI-D;"
+            "ContainerValue": "1 HDMI;1 DVI-D"
         },
         {
             "Component": "5BJ35AV",
-            "ContainerValue": "1 HDMI;1 DVI-D;"
+            "ContainerValue": "1 HDMI;1 DVI-D"
         },
         {
             "Component": "5BW45AV",
-            "ContainerValue": "1 HDMI;1 DVI-D;"
+            "ContainerValue": "1 HDMI;1 DVI-D"
         },
         {
             "Component": "5BW46AV",
-            "ContainerValue": "1 HDMI 2.0;1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0;1 DVI-D"
         },
         {
             "Component": "5CK54AV",
-            "ContainerValue": "1 HDMI;1 DVI-D;"
+            "ContainerValue": "1 HDMI;1 DVI-D"
         },
         {
             "Component": "5CK55AV",
-            "ContainerValue": "1 DVI-D;1 DisplayPort™;1 HDMI 2.0;"
+            "ContainerValue": "1 DVI-D;1 DisplayPort™;1 HDMI 2.0"
         },
         {
             "Component": "5CK59AV",
@@ -1774,11 +1774,11 @@
         },
         {
             "Component": "5CK60AV",
-            "ContainerValue": "1 DVI-D;1 DisplayPort™;1 HDMI 2.0;"
+            "ContainerValue": "1 DVI-D;1 DisplayPort™;1 HDMI 2.0"
         },
         {
             "Component": "5DE75AV",
-            "ContainerValue": "1 DVI; 1 HDMI 2.0; 1 DisplayPort™;"
+            "ContainerValue": "1 DVI; 1 HDMI 2.0; 1 DisplayPort™"
         },
         {
             "Component": "5DG43AV",
@@ -1790,11 +1790,11 @@
         },
         {
             "Component": "5DM88AV",
-            "ContainerValue": "1 HDMI;1 DVI-D;"
+            "ContainerValue": "1 HDMI;1 DVI-D"
         },
         {
             "Component": "5DM89AV",
-            "ContainerValue": "1 DVI-D;1 DisplayPort™;1 HDMI 2.0;"
+            "ContainerValue": "1 DVI-D;1 DisplayPort™;1 HDMI 2.0"
         },
         {
             "Component": "5DM95AV",
@@ -1802,7 +1802,7 @@
         },
         {
             "Component": "5DM96AV",
-            "ContainerValue": "1 DVI; 1 HDMI 2.0; 1 DisplayPort™;"
+            "ContainerValue": "1 DVI; 1 HDMI 2.0; 1 DisplayPort™"
         },
         {
             "Component": "5EB73AV",
@@ -1818,15 +1818,15 @@
         },
         {
             "Component": "5HH92AV",
-            "ContainerValue": "1 DisplayPort™;1 HDMI 2.0;"
+            "ContainerValue": "1 DisplayPort™;1 HDMI 2.0"
         },
         {
             "Component": "5HL87AV",
-            "ContainerValue": "1 DisplayPort™;1 HDMI 2.0;"
+            "ContainerValue": "1 DisplayPort™;1 HDMI 2.0"
         },
         {
             "Component": "5JV84AV",
-            "ContainerValue": "1 DisplayPort™;1 HDMI 2.0;"
+            "ContainerValue": "1 DisplayPort™;1 HDMI 2.0"
         },
         {
             "Component": "5KV93AV",
@@ -1838,15 +1838,15 @@
         },
         {
             "Component": "5PG84AV",
-            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0;"
+            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0"
         },
         {
             "Component": "5PG85AV",
-            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0;"
+            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0"
         },
         {
             "Component": "5RL23AV",
-            "ContainerValue": "1 DisplayPort™;1 HDMI 2.0;"
+            "ContainerValue": "1 DisplayPort™;1 HDMI 2.0"
         },
         {
             "Component": "5UM78AV",
@@ -1862,11 +1862,11 @@
         },
         {
             "Component": "5WD50AV",
-            "ContainerValue": "1 DVI-D;1 DisplayPort™;1 HDMI;"
+            "ContainerValue": "1 DVI-D;1 DisplayPort™;1 HDMI"
         },
         {
             "Component": "5WD51AV",
-            "ContainerValue": "1 DVI-D;1 DisplayPort™;1 HDMI;"
+            "ContainerValue": "1 DVI-D;1 DisplayPort™;1 HDMI"
         },
         {
             "Component": "5WK75AV",
@@ -1874,7 +1874,7 @@
         },
         {
             "Component": "5WK76AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 HDMI;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 HDMI"
         },
         {
             "Component": "5ZV03AV",
@@ -1886,23 +1886,23 @@
         },
         {
             "Component": "603P7AV",
-            "ContainerValue": "1 HDMI; 1 DisplayPort™; 1 DVI-D;"
+            "ContainerValue": "1 HDMI; 1 DisplayPort™; 1 DVI-D"
         },
         {
             "Component": "603P8AV",
-            "ContainerValue": "1 HDMI 2.0; 1 DisplayPort™; 1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0; 1 DisplayPort™; 1 DVI-D"
         },
         {
             "Component": "603Q3AV",
-            "ContainerValue": "1 HDMI 2.0; 1 DisplayPort™; 1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0; 1 DisplayPort™; 1 DVI-D"
         },
         {
             "Component": "603Q4AV",
-            "ContainerValue": "1 HDMI 2.0; 1 DisplayPort™; 1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0; 1 DisplayPort™; 1 DVI-D"
         },
         {
             "Component": "629R4AV",
-            "ContainerValue": "3 HDMI-in;"
+            "ContainerValue": "3 HDMI-in"
         },
         {
             "Component": "66Y17AV",
@@ -1910,7 +1910,7 @@
         },
         {
             "Component": "66Z65AV",
-            "ContainerValue": "1 HDMI 2.1;1 DisplayPort™ 1.4;"
+            "ContainerValue": "1 HDMI 2.1;1 DisplayPort™ 1.4"
         },
         {
             "Component": "66Z66AV",
@@ -1918,15 +1918,15 @@
         },
         {
             "Component": "66Z67AV",
-            "ContainerValue": "1 HDMI 2.1;1 DisplayPort™ 1.4a;"
+            "ContainerValue": "1 HDMI 2.1;1 DisplayPort™ 1.4a"
         },
         {
             "Component": "6BC96AV",
-            "ContainerValue": "1 DisplayPort™;1 HDMI 2.0;"
+            "ContainerValue": "1 DisplayPort™;1 HDMI 2.0"
         },
         {
             "Component": "6BC97AV",
-            "ContainerValue": "1 DisplayPort™;1 HDMI 2.0;"
+            "ContainerValue": "1 DisplayPort™;1 HDMI 2.0"
         },
         {
             "Component": "6D849AV",
@@ -1934,7 +1934,7 @@
         },
         {
             "Component": "6G155AV",
-            "ContainerValue": "1 HDMI-out 2.0; 1 DisplayPort™ 1.4; 1 DVI-D;"
+            "ContainerValue": "1 HDMI-out 2.0; 1 DisplayPort™ 1.4; 1 DVI-D"
         },
         {
             "Component": "6G156AV",
@@ -1942,7 +1942,7 @@
         },
         {
             "Component": "6G161AV",
-            "ContainerValue": "1 HDMI 2.0; 1 DisplayPort™ 1.4; 1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0; 1 DisplayPort™ 1.4; 1 DVI-D"
         },
         {
             "Component": "6G162AV",
@@ -1950,19 +1950,19 @@
         },
         {
             "Component": "6GU15AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4;1 dual-link DVI;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4;1 dual-link DVI"
         },
         {
             "Component": "6GU16AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 dual-link DVI;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 dual-link DVI"
         },
         {
             "Component": "6GU17AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.3;1 dual-link DVI;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.3;1 dual-link DVI"
         },
         {
             "Component": "6GU18AV",
-            "ContainerValue": "1 HDMI 2.0; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.0; 3 DisplayPort™"
         },
         {
             "Component": "6GU19AV",
@@ -1970,7 +1970,7 @@
         },
         {
             "Component": "6GU20AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI-D"
         },
         {
             "Component": "6GU21AV",
@@ -1978,15 +1978,15 @@
         },
         {
             "Component": "6GU67AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI-D"
         },
         {
             "Component": "6GU68AV",
-            "ContainerValue": "1 HDMI-out 2.0;1 DisplayPort™;1 dual-link DVI;"
+            "ContainerValue": "1 HDMI-out 2.0;1 DisplayPort™;1 dual-link DVI"
         },
         {
             "Component": "6GU69AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.3;1 dual-link DVI;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.3;1 dual-link DVI"
         },
         {
             "Component": "6GU70AV",
@@ -1998,7 +1998,7 @@
         },
         {
             "Component": "6GU72AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI-D"
         },
         {
             "Component": "6GU73AV",
@@ -2006,7 +2006,7 @@
         },
         {
             "Component": "6GU74AV",
-            "ContainerValue": "1 HDMI 1.4;1 DVI;"
+            "ContainerValue": "1 HDMI 1.4;1 DVI"
         },
         {
             "Component": "6GU75AV",
@@ -2014,15 +2014,15 @@
         },
         {
             "Component": "6GU76AV",
-            "ContainerValue": "1 DVI; 1 HDMI;"
+            "ContainerValue": "1 DVI; 1 HDMI"
         },
         {
             "Component": "6GV37AV",
-            "ContainerValue": "1 HDMI 1.4;1 DVI;"
+            "ContainerValue": "1 HDMI 1.4;1 DVI"
         },
         {
             "Component": "6GV90AV",
-            "ContainerValue": "1 HDMI 1.4;1 DVI;"
+            "ContainerValue": "1 HDMI 1.4;1 DVI"
         },
         {
             "Component": "6GY69AV",
@@ -2030,7 +2030,7 @@
         },
         {
             "Component": "6GY70AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 dual-link DVI;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 dual-link DVI"
         },
         {
             "Component": "6GY71AV",
@@ -2046,11 +2046,11 @@
         },
         {
             "Component": "6GY74AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI-D"
         },
         {
             "Component": "6GY75AV",
-            "ContainerValue": "1 HDMI 2.0;2 DisplayPort™;1 DVI-D;1 Virtual Link (USB Type-C™);"
+            "ContainerValue": "1 HDMI 2.0;2 DisplayPort™;1 DVI-D;1 Virtual Link (USB Type-C™)"
         },
         {
             "Component": "6GY76AV",
@@ -2058,7 +2058,7 @@
         },
         {
             "Component": "6GZ17AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4"
         },
         {
             "Component": "6GZ18AV",
@@ -2070,15 +2070,15 @@
         },
         {
             "Component": "6GZ20AV",
-            "ContainerValue": "1 HDMI 2.0b;1 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.0b;1 DisplayPort™"
         },
         {
             "Component": "6GZ21AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI-D"
         },
         {
             "Component": "6GZ22AV",
-            "ContainerValue": "1 HDMI 2.0;2 DisplayPort™;1 DVI-D;1 Virtual Link (USB Type-C™);"
+            "ContainerValue": "1 HDMI 2.0;2 DisplayPort™;1 DVI-D;1 Virtual Link (USB Type-C™)"
         },
         {
             "Component": "6GZ23AV",
@@ -2090,7 +2090,7 @@
         },
         {
             "Component": "6HD93AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 dual-link DVI;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 dual-link DVI"
         },
         {
             "Component": "6HD94AV",
@@ -2106,11 +2106,11 @@
         },
         {
             "Component": "6HD97AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI-D"
         },
         {
             "Component": "6HD98AV",
-            "ContainerValue": "1 HDMI 2.0;2 DisplayPort™;1 DVI-D;1 Virtual Link (USB Type-C™);"
+            "ContainerValue": "1 HDMI 2.0;2 DisplayPort™;1 DVI-D;1 Virtual Link (USB Type-C™)"
         },
         {
             "Component": "6HD99AV",
@@ -2118,15 +2118,15 @@
         },
         {
             "Component": "6HE48AV",
-            "ContainerValue": "1 DVI; 1 HDMI 2.0; 1 DisplayPort™;"
+            "ContainerValue": "1 DVI; 1 HDMI 2.0; 1 DisplayPort™"
         },
         {
             "Component": "6HE49AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 dual-link DVI;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 dual-link DVI"
         },
         {
             "Component": "6HE50AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.3;1 dual-link DVI;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.3;1 dual-link DVI"
         },
         {
             "Component": "6HE51AV",
@@ -2138,11 +2138,11 @@
         },
         {
             "Component": "6HE53AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI-D"
         },
         {
             "Component": "6HE54AV",
-            "ContainerValue": "1 HDMI 2.0;2 DisplayPort™;1 DVI-D;1 Virtual Link (USB Type-C™);"
+            "ContainerValue": "1 HDMI 2.0;2 DisplayPort™;1 DVI-D;1 Virtual Link (USB Type-C™)"
         },
         {
             "Component": "6HE55AV",
@@ -2154,11 +2154,11 @@
         },
         {
             "Component": "6HP62AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4"
         },
         {
             "Component": "6HP63AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.3;1 dual-link DVI;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.3;1 dual-link DVI"
         },
         {
             "Component": "6HP64AV",
@@ -2178,7 +2178,7 @@
         },
         {
             "Component": "6HP68AV",
-            "ContainerValue": "1 HDMI 2.0;1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0;1 DVI-D"
         },
         {
             "Component": "6HR57AV",
@@ -2186,11 +2186,11 @@
         },
         {
             "Component": "6HR58AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 dual-link DVI;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 dual-link DVI"
         },
         {
             "Component": "6HR59AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.3;1 dual-link DVI;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.3;1 dual-link DVI"
         },
         {
             "Component": "6HR60AV",
@@ -2198,7 +2198,7 @@
         },
         {
             "Component": "6HR61AV",
-            "ContainerValue": "1 HDMI 2.0b;1 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.0b;1 DisplayPort™"
         },
         {
             "Component": "6HR62AV",
@@ -2210,7 +2210,7 @@
         },
         {
             "Component": "6HR64AV",
-            "ContainerValue": "1 HDMI 2.0;1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0;1 DVI-D"
         },
         {
             "Component": "6HS73AV",
@@ -2218,11 +2218,11 @@
         },
         {
             "Component": "6HS74AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 dual-link DVI;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 dual-link DVI"
         },
         {
             "Component": "6HS75AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.3;1 dual-link DVI;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.3;1 dual-link DVI"
         },
         {
             "Component": "6HS76AV",
@@ -2242,7 +2242,7 @@
         },
         {
             "Component": "6HS80AV",
-            "ContainerValue": "1 HDMI 2.0;1 DVI;"
+            "ContainerValue": "1 HDMI 2.0;1 DVI"
         },
         {
             "Component": "6HT37AV",
@@ -2250,7 +2250,7 @@
         },
         {
             "Component": "6HT38AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4"
         },
         {
             "Component": "6HT39AV",
@@ -2322,95 +2322,95 @@
         },
         {
             "Component": "6QJ89AV",
-            "ContainerValue": "1 DVI-D;1 DisplayPort™;1 HDMI;"
+            "ContainerValue": "1 DVI-D;1 DisplayPort™;1 HDMI"
         },
         {
             "Component": "6QJ90AV",
-            "ContainerValue": "1 DisplayPort™;1 HDMI;1 DVI-D;"
+            "ContainerValue": "1 DisplayPort™;1 HDMI;1 DVI-D"
         },
         {
             "Component": "6QJ91AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4;1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4;1 DVI-D"
         },
         {
             "Component": "6SA08AV",
-            "ContainerValue": "1 DisplayPort™;1 HDMI;1 DVI-D;"
+            "ContainerValue": "1 DisplayPort™;1 HDMI;1 DVI-D"
         },
         {
             "Component": "6SA09AV",
-            "ContainerValue": "1 DVI-D;1 DisplayPort™;1 HDMI;"
+            "ContainerValue": "1 DVI-D;1 DisplayPort™;1 HDMI"
         },
         {
             "Component": "6SA10AV",
-            "ContainerValue": "1 DVI-D;1 DisplayPort™;1 HDMI;"
+            "ContainerValue": "1 DVI-D;1 DisplayPort™;1 HDMI"
         },
         {
             "Component": "6SP19AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4;1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4;1 DVI-D"
         },
         {
             "Component": "6SP20AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI-D"
         },
         {
             "Component": "6SP21AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI-D"
         },
         {
             "Component": "6SP22AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI-D"
         },
         {
             "Component": "6SP23AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4;1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4;1 DVI-D"
         },
         {
             "Component": "6SP24AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI-D"
         },
         {
             "Component": "6SP32AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4;1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4;1 DVI-D"
         },
         {
             "Component": "6SP33AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI-D"
         },
         {
             "Component": "6SP34AV",
-            "ContainerValue": "1 DVI-D;1 DisplayPort™;1 HDMI;"
+            "ContainerValue": "1 DVI-D;1 DisplayPort™;1 HDMI"
         },
         {
             "Component": "6SP35AV",
-            "ContainerValue": "1 DVI-D;1 DisplayPort™;1 HDMI;"
+            "ContainerValue": "1 DVI-D;1 DisplayPort™;1 HDMI"
         },
         {
             "Component": "6SP36AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI-D"
         },
         {
             "Component": "6SP37AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI-D"
         },
         {
             "Component": "6SP38AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI"
         },
         {
             "Component": "6SP39AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI-D"
         },
         {
             "Component": "6SP50AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI-D"
         },
         {
             "Component": "6SP51AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI-D"
         },
         {
             "Component": "6UB86AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4;1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4;1 DVI-D"
         },
         {
             "Component": "6UB87AV",
@@ -2418,7 +2418,7 @@
         },
         {
             "Component": "6UB88AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4;1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4;1 DVI-D"
         },
         {
             "Component": "6UB89AV",
@@ -2426,19 +2426,19 @@
         },
         {
             "Component": "6UC00AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4;1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4;1 DVI-D"
         },
         {
             "Component": "6UC01AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI-D"
         },
         {
             "Component": "6UC02AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4;1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4;1 DVI-D"
         },
         {
             "Component": "6UC03AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI-D"
         },
         {
             "Component": "6UW64AV",
@@ -2450,35 +2450,35 @@
         },
         {
             "Component": "6UW67AV",
-            "ContainerValue": "1 DVI-D;1 DisplayPort™;1 HDMI 2.0;"
+            "ContainerValue": "1 DVI-D;1 DisplayPort™;1 HDMI 2.0"
         },
         {
             "Component": "6UW68AV",
-            "ContainerValue": "1 DVI-D;1 DisplayPort™;1 HDMI;"
+            "ContainerValue": "1 DVI-D;1 DisplayPort™;1 HDMI"
         },
         {
             "Component": "6UW69AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4;1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4;1 DVI-D"
         },
         {
             "Component": "6UW70AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI-D"
         },
         {
             "Component": "6UW71AV",
-            "ContainerValue": "1 DVI-D;1 DisplayPort™;1 HDMI;"
+            "ContainerValue": "1 DVI-D;1 DisplayPort™;1 HDMI"
         },
         {
             "Component": "6UW72AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 dual-link DVI;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 dual-link DVI"
         },
         {
             "Component": "6YD79AV",
-            "ContainerValue": "1 HDMI;1 DVI-D;"
+            "ContainerValue": "1 HDMI;1 DVI-D"
         },
         {
             "Component": "6YD80AV",
-            "ContainerValue": "1 HDMI;1 DVI-D;"
+            "ContainerValue": "1 HDMI;1 DVI-D"
         },
         {
             "Component": "704X3AV",
@@ -2490,7 +2490,7 @@
         },
         {
             "Component": "797T7AV",
-            "ContainerValue": "1 HDMI;3 DisplayPort™;"
+            "ContainerValue": "1 HDMI;3 DisplayPort™"
         },
         {
             "Component": "797T8AV",
@@ -2514,7 +2514,7 @@
         },
         {
             "Component": "7A3E3AV",
-            "ContainerValue": "3 DisplayPort™;1 HDMI 2.1;"
+            "ContainerValue": "3 DisplayPort™;1 HDMI 2.1"
         },
         {
             "Component": "7A3E8AV",
@@ -2522,11 +2522,11 @@
         },
         {
             "Component": "7A3E9AV",
-            "ContainerValue": "1 HDMI 2.1;3 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.1;3 DisplayPort™"
         },
         {
             "Component": "7A4H5AV",
-            "ContainerValue": "1 HDMI 2.1; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.1; 3 DisplayPort™"
         },
         {
             "Component": "7BB50AV",
@@ -2534,15 +2534,15 @@
         },
         {
             "Component": "7BB51AV",
-            "ContainerValue": "1 HDMI 2.0;1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0;1 DVI-D"
         },
         {
             "Component": "7BB55AV",
-            "ContainerValue": "1 HDMI 1.4;1 DisplayPort™;1 DVI-D;"
+            "ContainerValue": "1 HDMI 1.4;1 DisplayPort™;1 DVI-D"
         },
         {
             "Component": "7BB56AV",
-            "ContainerValue": "1 HDMI 2.0;1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0;1 DVI-D"
         },
         {
             "Component": "7BB57AV",
@@ -2550,15 +2550,15 @@
         },
         {
             "Component": "7BB58AV",
-            "ContainerValue": "1 HDMI 2.0;1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0;1 DVI-D"
         },
         {
             "Component": "7BB59AV",
-            "ContainerValue": "1 HDMI 1.4;1 DisplayPort™;1 DVI-D;"
+            "ContainerValue": "1 HDMI 1.4;1 DisplayPort™;1 DVI-D"
         },
         {
             "Component": "7BB60AV",
-            "ContainerValue": "1 HDMI 2.0;1 DVI;"
+            "ContainerValue": "1 HDMI 2.0;1 DVI"
         },
         {
             "Component": "7BB63AV",
@@ -2566,7 +2566,7 @@
         },
         {
             "Component": "7BB64AV",
-            "ContainerValue": "1 HDMI 2.0;1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0;1 DVI-D"
         },
         {
             "Component": "7BB65AV",
@@ -2574,7 +2574,7 @@
         },
         {
             "Component": "7BB66AV",
-            "ContainerValue": "1 HDMI 2.0;1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0;1 DVI-D"
         },
         {
             "Component": "7BB74AV",
@@ -2582,7 +2582,7 @@
         },
         {
             "Component": "7BB75AV",
-            "ContainerValue": "1 DVI; 1 HDMI; 1 DisplayPort™;"
+            "ContainerValue": "1 DVI; 1 HDMI; 1 DisplayPort™"
         },
         {
             "Component": "7BB76AV",
@@ -2590,7 +2590,7 @@
         },
         {
             "Component": "7BF28AV",
-            "ContainerValue": "1 HDMI 2.0;1 dual-link DVI;"
+            "ContainerValue": "1 HDMI 2.0;1 dual-link DVI"
         },
         {
             "Component": "7BF29AV",
@@ -2598,7 +2598,7 @@
         },
         {
             "Component": "7BF30AV",
-            "ContainerValue": "1 HDMI 2.0;1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0;1 DVI-D"
         },
         {
             "Component": "7BF31AV",
@@ -2606,7 +2606,7 @@
         },
         {
             "Component": "7BF32AV",
-            "ContainerValue": "1 HDMI 2.0;1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0;1 DVI-D"
         },
         {
             "Component": "7BF33AV",
@@ -2614,7 +2614,7 @@
         },
         {
             "Component": "7BF34AV",
-            "ContainerValue": "1 HDMI 2.0;1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0;1 DVI-D"
         },
         {
             "Component": "7BF35AV",
@@ -2622,7 +2622,7 @@
         },
         {
             "Component": "7C266AV",
-            "ContainerValue": "1 HDMI; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI; 3 DisplayPort™"
         },
         {
             "Component": "7C267AV",
@@ -2630,11 +2630,11 @@
         },
         {
             "Component": "7C268AV",
-            "ContainerValue": "1 HDMI;3 DisplayPort™;"
+            "ContainerValue": "1 HDMI;3 DisplayPort™"
         },
         {
             "Component": "7C269AV",
-            "ContainerValue": "1 HDMI;3 DisplayPort™;"
+            "ContainerValue": "1 HDMI;3 DisplayPort™"
         },
         {
             "Component": "7C2A6AV",
@@ -2654,19 +2654,19 @@
         },
         {
             "Component": "7DG58AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI-D"
         },
         {
             "Component": "7DG59AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI"
         },
         {
             "Component": "7DG60AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4;1 dual-link DVI;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4;1 dual-link DVI"
         },
         {
             "Component": "7DG61AV",
-            "ContainerValue": "1 HDMI 2.0;2 DisplayPort™;1 DVI-D;1 Virtual Link (USB Type-C™);"
+            "ContainerValue": "1 HDMI 2.0;2 DisplayPort™;1 DVI-D;1 Virtual Link (USB Type-C™)"
         },
         {
             "Component": "7K1M5AV",
@@ -2674,7 +2674,7 @@
         },
         {
             "Component": "7K1M6AV",
-            "ContainerValue": "1 HDMI 2.1;3 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.1;3 DisplayPort™"
         },
         {
             "Component": "7K1N9AV",
@@ -2694,15 +2694,15 @@
         },
         {
             "Component": "7NU33AV",
-            "ContainerValue": "1 DisplayPort™ 1.4;"
+            "ContainerValue": "1 DisplayPort™ 1.4"
         },
         {
             "Component": "7NU34AV",
-            "ContainerValue": "1 HDMI 2.0;3 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.0;3 DisplayPort™"
         },
         {
             "Component": "7P8C7AV",
-            "ContainerValue": "1 HDMI 2.1;3 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.1;3 DisplayPort™"
         },
         {
             "Component": "7P8P3AV",
@@ -2710,7 +2710,7 @@
         },
         {
             "Component": "7RC42AV",
-            "ContainerValue": "1 DVI; 1 HDMI;"
+            "ContainerValue": "1 DVI; 1 HDMI"
         },
         {
             "Component": "7RC55AV",
@@ -2726,135 +2726,135 @@
         },
         {
             "Component": "7UV45AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI-D"
         },
         {
             "Component": "7WL95AV",
-            "ContainerValue": "1 HDMI 2.0;2 DisplayPort™ 1.4;"
+            "ContainerValue": "1 HDMI 2.0;2 DisplayPort™ 1.4"
         },
         {
             "Component": "7WL96AV",
-            "ContainerValue": "1 HDMI 2.0; 3 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.0; 3 DisplayPort™"
         },
         {
             "Component": "7WL98AV",
-            "ContainerValue": "1 HDMI; 2 DisplayPort™;"
+            "ContainerValue": "1 HDMI; 2 DisplayPort™"
         },
         {
             "Component": "7WL99AV",
-            "ContainerValue": "1 HDMI 2.0;2 DisplayPort™ 1.4;"
+            "ContainerValue": "1 HDMI 2.0;2 DisplayPort™ 1.4"
         },
         {
             "Component": "7WM12AV",
-            "ContainerValue": "1 HDMI 2.0;1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0;1 DVI-D"
         },
         {
             "Component": "7WM14AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI-D"
         },
         {
             "Component": "7WM15AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI-D"
         },
         {
             "Component": "7WM16AV",
-            "ContainerValue": "1 HDMI 2.0;3 DisplayPort™;1 Virtual Link (USB Type-C™);"
+            "ContainerValue": "1 HDMI 2.0;3 DisplayPort™;1 Virtual Link (USB Type-C™)"
         },
         {
             "Component": "7WM17AV",
-            "ContainerValue": "1 HDMI 2.0;3 DisplayPort™;1 Virtual Link (USB Type-C™);"
+            "ContainerValue": "1 HDMI 2.0;3 DisplayPort™;1 Virtual Link (USB Type-C™)"
         },
         {
             "Component": "7WM18AV",
-            "ContainerValue": "1 HDMI 2.0;3 DisplayPort™;1 Virtual Link (USB Type-C™);"
+            "ContainerValue": "1 HDMI 2.0;3 DisplayPort™;1 Virtual Link (USB Type-C™)"
         },
         {
             "Component": "7WM70AV",
-            "ContainerValue": "1 HDMI 2.0;2 DisplayPort™ 1.4;"
+            "ContainerValue": "1 HDMI 2.0;2 DisplayPort™ 1.4"
         },
         {
             "Component": "7WM71AV",
-            "ContainerValue": "1 HDMI 2.0;2 DisplayPort™ 1.4;"
+            "ContainerValue": "1 HDMI 2.0;2 DisplayPort™ 1.4"
         },
         {
             "Component": "7WM73AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI-D"
         },
         {
             "Component": "7WM75AV",
-            "ContainerValue": "1 HDMI 2.0;2 DisplayPort™ 1.4;"
+            "ContainerValue": "1 HDMI 2.0;2 DisplayPort™ 1.4"
         },
         {
             "Component": "7WN10AV",
-            "ContainerValue": "1 HDMI 2.0; 2 DisplayPort™ 1.4;"
+            "ContainerValue": "1 HDMI 2.0; 2 DisplayPort™ 1.4"
         },
         {
             "Component": "7WN13AV",
-            "ContainerValue": "1 HDMI; 2 DisplayPort™;"
+            "ContainerValue": "1 HDMI; 2 DisplayPort™"
         },
         {
             "Component": "7WN16AV",
-            "ContainerValue": "1 HDMI; 2 DisplayPort™;"
+            "ContainerValue": "1 HDMI; 2 DisplayPort™"
         },
         {
             "Component": "7WN17AV",
-            "ContainerValue": "1 HDMI 2.0;2 DisplayPort™ 1.4;"
+            "ContainerValue": "1 HDMI 2.0;2 DisplayPort™ 1.4"
         },
         {
             "Component": "7XS64AV",
-            "ContainerValue": "1 DVI-D;1 DisplayPort™;1 HDMI 2.0;"
+            "ContainerValue": "1 DVI-D;1 DisplayPort™;1 HDMI 2.0"
         },
         {
             "Component": "7XS65AV",
-            "ContainerValue": "1 HDMI 2.0;3 DisplayPort™;1 Virtual Link (USB Type-C™);"
+            "ContainerValue": "1 HDMI 2.0;3 DisplayPort™;1 Virtual Link (USB Type-C™)"
         },
         {
             "Component": "7XS67AV",
-            "ContainerValue": "1 HDMI;1 DisplayPort™;1 DVI-D;"
+            "ContainerValue": "1 HDMI;1 DisplayPort™;1 DVI-D"
         },
         {
             "Component": "7XS68AV",
-            "ContainerValue": "1 DVI; 1 HDMI; 2 DisplayPort™; 1 Virtual Link (USB-C);"
+            "ContainerValue": "1 DVI; 1 HDMI; 2 DisplayPort™; 1 Virtual Link (USB-C)"
         },
         {
             "Component": "7XS69AV",
-            "ContainerValue": "1 DisplayPort™;1 HDMI 2.0;"
+            "ContainerValue": "1 DisplayPort™;1 HDMI 2.0"
         },
         {
             "Component": "7XV96AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI-D"
         },
         {
             "Component": "7XV97AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™"
         },
         {
             "Component": "7ZZ02AV",
-            "ContainerValue": "1 DVI; 1 HDMI; 1 DisplayPort™;"
+            "ContainerValue": "1 DVI; 1 HDMI; 1 DisplayPort™"
         },
         {
             "Component": "7ZZ03AV",
-            "ContainerValue": "1 HDMI;1 DisplayPort™;1 DVI-D;"
+            "ContainerValue": "1 HDMI;1 DisplayPort™;1 DVI-D"
         },
         {
             "Component": "7ZZ04AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 dual-link DVI;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 dual-link DVI"
         },
         {
             "Component": "7ZZ26AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI-D"
         },
         {
             "Component": "7ZZ28AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI-D"
         },
         {
             "Component": "7ZZ60AV",
-            "ContainerValue": "1 DVI; 1 HDMI 2.0; 1 DisplayPort™;"
+            "ContainerValue": "1 DVI; 1 HDMI 2.0; 1 DisplayPort™"
         },
         {
             "Component": "805N3AV",
-            "ContainerValue": "1 HDMI 2.1;3 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.1;3 DisplayPort™"
         },
         {
             "Component": "806G6AV",
@@ -2882,7 +2882,7 @@
         },
         {
             "Component": "830B3AV",
-            "ContainerValue": "1 HDMI 2.1;3 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.1;3 DisplayPort™"
         },
         {
             "Component": "843M6AV",
@@ -2894,23 +2894,23 @@
         },
         {
             "Component": "843Q0AV",
-            "ContainerValue": "1 HDMI 2.1;3 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.1;3 DisplayPort™"
         },
         {
             "Component": "843Q9AV",
-            "ContainerValue": "1 HDMI 2.1;3 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.1;3 DisplayPort™"
         },
         {
             "Component": "84C57AV",
-            "ContainerValue": "1 HDMI 2.1;3 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.1;3 DisplayPort™"
         },
         {
             "Component": "84C63AV",
-            "ContainerValue": "1 HDMI 2.1;3 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.1;3 DisplayPort™"
         },
         {
             "Component": "84J69AV",
-            "ContainerValue": "1 HDMI 2.1;3 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.1;3 DisplayPort™"
         },
         {
             "Component": "895W9AV",
@@ -2942,7 +2942,7 @@
         },
         {
             "Component": "8A983AV",
-            "ContainerValue": "1 HDMI 2.1;3 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.1;3 DisplayPort™"
         },
         {
             "Component": "8A9Y2AV",
@@ -2950,7 +2950,7 @@
         },
         {
             "Component": "8EM29AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI-D"
         },
         {
             "Component": "8RN23AV",
@@ -2970,7 +2970,7 @@
         },
         {
             "Component": "8SP51AV",
-            "ContainerValue": "1 HDMI 2.0;2 DisplayPort™ 1.4;"
+            "ContainerValue": "1 HDMI 2.0;2 DisplayPort™ 1.4"
         },
         {
             "Component": "8V7H5AV",
@@ -2978,11 +2978,11 @@
         },
         {
             "Component": "8VD57AV",
-            "ContainerValue": "1 DisplayPort™ 1.4;1 HDMI;"
+            "ContainerValue": "1 DisplayPort™ 1.4;1 HDMI"
         },
         {
             "Component": "8VY19AV",
-            "ContainerValue": "1 HDMI 2.0;"
+            "ContainerValue": "1 HDMI 2.0"
         },
         {
             "Component": "8WW34AV",
@@ -3002,59 +3002,59 @@
         },
         {
             "Component": "8XV17AV",
-            "ContainerValue": "1 HDMI 2.0; 1 DisplayPort™ 1.4; 1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0; 1 DisplayPort™ 1.4; 1 DVI-D"
         },
         {
             "Component": "8XV18AV",
-            "ContainerValue": "1 HDMI;"
+            "ContainerValue": "1 HDMI"
         },
         {
             "Component": "8ZG26AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4;1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4;1 DVI-D"
         },
         {
             "Component": "8ZG27AV",
-            "ContainerValue": "1 HDMI 2.0; 1 DisplayPort™ 1.4; 1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0; 1 DisplayPort™ 1.4; 1 DVI-D"
         },
         {
             "Component": "8ZG28AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4;1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4;1 DVI-D"
         },
         {
             "Component": "8ZG35AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4;1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4;1 DVI-D"
         },
         {
             "Component": "8ZG38AV",
-            "ContainerValue": "1 HDMI 2.0; 1 DisplayPort™ 1.4; 1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0; 1 DisplayPort™ 1.4; 1 DVI-D"
         },
         {
             "Component": "8ZG41AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4;1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4;1 DVI-D"
         },
         {
             "Component": "8ZG44AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4;1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4;1 DVI-D"
         },
         {
             "Component": "8ZG47AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4;1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4;1 DVI-D"
         },
         {
             "Component": "8ZG48AV",
-            "ContainerValue": "1 DVI; 1 HDMI; 1 DisplayPort™;"
+            "ContainerValue": "1 DVI; 1 HDMI; 1 DisplayPort™"
         },
         {
             "Component": "8ZG49AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4;1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4;1 DVI-D"
         },
         {
             "Component": "8ZU60AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4;1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4;1 DVI-D"
         },
         {
             "Component": "8ZU61AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4;1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4;1 DVI-D"
         },
         {
             "Component": "915P1AV",
@@ -3082,43 +3082,43 @@
         },
         {
             "Component": "9NA99AV",
-            "ContainerValue": "1 HDMI 2.0;2 DisplayPort™ 1.4;"
+            "ContainerValue": "1 HDMI 2.0;2 DisplayPort™ 1.4"
         },
         {
             "Component": "9NB00AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™"
         },
         {
             "Component": "9NB01AV",
-            "ContainerValue": "1 HDMI 2.0;1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0;1 DVI-D"
         },
         {
             "Component": "9NB02AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4;1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4;1 DVI-D"
         },
         {
             "Component": "9NB03AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI-D"
         },
         {
             "Component": "9NB04AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI-D"
         },
         {
             "Component": "9NB05AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;1 DVI-D"
         },
         {
             "Component": "9NB06AV",
-            "ContainerValue": "1 HDMI 2.0;3 DisplayPort™;1 Virtual Link (USB Type-C™);"
+            "ContainerValue": "1 HDMI 2.0;3 DisplayPort™;1 Virtual Link (USB Type-C™)"
         },
         {
             "Component": "9NB07AV",
-            "ContainerValue": "1 HDMI 2.0;3 DisplayPort™;1 Virtual Link (USB Type-C™);"
+            "ContainerValue": "1 HDMI 2.0;3 DisplayPort™;1 Virtual Link (USB Type-C™)"
         },
         {
             "Component": "9NB08AV",
-            "ContainerValue": "1 HDMI; 3 DisplayPort™; 1 Virtual Link (USB-C);"
+            "ContainerValue": "1 HDMI; 3 DisplayPort™; 1 Virtual Link (USB-C)"
         },
         {
             "Component": "9R213AV",
@@ -3150,19 +3150,19 @@
         },
         {
             "Component": "9S7E9AV",
-            "ContainerValue": "1 HDMI 2.1;3 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.1;3 DisplayPort™"
         },
         {
             "Component": "9S7F0AV",
-            "ContainerValue": "1 HDMI 2.1;3 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.1;3 DisplayPort™"
         },
         {
             "Component": "9T0G9AV",
-            "ContainerValue": "1 HDMI 2.1;3 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.1;3 DisplayPort™"
         },
         {
             "Component": "9T211AV",
-            "ContainerValue": "1 HDMI 2.1;3 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.1;3 DisplayPort™"
         },
         {
             "Component": "9T5V0AV",
@@ -3194,11 +3194,11 @@
         },
         {
             "Component": "9U765AV",
-            "ContainerValue": "1 HDMI 2.1;3 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.1;3 DisplayPort™"
         },
         {
             "Component": "9U7A4AV",
-            "ContainerValue": "1 HDMI 2.1;3 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.1;3 DisplayPort™"
         },
         {
             "Component": "9U7L5AV",
@@ -3206,15 +3206,15 @@
         },
         {
             "Component": "9UJ26AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™"
         },
         {
             "Component": "9VA54AV",
-            "ContainerValue": "1 VGA; 1 HDMI v1.4;"
+            "ContainerValue": "1 VGA; 1 HDMI v1.4"
         },
         {
             "Component": "9WD21AV",
-            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4;1 DVI-D;"
+            "ContainerValue": "1 HDMI 2.0;1 DisplayPort™ 1.4;1 DVI-D"
         },
         {
             "Component": "9XL01AV",
@@ -4038,7 +4038,7 @@
         },
         {
             "Component": "Y9D11AV",
-            "ContainerValue": "1 VGA; 1 HDMI;"
+            "ContainerValue": "1 VGA; 1 HDMI"
         },
         {
             "Component": "Z0A81AV",
@@ -4098,7 +4098,7 @@
         },
         {
             "Component": "Z3R52AV",
-            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0;"
+            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0"
         },
         {
             "Component": "Z3R53AV",
@@ -4146,15 +4146,15 @@
         },
         {
             "Component": "Z5W70AV",
-            "ContainerValue": "1 DVI;1 HDMI;3 DisplayPort™;"
+            "ContainerValue": "1 DVI;1 HDMI;3 DisplayPort™"
         },
         {
             "Component": "Z5W71AV",
-            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0;"
+            "ContainerValue": "1 DVI;1 DisplayPort™;1 HDMI 2.0"
         },
         {
             "Component": "Z5W72AV",
-            "ContainerValue": "1 HDMI;1 DVI-D;3 DisplayPort™;"
+            "ContainerValue": "1 HDMI;1 DVI-D;3 DisplayPort™"
         },
         {
             "Component": "Z5W74AV",

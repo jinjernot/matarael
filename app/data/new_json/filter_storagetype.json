@@ -1230,7 +1230,7 @@
         },
         {
             "Component": "1DR16AV",
-            "ContainerValue": "SSDHDD; SSD;"
+            "ContainerValue": "SSDHDD; SSD"
         },
         {
             "Component": "1DR51AV",
@@ -1558,7 +1558,7 @@
         },
         {
             "Component": "1EK75AV",
-            "ContainerValue": "SSDHDD; SSD;"
+            "ContainerValue": "SSDHDD; SSD"
         },
         {
             "Component": "1EQ59AV",
@@ -2974,7 +2974,7 @@
         },
         {
             "Component": "1KE97AV",
-            "ContainerValue": "SSD;HDD;"
+            "ContainerValue": "SSD;HDD"
         },
         {
             "Component": "1KF26AV",
@@ -6618,7 +6618,7 @@
         },
         {
             "Component": "2EJ29AV",
-            "ContainerValue": "SSD;HDD;"
+            "ContainerValue": "SSD;HDD"
         },
         {
             "Component": "2EJ51AV",
@@ -9206,15 +9206,15 @@
         },
         {
             "Component": "2RP98AV",
-            "ContainerValue": "SSD;HDD;"
+            "ContainerValue": "SSD;HDD"
         },
         {
             "Component": "2RP99AV",
-            "ContainerValue": "SSD;HDD;"
+            "ContainerValue": "SSD;HDD"
         },
         {
             "Component": "2RQ00AV",
-            "ContainerValue": "SSD;HDD;"
+            "ContainerValue": "SSD;HDD"
         },
         {
             "Component": "2RQ01AV",
@@ -20886,7 +20886,7 @@
         },
         {
             "Component": "4C0B0AV",
-            "ContainerValue": "SSD;SSD;SSD;"
+            "ContainerValue": "SSD;SSD;SSD"
         },
         {
             "Component": "4C0B1AV",
@@ -22458,7 +22458,7 @@
         },
         {
             "Component": "4HR19AV",
-            "ContainerValue": "SSDHDD; SSD;"
+            "ContainerValue": "SSDHDD; SSD"
         },
         {
             "Component": "4HR23AV",
@@ -23030,7 +23030,7 @@
         },
         {
             "Component": "4PH56AV",
-            "ContainerValue": "SSD;HDD;"
+            "ContainerValue": "SSD;HDD"
         },
         {
             "Component": "4PH57AV",
@@ -58434,23 +58434,23 @@
         },
         {
             "Component": "V7L24AV",
-            "ContainerValue": "SSD;HDD;"
+            "ContainerValue": "SSD;HDD"
         },
         {
             "Component": "V7L25AV",
-            "ContainerValue": "SSD;HDD;"
+            "ContainerValue": "SSD;HDD"
         },
         {
             "Component": "V7L27AV",
-            "ContainerValue": "SSD;HDD;"
+            "ContainerValue": "SSD;HDD"
         },
         {
             "Component": "V7L28AV",
-            "ContainerValue": "SSD;HDD;"
+            "ContainerValue": "SSD;HDD"
         },
         {
             "Component": "V7L29AV",
-            "ContainerValue": "SSD;HDD;"
+            "ContainerValue": "SSD;HDD"
         },
         {
             "Component": "V7L61AV",
@@ -58854,7 +58854,7 @@
         },
         {
             "Component": "W1B71AV",
-            "ContainerValue": "SSD;HDD;"
+            "ContainerValue": "SSD;HDD"
         },
         {
             "Component": "W1N87AV",
@@ -62518,7 +62518,7 @@
         },
         {
             "Component": "Z3Q18AV",
-            "ContainerValue": "SSD;HDD;"
+            "ContainerValue": "SSD;HDD"
         },
         {
             "Component": "Z3Q19AV",
@@ -63046,7 +63046,7 @@
         },
         {
             "Component": "Z5W40AV",
-            "ContainerValue": "SSD;HDD;"
+            "ContainerValue": "SSD;HDD"
         },
         {
             "Component": "Z5W41AV",
@@ -63066,7 +63066,7 @@
         },
         {
             "Component": "Z5W46AV",
-            "ContainerValue": "SSD;HDD;"
+            "ContainerValue": "SSD;HDD"
         },
         {
             "Component": "Z5W47AV",
@@ -63126,11 +63126,11 @@
         },
         {
             "Component": "Z5W88AV",
-            "ContainerValue": "SSD;HDD;"
+            "ContainerValue": "SSD;HDD"
         },
         {
             "Component": "Z5W89AV",
-            "ContainerValue": "SSD;HDD;"
+            "ContainerValue": "SSD;HDD"
         },
         {
             "Component": "Z5W90AV",
@@ -63138,7 +63138,7 @@
         },
         {
             "Component": "Z5W91AV",
-            "ContainerValue": "SSD;HDD;"
+            "ContainerValue": "SSD;HDD"
         },
         {
             "Component": "Z5W92AV",
@@ -63146,11 +63146,11 @@
         },
         {
             "Component": "Z5W93AV",
-            "ContainerValue": "SSD;HDD;"
+            "ContainerValue": "SSD;HDD"
         },
         {
             "Component": "Z5W94AV",
-            "ContainerValue": "SSD;HDD;"
+            "ContainerValue": "SSD;HDD"
         },
         {
             "Component": "Z5W95AV",
@@ -63186,7 +63186,7 @@
         },
         {
             "Component": "Z6A38AV",
-            "ContainerValue": "SSD;SSD;SSD;"
+            "ContainerValue": "SSD;SSD;SSD"
         },
         {
             "Component": "Z6A49AV",

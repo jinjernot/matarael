@@ -1810,7 +1810,7 @@
         },
         {
             "Component": "322X7AV",
-            "ContainerValue": "NVIDIA® Max-Q technology;"
+            "ContainerValue": "NVIDIA® Max-Q technology"
         },
         {
             "Component": "33Z77AV",
@@ -1822,11 +1822,11 @@
         },
         {
             "Component": "343L1AV",
-            "ContainerValue": "NVIDIA® Max-Q technology; Powered by NVIDIA Ampere architecture;"
+            "ContainerValue": "NVIDIA® Max-Q technology; Powered by NVIDIA Ampere architecture"
         },
         {
             "Component": "343L2AV",
-            "ContainerValue": "NVIDIA® Max-Q technology; Powered by NVIDIA Ampere architecture;"
+            "ContainerValue": "NVIDIA® Max-Q technology; Powered by NVIDIA Ampere architecture"
         },
         {
             "Component": "343L3AV",
@@ -3742,7 +3742,7 @@
         },
         {
             "Component": "594J6AV",
-            "ContainerValue": "NVIDIA® Max-Q technology;"
+            "ContainerValue": "NVIDIA® Max-Q technology"
         },
         {
             "Component": "594J7AV",
@@ -4338,11 +4338,11 @@
         },
         {
             "Component": "63B17AV",
-            "ContainerValue": "NVIDIA® Max-Q technology;"
+            "ContainerValue": "NVIDIA® Max-Q technology"
         },
         {
             "Component": "63B18AV",
-            "ContainerValue": "NVIDIA® Max-Q technology;"
+            "ContainerValue": "NVIDIA® Max-Q technology"
         },
         {
             "Component": "665B3AV",
@@ -4350,7 +4350,7 @@
         },
         {
             "Component": "665B4AV",
-            "ContainerValue": "NVIDIA® Max-Q technology;"
+            "ContainerValue": "NVIDIA® Max-Q technology"
         },
         {
             "Component": "66Y17AV",
@@ -5778,7 +5778,7 @@
         },
         {
             "Component": "7M3L1AV",
-            "ContainerValue": "NVIDIA® Studio;"
+            "ContainerValue": "NVIDIA® Studio"
         },
         {
             "Component": "7M3L2AV",
@@ -5998,11 +5998,11 @@
         },
         {
             "Component": "7Y6J5AV",
-            "ContainerValue": "NVIDIA® Studio;"
+            "ContainerValue": "NVIDIA® Studio"
         },
         {
             "Component": "7Y6J6AV",
-            "ContainerValue": "NVIDIA® Studio;"
+            "ContainerValue": "NVIDIA® Studio"
         },
         {
             "Component": "7Y6J9AV",
@@ -6010,7 +6010,7 @@
         },
         {
             "Component": "7Y6K0AV",
-            "ContainerValue": "NVIDIA® Studio;"
+            "ContainerValue": "NVIDIA® Studio"
         },
         {
             "Component": "7Y8M8AV",
@@ -6066,7 +6066,7 @@
         },
         {
             "Component": "81C18AV",
-            "ContainerValue": "NVIDIA® Studio;"
+            "ContainerValue": "NVIDIA® Studio"
         },
         {
             "Component": "81J38AV",
@@ -6238,23 +6238,23 @@
         },
         {
             "Component": "8N9K0AV",
-            "ContainerValue": "NVIDIA® Studio;"
+            "ContainerValue": "NVIDIA® Studio"
         },
         {
             "Component": "8N9K1AV",
-            "ContainerValue": "NVIDIA® Studio;"
+            "ContainerValue": "NVIDIA® Studio"
         },
         {
             "Component": "8N9K2AV",
-            "ContainerValue": "NVIDIA® Studio; Advanced Optimus;"
+            "ContainerValue": "NVIDIA® Studio; Advanced Optimus"
         },
         {
             "Component": "8N9K3AV",
-            "ContainerValue": "NVIDIA® Studio;"
+            "ContainerValue": "NVIDIA® Studio"
         },
         {
             "Component": "8N9K4AV",
-            "ContainerValue": "NVIDIA® Studio;"
+            "ContainerValue": "NVIDIA® Studio"
         },
         {
             "Component": "8RN23AV",
@@ -6366,11 +6366,11 @@
         },
         {
             "Component": "8U970AV",
-            "ContainerValue": "NVIDIA® Studio;"
+            "ContainerValue": "NVIDIA® Studio"
         },
         {
             "Component": "8U971AV",
-            "ContainerValue": "NVIDIA® Studio;"
+            "ContainerValue": "NVIDIA® Studio"
         },
         {
             "Component": "8V7H5AV",
@@ -6614,7 +6614,7 @@
         },
         {
             "Component": "8X3Y4AV",
-            "ContainerValue": "NVIDIA® Studio;"
+            "ContainerValue": "NVIDIA® Studio"
         },
         {
             "Component": "8X3Y5AV",
@@ -6634,7 +6634,7 @@
         },
         {
             "Component": "8X3Y9AV",
-            "ContainerValue": "Advanced Optimus;"
+            "ContainerValue": "Advanced Optimus"
         },
         {
             "Component": "8X3Z0AV",
@@ -6754,7 +6754,7 @@
         },
         {
             "Component": "8Z7S5AV",
-            "ContainerValue": "NVIDIA® Studio;"
+            "ContainerValue": "NVIDIA® Studio"
         },
         {
             "Component": "8Z7S6AV",
@@ -6850,7 +6850,7 @@
         },
         {
             "Component": "90P67AV",
-            "ContainerValue": "NVIDIA® Studio; Advanced Optimus;"
+            "ContainerValue": "NVIDIA® Studio; Advanced Optimus"
         },
         {
             "Component": "90P69AV",
@@ -6886,7 +6886,7 @@
         },
         {
             "Component": "90Q68AV",
-            "ContainerValue": "NVIDIA® Studio; Advanced Optimus;"
+            "ContainerValue": "NVIDIA® Studio; Advanced Optimus"
         },
         {
             "Component": "915P1AV",
@@ -6894,7 +6894,7 @@
         },
         {
             "Component": "919R9AV",
-            "ContainerValue": "NVIDIA® Studio;"
+            "ContainerValue": "NVIDIA® Studio"
         },
         {
             "Component": "91D15AV",
@@ -6942,11 +6942,11 @@
         },
         {
             "Component": "99S56AV",
-            "ContainerValue": "NVIDIA® Studio;"
+            "ContainerValue": "NVIDIA® Studio"
         },
         {
             "Component": "99S57AV",
-            "ContainerValue": "NVIDIA® Studio;"
+            "ContainerValue": "NVIDIA® Studio"
         },
         {
             "Component": "9A9V8AV",
@@ -6958,7 +6958,7 @@
         },
         {
             "Component": "9A9W0AV",
-            "ContainerValue": "NVIDIA® Studio; Advanced Optimus;"
+            "ContainerValue": "NVIDIA® Studio; Advanced Optimus"
         },
         {
             "Component": "9A9W1AV",
@@ -6982,15 +6982,15 @@
         },
         {
             "Component": "9B478AV",
-            "ContainerValue": "NVIDIA® Studio; Advanced Optimus;"
+            "ContainerValue": "NVIDIA® Studio; Advanced Optimus"
         },
         {
             "Component": "9B479AV",
-            "ContainerValue": "NVIDIA® Studio; Advanced Optimus;"
+            "ContainerValue": "NVIDIA® Studio; Advanced Optimus"
         },
         {
             "Component": "9B480AV",
-            "ContainerValue": "NVIDIA® Studio; Advanced Optimus;"
+            "ContainerValue": "NVIDIA® Studio; Advanced Optimus"
         },
         {
             "Component": "9B481AV",
@@ -7014,11 +7014,11 @@
         },
         {
             "Component": "9D738AV",
-            "ContainerValue": "NVIDIA® Studio; Advanced Optimus;"
+            "ContainerValue": "NVIDIA® Studio; Advanced Optimus"
         },
         {
             "Component": "9D739AV",
-            "ContainerValue": "NVIDIA® Studio; Advanced Optimus;"
+            "ContainerValue": "NVIDIA® Studio; Advanced Optimus"
         },
         {
             "Component": "9D740AV",
@@ -7026,11 +7026,11 @@
         },
         {
             "Component": "9D8T1AV",
-            "ContainerValue": "NVIDIA® Studio;"
+            "ContainerValue": "NVIDIA® Studio"
         },
         {
             "Component": "9D8T2AV",
-            "ContainerValue": "NVIDIA® Studio;"
+            "ContainerValue": "NVIDIA® Studio"
         },
         {
             "Component": "9EK03AV",
@@ -7074,15 +7074,15 @@
         },
         {
             "Component": "9F276AV",
-            "ContainerValue": "NVIDIA® Studio;"
+            "ContainerValue": "NVIDIA® Studio"
         },
         {
             "Component": "9F277AV",
-            "ContainerValue": "NVIDIA® Studio;"
+            "ContainerValue": "NVIDIA® Studio"
         },
         {
             "Component": "9G8X9AV",
-            "ContainerValue": "NVIDIA® Studio; Advanced Optimus;"
+            "ContainerValue": "NVIDIA® Studio; Advanced Optimus"
         },
         {
             "Component": "9GF92AV",
@@ -7114,11 +7114,11 @@
         },
         {
             "Component": "9J121AV",
-            "ContainerValue": "NVIDIA® Studio; Advanced Optimus;"
+            "ContainerValue": "NVIDIA® Studio; Advanced Optimus"
         },
         {
             "Component": "9J127AV",
-            "ContainerValue": "NVIDIA® Studio; Advanced Optimus;"
+            "ContainerValue": "NVIDIA® Studio; Advanced Optimus"
         },
         {
             "Component": "9J5V8AV",
