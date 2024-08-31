@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>SCS QA Tool</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
@@ -35,21 +36,21 @@
         </div>
         <div class="content">
             <h3 class="">Regular Content</h3><br>
-                <form action="scs-upload-file" method="POST" enctype="multipart/form-data">
-                    <input type="file" name="Regular" class="custom-input">
-                    <br><br>
-                    <input type="submit" value="Upload" class="custom-button">
-                </form><br>
-                Note: The excel file must be in the same format as scs export report.
+            <form action="scs-upload-file" method="POST" enctype="multipart/form-data">
+                <input type="file" name="ph_regular" class="custom-input">
+                <br><br>
+                <input type="submit" value="Upload" class="custom-button">
+            </form><br>
+            Note: The excel file must be in the same format as scs export report.
 
-                    <!-- Form for AV Regular Content Upload -->
-    <h3 class="">AV Regular Content</h3><br>
-    <form action="scs-upload-file" method="POST" enctype="multipart/form-data">
-        <input type="file" name="av_regular" class="custom-input">
-        <br><br>
-        <input type="submit" value="Upload" class="custom-button">
-    </form><br>
-    Note: The excel file must be in the same format as av export report.
+            <!-- Form for AV Regular Content Upload -->
+            <h3 class="">AV Regular Content</h3><br>
+            <form action="scs-upload-file" method="POST" enctype="multipart/form-data">
+                <input type="file" name="av_regular" class="custom-input">
+                <br><br>
+                <input type="submit" value="Upload" class="custom-button">
+            </form><br>
+            Note: The excel file must be in the same format as av export report.
         </div>
     </div>
     <div class="footer-container">

@@ -1,9 +1,11 @@
 from flask import Flask, request, render_template, send_from_directory
+
+from app.core.qa_data import clean_report, clean_report_av
+from app.core.json_update import process_json_input
 from app.core.qa_granular import clean_granular
 from app.core.battery_life import battery_life
-from app.core.qa_data import clean_report, clean_report_av
 from app.core.matrix import matrix_file
-from app.core.json_update import process_json_input
+
 from app.config.paths import JSON_PATH
 import app.config.config as config
 import json
@@ -25,7 +27,7 @@ def allowed_file(filename):
     return '.' in filename and filename.rsplit('.', 1)[1].lower() in app.config['VALID_FILE_EXTENSIONS']
 
 # Route for file upload
-@app.route('/app1', methods=['GET', 'POST'])
+@app.route('/scs', methods=['GET', 'POST'])
 def upload_file():
     if request.method == 'POST':
         password = request.form.get('password')
@@ -38,8 +40,8 @@ def upload_file():
 # Route for regular files
 @app.route('/scs-upload-file', methods=['POST'])
 def process_file():
-    if 'Regular' in request.files:
-        file = request.files['Regular']
+    if 'ph_regular' in request.files:
+        file = request.files['ph_regular']
         try:
             if allowed_file(file.filename):  # Check if the file has a valid extension
                 clean_report(file)  # Process the file
@@ -63,8 +65,8 @@ def process_file():
 # Route for processing granular files
 @app.route('/scs-granular-file', methods=['POST'])
 def process_file_granular():
-    if 'Granular' in request.files:
-        file = request.files['Granular']
+    if 'granular' in request.files:
+        file = request.files['granular']
         try:
             if allowed_file(file.filename):  # Check if the file has a valid extension
                 clean_granular(file)  # Process the granular file
