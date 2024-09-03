@@ -6,7 +6,7 @@ from app.core.qa_granular import clean_granular
 from app.core.battery_life import battery_life
 from app.core.matrix import matrix_file
 
-from app.config.paths import JSON_PATH
+from app.config.paths import JSON_PATH_AV
 import app.config.config as config
 import json
 import os
@@ -151,7 +151,7 @@ def json_review():
     filename = request.args.get('filename')
     if filename:
         try:
-            file_path = os.path.join(JSON_PATH, filename + '.json')
+            file_path = os.path.join(JSON_PATH_AV, filename + '.json')
             if os.path.exists(file_path):
                 with open(file_path, 'r', encoding='utf-8') as json_file:
                     data = json.load(json_file)
