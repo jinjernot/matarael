@@ -5,8 +5,8 @@ from app.config.paths import PRODUCT_LINES_PATH
 def pl_check(df):
     
     # Read JSON data
-    with open(PRODUCT_LINES_PATH, "r") as json_file: # Server
-    #with open('app/core/data/product_lines.json', 'r') as json_file: # Local
+    with open(PRODUCT_LINES_PATH, "r") as json_file:  # Server
+        # with open('app/core/data/product_lines.json', 'r') as json_file:  # Local
         json_data = json.load(json_file)
 
     # Iterate through each product line in the JSON
@@ -19,9 +19,10 @@ def pl_check(df):
 
         # Iterate through ContainerName columns
         for container_name in container_names:
-            # Check if the 'Container Value' column is empty in the matching rows
+            # Check if the 'ContainerValue' column is empty in the matching rows
             empty_container_rows = matching_rows[matching_rows["ContainerValue"].isna()]
-            # Update the 'Accuracy' column for empty container rows
+            
+            # Update the 'ContainerValue' column for empty container rows
             df.loc[empty_container_rows.index, "ContainerValue"] = "ERROR: Mandatory Container Value"
 
     return df

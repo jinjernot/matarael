@@ -1,7 +1,7 @@
 from flask import Flask, request, render_template, send_from_directory
 
 from app.core.qa_data import clean_report, clean_report_av
-from app.core.json_update import process_json_input
+from app.core.json_update import process_json_input, update_json_av
 from app.core.qa_granular import clean_granular
 from app.core.battery_life import battery_life
 from app.core.matrix import matrix_file
@@ -27,7 +27,7 @@ def allowed_file(filename):
     return '.' in filename and filename.rsplit('.', 1)[1].lower() in app.config['VALID_FILE_EXTENSIONS']
 
 # Route for file upload
-@app.route('/scs', methods=['GET', 'POST'])
+@app.route('/app1', methods=['GET', 'POST'])
 def upload_file():
     if request.method == 'POST':
         password = request.form.get('password')
@@ -108,10 +108,16 @@ def process_file_matrix():
 # Route for uploading JSON files
 @app.route('/scs-json-upload', methods=['POST'])
 def json_update():
+    # Get the form inputs for both sets of variables
     tag = request.form.get('tag')
     component = request.form.get('component')
     value = request.form.get('value')
     
+    tag_av = request.form.get('tag_av')
+    component_av = request.form.get('component_av')
+    value_av = request.form.get('value_av')
+    
+    # Check for the first set of variables (tag, component, value)
     if tag and component and value:
         try:
             # Call the process_json_input function with the user inputs
@@ -123,8 +129,22 @@ def json_update():
         except Exception as e:
             # Handle other exceptions
             return render_template('error.html', error_message=str(e)), 500  # Render error template for server errors
-    return render_template('error.html', error_message='Missing required fields'), 400  # Render error template for missing fields
+    
+    # Check for the second set of variables (tag_av, component_av, value_av)
+    elif tag_av and component_av and value_av:
+        try:
+            # Call the update_json_av function with the alternative variables
+            update_json_av(tag_av, component_av, value_av)
+            return render_template('file_uploaded.html')  # Render success template if processing is successful
+        except FileNotFoundError as e:
+            # Handle the specific case where the JSON file is not found
+            return render_template('error.html', error_message=str(e)), 404  # Return a 404 Not Found status code
+        except Exception as e:
+            # Handle other exceptions
+            return render_template('error.html', error_message=str(e)), 500  # Render error template for server errors
 
+    # If neither set of variables is fully provided, render an error
+    return render_template('error.html', error_message='Missing required fields'), 400  # Render error template for missing fields
 # Route for reviewing JSON files
 @app.route('/scs-json-review', methods=['GET'])
 def json_review():
