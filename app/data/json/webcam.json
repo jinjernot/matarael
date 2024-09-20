@@ -82,7 +82,7 @@
         },
         {
             "PhwebDescription": "ID NSV ALU wHDC TNR US layout",
-            "ContainerValue": "HP True Vision 5MP IR camera with camera shutter, temporal noise reduction and integrated dual array digital microphones"
+            "ContainerValue": "HP True Vision 5MP IR camera with camera shutter, temporal noise reduction and integrated dual array digital microphones"
         },
         {
             "PhwebDescription": "ID SBL ALU FPR",
@@ -110,7 +110,7 @@
         },
         {
             "PhwebDescription": "ID NFB ALU US layout",
-            "ContainerValue": "HP True Vision 5MP IR camera with camera shutter, temporal noise reduction and integrated dual array digital microphones"
+            "ContainerValue": "HP True Vision 5MP IR camera with camera shutter, temporal noise reduction and integrated dual array digital microphones"
         },
         {
             "PhwebDescription": "ID NTB ALU US layout",
@@ -130,7 +130,7 @@
         },
         {
             "PhwebDescription": "ID NSV +NSV ALU+PLA w5MPC FPR nWWAN",
-            "ContainerValue": "HP True Vision 5MP camera with camera shutter, temporal noise reduction and integrated dual array digital microphones"
+            "ContainerValue": "HP True Vision 5MP camera with camera shutter, temporal noise reduction and integrated dual array digital microphones"
         },
         {
             "PhwebDescription": "ID NSV +NSV PLA+PLA wHDC TNR nFPR nWWAN",
@@ -254,7 +254,7 @@
         },
         {
             "PhwebDescription": "ID NTB ALU",
-            "ContainerValue": "HP True Vision 5MP IR camera with camera shutter, temporal noise reduction and integrated dual array digital microphones"
+            "ContainerValue": "HP True Vision 5MP IR camera with camera shutter, temporal noise reduction and integrated dual array digital microphones"
         },
         {
             "PhwebDescription": "ID NSV PLA nSDC wHDC TNR nFPR HD TS",
@@ -566,7 +566,7 @@
         },
         {
             "PhwebDescription": "ID WGD ALU FPR",
-            "ContainerValue": "HP True Vision 5MP camera with temporal noise reduction and integrated dual array digital microphones"
+            "ContainerValue": "HP True Vision 5MP camera with temporal noise reduction and integrated dual array digital microphones"
         },
         {
             "PhwebDescription": "ID WGD ALU nSDC wHDC TNR FPR HD TS",
@@ -790,7 +790,7 @@
         },
         {
             "PhwebDescription": "ID SBL ALU",
-            "ContainerValue": "HP True Vision 5MP IR camera with camera shutter, temporal noise reduction and integrated dual array digital microphones"
+            "ContainerValue": "HP True Vision 5MP IR camera with camera shutter, temporal noise reduction and integrated dual array digital microphones"
         },
         {
             "PhwebDescription": "ID SFW PLA w5MPC IR TNR FHD",
@@ -862,7 +862,7 @@
         },
         {
             "PhwebDescription": "ID NSV +NSV ALU+PLA w5MPC FPR fWWAN",
-            "ContainerValue": "HP True Vision 5MP camera with camera shutter, temporal noise reduction and integrated dual array digital microphones"
+            "ContainerValue": "HP True Vision 5MP camera with camera shutter, temporal noise reduction and integrated dual array digital microphones"
         },
         {
             "PhwebDescription": "ID PLG ALU",
@@ -1002,7 +1002,7 @@
         },
         {
             "PhwebDescription": "ID NFB ALU fWWAN US layout",
-            "ContainerValue": "HP True Vision 5MP IR camera with camera shutter, temporal noise reduction and integrated dual array digital microphones"
+            "ContainerValue": "HP True Vision 5MP IR camera with camera shutter, temporal noise reduction and integrated dual array digital microphones"
         },
         {
             "PhwebDescription": "ID NSV PLA wHDC TS",
