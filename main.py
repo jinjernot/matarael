@@ -1,6 +1,6 @@
 from flask import Flask, request, render_template, send_from_directory
 
-from app.core.qa_data import clean_report, clean_report_av
+from app.core.qa_data import clean_report, clean_report_av, clean_report_granular
 from app.core.json_update import process_json_input, update_json_av
 from app.core.qa_granular import clean_granular
 from app.core.battery_life import battery_life
@@ -69,7 +69,7 @@ def process_file_granular():
         file = request.files['granular']
         try:
             if allowed_file(file.filename):  # Check if the file has a valid extension
-                clean_granular(file)  # Process the granular file
+                clean_report_granular(file)  # Process the granular file
                 return send_from_directory(directory='.', path='Granular_QA.xlsx', as_attachment=True)  # Serve file for download
         except Exception as e:
             print(e)

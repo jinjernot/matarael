@@ -16,11 +16,12 @@ def pl_check_granular(df):
 
         # Check if the PL column in the DataFrame matches the current PL from the JSON
         matching_rows = df[df["PL"] == pl]
-        print("si entro al pl")
+        
         # Iterate through ContainerName columns
         for container_name in container_names:
             # Check if the 'Container Value' column is empty in the matching rows
             empty_container_rows = matching_rows[matching_rows["Granular Container Value"].isna()]
+            
             # Update the 'Accuracy' column for empty container rows
             df.loc[empty_container_rows.index, "Granular Container Value"] = "ERROR: Mandatory Container Value"
 
