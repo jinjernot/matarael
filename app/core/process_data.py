@@ -106,17 +106,19 @@ def process_data_granular(json_path, container_name, container_df, df):
         container_accuracy_dict.update(container_df[maskContainer].index.to_series().map(lambda idx: (idx, f'SCS {container_name} OK')))
     # Update the 'Accuracy' column of the 'container_df' DataFrame using boolean indexing.
     container_df.loc[container_accuracy_dict.keys(), 'Accuracy'] = [value for _, value in container_accuracy_dict.values()]
+    
     # Update the 'Accuracy' column of the 'df' DataFrame using boolean indexing.
-    df.loc[container_df.index, 'Accuracy'] = container_df['Accuracy']
+    df.loc[container_df.index, 'Accuracy']          = container_df['Accuracy']
 
     # Find the unmatched containers and set error messages
-    unmatched_containers = container_df[~container_df.index.isin(container_accuracy_dict.keys())]
-    unmatched_error_messages = [f'ERROR: {container_name}' for _ in range(len(unmatched_containers))]
-    unmatched_containers['Accuracy'] = unmatched_error_messages
+    unmatched_containers                            = container_df[~container_df.index.isin(container_accuracy_dict.keys())]
+    unmatched_error_messages                        = [f'ERROR: {container_name}' for _ in range(len(unmatched_containers))]
+    unmatched_containers['Accuracy']                = unmatched_error_messages
+    
     # Update the 'Accuracy' column of the 'df' DataFrame for unmatched containers.
-    df.loc[unmatched_containers.index, 'Accuracy'] = unmatched_containers['Accuracy']
+    df.loc[unmatched_containers.index, 'Accuracy']  = unmatched_containers['Accuracy']
 
-    unmatched_container_values = []
+    unmatched_container_values  = []
     for container in unmatched_containers.itertuples(index=False):
         matching_containers = container_data[container_data['Component'] == container.Component]
         if len(matching_containers) > 0:
