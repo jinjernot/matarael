@@ -11,6 +11,12 @@ def excel_to_json_grouped_by_scs_group(file_path):
         # Load the Excel file into a DataFrame
         df = pd.read_excel(file_path)
 
+        # Remove leading and trailing spaces from the 'tag' and 'val' columns
+        df['tag'] = df['tag'].str.strip()
+
+        # Convert all values in 'val' column to strings (including numbers)
+        df['val'] = df['val'].astype(str).str.strip()
+
         # Base directory to store all JSON files
         base_output_dir = 'json_granular'
 
@@ -46,7 +52,7 @@ def excel_to_json_grouped_by_scs_group(file_path):
                 for _, row in tag_df.iterrows():
                     component_data = {
                         "Component": row['Component'],
-                        "ContainerValue": row['val']
+                        "ContainerValue": row['val']  # Now always a string
                     }
                     tag_json[sanitized_tag].append(component_data)
 
