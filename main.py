@@ -2,7 +2,6 @@ from flask import Flask, request, render_template, send_from_directory
 
 from app.core.qa_data import clean_report, clean_report_av, clean_report_granular
 from app.core.json_update import process_json_input, update_json_av
-from app.core.qa_granular import clean_granular
 from app.core.battery_life import battery_life
 from app.core.matrix import matrix_file
 
@@ -55,7 +54,7 @@ def process_file():
         try:
             if allowed_file(file.filename):  # Check if the file has a valid extension
                 clean_report_av(file)  # Process the AV report file
-                return send_from_directory('.', filename='SCS_QA.xlsx', as_attachment=True)  # Serve AV report file for download
+                return send_from_directory('.', filename='scs_qa.xlsx', as_attachment=True)  # Serve AV report file for download
         except Exception as e:
             print(e)
             return render_template('error.html', error_message=str(e)), 500  # Render error template for server errors
@@ -70,7 +69,7 @@ def process_file_granular():
         try:
             if allowed_file(file.filename):  # Check if the file has a valid extension
                 clean_report_granular(file)  # Process the granular file
-                return send_from_directory(directory='.', path='Granular_QA.xlsx', as_attachment=True)  # Serve file for download
+                return send_from_directory(directory='.', path='granular_qa.xlsx', as_attachment=True)  # Serve file for download
         except Exception as e:
             print(e)
             return render_template('error.html', error_message=str(e)), 500  # Render error template for server errors

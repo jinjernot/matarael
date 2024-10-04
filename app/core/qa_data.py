@@ -1,8 +1,6 @@
-from app.core.process_data import process_data
-from app.core.process_data import process_data_av
-from app.core.process_data import process_data_granular
-from app.core.format_data import format_data  
-from app.core.product_line import pl_check, pl_check_granular
+from app.core.process_data import process_data, process_data_av, process_data_granular
+from app.core.format_data import format_data, format_data_granular
+from app.core.product_line import pl_check
 from app.core.qa_av import av_check
 from app.config.variables import *
 from app.config.paths import *
@@ -164,8 +162,8 @@ def clean_report_av(file):
 def clean_report_granular(file):
     try:
         # Read excel file
-        #df = pd.read_excel(file.stream, engine='openpyxl')  # Server
-        df = pd.read_excel(file, engine='openpyxl')  # Local
+        df = pd.read_excel(file.stream, engine='openpyxl')  # Server
+        #df = pd.read_excel(file, engine='openpyxl')  # Local
 
         # Drop a list of columns
         cols_to_drop = COLS_TO_DROP_GRANULAR
@@ -173,10 +171,10 @@ def clean_report_granular(file):
 
         # Add a list of columns
         df[COLS_TO_ADD] = ''
-        print("antes de pl")
+        
         # Call the pl_check
         #pl_check(df)
-        print("paso pl")
+
         # Filter out the rows where ContainerValue and ContainerName are '[BLANK]'
         df = df[df['Granular Container Value'] != '[BLANK]']
         df = df[df['Granular Container Tag'] != '[BLANK]']
@@ -208,29 +206,24 @@ def clean_report_granular(file):
         #df = df.drop(rows_to_delete)
         
         # Process JSON files
-        for x in os.listdir(JSON_GRANULAR_PATH): # Server
-        #for x in os.listdir('json'): # Local
+        for x in os.listdir(JSON_GRANULAR_PATH):
             if x.endswith('.json'):
                 container_name = x.split('.')[0]
                 container_df = df[df['Granular Container Tag'] == container_name]
-                process_data_granular(os.path.join(JSON_GRANULAR_PATH, x), container_name, container_df, df) # Server 
-                #process_data(os.path.join('json', x), container_name, container_df, df) # Local
-                
-                
-        excel_file = pd.ExcelFile(file, engine='openpyxl')
+                process_data_granular(os.path.join(JSON_GRANULAR_PATH, x), container_name, container_df, df)
+    
         # Check if "ms4" sheet exists
+        excel_file = pd.ExcelFile(file.stream, engine='openpyxl')
         if "ms4" in excel_file.sheet_names:
-            df_final = av_check(file)
+            df_final = av_check(file.stream)
             with pd.ExcelWriter(SCS_GRANULAR_FILE_PATH) as writer:
-                df.to_excel(writer, sheet_name='qa', index=False)  # Server
-                df_final.to_excel(writer, sheet_name='duplicated', index=False)  # Server
-            # df.to_excel('SCS_QA.xlsx', index=False)  # Local
+                df.to_excel(writer, sheet_name='qa', index=False)
+                df_final.to_excel(writer, sheet_name='duplicated', index=False)
         else:
-            df.to_excel(SCS_GRANULAR_FILE_PATH, index=False)  # Server
-            # df.to_excel('SCS_QA.xlsx', index=False)  # Local
+            df.to_excel(SCS_GRANULAR_FILE_PATH, index=False)
 
         # Formatting data
-        #format_data()
+        format_data_granular()
     
     except Exception as e:
         print(e)
