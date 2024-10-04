@@ -1202,11 +1202,11 @@
         },
         {
             "Component": "1LR46AV",
-            "ContainerValue": 13.3
+            "ContainerValue": "13.3"
         },
         {
             "Component": "1LR47AV",
-            "ContainerValue": 13.3
+            "ContainerValue": "13.3"
         },
         {
             "Component": "1LR48AV",
@@ -4362,7 +4362,7 @@
         },
         {
             "Component": "2ZX22AV",
-            "ContainerValue": 13.3
+            "ContainerValue": "13.3"
         },
         {
             "Component": "30A01AV",
@@ -7158,15 +7158,15 @@
         },
         {
             "Component": "4SQ00AV",
-            "ContainerValue": 13.3
+            "ContainerValue": "13.3"
         },
         {
             "Component": "4SQ01AV",
-            "ContainerValue": 13.3
+            "ContainerValue": "13.3"
         },
         {
             "Component": "4SQ02AV",
-            "ContainerValue": 13.3
+            "ContainerValue": "13.3"
         },
         {
             "Component": "4SQ03AV",
@@ -7174,11 +7174,11 @@
         },
         {
             "Component": "4SQ04AV",
-            "ContainerValue": 13.3
+            "ContainerValue": "13.3"
         },
         {
             "Component": "4SQ05AV",
-            "ContainerValue": 13.3
+            "ContainerValue": "13.3"
         },
         {
             "Component": "4SZ63AV",

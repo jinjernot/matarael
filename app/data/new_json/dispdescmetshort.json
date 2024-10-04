@@ -1214,11 +1214,11 @@
         },
         {
             "Component": "1LR46AV",
-            "ContainerValue": 13.3
+            "ContainerValue": "13.3"
         },
         {
             "Component": "1LR47AV",
-            "ContainerValue": 13.3
+            "ContainerValue": "13.3"
         },
         {
             "Component": "1LR48AV",
@@ -2450,11 +2450,11 @@
         },
         {
             "Component": "2FZ90AV",
-            "ContainerValue": 13.3
+            "ContainerValue": "13.3"
         },
         {
             "Component": "2FZ91AV",
-            "ContainerValue": 13.3
+            "ContainerValue": "13.3"
         },
         {
             "Component": "2FZ92AV",
@@ -2462,11 +2462,11 @@
         },
         {
             "Component": "2FZ93AV",
-            "ContainerValue": 13.3
+            "ContainerValue": "13.3"
         },
         {
             "Component": "2FZ94AV",
-            "ContainerValue": 13.3
+            "ContainerValue": "13.3"
         },
         {
             "Component": "2FZ95AV",
@@ -2730,11 +2730,11 @@
         },
         {
             "Component": "2HB52AV",
-            "ContainerValue": 13.3
+            "ContainerValue": "13.3"
         },
         {
             "Component": "2HB53AV",
-            "ContainerValue": 13.3
+            "ContainerValue": "13.3"
         },
         {
             "Component": "2HB54AV",
@@ -2742,23 +2742,23 @@
         },
         {
             "Component": "2HB55AV",
-            "ContainerValue": 13.3
+            "ContainerValue": "13.3"
         },
         {
             "Component": "2HB56AV",
-            "ContainerValue": 13.3
+            "ContainerValue": "13.3"
         },
         {
             "Component": "2HB57AV",
-            "ContainerValue": 13.3
+            "ContainerValue": "13.3"
         },
         {
             "Component": "2HB58AV",
-            "ContainerValue": 13.3
+            "ContainerValue": "13.3"
         },
         {
             "Component": "2HB59AV",
-            "ContainerValue": 13.3
+            "ContainerValue": "13.3"
         },
         {
             "Component": "2HR96AV",
@@ -4386,7 +4386,7 @@
         },
         {
             "Component": "2ZX22AV",
-            "ContainerValue": 13.3
+            "ContainerValue": "13.3"
         },
         {
             "Component": "30A01AV",
@@ -5734,7 +5734,7 @@
         },
         {
             "Component": "473S8AV",
-            "ContainerValue": "40.6 cm (16\") diagonal WUXGA touch display"
+            "ContainerValue": "40.6 cm (16\") diagonal WUXGA touch display"
         },
         {
             "Component": "473S9AV",
@@ -5746,7 +5746,7 @@
         },
         {
             "Component": "473T1AV",
-            "ContainerValue": "40.6 cm (16\") diagonal WUXGA touch display"
+            "ContainerValue": "40.6 cm (16\") diagonal WUXGA touch display"
         },
         {
             "Component": "473T2AV",
@@ -6274,7 +6274,7 @@
         },
         {
             "Component": "4C168AV",
-            "ContainerValue": "40.6 cm (16\") diagonal WUXGA touch display"
+            "ContainerValue": "40.6 cm (16\") diagonal WUXGA touch display"
         },
         {
             "Component": "4C169AV",
@@ -6286,7 +6286,7 @@
         },
         {
             "Component": "4C171AV",
-            "ContainerValue": "40.6 cm (16\") diagonal WUXGA touch display"
+            "ContainerValue": "40.6 cm (16\") diagonal WUXGA touch display"
         },
         {
             "Component": "4C172AV",
@@ -6374,7 +6374,7 @@
         },
         {
             "Component": "4C787AV",
-            "ContainerValue": "40.6 cm (16\") diagonal WUXGA touch display"
+            "ContainerValue": "40.6 cm (16\") diagonal WUXGA touch display"
         },
         {
             "Component": "4C789AV",
@@ -7178,23 +7178,23 @@
         },
         {
             "Component": "4SP98AV",
-            "ContainerValue": 13.3
+            "ContainerValue": "13.3"
         },
         {
             "Component": "4SP99AV",
-            "ContainerValue": 13.3
+            "ContainerValue": "13.3"
         },
         {
             "Component": "4SQ00AV",
-            "ContainerValue": 13.3
+            "ContainerValue": "13.3"
         },
         {
             "Component": "4SQ01AV",
-            "ContainerValue": 13.3
+            "ContainerValue": "13.3"
         },
         {
             "Component": "4SQ02AV",
-            "ContainerValue": 13.3
+            "ContainerValue": "13.3"
         },
         {
             "Component": "4SQ03AV",
@@ -7202,11 +7202,11 @@
         },
         {
             "Component": "4SQ04AV",
-            "ContainerValue": 13.3
+            "ContainerValue": "13.3"
         },
         {
             "Component": "4SQ05AV",
-            "ContainerValue": 13.3
+            "ContainerValue": "13.3"
         },
         {
             "Component": "4SZ63AV",
@@ -7414,7 +7414,7 @@
         },
         {
             "Component": "4VP22AV",
-            "ContainerValue": 13.3
+            "ContainerValue": "13.3"
         },
         {
             "Component": "4VP23AV",
@@ -7422,7 +7422,7 @@
         },
         {
             "Component": "4VP24AV",
-            "ContainerValue": 13.3
+            "ContainerValue": "13.3"
         },
         {
             "Component": "4VP25AV",
@@ -7430,11 +7430,11 @@
         },
         {
             "Component": "4VP26AV",
-            "ContainerValue": 13.3
+            "ContainerValue": "13.3"
         },
         {
             "Component": "4VP27AV",
-            "ContainerValue": 13.3
+            "ContainerValue": "13.3"
         },
         {
             "Component": "4VP28AV",
@@ -7486,11 +7486,11 @@
         },
         {
             "Component": "4WE30AV",
-            "ContainerValue": 13.3
+            "ContainerValue": "13.3"
         },
         {
             "Component": "4WE31AV",
-            "ContainerValue": 13.3
+            "ContainerValue": "13.3"
         },
         {
             "Component": "4WE32AV",
@@ -9750,7 +9750,7 @@
         },
         {
             "Component": "609P2AV",
-            "ContainerValue": "40.6 cm (16\") diagonal WUXGA touch display"
+            "ContainerValue": "40.6 cm (16\") diagonal WUXGA touch display"
         },
         {
             "Component": "609Q5AV",
@@ -10310,7 +10310,7 @@
         },
         {
             "Component": "6L1E1AV",
-            "ContainerValue": "40.6 cm (16\") diagonal WUXGA touch display"
+            "ContainerValue": "40.6 cm (16\") diagonal WUXGA touch display"
         },
         {
             "Component": "6L1E2AV",
@@ -10574,15 +10574,15 @@
         },
         {
             "Component": "6UQ36AV",
-            "ContainerValue": 13.3
+            "ContainerValue": "13.3"
         },
         {
             "Component": "6UQ37AV",
-            "ContainerValue": 13.3
+            "ContainerValue": "13.3"
         },
         {
             "Component": "6UQ38AV",
-            "ContainerValue": 13.3
+            "ContainerValue": "13.3"
         },
         {
             "Component": "6UQ40AV",
@@ -10806,7 +10806,7 @@
         },
         {
             "Component": "6V8Y7AV",
-            "ContainerValue": "40.6 cm (16\") diagonal WUXGA touch display"
+            "ContainerValue": "40.6 cm (16\") diagonal WUXGA touch display"
         },
         {
             "Component": "6V8Y8AV",
@@ -10818,7 +10818,7 @@
         },
         {
             "Component": "6V8Z0AV",
-            "ContainerValue": "40.6 cm (16\") diagonal WUXGA touch display"
+            "ContainerValue": "40.6 cm (16\") diagonal WUXGA touch display"
         },
         {
             "Component": "6V8Z1AV",
@@ -11542,7 +11542,7 @@
         },
         {
             "Component": "740M4AV",
-            "ContainerValue": "40.6 cm (16\") diagonal WUXGA touch display"
+            "ContainerValue": "40.6 cm (16\") diagonal WUXGA touch display"
         },
         {
             "Component": "740M5AV",
@@ -11554,7 +11554,7 @@
         },
         {
             "Component": "740M7AV",
-            "ContainerValue": "40.6 cm (16\") diagonal WUXGA touch display"
+            "ContainerValue": "40.6 cm (16\") diagonal WUXGA touch display"
         },
         {
             "Component": "740M8AV",
@@ -11658,11 +11658,11 @@
         },
         {
             "Component": "749R1AV",
-            "ContainerValue": "40.6 cm (16\") diagonal WUXGA touch display"
+            "ContainerValue": "40.6 cm (16\") diagonal WUXGA touch display"
         },
         {
             "Component": "749R2AV",
-            "ContainerValue": "40.6 cm (16\") diagonal WUXGA touch display"
+            "ContainerValue": "40.6 cm (16\") diagonal WUXGA touch display"
         },
         {
             "Component": "749R3AV",
@@ -12250,7 +12250,7 @@
         },
         {
             "Component": "79Y18AV",
-            "ContainerValue": "40.6 cm (16\") diagonal WUXGA touch display"
+            "ContainerValue": "40.6 cm (16\") diagonal WUXGA touch display"
         },
         {
             "Component": "79Y52AV",
@@ -12286,7 +12286,7 @@
         },
         {
             "Component": "7B695AV",
-            "ContainerValue": "40.6 cm (16\") diagonal WUXGA touch display"
+            "ContainerValue": "40.6 cm (16\") diagonal WUXGA touch display"
         },
         {
             "Component": "7B696AV",
@@ -12902,7 +12902,7 @@
         },
         {
             "Component": "7NU94AV",
-            "ContainerValue": "30.4 cm (12\") diagonal HD+ touch display"
+            "ContainerValue": "30.4 cm (12\") diagonal HD+ touch display"
         },
         {
             "Component": "7NU95AV",
@@ -13218,7 +13218,7 @@
         },
         {
             "Component": "7WX28AV",
-            "ContainerValue": NaN
+            "ContainerValue": "nan"
         },
         {
             "Component": "7WX39AV",
@@ -13558,7 +13558,7 @@
         },
         {
             "Component": "8K8W4AV",
-            "ContainerValue": "40.6 cm (16\") diagonal WUXGA touch display"
+            "ContainerValue": "40.6 cm (16\") diagonal WUXGA touch display"
         },
         {
             "Component": "8K8W9AV",
@@ -14686,7 +14686,7 @@
         },
         {
             "Component": "8Z5N5AV",
-            "ContainerValue": "40.6 cm (16\") diagonal WUXGA touch display"
+            "ContainerValue": "40.6 cm (16\") diagonal WUXGA touch display"
         },
         {
             "Component": "8Z5N7AV",
@@ -14702,7 +14702,7 @@
         },
         {
             "Component": "8Z5P0AV",
-            "ContainerValue": "40.6 cm (16\") diagonal WUXGA touch display"
+            "ContainerValue": "40.6 cm (16\") diagonal WUXGA touch display"
         },
         {
             "Component": "8Z5P1AV",
@@ -14722,7 +14722,7 @@
         },
         {
             "Component": "8Z6S0AV",
-            "ContainerValue": "40.6 cm (16\") diagonal WUXGA touch display"
+            "ContainerValue": "40.6 cm (16\") diagonal WUXGA touch display"
         },
         {
             "Component": "8Z6S2AV",
@@ -14822,7 +14822,7 @@
         },
         {
             "Component": "902H8AV",
-            "ContainerValue": "40.6 cm (16\") diagonal WUXGA touch display"
+            "ContainerValue": "40.6 cm (16\") diagonal WUXGA touch display"
         },
         {
             "Component": "902J0AV",
@@ -14966,7 +14966,7 @@
         },
         {
             "Component": "90G43AV",
-            "ContainerValue": "40.6 cm (16\") diagonal WUXGA touch display"
+            "ContainerValue": "40.6 cm (16\") diagonal WUXGA touch display"
         },
         {
             "Component": "90G45AV",
@@ -15022,11 +15022,11 @@
         },
         {
             "Component": "929V8AV",
-            "ContainerValue": "40.6 cm (16\") diagonal WUXGA touch display"
+            "ContainerValue": "40.6 cm (16\") diagonal WUXGA touch display"
         },
         {
             "Component": "929V9AV",
-            "ContainerValue": "40.6 cm (16\") diagonal WUXGA touch display"
+            "ContainerValue": "40.6 cm (16\") diagonal WUXGA touch display"
         },
         {
             "Component": "929W0AV",
@@ -15034,7 +15034,7 @@
         },
         {
             "Component": "92A10AV",
-            "ContainerValue": "40.6 cm (16\") diagonal WUXGA touch display"
+            "ContainerValue": "40.6 cm (16\") diagonal WUXGA touch display"
         },
         {
             "Component": "92A11AV",
@@ -15054,7 +15054,7 @@
         },
         {
             "Component": "94G36AV",
-            "ContainerValue": "40.6 cm (16\") diagonal WUXGA touch display"
+            "ContainerValue": "40.6 cm (16\") diagonal WUXGA touch display"
         },
         {
             "Component": "94G37AV",
@@ -15066,7 +15066,7 @@
         },
         {
             "Component": "94G94AV",
-            "ContainerValue": "40.6 cm (16\") diagonal WUXGA touch display"
+            "ContainerValue": "40.6 cm (16\") diagonal WUXGA touch display"
         },
         {
             "Component": "952G2AV",
@@ -15138,7 +15138,7 @@
         },
         {
             "Component": "9A695AV",
-            "ContainerValue": "40.6 cm (16\") diagonal WUXGA touch display"
+            "ContainerValue": "40.6 cm (16\") diagonal WUXGA touch display"
         },
         {
             "Component": "9A696AV",
@@ -15558,7 +15558,7 @@
         },
         {
             "Component": "9P894AV",
-            "ContainerValue": "40.6 cm (16\") diagonal WUXGA touch display"
+            "ContainerValue": "40.6 cm (16\") diagonal WUXGA touch display"
         },
         {
             "Component": "9P896AV",
@@ -15566,7 +15566,7 @@
         },
         {
             "Component": "9P897AV",
-            "ContainerValue": "40.6 cm (16\") diagonal WUXGA touch display"
+            "ContainerValue": "40.6 cm (16\") diagonal WUXGA touch display"
         },
         {
             "Component": "9P8B1AV",
@@ -15614,7 +15614,7 @@
         },
         {
             "Component": "9R0F7AV",
-            "ContainerValue": "40.6 cm (16\") diagonal WUXGA touch display"
+            "ContainerValue": "40.6 cm (16\") diagonal WUXGA touch display"
         },
         {
             "Component": "9R0F8AV",
@@ -15622,7 +15622,7 @@
         },
         {
             "Component": "9R0G0AV",
-            "ContainerValue": "40.6 cm (16\") diagonal WUXGA touch display"
+            "ContainerValue": "40.6 cm (16\") diagonal WUXGA touch display"
         },
         {
             "Component": "9S0W2AV",
@@ -16018,7 +16018,7 @@
         },
         {
             "Component": "9X9S3AV",
-            "ContainerValue": "40.6 cm (16\") diagonal WUXGA touch display"
+            "ContainerValue": "40.6 cm (16\") diagonal WUXGA touch display"
         },
         {
             "Component": "9X9S5AV",
@@ -16026,7 +16026,7 @@
         },
         {
             "Component": "9X9S6AV",
-            "ContainerValue": "40.6 cm (16\") diagonal WUXGA touch display"
+            "ContainerValue": "40.6 cm (16\") diagonal WUXGA touch display"
         },
         {
             "Component": "9Y134AV",

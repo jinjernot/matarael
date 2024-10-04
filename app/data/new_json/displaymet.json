@@ -590,7 +590,7 @@
         },
         {
             "Component": "1DR00AV",
-            "ContainerValue": "39.6 cm (15.6\") diagonal HD SVA eDP anti-glare LED-backlit, 220 cd/m², 67% sRGB (1366 x 768)"
+            "ContainerValue": "39.6 cm (15.6\") diagonal HD SVA eDP anti-glare LED-backlit, 220 cd/m², 67% sRGB (1366 x 768)"
         },
         {
             "Component": "1DR70AV",
@@ -1198,7 +1198,7 @@
         },
         {
             "Component": "1LQ87AV",
-            "ContainerValue": "39.6 cm (15.6\") diagonal HD SVA eDP anti-glare LED-backlit, 220 cd/m², 67% sRGB (1366 x 768)"
+            "ContainerValue": "39.6 cm (15.6\") diagonal HD SVA eDP anti-glare LED-backlit, 220 cd/m², 67% sRGB (1366 x 768)"
         },
         {
             "Component": "1LQ88AV",
@@ -1214,11 +1214,11 @@
         },
         {
             "Component": "1LR46AV",
-            "ContainerValue": 13.3
+            "ContainerValue": "13.3"
         },
         {
             "Component": "1LR47AV",
-            "ContainerValue": 13.3
+            "ContainerValue": "13.3"
         },
         {
             "Component": "1LR48AV",
@@ -1298,11 +1298,11 @@
         },
         {
             "Component": "1LU74AV",
-            "ContainerValue": "39.6 cm (15.6\") diagonal HD SVA eDP anti-glare LED-backlit, 220 cd/m², 67% sRGB (1366 x 768)"
+            "ContainerValue": "39.6 cm (15.6\") diagonal HD SVA eDP anti-glare LED-backlit, 220 cd/m², 67% sRGB (1366 x 768)"
         },
         {
             "Component": "1LU75AV",
-            "ContainerValue": "39.6 cm (15.6\") diagonal HD SVA eDP anti-glare LED-backlit, 220 cd/m², 67% sRGB (1366 x 768)"
+            "ContainerValue": "39.6 cm (15.6\") diagonal HD SVA eDP anti-glare LED-backlit, 220 cd/m², 67% sRGB (1366 x 768)"
         },
         {
             "Component": "1LU76AV",
@@ -1314,7 +1314,7 @@
         },
         {
             "Component": "1LU79AV",
-            "ContainerValue": "39.6 cm (15.6\") diagonal HD SVA eDP LED-backlit touch screen, 220 cd/m², 67% sRGB (1366 x 768)"
+            "ContainerValue": "39.6 cm (15.6\") diagonal HD SVA eDP LED-backlit touch screen, 220 cd/m², 67% sRGB (1366 x 768)"
         },
         {
             "Component": "1M0A5AV",
@@ -1530,7 +1530,7 @@
         },
         {
             "Component": "1QL67AV",
-            "ContainerValue": NaN
+            "ContainerValue": "nan"
         },
         {
             "Component": "1QL68AV",
@@ -2442,11 +2442,11 @@
         },
         {
             "Component": "2FZ90AV",
-            "ContainerValue": 13.3
+            "ContainerValue": "13.3"
         },
         {
             "Component": "2FZ91AV",
-            "ContainerValue": 13.3
+            "ContainerValue": "13.3"
         },
         {
             "Component": "2FZ92AV",
@@ -2454,11 +2454,11 @@
         },
         {
             "Component": "2FZ93AV",
-            "ContainerValue": 13.3
+            "ContainerValue": "13.3"
         },
         {
             "Component": "2FZ94AV",
-            "ContainerValue": 13.3
+            "ContainerValue": "13.3"
         },
         {
             "Component": "2FZ95AV",
@@ -2722,11 +2722,11 @@
         },
         {
             "Component": "2HB52AV",
-            "ContainerValue": 13.3
+            "ContainerValue": "13.3"
         },
         {
             "Component": "2HB53AV",
-            "ContainerValue": 13.3
+            "ContainerValue": "13.3"
         },
         {
             "Component": "2HB54AV",
@@ -2734,23 +2734,23 @@
         },
         {
             "Component": "2HB55AV",
-            "ContainerValue": 13.3
+            "ContainerValue": "13.3"
         },
         {
             "Component": "2HB56AV",
-            "ContainerValue": 13.3
+            "ContainerValue": "13.3"
         },
         {
             "Component": "2HB57AV",
-            "ContainerValue": 13.3
+            "ContainerValue": "13.3"
         },
         {
             "Component": "2HB58AV",
-            "ContainerValue": 13.3
+            "ContainerValue": "13.3"
         },
         {
             "Component": "2HB59AV",
-            "ContainerValue": 13.3
+            "ContainerValue": "13.3"
         },
         {
             "Component": "2HR96AV",
@@ -4362,7 +4362,7 @@
         },
         {
             "Component": "2ZX22AV",
-            "ContainerValue": 13.3
+            "ContainerValue": "13.3"
         },
         {
             "Component": "30A01AV",
@@ -5734,7 +5734,7 @@
         },
         {
             "Component": "473S8AV",
-            "ContainerValue": "40.6 cm (16\") diagonal, WUXGA (1920 x 1200), touch, IPS, anti-glare, 250 nits, 45% NTSC"
+            "ContainerValue": "40.6 cm (16\") diagonal, WUXGA (1920 x 1200), touch, IPS, anti-glare, 250 nits, 45% NTSC"
         },
         {
             "Component": "473S9AV",
@@ -5746,7 +5746,7 @@
         },
         {
             "Component": "473T1AV",
-            "ContainerValue": "40.6 cm (16\") diagonal, WUXGA (1920 x 1200), touch, IPS, anti-glare, 250 nits, 45% NTSC"
+            "ContainerValue": "40.6 cm (16\") diagonal, WUXGA (1920 x 1200), touch, IPS, anti-glare, 250 nits, 45% NTSC"
         },
         {
             "Component": "473T2AV",
@@ -5790,7 +5790,7 @@
         },
         {
             "Component": "47D00AV",
-            "ContainerValue": "33.8 cm (13.3\") diagonal, WUXGA (1920 x 1200), touch, IPS, anti-glare, 400 nits, 100% sRGB"
+            "ContainerValue": "33.8 cm (13.3\") diagonal, WUXGA (1920 x 1200), touch, IPS, anti-glare, 400 nits, 100% sRGB"
         },
         {
             "Component": "47D01AV",
@@ -6030,7 +6030,7 @@
         },
         {
             "Component": "4A5E1AV",
-            "ContainerValue": "35.6 cm (14\") diagonal, WUXGA (1920 x 1200), IPS, narrow bezel, anti-glare, 250 nits, 45% NTSC"
+            "ContainerValue": "35.6 cm (14\") diagonal, WUXGA (1920 x 1200), IPS, narrow bezel, anti-glare, 250 nits, 45% NTSC"
         },
         {
             "Component": "4A5E3AV",
@@ -6290,7 +6290,7 @@
         },
         {
             "Component": "4C168AV",
-            "ContainerValue": "40.6 cm (16\") diagonal, WUXGA (1920 x 1200), touch, IPS, anti-glare, 250 nits, 45% NTSC"
+            "ContainerValue": "40.6 cm (16\") diagonal, WUXGA (1920 x 1200), touch, IPS, anti-glare, 250 nits, 45% NTSC"
         },
         {
             "Component": "4C169AV",
@@ -6302,7 +6302,7 @@
         },
         {
             "Component": "4C171AV",
-            "ContainerValue": "40.6 cm (16\") diagonal, WUXGA (1920 x 1200), touch, IPS, anti-glare, 250 nits, 45% NTSC"
+            "ContainerValue": "40.6 cm (16\") diagonal, WUXGA (1920 x 1200), touch, IPS, anti-glare, 250 nits, 45% NTSC"
         },
         {
             "Component": "4C172AV",
@@ -6866,7 +6866,7 @@
         },
         {
             "Component": "4J055AV",
-            "ContainerValue": "34.3 cm (13.5\") diagonal, WUXGA+ (1920 x 1280), IPS, BrightView, 400 nits, 72% NTSC"
+            "ContainerValue": "34.3 cm (13.5\") diagonal, WUXGA+ (1920 x 1280), IPS, BrightView, 400 nits, 72% NTSC"
         },
         {
             "Component": "4J056AV",
@@ -6874,7 +6874,7 @@
         },
         {
             "Component": "4J065AV",
-            "ContainerValue": "34.3 cm (13.5\") diagonal, 3K2K (3000 x 2000), touch, IPS, narrow bezel, BrightView, 400 nits, 100% sRGB"
+            "ContainerValue": "34.3 cm (13.5\") diagonal, 3K2K (3000 x 2000), touch, IPS, narrow bezel, BrightView, 400 nits, 100% sRGB"
         },
         {
             "Component": "4J9B8AV",
@@ -7202,23 +7202,23 @@
         },
         {
             "Component": "4SP98AV",
-            "ContainerValue": 13.3
+            "ContainerValue": "13.3"
         },
         {
             "Component": "4SP99AV",
-            "ContainerValue": 13.3
+            "ContainerValue": "13.3"
         },
         {
             "Component": "4SQ00AV",
-            "ContainerValue": 13.3
+            "ContainerValue": "13.3"
         },
         {
             "Component": "4SQ01AV",
-            "ContainerValue": 13.3
+            "ContainerValue": "13.3"
         },
         {
             "Component": "4SQ02AV",
-            "ContainerValue": 13.3
+            "ContainerValue": "13.3"
         },
         {
             "Component": "4SQ03AV",
@@ -7226,11 +7226,11 @@
         },
         {
             "Component": "4SQ04AV",
-            "ContainerValue": 13.3
+            "ContainerValue": "13.3"
         },
         {
             "Component": "4SQ05AV",
-            "ContainerValue": 13.3
+            "ContainerValue": "13.3"
         },
         {
             "Component": "4SZ63AV",
@@ -7438,7 +7438,7 @@
         },
         {
             "Component": "4VP22AV",
-            "ContainerValue": 13.3
+            "ContainerValue": "13.3"
         },
         {
             "Component": "4VP23AV",
@@ -7446,7 +7446,7 @@
         },
         {
             "Component": "4VP24AV",
-            "ContainerValue": 13.3
+            "ContainerValue": "13.3"
         },
         {
             "Component": "4VP25AV",
@@ -7454,11 +7454,11 @@
         },
         {
             "Component": "4VP26AV",
-            "ContainerValue": 13.3
+            "ContainerValue": "13.3"
         },
         {
             "Component": "4VP27AV",
-            "ContainerValue": 13.3
+            "ContainerValue": "13.3"
         },
         {
             "Component": "4VP28AV",
@@ -7510,11 +7510,11 @@
         },
         {
             "Component": "4WE30AV",
-            "ContainerValue": 13.3
+            "ContainerValue": "13.3"
         },
         {
             "Component": "4WE31AV",
-            "ContainerValue": 13.3
+            "ContainerValue": "13.3"
         },
         {
             "Component": "4WE32AV",
@@ -8446,7 +8446,7 @@
         },
         {
             "Component": "5A2Q1AV",
-            "ContainerValue": "34.3 cm (13.5\") diagonal, 3K2K (3000 x 2000), touch, IPS, narrow bezel, BrightView, 400 nits, 100% sRGB"
+            "ContainerValue": "34.3 cm (13.5\") diagonal, 3K2K (3000 x 2000), touch, IPS, narrow bezel, BrightView, 400 nits, 100% sRGB"
         },
         {
             "Component": "5B0M9AV",
@@ -10202,7 +10202,7 @@
         },
         {
             "Component": "6G0Z6AV",
-            "ContainerValue": "34.3 cm (13.5\") diagonal, WUXGA+ (1920 x 1280), IPS, BrightView, 400 nits, 72% NTSC"
+            "ContainerValue": "34.3 cm (13.5\") diagonal, WUXGA+ (1920 x 1280), IPS, BrightView, 400 nits, 72% NTSC"
         },
         {
             "Component": "6G0Z7AV",
@@ -10594,7 +10594,7 @@
         },
         {
             "Component": "6Q281AV",
-            "ContainerValue": "34.3 cm (13.5\") diagonal, WUXGA+ (1920 x 1280), IPS, BrightView, 400 nits, 72% NTSC"
+            "ContainerValue": "34.3 cm (13.5\") diagonal, WUXGA+ (1920 x 1280), IPS, BrightView, 400 nits, 72% NTSC"
         },
         {
             "Component": "6Q282AV",
@@ -10602,7 +10602,7 @@
         },
         {
             "Component": "6Q292AV",
-            "ContainerValue": "34.3 cm (13.5\") diagonal, 3K2K (3000 x 2000), OLED, UWVA, BrightView, Corning® Gorilla® Glass 7, 400 nits, 100% DCI-P3"
+            "ContainerValue": "34.3 cm (13.5\") diagonal, 3K2K (3000 x 2000), OLED, UWVA, BrightView, Corning® Gorilla® Glass 7, 400 nits, 100% DCI-P3"
         },
         {
             "Component": "6R181AV",
@@ -10678,7 +10678,7 @@
         },
         {
             "Component": "6UQ36AV",
-            "ContainerValue": 13.3
+            "ContainerValue": "13.3"
         },
         {
             "Component": "6UQ40AV",
@@ -10770,7 +10770,7 @@
         },
         {
             "Component": "6V604AV",
-            "ContainerValue": "35.6 cm (14\") diagonal, WUXGA (1920 x 1200), IPS, narrow bezel, anti-glare, 250 nits, 45% NTSC"
+            "ContainerValue": "35.6 cm (14\") diagonal, WUXGA (1920 x 1200), IPS, narrow bezel, anti-glare, 250 nits, 45% NTSC"
         },
         {
             "Component": "6V605AV",
@@ -10858,7 +10858,7 @@
         },
         {
             "Component": "6V7V0AV",
-            "ContainerValue": "35.6 cm (14\") diagonal, WQXGA (2560 x 1600), touch, IPS, BrightView, 500 nits, 100% DCI-P3"
+            "ContainerValue": "35.6 cm (14\") diagonal, WQXGA (2560 x 1600), touch, IPS, BrightView, 500 nits, 100% DCI-P3"
         },
         {
             "Component": "6V7V1AV",
@@ -10902,7 +10902,7 @@
         },
         {
             "Component": "6V8Y7AV",
-            "ContainerValue": "40.6 cm (16\") diagonal, WUXGA (1920 x 1200), touch, IPS, anti-glare, 250 nits, 45% NTSC"
+            "ContainerValue": "40.6 cm (16\") diagonal, WUXGA (1920 x 1200), touch, IPS, anti-glare, 250 nits, 45% NTSC"
         },
         {
             "Component": "6V8Y8AV",
@@ -10914,7 +10914,7 @@
         },
         {
             "Component": "6V8Z0AV",
-            "ContainerValue": "40.6 cm (16\") diagonal, WUXGA (1920 x 1200), touch, IPS, anti-glare, 250 nits, 45% NTSC"
+            "ContainerValue": "40.6 cm (16\") diagonal, WUXGA (1920 x 1200), touch, IPS, anti-glare, 250 nits, 45% NTSC"
         },
         {
             "Component": "6V8Z1AV",
@@ -11234,11 +11234,11 @@
         },
         {
             "Component": "70K63AV",
-            "ContainerValue": "33.8 cm (13.3\") diagonal, WUXGA (1920 x 1200), touch, IPS, anti-glare, 400 nits, 100% sRGB"
+            "ContainerValue": "33.8 cm (13.3\") diagonal, WUXGA (1920 x 1200), touch, IPS, anti-glare, 400 nits, 100% sRGB"
         },
         {
             "Component": "70K64AV",
-            "ContainerValue": "33.8 cm (13.3\") diagonal, WUXGA (1920 x 1200), touch, IPS, anti-glare, 400 nits, 100% sRGB"
+            "ContainerValue": "33.8 cm (13.3\") diagonal, WUXGA (1920 x 1200), touch, IPS, anti-glare, 400 nits, 100% sRGB"
         },
         {
             "Component": "70K65AV",
@@ -11754,11 +11754,11 @@
         },
         {
             "Component": "749R1AV",
-            "ContainerValue": "40.6 cm (16\") diagonal, WUXGA (1920 x 1200), touch, IPS, anti-glare, 250 nits, 45% NTSC"
+            "ContainerValue": "40.6 cm (16\") diagonal, WUXGA (1920 x 1200), touch, IPS, anti-glare, 250 nits, 45% NTSC"
         },
         {
             "Component": "749R2AV",
-            "ContainerValue": "40.6 cm (16\") diagonal, WUXGA (1920 x 1200), touch, IPS, anti-glare, 250 nits, 45% NTSC"
+            "ContainerValue": "40.6 cm (16\") diagonal, WUXGA (1920 x 1200), touch, IPS, anti-glare, 250 nits, 45% NTSC"
         },
         {
             "Component": "749R3AV",
@@ -11854,11 +11854,11 @@
         },
         {
             "Component": "74W93AV",
-            "ContainerValue": " 33.8 cm (13.3\") diagonal, FHD (1920 x 1080), IPS, narrow bezel, anti-glare, 250 nits, 45% NTSC"
+            "ContainerValue": "33.8 cm (13.3\") diagonal, FHD (1920 x 1080), IPS, narrow bezel, anti-glare, 250 nits, 45% NTSC"
         },
         {
             "Component": "74W94AV",
-            "ContainerValue": " 33.8 cm (13.3\") diagonal, FHD (1920 x 1080), IPS, narrow bezel, anti-glare, 400 nits, 72% NTSC"
+            "ContainerValue": "33.8 cm (13.3\") diagonal, FHD (1920 x 1080), IPS, narrow bezel, anti-glare, 400 nits, 72% NTSC"
         },
         {
             "Component": "74W95AV",
@@ -13006,7 +13006,7 @@
         },
         {
             "Component": "7NU94AV",
-            "ContainerValue": "30.4 cm (12\") diagonal HD+ IPS anti-glare micro-edge WLED-backlit touch screen (1366 x 912)"
+            "ContainerValue": "30.4 cm (12\") diagonal HD+ IPS anti-glare micro-edge WLED-backlit touch screen (1366 x 912)"
         },
         {
             "Component": "7NU95AV",
@@ -13030,7 +13030,7 @@
         },
         {
             "Component": "7P178AV",
-            "ContainerValue": "34.3 cm (13.5\") diagonal, WUXGA+ (1920 x 1280), IPS, BrightView, 400 nits, 72% NTSC"
+            "ContainerValue": "34.3 cm (13.5\") diagonal, WUXGA+ (1920 x 1280), IPS, BrightView, 400 nits, 72% NTSC"
         },
         {
             "Component": "7P179AV",
@@ -13038,7 +13038,7 @@
         },
         {
             "Component": "7P180AV",
-            "ContainerValue": "34.3 cm (13.5\") diagonal, WUXGA+ (1920 x 1280), IPS, BrightView, 400 nits, 72% NTSC"
+            "ContainerValue": "34.3 cm (13.5\") diagonal, WUXGA+ (1920 x 1280), IPS, BrightView, 400 nits, 72% NTSC"
         },
         {
             "Component": "7P3Z6AV",
@@ -14722,7 +14722,7 @@
         },
         {
             "Component": "8Z3R5AV",
-            "ContainerValue": "35.6 cm (14\") diagonal, WUXGA (1920 x 1200), touch, IPS, narrow bezel, anti-glare, 300 nits, 100% sRGB"
+            "ContainerValue": "35.6 cm (14\") diagonal, WUXGA (1920 x 1200), touch, IPS, narrow bezel, anti-glare, 300 nits, 100% sRGB"
         },
         {
             "Component": "8Z3R6AV",
@@ -15782,7 +15782,7 @@
         },
         {
             "Component": "9UA00AV",
-            "ContainerValue": NaN
+            "ContainerValue": "nan"
         },
         {
             "Component": "9UA01AV",
@@ -15954,7 +15954,7 @@
         },
         {
             "Component": "9UY60AV",
-            "ContainerValue": "43.9 cm (17.3\") diagonal, 4K UHD (3840 x 2160), IPS, anti-glare, 550 nits, 100% DCI-P3, Next Gen HP DreamColor"
+            "ContainerValue": "43.9 cm (17.3\") diagonal, 4K UHD (3840 x 2160), IPS, anti-glare, 550 nits, 100% DCI-P3, Next Gen HP DreamColor"
         },
         {
             "Component": "9VC73AV",
@@ -16274,7 +16274,7 @@
         },
         {
             "Component": "L3C80AV",
-            "ContainerValue": "35.56 cm (14\") diagonal FHD SVA eDP LED-backlit, 300 cd/m², 80% sRGB (1920 x 1080)"
+            "ContainerValue": "35.56 cm (14\") diagonal FHD SVA eDP LED-backlit, 300 cd/m², 80% sRGB (1920 x 1080)"
         },
         {
             "Component": "L3C82AV",
@@ -16530,7 +16530,7 @@
         },
         {
             "Component": "M5S06AV",
-            "ContainerValue": "35.56 cm (14\") diagonal FHD SVA eDP LED-backlit, 300 cd/m², 80% sRGB (1920 x 1080)"
+            "ContainerValue": "35.56 cm (14\") diagonal FHD SVA eDP LED-backlit, 300 cd/m², 80% sRGB (1920 x 1080)"
         },
         {
             "Component": "M5S07AV",
@@ -16842,7 +16842,7 @@
         },
         {
             "Component": "V6F37AV",
-            "ContainerValue": NaN
+            "ContainerValue": "nan"
         },
         {
             "Component": "V6F38AV",
@@ -16994,7 +16994,7 @@
         },
         {
             "Component": "W6N22AV",
-            "ContainerValue": "35.56 cm (14\") diagonal FHD IPS eDP anti-glare LED-backlit slim, 220 cd/m², 67% sRGB (1920 x 1080)"
+            "ContainerValue": "35.56 cm (14\") diagonal FHD IPS eDP anti-glare LED-backlit slim, 220 cd/m², 67% sRGB (1920 x 1080)"
         },
         {
             "Component": "W6N28AV",
@@ -17046,7 +17046,7 @@
         },
         {
             "Component": "X3T55AV",
-            "ContainerValue": NaN
+            "ContainerValue": "nan"
         },
         {
             "Component": "X3T56AV",
@@ -17274,7 +17274,7 @@
         },
         {
             "Component": "X6U27AV",
-            "ContainerValue": "39.6 cm (15.6\") diagonal FHD SVA eDP LED-backlit, 300 cd/m², 80% sRGB (1920 x 1080)"
+            "ContainerValue": "39.6 cm (15.6\") diagonal FHD SVA eDP LED-backlit, 300 cd/m², 80% sRGB (1920 x 1080)"
         },
         {
             "Component": "X6U28AV",
