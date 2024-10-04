@@ -1,7 +1,8 @@
-docs
-__pycache__
+docs/
+__pycache__/
+json_granular/
+json/
+new_json/
+
 *.xlsx
 *.csv
-json_granular
-json
-new_json
