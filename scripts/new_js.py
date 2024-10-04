@@ -70,4 +70,4 @@ def excel_to_json_grouped_by_scs_group(file_path):
         print(f"An error occurred: {e}")
 
 # Example usage
-excel_to_json_grouped_by_scs_group('av_component.xlsx')
+excel_to_json_grouped_by_scs_group('Diccionario2.xlsx')

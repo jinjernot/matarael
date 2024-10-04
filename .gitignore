@@ -3,6 +3,6 @@ __pycache__/
 json_granular/
 json/
 new_json/
-
+update/
 *.xlsx
 *.csv
