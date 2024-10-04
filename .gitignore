@@ -1,11 +1,7 @@
 docs
-myenv
 __pycache__
-passwords.py
 *.xlsx
 *.csv
-matarael_env
-new_jsons
 json_granular
 json
 new_json
