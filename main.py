@@ -69,7 +69,7 @@ def process_file_granular():
         try:
             if allowed_file(file.filename):  # Check if the file has a valid extension
                 clean_report_granular(file)  # Process the granular file
-                return send_from_directory(directory='.', path='granular_qa.xlsx', as_attachment=True)  # Serve file for download
+                return send_from_directory(directory='.', filename='granular_qa.xlsx', as_attachment=True)  # Serve file for download
         except Exception as e:
             print(e)
             return render_template('error.html', error_message=str(e)), 500  # Render error template for server errors
