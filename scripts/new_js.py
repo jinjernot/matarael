@@ -13,6 +13,9 @@ def excel_to_json_grouped_by_scs_group(file_path):
 
         # Remove extra spaces from the 'tag' column
         df['tag'] = df['tag'].str.strip()
+        
+        # Convert all values in 'val' column to strings (including numbers)
+        df['val'] = df['val'].astype(str).str.strip()
 
         # Base directory to store all JSON files
         base_output_dir = 'new_jsons'
@@ -65,9 +68,6 @@ def excel_to_json_grouped_by_scs_group(file_path):
 
     except Exception as e:
         print(f"An error occurred: {e}")
-
-# Example usage
-excel_to_json_grouped_by_scs_group('av_component.xlsx')
 
 # Example usage
 excel_to_json_grouped_by_scs_group('av_component.xlsx')
