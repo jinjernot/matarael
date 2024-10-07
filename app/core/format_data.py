@@ -9,7 +9,6 @@ def format_data():
 
     # Load Workbook and get the active sheet
     wb = openpyxl.load_workbook(SCS_QA_FILE_PATH)  # Server
-    # wb = openpyxl.load_workbook('SCS_QA.xlsx')  # Local
     worksheet = wb.active
 
     # Bold and color the headers
@@ -32,17 +31,14 @@ def format_data():
                     font = c.font
                     c.font = Font(color='FF0000', name=font.name, size=font.size)
 
-    # Save the workbook to a file called `SCS_QA.xlsx`.
+    # Save the workbook
     wb.save(SCS_QA_FILE_PATH)  # Server
-    # wb.save('SCS_QA.xlsx')  # Local
-    
     
 def format_data_granular():
     """This function is used to format the data in the Excel file, bold headers, adjust the column width, and highlight errors."""
 
     # Load Workbook and get the active sheet
     wb = openpyxl.load_workbook(SCS_GRANULAR_FILE_PATH)  # Server
-    # wb = openpyxl.load_workbook('SCS_QA.xlsx')  # Local
     worksheet = wb.active
 
     # Bold and color the headers

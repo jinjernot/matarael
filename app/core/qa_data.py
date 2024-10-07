@@ -71,10 +71,8 @@ def clean_report(file):
             with pd.ExcelWriter(SCS_QA_FILE_PATH) as writer:
                 df.to_excel(writer, sheet_name='qa', index=False)  # Server
                 df_final.to_excel(writer, sheet_name='duplicated', index=False)  # Server
-            # df.to_excel('SCS_QA.xlsx', index=False)  # Local
         else:
             df.to_excel(SCS_QA_FILE_PATH, index=False)  # Server
-            # df.to_excel('SCS_QA.xlsx', index=False)  # Local
     
         # Formatting data
         format_data()
@@ -146,10 +144,8 @@ def clean_report_av(file):
             with pd.ExcelWriter(SCS_QA_FILE_PATH) as writer:
                 df.to_excel(writer, sheet_name='qa', index=False)  # Server
                 df_final.to_excel(writer, sheet_name='duplicated', index=False)  # Server
-            # df.to_excel('SCS_QA.xlsx', index=False)  # Local
         else:
             df.to_excel(SCS_QA_FILE_PATH, index=False)  # Server
-            # df.to_excel('SCS_QA.xlsx', index=False)  # Local
     
         # Formatting data
         format_data()
