@@ -19,7 +19,7 @@ def find_duplicates_in_folder(folder_path):
             if filename_without_extension in json_data:
                 file_pairs[filename] = set()
                 for pair in json_data[filename_without_extension]:
-                    phweb_description = pair['PhwebDescription']
+                    phweb_description = pair['Component']
                     container_value = pair['ContainerValue']
                     value_pair = (phweb_description, container_value)
 
@@ -29,5 +29,5 @@ def find_duplicates_in_folder(folder_path):
                     else:
                         file_pairs[filename].add(value_pair)
 
-folder_path = './json'
+folder_path = './app/data/json_granular'
 find_duplicates_in_folder(folder_path)
