@@ -9,7 +9,7 @@ def load_json_file(json_path):
     Returns the parsed JSON data if the structure is valid, otherwise returns None.
     """
     try:
-        with open(json_path, 'r') as json_file:
+        with open(json_path, 'r', encoding='utf-8') as json_file:
             data = json.load(json_file)
 
             # Validate structure: Ensure each entry has 'Component' and 'ContainerValue'
@@ -56,7 +56,7 @@ def gather_json_data_to_excel(json_directory, output_excel_file):
                     all_dataframes[sheet_name] = df
 
     # Create a new Excel file and write each DataFrame to a separate sheet
-    with pd.ExcelWriter(output_excel_file, engine='openpyxl') as writer:
+    with pd.ExcelWriter(output_excel_file, engine='openpyxl', mode='w') as writer:
         for sheet_name, dataframe in all_dataframes.items():
             dataframe.to_excel(writer, sheet_name=sheet_name, index=False)
 
