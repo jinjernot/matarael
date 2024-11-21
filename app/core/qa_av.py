@@ -44,9 +44,9 @@ def av_check(file):
     filter_df=lookup_df[lookup_df["BOM_SKU"].isnull()]
 
     #DataFrame que guarda los resultados del filtro
-    final_df=pd.DataFrame(filter_df["SCS_SKU"]).join(pd.DataFrame(filter_df["ComponentGroup"]).join(filter_df["Component_SCS"]))
+    df_s_final=pd.DataFrame(filter_df["SCS_SKU"]).join(pd.DataFrame(filter_df["ComponentGroup"]).join(filter_df["Component_SCS"]))
     #Eliminar registros duplicados del DataFrame resultante
-    final_df=final_df.drop_duplicates()
+    df_s_final=df_s_final.drop_duplicates()
 
 
     #Escribir el DataFrame resultante en un archivo nuevo de excel
@@ -57,6 +57,6 @@ def av_check(file):
         #filter_df.to_excel(writer, index=False, sheet_name='FILTER')
         #final_df.to_excel(writer, index=False, sheet_name='DUPLICATED_LIST')
     
-    return final_df
+    return df_s_final
     #Armar todos los DF para escribirlos al final, es poco eficiente modificar el contenido directamente en excel
     #Evitar guardar el excel (Sólo guardar para control)

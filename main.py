@@ -1,6 +1,6 @@
 from flask import Flask, request, render_template, send_from_directory
 
-from app.core.qa_data import clean_report, clean_report_av, clean_report_granular
+from app.core.qa_data import clean_report, clean_report_av, clean_report_granular, omega_report
 from app.core.json_update import process_json_input, update_json_av
 from app.core.battery_life import battery_life
 from app.core.matrix import matrix_file
@@ -43,7 +43,7 @@ def process_file():
         file = request.files['ph_regular']
         try:
             if allowed_file(file.filename):  # Check if the file has a valid extension
-                clean_report(file)  # Process the file
+                omega_report(file)  # Process the file
                 return send_from_directory('.', filename='scs_qa.xlsx', as_attachment=True)  # Serve file for download
         except Exception as e:
             print(e)
