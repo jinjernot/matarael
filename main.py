@@ -1,8 +1,9 @@
 from flask import Flask, request, render_template, send_from_directory
 
-from app.core.qa_data import clean_report, clean_report_av, clean_report_granular, omega_report
+from app.core.qa_data import clean_report_av, clean_report_granular
 from app.core.json_update import process_json_input, update_json_av
 from app.core.battery_life import battery_life
+from app.core.qa_omega import omega_report
 from app.core.matrix import matrix_file
 
 from app.config.paths import JSON_PATH_AV
