@@ -18,7 +18,7 @@ def excel_to_json_grouped_by_scs_group(file_path):
         df['val'] = df['val'].astype(str).str.strip()
 
         # Base directory to store all JSON files
-        base_output_dir = 'new_OS_KB'
+        base_output_dir = 'nuevos'
 
         # Create the base directory if it doesn't exist
         if not os.path.exists(base_output_dir):
@@ -70,4 +70,4 @@ def excel_to_json_grouped_by_scs_group(file_path):
         print(f"An error occurred: {e}")
 
 # Example usage
-excel_to_json_grouped_by_scs_group('Keyboard_OS (1).xlsx')
+excel_to_json_grouped_by_scs_group('Diccionario 3.xlsx')
