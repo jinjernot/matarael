@@ -2,7 +2,7 @@ import os
 import json
 
 # Define the folder path where the JSON files are located
-folder_path = './app/data/json_granular'
+folder_path = './app/data/new_json'
 
 # Function to clean up the JSON file
 def clean_json_file(file_path):

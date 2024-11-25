@@ -29,5 +29,5 @@ def find_duplicates_in_folder(folder_path):
                     else:
                         file_pairs[filename].add(value_pair)
 
-folder_path = './app/data/json_granular'
+folder_path = './app/data/new_json'
 find_duplicates_in_folder(folder_path)
