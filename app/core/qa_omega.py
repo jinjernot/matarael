@@ -105,8 +105,10 @@ def omega_report(file):
                 df_s.to_excel(writer, sheet_name='qa', index=False)
                 df_g.to_excel(writer, sheet_name='granular', index=False)
                 df_m.to_excel(writer, sheet_name='missing', index=False)
-
+        format_data()
     except Exception as e:
         print(e)
+
+    
 
     return
