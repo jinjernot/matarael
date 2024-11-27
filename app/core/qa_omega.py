@@ -68,18 +68,18 @@ def omega_report(file):
         df_s = df_s.drop(rows_to_delete)
 
         # Process JSON files
-        for x in os.listdir(JSON_PATH_AV):
-            if x.endswith('.json'):
-                container_name = x.split('.')[0]
-                container_df_s = df_s[df_s['ContainerName'] == container_name]
-                process_data_av(os.path.join(JSON_PATH_AV, x), container_name, container_df_s, df_s)
+        #for x in os.listdir(JSON_PATH_AV):
+        #    if x.endswith('.json'):
+        #        container_name = x.split('.')[0]
+        #        container_df_s = df_s[df_s['ContainerName'] == container_name]
+        #        process_data_av(os.path.join(JSON_PATH_AV, x), container_name, container_df_s, df_s)
                        
         # Process JSON files
-        for x in os.listdir(JSON_GRANULAR_PATH):
-            if x.endswith('.json'):
-                container_name = x.split('.')[0]
-                container_df_g = df_g[df_g['Granular Container Tag'] == container_name]
-                process_data_granular(os.path.join(JSON_GRANULAR_PATH, x), container_name, container_df_g, df_g)
+        #for x in os.listdir(JSON_GRANULAR_PATH):
+        #    if x.endswith('.json'):
+        #        container_name = x.split('.')[0]
+        #        container_df_g = df_g[df_g['Granular Container Tag'] == container_name]
+        #        process_data_granular(os.path.join(JSON_GRANULAR_PATH, x), container_name, container_df_g, df_g)
 
         excel_file = pd.ExcelFile(file.stream, engine='openpyxl')
 
@@ -87,9 +87,12 @@ def omega_report(file):
         if "ms4" in excel_file.sheet_names:
             df_s_final = av_check(file)
             
-            # Find missing components
-            missing_components = set(df_s['Component']) - set(df_g['Component'])
-            df_m = df_s[df_s['Component'].isin(missing_components)]
+            # Filter df_s to exclude rows where ComponentGroup is "Operating System"
+            df_s_filtered = df_s[~df_s['ComponentGroup'].isin(['Operating System', 'Environment'])]
+            
+            # Find missing components only in the filtered df_s
+            missing_components = set(df_s_filtered['Component']) - set(df_g['Component'])
+            df_m = df_s_filtered[df_s_filtered['Component'].isin(missing_components)]
             
             with pd.ExcelWriter(SCS_QA_FILE_PATH) as writer:
                 df_s.to_excel(writer, sheet_name='qa', index=False)
@@ -97,15 +100,20 @@ def omega_report(file):
                 df_s_final.to_excel(writer, sheet_name='duplicated', index=False)
                 df_m.to_excel(writer, sheet_name='missing', index=False)
         else:
-            # Find missing components
-            missing_components = set(df_s['Component']) - set(df_g['Component'])
-            df_m = df_s[df_s['Component'].isin(missing_components)]
+            # Filter df_s to exclude rows where ComponentGroup is "Operating System"
+            df_s_filtered = df_s[~df_s['ComponentGroup'].isin(['Operating System', 'Environment'])]
             
+            # Find missing components only in the filtered df_s
+            missing_components = set(df_s_filtered['Component']) - set(df_g['Component'])
+            df_m = df_s_filtered[df_s_filtered['Component'].isin(missing_components)]
+
             with pd.ExcelWriter(SCS_QA_FILE_PATH) as writer:
                 df_s.to_excel(writer, sheet_name='qa', index=False)
                 df_g.to_excel(writer, sheet_name='granular', index=False)
                 df_m.to_excel(writer, sheet_name='missing', index=False)
-        format_data()
+
+                
+        #format_data()
     except Exception as e:
         print(e)
 
