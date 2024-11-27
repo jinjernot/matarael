@@ -88,7 +88,7 @@ def omega_report(file):
             df_s_final = av_check(file)
             
             # Filter df_s to exclude rows where ComponentGroup is "Operating System"
-            df_s_filtered = df_s[~df_s['ComponentGroup'].isin(['Operating System', 'Environment'])]
+            df_s_filtered = df_s[~df_s['ComponentGroup'].isin(['Operating System', 'Environment','Power Supply','Security Software','Optional Port','Special Features'])]
             
             # Find missing components only in the filtered df_s
             missing_components = set(df_s_filtered['Component']) - set(df_g['Component'])
