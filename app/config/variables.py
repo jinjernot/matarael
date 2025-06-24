@@ -7,7 +7,7 @@ COLS_TO_DROP = [
 ]
 
 COLS_TO_DROP_GRANULAR = [
-    'PH Web Value','Createddate','ExtendedDescription','SCSGroup'
+    'PH Web Value','Createddate','ExtendedDescription'
 ]
 
 

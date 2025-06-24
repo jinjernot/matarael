@@ -10,6 +10,7 @@ JSON_GRANULAR_PATH = 'app/data/json_granular/'
 
 #COMPONENT_GROUPS_PATH = '/home/garciagi/SCS_Tool/app/data/component_groups.json'
 COMPONENT_GROUPS_PATH = 'app/data/component_groups.json'
+COMPONENT_GROUPS_GRANULAR_PATH = 'app/data/component_groups_granular.json'
 
 #SCS_QA_FILE_PATH = '/home/garciagi/SCS_Tool/scs_qa.xlsx'
 SCS_QA_FILE_PATH = 'scs_qa.xlsx'

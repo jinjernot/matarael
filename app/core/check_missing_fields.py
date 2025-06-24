@@ -29,7 +29,7 @@ def check_missing_fields(df, json_rules_path):
         
     component_rules = {group['ComponentGroup']: group['ContainerName'] for group in rules['Groups']}
 
-    # Add the new column for the check results
+    # Add the new column for the check results, default to 'OK'
     df['Missing Fields'] = 'OK'
 
     # Group the DataFrame by 'Component' and 'SCSGroup' to check each one
@@ -46,7 +46,7 @@ def check_missing_fields(df, json_rules_path):
         # Find the tags that are required but are not present for this component
         missing_tags = required_tags - present_tags
 
-        # If there are any missing tags, record them in the new column
+        # If there are any missing tags, record them in the new column for all rows of that component
         if missing_tags:
             missing_tags_str = ', '.join(missing_tags)
             df.loc[group_df.index, 'Missing Fields'] = missing_tags_str

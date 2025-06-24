@@ -4,6 +4,11 @@ from app.core.product_line import pl_check
 from app.core.qa_av import av_check
 from app.config.variables import *
 from app.config.paths import *
+# =================================================================
+# CORRECTED IMPORT: This specifically imports the FUNCTION from the module.
+# This is the line that fixes the "'module' object is not callable" error.
+# =================================================================
+from app.core.check_missing_fields import check_missing_fields
 
 import pandas as pd
 import json
@@ -176,9 +181,9 @@ def clean_report_granular(file):
         # Call the pl_check
         #pl_check(df)
 
-        # Filter out the rows where ContainerValue and ContainerName are '[BLANK]'
-        df = df[df['Granular Container Value'] != '[BLANK]']
-        df = df[df['Granular Container Tag'] != '[BLANK]']
+        # This section is commented out to treat '[BLANK]' as a valid value
+        # df = df[df['Granular Container Value'] != '[BLANK]']
+        # df = df[df['Granular Container Tag'] != '[BLANK]']
         
         # Drop rows with NaN values
         df = df.dropna(subset=['Granular Container Value', 'Granular Container Tag'])
@@ -188,31 +193,21 @@ def clean_report_granular(file):
         
         # Removing ';' from end of ContainerValue
         df.loc[df['Granular Container Value'].str.endswith(';'), 'Granular Container Value'] = df['Granular Container Value'].str.slice(stop=-1)
-
-        # Stripping leading whitespaces from PhwebDescription
-        #df['PhwebDescription'] = df['PhwebDescription'].str.lstrip()
         
         # Converting ContainerValue column to string type
         df['Granular Container Value'] = df['Granular Container Value'].astype(str)
 
-        # Load JSON data
-        #with open(COMPONENT_GROUPS_PATH, 'r') as json_file: # Server
-        #with open('app/data/component_groups.json', 'r') as json_file: # Local
-        #    json_data = json.load(json_file)
-        #groups = json_data['Groups']
-        
-        # Filter rows based on criteria from JSON data
-        #filtered_rows = df[df.apply(lambda row: any(row['ComponentGroup'] == group['ComponentGroup'] and row['ContainerName'] in group['ContainerName'] for group in groups), axis=1)]
-        #rows_to_delete = df.index.difference(filtered_rows.index)
-        #df = df.drop(rows_to_delete)
-        
-        # Process JSON files
+        # Process JSON files (YOUR EXISTING QA PROCESS)
         for x in os.listdir(JSON_GRANULAR_PATH):
-            if x.endswith('.json'):
+            if x.endswith('.json') and 'component_groups_granular' not in x:
                 container_name = x.split('.')[0]
                 container_df = df[df['Granular Container Tag'] == container_name]
                 process_data_granular(os.path.join(JSON_GRANULAR_PATH, x), container_name, container_df, df)
     
+        # NEW EXTRA CHECK: This block is added to run the new check for missing fields.
+        granular_rules_path = COMPONENT_GROUPS_GRANULAR_PATH
+        df = check_missing_fields(df, granular_rules_path)
+
         # Check if "ms4" sheet exists
         excel_file = pd.ExcelFile(file.stream, engine='openpyxl')
         if "ms4" in excel_file.sheet_names:
