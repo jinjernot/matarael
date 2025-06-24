@@ -8,3 +8,4 @@ update/
 *.csv
 paths.py
 new_json_backup/
+core/old
