@@ -4,15 +4,44 @@ from app.core.product_line import pl_check
 from app.core.qa_av import av_check
 from app.config.variables import *
 from app.config.paths import *
-# =================================================================
-# CORRECTED IMPORT: This specifically imports the FUNCTION from the module.
-# This is the line that fixes the "'module' object is not callable" error.
-# =================================================================
 from app.core.check_missing_fields import check_missing_fields
 
 import pandas as pd
 import json
 import os
+import asyncio
+
+
+async def process_granular_file_async(json_file, container_name, container_df, df):
+    """
+    Asynchronous wrapper for the process_data_granular function.
+    """
+    try:
+        process_data_granular(json_file, container_name, container_df, df)
+        #print(f"Processed Granular file: {json_file}")
+    except Exception as e:
+        print(f"Error processing Granular file {json_file}: {e}")
+
+async def process_all_granular_files_async(df):
+    """
+    Gathers all tasks for processing granular JSON files and runs them concurrently.
+    """
+    tasks = []
+    for x in os.listdir(JSON_GRANULAR_PATH):
+        if x.endswith('.json') and 'component_groups_granular' not in x:
+            container_name = x.split('.')[0]
+            container_df = df[df['Granular Container Tag'] == container_name]
+            json_file = os.path.join(JSON_GRANULAR_PATH, x)
+            tasks.append(process_granular_file_async(json_file, container_name, container_df, df))
+    await asyncio.gather(*tasks)
+
+def run_asyncio_task(task):
+    try:
+        loop = asyncio.get_event_loop()
+    except RuntimeError:
+        loop = asyncio.new_event_loop()
+        asyncio.set_event_loop(loop)
+    loop.run_until_complete(task)
 
 
 def clean_report(file):
@@ -197,12 +226,7 @@ def clean_report_granular(file):
         # Converting ContainerValue column to string type
         df['Granular Container Value'] = df['Granular Container Value'].astype(str)
 
-        # Process JSON files (YOUR EXISTING QA PROCESS)
-        for x in os.listdir(JSON_GRANULAR_PATH):
-            if x.endswith('.json') and 'component_groups_granular' not in x:
-                container_name = x.split('.')[0]
-                container_df = df[df['Granular Container Tag'] == container_name]
-                process_data_granular(os.path.join(JSON_GRANULAR_PATH, x), container_name, container_df, df)
+        run_asyncio_task(process_all_granular_files_async(df))
     
         # NEW EXTRA CHECK: This block is added to run the new check for missing fields.
         granular_rules_path = COMPONENT_GROUPS_GRANULAR_PATH
