@@ -6,3 +6,5 @@ new_json/
 update/
 *.xlsx
 *.csv
+paths.py
+new_json_backup/

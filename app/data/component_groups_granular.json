@@ -3,68 +3,43 @@
         {
             "ComponentGroup": "Processor",
             "ContainerName": [
-                "processorfamily",
-                "processorname",
-                "processornameftntnbr",
-                "tsfootnote_06",
-                "facet_processortype",
-                "graphicseg_01header",
-                "graphicseg_01card_01",
-                "intgcnote",
-                "tsfootnote_07",
-                "facet_processorgen"
-            ]
-        },
-        {
-            "ComponentGroup": "Operating System",
-            "ContainerName": [
-                "cloudserv",
-                "cloudservftntnbr",
-                "facet_os",
-                "hpapps",
-                "osinstalled",
-                "osinstalledftntnbr",
-                "osinstallednote",
-                "swincluded",
-                "swpreinstalled",
-                "swpreinstalledftntnbr",
-                "swprodfinance",
-                "tsfootnote_01",
-                "tsfootnote_02",
-                "tsfootnote_24"
+                "a_processor_brand",
+                "a_processor_familyshort",
+                "a_processor_freqtech",
+                "a_processor_generation",
+                "a_processor_model",
+                "a_processor_spdmax",
+                "a_processor_spdmaxuom",
+                "a_processor_speed",
+                "a_processor_speeduom",
+                "a_processor_threads"
             ]
         },
         {
             "ComponentGroup": "Graphic card",
             "ContainerName": [
-                "graphicseg_02card_01",
-                "gcnote",
-                "graphiccardftntnbr_02",
-                "tsfootnote_08",
-                "facet_graphics",
-                "graphicseg_02header",
-                "specialfeat"
-            ]
-        },
-        {
-            "ComponentGroup": "Optical Drive",
-            "ContainerName": [
-                "cdromdvd"
-            ]
-        },
-        {
-            "ComponentGroup": "Chipset",
-            "ContainerName": [
-                "chipset"
+                "a_graphics_brand",
+                "a_graphics_family",
+                "a_graphics_memorysize",
+                "a_graphics_memorysizeuom",
+                "a_graphics_memorytype",
+                "a_graphics_modelno"
             ]
         },
         {
             "ComponentGroup": "Memory",
             "ContainerName": [
-                "memstdes_01",
-                "memstosimp",
-                "memstdnote",
-                "facet_memstd"
+                "a_memory_brand",
+                "a_memory_ecc",
+                "a_memory_lighting",
+                "a_memory_moduletype",
+                "a_memory_profiletech",
+                "a_memory_size",
+                "a_memory_sizeuom",
+                "a_memory_slotsno",
+                "a_memory_speed",
+                "a_memory_speeduom",
+                "a_memory_type"
             ]
         },
         {

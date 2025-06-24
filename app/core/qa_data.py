@@ -86,8 +86,8 @@ def clean_report(file):
 def clean_report_av(file):
     try:
         # Read excel file
-        df = pd.read_excel(file.stream, engine='openpyxl', sheet_name='SKU Accuracy')  # Server
-        #df = pd.read_excel(file, engine='openpyxl')  # Local
+        #df = pd.read_excel(file.stream, engine='openpyxl', sheet_name='SKU Accuracy')  # Server
+        df = pd.read_excel(file, engine='openpyxl')  # Local
 
         # Drop a list of columns
         cols_to_drop = COLS_TO_DROP
@@ -138,13 +138,17 @@ def clean_report_av(file):
                 process_data_av(os.path.join(JSON_PATH_AV, x), container_name, container_df, df) # Server 
                 #process_data(os.path.join('json', x), container_name, container_df, df) # Local
                 
-        excel_file = pd.ExcelFile(file.stream, engine='openpyxl')
+        #excel_file = pd.ExcelFile(file.stream, engine='openpyxl')
+        excel_file = pd.ExcelFile(file, engine='openpyxl')
+        
         # Check if "ms4" sheet exists
         if "ms4" in excel_file.sheet_names:
             df_final = av_check(file)
+            print("¡salio de av_check!")
             with pd.ExcelWriter(SCS_QA_FILE_PATH) as writer:
                 df.to_excel(writer, sheet_name='qa', index=False)  # Server
                 df_final.to_excel(writer, sheet_name='duplicated', index=False)  # Server
+                print("grabo?")
         else:
             df.to_excel(SCS_QA_FILE_PATH, index=False)  # Server
     
