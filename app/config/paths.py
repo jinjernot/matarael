@@ -5,8 +5,8 @@ JSON_PATH = '/home/garciagi/SCS_Tool/app/data/json/'
 #JSON_PATH_AV = '/home/garciagi/SCS_Tool/app/data/new_json/'
 JSON_PATH_AV = 'app/data/new_json/'
 
-#JSON_GRANULAR_PATH = '/home/garciagi/SCS_Tool/app/data/json_granular/'
-JSON_GRANULAR_PATH = 'app/data/json_granular/'
+JSON_GRANULAR_PATH = '/home/garciagi/SCS_Tool/app/data/json_granular/'
+#JSON_GRANULAR_PATH = 'app/data/json_granular/'
 
 #COMPONENT_GROUPS_PATH = '/home/garciagi/SCS_Tool/app/data/component_groups.json'
 COMPONENT_GROUPS_PATH = 'app/data/component_groups.json'

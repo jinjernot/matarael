@@ -116,7 +116,7 @@ def process_data_granular(json_path, container_name, container_df_g, df_g):
     unmatched_containers['Accuracy'] = unmatched_error_messages
     
     # Update the 'Accuracy' column of the 'df' DataFrame for unmatched containers.
-    container_df_g.loc[unmatched_containers.index, 'Accuracy']  = unmatched_containers['Accuracy']
+    df_g.loc[unmatched_containers.index, 'Accuracy']  = unmatched_containers['Accuracy']
 
     unmatched_container_values  = []
     for container in unmatched_containers.itertuples(index=False):
